@@ -72,23 +72,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/salfter/portage
-   faf00ab..ec84324  master     -> origin/master
-Updating faf00ab..ec84324
-Fast-forward
- app-emulation/gsport/Manifest                      |  9 ++-
- .../gsport/files/gsport-9999-vars-sdl.patch        | 39 +++++++++++
- app-emulation/gsport/files/gsport-9999-vars.patch  | 19 +++++
- ...sport-0.31-config.patch => gsport-config.patch} |  0
- .../{gsport-0.31-path.patch => gsport-path.patch}  |  0
- app-emulation/gsport/gsport-0.31.ebuild            |  4 +-
- app-emulation/gsport/gsport-9999.ebuild            | 81 ++++++++++++++++++++++
- 7 files changed, 147 insertions(+), 5 deletions(-)
- create mode 100644 app-emulation/gsport/files/gsport-9999-vars-sdl.patch
- create mode 100644 app-emulation/gsport/files/gsport-9999-vars.patch
- rename app-emulation/gsport/files/{gsport-0.31-config.patch => gsport-config.patch} (100%)
- rename app-emulation/gsport/files/{gsport-0.31-path.patch => gsport-path.patch} (100%)
- create mode 100644 app-emulation/gsport/gsport-9999.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/salfter'...
 *** synced '/home/mgorny/repos/salfter'
  * Sync succeeded
@@ -232,91 +216,79 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: perl-gcpan/Math-Round-0.06 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
 !!! ERROR: perl-gcpan/HTML-WikiConverter-0.68 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: perl-gcpan/HTML-CalendarMonthSimple-1.25 failed.
 !!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: perl-gcpan/CSS-1.08 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: perl-gcpan/Math-Round-0.06 failed.
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '156' 'depend'
-!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53 failed.
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+
+!!! ERROR: perl-gcpan/HTML-CalendarMonthSimple-1.25 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '156' 'depend'
 !!!   HTML-WikiConverter-0.68.ebuild, line   5:  Called inherit 'perl-module'
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
+!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
+!!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         Math-Round-0.06.ebuild, line   5:  Called inherit 'perl-module'
 !!!                CSS-1.08.ebuild, line   5:  Called inherit 'perl-module'
-!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!               perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
 !!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
 !!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   HTML-WikiConverter-DokuWiki-0.53.ebuild, line   5:  Called inherit 'perl-module'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     perl-module.eclass, line  40:  Called die
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
@@ -326,14 +298,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/CSS-1.08
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-0.68
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Math-Round-0.06
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-0.68
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/CSS-1.08
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
  * Cache regenerated successfully

@@ -128,7 +128,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/caio', named 'caio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named 'ub0rlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://gitlab.awesome-it.de/overlays/awesome
+   3fabd74..25cf80d  master     -> origin/master
+Updating 3fabd74..25cf80d
+Fast-forward
+ dev-php/PEAR-HTTP_WebDAV_Client/Manifest           |  3 ++-
+ .../PEAR-HTTP_WebDAV_Client-1.0.2.ebuild           |  7 +++++-
+ .../files/fix-propfind-response-parser.patch       | 13 +++++++++++
+ dev-php/composer/Manifest                          |  2 ++
+ dev-php/composer/composer-1.0.0_alpha8.ebuild      | 27 ++++++++++++++++++++++
+ 5 files changed, 50 insertions(+), 2 deletions(-)
+ create mode 100644 dev-php/PEAR-HTTP_WebDAV_Client/files/fix-propfind-response-parser.patch
+ create mode 100644 dev-php/composer/Manifest
+ create mode 100644 dev-php/composer/composer-1.0.0_alpha8.ebuild
 *** syncing '/home/mgorny/repos/awesome'...
 *** synced '/home/mgorny/repos/awesome'
  * Sync succeeded
