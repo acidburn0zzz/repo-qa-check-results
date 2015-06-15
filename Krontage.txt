@@ -31,6 +31,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -112,7 +113,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -180,7 +180,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tarantool', named 'tarantool', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -218,146 +217,146 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
-!!! ERROR: www-servers/nginx-1.2.1 failed.
+!!! ERROR: dev-php/pecl-zookeeper-0.2.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 which: no php in (/usr/local/bin:/usr/bin:/bin)
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 realpath: missing operand
 Try 'realpath --help' for more information.
+
+!!! ERROR: www-servers/nginx-1.2.6-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: www-servers/nginx-1.2.5 failed.
+
+!!! ERROR: www-servers/nginx-1.2.1 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-php/pecl-stem-1.5.1 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!    pecl-zookeeper-0.2.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
 
 !!! ERROR: dev-php/pecl-zookeeper-0.2.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: dev-php/pecl-zookeeper-0.2.2 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: www-servers/nginx-1.2.5 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-php/pecl-stem-1.5.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             nginx-1.2.1.ebuild, line  80:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: www-servers/nginx-1.2.6-r1 failed.
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             nginx-1.2.5.ebuild, line  85:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
-!!!    pecl-zookeeper-0.2.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!    pecl-zookeeper-0.2.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
 !!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!         pecl-stem-1.5.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
-!!!       php-ext-source-r2.eclass, line  62:  Called die
-!!! The die message:
-!!!  USE_PHP is not set for the php-ext-source-r2 eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
 !!!          nginx-1.2.6-r1.ebuild, line 107:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
-!!!       php-ext-source-r2.eclass, line  62:  Called die
-!!! The die message:
-!!!  USE_PHP is not set for the php-ext-source-r2 eclass
-
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
+!!!             nginx-1.2.5.ebuild, line  85:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!         pecl-stem-1.5.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!       php-ext-source-r2.eclass, line  62:  Called die
 !!! The die message:
 !!!  USE_PHP is not set for the php-ext-source-r2 eclass
 
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!             nginx-1.2.1.ebuild, line  80:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.5
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!    pecl-zookeeper-0.2.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
+!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!       php-ext-source-r2.eclass, line  62:  Called die
+!!! The die message:
+!!!  USE_PHP is not set for the php-ext-source-r2 eclass
+
+!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!       php-ext-source-r2.eclass, line  62:  Called die
+!!! The die message:
+!!!  USE_PHP is not set for the php-ext-source-r2 eclass
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-php/pecl-zookeeper-0.2.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php/pecl-zookeeper-0.2.1
+!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.6-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-php/pecl-stem-1.5.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.6-r1
+!!! caught exception False while processing ebuild src: dev-php/pecl-zookeeper-0.2.1
  * Cache regenerated successfully
 $ pkgcheck -r /home/mgorny/repos/Krontage --reporter=FancyReporter --color=yes --profile-disable-dev --profile-disable-deprecated --profile-disable-exp */*
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -393,7 +392,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -461,7 +459,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tarantool', named 'tarantool', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
