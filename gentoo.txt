@@ -32,7 +32,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -94,32 +96,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   eb8211f..3c26593  master     -> origin/master
-Updating eb8211f..3c26593
+   3c26593..303826d  master     -> origin/master
+Updating 3c26593..303826d
 Fast-forward
+ app-emulation/xen-pvgrub/ChangeLog                 |  5 ++++-
+ app-emulation/xen-pvgrub/Manifest                  | 24 ++++++++--------------
+ .../xen-pvgrub/xen-pvgrub-4.5.0-r1.ebuild          |  4 ++--
  metadata/dtd/timestamp.chk                         |  2 +-
  metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/sys-cluster/vzctl-4.9.2         | 13 ++++
- metadata/md5-cache/sys-process/criu-1.4            | 13 ----
- .../md5-cache/sys-process/{criu-1.5.1 => criu-1.6} |  4 +-
+ .../md5-cache/app-emulation/xen-pvgrub-4.5.0-r1    |  4 ++--
  metadata/news/timestamp.chk                        |  2 +-
  metadata/timestamp                                 |  2 +-
  metadata/timestamp.chk                             |  2 +-
  metadata/timestamp.x                               |  2 +-
- sys-cluster/vzctl/ChangeLog                        |  7 +-
- sys-cluster/vzctl/Manifest                         | 16 ++--
- sys-cluster/vzctl/vzctl-4.9.2.ebuild               | 86 ++++++++++++++++++++++
- sys-process/criu/ChangeLog                         |  8 +-
- sys-process/criu/Manifest                          | 36 +++++----
- sys-process/criu/criu-1.4.ebuild                   | 47 ------------
- .../criu/{criu-1.5.1.ebuild => criu-1.6.ebuild}    |  5 +-
- 16 files changed, 149 insertions(+), 98 deletions(-)
- create mode 100644 metadata/md5-cache/sys-cluster/vzctl-4.9.2
- delete mode 100644 metadata/md5-cache/sys-process/criu-1.4
- rename metadata/md5-cache/sys-process/{criu-1.5.1 => criu-1.6} (86%)
- create mode 100644 sys-cluster/vzctl/vzctl-4.9.2.ebuild
- delete mode 100644 sys-process/criu/criu-1.4.ebuild
- rename sys-process/criu/{criu-1.5.1.ebuild => criu-1.6.ebuild} (87%)
+ 10 files changed, 22 insertions(+), 27 deletions(-)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

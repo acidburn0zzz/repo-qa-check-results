@@ -31,7 +31,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -216,200 +218,325 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
-!!! ERROR: app-emulation/vmware-esx-tools-3.5.0.143128-r2 failed.
+!!! ERROR: app-emulation/vmware-esx-tools-3.5.0.143128 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: app-emulation/vmware-esx-tools-3.5.0.163429 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: app-emulation/vmware-esx-tools-3.5.0.153875 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '279' 'depend'
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 
 !!! ERROR: app-emulation/vmware-esx-tools-3.5.0.158874 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: app-emulation/vmware-esx-tools-3.5.0.143128 failed.
-!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '270' 'depend'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '270' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   vmware-esx-tools-3.5.0.143128-r2.ebuild, line   5:  Called inherit 'eutils' 'vmware'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
+
+!!! ERROR: app-emulation/vmware-esx-tools-3.5.0.143128-r2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '270' 'depend'
-!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
-!!!                         ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vmware failed
-
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
-!!!   vmware-esx-tools-3.5.0.163429.ebuild, line   5:  Called inherit 'eutils' 'vmware'
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '270' 'depend'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
+!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '270' 'depend'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!           catalyst-9999.ebuild, line  11:  Called inherit 'git' 'eutils' 'multilib'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '279' 'depend'
+!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 
-!!! ERROR: net-wireless/blueman-1.21-r1 failed.
+!!! ERROR: net-dialup/sendpage-1.1.1-r1 failed.
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
+
+!!! ERROR: mail-client/mail-notification-5.4-r2 failed.
 
 !!! ERROR: gnome-extra/gnome-vfs-obexftp-0.4-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
-
-!!! ERROR: gnome-extra/nm-applet-0.8.0_pre20100101-r1 failed.
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
-!!!   vmware-esx-tools-3.5.0.158874.ebuild, line   5:  Called inherit 'eutils' 'vmware'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
-
-!!! ERROR: mail-client/mail-notification-5.4-r2 failed.
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vmware failed
-
-!!!                      ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vmware failed
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-util/catalyst/catalyst-9999.ebuild'
-
-!!! ERROR: cacti-plugins/aggregate-0.74-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: cacti-plugins/boost-3.0 failed.
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!           catalyst-9999.ebuild, line  11:  Called inherit 'git' 'eutils' 'multilib'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!   vmware-esx-tools-3.5.0.153875.ebuild, line   5:  Called inherit 'eutils' 'vmware'
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
-
-!!! ERROR: app-misc/livecd-tools-1.0.41 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
+!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
-!!!                      ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vmware failed
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
 
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: cacti-plugins/boost-2.4-r4 failed.
+!!! ERROR: cacti-plugins/mobile-0.1-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '265' 'depend'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-wireless/blueman/blueman-1.21-r1.ebuild'
 !!!   vmware-esx-tools-3.5.0.143128.ebuild, line   5:  Called inherit 'eutils' 'vmware'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-wireless/blueman/blueman-1.21-r1.ebuild'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/aggregate/aggregate-0.74-r1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/aggregate/aggregate-0.74-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-wireless/blueman/blueman-1.21-r1.ebuild'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
-!!!         blueman-1.21-r1.ebuild, line   7:  Called inherit 'multilib' 'python'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.153875.ebuild'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
+!!!   vmware-esx-tools-3.5.0.153875.ebuild, line   5:  Called inherit 'eutils' 'vmware'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
+
+!!! ERROR: gnome-extra/nm-applet-0.8.0_pre20100101-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
 !!!                      ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vmware failed
 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-3.0.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.158874.ebuild'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.163429.ebuild'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                      ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vmware failed
 
-!!! ERROR: cacti-plugins/discovery-0.9-r2 failed.
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/aggregate/aggregate-0.74-r1.ebuild'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-3.0.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-misc/livecd-tools/livecd-tools-1.0.41.ebuild'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-3.0.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-2.4-r4.ebuild'
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+
+!!! ERROR: snmp-mibs/jvm-management-1.32 failed.
+
+!!! ERROR: cacti-plugins/reportit-0.7.1-r1 failed.
+!!!   vmware-esx-tools-3.5.0.163429.ebuild, line   5:  Called inherit 'eutils' 'vmware'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!   gnome-vfs-obexftp-0.4-r1.ebuild, line   7:  Called inherit 'gnome2'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'multilib'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
+!!!                      ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vmware failed
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-php/rrdtool-php-20051203 failed.
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   vmware-esx-tools-3.5.0.158874.ebuild, line   5:  Called inherit 'eutils' 'vmware'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-emulation/vmware-esx-tools/vmware-esx-tools-3.5.0.143128-r2.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
+!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '265' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
+
+!!! ERROR: dev-php5/pecl-memcache-2.0.4 failed.
+ * 
+ * "/home/mgorny/repos/wolf31o2/dev-python/cmemcache/cmemcache-0.91.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
+!!!     jvm-management-1.32.ebuild, line   7:  Called inherit 'fixheadtails' 'flag-o-matic' 'perl-module' 'python' 'autotools'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
+!!!   vmware-esx-tools-3.5.0.143128-r2.ebuild, line   5:  Called inherit 'eutils' 'vmware'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fixheadtails'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 182' for eclass multilib
+!!!  unknown inherit command from pythonic side, 'gen_metadata 215' for eclass fixheadtails
 
-received unknown com: export CATEGORY='cacti-plugins' PR=r1 PVR='0.1-r1' PV='0.1' EBUILD='/home/mgorny/repos/wolf31o2/cacti-plugins/mobile/mobile-0.1-r1.ebuild' P='mobile-0.1' PF='mobile-0.1-r1' PN=mobilepath
+received unknown com: export CATEGORY='dev-php5' PR=r0 PVR='1.0.2' PV='1.0.2' EBUILD='/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.2.ebuild' P='pecl-memcached-1.0.2' PF='pecl-memcached-1.0.2' PN='pecl-memcached'path
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
 
-!!! ERROR: net-dialup/sendpage-1.1.1-r1 failed.
+!!!                      ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!   mail-notification-5.4-r2.ebuild, line   7:  Called inherit 'gnome2' 'multilib' 'flag-o-matic' 'toolchain-funcs'
+!!!  inherit for vmware failed
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-php5/pecl-memcache-3.0.2 failed.
+
+!!! ERROR: dev-php5/pecl-memcache-2.2.4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
+
+!!! ERROR: snmp-mibs/mysql-server-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/reportit/reportit-0.7.1-r1.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/reportit/reportit-0.7.1-r1.ebuild'
+
+!!! ERROR: dev-php5/adodb-ext-504 failed.
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/gnome-extra/gnome-vfs-obexftp/gnome-vfs-obexftp-0.4-r1.ebuild'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
+!!!       sendpage-1.1.1-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vmware'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php/rrdtool-php/rrdtool-php-20051203.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/mobile/mobile-0.1-r1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   gnome-vfs-obexftp-0.4-r1.ebuild, line   7:  Called inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/reportit/reportit-0.7.1-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/gnome-extra/nm-applet/nm-applet-0.8.0_pre20100101-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/mobile/mobile-0.1-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                         ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vmware failed
+
+!!!   nm-applet-0.8.0_pre20100101-r1.ebuild, line   6:  Called inherit 'gnome2' 'eutils' 'versionator' 'autotools'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/mobile/mobile-0.1-r1.ebuild'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+
+!!! ERROR: dev-php5/pecl-http-1.6.6 failed.
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!           mobile-0.1-r1.ebuild, line   9:  Called inherit 'eutils' 'cacti-plugins'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
+
+!!! ERROR: dev-php5/pecl-memcache-3.0.4 failed.
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php/rrdtool-php/rrdtool-php-20051203.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 215' for eclass eutils
+
+received unknown com: export CATEGORY='dev-php5' PR=r0 PVR='1.0.1' PV='1.0.1' EBUILD='/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.1.ebuild' P='pecl-memcached-1.0.1' PF='pecl-memcached-1.0.1' PN='pecl-memcached'path
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php/rrdtool-php/rrdtool-php-20051203.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
+!!!       reportit-0.7.1-r1.ebuild, line   7:  Called inherit 'eutils' 'cacti-plugins'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!    rrdtool-php-20051203.ebuild, line  11:  Called inherit 'php-ext-source-r1' 'eutils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.2.ebuild'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 185' for eclass eutils
+
+received unknown com: export CATEGORY='dev-php5' PR=r0 PVR='1.0.3' PV='1.0.3' EBUILD='/home/mgorny/repos/wolf31o2/dev-php5/pecl-pam/pecl-pam-1.0.3.ebuild' P='pecl-pam-1.0.3' PF='pecl-pam-1.0.3' PN='pecl-pam'path
 Exception in thread Thread-6:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -434,43 +561,18 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   nm-applet-0.8.0_pre20100101-r1.ebuild, line   6:  Called inherit 'gnome2' 'eutils' 'versionator' 'autotools'
-
-!!! ERROR: snmp-mibs/jvm-management-1.32 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-2.4-r4.ebuild'
-!!!               boost-3.0.ebuild, line   9:  Called inherit 'eutils' 'cacti-plugins'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-misc/livecd-tools/livecd-tools-1.0.41.ebuild'
-
-!!! ERROR: dev-php5/adodb-ext-504 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
-!!!       aggregate-0.74-r1.ebuild, line   9:  Called inherit 'eutils' 'cacti-plugins'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-
-!!! ERROR: dev-php5/pecl-memcache-2.0.4 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/mail-client/mail-notification/mail-notification-5.4-r2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   mail-notification-5.4-r2.ebuild, line   7:  Called inherit 'gnome2' 'multilib' 'flag-o-matic' 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r1'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 202' for eclass eutils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 187' for eclass php-ext-source-r1
 
-received unknown com: export CATEGORY='cacti-plugins' PR=r1 PVR='0.7.1-r1' PV='0.7.1' EBUILD='/home/mgorny/repos/wolf31o2/cacti-plugins/reportit/reportit-0.7.1-r1.ebuild' P='reportit-0.7.1' PF='reportit-0.7.1-r1' PN=reportitpath
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/boost/boost-2.4-r4.ebuild'
-Exception in thread Thread-11:
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+received unknown com: export CATEGORY='dev-python' PR=r0 PVR='0.95' PV='0.95' EBUILD='/home/mgorny/repos/wolf31o2/dev-python/cmemcache/cmemcache-0.95.ebuild' P='cmemcache-0.95' PF='cmemcache-0.95' PN=cmemcachefailed
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.2.ebuild'
+Exception in thread Thread-13:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
     self.run()
@@ -494,13 +596,231 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-mibs/mysql-server/mysql-server-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.2.ebuild'
+
+!!! ERROR: perl-modules/Class-Gomor-1.01-r1 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                           gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-mibs/mysql-server/mysql-server-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-util/catalyst-9999
+!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.143128
+!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.163429
+!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.158874
+!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.153875
+!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.143128-r2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: cacti-plugins/mobile-0.1-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: snmp-mibs/jvm-management-1.32
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: cacti-plugins/reportit-0.7.1-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php/rrdtool-php-20051203
+!!! caught exception inherit requires an unknown eclass, php-ext-source-r1 cannot be found while processing ebuild src: dev-python/cmemcache-0.95
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcache-2.0.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php5/pecl-memcached-1.0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: snmp-mibs/mysql-server-9999
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcache-3.0.2
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcache-2.2.4
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: perl-modules/DBD-Oracle-1.22
+!!! caught exception inherit requires an unknown eclass, php-ext-source-r1 cannot be found while processing ebuild src: dev-php5/adodb-ext-504
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php5/pecl-http-1.6.6
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: perl-modules/Log-Dispatch-FileRotate-1.19-r1
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcache-3.0.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php5/pecl-memcached-1.0.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-dialup/sendpage-1.1.1-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php5/pecl-pam-1.0.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/python-memcached-1.44
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: mail-client/mail-notification-5.4-r2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/gnome-vfs-obexftp-0.4-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/nm-applet-0.8.0_pre20100!!!     pecl-memcache-2.0.4.ebuild, line   9:  Called inherit 'php-ext-pecl-r1'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-mibs/mysql-server/mysql-server-9999.ebuild'
+!!!     pecl-memcache-3.0.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
+!!!       mysql-server-9999.ebuild, line  13:  Called inherit 'git' 'eutils' 'multilib'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+
+!!! ERROR: perl-modules/Net-IPv6Addr-0.2-r1 failed.
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 209' for eclass eutils
+!!!  unknown inherit command from pythonic side, 'gen_metadata 198' for eclass git
 
-received unknown com: export CATEGORY='dev-php' PR=r0 PVR=20051203 PV=20051203 EBUILD='/home/mgorny/repos/wolf31o2/dev-php/rrdtool-php/rrdtool-php-20051203.ebuild' P='rrdtool-php-20051203' PF='rrdtool-php-20051203' PN='rrdtool-php'path
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-misc/livecd-tools/livecd-tools-1.0.41.ebuild'
+received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='1.22' PV='1.22' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/DBD-Oracle/DBD-Oracle-1.22.ebuild' P='DBD-Oracle-1.22' PF='DBD-Oracle-1.22' PN='DBD-Oracle'failed
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: perl-modules/Net-IPv4Addr-0.10 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for php-ext-pecl-r1 failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for php-ext-pecl-r1 failed
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: perl-modules/DBIx-SQLite-Simple-0.34-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
+!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.2.4.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-http/pecl-http-1.6.6.ebuild'
+
+!!! ERROR: perl-modules/CGI-Apache2-Wrapper-0.215-r1 failed.
+
+!!! ERROR: perl-modules/Net-IPv6Addr-0.2 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: perl-modules/Math-Round-0.06-r1 failed.
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.2.4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.2.4.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!     pecl-memcache-3.0.4.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
+!!!     pecl-memcache-2.2.4.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1' 'depend.php'
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '257' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Class-Gomor/Class-Gomor-1.01-r1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-http/pecl-http-1.6.6.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
+!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for php-ext-pecl-r1 failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Class-Gomor/Class-Gomor-1.01-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-http/pecl-http-1.6.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: perl-modules/DBIx-SQLite-Simple-0.34 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for php-ext-pecl-r1 failed
+
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         pecl-http-1.6.6.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Class-Gomor/Class-Gomor-1.01-r1.ebuild'
+!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: perl-modules/Math-Base85-0.2-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '247' 'depend'
+!!!     Class-Gomor-1.01-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
+!!!           adodb-ext-504.ebuild, line   9:  Called inherit 'php-ext-source-r1'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/CGI-Apache2-Wrapper/CGI-Apache2-Wrapper-0.215-r1.ebuild'
+!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
+!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 272' for eclass php-ext-pecl-r1
+
+received unknown com: export CATEGORY='perl-modules' PR=r1 PVR='1.19-r1' PV='1.19' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Log-Dispatch-FileRotate/Log-Dispatch-FileRotate-1.19-r1.ebuild' P='Log-Dispatch-FileRotate-1.19' PF='Log-Dispatch-FileRotate-1.19-r1' PN='Log-Dispatch-FileRotate'failed
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r1'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 Exception in thread Thread-16:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -526,906 +846,70 @@ Traceback (most recent call last):
 RuntimeError: [Errno 32] Broken pipe
 
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!     livecd-tools-1.0.41.ebuild, line   5:  Called inherit 'eutils'
+!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '238' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Math-Round/Math-Round-0.06-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
-!!!            boost-2.4-r4.ebuild, line   9:  Called inherit 'eutils' 'cacti-plugins'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 198' for eclass eutils
-
-received unknown com: export CATEGORY='snmp-mibs' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/wolf31o2/snmp-mibs/mysql-server/mysql-server-9999.ebuild' P='mysql-server-9999' PF='mysql-server-9999' PN='mysql-server'path
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-Exception in thread Thread-2:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/cacti-plugins/discovery/discovery-0.9-r2.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 173' for eclass eutils
-
-received unknown com: export CATEGORY='sys-apps' PR=r0 PVR='0.1.6' PV='0.1.6' EBUILD='/home/mgorny/repos/wolf31o2/sys-apps/halevt/halevt-0.1.6.ebuild' P='halevt-0.1.6' PF='halevt-0.1.6' PN=halevtpath
-Exception in thread Thread-9:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
-
-!!! ERROR: dev-php5/pecl-memcached-1.0.2 failed.
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/cacti-plugins/discovery/discovery-0.9-r2.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                           gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/cacti-plugins/discovery/discovery-0.9-r2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-
-!!! ERROR: dev-python/python-memcached-1.44 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-dialup/sendpage/sendpage-1.1.1-r1.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        discovery-0.9-r2.ebuild, line  11:  Called inherit 'eutils' 'cacti-plugins'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!       sendpage-1.1.1-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 190' for eclass eutils
-
-received unknown com: export CATEGORY='dev-php5' PR=r0 PVR='1.6.6' PV='1.6.6' EBUILD='/home/mgorny/repos/wolf31o2/dev-php5/pecl-http/pecl-http-1.6.6.ebuild' P='pecl-http-1.6.6' PF='pecl-http-1.6.6' PN='pecl-http'path
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-util/catalyst-9999
-!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.143128-r2
-!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.163429
-!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.153875
-!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.158874
-!!! caught exception inherit requires an unknown eclass, vmware cannot be found while processing ebuild src: app-emulation/vmware-esx-tools-3.5.0.143128
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-wireless/blueman-1.21-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/boost-3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/aggregate-0.74-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/livecd-tools-1.0.41
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/boost-2.4-r4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/discovery-0.9-r2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/mobile-0.1-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-php5/pecl-memcache-2.2.4
-!!! caught exception inherit requires an unknown eclass, php-ext-source-r1 cannot be found while processing ebuild src: dev-php5/adodb-ext-504
-!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcache-2.0.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: cacti-plugins/reportit-0.7.1-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-php5/pecl-pam-1.0.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php/rrdtool-php-20051203
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gnome-vfs-obexftp-0.4-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: snmp-mibs/mysql-server-9999
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/CGI-Apache2-Wrapper-0.215-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-apps/halevt-0.1.6
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/DBD-Oracle-1.21
-!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-memcached-1.0.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/nm-applet-0.8.0_pre20100101-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: mail-client/mail-notification-5.4-r2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php5/pecl-http-1.6.6
-!!! caught exception ("Expected command; instead gException in thread Thread-4:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
- * 
- * "/home/mgorny/repos/wolf31o2/dev-python/pygoogle/pygoogle-0.5.3.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-2.0.4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/adodb-ext/adodb-ext-504.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '224' 'depend'
-!!!           adodb-ext-504.ebuild, line   9:  Called inherit 'php-ext-source-r1'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-
-!!! ERROR: perl-modules/Date-Manip-5.54-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
- * 
- * "/home/mgorny/repos/wolf31o2/dev-python/sqlitecachec/sqlitecachec-1.1.4.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!     pecl-memcache-2.0.4.ebuild, line   9:  Called inherit 'php-ext-pecl-r1'
-
-!!! ERROR: perl-modules/DBIx-SQLite-Simple-0.34 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for php-ext-pecl-r1 failed
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
-!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: dev-php5/pecl-memcached-1.0.1 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r1'
+!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-ext-source-r1 failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-mibs/jvm-management/jvm-management-1.32.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-python/python-memcached/python-memcached-1.44.ebuild'
-!!!     jvm-management-1.32.ebuild, line   7:  Called inherit 'fixheadtails' 'flag-o-matic' 'perl-module' 'python' 'autotools'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-
-!!! ERROR: dev-php5/pecl-memcache-3.0.4 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-python/python-memcached/python-memcached-1.44.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-python/python-memcached/python-memcached-1.44.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   python-memcached-1.44.ebuild, line   8:  Called inherit 'distutils'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54-r1.ebuild'
-!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-
-!!! ERROR: perl-modules/Net-IPv4Addr-0.10 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcache/pecl-memcache-3.0.4.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.2.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
-!!!     pecl-memcache-3.0.4.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!    pecl-memcached-1.0.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
-!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '238' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
-
-!!! ERROR: perl-modules/Math-Base85-0.2-r1 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 198' for eclass php-ext-pecl-r1
-
-received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='0.06' PV='0.06' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Math-Round/Math-Round-0.06.ebuild' P='Math-Round-0.06' PF='Math-Round-0.06' PN='Math-Round'failed
-Exception in thread Thread-14:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for php-ext-pecl-r1 failed
-
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.1.ebuild'
-
-!!! ERROR: perl-modules/DBIx-SQLite-Simple-0.34-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!      Date-Manip-5.54-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-php5/pecl-memcached/pecl-memcached-1.0.1.ebuild'
-
-!!! ERROR: perl-modules/Net-IPv6Addr-0.2-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!    pecl-memcached-1.0.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r1' 'php-ext-base-r1'
-!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
-
-!!! ERROR: perl-modules/Net-Libdnet6-0.23 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
-!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 263' for eclass php-ext-pecl-r1
-
-received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='1.19' PV='1.19' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Log-Dispatch-FileRotate/Log-Dispatch-FileRotate-1.19.ebuild' P='Log-Dispatch-FileRotate-1.19' PF='Log-Dispatch-FileRotate-1.19' PN='Log-Dispatch-FileRotate'failed
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '247' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-Exception in thread Thread-7:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   DBIx-SQLite-Simple-0.34.ebuild, line   5:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
-!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
 !!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34-r1.ebuild'
-!!!       Net-IPv4Addr-0.10.ebuild, line   5:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
-
-!!! ERROR: perl-modules/Math-Base85-0.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34-r1.ebuild'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34-r1.ebuild'
-
-!!! ERROR: perl-modules/Net-Packet-Target-1.01-r1 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
-!!!   DBIx-SQLite-Simple-0.34-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/CGI-Apache2-Wrapper/CGI-Apache2-Wrapper-0.215-r1.ebuild'
+!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2-r1.ebuild'
-!!!                   ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 203' for eclass perl-module
 
-!!!               perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='0.91' PV='0.91' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-Libdnet/Net-Libdnet-0.91.ebuild' P='Net-Libdnet-0.91' PF='Net-Libdnet-0.91' PN='Net-Libdnet'path
-!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-Exception in thread Thread-13:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! ERROR: perl-modules/Date-Manip-5.54 failed.
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Math-Round/Math-Round-0.06-r1.ebuild'
+!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
 !!!     Net-IPv6Addr-0.2-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Math-Round/Math-Round-0.06-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/CGI-Apache2-Wrapper/CGI-Apache2-Wrapper-0.215-r1.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv6Addr/Net-IPv6Addr-0.2.ebuild'
+!!!      Math-Round-0.06-r1.ebuild, line   2:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-IPv4Addr/Net-IPv4Addr-0.10.ebuild'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34-r1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!        Net-IPv6Addr-0.2.ebuild, line   5:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
+!!!       Net-IPv4Addr-0.10.ebuild, line   5:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2-r1.ebuild'
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34-r1.ebuild'
+!!!   CGI-Apache2-Wrapper-0.215-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
 !!!      Math-Base85-0.2-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/DBIx-SQLite-Simple/DBIx-SQLite-Simple-0.34.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '242' 'depend'
-!!!             perl-module.eclass, line  40:  Called die
+!!!                     ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
+!!!  unknown inherit command from pythonic side, 'gen_metadata 242' for eclass perl-module
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet-Target/Net-Packet-Target-1.01-r1.ebuild'
-
-!!! ERROR: perl-modules/Net-SinFP-2.06 failed.
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Libdnet6/Net-Libdnet6-0.23.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Libdnet6/Net-Libdnet6-0.23.ebuild'
-
-!!! ERROR: perl-modules/Net-Packet-3.26 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Libdnet6/Net-Libdnet6-0.23.ebuild'
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet-Target/Net-Packet-Target-1.01-r1.ebuild'
-!!!       Net-Libdnet6-0.23.ebuild, line   8:  Called inherit 'perl-module'
-
-!!! ERROR: perl-modules/Net-Write-1.04-r1 failed.
-
-!!! ERROR: perl-modules/Net-Write-1.04 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet-Target/Net-Packet-Target-1.01-r1.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   Net-Packet-Target-1.01-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Math-Base85/Math-Base85-0.2.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         Math-Base85-0.2.ebuild, line   5:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-SinFP/Net-SinFP-2.06.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-SinFP/Net-SinFP-2.06.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                 perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04.ebuild'
-
-!!! ERROR: dev-db/maatkit-4623 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-SinFP/Net-SinFP-2.06.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet/Net-Packet-3.26.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!          Net-SinFP-2.06.ebuild, line   5:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet/Net-Packet-3.26.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet/Net-Packet-3.26.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!          Net-Write-1.04.ebuild, line   5:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         Net-Packet-3.26.ebuild, line   5:  Called inherit 'perl-module'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: app-office/planner-0.14.3-r2 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!       Net-Write-1.04-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
-
-!!! ERROR: app-office/planner-0.14.3-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!            maatkit-4623.ebuild, line   7:  Called inherit 'perl-app' 'toolchain-funcs'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
-
-!!! ERROR: app-office/planner-0.14.4 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-
-!!! ERROR: snmp-agents/mysql-snmp-9999 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r1.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: snmp-agents/bind9-snmp-1.7 failed.
-
-!!! ERROR: net-misc/tsclient-2.0.1-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!       planner-0.14.3-r1.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.4.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '192' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.4.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.4.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '192' 'depend'
-!!!          planner-0.14.4.ebuild, line   7:  Called inherit 'eutils' 'gnome2'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!          bind9-snmp-1.7.ebuild, line   5:  Called inherit 'perl-module' 'eutils'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-misc/tsclient/tsclient-2.0.1-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-ot nothing from ''", None) while processing ebuild src: perl-modules/Date-Manip-5.54
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php5/pecl-memcached-1.0.1
-!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: perl-modules/Log-Dispatch-FileRotate-1.19
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php5/pecl-memcache-3.0.4
-!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: perl-modules/Math-Round-0.06
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-dialup/sendpage-1.1.1-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: snmp-mibs/jvm-management-1.32
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-IPv4Addr-0.10-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/Net-IPv6Addr-0.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/DBIx-SQLite-Simple-0.34-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/python-memcached-1.44
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Date-Manip-5.54-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Math-Round-0.06-r1
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/Net-Packet-Target-1.01
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/DBIx-SQLite-Simple-0.34
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Libdnet-0.91
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-IPv4Addr-0.10
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-IPv6Addr-0.2-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Math-Base85-0.2-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Libdnet6-0.23
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Math-Base85-0.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Packet-Target-1.01-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-SinFP-2.06
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Write-1.04
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Write-1.04-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-modules/Net-Packet-3.26
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: snmp-agents/mysql-snmp-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/maatkit-4623
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while proces!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-misc/tsclient/tsclient-2.0.1-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-misc/tsclient/tsclient-2.0.1-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/app-office/planner/planner-0.14.3-r2.ebuild'
-!!!       tsclient-2.0.1-r1.ebuild, line   7:  Called inherit 'eutils' 'autotools' 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!       planner-0.14.3-r2.ebuild, line   7:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!         mysql-snmp-9999.ebuild, line  13:  Called inherit 'git' 'eutils' 'multilib'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-
-!!! ERROR: snmp-agents/ramon-9999 failed.
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: sys-kernel/genkernel-9999 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
-
-!!! ERROR: net-analyzer/net-snmp-5.4.2.1-r2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-agents/ramon/ramon-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-agents/ramon/ramon-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-agents/ramon/ramon-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ramon-9999.ebuild, line  13:  Called inherit 'git' 'eutils' 'multilib'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/sys-kernel/genkernel/genkernel-9999.ebuild'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 192' for eclass git
-
-received unknown com: export CATEGORY='net-analyzer' PR=r1 PVR='5.5-r1' PV='5.5' EBUILD='/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.5-r1.ebuild' P='net-snmp-5.5' PF='net-snmp-5.5-r1' PN='net-snmp'failed
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/sys-kernel/genkernel/genkernel-9999.ebuild'
-Exception in thread Thread-8:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
-!!!     net-snmp-5.4.2.1-r2.ebuild, line   7:  Called inherit 'fixheadtails' 'flag-o-matic' 'perl-module' 'python' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/sys-kernel/genkernel/genkernel-9999.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported by perl-module.eclass
-
-!!!          genkernel-9999.ebuild, line  33:  Called inherit 'git' 'bash-completion' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-
-!!! ERROR: sys-kernel/wolf-sources-2.6.33-r2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/sys-kernel/wolf-sources/wolf-sources-2.6.33-r2.ebuild'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/sys-kernel/wolf-sources/wolf-sources-2.6.33-r2.ebuild'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/sys-kernel/wolf-sources/wolf-sources-2.6.33-r2.ebuild'
-!!!   wolf-sources-2.6.33-r2.ebuild, line  10:  Called inherit 'kernel-2'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
-!!!               ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 231' for eclass kernel-2
-
-received unknown com: export CATEGORY='sys-cluster' PR=r0 PVR='3.3.0' PV='3.3.0' EBUILD='/home/mgorny/repos/wolf31o2/sys-cluster/apache-zookeeper/apache-zookeeper-3.3.0.ebuild' P='apache-zookeeper-3.3.0' PF='apache-zookeeper-3.3.0' PN='apache-zookeeper'path
+received unknown com: export CATEGORY='perl-modules' PR=r1 PVR='1.01-r1' PV='1.01' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet-Target/Net-Packet-Target-1.01-r1.ebuild' P='Net-Packet-Target-1.01' PF='Net-Packet-Target-1.01-r1' PN='Net-Packet-Target'path
 Exception in thread Thread-10:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -1450,29 +934,323 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-sing ebuild src: app-office/planner-0.14.3-r1
+!!!   DBIx-SQLite-Simple-0.34-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   DBIx-SQLite-Simple-0.34.ebuild, line   5:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 233' for eclass perl-module
+
+received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='1.01' PV='1.01' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet-Target/Net-Packet-Target-1.01.ebuild' P='Net-Packet-Target-1.01' PF='Net-Packet-Target-1.01' PN='Net-Packet-Target'path
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 207' for eclass perl-module
+
+Exception in thread Thread-14:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+received unknown com: export CATEGORY='perl-modules' PR=r1 PVR='3.26-r1' PV='3.26' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-Packet/Net-Packet-3.26-r1.ebuild' P='Net-Packet-3.26' PF='Net-Packet-3.26-r1' PN='Net-Packet'path
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                   ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 208' for eclass perl-module
+
+received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='0.23' PV='0.23' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-Libdnet6/Net-Libdnet6-0.23.ebuild' P='Net-Libdnet6-0.23' PF='Net-Libdnet6-0.23' PN='Net-Libdnet6'path
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+
+!!! ERROR: snmp-agents/mysql-snmp-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-db/maatkit-4623 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: perl-modules/Net-Write-1.04-r1 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '192' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54.ebuild'
+
+!!! ERROR: snmp-agents/bind9-snmp-1.7 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Date-Manip/Date-Manip-5.54.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         Date-Manip-5.54.ebuild, line   5:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 193' for eclass perl-module
+
+received unknown com: export CATEGORY='perl-modules' PR=r0 PVR='2.06' PV='2.06' EBUILD='/home/mgorny/repos/wolf31o2/perl-modules/Net-SinFP/Net-SinFP-2.06.ebuild' P='Net-SinFP-2.06' PF='Net-SinFP-2.06' PN='Net-SinFP'path
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-agents/mysql-snmp/mysql-snmp-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         mysql-snmp-9999.ebuild, line  13:  Called inherit 'git' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/dev-db/maatkit/maatkit-4623.ebuild'
+
+!!! ERROR: net-analyzer/net-snmp-5.4.2.1-r2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: net-analyzer/net-snmp-5.5-r1 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/snmp-agents/bind9-snmp/bind9-snmp-1.7.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!            maatkit-4623.ebuild, line   7:  Called inherit 'perl-app' 'toolchain-funcs'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!          bind9-snmp-1.7.ebuild, line   5:  Called inherit 'perl-module' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/perl-modules/Net-Write/Net-Write-1.04-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '192' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       Net-Write-1.04-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.5-r1.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.5-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.4.2.1-r2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wolf31o2/net-analyzer/net-snmp/net-snmp-5.5-r1.ebuild'
+!!!     net-snmp-5.4.2.1-r2.ebuild, line   7:  Called inherit 'fixheadtails' 'flag-o-matic' 'perl-module' 'python' 'autotools'
+!!!         net-snmp-5.5-r1.ebuild, line   7:  Called inherit 'fixheadtails' 'flag-o-matic' 'perl-module' 'python' 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'fixheadtails'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 223' for eclass fixheadtails
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+received unknown com: export CATEGORY='sys-kernel' PR=r2 PVR='2.6.33-r2' PV='2.6.33' EBUILD='/home/mgorny/repos/wolf31o2/sys-kernel/wolf-sources/wolf-sources-2.6.33-r2.ebuild' P='wolf-sources-2.6.33' PF='wolf-sources-2.6.33-r2' PN='wolf-sources'path
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+101-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: snmp-agents/bind9-snmp-1.7
+!!! caught exception False while processing ebuild src: perl-modules/Date-Manip-5.54-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/Net-Libdnet-0.91-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-office/planner-0.14.4
+!!! caught exception False while processing ebuild src: perl-modules/DBIx-SQLite-Simple-0.34-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: snmp-agents/ramon-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-analyzer/net-snmp-5.5-r1
+!!! caught exception False while processing ebuild src: perl-modules/CGI-Apache2-Wrapper-0.215-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-office/planner-0.14.3-r2
+!!! caught exception False while processing ebuild src: perl-modules/DBIx-SQLite-Simple-0.34
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/tsclient-2.0.1-r1
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/genkernel-9999
+!!! caught exception False while processing ebuild src: perl-modules/Math-Base85-0.2-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-analyzer/net-snmp-5.5
+!!! caught exception False while processing ebuild src: perl-modules/Log-Dispatch-FileRotate-1.19
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: perl-modules/Net-Packet-3.26
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Date-Manip-5.54
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-IPv6Addr-0.2-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-Packet-Target-1.01-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Class-Gomor-1.01-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-Packet-Target-1.01
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-office/planner-0.14.3-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-Packet-3.26-r1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: app-office/planner-0.14.4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! !!! !!! caught exception False while processing ebuild src: perl-modules/Math-Round-0.06-r1
+caught exception False while processing ebuild src: perl-modules/Net-IPv6Addr-0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-Libdnet6-0.23
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: snmp-agents/mysql-snmp-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-IPv4Addr-0.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-SinFP-2.06
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: net-analyzer/net-snmp-5.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-analyzer/net-snmp-5.4.2.1-r2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/wolf-sources-2.6.33-r2
+!!! caught exception False while processing ebuild src: snmp-agents/bind9-snmp-1.7
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-cluster/apache-zookeeper-3.3.0
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: sys-cluster/cman-2.03.09-r1
+!!! caught exception False while processing ebuild src: dev-db/maatkit-4623
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-modules/Net-Write-1.04-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-kernel/wolf-sources-2.6.33-r2
+!!! caught exception ("Expected command; i!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+nstead got nothing from ''", None) while processing ebuild src: sys-cluster/cman-2.03.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-analyzer/net-snmp-5.5-r1
 Error running an operation:
  Unhandled exception in regen_cache
+Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246
