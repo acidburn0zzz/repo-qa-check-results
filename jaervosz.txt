@@ -248,269 +248,210 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: dev-php5/pecl-perl-1.0.0 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-tv/mythtv-0.23_alpha22857 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
+
+!!! ERROR: media-tv/mythtv-0.22_p22778 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-tv/mythtv-0.22_p22824-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-tv/mythtv-0.22_p23069-r2 failed.
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-tv/mythtv-0.22_p22811 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
+
 !!! ERROR: media-tv/mythtv-0.22_p22824 failed.
+
+!!! ERROR: media-tv/mythtv-0.22_p23069 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-tv/mythtv-0.23_alpha22834 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
 !!! ERROR: media-tv/mythtv-0.22_p22860 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: media-tv/mythtv-0.22_p22778 failed.
-
-!!! ERROR: media-tv/mythtv-0.22_p22811 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: media-tv/mythtv-0.22_p23069-r2 failed.
-
-!!! ERROR: media-tv/mythtv-0.23_alpha22834 failed.
-
-!!! ERROR: media-tv/mythtv-0.22_p22824-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-
-!!! ERROR: media-tv/mythtv-0.23_alpha22857 failed.
-!!! Call stack:
-
-!!! ERROR: media-tv/mythtv-0.22_p23069 failed.
-
-!!! ERROR: media-tv/mythtv-0.22_p23069-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
 !!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824-r1.ebuild'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!      mythtv-0.22_p22824.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
-!!!   mythtv-0.22_p23069-r1.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824-r1.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
-!!!      mythtv-0.22_p22778.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
-!!!      mythtv-0.22_p22860.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-
-!!! ERROR: dev-php5/pecl-perl-1.0.0 failed.
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
-!!!   mythtv-0.22_p22824-r1.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!      mythtv-0.22_p22811.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!   mythtv-0.23_alpha22834.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
-!!!   mythtv-0.22_p23069-r2.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
-!!!      mythtv-0.22_p23069.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   mythtv-0.23_alpha22857.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!               ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!               ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
-
-!!! ERROR: media-sound/squeezeboxserver-7.4.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/dev-php5/pecl-perl/pecl-perl-1.0.0.ebuild'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         pecl-perl-1.0.0.ebuild, line  10:  Called inherit 'php-ext-pecl-r1'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r1'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for php-ext-pecl-r1 failed
 
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-tv/mythtv-0.22_p23069-r1 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824-r1.ebuild'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
 !!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-sound/squeezeboxserver/squeezeboxserver-7.4.1.ebuild'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-sound/squeezeboxserver/squeezeboxserver-7.4.1.ebuild'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-sound/squeezeboxserver/squeezeboxserver-7.4.1.ebuild'
-!!!   squeezeboxserver-7.4.1.ebuild, line   5:  Called inherit 'eutils'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!               ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass eutils
-
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: sys-fs/squashfs-tools-3.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22857.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/sys-fs/squashfs-tools/squashfs-tools-3.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/sys-fs/squashfs-tools/squashfs-tools-3.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/sys-fs/squashfs-tools/squashfs-tools-3.0.ebuild'
-!!!      squashfs-tools-3.0.ebuild, line   5:  Called inherit 'toolchain-funcs'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain-funcs'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass toolchain-funcs
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: www-apps/piwik-1.8.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/www-apps/piwik/piwik-1.8.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/www-apps/piwik/piwik-1.8.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/www-apps/piwik/piwik-1.8.2.ebuild'
-!!!             piwik-1.8.2.ebuild, line   7:  Called inherit 'webapp' 'depend.php'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'webapp'
-!!!              ebuild-daemon.lib, line  37:  Called die
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22778.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
+!!!      mythtv-0.22_p22778.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
+!!!      mythtv-0.22_p23069.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!   mythtv-0.23_alpha22857.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass webapp
+!!!  inherit for qt4 failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!   mythtv-0.22_p22824-r1.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22860.ebuild'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.23_alpha22834.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
+!!!      mythtv-0.22_p22860.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r1.ebuild'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22824.ebuild'
+!!!   mythtv-0.22_p23069-r1.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
+!!!      mythtv-0.22_p22824.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p23069-r2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jaervosz/media-tv/mythtv/mythtv-0.22_p22811.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!      mythtv-0.22_p22811.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!   mythtv-0.23_alpha22834.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!               ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!   mythtv-0.22_p23069-r2.ebuild, line   6:  Called inherit 'flag-o-matic' 'multilib' 'eutils' 'qt4' 'mythtv' 'toolchain-funcs' 'python'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
 
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22824
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22778
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22860
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22811
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22824-r1
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+Sandboxed process killed by signal: Broken pipe
+!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-perl-1.0.0
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.23_alpha22857
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p23069
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22778
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22824-r1
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p23069-r2
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22811
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22824
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p23069
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p22860
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.23_alpha22834
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-tv/mythtv-0.22_p23069-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-apps/piwik-1.8.2
-!!! caught exception inherit requires an unknown eclass, php-ext-pecl-r1 cannot be found while processing ebuild src: dev-php5/pecl-perl-1.0.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-fs/squashfs-tools-3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/squeezeboxserver-7.4.1
  * Cache regenerated successfully

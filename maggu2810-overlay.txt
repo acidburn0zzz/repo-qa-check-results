@@ -107,7 +107,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/maggu2810/maggu2810-overlay
+   805e294..4a6a6cb  master     -> origin/master
+Updating 805e294..4a6a6cb
+Fast-forward
+ gnome-extra/indicator-notifications/Manifest        |  2 +-
+ media-plugins/vdr-pvrinput/Manifest                 |  2 +-
+ media-plugins/vdr-pvrinput/vdr-pvrinput-9999.ebuild |  4 ++--
+ sets/mjr-2-archive                                  |  1 +
+ sets/mjr-2-fonts                                    | 15 +++++++++++++++
+ sets/mjr-2-gnome                                    |  2 +-
+ sets/{mjr_portage-utils => mjr-2-portage-utils}     |  0
+ 7 files changed, 21 insertions(+), 5 deletions(-)
+ create mode 100644 sets/mjr-2-fonts
+ rename sets/{mjr_portage-utils => mjr-2-portage-utils} (100%)
 *** syncing '/home/mgorny/repos/maggu2810-overlay'...
 *** synced '/home/mgorny/repos/maggu2810-overlay'
  * Sync succeeded
@@ -250,22 +263,4 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-
-!!! ERROR: media-plugins/vdr-pvrinput-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/maggu2810-overlay/media-plugins/vdr-pvrinput/vdr-pvrinput-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/maggu2810-overlay/media-plugins/vdr-pvrinput/vdr-pvrinput-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/maggu2810-overlay/media-plugins/vdr-pvrinput/vdr-pvrinput-9999.ebuild'
-!!!       vdr-pvrinput-9999.ebuild, line   7:  Called inherit 'vdr-plugin' 'eutils' 'versionator'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-pvrinput-9999
  * Cache regenerated successfully

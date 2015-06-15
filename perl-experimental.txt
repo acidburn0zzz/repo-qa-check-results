@@ -99,7 +99,37 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   6d7edf1..6eb118f  master     -> origin/master
+Updating 6d7edf1..6eb118f
+Fast-forward
+ ...700.0.ebuild => Text-Context-3.700.0-r1.ebuild} | 18 ++++++++-------
+ .../Text-SimpleTable-2.30.0-r1.ebuild              | 27 ++++++++++++++++++++++
+ .../Text-SimpleTable-2.30.0.ebuild                 | 18 ---------------
+ dev-perl/Text-Textile/Manifest                     |  2 +-
+ ...ile-2.12.ebuild => Text-Textile-2.130.0.ebuild} | 18 ++++++++++-----
+ dev-perl/Tie-Restore/Manifest                      |  2 +-
+ ...tore-0.11.ebuild => Tie-Restore-0.110.0.ebuild} |  9 ++++----
+ ...-Trace-0.14.ebuild => Tie-Trace-0.140.0.ebuild} | 21 +++++++++--------
+ ...me-Tiny-1.05.ebuild => Time-Tiny-1.50.0.ebuild} | 22 ++++++++++--------
+ dev-perl/Time-Warp/Manifest                        |  2 +-
+ ...me-Warp-0.5.ebuild => Time-Warp-0.520.0.ebuild} | 20 ++++++++--------
+ ...00403.ebuild => Time-y2038-20100403.0.0.ebuild} | 20 +++++++---------
+ ...18.ebuild => WWW-Facebook-API-0.4.18-r1.ebuild} | 24 +++++++++++++++----
+ dev-perl/XML-Generator-PerlData/Manifest           |  2 +-
+ ...build => XML-Generator-PerlData-0.930.0.ebuild} | 19 ++++++---------
+ 15 files changed, 124 insertions(+), 100 deletions(-)
+ rename dev-perl/Text-Context/{Text-Context-3.700.0.ebuild => Text-Context-3.700.0-r1.ebuild} (56%)
+ create mode 100644 dev-perl/Text-SimpleTable/Text-SimpleTable-2.30.0-r1.ebuild
+ delete mode 100644 dev-perl/Text-SimpleTable/Text-SimpleTable-2.30.0.ebuild
+ rename dev-perl/Text-Textile/{Text-Textile-2.12.ebuild => Text-Textile-2.130.0.ebuild} (55%)
+ rename dev-perl/Tie-Restore/{Tie-Restore-0.11.ebuild => Tie-Restore-0.110.0.ebuild} (68%)
+ rename dev-perl/Tie-Trace/{Tie-Trace-0.14.ebuild => Tie-Trace-0.140.0.ebuild} (61%)
+ rename dev-perl/Time-Tiny/{Time-Tiny-1.05.ebuild => Time-Tiny-1.50.0.ebuild} (53%)
+ rename dev-perl/Time-Warp/{Time-Warp-0.5.ebuild => Time-Warp-0.520.0.ebuild} (51%)
+ rename dev-perl/Time-y2038/{Time-y2038-20100403.ebuild => Time-y2038-20100403.0.0.ebuild} (61%)
+ rename dev-perl/WWW-Facebook-API/{WWW-Facebook-API-0.4.18.ebuild => WWW-Facebook-API-0.4.18-r1.ebuild} (54%)
+ rename dev-perl/XML-Generator-PerlData/{XML-Generator-PerlData-0.91.ebuild => XML-Generator-PerlData-0.930.0.ebuild} (51%)
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
