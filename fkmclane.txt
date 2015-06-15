@@ -119,13 +119,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/robbat2', named 'robbat2', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wine-diablo3', named 'wine-diablo3', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/fkmclane/overlay
-   af482bb..711a3c5  master     -> origin/master
-Updating af482bb..711a3c5
+   711a3c5..1f5b40b  master     -> origin/master
+Updating 711a3c5..1f5b40b
 Fast-forward
- media-gfx/maim/Manifest           |  4 ++--
- media-gfx/maim/maim-3.4.42.ebuild | 31 -------------------------------
- 2 files changed, 2 insertions(+), 33 deletions(-)
- delete mode 100644 media-gfx/maim/maim-3.4.42.ebuild
+ README.md                            |  3 +++
+ media-gfx/maim/maim-3.4.43.ebuild    | 31 ++++++++++++++++++++++++
+ media-libs/csfml/Manifest            |  4 +++
+ media-libs/csfml/csfml-2.2.ebuild    | 47 ++++++++++++++++++++++++++++++++++++
+ media-libs/csfml/files/no-docs.patch |  9 +++++++
+ media-libs/csfml/metadata.xml        | 10 ++++++++
+ 6 files changed, 104 insertions(+)
+ create mode 100644 media-gfx/maim/maim-3.4.43.ebuild
+ create mode 100644 media-libs/csfml/Manifest
+ create mode 100644 media-libs/csfml/csfml-2.2.ebuild
+ create mode 100644 media-libs/csfml/files/no-docs.patch
+ create mode 100644 media-libs/csfml/metadata.xml
 *** syncing '/home/mgorny/repos/fkmclane'...
 *** synced '/home/mgorny/repos/fkmclane'
  * Sync succeeded

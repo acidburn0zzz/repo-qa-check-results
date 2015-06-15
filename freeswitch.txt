@@ -228,50 +228,49 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
-!!! ERROR: net-misc/ftmod_isdn-9999 failed.
-
 !!! ERROR: net-voip/freeswitch-mod_squirrelfish-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '273' 'depend'
-!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+
+!!! ERROR: net-misc/ftmod_isdn-9999 failed.
 
 !!! ERROR: net-misc/ozmod_isdn-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   freeswitch-mod_squirrelfish-9999.ebuild, line   7:  Called inherit 'git' 'flag-o-matic'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '273' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
+!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
+!!!   freeswitch-mod_squirrelfish-9999.ebuild, line   7:  Called inherit 'git' 'flag-o-matic'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!                         ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
-Sandboxed process killed by signal: Broken pipe
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!         ozmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
@@ -279,7 +278,9 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  inherit for git failed
 
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ftmod_isdn-9999
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-voip/freeswitch-mod_squirrelfish-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ftmod_isdn-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ozmod_isdn-9999
  * Cache regenerated successfully
