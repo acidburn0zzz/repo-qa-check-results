@@ -96,17 +96,36 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   266f515..f0ae65b  master     -> origin/master
-Updating 266f515..f0ae65b
+   f0ae65b..d628f02  master     -> origin/master
+Updating f0ae65b..d628f02
 Fast-forward
- dev-python/pyformance/Manifest | 28 ++++++++++++++--------------
- metadata/dtd/timestamp.chk     |  2 +-
- metadata/glsa/timestamp.chk    |  2 +-
- metadata/news/timestamp.chk    |  2 +-
- metadata/timestamp             |  2 +-
- metadata/timestamp.chk         |  2 +-
- metadata/timestamp.x           |  2 +-
- 7 files changed, 20 insertions(+), 20 deletions(-)
+ dev-db/sqlitebrowser/ChangeLog                  |  6 ++-
+ dev-db/sqlitebrowser/Manifest                   | 42 +++++++++---------
+ dev-db/sqlitebrowser/sqlitebrowser-3.3.1.ebuild |  4 +-
+ dev-db/sqlitebrowser/sqlitebrowser-3.5.1.ebuild |  8 ++--
+ dev-db/sqlitebrowser/sqlitebrowser-3.6.0.ebuild |  8 ++--
+ dev-libs/qcustomplot/ChangeLog                  |  9 +++-
+ dev-libs/qcustomplot/Manifest                   | 39 +++++++++--------
+ dev-libs/qcustomplot/qcustomplot-1.3.1.ebuild   | 51 ++++++++++++++++++++++
+ media-gfx/nomacs/ChangeLog                      |  7 ++-
+ media-gfx/nomacs/Manifest                       | 26 ++++++++++-
+ media-gfx/nomacs/nomacs-2.4.4.ebuild            | 57 +++++++++++++++++++++++++
+ metadata/dtd/timestamp.chk                      |  2 +-
+ metadata/glsa/timestamp.chk                     |  2 +-
+ metadata/md5-cache/dev-db/sqlitebrowser-3.3.1   |  6 +--
+ metadata/md5-cache/dev-db/sqlitebrowser-3.5.1   |  6 +--
+ metadata/md5-cache/dev-db/sqlitebrowser-3.6.0   |  6 +--
+ metadata/md5-cache/dev-libs/qcustomplot-1.3.1   | 13 ++++++
+ metadata/md5-cache/media-gfx/nomacs-2.4.4       | 14 ++++++
+ metadata/news/timestamp.chk                     |  2 +-
+ metadata/timestamp                              |  2 +-
+ metadata/timestamp.chk                          |  2 +-
+ metadata/timestamp.x                            |  2 +-
+ 22 files changed, 246 insertions(+), 68 deletions(-)
+ create mode 100644 dev-libs/qcustomplot/qcustomplot-1.3.1.ebuild
+ create mode 100644 media-gfx/nomacs/nomacs-2.4.4.ebuild
+ create mode 100644 metadata/md5-cache/dev-libs/qcustomplot-1.3.1
+ create mode 100644 metadata/md5-cache/media-gfx/nomacs-2.4.4
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

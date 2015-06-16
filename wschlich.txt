@@ -277,9 +277,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: mail-filter/dkimproxy-1.0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: mail-filter/dkimproxy-1.1 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
@@ -290,10 +290,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!         dkimproxy-1.0.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
