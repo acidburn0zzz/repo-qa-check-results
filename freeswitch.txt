@@ -232,55 +232,54 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
+!!! ERROR: net-misc/ozmod_isdn-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
 !!! ERROR: net-misc/ftmod_isdn-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '273' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
-!!!   freeswitch-mod_squirrelfish-9999.ebuild, line   7:  Called inherit 'git' 'flag-o-matic'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                         ebuild-daemon.lib, line  35:  Called die
+!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
+!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         ozmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-
-!!! ERROR: net-misc/ozmod_isdn-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
-!!!         ozmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass git
-
+!!!   freeswitch-mod_squirrelfish-9999.ebuild, line   7:  Called inherit 'git' 'flag-o-matic'
 Sandboxed process killed by signal: Broken pipe
+!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                         ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-voip/freeswitch-mod_squirrelfish-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ozmod_isdn-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ftmod_isdn-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-misc/ozmod_isdn-9999
  * Cache regenerated successfully

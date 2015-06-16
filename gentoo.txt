@@ -96,54 +96,54 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   c6b9a8c..b89ce7e  master     -> origin/master
-Updating c6b9a8c..b89ce7e
+   b89ce7e..21b47bc  master     -> origin/master
+Updating b89ce7e..21b47bc
 Fast-forward
- dev-java/jakarta-oro/ChangeLog                     |  8 +++-
- dev-java/jakarta-oro/Manifest                      | 14 ++++---
- dev-java/jakarta-oro/jakarta-oro-2.0.8-r3.ebuild   | 11 ++++--
- dev-perl/Data-ShowTable/ChangeLog                  |  6 ++-
- .../Data-ShowTable-3.300.0-r1.ebuild               | 10 ++++-
- .../Data-ShowTable/Data-ShowTable-4.600.0.ebuild   | 10 ++++-
- dev-perl/Data-ShowTable/Manifest                   | 30 ++++++--------
- dev-ruby/rack/ChangeLog                            | 15 ++++++-
- dev-ruby/rack/Manifest                             | 23 +++++------
- dev-ruby/rack/rack-1.5.2-r2.ebuild                 | 41 -------------------
- dev-ruby/rack/rack-1.5.2-r3.ebuild                 | 40 -------------------
- .../{rack-1.5.2-r4.ebuild => rack-1.5.4-r1.ebuild} |  2 +-
- .../rack/{rack-1.5.3.ebuild => rack-1.5.4.ebuild}  |  4 +-
- dev-ruby/rack/rack-1.6.0.ebuild                    | 46 ----------------------
- .../rack/{rack-1.6.1.ebuild => rack-1.6.2.ebuild}  |  2 +-
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/dev-java/jakarta-oro-2.0.8-r3   |  6 +--
- .../md5-cache/dev-perl/Data-ShowTable-3.300.0-r1   |  2 +-
- metadata/md5-cache/dev-perl/Data-ShowTable-4.600.0 |  2 +-
- metadata/md5-cache/dev-ruby/rack-1.5.2-r2          | 14 -------
- metadata/md5-cache/dev-ruby/rack-1.5.2-r3          | 14 -------
- metadata/md5-cache/dev-ruby/rack-1.5.3             | 14 -------
- metadata/md5-cache/dev-ruby/rack-1.5.4             | 14 +++++++
- .../dev-ruby/{rack-1.5.2-r4 => rack-1.5.4-r1}      |  4 +-
- metadata/md5-cache/dev-ruby/rack-1.6.1             | 14 -------
- .../md5-cache/dev-ruby/{rack-1.6.0 => rack-1.6.2}  |  4 +-
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- 31 files changed, 111 insertions(+), 251 deletions(-)
- delete mode 100644 dev-ruby/rack/rack-1.5.2-r2.ebuild
- delete mode 100644 dev-ruby/rack/rack-1.5.2-r3.ebuild
- rename dev-ruby/rack/{rack-1.5.2-r4.ebuild => rack-1.5.4-r1.ebuild} (92%)
- rename dev-ruby/rack/{rack-1.5.3.ebuild => rack-1.5.4.ebuild} (90%)
- delete mode 100644 dev-ruby/rack/rack-1.6.0.ebuild
- rename dev-ruby/rack/{rack-1.6.1.ebuild => rack-1.6.2.ebuild} (93%)
- delete mode 100644 metadata/md5-cache/dev-ruby/rack-1.5.2-r2
- delete mode 100644 metadata/md5-cache/dev-ruby/rack-1.5.2-r3
- delete mode 100644 metadata/md5-cache/dev-ruby/rack-1.5.3
- create mode 100644 metadata/md5-cache/dev-ruby/rack-1.5.4
- rename metadata/md5-cache/dev-ruby/{rack-1.5.2-r4 => rack-1.5.4-r1} (97%)
- delete mode 100644 metadata/md5-cache/dev-ruby/rack-1.6.1
- rename metadata/md5-cache/dev-ruby/{rack-1.6.0 => rack-1.6.2} (97%)
+ dev-ruby/coffee-rails/ChangeLog                    |   5 +-
+ dev-ruby/coffee-rails/Manifest                     |  26 ++--
+ dev-ruby/coffee-rails/coffee-rails-3.2.2.ebuild    |   6 +-
+ dev-ruby/jquery-rails/ChangeLog                    |   9 +-
+ dev-ruby/jquery-rails/Manifest                     |  12 +-
+ dev-ruby/jquery-rails/jquery-rails-3.1.3.ebuild    |  32 +++++
+ dev-ruby/jquery-rails/jquery-rails-4.0.4.ebuild    |  35 ++++++
+ dev-ruby/sass-rails/ChangeLog                      |   5 +-
+ dev-ruby/sass-rails/Manifest                       |  26 ++--
+ dev-ruby/sass-rails/sass-rails-3.2.6.ebuild        |   6 +-
+ dev-ruby/web-console/ChangeLog                     |  11 +-
+ dev-ruby/web-console/Manifest                      |  30 ++---
+ dev-ruby/web-console/web-console-2.1.2.ebuild      |  40 ------
+ ...nsole-2.1.1.ebuild => web-console-2.1.3.ebuild} |   8 +-
+ metadata/dtd/timestamp.chk                         |   2 +-
+ metadata/glsa/timestamp.chk                        |   2 +-
+ metadata/md5-cache/dev-ruby/coffee-rails-3.2.2     |  10 +-
+ metadata/md5-cache/dev-ruby/jquery-rails-3.1.3     |  14 +++
+ metadata/md5-cache/dev-ruby/jquery-rails-4.0.4     |  14 +++
+ metadata/md5-cache/dev-ruby/sass-rails-3.2.6       |  10 +-
+ metadata/md5-cache/dev-ruby/web-console-2.1.1      |  14 ---
+ metadata/md5-cache/dev-ruby/web-console-2.1.2      |  14 ---
+ metadata/md5-cache/dev-ruby/web-console-2.1.3      |  14 +++
+ metadata/md5-cache/net-libs/gnutls-3.4.2           |  13 ++
+ metadata/news/timestamp.chk                        |   2 +-
+ metadata/timestamp                                 |   2 +-
+ metadata/timestamp.chk                             |   2 +-
+ metadata/timestamp.x                               |   2 +-
+ net-libs/gnutls/ChangeLog                          |   8 +-
+ net-libs/gnutls/Manifest                           |  21 ++--
+ net-libs/gnutls/files/gnutls-3.4.2-build.patch     | 104 ++++++++++++++++
+ net-libs/gnutls/gnutls-3.4.2.ebuild                | 134 +++++++++++++++++++++
+ 32 files changed, 456 insertions(+), 177 deletions(-)
+ create mode 100644 dev-ruby/jquery-rails/jquery-rails-3.1.3.ebuild
+ create mode 100644 dev-ruby/jquery-rails/jquery-rails-4.0.4.ebuild
+ delete mode 100644 dev-ruby/web-console/web-console-2.1.2.ebuild
+ rename dev-ruby/web-console/{web-console-2.1.1.ebuild => web-console-2.1.3.ebuild} (83%)
+ create mode 100644 metadata/md5-cache/dev-ruby/jquery-rails-3.1.3
+ create mode 100644 metadata/md5-cache/dev-ruby/jquery-rails-4.0.4
+ delete mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.1
+ delete mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.2
+ create mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.3
+ create mode 100644 metadata/md5-cache/net-libs/gnutls-3.4.2
+ create mode 100644 net-libs/gnutls/files/gnutls-3.4.2-build.patch
+ create mode 100644 net-libs/gnutls/gnutls-3.4.2.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

@@ -137,7 +137,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/microcai/gentoo-zh
+   479bcac..3d0922e  master     -> origin/master
+Updating 479bcac..3d0922e
+Fast-forward
+ .../wps-office-9.1.0.4961_alpha18_p1.ebuild        | 142 +++++++++++++++++++++
+ media-plugins/gimp-gap/Manifest                    |   1 +
+ media-plugins/gimp-gap/files/extern_lib_fix.patch  |  15 +++
+ media-plugins/gimp-gap/gimp-gap-2.6.0.ebuild       |  39 ++++++
+ 4 files changed, 197 insertions(+)
+ create mode 100644 app-office/wps-office/wps-office-9.1.0.4961_alpha18_p1.ebuild
+ create mode 100644 media-plugins/gimp-gap/Manifest
+ create mode 100644 media-plugins/gimp-gap/files/extern_lib_fix.patch
+ create mode 100644 media-plugins/gimp-gap/gimp-gap-2.6.0.ebuild
 *** syncing '/home/mgorny/repos/gentoo-zh'...
 *** synced '/home/mgorny/repos/gentoo-zh'
  * Sync succeeded
