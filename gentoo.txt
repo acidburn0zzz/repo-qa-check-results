@@ -95,40 +95,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   d628f02..dc5a7da  master     -> origin/master
-Updating d628f02..dc5a7da
-Fast-forward
- app-editors/focuswriter/ChangeLog                  |  7 +-
- app-editors/focuswriter/Manifest                   | 34 +++++----
- app-editors/focuswriter/focuswriter-1.5.4.ebuild   | 67 ++++++++++++++++
- app-text/qpdfview/ChangeLog                        | 10 ++-
- app-text/qpdfview/Manifest                         | 40 +++++-----
- app-text/qpdfview/metadata.xml                     |  6 +-
- app-text/qpdfview/qpdfview-0.4.15.ebuild           | 89 ++++++++++++++++++++++
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/app-editors/focuswriter-1.5.4   | 13 ++++
- metadata/md5-cache/app-text/qpdfview-0.4.15        | 14 ++++
- .../{telepathy-qt-0.9.6 => telepathy-qt-0.9.6.1}   |  4 +-
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- net-libs/telepathy-qt/ChangeLog                    |  9 ++-
- net-libs/telepathy-qt/Manifest                     | 38 ++++-----
- .../files/0.9.6.1-default-source.patch             | 25 ++++++
- .../telepathy-qt/files/0.9.6.1-yes-release.patch   | 17 +++++
- ...qt-0.9.6.ebuild => telepathy-qt-0.9.6.1.ebuild} |  9 ++-
- 21 files changed, 324 insertions(+), 70 deletions(-)
- create mode 100644 app-editors/focuswriter/focuswriter-1.5.4.ebuild
- create mode 100644 app-text/qpdfview/qpdfview-0.4.15.ebuild
- create mode 100644 metadata/md5-cache/app-editors/focuswriter-1.5.4
- create mode 100644 metadata/md5-cache/app-text/qpdfview-0.4.15
- rename metadata/md5-cache/net-libs/{telepathy-qt-0.9.6 => telepathy-qt-0.9.6.1} (95%)
- create mode 100644 net-libs/telepathy-qt/files/0.9.6.1-default-source.patch
- create mode 100644 net-libs/telepathy-qt/files/0.9.6.1-yes-release.patch
- rename net-libs/telepathy-qt/{telepathy-qt-0.9.6.ebuild => telepathy-qt-0.9.6.1.ebuild} (92%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
