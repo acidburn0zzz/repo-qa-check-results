@@ -25,13 +25,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named 'ub0rlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/robbat2', named 'robbat2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -93,46 +96,30 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   658c049..1152aa88 master     -> origin/master
-Updating 658c049..1152aa88
+   1152aa88..c303964 master     -> origin/master
+Updating 1152aa88..c303964
 Fast-forward
- dev-libs/jsoncpp/ChangeLog                         |  5 ++-
- dev-libs/jsoncpp/Manifest                          | 12 ++++---
- dev-libs/jsoncpp/jsoncpp-0.10.2-r1.ebuild          |  4 +--
- dev-python/python-gudev/ChangeLog                  |  5 ++-
- dev-python/python-gudev/Manifest                   | 28 +++++----------
- .../python-gudev/python-gudev-147.2-r1.ebuild      |  4 +--
- dev-util/cmake/ChangeLog                           |  5 ++-
- dev-util/cmake/Manifest                            | 12 ++++---
- dev-util/cmake/cmake-3.2.2.ebuild                  |  4 +--
+ dev-lang/perl/ChangeLog                            | 12 +++-
+ dev-lang/perl/Manifest                             | 35 +++++++----
+ .../perl/files/eblits/pkg_postinst-v50220001.eblit | 67 ++++++++++++++++++++
+ .../perl/files/eblits/pkg_postrm-v50220001.eblit   | 12 ++++
+ .../perl/files/eblits/pkg_setup-v50220001.eblit    | 72 ++++++++++++++++++++++
+ dev-lang/perl/perl-5.20.2-r1.ebuild                |  4 +-
+ dev-lang/perl/perl-5.20.2.ebuild                   |  4 +-
+ dev-lang/perl/perl-5.22.0.ebuild                   | 32 +++++-----
  metadata/dtd/timestamp.chk                         |  2 +-
  metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/dev-libs/jsoncpp-0.10.2-r1      |  4 +--
- .../md5-cache/dev-python/python-gudev-147.2-r1     |  4 +--
- metadata/md5-cache/dev-util/cmake-3.2.2            |  4 +--
- .../md5-cache/sys-libs/{tdb-1.3.4 => tdb-1.3.6}    |  4 +--
- metadata/md5-cache/sys-libs/tevent-0.9.19          | 14 --------
- .../sys-libs/{tevent-0.9.23 => tevent-0.9.25}      |  8 ++---
+ metadata/md5-cache/dev-lang/perl-5.20.2            |  6 +-
+ metadata/md5-cache/dev-lang/perl-5.20.2-r1         |  6 +-
+ metadata/md5-cache/dev-lang/perl-5.22.0            |  6 +-
  metadata/news/timestamp.chk                        |  2 +-
  metadata/timestamp                                 |  2 +-
  metadata/timestamp.chk                             |  2 +-
  metadata/timestamp.x                               |  2 +-
- profiles/prefix/ChangeLog                          |  6 +++-
- profiles/prefix/package.mask                       |  6 +---
- sys-libs/tdb/ChangeLog                             |  8 ++++-
- sys-libs/tdb/Manifest                              | 32 ++++++++---------
- .../tdb/{tdb-1.3.4.ebuild => tdb-1.3.6.ebuild}     |  2 +-
- sys-libs/tevent/ChangeLog                          |  8 ++++-
- sys-libs/tevent/Manifest                           | 36 +++++++++----------
- sys-libs/tevent/tevent-0.9.19.ebuild               | 41 ----------------------
- .../{tevent-0.9.23.ebuild => tevent-0.9.25.ebuild} |  4 +--
- 30 files changed, 114 insertions(+), 158 deletions(-)
- rename metadata/md5-cache/sys-libs/{tdb-1.3.4 => tdb-1.3.6} (95%)
- delete mode 100644 metadata/md5-cache/sys-libs/tevent-0.9.19
- rename metadata/md5-cache/sys-libs/{tevent-0.9.23 => tevent-0.9.25} (91%)
- rename sys-libs/tdb/{tdb-1.3.4.ebuild => tdb-1.3.6.ebuild} (92%)
- delete mode 100644 sys-libs/tevent/tevent-0.9.19.ebuild
- rename sys-libs/tevent/{tevent-0.9.23.ebuild => tevent-0.9.25.ebuild} (88%)
+ 17 files changed, 219 insertions(+), 49 deletions(-)
+ create mode 100644 dev-lang/perl/files/eblits/pkg_postinst-v50220001.eblit
+ create mode 100644 dev-lang/perl/files/eblits/pkg_postrm-v50220001.eblit
+ create mode 100644 dev-lang/perl/files/eblits/pkg_setup-v50220001.eblit
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
