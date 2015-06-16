@@ -107,7 +107,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://gitlab.com/n900-gentoo/overlay
+   7d7eab3..53ab372  master     -> origin/master
+Updating 7d7eab3..53ab372
+Fast-forward
+ metadata/layout.conf                               |   2 +
+ net-wireless/bcm2048-firmware/Manifest             |   4 +-
+ net-wireless/bcm2048-firmware/Manifest.29606       |   0
+ .../bcm2048-firmware-0.21_rc3.ebuild               |  15 +--
+ net-wireless/bcm2048-firmware/files/n900-password  |   1 -
+ scripts/n900-password                              | 109 ---------------------
+ 6 files changed, 6 insertions(+), 125 deletions(-)
+ create mode 100644 metadata/layout.conf
+ delete mode 100644 net-wireless/bcm2048-firmware/Manifest.29606
+ delete mode 120000 net-wireless/bcm2048-firmware/files/n900-password
+ delete mode 100755 scripts/n900-password
 *** syncing '/home/mgorny/repos/n900'...
 *** synced '/home/mgorny/repos/n900'
  * Sync succeeded
@@ -143,7 +157,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -219,7 +232,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-experimental', named 'postgresql-experimental', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named 'njw', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -267,5 +279,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  inherit for git failed
 
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ofono-0.27_pre201008102034
  * Cache regenerated successfully

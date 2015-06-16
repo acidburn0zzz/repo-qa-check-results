@@ -96,54 +96,216 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   b89ce7e..21b47bc  master     -> origin/master
-Updating b89ce7e..21b47bc
+   21b47bc..dca8bcf  master     -> origin/master
+Updating 21b47bc..dca8bcf
 Fast-forward
- dev-ruby/coffee-rails/ChangeLog                    |   5 +-
- dev-ruby/coffee-rails/Manifest                     |  26 ++--
- dev-ruby/coffee-rails/coffee-rails-3.2.2.ebuild    |   6 +-
- dev-ruby/jquery-rails/ChangeLog                    |   9 +-
- dev-ruby/jquery-rails/Manifest                     |  12 +-
- dev-ruby/jquery-rails/jquery-rails-3.1.3.ebuild    |  32 +++++
- dev-ruby/jquery-rails/jquery-rails-4.0.4.ebuild    |  35 ++++++
- dev-ruby/sass-rails/ChangeLog                      |   5 +-
- dev-ruby/sass-rails/Manifest                       |  26 ++--
- dev-ruby/sass-rails/sass-rails-3.2.6.ebuild        |   6 +-
- dev-ruby/web-console/ChangeLog                     |  11 +-
- dev-ruby/web-console/Manifest                      |  30 ++---
- dev-ruby/web-console/web-console-2.1.2.ebuild      |  40 ------
- ...nsole-2.1.1.ebuild => web-console-2.1.3.ebuild} |   8 +-
+ app-admin/mongo-tools/ChangeLog                    |   8 +-
+ app-admin/mongo-tools/Manifest                     |  28 ++---
+ ...tools-3.0.3.ebuild => mongo-tools-3.0.4.ebuild} |   2 +-
+ dev-db/mongodb/ChangeLog                           |   8 +-
+ dev-db/mongodb/Manifest                            |  12 +-
+ .../{mongodb-3.0.3.ebuild => mongodb-3.0.4.ebuild} |   9 +-
+ dev-java/msv/ChangeLog                             |   6 +-
+ dev-java/msv/Manifest                              |  26 +---
+ dev-java/msv/msv-20130601.ebuild                   |   3 +-
+ dev-ruby/actionmailer/ChangeLog                    |  17 ++-
+ dev-ruby/actionmailer/Manifest                     |  30 ++---
+ dev-ruby/actionmailer/actionmailer-3.2.22.ebuild   |  42 +++++++
+ dev-ruby/actionmailer/actionmailer-4.1.11.ebuild   |  47 +++++++
+ dev-ruby/actionmailer/actionmailer-4.2.2.ebuild    |  50 ++++++++
+ dev-ruby/actionpack/ChangeLog                      |  17 ++-
+ dev-ruby/actionpack/Manifest                       |  30 ++---
+ dev-ruby/actionpack/actionpack-3.2.22.ebuild       |  78 ++++++++++++
+ dev-ruby/actionpack/actionpack-4.1.11.ebuild       |  48 +++++++
+ dev-ruby/actionpack/actionpack-4.2.2.ebuild        |  52 ++++++++
+ dev-ruby/actionview/ChangeLog                      |  12 +-
+ dev-ruby/actionview/Manifest                       |  28 ++---
+ dev-ruby/actionview/actionview-4.1.11.ebuild       |  47 +++++++
+ dev-ruby/actionview/actionview-4.2.2.ebuild        |  50 ++++++++
+ dev-ruby/activejob/ChangeLog                       |   7 +-
+ dev-ruby/activejob/Manifest                        |  26 ++--
+ dev-ruby/activejob/activejob-4.2.2.ebuild          |  44 +++++++
+ dev-ruby/activemodel/ChangeLog                     |  17 ++-
+ dev-ruby/activemodel/Manifest                      |  30 ++---
+ dev-ruby/activemodel/activemodel-3.2.22.ebuild     |  45 +++++++
+ dev-ruby/activemodel/activemodel-4.1.11.ebuild     |  47 +++++++
+ dev-ruby/activemodel/activemodel-4.2.2.ebuild      |  44 +++++++
+ dev-ruby/activerecord/ChangeLog                    |  17 ++-
+ dev-ruby/activerecord/Manifest                     |  18 ++-
+ dev-ruby/activerecord/activerecord-3.2.22.ebuild   |  69 +++++++++++
+ dev-ruby/activerecord/activerecord-4.1.11.ebuild   |  72 +++++++++++
+ dev-ruby/activerecord/activerecord-4.2.2.ebuild    |  74 +++++++++++
+ dev-ruby/activeresource/ChangeLog                  |   8 +-
+ dev-ruby/activeresource/Manifest                   |  26 ++--
+ .../activeresource/activeresource-3.2.22.ebuild    |  44 +++++++
+ dev-ruby/activesupport/ChangeLog                   |  17 ++-
+ dev-ruby/activesupport/Manifest                    |  30 ++---
+ dev-ruby/activesupport/activesupport-3.2.22.ebuild |  60 +++++++++
+ dev-ruby/activesupport/activesupport-4.1.11.ebuild |  61 +++++++++
+ dev-ruby/activesupport/activesupport-4.2.2.ebuild  |  61 +++++++++
+ dev-ruby/rack/ChangeLog                            |  13 +-
+ dev-ruby/rack/Manifest                             |  14 +--
+ .../{rack-1.4.5-r3.ebuild => rack-1.4.6-r1.ebuild} |   4 +-
+ .../{rack-1.4.5-r2.ebuild => rack-1.4.6.ebuild}    |   9 +-
+ dev-ruby/rails/ChangeLog                           |  17 ++-
+ dev-ruby/rails/Manifest                            |  14 ++-
+ dev-ruby/rails/rails-3.2.22.ebuild                 |  37 ++++++
+ dev-ruby/rails/rails-4.1.11.ebuild                 |  44 +++++++
+ dev-ruby/rails/rails-4.2.2.ebuild                  |  45 +++++++
+ dev-ruby/railties/ChangeLog                        |  17 ++-
+ dev-ruby/railties/Manifest                         |  30 ++---
+ dev-ruby/railties/railties-3.2.22.ebuild           |  82 ++++++++++++
+ dev-ruby/railties/railties-4.1.11.ebuild           |  72 +++++++++++
+ dev-ruby/railties/railties-4.2.2.ebuild            |  72 +++++++++++
+ eclass/ChangeLog                                   |   9 +-
+ eclass/golang-vcs.eclass                           | 138 +++++++++++++++++++++
+ eclass/qt4-build-multilib.eclass                   |  28 +++--
  metadata/dtd/timestamp.chk                         |   2 +-
  metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/dev-ruby/coffee-rails-3.2.2     |  10 +-
- metadata/md5-cache/dev-ruby/jquery-rails-3.1.3     |  14 +++
- metadata/md5-cache/dev-ruby/jquery-rails-4.0.4     |  14 +++
- metadata/md5-cache/dev-ruby/sass-rails-3.2.6       |  10 +-
- metadata/md5-cache/dev-ruby/web-console-2.1.1      |  14 ---
- metadata/md5-cache/dev-ruby/web-console-2.1.2      |  14 ---
- metadata/md5-cache/dev-ruby/web-console-2.1.3      |  14 +++
- metadata/md5-cache/net-libs/gnutls-3.4.2           |  13 ++
+ .../{mongo-tools-3.0.3 => mongo-tools-3.0.4}       |   4 +-
+ .../dev-db/{mongodb-3.0.3 => mongodb-3.0.4}        |  12 +-
+ metadata/md5-cache/dev-java/msv-20130601           |   2 +-
+ metadata/md5-cache/dev-qt/assistant-4.8.6-r1       |   2 +-
+ metadata/md5-cache/dev-qt/assistant-4.8.7          |   2 +-
+ metadata/md5-cache/dev-qt/designer-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/designer-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/linguist-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/linguist-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/pixeltool-4.8.6-r1       |   2 +-
+ metadata/md5-cache/dev-qt/pixeltool-4.8.7          |   2 +-
+ metadata/md5-cache/dev-qt/qdbusviewer-4.8.6-r1     |   2 +-
+ metadata/md5-cache/dev-qt/qdbusviewer-4.8.7        |   2 +-
+ metadata/md5-cache/dev-qt/qt3support-4.8.6-r1      |   2 +-
+ metadata/md5-cache/dev-qt/qt3support-4.8.7         |   2 +-
+ metadata/md5-cache/dev-qt/qtbearer-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/qtbearer-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtcore-4.8.6-r2          |   2 +-
+ metadata/md5-cache/dev-qt/qtcore-4.8.7             |   2 +-
+ metadata/md5-cache/dev-qt/qtdbus-4.8.6-r1          |   2 +-
+ metadata/md5-cache/dev-qt/qtdbus-4.8.7             |   2 +-
+ metadata/md5-cache/dev-qt/qtdeclarative-4.8.6-r1   |   2 +-
+ metadata/md5-cache/dev-qt/qtdeclarative-4.8.7      |   2 +-
+ metadata/md5-cache/dev-qt/qtdemo-4.8.6-r1          |   2 +-
+ metadata/md5-cache/dev-qt/qtdemo-4.8.7             |   2 +-
+ metadata/md5-cache/dev-qt/qtgui-4.8.6-r4           |   2 +-
+ metadata/md5-cache/dev-qt/qtgui-4.8.7              |   2 +-
+ metadata/md5-cache/dev-qt/qthelp-4.8.6-r3          |   2 +-
+ metadata/md5-cache/dev-qt/qthelp-4.8.7             |   2 +-
+ metadata/md5-cache/dev-qt/qtmultimedia-4.8.6-r1    |   2 +-
+ metadata/md5-cache/dev-qt/qtmultimedia-4.8.7       |   2 +-
+ metadata/md5-cache/dev-qt/qtopengl-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/qtopengl-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtopenvg-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/qtopenvg-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtphonon-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/qtphonon-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtscript-4.8.6-r2        |   2 +-
+ metadata/md5-cache/dev-qt/qtscript-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtsql-4.8.6-r1           |   2 +-
+ metadata/md5-cache/dev-qt/qtsql-4.8.7              |   2 +-
+ metadata/md5-cache/dev-qt/qtsvg-4.8.6-r1           |   2 +-
+ metadata/md5-cache/dev-qt/qtsvg-4.8.7              |   2 +-
+ metadata/md5-cache/dev-qt/qttest-4.8.6-r1          |   2 +-
+ metadata/md5-cache/dev-qt/qttest-4.8.7             |   2 +-
+ metadata/md5-cache/dev-qt/qttranslations-4.8.6-r1  |   2 +-
+ metadata/md5-cache/dev-qt/qttranslations-4.8.7     |   2 +-
+ metadata/md5-cache/dev-qt/qtwebkit-4.8.6-r1        |   2 +-
+ metadata/md5-cache/dev-qt/qtwebkit-4.8.7           |   2 +-
+ metadata/md5-cache/dev-qt/qtxmlpatterns-4.8.6-r1   |   2 +-
+ metadata/md5-cache/dev-qt/qtxmlpatterns-4.8.7      |   2 +-
+ metadata/md5-cache/dev-ruby/actionmailer-3.2.22    |  14 +++
+ metadata/md5-cache/dev-ruby/actionmailer-4.1.11    |  14 +++
+ metadata/md5-cache/dev-ruby/actionmailer-4.2.2     |  14 +++
+ metadata/md5-cache/dev-ruby/actionpack-3.2.22      |  14 +++
+ metadata/md5-cache/dev-ruby/actionpack-4.1.11      |  14 +++
+ metadata/md5-cache/dev-ruby/actionpack-4.2.2       |  14 +++
+ metadata/md5-cache/dev-ruby/actionview-4.1.11      |  14 +++
+ metadata/md5-cache/dev-ruby/actionview-4.2.2       |  14 +++
+ metadata/md5-cache/dev-ruby/activejob-4.2.2        |  14 +++
+ metadata/md5-cache/dev-ruby/activemodel-3.2.22     |  14 +++
+ metadata/md5-cache/dev-ruby/activemodel-4.1.11     |  14 +++
+ metadata/md5-cache/dev-ruby/activemodel-4.2.2      |  14 +++
+ metadata/md5-cache/dev-ruby/activerecord-3.2.22    |  14 +++
+ metadata/md5-cache/dev-ruby/activerecord-4.1.11    |  14 +++
+ metadata/md5-cache/dev-ruby/activerecord-4.2.2     |  14 +++
+ metadata/md5-cache/dev-ruby/activeresource-3.2.22  |  14 +++
+ metadata/md5-cache/dev-ruby/activesupport-3.2.22   |  14 +++
+ metadata/md5-cache/dev-ruby/activesupport-4.1.11   |  14 +++
+ metadata/md5-cache/dev-ruby/activesupport-4.2.2    |  14 +++
+ .../dev-ruby/{rack-1.4.5-r2 => rack-1.4.6}         |   4 +-
+ .../dev-ruby/{rack-1.4.5-r3 => rack-1.4.6-r1}      |   4 +-
+ metadata/md5-cache/dev-ruby/rails-3.2.22           |  14 +++
+ metadata/md5-cache/dev-ruby/rails-4.1.11           |  14 +++
+ metadata/md5-cache/dev-ruby/rails-4.2.2            |  14 +++
+ metadata/md5-cache/dev-ruby/railties-3.2.22        |  15 +++
+ metadata/md5-cache/dev-ruby/railties-4.1.11        |  15 +++
+ metadata/md5-cache/dev-ruby/railties-4.2.2         |  15 +++
  metadata/news/timestamp.chk                        |   2 +-
  metadata/timestamp                                 |   2 +-
  metadata/timestamp.chk                             |   2 +-
  metadata/timestamp.x                               |   2 +-
- net-libs/gnutls/ChangeLog                          |   8 +-
- net-libs/gnutls/Manifest                           |  21 ++--
- net-libs/gnutls/files/gnutls-3.4.2-build.patch     | 104 ++++++++++++++++
- net-libs/gnutls/gnutls-3.4.2.ebuild                | 134 +++++++++++++++++++++
- 32 files changed, 456 insertions(+), 177 deletions(-)
- create mode 100644 dev-ruby/jquery-rails/jquery-rails-3.1.3.ebuild
- create mode 100644 dev-ruby/jquery-rails/jquery-rails-4.0.4.ebuild
- delete mode 100644 dev-ruby/web-console/web-console-2.1.2.ebuild
- rename dev-ruby/web-console/{web-console-2.1.1.ebuild => web-console-2.1.3.ebuild} (83%)
- create mode 100644 metadata/md5-cache/dev-ruby/jquery-rails-3.1.3
- create mode 100644 metadata/md5-cache/dev-ruby/jquery-rails-4.0.4
- delete mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.1
- delete mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.2
- create mode 100644 metadata/md5-cache/dev-ruby/web-console-2.1.3
- create mode 100644 metadata/md5-cache/net-libs/gnutls-3.4.2
- create mode 100644 net-libs/gnutls/files/gnutls-3.4.2-build.patch
- create mode 100644 net-libs/gnutls/gnutls-3.4.2.ebuild
+ profiles/ChangeLog                                 |   5 +-
+ profiles/package.mask                              |   9 +-
+ 147 files changed, 2297 insertions(+), 316 deletions(-)
+ rename app-admin/mongo-tools/{mongo-tools-3.0.3.ebuild => mongo-tools-3.0.4.ebuild} (94%)
+ rename dev-db/mongodb/{mongodb-3.0.3.ebuild => mongodb-3.0.4.ebuild} (93%)
+ create mode 100644 dev-ruby/actionmailer/actionmailer-3.2.22.ebuild
+ create mode 100644 dev-ruby/actionmailer/actionmailer-4.1.11.ebuild
+ create mode 100644 dev-ruby/actionmailer/actionmailer-4.2.2.ebuild
+ create mode 100644 dev-ruby/actionpack/actionpack-3.2.22.ebuild
+ create mode 100644 dev-ruby/actionpack/actionpack-4.1.11.ebuild
+ create mode 100644 dev-ruby/actionpack/actionpack-4.2.2.ebuild
+ create mode 100644 dev-ruby/actionview/actionview-4.1.11.ebuild
+ create mode 100644 dev-ruby/actionview/actionview-4.2.2.ebuild
+ create mode 100644 dev-ruby/activejob/activejob-4.2.2.ebuild
+ create mode 100644 dev-ruby/activemodel/activemodel-3.2.22.ebuild
+ create mode 100644 dev-ruby/activemodel/activemodel-4.1.11.ebuild
+ create mode 100644 dev-ruby/activemodel/activemodel-4.2.2.ebuild
+ create mode 100644 dev-ruby/activerecord/activerecord-3.2.22.ebuild
+ create mode 100644 dev-ruby/activerecord/activerecord-4.1.11.ebuild
+ create mode 100644 dev-ruby/activerecord/activerecord-4.2.2.ebuild
+ create mode 100644 dev-ruby/activeresource/activeresource-3.2.22.ebuild
+ create mode 100644 dev-ruby/activesupport/activesupport-3.2.22.ebuild
+ create mode 100644 dev-ruby/activesupport/activesupport-4.1.11.ebuild
+ create mode 100644 dev-ruby/activesupport/activesupport-4.2.2.ebuild
+ rename dev-ruby/rack/{rack-1.4.5-r3.ebuild => rack-1.4.6-r1.ebuild} (88%)
+ rename dev-ruby/rack/{rack-1.4.5-r2.ebuild => rack-1.4.6.ebuild} (80%)
+ create mode 100644 dev-ruby/rails/rails-3.2.22.ebuild
+ create mode 100644 dev-ruby/rails/rails-4.1.11.ebuild
+ create mode 100644 dev-ruby/rails/rails-4.2.2.ebuild
+ create mode 100644 dev-ruby/railties/railties-3.2.22.ebuild
+ create mode 100644 dev-ruby/railties/railties-4.1.11.ebuild
+ create mode 100644 dev-ruby/railties/railties-4.2.2.ebuild
+ create mode 100644 eclass/golang-vcs.eclass
+ rename metadata/md5-cache/app-admin/{mongo-tools-3.0.3 => mongo-tools-3.0.4} (78%)
+ rename metadata/md5-cache/dev-db/{mongodb-3.0.3 => mongodb-3.0.4} (71%)
+ create mode 100644 metadata/md5-cache/dev-ruby/actionmailer-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/actionmailer-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/actionmailer-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/actionpack-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/actionpack-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/actionpack-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/actionview-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/actionview-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/activejob-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/activemodel-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/activemodel-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/activemodel-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/activerecord-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/activerecord-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/activerecord-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/activeresource-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/activesupport-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/activesupport-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/activesupport-4.2.2
+ rename metadata/md5-cache/dev-ruby/{rack-1.4.5-r2 => rack-1.4.6} (96%)
+ rename metadata/md5-cache/dev-ruby/{rack-1.4.5-r3 => rack-1.4.6-r1} (97%)
+ create mode 100644 metadata/md5-cache/dev-ruby/rails-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/rails-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/rails-4.2.2
+ create mode 100644 metadata/md5-cache/dev-ruby/railties-3.2.22
+ create mode 100644 metadata/md5-cache/dev-ruby/railties-4.1.11
+ create mode 100644 metadata/md5-cache/dev-ruby/railties-4.2.2
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
@@ -179,7 +341,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -255,7 +416,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-experimental', named 'postgresql-experimental', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named 'njw', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
