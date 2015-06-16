@@ -34,6 +34,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,7 +72,47 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   5def876..bd3e11b  master     -> origin/master
+Updating 5def876..bd3e11b
+Fast-forward
+ dev-util/codelite/codelite-4.1.5770-r1.ebuild      |   2 +-
+ games-emulation/qmc2/Manifest                      |   1 -
+ .../qmc2/files/qmc2-0.2_beta7-makefile.patch       |  15 -
+ games-emulation/qmc2/qmc2-0.2_beta15.ebuild        |  91 ------
+ games-emulation/sdlmess/Manifest                   |   1 -
+ games-emulation/sdlmess/files/joymap.dat           |   9 -
+ games-emulation/sdlmess/files/mess.ini.in          | 260 ----------------
+ games-emulation/sdlmess/files/vector.ini           |   9 -
+ games-emulation/sdlmess/sdlmess-0.136.ebuild       | 151 ---------
+ .../fontconfig-infinality-20130404.ebuild          |   8 +-
+ sci-biology/emboss/emboss-6.4.0.ebuild             |   2 +-
+ sci-libs/gdal/Manifest                             |   1 -
+ sci-libs/gdal/files/gdal-1.5.0-install_name.patch  |  45 ---
+ sci-libs/gdal/files/gdal-1.5.0-soname.patch        |  13 -
+ .../gdal/files/gdal-1.8.1-zlib_header_fix.patch    |  13 -
+ sci-libs/gdal/files/gdal-1.9.1-ruby-makefile.patch |  43 ---
+ sci-libs/gdal/gdal-1.10.0-r2.ebuild                | 337 ---------------------
+ sci-libs/gdal/metadata.xml                         |  24 --
+ .../notification-daemon-0.ebuild                   |  27 --
+ x11-misc/gpaste/gpaste-2.2.1.ebuild                |   8 +-
+ 20 files changed, 10 insertions(+), 1050 deletions(-)
+ delete mode 100644 games-emulation/qmc2/Manifest
+ delete mode 100644 games-emulation/qmc2/files/qmc2-0.2_beta7-makefile.patch
+ delete mode 100644 games-emulation/qmc2/qmc2-0.2_beta15.ebuild
+ delete mode 100644 games-emulation/sdlmess/Manifest
+ delete mode 100644 games-emulation/sdlmess/files/joymap.dat
+ delete mode 100644 games-emulation/sdlmess/files/mess.ini.in
+ delete mode 100644 games-emulation/sdlmess/files/vector.ini
+ delete mode 100644 games-emulation/sdlmess/sdlmess-0.136.ebuild
+ delete mode 100644 sci-libs/gdal/Manifest
+ delete mode 100644 sci-libs/gdal/files/gdal-1.5.0-install_name.patch
+ delete mode 100644 sci-libs/gdal/files/gdal-1.5.0-soname.patch
+ delete mode 100644 sci-libs/gdal/files/gdal-1.8.1-zlib_header_fix.patch
+ delete mode 100644 sci-libs/gdal/files/gdal-1.9.1-ruby-makefile.patch
+ delete mode 100644 sci-libs/gdal/gdal-1.10.0-r2.ebuild
+ delete mode 100644 sci-libs/gdal/metadata.xml
+ delete mode 100644 virtual/notification-daemon/notification-daemon-0.ebuild
 *** syncing '/home/mgorny/repos/sabayon'...
 *** synced '/home/mgorny/repos/sabayon'
  * Sync succeeded
@@ -214,4 +255,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.2.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use_enable' function invoked by x11-misc/gpaste-2.2.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

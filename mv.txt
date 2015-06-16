@@ -34,6 +34,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -74,6 +75,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/gnome-live', named 'gnome-live', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -132,7 +134,111 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/turbogears2', named 'turbogears2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/user/mv
+   1bd58ea..e8f5f8b  master     -> origin/master
+Updating 1bd58ea..e8f5f8b
+Fast-forward
+ app-admin/sudox/ChangeLog                          |  5 ++
+ app-admin/sudox/Manifest                           |  2 +-
+ .../sudox/{sudox-3.17.ebuild => sudox-3.18.ebuild} |  2 +-
+ app-arch/archwrap/ChangeLog                        |  5 ++
+ app-arch/archwrap/Manifest                         |  2 +-
+ .../{archwrap-1.21.ebuild => archwrap-1.22.ebuild} |  0
+ app-arch/bzwc/ChangeLog                            | 21 +++---
+ app-arch/bzwc/Manifest                             |  2 +-
+ .../bzwc/{bzwc-2.15.ebuild => bzwc-2.16.ebuild}    |  2 +-
+ app-portage/find_cruft/ChangeLog                   |  3 +
+ app-portage/find_cruft/Manifest                    |  2 +-
+ app-portage/find_cruft/find_cruft-3.0.7.ebuild     |  2 +-
+ app-portage/portage-bashrc-mv/ChangeLog            |  5 ++
+ app-portage/portage-bashrc-mv/Manifest             |  2 +-
+ ...v-13.5.ebuild => portage-bashrc-mv-13.6.ebuild} |  0
+ app-portage/trickyfetch/ChangeLog                  |  5 ++
+ app-portage/trickyfetch/Manifest                   |  2 +-
+ ...ickyfetch-8.4.ebuild => trickyfetch-8.5.ebuild} |  2 +-
+ app-portage/world-mv/ChangeLog                     | 31 +++++----
+ app-portage/world-mv/Manifest                      |  2 +-
+ ...orld-mv-3.12-r1.ebuild => world-mv-3.13.ebuild} |  2 +-
+ app-shells/runtitle/ChangeLog                      | 19 ++++--
+ app-shells/runtitle/Manifest                       |  2 +-
+ ...{runtitle-2.5-r1.ebuild => runtitle-2.6.ebuild} |  2 +-
+ app-shells/set_prompt/ChangeLog                    |  5 ++
+ app-shells/set_prompt/Manifest                     |  2 +-
+ ...t_prompt-1.19.ebuild => set_prompt-1.20.ebuild} |  0
+ app-shells/termcolors-mv/ChangeLog                 |  5 ++
+ app-shells/termcolors-mv/Manifest                  |  2 +-
+ ...lors-mv-3.6.ebuild => termcolors-mv-3.7.ebuild} |  0
+ app-shells/zshrc-mv/ChangeLog                      |  5 ++
+ app-shells/zshrc-mv/Manifest                       |  2 +-
+ .../{zshrc-mv-2.17.ebuild => zshrc-mv-2.18.ebuild} |  2 +-
+ dev-util/diffhelp/ChangeLog                        | 17 +++--
+ dev-util/diffhelp/Manifest                         |  2 +-
+ ...{diffhelp-1.7-r1.ebuild => diffhelp-1.8.ebuild} |  2 +-
+ dev-util/mv_perl/ChangeLog                         |  3 +
+ dev-util/mv_perl/Manifest                          |  2 +-
+ dev-util/mv_perl/mv_perl-2.46.ebuild               |  2 +-
+ media-video/video-mv/ChangeLog                     |  5 ++
+ media-video/video-mv/Manifest                      |  3 +-
+ media-video/video-mv/video-mv-7.17.ebuild          | 63 ------------------
+ .../{video-mv-8.0.ebuild => video-mv-8.1.ebuild}   |  0
+ net-firewall/firewall-mv/ChangeLog                 |  5 ++
+ net-firewall/firewall-mv/Manifest                  |  2 +-
+ ...wall-mv-8.11.ebuild => firewall-mv-8.12.ebuild} |  0
+ net-misc/sshstart/ChangeLog                        | 19 ++++--
+ net-misc/sshstart/Manifest                         |  2 +-
+ .../{sshstart-2.11.ebuild => sshstart-2.12.ebuild} |  2 +-
+ sys-apps/cpi/ChangeLog                             | 27 ++++----
+ sys-apps/cpi/Manifest                              |  2 +-
+ sys-apps/cpi/{cpi-2.7-r1.ebuild => cpi-2.8.ebuild} |  2 +-
+ sys-apps/openrc-wrapper/ChangeLog                  | 13 ++--
+ sys-apps/openrc-wrapper/Manifest                   |  2 +-
+ ...rapper-1.6.ebuild => openrc-wrapper-1.7.ebuild} |  2 +-
+ sys-apps/schedule/ChangeLog                        |  5 ++
+ sys-apps/schedule/Manifest                         |  2 +-
+ ...schedule-7.0.4.ebuild => schedule-7.0.5.ebuild} |  2 +-
+ sys-apps/starter/ChangeLog                         |  5 ++
+ sys-apps/starter/Manifest                          |  2 +-
+ .../{starter-2.13.ebuild => starter-2.14.ebuild}   |  2 +-
+ sys-block/zram-init/ChangeLog                      |  5 ++
+ sys-block/zram-init/Manifest                       |  2 +-
+ .../{zram-init-3.2.ebuild => zram-init-3.3.ebuild} |  0
+ sys-fs/emount/ChangeLog                            |  5 ++
+ sys-fs/emount/Manifest                             |  2 +-
+ .../{emount-2.8.2.ebuild => emount-2.8.3.ebuild}   |  2 +-
+ sys-fs/squash_dir/ChangeLog                        | 74 ++++++++++++----------
+ sys-fs/squash_dir/Manifest                         |  2 +-
+ ...uash_dir-13.7.ebuild => squash_dir-13.8.ebuild} |  0
+ sys-fs/squashmount/ChangeLog                       |  5 ++
+ sys-fs/squashmount/Manifest                        |  2 +-
+ ...unt-12.0.0.ebuild => squashmount-12.0.1.ebuild} |  2 +-
+ sys-kernel/kernel/ChangeLog                        | 43 +++++++------
+ sys-kernel/kernel/Manifest                         |  2 +-
+ .../{kernel-1.34.ebuild => kernel-1.35.ebuild}     |  0
+ 76 files changed, 274 insertions(+), 212 deletions(-)
+ rename app-admin/sudox/{sudox-3.17.ebuild => sudox-3.18.ebuild} (87%)
+ rename app-arch/archwrap/{archwrap-1.21.ebuild => archwrap-1.22.ebuild} (100%)
+ rename app-arch/bzwc/{bzwc-2.15.ebuild => bzwc-2.16.ebuild} (90%)
+ rename app-portage/portage-bashrc-mv/{portage-bashrc-mv-13.5.ebuild => portage-bashrc-mv-13.6.ebuild} (100%)
+ rename app-portage/trickyfetch/{trickyfetch-8.4.ebuild => trickyfetch-8.5.ebuild} (92%)
+ rename app-portage/world-mv/{world-mv-3.12-r1.ebuild => world-mv-3.13.ebuild} (90%)
+ rename app-shells/runtitle/{runtitle-2.5-r1.ebuild => runtitle-2.6.ebuild} (88%)
+ rename app-shells/set_prompt/{set_prompt-1.19.ebuild => set_prompt-1.20.ebuild} (100%)
+ rename app-shells/termcolors-mv/{termcolors-mv-3.6.ebuild => termcolors-mv-3.7.ebuild} (100%)
+ rename app-shells/zshrc-mv/{zshrc-mv-2.17.ebuild => zshrc-mv-2.18.ebuild} (97%)
+ rename dev-util/diffhelp/{diffhelp-1.7-r1.ebuild => diffhelp-1.8.ebuild} (87%)
+ delete mode 100644 media-video/video-mv/video-mv-7.17.ebuild
+ rename media-video/video-mv/{video-mv-8.0.ebuild => video-mv-8.1.ebuild} (100%)
+ rename net-firewall/firewall-mv/{firewall-mv-8.11.ebuild => firewall-mv-8.12.ebuild} (100%)
+ rename net-misc/sshstart/{sshstart-2.11.ebuild => sshstart-2.12.ebuild} (88%)
+ rename sys-apps/cpi/{cpi-2.7-r1.ebuild => cpi-2.8.ebuild} (87%)
+ rename sys-apps/openrc-wrapper/{openrc-wrapper-1.6.ebuild => openrc-wrapper-1.7.ebuild} (90%)
+ rename sys-apps/schedule/{schedule-7.0.4.ebuild => schedule-7.0.5.ebuild} (99%)
+ rename sys-apps/starter/{starter-2.13.ebuild => starter-2.14.ebuild} (90%)
+ rename sys-block/zram-init/{zram-init-3.2.ebuild => zram-init-3.3.ebuild} (100%)
+ rename sys-fs/emount/{emount-2.8.2.ebuild => emount-2.8.3.ebuild} (97%)
+ rename sys-fs/squash_dir/{squash_dir-13.7.ebuild => squash_dir-13.8.ebuild} (100%)
+ rename sys-fs/squashmount/{squashmount-12.0.0.ebuild => squashmount-12.0.1.ebuild} (99%)
+ rename sys-kernel/kernel/{kernel-1.34.ebuild => kernel-1.35.ebuild} (100%)
 *** syncing '/home/mgorny/repos/mv'...
 *** synced '/home/mgorny/repos/mv'
  * Sync succeeded
