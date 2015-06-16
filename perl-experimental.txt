@@ -99,7 +99,51 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   6eb118f..1dd2cd7  master     -> origin/master
+Updating 6eb118f..1dd2cd7
+Fast-forward
+ dev-perl/CGI-Cache/CGI-Cache-1.420.100.ebuild      |  23 -----
+ dev-perl/CGI-Cache/CGI-Cache-1.420.700.ebuild      |  42 ++++++++
+ dev-perl/CGI-Cache/Manifest                        |   2 +-
+ .../Data-Currency/Data-Currency-0.40.20.ebuild     |  25 -----
+ dev-perl/Data-Currency/Data-Currency-0.60.0.ebuild |  35 +++++++
+ dev-perl/Data-Currency/Manifest                    |   2 +-
+ .../Devel-Autoflush/Devel-Autoflush-0.50.0.ebuild  |  25 -----
+ .../Devel-Autoflush/Devel-Autoflush-0.60.0.ebuild  |  29 ++++++
+ dev-perl/Devel-Autoflush/Manifest                  |   2 +-
+ dev-perl/Dir-Self/Dir-Self-0.10.ebuild             |  16 ---
+ dev-perl/Dir-Self/Dir-Self-0.110.0.ebuild          |  25 +++++
+ dev-perl/Dir-Self/Manifest                         |   2 +-
+ .../Dist-Zilla-Plugin-PodWeaver-3.101.641.ebuild   |  39 --------
+ .../Dist-Zilla-Plugin-PodWeaver-4.6.0.ebuild       |  32 ++++++
+ dev-perl/Dist-Zilla-Plugin-PodWeaver/Manifest      |   2 +-
+ dev-perl/Pod-Elemental-PerlMunger/Manifest         |   2 +-
+ .../Pod-Elemental-PerlMunger-0.200.2.ebuild        |  34 +++++++
+ .../Pod-Elemental-PerlMunger-0.93.332.ebuild       |  56 -----------
+ dev-perl/Pod-Elemental/Manifest                    |   2 +-
+ .../Pod-Elemental/Pod-Elemental-0.102.362.ebuild   |  76 ---------------
+ .../Pod-Elemental/Pod-Elemental-0.103.4.ebuild     |  39 ++++++++
+ dev-perl/Pod-Weaver/Manifest                       |   2 +-
+ dev-perl/Pod-Weaver/Pod-Weaver-3.101.638.ebuild    | 108 ---------------------
+ dev-perl/Pod-Weaver/Pod-Weaver-4.12.0.ebuild       |  43 ++++++++
+ 24 files changed, 287 insertions(+), 376 deletions(-)
+ delete mode 100644 dev-perl/CGI-Cache/CGI-Cache-1.420.100.ebuild
+ create mode 100644 dev-perl/CGI-Cache/CGI-Cache-1.420.700.ebuild
+ delete mode 100644 dev-perl/Data-Currency/Data-Currency-0.40.20.ebuild
+ create mode 100644 dev-perl/Data-Currency/Data-Currency-0.60.0.ebuild
+ delete mode 100644 dev-perl/Devel-Autoflush/Devel-Autoflush-0.50.0.ebuild
+ create mode 100644 dev-perl/Devel-Autoflush/Devel-Autoflush-0.60.0.ebuild
+ delete mode 100644 dev-perl/Dir-Self/Dir-Self-0.10.ebuild
+ create mode 100644 dev-perl/Dir-Self/Dir-Self-0.110.0.ebuild
+ delete mode 100644 dev-perl/Dist-Zilla-Plugin-PodWeaver/Dist-Zilla-Plugin-PodWeaver-3.101.641.ebuild
+ create mode 100644 dev-perl/Dist-Zilla-Plugin-PodWeaver/Dist-Zilla-Plugin-PodWeaver-4.6.0.ebuild
+ create mode 100644 dev-perl/Pod-Elemental-PerlMunger/Pod-Elemental-PerlMunger-0.200.2.ebuild
+ delete mode 100644 dev-perl/Pod-Elemental-PerlMunger/Pod-Elemental-PerlMunger-0.93.332.ebuild
+ delete mode 100644 dev-perl/Pod-Elemental/Pod-Elemental-0.102.362.ebuild
+ create mode 100644 dev-perl/Pod-Elemental/Pod-Elemental-0.103.4.ebuild
+ delete mode 100644 dev-perl/Pod-Weaver/Pod-Weaver-3.101.638.ebuild
+ create mode 100644 dev-perl/Pod-Weaver/Pod-Weaver-4.12.0.ebuild
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
