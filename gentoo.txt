@@ -96,114 +96,36 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   d8aa19b..2f0c6b1  master     -> origin/master
-Updating d8aa19b..2f0c6b1
+   2f0c6b1..014eaf8  master     -> origin/master
+Updating 2f0c6b1..014eaf8
 Fast-forward
- app-arch/p7zip/ChangeLog                           |   5 +-
- app-arch/p7zip/Manifest                            |  28 ++----
- app-arch/p7zip/p7zip-9.20.1-r5.ebuild              |   4 +-
- dev-db/postgresql/ChangeLog                        |  12 ++-
- dev-db/postgresql/Manifest                         |  28 ++++--
- dev-db/postgresql/postgresql-9.0.21.ebuild         |   4 +-
- dev-db/postgresql/postgresql-9.1.17.ebuild         |   4 +-
- dev-db/postgresql/postgresql-9.2.12.ebuild         |   4 +-
- dev-db/postgresql/postgresql-9.3.8.ebuild          |   4 +-
- dev-db/postgresql/postgresql-9.4.3.ebuild          |   4 +-
- dev-java/antlr/ChangeLog                           |   5 +-
- dev-java/antlr/Manifest                            |  30 +++---
- dev-java/antlr/antlr-4.4.ebuild                    |   4 +-
- dev-python/futures/ChangeLog                       |   8 +-
- dev-python/futures/Manifest                        |  32 ++-----
- dev-python/futures/futures-2.1.4.ebuild            |  33 -------
- dev-python/futures/futures-2.1.5.ebuild            |  35 -------
- .../{futures-2.1.6.ebuild => futures-3.0.2.ebuild} |   9 +-
- dev-python/pyxattr/ChangeLog                       |   6 +-
- dev-python/pyxattr/Manifest                        |  30 ++++--
- dev-python/pyxattr/pyxattr-0.5.3.ebuild            |   7 +-
- dev-python/pyxattr/pyxattr-0.5.5.ebuild            |   6 +-
- dev-python/pyxattr/pyxattr-9999.ebuild             |  23 ++---
- dev-util/android-studio/ChangeLog                  |   6 +-
- dev-util/android-studio/Manifest                   |  34 +++----
- .../android-studio-1.1.0.135.1740770-r1.ebuild     |  60 ------------
- media-gfx/assimp/ChangeLog                         |  20 ----
- media-gfx/assimp/Manifest                          |  28 ------
- media-libs/assimp/ChangeLog                        |  10 ++
- media-libs/assimp/Manifest                         |  20 ++++
- .../assimp/assimp-3.0.1270.ebuild                  |   4 +-
- .../assimp/assimp-3.1.1.ebuild                     |   4 +-
- {media-gfx => media-libs}/assimp/metadata.xml      |   0
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/app-arch/p7zip-9.20.1-r5        |   4 +-
- metadata/md5-cache/dev-db/postgresql-9.0.21        |   4 +-
- metadata/md5-cache/dev-db/postgresql-9.1.17        |   4 +-
- metadata/md5-cache/dev-db/postgresql-9.2.12        |   4 +-
- metadata/md5-cache/dev-db/postgresql-9.3.8         |   4 +-
- metadata/md5-cache/dev-db/postgresql-9.4.3         |   4 +-
- metadata/md5-cache/dev-java/antlr-4.4              |   4 +-
- metadata/md5-cache/dev-python/futures-2.1.4        |  14 ---
- metadata/md5-cache/dev-python/futures-2.1.5        |  14 ---
- .../dev-python/{futures-2.1.6 => futures-3.0.2}    |   4 +-
- metadata/md5-cache/dev-python/pyxattr-0.5.3        |   4 +-
- metadata/md5-cache/dev-python/pyxattr-0.5.5        |   6 +-
- metadata/md5-cache/dev-python/pyxattr-9999         |   6 +-
- .../dev-util/android-studio-1.1.0.135.1740770-r1   |  14 ---
- .../{media-gfx => media-libs}/assimp-3.0.1270      |   2 +-
- .../{media-gfx => media-libs}/assimp-3.1.1         |   2 +-
- metadata/md5-cache/net-misc/stunnel-5.17           |   4 +-
- .../{phrap-1.080812 => phrap-1.080812-r1}          |   7 +-
- metadata/md5-cache/sci-biology/rmblast-1.2         |  12 ---
- metadata/md5-cache/sci-biology/rmblast-1.2-r1      |   4 +-
- metadata/md5-cache/sys-kernel/ck-sources-3.14.44   |  14 +++
- metadata/md5-cache/sys-kernel/ck-sources-3.18.16   |  14 +++
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- net-misc/stunnel/ChangeLog                         |   5 +-
- net-misc/stunnel/Manifest                          |  12 ++-
- net-misc/stunnel/stunnel-5.17.ebuild               |   4 +-
- profiles/arch/powerpc/ChangeLog                    |   5 +-
- profiles/arch/powerpc/ppc64/package.use.mask       |   6 +-
- profiles/updates/2Q-2015                           |   1 +
- profiles/use.local.desc                            |   6 +-
- sci-biology/phrap/ChangeLog                        |  12 ++-
- sci-biology/phrap/Manifest                         |  26 +++--
- ...ap-1.080812.ebuild => phrap-1.080812-r1.ebuild} |  27 +++---
- sci-biology/rmblast/ChangeLog                      |   8 +-
- sci-biology/rmblast/Manifest                       |  27 ++++--
- sci-biology/rmblast/rmblast-1.2-r1.ebuild          |   9 +-
- sci-biology/rmblast/rmblast-1.2.ebuild             |  45 ---------
- sys-kernel/ck-sources/ChangeLog                    |   9 +-
- sys-kernel/ck-sources/Manifest                     |  37 +++++---
- sys-kernel/ck-sources/ck-sources-3.14.44.ebuild    | 105 +++++++++++++++++++++
- sys-kernel/ck-sources/ck-sources-3.18.16.ebuild    | 105 +++++++++++++++++++++
- 79 files changed, 591 insertions(+), 530 deletions(-)
- delete mode 100644 dev-python/futures/futures-2.1.4.ebuild
- delete mode 100644 dev-python/futures/futures-2.1.5.ebuild
- rename dev-python/futures/{futures-2.1.6.ebuild => futures-3.0.2.ebuild} (74%)
- delete mode 100644 dev-util/android-studio/android-studio-1.1.0.135.1740770-r1.ebuild
- delete mode 100644 media-gfx/assimp/ChangeLog
- delete mode 100644 media-gfx/assimp/Manifest
- create mode 100644 media-libs/assimp/ChangeLog
- create mode 100644 media-libs/assimp/Manifest
- rename {media-gfx => media-libs}/assimp/assimp-3.0.1270.ebuild (83%)
- rename {media-gfx => media-libs}/assimp/assimp-3.1.1.ebuild (85%)
- rename {media-gfx => media-libs}/assimp/metadata.xml (100%)
- delete mode 100644 metadata/md5-cache/dev-python/futures-2.1.4
- delete mode 100644 metadata/md5-cache/dev-python/futures-2.1.5
- rename metadata/md5-cache/dev-python/{futures-2.1.6 => futures-3.0.2} (94%)
- delete mode 100644 metadata/md5-cache/dev-util/android-studio-1.1.0.135.1740770-r1
- rename metadata/md5-cache/{media-gfx => media-libs}/assimp-3.0.1270 (95%)
- rename metadata/md5-cache/{media-gfx => media-libs}/assimp-3.1.1 (95%)
- rename metadata/md5-cache/sci-biology/{phrap-1.080812 => phrap-1.080812-r1} (51%)
- delete mode 100644 metadata/md5-cache/sci-biology/rmblast-1.2
- create mode 100644 metadata/md5-cache/sys-kernel/ck-sources-3.14.44
- create mode 100644 metadata/md5-cache/sys-kernel/ck-sources-3.18.16
- rename sci-biology/phrap/{phrap-1.080812.ebuild => phrap-1.080812-r1.ebuild} (54%)
- delete mode 100644 sci-biology/rmblast/rmblast-1.2.ebuild
- create mode 100644 sys-kernel/ck-sources/ck-sources-3.14.44.ebuild
- create mode 100644 sys-kernel/ck-sources/ck-sources-3.18.16.ebuild
+ dev-java/jboss-logging/ChangeLog                   |  6 ++-
+ dev-java/jboss-logging/Manifest                    | 25 +------------
+ .../jboss-logging/jboss-logging-3.1.3-r1.ebuild    | 43 ----------------------
+ dev-java/jboss-logging/jboss-logging-3.1.3.ebuild  | 35 ------------------
+ dev-java/jdom/ChangeLog                            |  6 ++-
+ dev-java/jdom/Manifest                             | 26 +++++--------
+ dev-java/jdom/jdom-1.1.3.ebuild                    |  4 +-
+ dev-java/jdom/jdom-2.0.6.ebuild                    |  4 +-
+ dev-java/slf4j-api/ChangeLog                       |  5 ++-
+ dev-java/slf4j-api/Manifest                        | 24 +++++-------
+ dev-java/slf4j-api/slf4j-api-1.7.7.ebuild          |  4 +-
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ metadata/md5-cache/dev-java/jboss-logging-3.1.3    | 13 -------
+ metadata/md5-cache/dev-java/jboss-logging-3.1.3-r1 | 13 -------
+ metadata/md5-cache/dev-java/jdom-1.1.3             |  4 +-
+ metadata/md5-cache/dev-java/jdom-2.0.6             |  4 +-
+ metadata/md5-cache/dev-java/slf4j-api-1.7.7        |  4 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ 22 files changed, 52 insertions(+), 180 deletions(-)
+ delete mode 100644 dev-java/jboss-logging/jboss-logging-3.1.3-r1.ebuild
+ delete mode 100644 dev-java/jboss-logging/jboss-logging-3.1.3.ebuild
+ delete mode 100644 metadata/md5-cache/dev-java/jboss-logging-3.1.3
+ delete mode 100644 metadata/md5-cache/dev-java/jboss-logging-3.1.3-r1
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
