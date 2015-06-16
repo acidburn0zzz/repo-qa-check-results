@@ -77,7 +77,69 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/bobwya/miscellaneous_ebuilds
+   5dbaf3a..34de296  master     -> origin/master
+Updating 5dbaf3a..34de296
+Fast-forward
+ x11-drivers/nvidia-drivers/ChangeLog               |  560 ++++
+ x11-drivers/nvidia-drivers/ChangeLog-2013          | 2678 ++++++++++++++++++++
+ x11-drivers/nvidia-drivers/Manifest                |   52 +
+ .../files/50nvidia-prelink-blacklist               |    1 +
+ .../nvidia-drivers/files/95-nvidia-settings        |    2 +
+ .../nvidia-drivers/files/NVIDIA_glx-defines.patch  |   11 +
+ .../nvidia-drivers/files/NVIDIA_glx-glheader.patch |   13 +
+ x11-drivers/nvidia-drivers/files/nvidia-169.07     |   14 +
+ .../files/nvidia-drivers-331.13-pax-usercopy.patch |   52 +
+ .../files/nvidia-drivers-337.12-pax-constify.patch |   25 +
+ .../files/nvidia-drivers-346.16-pax-constify.patch |   25 +
+ .../files/nvidia-drivers-346.16-pax-usercopy.patch |   47 +
+ .../files/nvidia-drivers-linux-4.0.patch           |   28 +
+ .../files/nvidia-drivers-pax-const.patch           |   17 +
+ .../files/nvidia-drivers-pax-usercopy.patch        |   54 +
+ .../files/nvidia-drivers-settings.desktop          |    7 +
+ .../nvidia-drivers/files/nvidia-persistenced.conf  |    8 +
+ .../nvidia-drivers/files/nvidia-persistenced.init  |   25 +
+ x11-drivers/nvidia-drivers/files/nvidia-smi.init   |   25 +
+ x11-drivers/nvidia-drivers/files/nvidia-udev.sh    |   17 +
+ x11-drivers/nvidia-drivers/files/nvidia-uvm.conf   |    3 +
+ x11-drivers/nvidia-drivers/files/nvidia.udev-rule  |    6 +
+ x11-drivers/nvidia-drivers/metadata.xml            |   15 +
+ .../nvidia-drivers/nvidia-drivers-331.113.ebuild   |  462 ++++
+ .../nvidia-drivers/nvidia-drivers-340.76.ebuild    |  468 ++++
+ .../nvidia-drivers/nvidia-drivers-343.36.ebuild    |  468 ++++
+ .../nvidia-drivers/nvidia-drivers-346.72.ebuild    |  494 ++++
+ .../nvidia-drivers/nvidia-drivers-349.16.ebuild    |  489 ++++
+ .../nvidia-drivers/nvidia-drivers-352.09.ebuild    |  489 ++++
+ 29 files changed, 6555 insertions(+)
+ create mode 100644 x11-drivers/nvidia-drivers/ChangeLog
+ create mode 100644 x11-drivers/nvidia-drivers/ChangeLog-2013
+ create mode 100644 x11-drivers/nvidia-drivers/Manifest
+ create mode 100644 x11-drivers/nvidia-drivers/files/50nvidia-prelink-blacklist
+ create mode 100644 x11-drivers/nvidia-drivers/files/95-nvidia-settings
+ create mode 100644 x11-drivers/nvidia-drivers/files/NVIDIA_glx-defines.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/NVIDIA_glx-glheader.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-169.07
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-331.13-pax-usercopy.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-337.12-pax-constify.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-346.16-pax-constify.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-346.16-pax-usercopy.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-linux-4.0.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-pax-const.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-pax-usercopy.patch
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-settings.desktop
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-persistenced.conf
+ create mode 100755 x11-drivers/nvidia-drivers/files/nvidia-persistenced.init
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-smi.init
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-udev.sh
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-uvm.conf
+ create mode 100644 x11-drivers/nvidia-drivers/files/nvidia.udev-rule
+ create mode 100644 x11-drivers/nvidia-drivers/metadata.xml
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-331.113.ebuild
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-340.76.ebuild
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-343.36.ebuild
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-346.72.ebuild
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-349.16.ebuild
+ create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-352.09.ebuild
 *** syncing '/home/mgorny/repos/bobwya'...
 *** synced '/home/mgorny/repos/bobwya'
  * Sync succeeded
@@ -114,9 +176,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -183,7 +243,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tarantool', named 'tarantool', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -191,7 +250,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n900', named 'n900', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-experimental', named 'postgresql-experimental', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named 'njw', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ubuntu', named 'ubuntu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
