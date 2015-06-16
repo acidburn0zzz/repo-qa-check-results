@@ -95,7 +95,90 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   20566d7..d8aa19b  master     -> origin/master
+Updating 20566d7..d8aa19b
+Fast-forward
+ app-emulation/xen-tools/ChangeLog                  |   9 +-
+ app-emulation/xen-tools/Manifest                   |  36 +-
+ app-emulation/xen-tools/xen-tools-4.2.5-r7.ebuild  |   4 +-
+ app-emulation/xen-tools/xen-tools-4.5.0-r6.ebuild  |   4 +-
+ app-emulation/xen/ChangeLog                        |   9 +-
+ app-emulation/xen/Manifest                         |  36 +-
+ app-emulation/xen/xen-4.2.5-r11.ebuild             |   4 +-
+ app-emulation/xen/xen-4.5.0-r8.ebuild              |   4 +-
+ dev-java/batik/ChangeLog                           |   5 +-
+ dev-java/batik/Manifest                            |  24 +-
+ dev-java/batik/batik-1.8.ebuild                    |   4 +-
+ dev-java/commons-httpclient/ChangeLog              |   6 +-
+ dev-java/commons-httpclient/Manifest               |  27 +-
+ .../commons-httpclient-3.1-r1.ebuild               |   4 +-
+ dev-java/xmlgraphics-commons/ChangeLog             |   7 +-
+ dev-java/xmlgraphics-commons/Manifest              |  20 +-
+ .../xmlgraphics-commons-1.5.ebuild                 |   6 +-
+ dev-python/fudge/ChangeLog                         |   7 +-
+ dev-python/fudge/Manifest                          |  26 +-
+ dev-python/fudge/fudge-1.1.0.ebuild                |  36 ++
+ dev-python/paste/ChangeLog                         |   5 +-
+ dev-python/paste/Manifest                          |  36 +-
+ dev-python/paste/paste-2.0.2.ebuild                |   4 +-
+ dev-python/pastescript/ChangeLog                   |   5 +-
+ dev-python/pastescript/Manifest                    |  36 +-
+ dev-python/pastescript/pastescript-2.0.2.ebuild    |   4 +-
+ dev-python/pypam/ChangeLog                         |   5 +-
+ dev-python/pypam/Manifest                          |  24 +-
+ dev-python/pypam/pypam-0.5.0-r3.ebuild             |   4 +-
+ dev-python/xlwt/ChangeLog                          |   5 +-
+ dev-python/xlwt/Manifest                           |  26 +-
+ dev-python/xlwt/xlwt-1.0.0.ebuild                  |  11 +-
+ dev-util/android-ndk/ChangeLog                     |   5 +-
+ dev-util/android-ndk/Manifest                      |  34 +-
+ dev-util/android-ndk/metadata.xml                  |  17 +-
+ metadata/dtd/timestamp.chk                         |   2 +-
+ metadata/glsa/timestamp.chk                        |   2 +-
+ metadata/md5-cache/app-emulation/xen-4.2.5-r11     |   4 +-
+ metadata/md5-cache/app-emulation/xen-4.5.0-r8      |   4 +-
+ .../md5-cache/app-emulation/xen-tools-4.2.5-r7     |   4 +-
+ .../md5-cache/app-emulation/xen-tools-4.5.0-r6     |   4 +-
+ metadata/md5-cache/dev-java/batik-1.8              |   4 +-
+ .../md5-cache/dev-java/commons-httpclient-3.1-r1   |   4 +-
+ .../md5-cache/dev-java/xmlgraphics-commons-1.5     |   4 +-
+ metadata/md5-cache/dev-python/fudge-1.1.0          |  14 +
+ metadata/md5-cache/dev-python/paste-2.0.2          |   4 +-
+ metadata/md5-cache/dev-python/pastescript-2.0.2    |   4 +-
+ metadata/md5-cache/dev-python/pypam-0.5.0-r3       |   4 +-
+ metadata/md5-cache/dev-python/xlwt-1.0.0           |   4 +-
+ .../net-ftp/{pure-ftpd-1.0.38 => pure-ftpd-1.0.40} |   4 +-
+ .../sys-apps/{hdparm-9.43 => hdparm-9.47}          |   4 +-
+ metadata/md5-cache/www-client/seamonkey-2.32       |  13 -
+ metadata/md5-cache/www-client/seamonkey-2.33       |  13 -
+ metadata/md5-cache/www-client/seamonkey-2.33.1-r1  |   2 +-
+ metadata/news/timestamp.chk                        |   2 +-
+ metadata/timestamp                                 |   2 +-
+ metadata/timestamp.chk                             |   2 +-
+ metadata/timestamp.x                               |   2 +-
+ net-ftp/pure-ftpd/ChangeLog                        |   8 +-
+ net-ftp/pure-ftpd/Manifest                         |  32 +-
+ ...-ftpd-1.0.38.ebuild => pure-ftpd-1.0.40.ebuild} |   2 +-
+ sys-apps/hdparm/ChangeLog                          |   8 +-
+ sys-apps/hdparm/Manifest                           |  38 +--
+ .../{hdparm-9.43.ebuild => hdparm-9.47.ebuild}     |   4 +-
+ www-client/seamonkey/ChangeLog                     |   6 +-
+ www-client/seamonkey/Manifest                      |  87 +----
+ www-client/seamonkey/seamonkey-2.32.ebuild         | 363 --------------------
+ www-client/seamonkey/seamonkey-2.33.1-r1.ebuild    |   7 +-
+ www-client/seamonkey/seamonkey-2.33.ebuild         | 364 ---------------------
+ 69 files changed, 432 insertions(+), 1092 deletions(-)
+ create mode 100644 dev-python/fudge/fudge-1.1.0.ebuild
+ create mode 100644 metadata/md5-cache/dev-python/fudge-1.1.0
+ rename metadata/md5-cache/net-ftp/{pure-ftpd-1.0.38 => pure-ftpd-1.0.40} (91%)
+ rename metadata/md5-cache/sys-apps/{hdparm-9.43 => hdparm-9.47} (84%)
+ delete mode 100644 metadata/md5-cache/www-client/seamonkey-2.32
+ delete mode 100644 metadata/md5-cache/www-client/seamonkey-2.33
+ rename net-ftp/pure-ftpd/{pure-ftpd-1.0.38.ebuild => pure-ftpd-1.0.40.ebuild} (98%)
+ rename sys-apps/hdparm/{hdparm-9.43.ebuild => hdparm-9.47.ebuild} (86%)
+ delete mode 100644 www-client/seamonkey/seamonkey-2.32.ebuild
+ delete mode 100644 www-client/seamonkey/seamonkey-2.33.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
