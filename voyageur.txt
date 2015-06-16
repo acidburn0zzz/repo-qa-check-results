@@ -102,7 +102,58 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tarantool', named 'tarantool', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://cafarelli.fr/git/voyageur-overlay
+   c4b5312..9747fde  master     -> origin/master
+Updating c4b5312..9747fde
+Fast-forward
+ dev-libs/libedit/ChangeLog                         | 365 +++++++++++++++++++++
+ dev-libs/libedit/Manifest                          |   6 +
+ .../libedit-20120311-3.0-el_fn_sh_complete.patch   | 258 +++++++++++++++
+ .../libedit/files/libedit-ncursesprivate.patch     |  13 +
+ dev-libs/libedit/libedit-20150325.3.1.ebuild       |  49 +++
+ dev-libs/libedit/metadata.xml                      |  13 +
+ metadata/md5-cache/app-admin/aws-cli-1.7.25        |   2 +-
+ metadata/md5-cache/app-admin/vca-cli-11_rc1        |   2 +-
+ metadata/md5-cache/app-backup/rdiff-backup-1.3.3   |   2 +-
+ metadata/md5-cache/app-editors/texworks-0.4.6      |   2 +-
+ metadata/md5-cache/app-misc/welcome2l-3.04         |   2 +-
+ metadata/md5-cache/dev-libs/libedit-20150325.3.1   |  13 +
+ metadata/md5-cache/dev-perl/Term-Animation-2.6     |   2 +-
+ metadata/md5-cache/dev-python/bcdoc-0.14.0         |   2 +-
+ metadata/md5-cache/dev-python/botocore-0.106.0     |   2 +-
+ metadata/md5-cache/dev-python/iptools-0.6.1        |   2 +-
+ metadata/md5-cache/dev-python/jmespath-0.7.1       |   2 +-
+ metadata/md5-cache/dev-python/pyvcloud-12          |   2 +-
+ metadata/md5-cache/dev-python/robobrowser-0.5.1    |   2 +-
+ metadata/md5-cache/dev-python/robobrowser-0.5.2    |   2 +-
+ metadata/md5-cache/games-arcade/blobby2-1.0        |   2 +-
+ metadata/md5-cache/games-board/pysolfc-9999        |   2 +-
+ metadata/md5-cache/games-misc/hot-babe-0.2.2       |   2 +-
+ metadata/md5-cache/games-puzzle/sudoku-sensei-2.0  |   2 +-
+ .../md5-cache/games-simulation/dangerdeep-9999     |   2 +-
+ metadata/md5-cache/media-libs/libtxc_dxtn_s2tc-1.0 |   2 +-
+ .../md5-cache/media-libs/libtxc_dxtn_s2tc-9999     |   2 +-
+ metadata/md5-cache/media-sound/munt-1.5.0          |   2 +-
+ metadata/md5-cache/net-misc/dagr-0.60              |   2 +-
+ metadata/md5-cache/net-misc/dagr-9999              |   2 +-
+ metadata/md5-cache/sys-apps/sensei-raw-ctl-9999    |   2 +-
+ metadata/md5-cache/sys-fs/exfat-nofuse-9999        |   2 +-
+ metadata/md5-cache/www-apps/gateone-1.1            |   2 +-
+ metadata/md5-cache/www-apps/gateone-9999           |   2 +-
+ metadata/md5-cache/www-apps/piwigo-2.6.4           |   2 +-
+ metadata/md5-cache/www-apps/piwigo-2.7.3           |   2 +-
+ metadata/md5-cache/www-apps/piwigo-2.7.4           |   2 +-
+ metadata/md5-cache/www-apps/tt-rss-9999            |   2 +-
+ metadata/md5-cache/x11-misc/3dfsb-1.1.1            |   2 +-
+ metadata/md5-cache/x11-misc/fsv-0.10_rc1           |   2 +-
+ 40 files changed, 750 insertions(+), 33 deletions(-)
+ create mode 100644 dev-libs/libedit/ChangeLog
+ create mode 100644 dev-libs/libedit/Manifest
+ create mode 100644 dev-libs/libedit/files/libedit-20120311-3.0-el_fn_sh_complete.patch
+ create mode 100644 dev-libs/libedit/files/libedit-ncursesprivate.patch
+ create mode 100644 dev-libs/libedit/libedit-20150325.3.1.ebuild
+ create mode 100644 dev-libs/libedit/metadata.xml
+ create mode 100644 metadata/md5-cache/dev-libs/libedit-20150325.3.1
 *** syncing '/home/mgorny/repos/voyageur'...
 *** synced '/home/mgorny/repos/voyageur'
  * Sync succeeded

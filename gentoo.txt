@@ -96,89 +96,114 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   20566d7..d8aa19b  master     -> origin/master
-Updating 20566d7..d8aa19b
+   d8aa19b..2f0c6b1  master     -> origin/master
+Updating d8aa19b..2f0c6b1
 Fast-forward
- app-emulation/xen-tools/ChangeLog                  |   9 +-
- app-emulation/xen-tools/Manifest                   |  36 +-
- app-emulation/xen-tools/xen-tools-4.2.5-r7.ebuild  |   4 +-
- app-emulation/xen-tools/xen-tools-4.5.0-r6.ebuild  |   4 +-
- app-emulation/xen/ChangeLog                        |   9 +-
- app-emulation/xen/Manifest                         |  36 +-
- app-emulation/xen/xen-4.2.5-r11.ebuild             |   4 +-
- app-emulation/xen/xen-4.5.0-r8.ebuild              |   4 +-
- dev-java/batik/ChangeLog                           |   5 +-
- dev-java/batik/Manifest                            |  24 +-
- dev-java/batik/batik-1.8.ebuild                    |   4 +-
- dev-java/commons-httpclient/ChangeLog              |   6 +-
- dev-java/commons-httpclient/Manifest               |  27 +-
- .../commons-httpclient-3.1-r1.ebuild               |   4 +-
- dev-java/xmlgraphics-commons/ChangeLog             |   7 +-
- dev-java/xmlgraphics-commons/Manifest              |  20 +-
- .../xmlgraphics-commons-1.5.ebuild                 |   6 +-
- dev-python/fudge/ChangeLog                         |   7 +-
- dev-python/fudge/Manifest                          |  26 +-
- dev-python/fudge/fudge-1.1.0.ebuild                |  36 ++
- dev-python/paste/ChangeLog                         |   5 +-
- dev-python/paste/Manifest                          |  36 +-
- dev-python/paste/paste-2.0.2.ebuild                |   4 +-
- dev-python/pastescript/ChangeLog                   |   5 +-
- dev-python/pastescript/Manifest                    |  36 +-
- dev-python/pastescript/pastescript-2.0.2.ebuild    |   4 +-
- dev-python/pypam/ChangeLog                         |   5 +-
- dev-python/pypam/Manifest                          |  24 +-
- dev-python/pypam/pypam-0.5.0-r3.ebuild             |   4 +-
- dev-python/xlwt/ChangeLog                          |   5 +-
- dev-python/xlwt/Manifest                           |  26 +-
- dev-python/xlwt/xlwt-1.0.0.ebuild                  |  11 +-
- dev-util/android-ndk/ChangeLog                     |   5 +-
- dev-util/android-ndk/Manifest                      |  34 +-
- dev-util/android-ndk/metadata.xml                  |  17 +-
+ app-arch/p7zip/ChangeLog                           |   5 +-
+ app-arch/p7zip/Manifest                            |  28 ++----
+ app-arch/p7zip/p7zip-9.20.1-r5.ebuild              |   4 +-
+ dev-db/postgresql/ChangeLog                        |  12 ++-
+ dev-db/postgresql/Manifest                         |  28 ++++--
+ dev-db/postgresql/postgresql-9.0.21.ebuild         |   4 +-
+ dev-db/postgresql/postgresql-9.1.17.ebuild         |   4 +-
+ dev-db/postgresql/postgresql-9.2.12.ebuild         |   4 +-
+ dev-db/postgresql/postgresql-9.3.8.ebuild          |   4 +-
+ dev-db/postgresql/postgresql-9.4.3.ebuild          |   4 +-
+ dev-java/antlr/ChangeLog                           |   5 +-
+ dev-java/antlr/Manifest                            |  30 +++---
+ dev-java/antlr/antlr-4.4.ebuild                    |   4 +-
+ dev-python/futures/ChangeLog                       |   8 +-
+ dev-python/futures/Manifest                        |  32 ++-----
+ dev-python/futures/futures-2.1.4.ebuild            |  33 -------
+ dev-python/futures/futures-2.1.5.ebuild            |  35 -------
+ .../{futures-2.1.6.ebuild => futures-3.0.2.ebuild} |   9 +-
+ dev-python/pyxattr/ChangeLog                       |   6 +-
+ dev-python/pyxattr/Manifest                        |  30 ++++--
+ dev-python/pyxattr/pyxattr-0.5.3.ebuild            |   7 +-
+ dev-python/pyxattr/pyxattr-0.5.5.ebuild            |   6 +-
+ dev-python/pyxattr/pyxattr-9999.ebuild             |  23 ++---
+ dev-util/android-studio/ChangeLog                  |   6 +-
+ dev-util/android-studio/Manifest                   |  34 +++----
+ .../android-studio-1.1.0.135.1740770-r1.ebuild     |  60 ------------
+ media-gfx/assimp/ChangeLog                         |  20 ----
+ media-gfx/assimp/Manifest                          |  28 ------
+ media-libs/assimp/ChangeLog                        |  10 ++
+ media-libs/assimp/Manifest                         |  20 ++++
+ .../assimp/assimp-3.0.1270.ebuild                  |   4 +-
+ .../assimp/assimp-3.1.1.ebuild                     |   4 +-
+ {media-gfx => media-libs}/assimp/metadata.xml      |   0
  metadata/dtd/timestamp.chk                         |   2 +-
  metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/app-emulation/xen-4.2.5-r11     |   4 +-
- metadata/md5-cache/app-emulation/xen-4.5.0-r8      |   4 +-
- .../md5-cache/app-emulation/xen-tools-4.2.5-r7     |   4 +-
- .../md5-cache/app-emulation/xen-tools-4.5.0-r6     |   4 +-
- metadata/md5-cache/dev-java/batik-1.8              |   4 +-
- .../md5-cache/dev-java/commons-httpclient-3.1-r1   |   4 +-
- .../md5-cache/dev-java/xmlgraphics-commons-1.5     |   4 +-
- metadata/md5-cache/dev-python/fudge-1.1.0          |  14 +
- metadata/md5-cache/dev-python/paste-2.0.2          |   4 +-
- metadata/md5-cache/dev-python/pastescript-2.0.2    |   4 +-
- metadata/md5-cache/dev-python/pypam-0.5.0-r3       |   4 +-
- metadata/md5-cache/dev-python/xlwt-1.0.0           |   4 +-
- .../net-ftp/{pure-ftpd-1.0.38 => pure-ftpd-1.0.40} |   4 +-
- .../sys-apps/{hdparm-9.43 => hdparm-9.47}          |   4 +-
- metadata/md5-cache/www-client/seamonkey-2.32       |  13 -
- metadata/md5-cache/www-client/seamonkey-2.33       |  13 -
- metadata/md5-cache/www-client/seamonkey-2.33.1-r1  |   2 +-
+ metadata/md5-cache/app-arch/p7zip-9.20.1-r5        |   4 +-
+ metadata/md5-cache/dev-db/postgresql-9.0.21        |   4 +-
+ metadata/md5-cache/dev-db/postgresql-9.1.17        |   4 +-
+ metadata/md5-cache/dev-db/postgresql-9.2.12        |   4 +-
+ metadata/md5-cache/dev-db/postgresql-9.3.8         |   4 +-
+ metadata/md5-cache/dev-db/postgresql-9.4.3         |   4 +-
+ metadata/md5-cache/dev-java/antlr-4.4              |   4 +-
+ metadata/md5-cache/dev-python/futures-2.1.4        |  14 ---
+ metadata/md5-cache/dev-python/futures-2.1.5        |  14 ---
+ .../dev-python/{futures-2.1.6 => futures-3.0.2}    |   4 +-
+ metadata/md5-cache/dev-python/pyxattr-0.5.3        |   4 +-
+ metadata/md5-cache/dev-python/pyxattr-0.5.5        |   6 +-
+ metadata/md5-cache/dev-python/pyxattr-9999         |   6 +-
+ .../dev-util/android-studio-1.1.0.135.1740770-r1   |  14 ---
+ .../{media-gfx => media-libs}/assimp-3.0.1270      |   2 +-
+ .../{media-gfx => media-libs}/assimp-3.1.1         |   2 +-
+ metadata/md5-cache/net-misc/stunnel-5.17           |   4 +-
+ .../{phrap-1.080812 => phrap-1.080812-r1}          |   7 +-
+ metadata/md5-cache/sci-biology/rmblast-1.2         |  12 ---
+ metadata/md5-cache/sci-biology/rmblast-1.2-r1      |   4 +-
+ metadata/md5-cache/sys-kernel/ck-sources-3.14.44   |  14 +++
+ metadata/md5-cache/sys-kernel/ck-sources-3.18.16   |  14 +++
  metadata/news/timestamp.chk                        |   2 +-
  metadata/timestamp                                 |   2 +-
  metadata/timestamp.chk                             |   2 +-
  metadata/timestamp.x                               |   2 +-
- net-ftp/pure-ftpd/ChangeLog                        |   8 +-
- net-ftp/pure-ftpd/Manifest                         |  32 +-
- ...-ftpd-1.0.38.ebuild => pure-ftpd-1.0.40.ebuild} |   2 +-
- sys-apps/hdparm/ChangeLog                          |   8 +-
- sys-apps/hdparm/Manifest                           |  38 +--
- .../{hdparm-9.43.ebuild => hdparm-9.47.ebuild}     |   4 +-
- www-client/seamonkey/ChangeLog                     |   6 +-
- www-client/seamonkey/Manifest                      |  87 +----
- www-client/seamonkey/seamonkey-2.32.ebuild         | 363 --------------------
- www-client/seamonkey/seamonkey-2.33.1-r1.ebuild    |   7 +-
- www-client/seamonkey/seamonkey-2.33.ebuild         | 364 ---------------------
- 69 files changed, 432 insertions(+), 1092 deletions(-)
- create mode 100644 dev-python/fudge/fudge-1.1.0.ebuild
- create mode 100644 metadata/md5-cache/dev-python/fudge-1.1.0
- rename metadata/md5-cache/net-ftp/{pure-ftpd-1.0.38 => pure-ftpd-1.0.40} (91%)
- rename metadata/md5-cache/sys-apps/{hdparm-9.43 => hdparm-9.47} (84%)
- delete mode 100644 metadata/md5-cache/www-client/seamonkey-2.32
- delete mode 100644 metadata/md5-cache/www-client/seamonkey-2.33
- rename net-ftp/pure-ftpd/{pure-ftpd-1.0.38.ebuild => pure-ftpd-1.0.40.ebuild} (98%)
- rename sys-apps/hdparm/{hdparm-9.43.ebuild => hdparm-9.47.ebuild} (86%)
- delete mode 100644 www-client/seamonkey/seamonkey-2.32.ebuild
- delete mode 100644 www-client/seamonkey/seamonkey-2.33.ebuild
+ net-misc/stunnel/ChangeLog                         |   5 +-
+ net-misc/stunnel/Manifest                          |  12 ++-
+ net-misc/stunnel/stunnel-5.17.ebuild               |   4 +-
+ profiles/arch/powerpc/ChangeLog                    |   5 +-
+ profiles/arch/powerpc/ppc64/package.use.mask       |   6 +-
+ profiles/updates/2Q-2015                           |   1 +
+ profiles/use.local.desc                            |   6 +-
+ sci-biology/phrap/ChangeLog                        |  12 ++-
+ sci-biology/phrap/Manifest                         |  26 +++--
+ ...ap-1.080812.ebuild => phrap-1.080812-r1.ebuild} |  27 +++---
+ sci-biology/rmblast/ChangeLog                      |   8 +-
+ sci-biology/rmblast/Manifest                       |  27 ++++--
+ sci-biology/rmblast/rmblast-1.2-r1.ebuild          |   9 +-
+ sci-biology/rmblast/rmblast-1.2.ebuild             |  45 ---------
+ sys-kernel/ck-sources/ChangeLog                    |   9 +-
+ sys-kernel/ck-sources/Manifest                     |  37 +++++---
+ sys-kernel/ck-sources/ck-sources-3.14.44.ebuild    | 105 +++++++++++++++++++++
+ sys-kernel/ck-sources/ck-sources-3.18.16.ebuild    | 105 +++++++++++++++++++++
+ 79 files changed, 591 insertions(+), 530 deletions(-)
+ delete mode 100644 dev-python/futures/futures-2.1.4.ebuild
+ delete mode 100644 dev-python/futures/futures-2.1.5.ebuild
+ rename dev-python/futures/{futures-2.1.6.ebuild => futures-3.0.2.ebuild} (74%)
+ delete mode 100644 dev-util/android-studio/android-studio-1.1.0.135.1740770-r1.ebuild
+ delete mode 100644 media-gfx/assimp/ChangeLog
+ delete mode 100644 media-gfx/assimp/Manifest
+ create mode 100644 media-libs/assimp/ChangeLog
+ create mode 100644 media-libs/assimp/Manifest
+ rename {media-gfx => media-libs}/assimp/assimp-3.0.1270.ebuild (83%)
+ rename {media-gfx => media-libs}/assimp/assimp-3.1.1.ebuild (85%)
+ rename {media-gfx => media-libs}/assimp/metadata.xml (100%)
+ delete mode 100644 metadata/md5-cache/dev-python/futures-2.1.4
+ delete mode 100644 metadata/md5-cache/dev-python/futures-2.1.5
+ rename metadata/md5-cache/dev-python/{futures-2.1.6 => futures-3.0.2} (94%)
+ delete mode 100644 metadata/md5-cache/dev-util/android-studio-1.1.0.135.1740770-r1
+ rename metadata/md5-cache/{media-gfx => media-libs}/assimp-3.0.1270 (95%)
+ rename metadata/md5-cache/{media-gfx => media-libs}/assimp-3.1.1 (95%)
+ rename metadata/md5-cache/sci-biology/{phrap-1.080812 => phrap-1.080812-r1} (51%)
+ delete mode 100644 metadata/md5-cache/sci-biology/rmblast-1.2
+ create mode 100644 metadata/md5-cache/sys-kernel/ck-sources-3.14.44
+ create mode 100644 metadata/md5-cache/sys-kernel/ck-sources-3.18.16
+ rename sci-biology/phrap/{phrap-1.080812.ebuild => phrap-1.080812-r1.ebuild} (54%)
+ delete mode 100644 sci-biology/rmblast/rmblast-1.2.ebuild
+ create mode 100644 sys-kernel/ck-sources/ck-sources-3.14.44.ebuild
+ create mode 100644 sys-kernel/ck-sources/ck-sources-3.18.16.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

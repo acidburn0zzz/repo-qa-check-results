@@ -95,57 +95,97 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/pantera31752/open-overlay
-   340a3ec..fa4b8b8  master     -> origin/master
-Updating 340a3ec..fa4b8b8
+   fa4b8b8..69a96e7  master     -> origin/master
+Updating fa4b8b8..69a96e7
 Fast-forward
- app-arch/engrampa/Manifest                         |   3 +
- app-arch/engrampa/engrampa-1.10.0.ebuild           |  82 ++++++++++++++++
- app-editors/pluma/Manifest                         |   2 +
- app-editors/pluma/pluma-1.10.0.ebuild              |  86 ++++++++++++++++
- app-text/atril/Manifest                            |   2 +
- app-text/atril/atril-1.10.0.ebuild                 |  99 +++++++++++++++++++
- dev-libs/libmateweather/Manifest                   |   2 +
- .../libmateweather/libmateweather-1.10.0.ebuild    |  77 +++++++++++++++
- dev-python/python-caja/Manifest                    |   2 +
- dev-python/python-caja/python-caja-1.10.0.ebuild   |  53 ++++++++++
- dev-util/android-sdk-update-manager/Manifest       |   4 +-
- .../android-sdk-update-manager-24.3.2.ebuild       | 108 +++++++++++++++++++++
- media-gfx/eom/Manifest                             |   2 +
- media-gfx/eom/eom-1.10.1.ebuild                    |  75 ++++++++++++++
- media-libs/libmatemixer/Manifest                   |   2 +
- media-libs/libmatemixer/libmatemixer-1.10.0.ebuild |  33 +++++++
- net-analyzer/mate-netspeed/Manifest                |   2 +
- .../mate-netspeed/mate-netspeed-1.10.0.ebuild      |  37 +++++++
- x11-misc/mate-notification-daemon/Manifest         |   2 +
- .../mate-notification-daemon-1.10.0.ebuild         |  56 +++++++++++
- x11-misc/mozo/Manifest                             |   2 +
- x11-misc/mozo/mozo-1.10.0.ebuild                   |  70 +++++++++++++
- x11-terms/mate-terminal/Manifest                   |   2 +
- .../mate-terminal/mate-terminal-1.10.0.ebuild      |  39 ++++++++
- x11-themes/mate-backgrounds/Manifest               |   2 +
- .../mate-backgrounds-1.10.0.ebuild                 |  22 +++++
- x11-wm/marco/Manifest                              |   2 +
- x11-wm/marco/marco-1.10.1.ebuild                   |  70 +++++++++++++
- 28 files changed, 937 insertions(+), 1 deletion(-)
- create mode 100644 app-arch/engrampa/engrampa-1.10.0.ebuild
- create mode 100644 app-editors/pluma/pluma-1.10.0.ebuild
- create mode 100644 app-text/atril/atril-1.10.0.ebuild
- create mode 100644 dev-libs/libmateweather/libmateweather-1.10.0.ebuild
- create mode 100644 dev-python/python-caja/Manifest
- create mode 100644 dev-python/python-caja/python-caja-1.10.0.ebuild
- create mode 100644 dev-util/android-sdk-update-manager/android-sdk-update-manager-24.3.2.ebuild
- create mode 100644 media-gfx/eom/eom-1.10.1.ebuild
- create mode 100644 media-libs/libmatemixer/Manifest
- create mode 100644 media-libs/libmatemixer/libmatemixer-1.10.0.ebuild
- create mode 100644 net-analyzer/mate-netspeed/Manifest
- create mode 100644 net-analyzer/mate-netspeed/mate-netspeed-1.10.0.ebuild
- create mode 100644 x11-misc/mate-notification-daemon/mate-notification-daemon-1.10.0.ebuild
- create mode 100644 x11-misc/mozo/Manifest
- create mode 100644 x11-misc/mozo/mozo-1.10.0.ebuild
- create mode 100644 x11-terms/mate-terminal/mate-terminal-1.10.0.ebuild
- create mode 100644 x11-themes/mate-backgrounds/mate-backgrounds-1.10.0.ebuild
- create mode 100644 x11-wm/marco/Manifest
- create mode 100644 x11-wm/marco/marco-1.10.1.ebuild
+ mail-client/thunderbird-bin/Manifest               |  55 +++
+ .../thunderbird-bin/thunderbird-bin-38.0.1.ebuild  | 142 ++++++
+ mate-base/caja/Manifest                            |   2 +
+ mate-base/caja/caja-1.10.1.ebuild                  |  94 ++++
+ mate-base/libmatekbd/Manifest                      |   2 +
+ mate-base/libmatekbd/libmatekbd-1.10.0.ebuild      |  43 ++
+ mate-base/mate-applets/Manifest                    |   3 +
+ ...pplets-1.10.0-replace-cpufreq-by-cpupower.patch |  71 +++
+ mate-base/mate-applets/mate-applets-1.10.0.ebuild  | 100 ++++
+ mate-base/mate-common/Manifest                     |   2 +
+ mate-base/mate-common/mate-common-1.10.0.ebuild    |  24 +
+ mate-base/mate-control-center/Manifest             |   2 +
+ .../mate-control-center-1.10.0.ebuild              |  87 ++++
+ mate-base/mate-desktop/Manifest                    |   2 +
+ mate-base/mate-desktop/mate-desktop-1.10.0.ebuild  |  65 +++
+ mate-base/mate-menus/Manifest                      |   2 +
+ mate-base/mate-menus/mate-menus-1.10.0.ebuild      |  80 +++
+ mate-base/mate-panel/Manifest                      |   2 +
+ mate-base/mate-panel/mate-panel-1.10.0.ebuild      |  77 +++
+ mate-base/mate-session-manager/Manifest            |   7 +
+ .../files/10-user-dirs-update-mate                 |  10 +
+ .../mate-session-manager/files/15-xdg-data-mate    |   9 +
+ mate-base/mate-session-manager/files/MATE          | 109 +++++
+ mate-base/mate-session-manager/files/defaults.list | 336 +++++++++++++
+ ...ate-session-manager-1.5.2-save-session-ui.patch | 535 +++++++++++++++++++++
+ .../mate-session-manager-1.10.1.ebuild             |  96 ++++
+ mate-base/mate-settings-daemon/Manifest            |   2 +
+ .../mate-settings-daemon-1.10.0.ebuild             |  81 ++++
+ mate-extra/caja-dropbox/Manifest                   |   3 +
+ mate-extra/caja-dropbox/caja-dropbox-1.10.0.ebuild |  88 ++++
+ .../files/caja-dropbox-1.10.0-system-rst2man.patch |  11 +
+ mate-extra/caja-extensions/Manifest                |   2 +
+ .../caja-extensions/caja-extensions-1.10.0.ebuild  |  77 +++
+ mate-extra/mate-media/Manifest                     |   2 +
+ mate-extra/mate-media/mate-media-1.10.0.ebuild     |  92 ++++
+ mate-extra/mate-polkit/Manifest                    |   2 +
+ mate-extra/mate-polkit/mate-polkit-1.10.0.ebuild   |  46 ++
+ mate-extra/mate-power-manager/Manifest             |   2 +
+ .../mate-power-manager-1.10.0.ebuild               |  88 ++++
+ www-client/firefox-bin/Manifest                    |  85 ++++
+ .../firefox-bin/firefox-bin-38.0.6-r1.ebuild       | 181 +++++++
+ .../firefox-bin/firefox-bin-39.0_beta4.ebuild      | 180 +++++++
+ .../firefox-bin/firefox-bin-39.0_beta5.ebuild      | 180 +++++++
+ www-client/firefox/Manifest                        |  85 ++++
+ www-client/firefox/firefox-38.0.6.ebuild           | 376 +++++++++++++++
+ www-client/firefox/firefox-39.0_beta4.ebuild       | 380 +++++++++++++++
+ www-client/firefox/firefox-39.0_beta5.ebuild       | 380 +++++++++++++++
+ x11-themes/mate-icon-theme/Manifest                |   2 +
+ .../mate-icon-theme/mate-icon-theme-1.10.1.ebuild  |  33 ++
+ 49 files changed, 4335 insertions(+)
+ create mode 100644 mail-client/thunderbird-bin/thunderbird-bin-38.0.1.ebuild
+ create mode 100644 mate-base/caja/caja-1.10.1.ebuild
+ create mode 100644 mate-base/libmatekbd/libmatekbd-1.10.0.ebuild
+ create mode 100644 mate-base/mate-applets/Manifest
+ create mode 100644 mate-base/mate-applets/files/mate-applets-1.10.0-replace-cpufreq-by-cpupower.patch
+ create mode 100644 mate-base/mate-applets/mate-applets-1.10.0.ebuild
+ create mode 100644 mate-base/mate-common/mate-common-1.10.0.ebuild
+ create mode 100644 mate-base/mate-control-center/Manifest
+ create mode 100644 mate-base/mate-control-center/mate-control-center-1.10.0.ebuild
+ create mode 100644 mate-base/mate-desktop/mate-desktop-1.10.0.ebuild
+ create mode 100644 mate-base/mate-menus/mate-menus-1.10.0.ebuild
+ create mode 100644 mate-base/mate-panel/Manifest
+ create mode 100644 mate-base/mate-panel/mate-panel-1.10.0.ebuild
+ create mode 100644 mate-base/mate-session-manager/Manifest
+ create mode 100644 mate-base/mate-session-manager/files/10-user-dirs-update-mate
+ create mode 100644 mate-base/mate-session-manager/files/15-xdg-data-mate
+ create mode 100644 mate-base/mate-session-manager/files/MATE
+ create mode 100644 mate-base/mate-session-manager/files/defaults.list
+ create mode 100644 mate-base/mate-session-manager/files/mate-session-manager-1.5.2-save-session-ui.patch
+ create mode 100644 mate-base/mate-session-manager/mate-session-manager-1.10.1.ebuild
+ create mode 100644 mate-base/mate-settings-daemon/mate-settings-daemon-1.10.0.ebuild
+ create mode 100644 mate-extra/caja-dropbox/Manifest
+ create mode 100644 mate-extra/caja-dropbox/caja-dropbox-1.10.0.ebuild
+ create mode 100644 mate-extra/caja-dropbox/files/caja-dropbox-1.10.0-system-rst2man.patch
+ create mode 100644 mate-extra/caja-extensions/Manifest
+ create mode 100644 mate-extra/caja-extensions/caja-extensions-1.10.0.ebuild
+ create mode 100644 mate-extra/mate-media/Manifest
+ create mode 100644 mate-extra/mate-media/mate-media-1.10.0.ebuild
+ create mode 100644 mate-extra/mate-polkit/mate-polkit-1.10.0.ebuild
+ create mode 100644 mate-extra/mate-power-manager/Manifest
+ create mode 100644 mate-extra/mate-power-manager/mate-power-manager-1.10.0.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-38.0.6-r1.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-39.0_beta4.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-39.0_beta5.ebuild
+ create mode 100644 www-client/firefox/firefox-38.0.6.ebuild
+ create mode 100644 www-client/firefox/firefox-39.0_beta4.ebuild
+ create mode 100644 www-client/firefox/firefox-39.0_beta5.ebuild
+ create mode 100644 x11-themes/mate-icon-theme/mate-icon-theme-1.10.1.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
@@ -288,4 +328,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING: 'use_enable' function invoked by mate-extra/caja-dropbox-1.10.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
