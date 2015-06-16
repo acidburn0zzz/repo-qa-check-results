@@ -95,52 +95,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   b2b91e6..f86e8e9  master     -> origin/master
-Updating b2b91e6..f86e8e9
-Fast-forward
- dev-python/foolscap/ChangeLog                      |  8 ++++-
- dev-python/foolscap/Manifest                       | 30 ++++++----------
- ...foolscap-0.6.5.ebuild => foolscap-0.8.0.ebuild} | 40 ++++++++++++++++------
- dev-python/foolscap/metadata.xml                   |  5 ++-
- dev-ruby/ruby_parser/ChangeLog                     |  9 ++++-
- dev-ruby/ruby_parser/Manifest                      | 30 ++++------------
- dev-ruby/ruby_parser/ruby_parser-3.6.4.ebuild      | 35 -------------------
- dev-ruby/ruby_parser/ruby_parser-3.6.5.ebuild      | 35 -------------------
- dev-ruby/ruby_parser/ruby_parser-3.6.6.ebuild      |  4 +--
- dev-ruby/sexp_processor/ChangeLog                  | 15 +++++++-
- dev-ruby/sexp_processor/Manifest                   | 12 +++----
- .../sexp_processor/sexp_processor-4.4.4.ebuild     |  6 ++--
- .../sexp_processor/sexp_processor-4.4.5.ebuild     |  4 +--
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/dev-python/foolscap-0.6.5       | 14 --------
- metadata/md5-cache/dev-python/foolscap-0.8.0       | 14 ++++++++
- metadata/md5-cache/dev-ruby/ruby_parser-3.6.4      | 14 --------
- metadata/md5-cache/dev-ruby/ruby_parser-3.6.5      | 14 --------
- metadata/md5-cache/dev-ruby/ruby_parser-3.6.6      | 10 +++---
- metadata/md5-cache/dev-ruby/sexp_processor-4.4.4   | 10 +++---
- metadata/md5-cache/dev-ruby/sexp_processor-4.4.5   | 10 +++---
- metadata/md5-cache/net-fs/libnfs-1.9.7             |  4 +--
- metadata/md5-cache/sys-fs/xfsprogs-3.2.2           |  4 +--
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- net-fs/libnfs/ChangeLog                            |  5 ++-
- net-fs/libnfs/Manifest                             | 26 ++++----------
- net-fs/libnfs/libnfs-1.9.7.ebuild                  |  4 +--
- sys-fs/xfsprogs/ChangeLog                          |  5 ++-
- sys-fs/xfsprogs/Manifest                           | 12 +++----
- sys-fs/xfsprogs/xfsprogs-3.2.2.ebuild              |  4 +--
- 34 files changed, 155 insertions(+), 240 deletions(-)
- rename dev-python/foolscap/{foolscap-0.6.5.ebuild => foolscap-0.8.0.ebuild} (50%)
- delete mode 100644 dev-ruby/ruby_parser/ruby_parser-3.6.4.ebuild
- delete mode 100644 dev-ruby/ruby_parser/ruby_parser-3.6.5.ebuild
- delete mode 100644 metadata/md5-cache/dev-python/foolscap-0.6.5
- create mode 100644 metadata/md5-cache/dev-python/foolscap-0.8.0
- delete mode 100644 metadata/md5-cache/dev-ruby/ruby_parser-3.6.4
- delete mode 100644 metadata/md5-cache/dev-ruby/ruby_parser-3.6.5
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

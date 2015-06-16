@@ -262,189 +262,189 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: games-server/tpadmin-cpp-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: games-server/tpserver-cpp-9999 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-games/libtpproto-cpp-9999 failed.
+
+!!! ERROR: games-server/tpserver-cpp-9999 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-
-!!! ERROR: games-strategy/tpclient-pywx-0.3.2 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
  * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
+
+!!! ERROR: games-strategy/tpclient-pywx-0.3.1.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
+
+!!! ERROR: games-strategy/tpclient-pywx-0.3.1 failed.
+!!!        tpadmin-cpp-9999.ebuild, line   9:  Called inherit 'git' 'eutils' 'games'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
  * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 
 !!! ERROR: games-strategy/tpclient-pywx-0.3.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 
 !!! ERROR: games-strategy/daneel-ai-0.0.3 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 
-!!! ERROR: games-strategy/tpclient-pywx-0.3.1 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! ERROR: games-strategy/tpclient-pywx-0.3.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
  * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/dev-games/libtpproto-cpp/libtpproto-cpp-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: games-server/tpserver-py-0.1.0 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-server/tpserver-cpp/tpserver-cpp-9999.ebuild'
-
-!!! ERROR: games-strategy/tpclient-pywx-0.3.1.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/dev-games/libtpproto-cpp/libtpproto-cpp-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-server/tpserver-cpp/tpserver-cpp-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '206' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpserver-cpp/tpserver-cpp-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/dev-games/libtpproto-cpp/libtpproto-cpp-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/dev-games/libtpproto-cpp/libtpproto-cpp-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/dev-games/libtpproto-cpp/libtpproto-cpp-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!       tpserver-cpp-9999.ebuild, line  11:  Called inherit 'git' 'eutils' 'games'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!     libtpproto-cpp-9999.ebuild, line   9:  Called inherit 'git' 'eutils' 'games'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpserver-cpp/tpserver-cpp-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!       tpserver-cpp-9999.ebuild, line  11:  Called inherit 'git' 'eutils' 'games'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!  inherit for git failed
+
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-!!! The die message:
-!!!  inherit for git failed
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!     tpclient-pywx-0.3.0.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.2.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!     libtpproto-cpp-9999.ebuild, line   9:  Called inherit 'git' 'eutils' 'games'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!     tpclient-pywx-0.3.2.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!               distutils.eclass, line  15:  Called inherit 'python'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.1.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.2.ebuild'
-!!!         daneel-ai-0.0.3.ebuild, line   7:  Called inherit 'distutils' 'python'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/daneel-ai/daneel-ai-0.0.3.ebuild'
+!!!       tpserver-py-0.1.0.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!     tpclient-pywx-0.3.2.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!         daneel-ai-0.0.3.ebuild, line   7:  Called inherit 'distutils' 'python'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!     tpclient-pywx-0.3.1.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!     tpclient-pywx-0.3.0.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
+!!!                  python.eclass, line 277:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!               distutils.eclass, line  15:  Called inherit 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-strategy/tpclient-pywx/tpclient-pywx-0.3.1.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
 !!!   tpclient-pywx-0.3.1.1.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!               distutils.eclass, line  15:  Called inherit 'python'
+!!!               distutils.eclass, line  15:  Called inherit 'python'
+!!!               distutils.eclass, line  15:  Called inherit 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                  python.eclass, line 277:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                  python.eclass, line 277:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpadmin-cpp/tpadmin-cpp-9999.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                  python.eclass, line 277:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
-!!!        tpadmin-cpp-9999.ebuild, line   9:  Called inherit 'git' 'eutils' 'games'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!               distutils.eclass, line  15:  Called inherit 'python'
 !!!                  python.eclass, line 277:  Called die
 !!! The die message:
 !!!  NEED_PYTHON variable is banned
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/thousand-parsec/games-server/tpserver-py/tpserver-py-0.1.0.ebuild'
-!!!       tpserver-py-0.1.0.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'python' 'games'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils.eclass'
 !!!               distutils.eclass, line  15:  Called inherit 'python'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
@@ -457,18 +457,18 @@ Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-server/tpadmin-cpp-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-server/tpserver-cpp-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-games/libtpproto-cpp-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-server/tpserver-cpp-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-strategy/tpclient-pywx-0.3.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-server/tpserver-py-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-strategy/tpclient-pywx-0.3.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-strategy/tpclient-pywx-0.3.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-strategy/daneel-ai-0.0.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-strategy/tpclient-pywx-0.3.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-strategy/tpclient-pywx-0.3.1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-server/tpserver-py-0.1.0
  * Cache regenerated successfully
