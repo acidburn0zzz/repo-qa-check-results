@@ -216,14 +216,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
+
 !!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
@@ -235,15 +235,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
 !!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
@@ -253,8 +253,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
  * Cache regenerated successfully
