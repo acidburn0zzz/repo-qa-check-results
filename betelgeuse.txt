@@ -257,44 +257,44 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'po
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
 !!! ERROR: x11-libs/pango-1.14.10 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 
 !!! ERROR: x11-libs/pango-1.16.3 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.16.3.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.16.3.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.16.3.ebuild'
-!!!           pango-1.14.10.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!            pango-1.16.3.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'multilib'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/betelgeuse/x11-libs/pango/pango-1.14.10.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!           pango-1.14.10.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/pango-1.14.10
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/pango-1.16.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/pango-1.14.10
  * Cache regenerated successfully
