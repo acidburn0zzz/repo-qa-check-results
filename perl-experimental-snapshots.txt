@@ -132,42 +132,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/turbogears2', named 'turbogears2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/gentoo-perl/perl-experimental-snapshots
-   6d9a590..c581dce  master     -> origin/master
-Updating 6d9a590..c581dce
-Fast-forward
- .../Catalyst-ActionRole-ACL-0.70.0-r1.ebuild       | 41 ----------------------
- .../Catalyst-ActionRole-ACL-0.70.0-r2.ebuild       | 28 +++++++++++++++
- ...-1.0.140-r3.ebuild => Handel-1.0.140-r4.ebuild} |  6 ++--
- dev-perl/Handel/metadata.xml                       |  3 --
- dev-perl/MojoMojo/MojoMojo-1.110.0.ebuild          |  2 +-
- .../MooseX-Types-Authen-Passphrase-0.40.0.ebuild   |  2 +-
- dev-perl/Perl-Critic-Moose/Manifest                |  2 +-
- .../Perl-Critic-Moose-0.999.2_rc-r1.ebuild         | 40 ---------------------
- .../Perl-Critic-Moose-1.30.0.ebuild                | 30 ++++++++++++++++
- dev-perl/Text-TabularDisplay/Manifest              |  2 +-
- .../Text-TabularDisplay-1.330.0.ebuild             | 34 ------------------
- .../Text-TabularDisplay-1.380.0.ebuild             | 17 +++++++++
- ...0.70.0-r1 => Catalyst-ActionRole-ACL-0.70.0-r2} |  7 ++--
- .../{Handel-1.0.140-r3 => Handel-1.0.140-r4}       |  8 ++---
- metadata/md5-cache/dev-perl/MojoMojo-1.110.0       |  4 +--
- .../dev-perl/MooseX-Types-Authen-Passphrase-0.40.0 |  4 +--
- ...oose-0.999.2_rc-r1 => Perl-Critic-Moose-1.30.0} |  8 +++--
- ...Display-1.330.0 => Text-TabularDisplay-1.380.0} | 10 +++---
- profiles/package.mask                              |  8 ++---
- profiles/use.local.desc                            |  1 -
- 20 files changed, 107 insertions(+), 150 deletions(-)
- delete mode 100644 dev-perl/Catalyst-ActionRole-ACL/Catalyst-ActionRole-ACL-0.70.0-r1.ebuild
- create mode 100644 dev-perl/Catalyst-ActionRole-ACL/Catalyst-ActionRole-ACL-0.70.0-r2.ebuild
- rename dev-perl/Handel/{Handel-1.0.140-r3.ebuild => Handel-1.0.140-r4.ebuild} (96%)
- delete mode 100644 dev-perl/Perl-Critic-Moose/Perl-Critic-Moose-0.999.2_rc-r1.ebuild
- create mode 100644 dev-perl/Perl-Critic-Moose/Perl-Critic-Moose-1.30.0.ebuild
- delete mode 100644 dev-perl/Text-TabularDisplay/Text-TabularDisplay-1.330.0.ebuild
- create mode 100644 dev-perl/Text-TabularDisplay/Text-TabularDisplay-1.380.0.ebuild
- rename metadata/md5-cache/dev-perl/{Catalyst-ActionRole-ACL-0.70.0-r1 => Catalyst-ActionRole-ACL-0.70.0-r2} (57%)
- rename metadata/md5-cache/dev-perl/{Handel-1.0.140-r3 => Handel-1.0.140-r4} (73%)
- rename metadata/md5-cache/dev-perl/{Perl-Critic-Moose-0.999.2_rc-r1 => Perl-Critic-Moose-1.30.0} (63%)
- rename metadata/md5-cache/dev-perl/{Text-TabularDisplay-1.330.0 => Text-TabularDisplay-1.380.0} (70%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded

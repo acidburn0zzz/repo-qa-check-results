@@ -94,7 +94,29 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   4a0593a..6e89471  master     -> origin/master
+Updating 4a0593a..6e89471
+Fast-forward
+ dev-cpp/websocketpp/ChangeLog                      |  6 +++-
+ dev-cpp/websocketpp/Manifest                       | 26 ++---------------
+ dev-cpp/websocketpp/websocketpp-0.4.0.ebuild       |  4 +--
+ dev-cpp/websocketpp/websocketpp-0.5.0.ebuild       |  4 +--
+ media-gfx/eog/ChangeLog                            |  6 +++-
+ media-gfx/eog/Manifest                             | 25 ++++++++++++----
+ media-gfx/eog/eog-3.16.2.ebuild                    | 11 ++++++--
+ .../eog/files/eog-3.16.2-without-libexif.patch     | 33 ++++++++++++++++++++++
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ metadata/md5-cache/dev-cpp/websocketpp-0.4.0       |  2 +-
+ metadata/md5-cache/dev-cpp/websocketpp-0.5.0       |  2 +-
+ metadata/md5-cache/media-gfx/eog-3.16.2            |  2 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ 17 files changed, 87 insertions(+), 46 deletions(-)
+ create mode 100644 media-gfx/eog/files/eog-3.16.2-without-libexif.patch
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

@@ -98,31 +98,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/proj/perl-overlay
-   b576a1f..78500f4  master     -> origin/master
-Updating b576a1f..78500f4
-Fast-forward
- .../Catalyst-ActionRole-ACL-0.70.0-r1.ebuild       | 41 ----------------------
- .../Catalyst-ActionRole-ACL-0.70.0-r2.ebuild       | 28 +++++++++++++++
- ...-1.0.140-r3.ebuild => Handel-1.0.140-r4.ebuild} |  6 ++--
- dev-perl/Handel/metadata.xml                       |  3 --
- dev-perl/MojoMojo/MojoMojo-1.110.0.ebuild          |  2 +-
- .../MooseX-Types-Authen-Passphrase-0.40.0.ebuild   |  2 +-
- dev-perl/Perl-Critic-Moose/Manifest                |  2 +-
- .../Perl-Critic-Moose-0.999.2_rc-r1.ebuild         | 40 ---------------------
- .../Perl-Critic-Moose-1.30.0.ebuild                | 30 ++++++++++++++++
- dev-perl/Text-TabularDisplay/Manifest              |  2 +-
- .../Text-TabularDisplay-1.330.0.ebuild             | 34 ------------------
- .../Text-TabularDisplay-1.380.0.ebuild             | 17 +++++++++
- profiles/package.mask                              |  8 ++---
- 13 files changed, 85 insertions(+), 130 deletions(-)
- delete mode 100644 dev-perl/Catalyst-ActionRole-ACL/Catalyst-ActionRole-ACL-0.70.0-r1.ebuild
- create mode 100644 dev-perl/Catalyst-ActionRole-ACL/Catalyst-ActionRole-ACL-0.70.0-r2.ebuild
- rename dev-perl/Handel/{Handel-1.0.140-r3.ebuild => Handel-1.0.140-r4.ebuild} (96%)
- delete mode 100644 dev-perl/Perl-Critic-Moose/Perl-Critic-Moose-0.999.2_rc-r1.ebuild
- create mode 100644 dev-perl/Perl-Critic-Moose/Perl-Critic-Moose-1.30.0.ebuild
- delete mode 100644 dev-perl/Text-TabularDisplay/Text-TabularDisplay-1.330.0.ebuild
- create mode 100644 dev-perl/Text-TabularDisplay/Text-TabularDisplay-1.380.0.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
