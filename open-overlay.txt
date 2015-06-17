@@ -93,7 +93,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   8037086..da4a706  master     -> origin/master
+Updating 8037086..da4a706
+Fast-forward
+ sys-kernel/gen-sources/Manifest                    |   2 +
+ sys-kernel/gen-sources/gen-sources-4.1_rc8.ebuild  |  46 +++
+ www-client/firefox-bin/Manifest                    |   3 +
+ .../firefox-bin/firefox-bin-39.0_beta6.ebuild      | 180 ++++++++++
+ www-client/firefox/Manifest                        |   2 +
+ www-client/firefox/firefox-39.0_beta6.ebuild       | 380 +++++++++++++++++++++
+ 6 files changed, 613 insertions(+)
+ create mode 100644 sys-kernel/gen-sources/gen-sources-4.1_rc8.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-39.0_beta6.ebuild
+ create mode 100644 www-client/firefox/firefox-39.0_beta6.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
