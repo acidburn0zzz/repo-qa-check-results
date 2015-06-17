@@ -94,7 +94,45 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   b6d85df..e721abf  master     -> origin/master
+Updating b6d85df..e721abf
+Fast-forward
+ dev-python/alabaster/ChangeLog                     |   7 +-
+ dev-python/alabaster/Manifest                      |  32 +--
+ dev-python/alabaster/alabaster-0.7.5.ebuild        |  19 ++
+ dev-python/mistune/ChangeLog                       |   7 +-
+ dev-python/mistune/Manifest                        |  32 +--
+ dev-python/mistune/mistune-0.6.ebuild              |  28 +++
+ metadata/dtd/timestamp.chk                         |   2 +-
+ metadata/glsa/timestamp.chk                        |   2 +-
+ metadata/md5-cache/dev-python/alabaster-0.7.5      |  14 ++
+ metadata/md5-cache/dev-python/mistune-0.6          |  14 ++
+ metadata/md5-cache/net-misc/curl-7.43.0            |  15 ++
+ metadata/md5-cache/net-misc/stunnel-5.08           |  13 --
+ .../net-misc/{stunnel-5.16-r1 => stunnel-5.19}     |   4 +-
+ metadata/news/timestamp.chk                        |   2 +-
+ metadata/timestamp                                 |   2 +-
+ metadata/timestamp.chk                             |   2 +-
+ metadata/timestamp.x                               |   2 +-
+ net-misc/curl/ChangeLog                            |   7 +-
+ net-misc/curl/Manifest                             |  24 +-
+ net-misc/curl/curl-7.43.0.ebuild                   | 244 +++++++++++++++++++++
+ net-misc/stunnel/ChangeLog                         |  11 +-
+ net-misc/stunnel/Manifest                          |  26 ++-
+ net-misc/stunnel/stunnel-5.08.ebuild               |  80 -------
+ ...{stunnel-5.16-r1.ebuild => stunnel-5.19.ebuild} |   2 +-
+ 24 files changed, 424 insertions(+), 167 deletions(-)
+ create mode 100644 dev-python/alabaster/alabaster-0.7.5.ebuild
+ create mode 100644 dev-python/mistune/mistune-0.6.ebuild
+ create mode 100644 metadata/md5-cache/dev-python/alabaster-0.7.5
+ create mode 100644 metadata/md5-cache/dev-python/mistune-0.6
+ create mode 100644 metadata/md5-cache/net-misc/curl-7.43.0
+ delete mode 100644 metadata/md5-cache/net-misc/stunnel-5.08
+ rename metadata/md5-cache/net-misc/{stunnel-5.16-r1 => stunnel-5.19} (64%)
+ create mode 100644 net-misc/curl/curl-7.43.0.ebuild
+ delete mode 100644 net-misc/stunnel/stunnel-5.08.ebuild
+ rename net-misc/stunnel/{stunnel-5.16-r1.ebuild => stunnel-5.19.ebuild} (95%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
