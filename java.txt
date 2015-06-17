@@ -119,7 +119,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wine-diablo3', named 'wine-dia
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g-experimental', named 'n4g-experimental', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   63c4a9c..3340b81  master     -> origin/master
+Updating 63c4a9c..3340b81
+Fast-forward
+ dev-java/gcj-jdk/ChangeLog                         | 139 +++++++++++++++++++++
+ dev-java/gcj-jdk/Manifest                          |  15 +++
+ dev-java/gcj-jdk/files/gcj-jdk.env                 |  18 +++
+ dev-java/gcj-jdk/files/javac.in                    |  57 +++++++++
+ dev-java/gcj-jdk/gcj-jdk-5.1.0.ebuild              | 108 ++++++++++++++++
+ dev-java/gcj-jdk/metadata.xml                      |  11 ++
+ dev-java/icedtea/ChangeLog                         |   7 ++
+ dev-java/icedtea/Manifest                          |  28 ++---
+ ...0_pre18.ebuild => icedtea-7.2.6.0_pre23.ebuild} |  44 ++++---
+ 9 files changed, 394 insertions(+), 33 deletions(-)
+ create mode 100644 dev-java/gcj-jdk/ChangeLog
+ create mode 100644 dev-java/gcj-jdk/Manifest
+ create mode 100644 dev-java/gcj-jdk/files/gcj-jdk.env
+ create mode 100644 dev-java/gcj-jdk/files/javac.in
+ create mode 100644 dev-java/gcj-jdk/gcj-jdk-5.1.0.ebuild
+ create mode 100644 dev-java/gcj-jdk/metadata.xml
+ rename dev-java/icedtea/{icedtea-7.2.6.0_pre18.ebuild => icedtea-7.2.6.0_pre23.ebuild} (89%)
 *** syncing '/home/mgorny/repos/java'...
 *** synced '/home/mgorny/repos/java'
  * Sync succeeded
@@ -260,8 +280,4 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
- * QA Notice: The 'hasq' function is deprecated (replaced by 'has')
-WARNING: 'use' function invoked by www-servers/jboss-bin-4.0.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
