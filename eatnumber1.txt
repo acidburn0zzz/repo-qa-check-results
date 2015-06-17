@@ -262,18 +262,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '279' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
-!!!                       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eatnumber1/dev-libs/libuseless/libuseless-9999.ebuild'
 !!!         libuseless-9999.ebuild, line   8:  Called inherit 'git' 'autotools'
@@ -282,6 +274,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  inherit for git failed
 
+
+!!! ERROR: games-roguelike/dwarf-fortress-0.28.181.40d-r18 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '279' 'depend'
+!!!                       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
@@ -291,7 +291,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/libuseless-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: games-roguelike/dwarf-fortress-0.28.181.40d-r18
