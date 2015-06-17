@@ -83,50 +83,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/purak', named 'purak', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/alphallc/freeswitch
-   8fc406a..af78fe2  master     -> origin/master
-Updating 8fc406a..af78fe2
-Fast-forward
- media-sound/freeswitch-sounds-en-us/Manifest       |   5 +
- .../freeswitch-sounds-en-us-1.0.51.ebuild          |  32 +++
- media-sound/freeswitch-sounds-music/Manifest       |  30 +--
- .../freeswitch-sounds-music-1.0.51.ebuild          |  32 +++
- media-sound/freeswitch-sounds/Manifest             |   1 +
- .../freeswitch-sounds-1.0.51.ebuild                |  26 ++
- net-libs/opal/ChangeLog                            |  16 --
- net-libs/opal/opal-9999.ebuild                     | 291 ---------------------
- net-libs/ptlib/ChangeLog                           |  16 --
- net-libs/ptlib/Manifest                            |   1 -
- net-libs/ptlib/ptlib-9999.ebuild                   | 278 --------------------
- net-voip/freeswitch-mod_squirrelfish/ChangeLog     |  22 --
- net-voip/freeswitch-mod_squirrelfish/Manifest      |   1 -
- .../freeswitch-mod_squirrelfish-9999.ebuild        |  43 ---
- net-voip/freeswitch/Manifest                       |   1 +
- .../files/freeswitch-1.4.18-no-werror.patch        |  16 ++
- net-voip/freeswitch/files/freeswitch.confd         |  25 +-
- net-voip/freeswitch/files/freeswitch.initd         |  21 ++
- net-voip/freeswitch/files/freeswitch.rc6           |  35 ---
- ...switch-9999.ebuild => freeswitch-1.4.18.ebuild} | 273 +++----------------
- net-voip/freeswitch/metadata.xml                   |   2 -
- 21 files changed, 179 insertions(+), 988 deletions(-)
- create mode 100644 media-sound/freeswitch-sounds-en-us/Manifest
- create mode 100644 media-sound/freeswitch-sounds-en-us/freeswitch-sounds-en-us-1.0.51.ebuild
- create mode 100644 media-sound/freeswitch-sounds-music/freeswitch-sounds-music-1.0.51.ebuild
- create mode 100644 media-sound/freeswitch-sounds/Manifest
- create mode 100644 media-sound/freeswitch-sounds/freeswitch-sounds-1.0.51.ebuild
- delete mode 100644 net-libs/opal/ChangeLog
- delete mode 100644 net-libs/opal/opal-9999.ebuild
- delete mode 100644 net-libs/ptlib/ChangeLog
- delete mode 100644 net-libs/ptlib/Manifest
- delete mode 100644 net-libs/ptlib/ptlib-9999.ebuild
- delete mode 100644 net-voip/freeswitch-mod_squirrelfish/ChangeLog
- delete mode 100644 net-voip/freeswitch-mod_squirrelfish/Manifest
- delete mode 100644 net-voip/freeswitch-mod_squirrelfish/freeswitch-mod_squirrelfish-9999.ebuild
- create mode 100644 net-voip/freeswitch/Manifest
- create mode 100644 net-voip/freeswitch/files/freeswitch-1.4.18-no-werror.patch
- create mode 100644 net-voip/freeswitch/files/freeswitch.initd
- delete mode 100755 net-voip/freeswitch/files/freeswitch.rc6
- rename net-voip/freeswitch/{freeswitch-9999.ebuild => freeswitch-1.4.18.ebuild} (66%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/freeswitch'...
 *** synced '/home/mgorny/repos/freeswitch'
  * Sync succeeded
@@ -273,36 +230,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: net-misc/ozmod_isdn-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
-!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild'
 !!!         ozmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ozmod_isdn-9999
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/freeswitch/net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild'
+!!!         ftmod_isdn-9999.ebuild, line  11:  Called inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ftmod_isdn-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/ozmod_isdn-9999
  * Cache regenerated successfully
