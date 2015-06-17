@@ -94,40 +94,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   ab419eb..3a61385  master     -> origin/master
-Updating ab419eb..3a61385
-Fast-forward
- dev-python/bokeh/ChangeLog                         |  6 +++-
- dev-python/bokeh/Manifest                          | 30 ++++++++++-------
- dev-python/bokeh/files/0.5.0-setup.patch           | 18 ----------
- .../bokeh/files/bokeh-0.4.4-fix_test_object.patch  | 32 ------------------
- dev-python/bokeh/metadata.xml                      |  3 --
- dev-qt/qt-docs/ChangeLog                           |  8 ++++-
- dev-qt/qt-docs/Manifest                            | 38 +++++++++++-----------
- dev-qt/qt-docs/metadata.xml                        |  2 +-
- ...ocs-5.4.1_p0.ebuild => qt-docs-5.4.2_p0.ebuild} |  4 +--
- kde-apps/gwenview/ChangeLog                        |  7 ++--
- kde-apps/gwenview/Manifest                         | 25 ++------------
- kde-apps/gwenview/gwenview-4.14.3.ebuild           |  6 ++--
- kde-apps/kolourpaint/ChangeLog                     |  7 ++--
- kde-apps/kolourpaint/Manifest                      | 25 ++------------
- kde-apps/kolourpaint/kolourpaint-4.14.3.ebuild     |  6 ++--
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- .../dev-qt/{qt-docs-5.4.1_p0 => qt-docs-5.4.2_p0}  |  4 +--
- metadata/md5-cache/kde-apps/gwenview-4.14.3        |  2 +-
- metadata/md5-cache/kde-apps/kolourpaint-4.14.3     |  2 +-
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- profiles/use.local.desc                            |  1 -
- 25 files changed, 83 insertions(+), 155 deletions(-)
- delete mode 100644 dev-python/bokeh/files/0.5.0-setup.patch
- delete mode 100644 dev-python/bokeh/files/bokeh-0.4.4-fix_test_object.patch
- rename dev-qt/qt-docs/{qt-docs-5.4.1_p0.ebuild => qt-docs-5.4.2_p0.ebuild} (82%)
- rename metadata/md5-cache/dev-qt/{qt-docs-5.4.1_p0 => qt-docs-5.4.2_p0} (81%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
