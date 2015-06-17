@@ -95,44 +95,38 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   b6d85df..e721abf  master     -> origin/master
-Updating b6d85df..e721abf
+   e721abf..ab419eb  master     -> origin/master
+Updating e721abf..ab419eb
 Fast-forward
- dev-python/alabaster/ChangeLog                     |   7 +-
- dev-python/alabaster/Manifest                      |  32 +--
- dev-python/alabaster/alabaster-0.7.5.ebuild        |  19 ++
- dev-python/mistune/ChangeLog                       |   7 +-
- dev-python/mistune/Manifest                        |  32 +--
- dev-python/mistune/mistune-0.6.ebuild              |  28 +++
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/dev-python/alabaster-0.7.5      |  14 ++
- metadata/md5-cache/dev-python/mistune-0.6          |  14 ++
- metadata/md5-cache/net-misc/curl-7.43.0            |  15 ++
- metadata/md5-cache/net-misc/stunnel-5.08           |  13 --
- .../net-misc/{stunnel-5.16-r1 => stunnel-5.19}     |   4 +-
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- net-misc/curl/ChangeLog                            |   7 +-
- net-misc/curl/Manifest                             |  24 +-
- net-misc/curl/curl-7.43.0.ebuild                   | 244 +++++++++++++++++++++
- net-misc/stunnel/ChangeLog                         |  11 +-
- net-misc/stunnel/Manifest                          |  26 ++-
- net-misc/stunnel/stunnel-5.08.ebuild               |  80 -------
- ...{stunnel-5.16-r1.ebuild => stunnel-5.19.ebuild} |   2 +-
- 24 files changed, 424 insertions(+), 167 deletions(-)
- create mode 100644 dev-python/alabaster/alabaster-0.7.5.ebuild
- create mode 100644 dev-python/mistune/mistune-0.6.ebuild
- create mode 100644 metadata/md5-cache/dev-python/alabaster-0.7.5
- create mode 100644 metadata/md5-cache/dev-python/mistune-0.6
- create mode 100644 metadata/md5-cache/net-misc/curl-7.43.0
- delete mode 100644 metadata/md5-cache/net-misc/stunnel-5.08
- rename metadata/md5-cache/net-misc/{stunnel-5.16-r1 => stunnel-5.19} (64%)
- create mode 100644 net-misc/curl/curl-7.43.0.ebuild
- delete mode 100644 net-misc/stunnel/stunnel-5.08.ebuild
- rename net-misc/stunnel/{stunnel-5.16-r1.ebuild => stunnel-5.19.ebuild} (95%)
+ app-eselect/eselect-opengl/ChangeLog               |  7 +-
+ app-eselect/eselect-opengl/Manifest                | 34 +++++----
+ .../eselect-opengl/eselect-opengl-1.2.7.ebuild     |  5 +-
+ .../eselect-opengl/eselect-opengl-1.3.1-r2.ebuild  | 88 ----------------------
+ .../eselect-opengl/eselect-opengl-1.3.1-r4.ebuild  |  3 +-
+ dev-vcs/git/ChangeLog                              |  8 +-
+ dev-vcs/git/Manifest                               | 40 +++++-----
+ dev-vcs/git/{git-2.4.2.ebuild => git-2.4.4.ebuild} |  2 +-
+ kde-apps/konqueror/ChangeLog                       | 10 ++-
+ kde-apps/konqueror/Manifest                        | 25 +-----
+ kde-apps/konqueror/konqueror-4.14.3.ebuild         |  6 +-
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ .../md5-cache/app-eselect/eselect-opengl-1.2.7     |  4 +-
+ .../md5-cache/app-eselect/eselect-opengl-1.3.1-r2  | 12 ---
+ .../md5-cache/app-eselect/eselect-opengl-1.3.1-r4  |  4 +-
+ .../md5-cache/dev-vcs/{git-2.4.2 => git-2.4.4}     |  4 +-
+ metadata/md5-cache/kde-apps/konqueror-4.14.3       |  2 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ net-misc/curl/ChangeLog                            |  5 +-
+ net-misc/curl/Manifest                             | 22 +++++-
+ 24 files changed, 108 insertions(+), 185 deletions(-)
+ delete mode 100644 app-eselect/eselect-opengl/eselect-opengl-1.3.1-r2.ebuild
+ rename dev-vcs/git/{git-2.4.2.ebuild => git-2.4.4.ebuild} (99%)
+ delete mode 100644 metadata/md5-cache/app-eselect/eselect-opengl-1.3.1-r2
+ rename metadata/md5-cache/dev-vcs/{git-2.4.2 => git-2.4.4} (89%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

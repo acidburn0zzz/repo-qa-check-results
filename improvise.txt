@@ -240,99 +240,99 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: media-libs/libtvdb-0.3.0 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
 !!! ERROR: kde-misc/kdev-ruby-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: media-libs/libtvdb-0.3.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: x11-misc/service-discovery-applet-0.4.3-r1 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
 !!! ERROR: kde-misc/nvidiadevicemonitor-0.1.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                         ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
 !!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
-!!!                         ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
+
+!!! ERROR: x11-misc/service-discovery-applet-0.4.3-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                         ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '275' 'depend'
+!!!                         ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
+!!!                         ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
 !!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
+!!!                         ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '275' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
-!!!          kdev-ruby-9999.ebuild, line   8:  Called inherit 'kde4-base'
-!!!                         ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
+!!!                         ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/media-libs/libtvdb/libtvdb-0.3.0.ebuild'
-!!!   nvidiadevicemonitor-0.1.2.ebuild, line   7:  Called inherit 'kde4-base'
 !!!                                 ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
-!!!           libtvdb-0.3.0.ebuild, line   7:  Called inherit 'kde4-base'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/kde-misc/nvidiadevicemonitor/nvidiadevicemonitor-0.1.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/kde-misc/kdev-ruby/kdev-ruby-9999.ebuild'
 !!!                                 ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
+!!!          kdev-ruby-9999.ebuild, line   8:  Called inherit 'kde4-base'
+!!!           libtvdb-0.3.0.ebuild, line   7:  Called inherit 'kde4-base'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!   nvidiadevicemonitor-0.1.2.ebuild, line   7:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!                     isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/improvise/x11-misc/service-discovery-applet/service-discovery-applet-0.4.3-r1.ebuild'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                   kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!   service-discovery-applet-0.4.3-r1.ebuild, line   6:  Called inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!              kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-!!!                          ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                   kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                          ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                     isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                              gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!              kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/nvidiadevicemonitor-0.1.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-libs/libtvdb-0.3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-misc/service-discovery-applet-0.4.3-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-misc/nvidiadevicemonitor-0.1.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/kdev-ruby-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-libs/libtvdb-0.3.0
  * Cache regenerated successfully
