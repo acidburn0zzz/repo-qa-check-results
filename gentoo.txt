@@ -93,60 +93,92 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   88b6719..258467c  master     -> origin/master
-Updating 88b6719..258467c
+   258467c..cb6e8ce  master     -> origin/master
+Updating 258467c..cb6e8ce
 Fast-forward
- app-eselect/eselect-wxwidgets/ChangeLog            |  6 +++-
- app-eselect/eselect-wxwidgets/Manifest             | 12 ++++---
- .../eselect-wxwidgets-20140423.ebuild              |  4 +--
- dev-libs/openssl/ChangeLog                         |  6 +++-
- dev-libs/openssl/Manifest                          | 24 +++++---------
- dev-libs/openssl/openssl-0.9.8z_p7.ebuild          |  4 +--
- dev-libs/openssl/openssl-1.0.1o.ebuild             |  4 +--
- dev-ruby/bundler/ChangeLog                         |  5 ++-
- dev-ruby/bundler/Manifest                          | 22 ++++---------
- dev-ruby/bundler/bundler-1.7.13.ebuild             |  4 +--
- eclass/ChangeLog                                   |  9 ++++-
- eclass/php-common-r1.eclass                        |  7 ++--
- eclass/php-ext-base-r1.eclass                      |  6 ++--
- eclass/php-ezc.eclass                              |  6 ++--
- mail-mta/postfix/ChangeLog                         |  5 ++-
- mail-mta/postfix/Manifest                          | 22 ++++---------
- mail-mta/postfix/postfix-3.0.1-r1.ebuild           |  4 +--
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/glsa-201401-04.xml                   | 10 ++++--
- metadata/glsa/glsa-201503-10.xml                   | 10 ++++--
- metadata/glsa/timestamp.chk                        |  2 +-
- .../app-eselect/eselect-wxwidgets-20140423         |  4 +--
- metadata/md5-cache/dev-libs/openssl-0.9.8z_p7      |  4 +--
- metadata/md5-cache/dev-libs/openssl-1.0.1o         |  4 +--
- metadata/md5-cache/dev-ruby/bundler-1.7.13         |  4 +--
- metadata/md5-cache/mail-mta/postfix-3.0.1-r1       |  4 +--
- metadata/md5-cache/net-analyzer/nagtrap-0.1.3      |  4 +--
- metadata/md5-cache/net-dns/dnsmasq-2.72-r2         |  4 +--
- metadata/md5-cache/sys-apps/hdparm-9.45            |  4 +--
- metadata/md5-cache/sys-fs/owfs-2.7_p21-r3          | 14 --------
- metadata/md5-cache/sys-fs/owfs-2.7_p21-r4          | 14 ++++++++
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- net-analyzer/nagtrap/ChangeLog                     |  8 +++--
- net-analyzer/nagtrap/Manifest                      | 30 ++++++++++++-----
- net-analyzer/nagtrap/nagtrap-0.1.3.ebuild          | 13 ++++----
- net-dns/dnsmasq/ChangeLog                          |  5 ++-
- net-dns/dnsmasq/Manifest                           | 22 ++++---------
- net-dns/dnsmasq/dnsmasq-2.72-r2.ebuild             |  4 +--
- sys-apps/hdparm/ChangeLog                          |  5 ++-
- sys-apps/hdparm/Manifest                           | 22 ++++---------
- sys-apps/hdparm/hdparm-9.45.ebuild                 |  4 +--
- sys-fs/owfs/ChangeLog                              |  9 ++++-
- sys-fs/owfs/Manifest                               | 38 +++++++++++-----------
- ...fs-2.7_p21-r3.ebuild => owfs-2.7_p21-r4.ebuild} |  8 ++---
- 47 files changed, 217 insertions(+), 193 deletions(-)
- delete mode 100644 metadata/md5-cache/sys-fs/owfs-2.7_p21-r3
- create mode 100644 metadata/md5-cache/sys-fs/owfs-2.7_p21-r4
- rename sys-fs/owfs/{owfs-2.7_p21-r3.ebuild => owfs-2.7_p21-r4.ebuild} (94%)
+ eclass/ChangeLog                                   |   5 +-
+ eclass/depend.php.eclass                           |   3 +-
+ metadata/dtd/timestamp.chk                         |   2 +-
+ metadata/glsa/timestamp.chk                        |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.1.11   |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.1.7-r2 |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.2.3b   |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.2.4    |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.2.7    |   2 +-
+ .../md5-cache/app-emulation/phpvirtualbox-4.3.0    |   2 +-
+ metadata/md5-cache/app-text/refbase-0.9.5          |   2 +-
+ metadata/md5-cache/dev-db/phpmyadmin-4.0.10.10     |   2 +-
+ metadata/md5-cache/dev-db/phpmyadmin-4.2.13.3      |   2 +-
+ metadata/md5-cache/dev-db/phpmyadmin-4.3.12        |   2 +-
+ metadata/md5-cache/dev-db/phpmyadmin-4.3.13.1      |   2 +-
+ metadata/md5-cache/dev-db/phpmyadmin-4.4.6.1       |   2 +-
+ metadata/md5-cache/dev-php/ZendFramework-1.12.9    |   2 +-
+ metadata/md5-cache/net-analyzer/cacti-0.8.8b-r2    |   2 +-
+ metadata/md5-cache/net-analyzer/cacti-0.8.8d       |   2 +-
+ metadata/md5-cache/net-analyzer/icinga2-2.3.5      |  14 +
+ metadata/md5-cache/net-analyzer/lilac-1.0.3        |   2 +-
+ metadata/md5-cache/net-analyzer/nagvis-1.6.6       |   6 +-
+ metadata/md5-cache/net-analyzer/zabbix-2.2.5       |   2 +-
+ metadata/md5-cache/net-analyzer/zabbix-2.2.9       |   2 +-
+ metadata/md5-cache/net-analyzer/zabbix-2.4.5       |   2 +-
+ metadata/md5-cache/net-nds/phpldapadmin-1.2.3      |   2 +-
+ metadata/md5-cache/net-nds/phpldapadmin-1.2.3-r1   |   2 +-
+ metadata/md5-cache/sys-fs/udev-220-r3              |  15 +
+ metadata/md5-cache/www-apps/agendav-1.2.6.2        |   2 +-
+ metadata/md5-cache/www-apps/ampache-3.4.3          |   2 +-
+ metadata/md5-cache/www-apps/baikal-0.2.4           |   2 +-
+ metadata/md5-cache/www-apps/baikal-0.2.7           |   2 +-
+ metadata/md5-cache/www-apps/davical-1.0.2-r2       |   2 +-
+ metadata/md5-cache/www-apps/davical-1.1.0-r1       |   2 +-
+ metadata/md5-cache/www-apps/davical-1.1.1-r2       |   2 +-
+ metadata/md5-cache/www-apps/davical-1.1.3.1-r2     |   2 +-
+ metadata/md5-cache/www-apps/dokuwiki-20140505e     |   2 +-
+ metadata/md5-cache/www-apps/dokuwiki-20140929d     |   2 +-
+ metadata/md5-cache/www-apps/dotproject-2.1.7-r1    |   2 +-
+ metadata/md5-cache/www-apps/eyeos-2.5              |   2 +-
+ metadata/md5-cache/www-apps/gallery-2.3.2          |   2 +-
+ metadata/md5-cache/www-apps/joomla-3.3.3           |   2 +-
+ metadata/md5-cache/www-apps/joomla-3.3.6           |   2 +-
+ metadata/md5-cache/www-apps/joomla-3.4.0_alpha     |   2 +-
+ metadata/md5-cache/www-apps/mantisbt-1.2.15-r1     |   2 +-
+ metadata/md5-cache/www-apps/owncloud-5.0.19        |   2 +-
+ metadata/md5-cache/www-apps/owncloud-6.0.7         |   2 +-
+ metadata/md5-cache/www-apps/owncloud-6.0.8         |   2 +-
+ metadata/md5-cache/www-apps/owncloud-7.0.5         |   2 +-
+ metadata/md5-cache/www-apps/owncloud-7.0.6         |   2 +-
+ metadata/md5-cache/www-apps/phpmp-0.11.0           |   2 +-
+ metadata/md5-cache/www-apps/rutorrent-3.4-r1       |   2 +-
+ metadata/md5-cache/www-apps/tt-rss-1.15.3          |   2 +-
+ metadata/md5-cache/www-apps/tt-rss-20150304        |   2 +-
+ metadata/md5-cache/www-apps/websvn-2.3.2           |   2 +-
+ metadata/md5-cache/www-apps/websvn-2.3.3           |   2 +-
+ metadata/md5-cache/www-misc/zoneminder-1.27.0      |   2 +-
+ metadata/md5-cache/www-misc/zoneminder-1.28.0      |   2 +-
+ metadata/md5-cache/www-misc/zoneminder-1.28.1      |   2 +-
+ metadata/md5-cache/www-servers/lighttpd-1.4.35     |   2 +-
+ metadata/md5-cache/www-servers/lighttpd-1.4.35-r1  |   2 +-
+ metadata/md5-cache/www-servers/lighttpd-1.4.35-r2  |   2 +-
+ metadata/md5-cache/www-servers/monkeyd-1.5.3       |   2 +-
+ metadata/md5-cache/www-servers/monkeyd-1.5.5       |   2 +-
+ metadata/md5-cache/www-servers/monkeyd-1.5.6       |   2 +-
+ metadata/news/timestamp.chk                        |   2 +-
+ metadata/timestamp                                 |   2 +-
+ metadata/timestamp.chk                             |   2 +-
+ metadata/timestamp.x                               |   2 +-
+ net-analyzer/icinga2/ChangeLog                     |   7 +-
+ net-analyzer/icinga2/Manifest                      |  30 +-
+ net-analyzer/icinga2/icinga2-2.3.5.ebuild          | 158 +++++++
+ net-analyzer/nagvis/ChangeLog                      |   7 +-
+ net-analyzer/nagvis/Manifest                       |  38 +-
+ net-analyzer/nagvis/nagvis-1.6.6.ebuild            |  12 +-
+ sys-fs/udev/ChangeLog                              |   8 +-
+ sys-fs/udev/Manifest                               |  10 +-
+ sys-fs/udev/udev-220-r3.ebuild                     | 507 +++++++++++++++++++++
+ 78 files changed, 832 insertions(+), 116 deletions(-)
+ create mode 100644 metadata/md5-cache/net-analyzer/icinga2-2.3.5
+ create mode 100644 metadata/md5-cache/sys-fs/udev-220-r3
+ create mode 100644 net-analyzer/icinga2/icinga2-2.3.5.ebuild
+ create mode 100644 sys-fs/udev/udev-220-r3.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
