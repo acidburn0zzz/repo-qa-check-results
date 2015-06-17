@@ -243,64 +243,47 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: kde-misc/kate-ctags-plugin-0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: media-sound/amarok-1.4.5-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
 
 !!! ERROR: kde-misc/kate-projectmanager-0.1.2.24 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
-!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   kate-ctags-plugin-0.1.ebuild, line   5:  Called inherit 'kde'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
-!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde failed
-
-!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!   kate-projectmanager-0.1.2.24.ebuild, line   5:  Called inherit 'versionator' 'kde'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-util/kdesvn-1.0.4-r1 failed.
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
-!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!! Call stack:
-!!!                     ebuild-daemon.lib, line  35:  Called die
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
+!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
+!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
+!!!   kate-projectmanager-0.1.2.24.ebuild, line   5:  Called inherit 'versionator' 'kde'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!                     ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for kde failed
+
 !!!         kdesvn-1.0.4-r1.ebuild, line   7:  Called inherit 'cmake-utils' 'eutils' 'kde-functions' 'versionator'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
@@ -309,12 +292,29 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  EAPI=1 is not supported
 
-Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-sound/amarok-1.4.5-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass kde
+
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: kde-misc/kate-ctags-plugin-0.1
-!!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: media-sound/amarok-1.4.5-r1
 !!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: kde-misc/kate-projectmanager-0.1.2.24
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-sound/amarok-1.4.5-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-util/kdesvn-1.0.4-r1
  * Cache regenerated successfully

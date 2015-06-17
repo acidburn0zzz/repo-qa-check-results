@@ -130,7 +130,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   87c9e6b..23e26a5  master     -> origin/master
+Updating 87c9e6b..23e26a5
+Fast-forward
+ app-office/skrooge/Manifest              |  1 +
+ app-office/skrooge/skrooge-2.0.0.ebuild  | 93 ++++++++++++++++++++++++++++++++
+ app-office/skrooge/skrooge-9999.ebuild   |  7 ++-
+ eclass/kde5.eclass                       | 11 +++-
+ kde-apps/dolphin/dolphin-9999.ebuild     |  6 ++-
+ kde-misc/krusader/krusader-5.9999.ebuild | 65 ++++++++++++++++++++++
+ 6 files changed, 178 insertions(+), 5 deletions(-)
+ create mode 100644 app-office/skrooge/Manifest
+ create mode 100644 app-office/skrooge/skrooge-2.0.0.ebuild
+ create mode 100644 kde-misc/krusader/krusader-5.9999.ebuild
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded

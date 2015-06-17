@@ -94,16 +94,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/pantera31752/open-overlay
-   1b5a831..ff23d54  master     -> origin/master
-Updating 1b5a831..ff23d54
+   ff23d54..65f673d  master     -> origin/master
+Updating ff23d54..65f673d
 Fast-forward
- net-im/viber/Manifest                       |  3 +++
- net-im/viber/files/viber-9999-desktop.patch | 10 ++++++++++
- net-im/viber/viber-9999-r9999.ebuild        | 26 ++++++++++++++++++++++++++
- 3 files changed, 39 insertions(+)
- create mode 100644 net-im/viber/Manifest
- create mode 100644 net-im/viber/files/viber-9999-desktop.patch
- create mode 100644 net-im/viber/viber-9999-r9999.ebuild
+ mate-base/mate/Manifest                            |  2 +-
+ mate-base/mate/mate-1.10.1.ebuild                  | 14 +++++-----
+ mate-extra/mate-power-manager/Manifest             |  2 +-
+ .../mate-power-manager-1.10.0.ebuild               |  2 +-
+ mate-extra/mate-user-guide/Manifest                |  2 ++
+ .../mate-user-guide/mate-user-guide-1.10.0.ebuild  | 30 ++++++++++++++++++++++
+ 6 files changed, 43 insertions(+), 9 deletions(-)
+ create mode 100644 mate-extra/mate-user-guide/Manifest
+ create mode 100644 mate-extra/mate-user-guide/mate-user-guide-1.10.0.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
