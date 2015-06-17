@@ -233,106 +233,152 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+
 !!! ERROR: mail-client/sup-0.9.1 failed.
+!!! ERROR: x11-misc/orthos-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-ruby/msgpack-0.3.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-ruby/ferret-0.11.6 failed.
+
+!!! ERROR: dev-ruby/rubytter-1.2.2 failed.
 
 !!! ERROR: dev-ruby/ruby-rmail-1.0.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: x11-misc/orthos-9999 failed.
-
-!!! ERROR: dev-ruby/rubytter-1.2.2 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
 !!! ERROR: dev-ruby/trollop-1.15 failed.
-
-!!! ERROR: dev-ruby/msgpack-0.3.2 failed.
-
-!!! ERROR: dev-ruby/ferret-0.11.6 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-ruby/termcolor-1.1.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: x11-plugins/eminent-9999 failed.
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: x11-plugins/wicked-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '181' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/mail-client/sup/sup-0.9.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '173' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/mail-client/sup/sup-0.9.1.ebuild'
-
-!!! ERROR: sys-block/flashcache-9999 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/ferret/ferret-0.11.6.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/rubytter/rubytter-1.2.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '181' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/mail-client/sup/sup-0.9.1.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/ferret/ferret-0.11.6.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/mail-client/sup/sup-0.9.1.ebuild'
+
+!!! ERROR: sys-block/flashcache-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/ferret/ferret-0.11.6.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
+!!!               sup-0.9.1.ebuild, line   6:  Called inherit 'gems'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/ferret/ferret-0.11.6.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/termcolor/termcolor-1.1.0.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!           ferret-0.11.6.ebuild, line   6:  Called inherit 'gems'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!             orthos-9999.ebuild, line   6:  Called inherit 'git' 'multilib'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/rubytter/rubytter-1.2.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for gems failed
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/rubytter/rubytter-1.2.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for gems failed
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/termcolor/termcolor-1.1.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
+!!!            eminent-9999.ebuild, line   6:  Called inherit 'git'
+!!!            trollop-1.15.ebuild, line   6:  Called inherit 'gems'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for gems failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/rubytter/rubytter-1.2.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/termcolor/termcolor-1.1.0.ebuild'
+!!!         termcolor-1.1.0.ebuild, line   5:  Called inherit 'gems'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/sys-block/flashcache/flashcache-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for gems failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!          rubytter-1.2.2.ebuild, line   5:  Called inherit 'gems'
+!!!           msgpack-0.3.2.ebuild, line   6:  Called inherit 'gems'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/sys-block/flashcache/flashcache-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+
+!!! ERROR: app-backup/nautilus-dropbox-0.6.7 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/ruby-rmail/ruby-rmail-1.0.0.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/mail-client/sup/sup-0.9.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/rubytter/rubytter-1.2.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
-!!!          rubytter-1.2.2.ebuild, line   5:  Called inherit 'gems'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/termcolor/termcolor-1.1.0.ebuild'
-!!!               sup-0.9.1.ebuild, line   6:  Called inherit 'gems'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/ferret/ferret-0.11.6.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for gems failed
@@ -341,164 +387,117 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  inherit for gems failed
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/termcolor/termcolor-1.1.0.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/ruby-rmail/ruby-rmail-1.0.0.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
-!!!           ferret-0.11.6.ebuild, line   6:  Called inherit 'gems'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         termcolor-1.1.0.ebuild, line   5:  Called inherit 'gems'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
-!!!  inherit for gems failed
+!!!  inherit for git failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-misc/orthos/orthos-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-plugins/eminent/eminent-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/ruby-rmail/ruby-rmail-1.0.0.ebuild'
-!!!             orthos-9999.ebuild, line   6:  Called inherit 'git' 'multilib'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/trollop/trollop-1.15.ebuild'
-
-!!! ERROR: app-backup/nautilus-dropbox-0.6.7 failed.
-!!!        ruby-rmail-1.0.0.ebuild, line   5:  Called inherit 'gems'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/dev-ruby/msgpack/msgpack-0.3.2.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for gems failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!            eminent-9999.ebuild, line   6:  Called inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for gems failed
-
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
-!!!           msgpack-0.3.2.ebuild, line   6:  Called inherit 'gems'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/sys-block/flashcache/flashcache-9999.ebuild'
-!!!            trollop-1.15.ebuild, line   6:  Called inherit 'gems'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/sys-block/flashcache/flashcache-9999.ebuild'
-!!!             wicked-9999.ebuild, line   5:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.7.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.7.ebuild'
-
-!!! ERROR: app-backup/nautilus-dropbox-0.6.2 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for gems failed
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/sys-block/flashcache/flashcache-9999.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!        ruby-rmail-1.0.0.ebuild, line   5:  Called inherit 'gems'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for gems failed
+
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.7.ebuild'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.7.ebuild'
+!!!         flashcache-9999.ebuild, line   6:  Called inherit 'eutils' 'git' 'linux-mod'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.7.ebuild'
 !!!   nautilus-dropbox-0.6.7.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'python'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
-!!!         flashcache-9999.ebuild, line   6:  Called inherit 'eutils' 'git' 'linux-mod'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for gems failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
 !!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                   gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+Sandboxed process killed by signal: Broken pipe
 
 !!! ERROR: x11-wm/awesome-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                   gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
-!!!   nautilus-dropbox-0.6.2.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'python'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-wm/awesome/awesome-9999.ebuild'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                   gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-wm/awesome/awesome-9999.ebuild'
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-wm/awesome/awesome-9999.ebuild'
-Sandboxed process killed by signal: Broken pipe
 !!!            awesome-9999.ebuild, line   8:  Called inherit 'cmake-utils' 'eutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  inherit for git failed
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass cmake-utils
 
-!!! !!! !!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: mail-client/sup-0.9.1!!! 
-caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-misc/orthos-9999
-caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/ruby-rmail-1.0.0
-!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/ferret-0.11.6
-!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/rubytter-1.2.2
-!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/trollop-1.15
-!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/termcolor-1.1.0
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: app-backup/nautilus-dropbox-0.6.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/app-backup/nautilus-dropbox/nautilus-dropbox-0.6.2.ebuild'
+!!!   nautilus-dropbox-0.6.2.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'python'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!               ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass eutils
+
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: x11-plugins/wicked-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/matsuu/x11-plugins/wicked/wicked-9999.ebuild'
+!!!             wicked-9999.ebuild, line   5:  Called inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass git
+
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-misc/orthos-9999
+!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: mail-client/sup-0.9.1
 !!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/msgpack-0.3.2
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-plugins/wicked-9999
+!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/ferret-0.11.6caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/rubytter-1.2.2
+caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/ruby-rmail-1.0.0
+
+!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/termcolor-1.1.0
+!!! caught exception inherit requires an unknown eclass, gems cannot be found while processing ebuild src: dev-ruby/trollop-1.15
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-plugins/eminent-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-block/flashcache-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-wm/awesome-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-backup/nautilus-dropbox-0.6.7
+!!! caught exception False while processing ebuild src: x11-wm/awesome-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-backup/nautilus-dropbox-0.6.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-plugins/wicked-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-backup/nautilus-dropbox-0.6.7
  * Cache regenerated successfully
