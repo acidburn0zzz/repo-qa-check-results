@@ -91,57 +91,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/distros
-   b23c30c..bd33374  master     -> origin/master
-Updating b23c30c..bd33374
-Fast-forward
- profiles/CDS/amd64/parent         |   2 +-
- profiles/CDS/make.defaults        |  22 +--
- profiles/CDS/package.keywords     |   2 -
- profiles/CDS/package.mask         |   2 -
- profiles/CDS/package.use          |  31 ----
- profiles/CDS/virtuals             |   5 -
- profiles/CDS/x86/parent           |   2 +-
- profiles/CLD/amd64/make.defaults  |   1 -
- profiles/CLD/amd64/parent         |   2 +-
- profiles/CLD/make.defaults        |  19 ---
- profiles/CLD/package.keywords     | 305 --------------------------------------
- profiles/CLD/package.use          |  96 ------------
- profiles/CLD/virtuals             |   2 -
- profiles/CLD/x86/parent           |   2 +-
- profiles/CLDX/amd64/make.defaults |   1 -
- profiles/CLDX/amd64/parent        |   2 +-
- profiles/CLDX/make.defaults       |  14 --
- profiles/CLDX/package.keywords    |  44 ------
- profiles/CLDX/package.mask        |   3 -
- profiles/CLDX/package.use         |  85 -----------
- profiles/CLDX/x86/parent          |   2 +-
- profiles/CLS/amd64/make.defaults  |   1 -
- profiles/CLS/amd64/parent         |   2 +-
- profiles/CLS/make.defaults        |   1 -
- profiles/CLS/package.use          |  13 +-
- profiles/CLS/x86/parent           |   2 +-
- profiles/CMC/amd64/parent         |   2 +-
- profiles/CMC/make.defaults        |   8 +-
- profiles/CMC/package.keywords     |   1 -
- profiles/CMC/package.mask         |   2 +-
- profiles/CMC/package.use          |  20 +--
- profiles/CMC/x86/parent           |   2 +-
- profiles/CSS/amd64/parent         |   2 +-
- profiles/CSS/package.use          |   4 +
- profiles/CSS/x86/parent           |   2 +-
- 35 files changed, 29 insertions(+), 677 deletions(-)
- delete mode 100644 profiles/CDS/package.keywords
- delete mode 100644 profiles/CDS/package.mask
- delete mode 100644 profiles/CDS/package.use
- delete mode 100644 profiles/CDS/virtuals
- delete mode 100644 profiles/CLD/package.keywords
- delete mode 100644 profiles/CLD/package.use
- delete mode 100644 profiles/CLD/virtuals
- delete mode 100644 profiles/CLDX/package.keywords
- delete mode 100644 profiles/CLDX/package.mask
- delete mode 100644 profiles/CLDX/package.use
- create mode 100644 profiles/CSS/package.use
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

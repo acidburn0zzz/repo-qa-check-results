@@ -93,7 +93,35 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   919b208..f9fc13e  master     -> origin/master
+Updating 919b208..f9fc13e
+Fast-forward
+ dev-vcs/git/Manifest                               |   4 +
+ dev-vcs/git/git-2.4.4.ebuild                       | 633 +++++++++++++++++++++
+ media-libs/mesa/Manifest                           |   2 +
+ media-libs/mesa/mesa-10.6.0.ebuild                 | 453 +++++++++++++++
+ x11-base/xorg-server/Manifest                      |   9 +
+ x11-base/xorg-server/files/xdm-setup.initd-1       |  14 +
+ x11-base/xorg-server/files/xdm.confd-4             |  10 +
+ x11-base/xorg-server/files/xdm.initd-11            | 231 ++++++++
+ .../files/xorg-server-1.12-unloadsubmodule.patch   |  53 ++
+ .../files/xorg-server-1.17-ia64-fix_inx_outx.patch |  59 ++
+ ...rver-1.17-support-multiple-Files-sections.patch |  65 +++
+ x11-base/xorg-server/files/xorg-sets.conf          |   6 +
+ x11-base/xorg-server/xorg-server-1.17.2.ebuild     | 239 ++++++++
+ 13 files changed, 1778 insertions(+)
+ create mode 100644 dev-vcs/git/git-2.4.4.ebuild
+ create mode 100644 media-libs/mesa/mesa-10.6.0.ebuild
+ create mode 100644 x11-base/xorg-server/Manifest
+ create mode 100644 x11-base/xorg-server/files/xdm-setup.initd-1
+ create mode 100644 x11-base/xorg-server/files/xdm.confd-4
+ create mode 100644 x11-base/xorg-server/files/xdm.initd-11
+ create mode 100644 x11-base/xorg-server/files/xorg-server-1.12-unloadsubmodule.patch
+ create mode 100644 x11-base/xorg-server/files/xorg-server-1.17-ia64-fix_inx_outx.patch
+ create mode 100644 x11-base/xorg-server/files/xorg-server-1.17-support-multiple-Files-sections.patch
+ create mode 100644 x11-base/xorg-server/files/xorg-sets.conf
+ create mode 100644 x11-base/xorg-server/xorg-server-1.17.2.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

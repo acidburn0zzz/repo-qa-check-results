@@ -94,7 +94,386 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   0710b82..f0107a2  master     -> origin/master
+Updating 0710b82..f0107a2
+Fast-forward
+ dev-qt/assistant/ChangeLog                         |  8 ++-
+ dev-qt/assistant/Manifest                          | 28 +++++++---
+ ...sistant-5.4.1.ebuild => assistant-5.4.2.ebuild} | 24 ++++-----
+ dev-qt/assistant/metadata.xml                      |  2 +-
+ dev-qt/designer/ChangeLog                          |  8 ++-
+ dev-qt/designer/Manifest                           | 28 +++++++---
+ ...designer-5.4.1.ebuild => designer-5.4.2.ebuild} | 24 ++++-----
+ dev-qt/designer/metadata.xml                       |  2 +-
+ dev-qt/linguist-tools/ChangeLog                    |  8 ++-
+ dev-qt/linguist-tools/Manifest                     | 28 +++++++---
+ ...ls-5.4.1.ebuild => linguist-tools-5.4.2.ebuild} | 14 ++---
+ dev-qt/linguist-tools/metadata.xml                 |  2 +-
+ dev-qt/linguist/ChangeLog                          |  8 ++-
+ dev-qt/linguist/Manifest                           | 28 +++++++---
+ ...linguist-5.4.1.ebuild => linguist-5.4.2.ebuild} | 20 +++----
+ dev-qt/linguist/metadata.xml                       |  2 +-
+ dev-qt/pixeltool/ChangeLog                         |  8 ++-
+ dev-qt/pixeltool/Manifest                          | 28 +++++++---
+ dev-qt/pixeltool/metadata.xml                      |  2 +-
+ ...xeltool-5.4.1.ebuild => pixeltool-5.4.2.ebuild} | 16 +++---
+ dev-qt/qdbus/ChangeLog                             |  8 ++-
+ dev-qt/qdbus/Manifest                              | 28 +++++++---
+ dev-qt/qdbus/metadata.xml                          |  2 +-
+ .../{qdbus-5.4.1.ebuild => qdbus-5.4.2.ebuild}     | 14 ++---
+ dev-qt/qdbusviewer/ChangeLog                       |  8 ++-
+ dev-qt/qdbusviewer/Manifest                        | 28 +++++++---
+ dev-qt/qdbusviewer/metadata.xml                    |  2 +-
+ ...iewer-5.4.1.ebuild => qdbusviewer-5.4.2.ebuild} | 18 +++----
+ dev-qt/qdoc/ChangeLog                              |  8 ++-
+ dev-qt/qdoc/Manifest                               | 28 +++++++---
+ dev-qt/qdoc/metadata.xml                           |  2 +-
+ .../qdoc/{qdoc-5.4.1.ebuild => qdoc-5.4.2.ebuild}  | 12 ++---
+ dev-qt/qt3support/ChangeLog                        |  5 +-
+ dev-qt/qt3support/Manifest                         | 24 ++++++---
+ dev-qt/qt3support/metadata.xml                     |  2 +-
+ dev-qt/qtbearer/ChangeLog                          |  5 +-
+ dev-qt/qtbearer/Manifest                           | 24 ++++++---
+ dev-qt/qtbearer/metadata.xml                       |  2 +-
+ dev-qt/qtconcurrent/ChangeLog                      |  8 ++-
+ dev-qt/qtconcurrent/Manifest                       | 28 +++++++---
+ dev-qt/qtconcurrent/metadata.xml                   |  2 +-
+ ...rent-5.4.1.ebuild => qtconcurrent-5.4.2.ebuild} | 10 ++--
+ dev-qt/qtcore/ChangeLog                            |  8 ++-
+ dev-qt/qtcore/Manifest                             | 28 +++++++---
+ dev-qt/qtcore/metadata.xml                         |  2 +-
+ .../{qtcore-5.4.1.ebuild => qtcore-5.4.2.ebuild}   | 14 ++---
+ dev-qt/qtdbus/ChangeLog                            |  8 ++-
+ dev-qt/qtdbus/Manifest                             | 28 +++++++---
+ dev-qt/qtdbus/metadata.xml                         |  2 +-
+ .../{qtdbus-5.4.1.ebuild => qtdbus-5.4.2.ebuild}   | 12 ++---
+ dev-qt/qtdeclarative/ChangeLog                     |  9 +++-
+ dev-qt/qtdeclarative/Manifest                      | 29 ++++++----
+ .../qtdeclarative-5.4.0-stack-direction.patch      | 46 ----------------
+ dev-qt/qtdeclarative/metadata.xml                  |  4 +-
+ ...ive-5.4.1.ebuild => qtdeclarative-5.4.2.ebuild} | 25 ++++-----
+ dev-qt/qtdemo/ChangeLog                            |  5 +-
+ dev-qt/qtdemo/Manifest                             | 32 +++++------
+ dev-qt/qtdemo/metadata.xml                         |  2 +-
+ dev-qt/qtdiag/ChangeLog                            |  8 ++-
+ dev-qt/qtdiag/Manifest                             | 28 +++++++---
+ dev-qt/qtdiag/metadata.xml                         |  2 +-
+ .../{qtdiag-5.4.1.ebuild => qtdiag-5.4.2.ebuild}   | 16 +++---
+ dev-qt/qtgraphicaleffects/ChangeLog                |  9 +++-
+ dev-qt/qtgraphicaleffects/Manifest                 | 28 +++++++---
+ dev-qt/qtgraphicaleffects/metadata.xml             |  2 +-
+ ....4.1.ebuild => qtgraphicaleffects-5.4.2.ebuild} | 15 +++---
+ dev-qt/qtgui/ChangeLog                             | 10 +++-
+ dev-qt/qtgui/Manifest                              | 31 +++++++----
+ dev-qt/qtgui/files/qtgui-5.4.1-CVE-2015-0295.patch | 43 ---------------
+ .../files/qtgui-5.4.1-CVE-2015-1858-1859.patch     | 62 ----------------------
+ dev-qt/qtgui/files/qtgui-5.4.1-CVE-2015-1860.patch | 30 -----------
+ dev-qt/qtgui/metadata.xml                          |  4 +-
+ .../{qtgui-5.4.1-r2.ebuild => qtgui-5.4.2.ebuild}  | 50 ++++++-----------
+ dev-qt/qthelp/ChangeLog                            |  8 ++-
+ dev-qt/qthelp/Manifest                             | 28 +++++++---
+ dev-qt/qthelp/metadata.xml                         |  2 +-
+ .../{qthelp-5.4.1.ebuild => qthelp-5.4.2.ebuild}   | 18 +++----
+ dev-qt/qtimageformats/ChangeLog                    |  8 ++-
+ dev-qt/qtimageformats/Manifest                     | 28 +++++++---
+ dev-qt/qtimageformats/metadata.xml                 |  2 +-
+ ...ts-5.4.1.ebuild => qtimageformats-5.4.2.ebuild} | 11 ++--
+ dev-qt/qtmultimedia/ChangeLog                      |  8 ++-
+ dev-qt/qtmultimedia/Manifest                       | 28 +++++++---
+ dev-qt/qtmultimedia/metadata.xml                   |  2 +-
+ ...edia-5.4.1.ebuild => qtmultimedia-5.4.2.ebuild} | 21 +++-----
+ dev-qt/qtnetwork/ChangeLog                         |  8 ++-
+ dev-qt/qtnetwork/Manifest                          | 28 +++++++---
+ dev-qt/qtnetwork/metadata.xml                      |  2 +-
+ ...network-5.4.1.ebuild => qtnetwork-5.4.2.ebuild} | 16 +++---
+ dev-qt/qtopengl/ChangeLog                          |  8 ++-
+ dev-qt/qtopengl/Manifest                           | 28 +++++++---
+ dev-qt/qtopengl/metadata.xml                       |  4 +-
+ ...qtopengl-5.4.1.ebuild => qtopengl-5.4.2.ebuild} | 14 ++---
+ dev-qt/qtopenvg/ChangeLog                          |  5 +-
+ dev-qt/qtopenvg/Manifest                           | 24 ++++++---
+ dev-qt/qtopenvg/metadata.xml                       |  2 +-
+ dev-qt/qtpaths/ChangeLog                           |  8 ++-
+ dev-qt/qtpaths/Manifest                            | 28 +++++++---
+ dev-qt/qtpaths/metadata.xml                        |  2 +-
+ .../{qtpaths-5.4.1.ebuild => qtpaths-5.4.2.ebuild} | 10 ++--
+ dev-qt/qtphonon/ChangeLog                          |  5 +-
+ dev-qt/qtphonon/Manifest                           | 35 ++++++------
+ dev-qt/qtphonon/metadata.xml                       |  2 +-
+ dev-qt/qtpositioning/ChangeLog                     |  8 ++-
+ dev-qt/qtpositioning/Manifest                      | 28 +++++++---
+ dev-qt/qtpositioning/metadata.xml                  |  2 +-
+ ...ing-5.4.1.ebuild => qtpositioning-5.4.2.ebuild} | 12 ++---
+ dev-qt/qtprintsupport/ChangeLog                    |  8 ++-
+ dev-qt/qtprintsupport/Manifest                     | 28 +++++++---
+ dev-qt/qtprintsupport/metadata.xml                 |  5 +-
+ ...rt-5.4.1.ebuild => qtprintsupport-5.4.2.ebuild} | 20 +++----
+ dev-qt/qtquick1/ChangeLog                          |  8 ++-
+ dev-qt/qtquick1/Manifest                           | 28 +++++++---
+ dev-qt/qtquick1/metadata.xml                       |  2 +-
+ ...uick1-5.4.1-r1.ebuild => qtquick1-5.4.2.ebuild} | 31 +++++------
+ dev-qt/qtquickcontrols/ChangeLog                   |  8 ++-
+ dev-qt/qtquickcontrols/Manifest                    | 28 +++++++---
+ dev-qt/qtquickcontrols/metadata.xml                |  2 +-
+ ...s-5.4.1.ebuild => qtquickcontrols-5.4.2.ebuild} | 15 +++---
+ dev-qt/qtscript/ChangeLog                          |  8 ++-
+ dev-qt/qtscript/Manifest                           | 28 +++++++---
+ dev-qt/qtscript/metadata.xml                       |  2 +-
+ ...qtscript-5.4.1.ebuild => qtscript-5.4.2.ebuild} | 13 ++---
+ dev-qt/qtsensors/ChangeLog                         |  8 ++-
+ dev-qt/qtsensors/Manifest                          | 28 +++++++---
+ dev-qt/qtsensors/metadata.xml                      |  2 +-
+ ...sensors-5.4.1.ebuild => qtsensors-5.4.2.ebuild} | 11 ++--
+ dev-qt/qtserialport/ChangeLog                      |  8 ++-
+ dev-qt/qtserialport/Manifest                       | 28 +++++++---
+ dev-qt/qtserialport/metadata.xml                   |  2 +-
+ ...port-5.4.1.ebuild => qtserialport-5.4.2.ebuild} |  9 ++--
+ dev-qt/qtsql/ChangeLog                             |  8 ++-
+ dev-qt/qtsql/Manifest                              | 28 +++++++---
+ dev-qt/qtsql/metadata.xml                          |  2 +-
+ .../{qtsql-5.4.1.ebuild => qtsql-5.4.2.ebuild}     | 10 ++--
+ dev-qt/qtsvg/ChangeLog                             |  8 ++-
+ dev-qt/qtsvg/Manifest                              | 28 +++++++---
+ dev-qt/qtsvg/metadata.xml                          |  2 +-
+ dev-qt/qtsvg/qtsvg-5.4.1.ebuild                    | 27 ----------
+ dev-qt/qtsvg/qtsvg-5.4.2.ebuild                    | 24 +++++++++
+ dev-qt/qttest/ChangeLog                            |  8 ++-
+ dev-qt/qttest/Manifest                             | 28 +++++++---
+ dev-qt/qttest/metadata.xml                         |  2 +-
+ .../{qttest-5.4.1.ebuild => qttest-5.4.2.ebuild}   | 14 ++---
+ dev-qt/qttranslations/ChangeLog                    |  8 ++-
+ dev-qt/qttranslations/Manifest                     | 28 +++++++---
+ dev-qt/qttranslations/metadata.xml                 |  2 +-
+ ...ns-5.4.1.ebuild => qttranslations-5.4.2.ebuild} |  7 +--
+ dev-qt/qtwayland/ChangeLog                         |  8 ++-
+ dev-qt/qtwayland/Manifest                          | 28 +++++++---
+ dev-qt/qtwayland/metadata.xml                      |  2 +-
+ ...wayland-5.4.1.ebuild => qtwayland-5.4.2.ebuild} | 13 ++---
+ dev-qt/qtwebkit/ChangeLog                          |  9 +++-
+ dev-qt/qtwebkit/Manifest                           | 29 +++++++---
+ .../files/qtwebkit-5.4.2-system-leveldb.patch      | 25 +++++++++
+ dev-qt/qtwebkit/metadata.xml                       |  2 +-
+ ...qtwebkit-5.4.1.ebuild => qtwebkit-5.4.2.ebuild} | 36 +++++++------
+ dev-qt/qtwebsockets/ChangeLog                      |  8 ++-
+ dev-qt/qtwebsockets/Manifest                       | 28 +++++++---
+ dev-qt/qtwebsockets/metadata.xml                   |  2 +-
+ ...kets-5.4.1.ebuild => qtwebsockets-5.4.2.ebuild} | 13 ++---
+ dev-qt/qtwidgets/ChangeLog                         |  8 ++-
+ dev-qt/qtwidgets/Manifest                          | 28 +++++++---
+ dev-qt/qtwidgets/metadata.xml                      |  4 +-
+ ...widgets-5.4.1.ebuild => qtwidgets-5.4.2.ebuild} | 27 +++-------
+ dev-qt/qtx11extras/ChangeLog                       |  8 ++-
+ dev-qt/qtx11extras/Manifest                        | 28 +++++++---
+ dev-qt/qtx11extras/metadata.xml                    |  2 +-
+ ...xtras-5.4.1.ebuild => qtx11extras-5.4.2.ebuild} | 13 ++---
+ dev-qt/qtxml/ChangeLog                             |  8 ++-
+ dev-qt/qtxml/Manifest                              | 28 +++++++---
+ dev-qt/qtxml/metadata.xml                          |  2 +-
+ .../{qtxml-5.4.1.ebuild => qtxml-5.4.2.ebuild}     | 12 ++---
+ dev-qt/qtxmlpatterns/ChangeLog                     |  8 ++-
+ dev-qt/qtxmlpatterns/Manifest                      | 28 +++++++---
+ dev-qt/qtxmlpatterns/metadata.xml                  |  2 +-
+ ...rns-5.4.1.ebuild => qtxmlpatterns-5.4.2.ebuild} | 11 ++--
+ eclass/ChangeLog                                   |  7 ++-
+ eclass/qt5-build.eclass                            | 43 +++++++++------
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ metadata/md5-cache/dev-qt/assistant-5.4.1          | 14 -----
+ metadata/md5-cache/dev-qt/assistant-5.4.2          | 14 +++++
+ metadata/md5-cache/dev-qt/designer-5.4.1           | 14 -----
+ metadata/md5-cache/dev-qt/designer-5.4.2           | 14 +++++
+ metadata/md5-cache/dev-qt/linguist-5.4.1           | 14 -----
+ metadata/md5-cache/dev-qt/linguist-5.4.2           | 14 +++++
+ metadata/md5-cache/dev-qt/linguist-tools-5.4.1     | 14 -----
+ metadata/md5-cache/dev-qt/linguist-tools-5.4.2     | 14 +++++
+ metadata/md5-cache/dev-qt/pixeltool-5.4.1          | 14 -----
+ metadata/md5-cache/dev-qt/pixeltool-5.4.2          | 14 +++++
+ metadata/md5-cache/dev-qt/qdbus-5.4.1              | 14 -----
+ metadata/md5-cache/dev-qt/qdbus-5.4.2              | 14 +++++
+ metadata/md5-cache/dev-qt/qdbusviewer-5.4.1        | 14 -----
+ metadata/md5-cache/dev-qt/qdbusviewer-5.4.2        | 14 +++++
+ metadata/md5-cache/dev-qt/qdoc-5.4.1               | 14 -----
+ metadata/md5-cache/dev-qt/qdoc-5.4.2               | 14 +++++
+ .../{qtconcurrent-5.4.1 => qtconcurrent-5.4.2}     | 10 ++--
+ metadata/md5-cache/dev-qt/qtcore-5.4.1             | 14 -----
+ metadata/md5-cache/dev-qt/qtcore-5.4.2             | 14 +++++
+ .../dev-qt/{qtdbus-5.4.1 => qtdbus-5.4.2}          | 10 ++--
+ metadata/md5-cache/dev-qt/qtdeclarative-5.4.1      | 14 -----
+ metadata/md5-cache/dev-qt/qtdeclarative-5.4.2      | 14 +++++
+ metadata/md5-cache/dev-qt/qtdiag-5.4.1             | 14 -----
+ metadata/md5-cache/dev-qt/qtdiag-5.4.2             | 14 +++++
+ metadata/md5-cache/dev-qt/qtgraphicaleffects-5.4.1 | 14 -----
+ metadata/md5-cache/dev-qt/qtgraphicaleffects-5.4.2 | 14 +++++
+ metadata/md5-cache/dev-qt/qtgui-5.4.1-r2           | 16 ------
+ metadata/md5-cache/dev-qt/qtgui-5.4.2              | 16 ++++++
+ metadata/md5-cache/dev-qt/qthelp-5.4.1             | 14 -----
+ metadata/md5-cache/dev-qt/qthelp-5.4.2             | 14 +++++
+ metadata/md5-cache/dev-qt/qtimageformats-5.4.1     | 14 -----
+ metadata/md5-cache/dev-qt/qtimageformats-5.4.2     | 14 +++++
+ metadata/md5-cache/dev-qt/qtmultimedia-5.4.1       | 14 -----
+ metadata/md5-cache/dev-qt/qtmultimedia-5.4.2       | 14 +++++
+ metadata/md5-cache/dev-qt/qtnetwork-5.4.1          | 14 -----
+ metadata/md5-cache/dev-qt/qtnetwork-5.4.2          | 14 +++++
+ metadata/md5-cache/dev-qt/qtopengl-5.4.1           | 14 -----
+ metadata/md5-cache/dev-qt/qtopengl-5.4.2           | 14 +++++
+ .../dev-qt/{qtpaths-5.4.1 => qtpaths-5.4.2}        | 10 ++--
+ metadata/md5-cache/dev-qt/qtpositioning-5.4.1      | 14 -----
+ metadata/md5-cache/dev-qt/qtpositioning-5.4.2      | 14 +++++
+ metadata/md5-cache/dev-qt/qtprintsupport-5.4.1     | 14 -----
+ metadata/md5-cache/dev-qt/qtprintsupport-5.4.2     | 14 +++++
+ metadata/md5-cache/dev-qt/qtquick1-5.4.1-r1        | 14 -----
+ metadata/md5-cache/dev-qt/qtquick1-5.4.2           | 14 +++++
+ metadata/md5-cache/dev-qt/qtquickcontrols-5.4.1    | 14 -----
+ metadata/md5-cache/dev-qt/qtquickcontrols-5.4.2    | 14 +++++
+ metadata/md5-cache/dev-qt/qtscript-5.4.1           | 14 -----
+ metadata/md5-cache/dev-qt/qtscript-5.4.2           | 14 +++++
+ metadata/md5-cache/dev-qt/qtsensors-5.4.1          | 14 -----
+ metadata/md5-cache/dev-qt/qtsensors-5.4.2          | 14 +++++
+ .../{qtserialport-5.4.1 => qtserialport-5.4.2}     | 10 ++--
+ metadata/md5-cache/dev-qt/qtsql-5.4.1              | 15 ------
+ metadata/md5-cache/dev-qt/qtsql-5.4.2              | 15 ++++++
+ metadata/md5-cache/dev-qt/qtsvg-5.4.1              | 14 -----
+ metadata/md5-cache/dev-qt/qtsvg-5.4.2              | 14 +++++
+ .../dev-qt/{qttest-5.4.1 => qttest-5.4.2}          | 10 ++--
+ .../{qttranslations-5.4.1 => qttranslations-5.4.2} |  8 +--
+ metadata/md5-cache/dev-qt/qtwayland-5.4.1          | 14 -----
+ metadata/md5-cache/dev-qt/qtwayland-5.4.2          | 14 +++++
+ metadata/md5-cache/dev-qt/qtwebkit-5.4.1           | 15 ------
+ metadata/md5-cache/dev-qt/qtwebkit-5.4.2           | 15 ++++++
+ metadata/md5-cache/dev-qt/qtwebsockets-5.4.1       | 14 -----
+ metadata/md5-cache/dev-qt/qtwebsockets-5.4.2       | 14 +++++
+ metadata/md5-cache/dev-qt/qtwidgets-5.4.1          | 15 ------
+ metadata/md5-cache/dev-qt/qtwidgets-5.4.2          | 14 +++++
+ metadata/md5-cache/dev-qt/qtx11extras-5.4.1        | 14 -----
+ metadata/md5-cache/dev-qt/qtx11extras-5.4.2        | 14 +++++
+ .../md5-cache/dev-qt/{qtxml-5.4.1 => qtxml-5.4.2}  | 10 ++--
+ .../{qtxmlpatterns-5.4.1 => qtxmlpatterns-5.4.2}   | 10 ++--
+ metadata/md5-cache/sys-fs/btrfs-progs-9999         |  2 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ profiles/use.local.desc                            |  9 ++--
+ sys-fs/btrfs-progs/ChangeLog                       |  5 +-
+ sys-fs/btrfs-progs/Manifest                        | 10 ++--
+ sys-fs/btrfs-progs/btrfs-progs-9999.ebuild         |  3 +-
+ 260 files changed, 2044 insertions(+), 1577 deletions(-)
+ rename dev-qt/assistant/{assistant-5.4.1.ebuild => assistant-5.4.2.ebuild} (57%)
+ rename dev-qt/designer/{designer-5.4.1.ebuild => designer-5.4.2.ebuild} (59%)
+ rename dev-qt/linguist-tools/{linguist-tools-5.4.1.ebuild => linguist-tools-5.4.2.ebuild} (72%)
+ rename dev-qt/linguist/{linguist-5.4.1.ebuild => linguist-5.4.2.ebuild} (55%)
+ rename dev-qt/pixeltool/{pixeltool-5.4.1.ebuild => pixeltool-5.4.2.ebuild} (60%)
+ rename dev-qt/qdbus/{qdbus-5.4.1.ebuild => qdbus-5.4.2.ebuild} (56%)
+ rename dev-qt/qdbusviewer/{qdbusviewer-5.4.1.ebuild => qdbusviewer-5.4.2.ebuild} (60%)
+ rename dev-qt/qdoc/{qdoc-5.4.1.ebuild => qdoc-5.4.2.ebuild} (58%)
+ rename dev-qt/qtconcurrent/{qtconcurrent-5.4.1.ebuild => qtconcurrent-5.4.2.ebuild} (74%)
+ rename dev-qt/qtcore/{qtcore-5.4.1.ebuild => qtcore-5.4.2.ebuild} (69%)
+ rename dev-qt/qtdbus/{qtdbus-5.4.1.ebuild => qtdbus-5.4.2.ebuild} (71%)
+ delete mode 100644 dev-qt/qtdeclarative/files/qtdeclarative-5.4.0-stack-direction.patch
+ rename dev-qt/qtdeclarative/{qtdeclarative-5.4.1.ebuild => qtdeclarative-5.4.2.ebuild} (64%)
+ rename dev-qt/qtdiag/{qtdiag-5.4.1.ebuild => qtdiag-5.4.2.ebuild} (53%)
+ rename dev-qt/qtgraphicaleffects/{qtgraphicaleffects-5.4.1.ebuild => qtgraphicaleffects-5.4.2.ebuild} (60%)
+ delete mode 100644 dev-qt/qtgui/files/qtgui-5.4.1-CVE-2015-0295.patch
+ delete mode 100644 dev-qt/qtgui/files/qtgui-5.4.1-CVE-2015-1858-1859.patch
+ delete mode 100644 dev-qt/qtgui/files/qtgui-5.4.1-CVE-2015-1860.patch
+ rename dev-qt/qtgui/{qtgui-5.4.1-r2.ebuild => qtgui-5.4.2.ebuild} (75%)
+ rename dev-qt/qthelp/{qthelp-5.4.1.ebuild => qthelp-5.4.2.ebuild} (56%)
+ rename dev-qt/qtimageformats/{qtimageformats-5.4.1.ebuild => qtimageformats-5.4.2.ebuild} (69%)
+ rename dev-qt/qtmultimedia/{qtmultimedia-5.4.1.ebuild => qtmultimedia-5.4.2.ebuild} (70%)
+ rename dev-qt/qtnetwork/{qtnetwork-5.4.1.ebuild => qtnetwork-5.4.2.ebuild} (79%)
+ rename dev-qt/qtopengl/{qtopengl-5.4.1.ebuild => qtopengl-5.4.2.ebuild} (70%)
+ rename dev-qt/qtpaths/{qtpaths-5.4.1.ebuild => qtpaths-5.4.2.ebuild} (61%)
+ rename dev-qt/qtpositioning/{qtpositioning-5.4.1.ebuild => qtpositioning-5.4.2.ebuild} (77%)
+ rename dev-qt/qtprintsupport/{qtprintsupport-5.4.1.ebuild => qtprintsupport-5.4.2.ebuild} (64%)
+ rename dev-qt/qtquick1/{qtquick1-5.4.1-r1.ebuild => qtquick1-5.4.2.ebuild} (54%)
+ rename dev-qt/qtquickcontrols/{qtquickcontrols-5.4.1.ebuild => qtquickcontrols-5.4.2.ebuild} (70%)
+ rename dev-qt/qtscript/{qtscript-5.4.1.ebuild => qtscript-5.4.2.ebuild} (69%)
+ rename dev-qt/qtsensors/{qtsensors-5.4.1.ebuild => qtsensors-5.4.2.ebuild} (69%)
+ rename dev-qt/qtserialport/{qtserialport-5.4.1.ebuild => qtserialport-5.4.2.ebuild} (70%)
+ rename dev-qt/qtsql/{qtsql-5.4.1.ebuild => qtsql-5.4.2.ebuild} (87%)
+ delete mode 100644 dev-qt/qtsvg/qtsvg-5.4.1.ebuild
+ create mode 100644 dev-qt/qtsvg/qtsvg-5.4.2.ebuild
+ rename dev-qt/qttest/{qttest-5.4.1.ebuild => qttest-5.4.2.ebuild} (59%)
+ rename dev-qt/qttranslations/{qttranslations-5.4.1.ebuild => qttranslations-5.4.2.ebuild} (75%)
+ rename dev-qt/qtwayland/{qtwayland-5.4.1.ebuild => qtwayland-5.4.2.ebuild} (74%)
+ create mode 100644 dev-qt/qtwebkit/files/qtwebkit-5.4.2-system-leveldb.patch
+ rename dev-qt/qtwebkit/{qtwebkit-5.4.1.ebuild => qtwebkit-5.4.2.ebuild} (78%)
+ rename dev-qt/qtwebsockets/{qtwebsockets-5.4.1.ebuild => qtwebsockets-5.4.2.ebuild} (65%)
+ rename dev-qt/qtwidgets/{qtwidgets-5.4.1.ebuild => qtwidgets-5.4.2.ebuild} (64%)
+ rename dev-qt/qtx11extras/{qtx11extras-5.4.1.ebuild => qtx11extras-5.4.2.ebuild} (63%)
+ rename dev-qt/qtxml/{qtxml-5.4.1.ebuild => qtxml-5.4.2.ebuild} (59%)
+ rename dev-qt/qtxmlpatterns/{qtxmlpatterns-5.4.1.ebuild => qtxmlpatterns-5.4.2.ebuild} (65%)
+ delete mode 100644 metadata/md5-cache/dev-qt/assistant-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/assistant-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/designer-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/designer-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/linguist-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/linguist-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/linguist-tools-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/linguist-tools-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/pixeltool-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/pixeltool-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qdbus-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qdbus-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qdbusviewer-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qdbusviewer-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qdoc-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qdoc-5.4.2
+ rename metadata/md5-cache/dev-qt/{qtconcurrent-5.4.1 => qtconcurrent-5.4.2} (54%)
+ delete mode 100644 metadata/md5-cache/dev-qt/qtcore-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtcore-5.4.2
+ rename metadata/md5-cache/dev-qt/{qtdbus-5.4.1 => qtdbus-5.4.2} (55%)
+ delete mode 100644 metadata/md5-cache/dev-qt/qtdeclarative-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtdeclarative-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtdiag-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtdiag-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtgraphicaleffects-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtgraphicaleffects-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtgui-5.4.1-r2
+ create mode 100644 metadata/md5-cache/dev-qt/qtgui-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qthelp-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qthelp-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtimageformats-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtimageformats-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtmultimedia-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtmultimedia-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtnetwork-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtnetwork-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtopengl-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtopengl-5.4.2
+ rename metadata/md5-cache/dev-qt/{qtpaths-5.4.1 => qtpaths-5.4.2} (52%)
+ delete mode 100644 metadata/md5-cache/dev-qt/qtpositioning-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtpositioning-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtprintsupport-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtprintsupport-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtquick1-5.4.1-r1
+ create mode 100644 metadata/md5-cache/dev-qt/qtquick1-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtquickcontrols-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtquickcontrols-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtscript-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtscript-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtsensors-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtsensors-5.4.2
+ rename metadata/md5-cache/dev-qt/{qtserialport-5.4.1 => qtserialport-5.4.2} (51%)
+ delete mode 100644 metadata/md5-cache/dev-qt/qtsql-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtsql-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtsvg-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtsvg-5.4.2
+ rename metadata/md5-cache/dev-qt/{qttest-5.4.1 => qttest-5.4.2} (52%)
+ rename metadata/md5-cache/dev-qt/{qttranslations-5.4.1 => qttranslations-5.4.2} (62%)
+ delete mode 100644 metadata/md5-cache/dev-qt/qtwayland-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtwayland-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtwebkit-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtwebkit-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtwebsockets-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtwebsockets-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtwidgets-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtwidgets-5.4.2
+ delete mode 100644 metadata/md5-cache/dev-qt/qtx11extras-5.4.1
+ create mode 100644 metadata/md5-cache/dev-qt/qtx11extras-5.4.2
+ rename metadata/md5-cache/dev-qt/{qtxml-5.4.1 => qtxml-5.4.2} (51%)
+ rename metadata/md5-cache/dev-qt/{qtxmlpatterns-5.4.1 => qtxmlpatterns-5.4.2} (50%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

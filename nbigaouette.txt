@@ -233,190 +233,190 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-util/kdevplatform-9999 failed.
-
-!!! ERROR: dev-util/kdevelop-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-vcs/git-1.7.9 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-util/kdevelop-9999 failed.
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!               grb-0.2.3.ebuild, line   5:  Called inherit 'gems'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '159' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-ruby/grb/grb-0.2.3.ebuild'
+
+!!!               grb-0.2.3.ebuild, line   5:  Called inherit 'gems'
+!!! ERROR: sys-cluster/slurm-2.4.4 failed.
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gems'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for gems failed
 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '159' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-util/kdevplatform/kdevplatform-9999.ebuild'
-
-!!! ERROR: sys-cluster/slurm-2.5.0_rc1 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!       kdevplatform-9999.ebuild, line  13:  Called inherit 'kde4-base'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-
-!!! ERROR: sys-cluster/slurm-2.4.4 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: gnome-extra/gsmartcontrol-0.8.5 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 
 !!! ERROR: sys-cluster/slurm-9999 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: sys-cluster/slurm-2.3.5 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!       kdevplatform-9999.ebuild, line  13:  Called inherit 'kde4-base'
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+
+!!! ERROR: gnome-extra/gsmartcontrol-0.8.5 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
+
+!!! ERROR: sys-cluster/slurm-2.5.0_rc1 failed.
 
 !!! ERROR: sys-cluster/slurm-2.5.0_rc2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!               git-1.7.9.ebuild, line  14:  Called inherit 'toolchain-funcs' 'eutils' 'elisp-common' 'perl-module' 'bash-completion-r1' 'python'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!           kdevelop-9999.ebuild, line  10:  Called inherit 'kde4-base'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '217' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!             slurm-2.4.4.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         slurm-2.5.0_rc1.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-util/kdevelop/kdevelop-9999.ebuild'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/dev-vcs/git/git-1.7.9.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!           kdevelop-9999.ebuild, line  10:  Called inherit 'kde4-base'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
+!!!               git-1.7.9.ebuild, line  14:  Called inherit 'toolchain-funcs' 'eutils' 'elisp-common' 'perl-module' 'bash-completion-r1' 'python'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '217' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.3.5.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.3.5.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/gnome-extra/gsmartcontrol/gsmartcontrol-0.8.5.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.3.5.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/gnome-extra/gsmartcontrol/gsmartcontrol-0.8.5.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!              slurm-9999.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module' 'git-2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.4.4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.3.5.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             slurm-2.3.5.ebuild, line   8:  Called inherit 'eutils' 'versionator' 'pam' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             slurm-2.4.4.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!         slurm-2.5.0_rc1.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/gnome-extra/gsmartcontrol/gsmartcontrol-0.8.5.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!     gsmartcontrol-0.8.5.ebuild, line   9:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.3.5.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-9999.ebuild'
-!!!             slurm-2.3.5.ebuild, line   8:  Called inherit 'eutils' 'versionator' 'pam' 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
-!!!              slurm-9999.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module' 'git-2'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/nbigaouette/sys-cluster/slurm/slurm-2.5.0_rc2.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         slurm-2.5.0_rc2.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!         slurm-2.5.0_rc2.ebuild, line  26:  Called inherit 'eutils' 'pam' 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
@@ -429,17 +429,17 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-vcs/git-1.7.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-cluster/slurm-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-util/kdevelop-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/slurm-2.4.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/slurm-2.5.0_rc1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-util/kdevelop-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/slurm-2.3.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gsmartcontrol-0.8.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-cluster/slurm-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-cluster/slurm-2.5.0_rc2
  * Cache regenerated successfully
