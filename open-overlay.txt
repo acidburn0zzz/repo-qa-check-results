@@ -94,21 +94,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/pantera31752/open-overlay
-   f9fc13e..1b5a831  master     -> origin/master
-Updating f9fc13e..1b5a831
+   1b5a831..ff23d54  master     -> origin/master
+Updating 1b5a831..ff23d54
 Fast-forward
- dev-libs/wayland/Manifest              |  4 ++-
- dev-libs/wayland/wayland-1.8.1.ebuild  | 53 ++++++++++++++++++++++++++++++++++
- media-libs/mesa/Manifest               |  2 +-
- media-libs/mesa/mesa-10.6.0.ebuild     |  2 +-
- net-im/viber/Manifest                  |  3 --
- net-im/viber/files/viber-desktop.patch | 11 -------
- net-im/viber/viber-9999-r9999.ebuild   | 26 -----------------
- 7 files changed, 58 insertions(+), 43 deletions(-)
- create mode 100644 dev-libs/wayland/wayland-1.8.1.ebuild
- delete mode 100644 net-im/viber/Manifest
- delete mode 100644 net-im/viber/files/viber-desktop.patch
- delete mode 100644 net-im/viber/viber-9999-r9999.ebuild
+ net-im/viber/Manifest                       |  3 +++
+ net-im/viber/files/viber-9999-desktop.patch | 10 ++++++++++
+ net-im/viber/viber-9999-r9999.ebuild        | 26 ++++++++++++++++++++++++++
+ 3 files changed, 39 insertions(+)
+ create mode 100644 net-im/viber/Manifest
+ create mode 100644 net-im/viber/files/viber-9999-desktop.patch
+ create mode 100644 net-im/viber/viber-9999-r9999.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
