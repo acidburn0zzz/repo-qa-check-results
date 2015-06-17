@@ -8,7 +8,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/ubuntu', named 'ubuntu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -42,7 +41,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -87,7 +85,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named 'asux', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -242,33 +239,33 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
 
 !!! ERROR: dev-perl/Text-WideChar-Util-0.08 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '225' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
-!!!     Text-ANSI-Util-0.12.ebuild, line   9:  Called inherit 'perl-module'
 !!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gmt/dev-perl/Text-WideChar-Util/Text-WideChar-Util-0.08.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
+!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gmt/dev-perl/Text-WideChar-Util/Text-WideChar-Util-0.08.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
+!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gmt/dev-perl/Text-WideChar-Util/Text-WideChar-Util-0.08.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gmt/dev-perl/Text-ANSI-Util/Text-ANSI-Util-0.12.ebuild'
+!!!     Text-ANSI-Util-0.12.ebuild, line   9:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   Text-WideChar-Util-0.08.ebuild, line   9:  Called inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gmt/dev-perl/Text-WideChar-Util/Text-WideChar-Util-0.08.ebuild'
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gmt/dev-perl/Text-WideChar-Util/Text-WideChar-Util-0.08.ebuild'
-!!!   Text-WideChar-Util-0.08.ebuild, line   9:  Called inherit 'perl-module'
-!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!               perl-module.eclass, line  40:  Called die

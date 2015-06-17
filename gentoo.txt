@@ -9,7 +9,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/ubuntu', named 'ubuntu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -43,7 +42,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -88,23 +86,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named 'asux', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   3748cb1..8e269b3  master     -> origin/master
-Updating 3748cb1..8e269b3
+   8e269b3..3545f70  master     -> origin/master
+Updating 8e269b3..3545f70
 Fast-forward
- metadata/dtd/timestamp.chk  | 2 +-
- metadata/glsa/timestamp.chk | 2 +-
- metadata/news/timestamp.chk | 2 +-
- metadata/timestamp          | 2 +-
- metadata/timestamp.chk      | 2 +-
- metadata/timestamp.x        | 2 +-
- 6 files changed, 6 insertions(+), 6 deletions(-)
+ metadata/dtd/timestamp.chk                                 |  2 +-
+ metadata/glsa/timestamp.chk                                |  2 +-
+ ...5.0.2427.7_p1 => google-chrome-unstable-45.0.2431.0_p1} |  4 ++--
+ ...7.7_alpha1 => chrome-binary-plugins-45.0.2431.0_alpha1} |  4 ++--
+ metadata/news/timestamp.chk                                |  2 +-
+ metadata/timestamp                                         |  2 +-
+ metadata/timestamp.chk                                     |  2 +-
+ metadata/timestamp.x                                       |  2 +-
+ www-client/google-chrome-unstable/ChangeLog                |  9 ++++++++-
+ www-client/google-chrome-unstable/Manifest                 | 14 +++++++-------
+ ...ebuild => google-chrome-unstable-45.0.2431.0_p1.ebuild} |  2 +-
+ www-plugins/chrome-binary-plugins/ChangeLog                |  9 ++++++++-
+ www-plugins/chrome-binary-plugins/Manifest                 | 14 +++++++-------
+ ...ild => chrome-binary-plugins-45.0.2431.0_alpha1.ebuild} |  2 +-
+ 14 files changed, 42 insertions(+), 28 deletions(-)
+ rename metadata/md5-cache/www-client/{google-chrome-unstable-45.0.2427.7_p1 => google-chrome-unstable-45.0.2431.0_p1} (92%)
+ rename metadata/md5-cache/www-plugins/{chrome-binary-plugins-45.0.2427.7_alpha1 => chrome-binary-plugins-45.0.2431.0_alpha1} (80%)
+ rename www-client/google-chrome-unstable/{google-chrome-unstable-45.0.2427.7_p1.ebuild => google-chrome-unstable-45.0.2431.0_p1.ebuild} (97%)
+ rename www-plugins/chrome-binary-plugins/{chrome-binary-plugins-45.0.2427.7_alpha1.ebuild => chrome-binary-plugins-45.0.2431.0_alpha1.ebuild} (96%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
