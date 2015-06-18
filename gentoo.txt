@@ -92,69 +92,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   cb6e8ce..69b20bb  master     -> origin/master
-Updating cb6e8ce..69b20bb
-Fast-forward
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/sys-apps/moreutils-0.56         |  13 ++
- metadata/md5-cache/sys-auth/nss-pam-ldapd-0.9.5-r1 |  13 --
- metadata/md5-cache/sys-auth/nss-pam-ldapd-0.9.6    |   4 +-
- metadata/md5-cache/sys-cluster/cinder-2014.2.3-r1  |  14 ++
- .../{cinder-2015.1.0 => cinder-2015.1.0-r1}        |   6 +-
- metadata/md5-cache/sys-cluster/cinder-2015.1.9999  |   6 +-
- .../{nova-2015.1.0-r2 => nova-2015.1.0-r3}         |   8 +-
- metadata/md5-cache/sys-cluster/nova-2015.1.9999    |   8 +-
- metadata/md5-cache/sys-cluster/swift-2.2.2-r1      |   6 +-
- metadata/md5-cache/sys-cluster/swift-2.3.0         |   6 +-
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- profiles/use.local.desc                            |   4 +-
- sys-apps/moreutils/ChangeLog                       |   7 +-
- sys-apps/moreutils/Manifest                        |  18 +--
- sys-apps/moreutils/moreutils-0.56.ebuild           |  56 ++++++++
- sys-auth/nss-pam-ldapd/ChangeLog                   |   7 +-
- sys-auth/nss-pam-ldapd/Manifest                    |  34 ++---
- sys-auth/nss-pam-ldapd/files/nslcd-init-r2         |  29 ++++
- sys-auth/nss-pam-ldapd/files/nslcd-init-s6         |   0
- .../nss-pam-ldapd/nss-pam-ldapd-0.9.5-r1.ebuild    | 121 ----------------
- sys-auth/nss-pam-ldapd/nss-pam-ldapd-0.9.6.ebuild  |  12 +-
- sys-cluster/cinder/ChangeLog                       |  15 +-
- sys-cluster/cinder/Manifest                        |  43 +++---
- sys-cluster/cinder/cinder-2014.2.3-r1.ebuild       | 154 +++++++++++++++++++++
- ...r-2015.1.0.ebuild => cinder-2015.1.0-r1.ebuild} |   7 +-
- sys-cluster/cinder/cinder-2015.1.9999.ebuild       |   5 +-
- .../cinder/files/CVE-2015-1851_2014.2.3.patch      |  85 ++++++++++++
- .../cinder/files/CVE-2015-1851_2015.1.0.patch      |  85 ++++++++++++
- sys-cluster/cinder/metadata.xml                    |   5 +-
- sys-cluster/nova/ChangeLog                         |   9 +-
- sys-cluster/nova/Manifest                          |  40 +++---
- sys-cluster/nova/metadata.xml                      |   1 +
- ...-2015.1.0-r2.ebuild => nova-2015.1.0-r3.ebuild} |   7 +-
- sys-cluster/nova/nova-2015.1.9999.ebuild           |   7 +-
- sys-cluster/swift/ChangeLog                        |   6 +-
- sys-cluster/swift/Manifest                         |  40 +++---
- sys-cluster/swift/metadata.xml                     |   2 +-
- sys-cluster/swift/swift-2.2.2-r1.ebuild            |   8 +-
- sys-cluster/swift/swift-2.3.0.ebuild               |   8 +-
- 44 files changed, 631 insertions(+), 280 deletions(-)
- create mode 100644 metadata/md5-cache/sys-apps/moreutils-0.56
- delete mode 100644 metadata/md5-cache/sys-auth/nss-pam-ldapd-0.9.5-r1
- create mode 100644 metadata/md5-cache/sys-cluster/cinder-2014.2.3-r1
- rename metadata/md5-cache/sys-cluster/{cinder-2015.1.0 => cinder-2015.1.0-r1} (96%)
- rename metadata/md5-cache/sys-cluster/{nova-2015.1.0-r2 => nova-2015.1.0-r3} (91%)
- create mode 100644 sys-apps/moreutils/moreutils-0.56.ebuild
- create mode 100644 sys-auth/nss-pam-ldapd/files/nslcd-init-r2
- create mode 100644 sys-auth/nss-pam-ldapd/files/nslcd-init-s6
- delete mode 100644 sys-auth/nss-pam-ldapd/nss-pam-ldapd-0.9.5-r1.ebuild
- create mode 100644 sys-cluster/cinder/cinder-2014.2.3-r1.ebuild
- rename sys-cluster/cinder/{cinder-2015.1.0.ebuild => cinder-2015.1.0-r1.ebuild} (96%)
- create mode 100644 sys-cluster/cinder/files/CVE-2015-1851_2014.2.3.patch
- create mode 100644 sys-cluster/cinder/files/CVE-2015-1851_2015.1.0.patch
- rename sys-cluster/nova/{nova-2015.1.0-r2.ebuild => nova-2015.1.0-r3.ebuild} (96%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
