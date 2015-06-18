@@ -81,31 +81,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/purak', named 'purak', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://git.calculate.ru/calculate/overlay
-   898267c..785baab  master     -> origin/master
-   785baab..3bfdae8  develop    -> origin/develop
-   013d225..3bfdae8  update     -> origin/update
-Updating 898267c..785baab
+   785baab..3bfdae8  master     -> origin/master
+Updating 785baab..3bfdae8
 Fast-forward
- .../3.3/2_ac_install_merge/Depends/cinnamon        |  1 -
- .../3.3/2_ac_install_merge/Depends/gnome-session   |  1 -
- .../2_ac_install_merge/Depends/kdebase-startkde    |  2 --
- .../Depends/mate-session-manager                   |  1 +
- .../3.3/2_ac_install_merge/Depends/xfce4-session   |  2 +-
- .../x11-apps/xinit/env.d/90xsession                | 24 ++++++++--------------
- .../1-user-init/empty_dir/0ini.env                 |  2 +-
- .../2-user/0_Patch/patch-32/.calculate_directory   |  1 +
- .../2-user/0_Patch/patch-32/ini.env                |  7 +++++++
- .../0_Patch/patch-32/kde-apps/.calculate_directory |  1 +
- .../2-user/kde-apps/.calculate_directory           |  1 +
- 11 files changed, 22 insertions(+), 21 deletions(-)
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Depends/cinnamon
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Depends/gnome-session
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Depends/kdebase-startkde
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Depends/mate-session-manager
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/0_Patch/patch-32/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/0_Patch/patch-32/ini.env
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/0_Patch/patch-32/kde-apps/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/kde-apps/.calculate_directory
+ profiles/base/desktop/package.use/default | 3 +++
+ 1 file changed, 3 insertions(+)
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded

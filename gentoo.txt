@@ -92,71 +92,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   325b307..d112ab1  master     -> origin/master
-Updating 325b307..d112ab1
-Fast-forward
- app-accessibility/at-spi2-atk/ChangeLog            |   9 +-
- app-accessibility/at-spi2-atk/Manifest             |  36 +--
- .../at-spi2-atk/at-spi2-atk-2.16.0-r1.ebuild       |   9 +-
- .../test-accessible.xml                            |  16 ++
- .../at-spi2-atk-2.16.0-tests-data/test-action.xml  |  11 +
- .../test-component.xml                             |  13 ++
- .../files/at-spi2-atk-2.16.0-tests-data/test.xml   |  16 ++
- app-portage/eix/ChangeLog                          |   7 +-
- app-portage/eix/Manifest                           |  14 +-
- app-portage/eix/eix-0.30.11.ebuild                 |  74 ++++++
- dev-python/simpletal/ChangeLog                     |   7 +-
- dev-python/simpletal/Manifest                      |  14 +-
- dev-python/simpletal/simpletal-5.2.ebuild          |  41 ++++
- dev-ruby/ruby-romkan/ChangeLog                     |   8 +-
- dev-ruby/ruby-romkan/Manifest                      |  11 +-
- dev-ruby/ruby-romkan/ruby-romkan-0.4-r5.ebuild     |   4 +-
- dev-ruby/ruby-romkan/ruby-romkan-0.4-r6.ebuild     |  32 +++
- dev-ruby/syslogger/ChangeLog                       |  11 +-
- dev-ruby/syslogger/Manifest                        |  30 +--
- dev-ruby/syslogger/syslogger-1.6.0.ebuild          |  32 ---
- ...slogger-1.6.1.ebuild => syslogger-1.6.3.ebuild} |   2 +-
- dev-util/umockdev/ChangeLog                        |   7 +-
- dev-util/umockdev/Manifest                         |  30 +--
- dev-util/umockdev/umockdev-0.8.9.ebuild            |  27 +++
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- .../app-accessibility/at-spi2-atk-2.16.0-r1        |   8 +-
- metadata/md5-cache/app-portage/eix-0.30.11         |  13 ++
- metadata/md5-cache/dev-python/simpletal-5.2        |  14 ++
- metadata/md5-cache/dev-ruby/ruby-romkan-0.4-r5     |  10 +-
- metadata/md5-cache/dev-ruby/ruby-romkan-0.4-r6     |  14 ++
- metadata/md5-cache/dev-ruby/syslogger-1.6.0        |  14 --
- .../dev-ruby/{syslogger-1.6.1 => syslogger-1.6.3}  |   4 +-
- metadata/md5-cache/dev-util/umockdev-0.8.9         |  14 ++
- metadata/md5-cache/net-analyzer/wireshark-1.12.6   |  14 ++
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- net-analyzer/wireshark/ChangeLog                   |   7 +-
- net-analyzer/wireshark/Manifest                    |  20 +-
- net-analyzer/wireshark/wireshark-1.12.6.ebuild     | 252 +++++++++++++++++++++
- 42 files changed, 683 insertions(+), 174 deletions(-)
- create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-tests-data/test-accessible.xml
- create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-tests-data/test-action.xml
- create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-tests-data/test-component.xml
- create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-tests-data/test.xml
- create mode 100644 app-portage/eix/eix-0.30.11.ebuild
- create mode 100644 dev-python/simpletal/simpletal-5.2.ebuild
- create mode 100644 dev-ruby/ruby-romkan/ruby-romkan-0.4-r6.ebuild
- delete mode 100644 dev-ruby/syslogger/syslogger-1.6.0.ebuild
- rename dev-ruby/syslogger/{syslogger-1.6.1.ebuild => syslogger-1.6.3.ebuild} (93%)
- create mode 100644 dev-util/umockdev/umockdev-0.8.9.ebuild
- create mode 100644 metadata/md5-cache/app-portage/eix-0.30.11
- create mode 100644 metadata/md5-cache/dev-python/simpletal-5.2
- create mode 100644 metadata/md5-cache/dev-ruby/ruby-romkan-0.4-r6
- delete mode 100644 metadata/md5-cache/dev-ruby/syslogger-1.6.0
- rename metadata/md5-cache/dev-ruby/{syslogger-1.6.1 => syslogger-1.6.3} (97%)
- create mode 100644 metadata/md5-cache/dev-util/umockdev-0.8.9
- create mode 100644 metadata/md5-cache/net-analyzer/wireshark-1.12.6
- create mode 100644 net-analyzer/wireshark/wireshark-1.12.6.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
