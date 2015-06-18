@@ -92,7 +92,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   55a7eee..df43652  master     -> origin/master
+Updating 55a7eee..df43652
+Fast-forward
+ metadata/dtd/timestamp.chk                |  2 +-
+ metadata/glsa/timestamp.chk               |  2 +-
+ metadata/md5-cache/sys-boot/gnu-efi-3.0.2 |  4 ++--
+ metadata/news/timestamp.chk               |  2 +-
+ metadata/timestamp                        |  2 +-
+ metadata/timestamp.chk                    |  2 +-
+ metadata/timestamp.x                      |  2 +-
+ sys-boot/gnu-efi/ChangeLog                |  5 ++++-
+ sys-boot/gnu-efi/Manifest                 | 30 +++++++++++-------------------
+ sys-boot/gnu-efi/gnu-efi-3.0.2.ebuild     |  4 ++--
+ 10 files changed, 25 insertions(+), 30 deletions(-)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
