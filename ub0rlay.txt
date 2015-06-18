@@ -265,47 +265,47 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'po
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
 !!! ERROR: kde-misc/icemon-0.1-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 
 !!! ERROR: kde-misc/icemon-1.0-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
-!!!           icemon-1.0-r1.ebuild, line   5:  Called inherit 'kde'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde failed
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
-
-!!! ERROR: media-gfx/kflickr-0.9.1_p20081222 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: media-gfx/kflickr-0.9.1_p20081222 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-0.1-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!           icemon-0.1-r1.ebuild, line   5:  Called inherit 'kde'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ub0rlay/kde-misc/icemon/icemon-1.0-r1.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
-!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!           icemon-1.0-r1.ebuild, line   5:  Called inherit 'kde'
 !!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ub0rlay/media-gfx/kflickr/kflickr-0.9.1_p20081222.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for kde failed
+
 !!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ub0rlay/media-gfx/kflickr/kflickr-0.9.1_p20081222.ebuild'
 !!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ub0rlay/media-gfx/kflickr/kflickr-0.9.1_p20081222.ebuild'
 !!!   kflickr-0.9.1_p20081222.ebuild, line   8:  Called inherit 'kde4-base'
