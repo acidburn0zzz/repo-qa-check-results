@@ -92,35 +92,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   e42269e..8590aad  master     -> origin/master
-Updating e42269e..8590aad
-Fast-forward
- media-sound/awesfx/ChangeLog                       |  7 +-
- media-sound/awesfx/Manifest                        | 24 +++++-
- media-sound/awesfx/awesfx-0.5.1e.ebuild            | 39 ++++++++++
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/media-sound/awesfx-0.5.1e       | 11 +++
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- www-apps/drupal/ChangeLog                          | 13 +++-
- www-apps/drupal/Manifest                           | 44 +++++------
- .../{drupal-6.35.ebuild => drupal-6.36.ebuild}     |  2 +-
- www-apps/drupal/drupal-7.37.ebuild                 | 75 -------------------
- .../{drupal-7.36.ebuild => drupal-7.38.ebuild}     |  2 +-
- www-apps/drupal/drupal-8.0.0_beta10.ebuild         | 87 ----------------------
- ...0.0_beta9.ebuild => drupal-8.0.0_beta11.ebuild} |  2 +-
- 17 files changed, 120 insertions(+), 198 deletions(-)
- create mode 100644 media-sound/awesfx/awesfx-0.5.1e.ebuild
- create mode 100644 metadata/md5-cache/media-sound/awesfx-0.5.1e
- rename www-apps/drupal/{drupal-6.35.ebuild => drupal-6.36.ebuild} (92%)
- delete mode 100644 www-apps/drupal/drupal-7.37.ebuild
- rename www-apps/drupal/{drupal-7.36.ebuild => drupal-7.38.ebuild} (93%)
- delete mode 100644 www-apps/drupal/drupal-8.0.0_beta10.ebuild
- rename www-apps/drupal/{drupal-8.0.0_beta9.ebuild => drupal-8.0.0_beta11.ebuild} (97%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
