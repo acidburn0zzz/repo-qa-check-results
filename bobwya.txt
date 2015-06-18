@@ -74,7 +74,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/bobwya/miscellaneous_ebuilds
+   34de296..fccc001  master     -> origin/master
+Updating 34de296..fccc001
+Fast-forward
+ www-client/firefox-kde-opensuse/Manifest           | 171 +-------
+ .../firefox-kde-opensuse-31.7.0-r1.ebuild          | 415 --------------------
+ .../firefox-kde-opensuse-37.0.2.ebuild             | 430 ---------------------
+ .../firefox-kde-opensuse-38.0.1.ebuild             | 424 --------------------
+ .../firefox-kde-opensuse-38.0.5.ebuild             |  27 +-
+ www-client/firefox-kde-opensuse/metadata.xml       |   1 +
+ 6 files changed, 28 insertions(+), 1440 deletions(-)
+ delete mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-31.7.0-r1.ebuild
+ delete mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-37.0.2.ebuild
+ delete mode 100644 www-client/firefox-kde-opensuse/firefox-kde-opensuse-38.0.1.ebuild
 *** syncing '/home/mgorny/repos/bobwya'...
 *** synced '/home/mgorny/repos/bobwya'
  * Sync succeeded

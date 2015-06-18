@@ -117,13 +117,90 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wine-diablo3', named 'wine-dia
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/qt
-   504931c..113911d  master     -> origin/master
-Updating 504931c..113911d
+   113911d..b6d6320  master     -> origin/master
+Updating 113911d..b6d6320
 Fast-forward
- dev-qt/qtwebchannel/qtwebchannel-5.4.9999.ebuild | 7 ++-----
- dev-qt/qtwebchannel/qtwebchannel-5.5.9999.ebuild | 7 ++-----
- dev-qt/qtwebchannel/qtwebchannel-5.9999.ebuild   | 7 ++-----
- 3 files changed, 6 insertions(+), 15 deletions(-)
+ dev-qt/assistant/assistant-5.4.9999.ebuild         |  38 ------
+ dev-qt/designer/designer-5.4.9999.ebuild           |  41 ------
+ .../linguist-tools/linguist-tools-5.4.9999.ebuild  |  36 -----
+ dev-qt/linguist/linguist-5.4.9999.ebuild           |  29 ----
+ dev-qt/pixeltool/pixeltool-5.4.9999.ebuild         |  27 ----
+ dev-qt/qdbus/qdbus-5.4.9999.ebuild                 |  26 ----
+ dev-qt/qdbusviewer/qdbusviewer-5.4.9999.ebuild     |  28 ----
+ dev-qt/qdoc/qdoc-5.4.9999.ebuild                   |  25 ----
+ dev-qt/qtconcurrent/qtconcurrent-5.4.9999.ebuild   |  24 ----
+ dev-qt/qtcore/qtcore-5.4.9999.ebuild               |  41 ------
+ dev-qt/qtdbus/qtdbus-5.4.9999.ebuild               |  40 ------
+ dev-qt/qtdeclarative/qtdeclarative-5.4.9999.ebuild |  46 -------
+ dev-qt/qtdiag/qtdiag-5.4.9999.ebuild               |  26 ----
+ .../qtgraphicaleffects-5.4.9999.ebuild             |  28 ----
+ dev-qt/qtgui/qtgui-5.4.9999.ebuild                 | 149 ---------------------
+ dev-qt/qthelp/qthelp-5.4.9999.ebuild               |  32 -----
+ .../qtimageformats/qtimageformats-5.4.9999.ebuild  |  24 ----
+ dev-qt/qtmultimedia/qtmultimedia-5.4.9999.ebuild   |  58 --------
+ dev-qt/qtnetwork/qtnetwork-5.4.9999.ebuild         |  51 -------
+ dev-qt/qtopengl/qtopengl-5.4.9999.ebuild           |  35 -----
+ dev-qt/qtpaths/qtpaths-5.4.9999.ebuild             |  24 ----
+ dev-qt/qtpositioning/qtpositioning-5.4.9999.ebuild |  36 -----
+ .../qtprintsupport/qtprintsupport-5.4.9999.ebuild  |  43 ------
+ dev-qt/qtquick1/qtquick1-5.4.9999.ebuild           |  50 -------
+ .../qtquickcontrols-5.4.9999.ebuild                |  33 -----
+ dev-qt/qtscript/qtscript-5.4.9999.ebuild           |  30 -----
+ dev-qt/qtsensors/qtsensors-5.4.9999.ebuild         |  27 ----
+ dev-qt/qtserialport/qtserialport-5.4.9999.ebuild   |  20 ---
+ dev-qt/qtsql/qtsql-5.4.9999.ebuild                 |  54 --------
+ dev-qt/qtsvg/qtsvg-5.4.9999.ebuild                 |  24 ----
+ dev-qt/qttest/qttest-5.4.9999.ebuild               |  30 -----
+ .../qttranslations/qttranslations-5.4.9999.ebuild  |  20 ---
+ dev-qt/qtwayland/qtwayland-5.4.9999.ebuild         |  38 ------
+ dev-qt/qtwebchannel/qtwebchannel-5.4.9999.ebuild   |  27 ----
+ dev-qt/qtwebkit/qtwebkit-5.4.9999.ebuild           |  96 -------------
+ dev-qt/qtwebsockets/qtwebsockets-5.4.9999.ebuild   |  28 ----
+ dev-qt/qtwidgets/qtwidgets-5.4.9999.ebuild         |  43 ------
+ dev-qt/qtx11extras/qtx11extras-5.4.9999.ebuild     |  21 ---
+ dev-qt/qtxml/qtxml-5.4.9999.ebuild                 |  26 ----
+ dev-qt/qtxmlpatterns/qtxmlpatterns-5.4.9999.ebuild |  20 ---
+ 40 files changed, 1494 deletions(-)
+ delete mode 100644 dev-qt/assistant/assistant-5.4.9999.ebuild
+ delete mode 100644 dev-qt/designer/designer-5.4.9999.ebuild
+ delete mode 100644 dev-qt/linguist-tools/linguist-tools-5.4.9999.ebuild
+ delete mode 100644 dev-qt/linguist/linguist-5.4.9999.ebuild
+ delete mode 100644 dev-qt/pixeltool/pixeltool-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qdbus/qdbus-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qdbusviewer/qdbusviewer-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qdoc/qdoc-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtconcurrent/qtconcurrent-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtcore/qtcore-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtdbus/qtdbus-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtdeclarative/qtdeclarative-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtdiag/qtdiag-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtgraphicaleffects/qtgraphicaleffects-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtgui/qtgui-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qthelp/qthelp-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtimageformats/qtimageformats-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtmultimedia/qtmultimedia-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtnetwork/qtnetwork-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtopengl/qtopengl-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtpaths/qtpaths-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtpositioning/qtpositioning-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtprintsupport/qtprintsupport-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtquick1/qtquick1-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtquickcontrols/qtquickcontrols-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtscript/qtscript-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtsensors/qtsensors-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtserialport/qtserialport-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtsql/qtsql-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtsvg/qtsvg-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qttest/qttest-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qttranslations/qttranslations-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtwayland/qtwayland-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtwebchannel/qtwebchannel-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtwebkit/qtwebkit-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtwebsockets/qtwebsockets-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtwidgets/qtwidgets-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtx11extras/qtx11extras-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtxml/qtxml-5.4.9999.ebuild
+ delete mode 100644 dev-qt/qtxmlpatterns/qtxmlpatterns-5.4.9999.ebuild
 *** syncing '/home/mgorny/repos/qt'...
 *** synced '/home/mgorny/repos/qt'
  * Sync succeeded
