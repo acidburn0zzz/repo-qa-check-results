@@ -92,7 +92,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   3866178..5f9f47b  master     -> origin/master
+Updating 3866178..5f9f47b
+Fast-forward
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ .../sys-apps/{help2man-1.46.5 => help2man-1.47.1}  |  4 +--
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ sys-apps/help2man/ChangeLog                        |  8 +++++-
+ sys-apps/help2man/Manifest                         | 32 +++++++++++-----------
+ ...lp2man-1.46.5.ebuild => help2man-1.47.1.ebuild} |  2 +-
+ 10 files changed, 32 insertions(+), 26 deletions(-)
+ rename metadata/md5-cache/sys-apps/{help2man-1.46.5 => help2man-1.47.1} (90%)
+ rename sys-apps/help2man/{help2man-1.46.5.ebuild => help2man-1.47.1.ebuild} (95%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
