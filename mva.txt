@@ -124,25 +124,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/caio', named 'caio', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named 'ub0rlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/msva/mva-overlay
-   523af95..11c777a  master     -> origin/master
-Updating 523af95..11c777a
-Fast-forward
- www-apps/redmine/Manifest                          |   2 +-
- .../{redmine-3.0.2.ebuild => redmine-3.0.3.ebuild} |   0
- www-servers/apache-headers/Manifest                |   2 +
- .../apache-headers/apache-headers-2.4.12.ebuild    |  42 ++++++
- www-servers/apache-headers/metadata.xml            |  34 +++++
- www-servers/nginx/Manifest                         |  12 +-
- ...04e33d179be93c4b7ecd0b1e7d461724262548da.patch} |   0
- .../{nginx-1.9.1.ebuild => nginx-1.9.2.ebuild}     | 148 +++++++++++++++------
- 8 files changed, 190 insertions(+), 50 deletions(-)
- rename www-apps/redmine/{redmine-3.0.2.ebuild => redmine-3.0.3.ebuild} (100%)
- create mode 100644 www-servers/apache-headers/Manifest
- create mode 100644 www-servers/apache-headers/apache-headers-2.4.12.ebuild
- create mode 100644 www-servers/apache-headers/metadata.xml
- rename www-servers/nginx/files/{nginx-1.9.1_postgres_49855a037607c89426b59f54ae2d3049dc5d1c74.patch => nginx-1.9.2_postgres_04e33d179be93c4b7ecd0b1e7d461724262548da.patch} (100%)
- rename www-servers/nginx/{nginx-1.9.1.ebuild => nginx-1.9.2.ebuild} (92%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/mva'...
 *** synced '/home/mgorny/repos/mva'
  * Sync succeeded
