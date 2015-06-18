@@ -81,34 +81,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/purak', named 'purak', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/alphallc/freeswitch
-   17aaa77..adf0c2e  master     -> origin/master
-Updating 17aaa77..adf0c2e
-Fast-forward
- metadata/layout.conf                            |   7 +
- net-libs/libsrtp/ChangeLog                      |  14 -
- net-libs/libsrtp/Manifest                       |   2 -
- net-libs/libsrtp/libsrtp-1.4.2.ebuild           |  29 --
- net-misc/ftmod_isdn/ChangeLog                   |  20 -
- net-misc/ftmod_isdn/Manifest                    |   1 -
- net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild      |  57 ---
- net-misc/ozmod_isdn/ChangeLog                   |  21 -
- net-misc/ozmod_isdn/Manifest                    |   1 -
- net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild      |  57 ---
- net-voip/freeswitch/freeswitch-1.4.18-r1.ebuild | 539 ++++++++++++++++++++++++
- profiles/package.mask/freeswitch                |   3 +
- 12 files changed, 549 insertions(+), 202 deletions(-)
- delete mode 100644 net-libs/libsrtp/ChangeLog
- delete mode 100644 net-libs/libsrtp/Manifest
- delete mode 100644 net-libs/libsrtp/libsrtp-1.4.2.ebuild
- delete mode 100644 net-misc/ftmod_isdn/ChangeLog
- delete mode 100644 net-misc/ftmod_isdn/Manifest
- delete mode 100644 net-misc/ftmod_isdn/ftmod_isdn-9999.ebuild
- delete mode 100644 net-misc/ozmod_isdn/ChangeLog
- delete mode 100644 net-misc/ozmod_isdn/Manifest
- delete mode 100644 net-misc/ozmod_isdn/ozmod_isdn-9999.ebuild
- create mode 100644 net-voip/freeswitch/freeswitch-1.4.18-r1.ebuild
- create mode 100644 profiles/package.mask/freeswitch
+Already up-to-date.
 *** syncing '/home/mgorny/repos/freeswitch'...
 *** synced '/home/mgorny/repos/freeswitch'
  * Sync succeeded
