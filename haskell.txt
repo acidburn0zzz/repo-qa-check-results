@@ -70,7 +70,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   9ee833f..ddc6813  master     -> origin/master
+Updating 9ee833f..ddc6813
+Fast-forward
+ sci-mathematics/agda-lib-ffi/Manifest              |   2 +-
+ ...i-0.0.2.ebuild => agda-lib-ffi-0.0.2-r1.ebuild} |  10 +-
+ ...stdlib-0.9.ebuild => agda-stdlib-0.9-r1.ebuild} |   3 +-
+ .../agda-stdlib/agda-stdlib-9999.ebuild            |   3 +-
+ sci-mathematics/agda/Manifest                      |   1 +
+ sci-mathematics/agda/agda-2.4.2.3.ebuild           | 112 +++++++++++++++++++++
+ sci-mathematics/agda/agda-9999.ebuild              |   4 -
+ 7 files changed, 122 insertions(+), 13 deletions(-)
+ rename sci-mathematics/agda-lib-ffi/{agda-lib-ffi-0.0.2.ebuild => agda-lib-ffi-0.0.2-r1.ebuild} (66%)
+ rename sci-mathematics/agda-stdlib/{agda-stdlib-0.9.ebuild => agda-stdlib-0.9-r1.ebuild} (95%)
+ create mode 100644 sci-mathematics/agda/agda-2.4.2.3.ebuild
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded

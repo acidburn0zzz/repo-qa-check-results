@@ -103,37 +103,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/shiznix/unity-gentoo
-   ab2b324..3788a3b  master     -> origin/master
-Updating ab2b324..3788a3b
-Fast-forward
- dev-libs/ubuntu-download-manager/Manifest          |  5 ---
- .../files/fix-pkgconfig-install-dir.patch          | 45 ----------------------
- .../files/fix-qml-path.patch                       | 32 ---------------
- mir-base/mir/Manifest                              |  2 +-
- mir-base/mir/mir-0.12.1_p0_p01_p20150324.ebuild    |  2 +-
- net-libs/ubuntu-download-manager/Manifest          |  3 ++
- .../ubuntu-download-manager}/metadata.xml          |  0
- ...tu-download-manager-0.9_p0_p01_p20150203.ebuild | 32 +++++++--------
- {dev-libs => net-libs}/ubuntu-geoip/Manifest       |  0
- .../ubuntu-geoip}/metadata.xml                     |  0
- .../ubuntu-geoip-1.0.2_p0_p02_p20131125.ebuild     |  0
- profiles/updates/2Q-2015                           |  2 +
- unity-extra/indicator-privacy/Manifest             |  2 +-
- .../indicator-privacy-0.05.ebuild                  |  2 +-
- x11-libs/content-hub/Manifest                      |  2 +-
- ...> content-hub-0.0_p0_p0100_p20150331-r1.ebuild} |  2 +-
- 16 files changed, 28 insertions(+), 103 deletions(-)
- delete mode 100644 dev-libs/ubuntu-download-manager/Manifest
- delete mode 100644 dev-libs/ubuntu-download-manager/files/fix-pkgconfig-install-dir.patch
- delete mode 100644 dev-libs/ubuntu-download-manager/files/fix-qml-path.patch
- create mode 100644 net-libs/ubuntu-download-manager/Manifest
- rename {dev-libs/ubuntu-geoip => net-libs/ubuntu-download-manager}/metadata.xml (100%)
- rename {dev-libs => net-libs}/ubuntu-download-manager/ubuntu-download-manager-0.9_p0_p01_p20150203.ebuild (64%)
- rename {dev-libs => net-libs}/ubuntu-geoip/Manifest (100%)
- rename {dev-libs/ubuntu-download-manager => net-libs/ubuntu-geoip}/metadata.xml (100%)
- rename {dev-libs => net-libs}/ubuntu-geoip/ubuntu-geoip-1.0.2_p0_p02_p20131125.ebuild (100%)
- rename x11-libs/content-hub/{content-hub-0.0_p0_p0100_p20150331.ebuild => content-hub-0.0_p0_p0100_p20150331-r1.ebuild} (97%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/unity-gentoo'...
 *** synced '/home/mgorny/repos/unity-gentoo'
  * Sync succeeded
