@@ -93,16 +93,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   36e9d9e..9d7f7d4  master     -> origin/master
-Updating 36e9d9e..9d7f7d4
+   9d7f7d4..9fdf8a5  master     -> origin/master
+Updating 9d7f7d4..9fdf8a5
 Fast-forward
- metadata/dtd/timestamp.chk  | 2 +-
- metadata/glsa/timestamp.chk | 2 +-
- metadata/news/timestamp.chk | 2 +-
- metadata/timestamp          | 2 +-
- metadata/timestamp.chk      | 2 +-
- metadata/timestamp.x        | 2 +-
- 6 files changed, 6 insertions(+), 6 deletions(-)
+ metadata/dtd/timestamp.chk                 |  2 +-
+ metadata/glsa/timestamp.chk                |  2 +-
+ metadata/md5-cache/net-mail/mlmmj-1.2.19.0 | 10 ++++++++
+ metadata/news/timestamp.chk                |  2 +-
+ metadata/timestamp                         |  2 +-
+ metadata/timestamp.chk                     |  2 +-
+ metadata/timestamp.x                       |  2 +-
+ net-mail/mlmmj/ChangeLog                   |  9 +++++--
+ net-mail/mlmmj/Manifest                    |  4 ++-
+ net-mail/mlmmj/mlmmj-1.2.19.0.ebuild       | 41 ++++++++++++++++++++++++++++++
+ 10 files changed, 67 insertions(+), 9 deletions(-)
+ create mode 100644 metadata/md5-cache/net-mail/mlmmj-1.2.19.0
+ create mode 100644 net-mail/mlmmj/mlmmj-1.2.19.0.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
