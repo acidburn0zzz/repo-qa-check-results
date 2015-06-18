@@ -93,93 +93,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   5f9f47b..e2fe0d4  master     -> origin/master
-Updating 5f9f47b..e2fe0d4
+   e2fe0d4..399db82  master     -> origin/master
+Updating e2fe0d4..399db82
 Fast-forward
- app-admin/rex/ChangeLog                            |   7 +-
- app-admin/rex/Manifest                             |   4 +-
- app-admin/rex/rex-1.3.2.ebuild                     |  41 ++++++
- app-text/htmlc/ChangeLog                           |   6 +-
- app-text/htmlc/Manifest                            |  15 ++-
- app-text/htmlc/files/werror.patch                  |  13 ++
- app-text/htmlc/htmlc-2.60.0.ebuild                 |  10 +-
- dev-lang/swi-prolog/ChangeLog                      |   7 +-
- dev-lang/swi-prolog/Manifest                       |  11 +-
- dev-lang/swi-prolog/swi-prolog-7.2.1.ebuild        | 128 ++++++++++++++++++
- dev-ml/camlp5/ChangeLog                            |  10 +-
- dev-ml/camlp5/Manifest                             |  22 +--
- .../{camlp5-6.11.ebuild => camlp5-6.13.ebuild}     |   6 +-
- dev-python/rpy/ChangeLog                           |   7 +-
- dev-python/rpy/Manifest                            |  14 +-
- dev-python/rpy/rpy-2.6.0.ebuild                    |  51 +++++++
- media-gfx/potrace/ChangeLog                        |   5 +-
- media-gfx/potrace/Manifest                         |  24 ++--
- media-gfx/potrace/potrace-1.12.ebuild              |   4 +-
- media-libs/vamp-plugin-sdk/ChangeLog               |  10 +-
- media-libs/vamp-plugin-sdk/Manifest                |  12 +-
- .../vamp-plugin-sdk/vamp-plugin-sdk-2.6.ebuild     |  46 +++++++
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/app-admin/rex-1.3.2             |  12 ++
- metadata/md5-cache/app-text/htmlc-2.60.0           |   5 +-
- metadata/md5-cache/dev-lang/swi-prolog-7.2.1       |  13 ++
- .../md5-cache/dev-ml/{camlp5-6.11 => camlp5-6.13}  |   8 +-
- metadata/md5-cache/dev-python/rpy-2.6.0            |  14 ++
- metadata/md5-cache/media-gfx/potrace-1.12          |   4 +-
- metadata/md5-cache/media-libs/vamp-plugin-sdk-2.6  |  13 ++
- metadata/md5-cache/net-analyzer/wireshark-1.12.6   |   4 +-
- metadata/md5-cache/net-misc/teamviewer-10.0.36281  |  14 --
- metadata/md5-cache/net-misc/teamviewer-10.0.41499  |  14 ++
- metadata/md5-cache/net-misc/teamviewer-9.0.32150   |   2 +-
- metadata/md5-cache/sys-fs/fuse-2.9.4               |   4 +-
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- net-analyzer/wireshark/ChangeLog                   |   5 +-
- net-analyzer/wireshark/Manifest                    |  20 ++-
- net-analyzer/wireshark/wireshark-1.12.6.ebuild     |   4 +-
- net-misc/teamviewer/ChangeLog                      |  12 +-
- net-misc/teamviewer/Manifest                       |  40 +++---
- .../files/teamviewer-10.0.36281-gentoo.patch       | 150 ---------------------
- .../files/teamviewer-9.0.30203-gentoo.patch        | 138 -------------------
- net-misc/teamviewer/files/teamviewer.sh            |  43 ++++++
- net-misc/teamviewer/files/teamviewerd.conf         |   6 +
- net-misc/teamviewer/files/teamviewerd.init         |  43 +++---
- net-misc/teamviewer/files/teamviewerd9.init        |  26 ++++
- net-misc/teamviewer/metadata.xml                   |  14 +-
- net-misc/teamviewer/teamviewer-10.0.36281.ebuild   | 146 --------------------
- net-misc/teamviewer/teamviewer-10.0.41499.ebuild   | 129 ++++++++++++++++++
- net-misc/teamviewer/teamviewer-9.0.32150.ebuild    |   4 +-
- profiles/ChangeLog                                 |   6 +-
- profiles/base/ChangeLog                            |   5 +-
- profiles/base/package.use.mask                     |   6 +-
- profiles/package.mask                              |   7 +-
- profiles/use.local.desc                            |   2 +-
- sys-fs/fuse/ChangeLog                              |   5 +-
- sys-fs/fuse/Manifest                               |  24 ++--
- sys-fs/fuse/fuse-2.9.4.ebuild                      |   4 +-
- 63 files changed, 800 insertions(+), 611 deletions(-)
- create mode 100644 app-admin/rex/rex-1.3.2.ebuild
- create mode 100644 app-text/htmlc/files/werror.patch
- create mode 100644 dev-lang/swi-prolog/swi-prolog-7.2.1.ebuild
- rename dev-ml/camlp5/{camlp5-6.11.ebuild => camlp5-6.13.ebuild} (87%)
- create mode 100644 dev-python/rpy/rpy-2.6.0.ebuild
- create mode 100644 media-libs/vamp-plugin-sdk/vamp-plugin-sdk-2.6.ebuild
- create mode 100644 metadata/md5-cache/app-admin/rex-1.3.2
- create mode 100644 metadata/md5-cache/dev-lang/swi-prolog-7.2.1
- rename metadata/md5-cache/dev-ml/{camlp5-6.11 => camlp5-6.13} (75%)
- create mode 100644 metadata/md5-cache/dev-python/rpy-2.6.0
- create mode 100644 metadata/md5-cache/media-libs/vamp-plugin-sdk-2.6
- delete mode 100644 metadata/md5-cache/net-misc/teamviewer-10.0.36281
- create mode 100644 metadata/md5-cache/net-misc/teamviewer-10.0.41499
- delete mode 100644 net-misc/teamviewer/files/teamviewer-10.0.36281-gentoo.patch
- delete mode 100644 net-misc/teamviewer/files/teamviewer-9.0.30203-gentoo.patch
- create mode 100755 net-misc/teamviewer/files/teamviewer.sh
- create mode 100644 net-misc/teamviewer/files/teamviewerd.conf
- create mode 100644 net-misc/teamviewer/files/teamviewerd9.init
- delete mode 100644 net-misc/teamviewer/teamviewer-10.0.36281.ebuild
- create mode 100644 net-misc/teamviewer/teamviewer-10.0.41499.ebuild
+ dev-lang/ocaml/ChangeLog                 |   7 +-
+ dev-lang/ocaml/Manifest                  |  15 +++-
+ dev-lang/ocaml/ocaml-4.02.2.ebuild       | 115 +++++++++++++++++++++++++++++++
+ metadata/dtd/timestamp.chk               |   2 +-
+ metadata/glsa/timestamp.chk              |   2 +-
+ metadata/md5-cache/dev-lang/ocaml-4.02.2 |  14 ++++
+ metadata/news/timestamp.chk              |   2 +-
+ metadata/timestamp                       |   2 +-
+ metadata/timestamp.chk                   |   2 +-
+ metadata/timestamp.x                     |   2 +-
+ 10 files changed, 155 insertions(+), 8 deletions(-)
+ create mode 100644 dev-lang/ocaml/ocaml-4.02.2.ebuild
+ create mode 100644 metadata/md5-cache/dev-lang/ocaml-4.02.2
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
