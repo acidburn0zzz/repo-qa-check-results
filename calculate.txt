@@ -80,25 +80,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/purak', named 'purak', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/overlay
-   3bfdae8..79a28e6  master     -> origin/master
-Updating 3bfdae8..79a28e6
-Fast-forward
- app-arch/unzip/Manifest                            |   2 +-
- ...0-alt-natspec.patch => unzip-6.0-natspec.patch} | 101 +++++++++++++--------
- .../{unzip-6.0-r9.ebuild => unzip-6.0-r10.ebuild}  |   2 +-
- profiles/base/server/package.use/default           |   4 +
- .../calculate-icon-theme/.calculate_directory      |   1 +
- .../x11-themes/calculate-icon-theme/20-index.theme |  11 +++
- .../calculate-icon-theme/40-update-icons-cache     |   5 +
- .../calculate-icon-theme-14-r4.ebuild              |  56 ++++++++++++
- 8 files changed, 144 insertions(+), 38 deletions(-)
- rename app-arch/unzip/files/{unzip-6.0-alt-natspec.patch => unzip-6.0-natspec.patch} (79%)
- rename app-arch/unzip/{unzip-6.0-r9.ebuild => unzip-6.0-r10.ebuild} (97%)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/calculate-icon-theme/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/calculate-icon-theme/20-index.theme
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/calculate-icon-theme/40-update-icons-cache
- create mode 100644 x11-themes/calculate-icon-theme/calculate-icon-theme-14-r4.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
