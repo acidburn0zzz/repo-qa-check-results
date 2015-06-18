@@ -93,16 +93,106 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   c46ac62..585c951  master     -> origin/master
-Updating c46ac62..585c951
+   585c951..325b307  master     -> origin/master
+Updating 585c951..325b307
 Fast-forward
- metadata/dtd/timestamp.chk  | 2 +-
- metadata/glsa/timestamp.chk | 2 +-
- metadata/news/timestamp.chk | 2 +-
- metadata/timestamp          | 2 +-
- metadata/timestamp.chk      | 2 +-
- metadata/timestamp.x        | 2 +-
- 6 files changed, 6 insertions(+), 6 deletions(-)
+ app-accessibility/at-spi2-atk/ChangeLog            | 11 ++-
+ app-accessibility/at-spi2-atk/Manifest             | 26 +++++--
+ .../at-spi2-atk/at-spi2-atk-2.16.0-r1.ebuild       | 62 +++++++++++++++
+ .../files/at-spi2-atk-2.16.0-atk_suite.h           | 36 +++++++++
+ .../files/at-spi2-atk-2.16.0-null-gobject.patch    | 26 +++++++
+ .../files/at-spi2-atk-2.16.0-out-of-source.patch   | 55 ++++++++++++++
+ app-arch/p7zip/ChangeLog                           |  5 +-
+ app-arch/p7zip/Manifest                            | 20 ++---
+ app-arch/p7zip/p7zip-9.20.1-r5.ebuild              |  4 +-
+ app-misc/dateutils/ChangeLog                       |  7 +-
+ app-misc/dateutils/Manifest                        | 18 +++--
+ app-misc/dateutils/dateutils-0.3.3.ebuild          | 33 ++++++++
+ app-text/restview/ChangeLog                        |  7 +-
+ app-text/restview/Manifest                         | 30 +++-----
+ app-text/restview/restview-2.4.0.ebuild            | 33 ++++++++
+ app-text/xlsx2csv/ChangeLog                        |  7 +-
+ app-text/xlsx2csv/Manifest                         | 30 +++-----
+ app-text/xlsx2csv/xlsx2csv-0.7.2.ebuild            | 28 +++++++
+ dev-python/psutil/ChangeLog                        |  7 +-
+ dev-python/psutil/Manifest                         | 30 +++-----
+ dev-python/psutil/psutil-3.0.1.ebuild              | 26 +++++++
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ .../app-accessibility/at-spi2-atk-2.16.0-r1        | 13 ++++
+ metadata/md5-cache/app-arch/p7zip-9.20.1-r5        |  4 +-
+ metadata/md5-cache/app-misc/dateutils-0.3.3        | 11 +++
+ metadata/md5-cache/app-text/restview-2.4.0         | 14 ++++
+ metadata/md5-cache/app-text/xlsx2csv-0.7.2         | 14 ++++
+ metadata/md5-cache/dev-python/psutil-3.0.1         | 15 ++++
+ metadata/md5-cache/net-libs/vanessa-socket-0.0.13  | 11 +++
+ metadata/md5-cache/net-mail/libpst-0.6.64          | 13 ++++
+ metadata/md5-cache/net-proxy/sshuttle-0.61-r1      | 12 ---
+ metadata/md5-cache/net-proxy/sshuttle-0.61-r3      |  4 +-
+ .../md5-cache/sci-geosciences/osm2pgsql-0.87.1     | 14 ++++
+ metadata/md5-cache/sys-fs/avfs-1.0.3               | 13 ++++
+ metadata/md5-cache/sys-fs/fuse-2.9.4               | 13 ++++
+ .../md5-cache/www-client/opera-beta-31.0.1889.16   | 13 ++++
+ ...nvidia-drivers-352.09 => nvidia-drivers-352.21} |  4 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ net-libs/vanessa-socket/ChangeLog                  |  9 ++-
+ net-libs/vanessa-socket/Manifest                   |  4 +-
+ .../vanessa-socket/vanessa-socket-0.0.13.ebuild    | 27 +++++++
+ net-mail/libpst/ChangeLog                          |  9 ++-
+ net-mail/libpst/Manifest                           | 24 +-----
+ net-mail/libpst/libpst-0.6.64.ebuild               | 63 ++++++++++++++++
+ net-proxy/sshuttle/ChangeLog                       |  8 +-
+ net-proxy/sshuttle/Manifest                        | 31 +++-----
+ net-proxy/sshuttle/sshuttle-0.61-r1.ebuild         | 41 ----------
+ net-proxy/sshuttle/sshuttle-0.61-r3.ebuild         |  4 +-
+ sci-geosciences/osm2pgsql/ChangeLog                |  7 +-
+ sci-geosciences/osm2pgsql/Manifest                 | 14 +---
+ sci-geosciences/osm2pgsql/osm2pgsql-0.87.1.ebuild  | 36 +++++++++
+ sys-fs/avfs/ChangeLog                              |  9 ++-
+ sys-fs/avfs/Manifest                               | 30 +++-----
+ sys-fs/avfs/avfs-1.0.3.ebuild                      | 61 +++++++++++++++
+ sys-fs/fuse/ChangeLog                              |  7 +-
+ sys-fs/fuse/Manifest                               | 30 +++-----
+ sys-fs/fuse/fuse-2.9.4.ebuild                      | 88 ++++++++++++++++++++++
+ www-client/opera-beta/ChangeLog                    |  7 +-
+ www-client/opera-beta/Manifest                     | 10 ++-
+ .../opera-beta/opera-beta-31.0.1889.16.ebuild      | 85 +++++++++++++++++++++
+ x11-drivers/nvidia-drivers/ChangeLog               |  8 +-
+ x11-drivers/nvidia-drivers/Manifest                | 25 +++---
+ ...-352.09.ebuild => nvidia-drivers-352.21.ebuild} |  2 +-
+ 67 files changed, 1042 insertions(+), 278 deletions(-)
+ create mode 100644 app-accessibility/at-spi2-atk/at-spi2-atk-2.16.0-r1.ebuild
+ create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-atk_suite.h
+ create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-null-gobject.patch
+ create mode 100644 app-accessibility/at-spi2-atk/files/at-spi2-atk-2.16.0-out-of-source.patch
+ create mode 100644 app-misc/dateutils/dateutils-0.3.3.ebuild
+ create mode 100644 app-text/restview/restview-2.4.0.ebuild
+ create mode 100644 app-text/xlsx2csv/xlsx2csv-0.7.2.ebuild
+ create mode 100644 dev-python/psutil/psutil-3.0.1.ebuild
+ create mode 100644 metadata/md5-cache/app-accessibility/at-spi2-atk-2.16.0-r1
+ create mode 100644 metadata/md5-cache/app-misc/dateutils-0.3.3
+ create mode 100644 metadata/md5-cache/app-text/restview-2.4.0
+ create mode 100644 metadata/md5-cache/app-text/xlsx2csv-0.7.2
+ create mode 100644 metadata/md5-cache/dev-python/psutil-3.0.1
+ create mode 100644 metadata/md5-cache/net-libs/vanessa-socket-0.0.13
+ create mode 100644 metadata/md5-cache/net-mail/libpst-0.6.64
+ delete mode 100644 metadata/md5-cache/net-proxy/sshuttle-0.61-r1
+ create mode 100644 metadata/md5-cache/sci-geosciences/osm2pgsql-0.87.1
+ create mode 100644 metadata/md5-cache/sys-fs/avfs-1.0.3
+ create mode 100644 metadata/md5-cache/sys-fs/fuse-2.9.4
+ create mode 100644 metadata/md5-cache/www-client/opera-beta-31.0.1889.16
+ rename metadata/md5-cache/x11-drivers/{nvidia-drivers-352.09 => nvidia-drivers-352.21} (82%)
+ create mode 100644 net-libs/vanessa-socket/vanessa-socket-0.0.13.ebuild
+ create mode 100644 net-mail/libpst/libpst-0.6.64.ebuild
+ delete mode 100644 net-proxy/sshuttle/sshuttle-0.61-r1.ebuild
+ create mode 100644 sci-geosciences/osm2pgsql/osm2pgsql-0.87.1.ebuild
+ create mode 100644 sys-fs/avfs/avfs-1.0.3.ebuild
+ create mode 100644 sys-fs/fuse/fuse-2.9.4.ebuild
+ create mode 100644 www-client/opera-beta/opera-beta-31.0.1889.16.ebuild
+ rename x11-drivers/nvidia-drivers/{nvidia-drivers-352.09.ebuild => nvidia-drivers-352.21.ebuild} (99%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

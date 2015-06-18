@@ -91,7 +91,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   d08cc22..34602d6  master     -> origin/master
+Updating d08cc22..34602d6
+Fast-forward
+ net-libs/webkit-gtk/Manifest                       |   5 +
+ .../files/webkit-gtk-2.6.0-hppa-platform.patch     |  34 +++
+ .../files/webkit-gtk-2.6.0-ia64-platform.patch     |  26 +++
+ .../files/webkit-gtk-2.9.2-ia64-malloc.patch       |  17 ++
+ net-libs/webkit-gtk/webkit-gtk-2.9.2.ebuild        | 238 +++++++++++++++++++++
+ 5 files changed, 320 insertions(+)
+ create mode 100644 net-libs/webkit-gtk/Manifest
+ create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.6.0-hppa-platform.patch
+ create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.6.0-ia64-platform.patch
+ create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.9.2-ia64-malloc.patch
+ create mode 100644 net-libs/webkit-gtk/webkit-gtk-2.9.2.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
