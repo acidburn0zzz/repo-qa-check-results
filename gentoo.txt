@@ -93,16 +93,102 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   2a0c349..0043e98  master     -> origin/master
-Updating 2a0c349..0043e98
+   0043e98..e42269e  master     -> origin/master
+Updating 0043e98..e42269e
 Fast-forward
- metadata/dtd/timestamp.chk  | 2 +-
- metadata/glsa/timestamp.chk | 2 +-
- metadata/news/timestamp.chk | 2 +-
- metadata/timestamp          | 2 +-
- metadata/timestamp.chk      | 2 +-
- metadata/timestamp.x        | 2 +-
- 6 files changed, 6 insertions(+), 6 deletions(-)
+ metadata/dtd/timestamp.chk                       |   2 +-
+ metadata/glsa/timestamp.chk                      |   2 +-
+ metadata/md5-cache/sys-devel/llvm-2.8-r2         |   4 +-
+ metadata/md5-cache/sys-devel/llvm-2.9-r2         |   4 +-
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2      |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r1   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r10  |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r11  |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r12  |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r13  |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r14  |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r15  |   4 +-
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r2   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r3   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r4   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r5   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r6   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r7   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r8   |  11 -
+ metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r9   |  11 -
+ metadata/md5-cache/www-apps/owncloud-5.0.19      |   6 +-
+ metadata/md5-cache/www-apps/owncloud-6.0.7       |   6 +-
+ metadata/md5-cache/www-apps/owncloud-6.0.8       |   6 +-
+ metadata/md5-cache/www-apps/owncloud-7.0.5       |   6 +-
+ metadata/md5-cache/www-apps/owncloud-7.0.6       |   6 +-
+ metadata/news/timestamp.chk                      |   2 +-
+ metadata/timestamp                               |   2 +-
+ metadata/timestamp.chk                           |   2 +-
+ metadata/timestamp.x                             |   2 +-
+ profiles/default/linux/uclibc/ChangeLog          |   5 +-
+ profiles/default/linux/uclibc/amd64/package.mask |   7 +-
+ profiles/use.local.desc                          |   1 -
+ sys-devel/llvm/ChangeLog                         |   6 +-
+ sys-devel/llvm/Manifest                          |  36 +--
+ sys-devel/llvm/llvm-2.8-r2.ebuild                |  33 +-
+ sys-devel/llvm/llvm-2.9-r2.ebuild                |  33 +-
+ sys-devel/llvm/metadata.xml                      |   1 -
+ sys-libs/uclibc/ChangeLog                        |  17 +-
+ sys-libs/uclibc/Manifest                         |  60 +---
+ sys-libs/uclibc/uclibc-0.9.33.2-r1.ebuild        | 372 ----------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r10.ebuild       | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r11.ebuild       | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r12.ebuild       | 348 ---------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r13.ebuild       | 348 ---------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r14.ebuild       | 348 ---------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r15.ebuild       |   4 +-
+ sys-libs/uclibc/uclibc-0.9.33.2-r2.ebuild        | 372 ----------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r3.ebuild        | 377 -----------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r4.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r5.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r6.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r7.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r8.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2-r9.ebuild        | 340 --------------------
+ sys-libs/uclibc/uclibc-0.9.33.2.ebuild           | 372 ----------------------
+ www-apps/owncloud/ChangeLog                      |   7 +-
+ www-apps/owncloud/Manifest                       |  40 +--
+ www-apps/owncloud/owncloud-5.0.19.ebuild         |   9 +-
+ www-apps/owncloud/owncloud-6.0.7.ebuild          |   9 +-
+ www-apps/owncloud/owncloud-6.0.8.ebuild          |   9 +-
+ www-apps/owncloud/owncloud-7.0.5.ebuild          |   9 +-
+ www-apps/owncloud/owncloud-7.0.6.ebuild          |   9 +-
+ 62 files changed, 146 insertions(+), 5625 deletions(-)
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r1
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r10
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r11
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r12
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r13
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r14
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r2
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r3
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r4
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r5
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r6
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r7
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r8
+ delete mode 100644 metadata/md5-cache/sys-libs/uclibc-0.9.33.2-r9
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r1.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r10.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r11.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r12.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r13.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r14.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r2.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r3.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r4.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r5.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r6.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r7.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r8.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2-r9.ebuild
+ delete mode 100644 sys-libs/uclibc/uclibc-0.9.33.2.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

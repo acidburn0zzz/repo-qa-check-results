@@ -70,7 +70,60 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   bd3e11b..f80e243  master     -> origin/master
+Updating bd3e11b..f80e243
+Fast-forward
+ app-emulation/virtualbox-additions/Manifest        |   2 +
+ .../virtualbox-additions-5.0.0_beta4.ebuild        |  36 +++
+ .../virtualbox-additions-5.0.0_rc1.ebuild          |  36 +++
+ app-emulation/virtualbox-bin/Manifest              |   7 +
+ .../virtualbox-bin/files/10-virtualbox.rules       |   7 +
+ .../virtualbox-bin/files/vboxwebsrv-confd          |  20 ++
+ .../virtualbox-bin/files/vboxwebsrv-initd          |  24 ++
+ .../virtualbox-bin/files/virtualbox-bin-3-wrapper  | 104 ++++++
+ .../virtualbox-bin/files/virtualbox-bin-config     |   1 +
+ .../virtualbox-bin/files/virtualbox-bin.desktop-2  |   8 +
+ .../virtualbox-bin-5.0.0.100374_beta4.ebuild       | 357 +++++++++++++++++++++
+ .../virtualbox-bin-5.0.0.100731_rc1.ebuild         | 357 +++++++++++++++++++++
+ app-emulation/virtualbox-extpack-oracle/Manifest   |   4 +
+ ...ualbox-extpack-oracle-5.0.0.100374_beta4.ebuild |  43 +++
+ ...rtualbox-extpack-oracle-5.0.0.100731_rc1.ebuild |  43 +++
+ app-emulation/virtualbox-guest-additions/Manifest  |   2 +
+ .../files/virtualbox-guest-additions-5-localconfig |  30 ++
+ .../virtualbox-guest-additions-5.0.0_beta4.ebuild  | 221 +++++++++++++
+ .../virtualbox-guest-additions-5.0.0_rc1.ebuild    | 221 +++++++++++++
+ app-emulation/virtualbox-modules/Manifest          |   2 +
+ .../files/60-virtualbox-modules.rules              |   1 +
+ .../files/virtualbox-modules-4.1.4-pax-const.patch |  48 +++
+ .../virtualbox-modules/files/virtualbox.conf       |   3 +
+ .../virtualbox-modules-5.0.0_beta4.ebuild          |  59 ++++
+ .../virtualbox-modules-5.0.0_rc1.ebuild            |  62 ++++
+ 25 files changed, 1698 insertions(+)
+ create mode 100644 app-emulation/virtualbox-additions/Manifest
+ create mode 100644 app-emulation/virtualbox-additions/virtualbox-additions-5.0.0_beta4.ebuild
+ create mode 100644 app-emulation/virtualbox-additions/virtualbox-additions-5.0.0_rc1.ebuild
+ create mode 100644 app-emulation/virtualbox-bin/Manifest
+ create mode 100644 app-emulation/virtualbox-bin/files/10-virtualbox.rules
+ create mode 100644 app-emulation/virtualbox-bin/files/vboxwebsrv-confd
+ create mode 100644 app-emulation/virtualbox-bin/files/vboxwebsrv-initd
+ create mode 100755 app-emulation/virtualbox-bin/files/virtualbox-bin-3-wrapper
+ create mode 100644 app-emulation/virtualbox-bin/files/virtualbox-bin-config
+ create mode 100644 app-emulation/virtualbox-bin/files/virtualbox-bin.desktop-2
+ create mode 100644 app-emulation/virtualbox-bin/virtualbox-bin-5.0.0.100374_beta4.ebuild
+ create mode 100644 app-emulation/virtualbox-bin/virtualbox-bin-5.0.0.100731_rc1.ebuild
+ create mode 100644 app-emulation/virtualbox-extpack-oracle/Manifest
+ create mode 100644 app-emulation/virtualbox-extpack-oracle/virtualbox-extpack-oracle-5.0.0.100374_beta4.ebuild
+ create mode 100644 app-emulation/virtualbox-extpack-oracle/virtualbox-extpack-oracle-5.0.0.100731_rc1.ebuild
+ create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-5-localconfig
+ create mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.0_beta4.ebuild
+ create mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.0_rc1.ebuild
+ create mode 100644 app-emulation/virtualbox-modules/Manifest
+ create mode 100644 app-emulation/virtualbox-modules/files/60-virtualbox-modules.rules
+ create mode 100644 app-emulation/virtualbox-modules/files/virtualbox-modules-4.1.4-pax-const.patch
+ create mode 100644 app-emulation/virtualbox-modules/files/virtualbox.conf
+ create mode 100644 app-emulation/virtualbox-modules/virtualbox-modules-5.0.0_beta4.ebuild
+ create mode 100644 app-emulation/virtualbox-modules/virtualbox-modules-5.0.0_rc1.ebuild
 *** syncing '/home/mgorny/repos/sabayon'...
 *** synced '/home/mgorny/repos/sabayon'
  * Sync succeeded
