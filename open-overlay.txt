@@ -92,18 +92,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/pantera31752/open-overlay
-   4f43b11..e98bf95  master     -> origin/master
-Updating 4f43b11..e98bf95
+   e98bf95..d05946f  master     -> origin/master
+Updating e98bf95..d05946f
 Fast-forward
- www-client/tor-browser/Manifest                    |   5 ++
- .../tor-browser/files/tor-browser-4.5.2.desktop    |  10 +++
- www-client/tor-browser/files/torbrowser.png        | Bin 0 -> 19033 bytes
- www-client/tor-browser/tor-browser-4.5.2.ebuild    |  90 +++++++++++++++++++++
- 4 files changed, 105 insertions(+)
- create mode 100644 www-client/tor-browser/Manifest
- create mode 100644 www-client/tor-browser/files/tor-browser-4.5.2.desktop
- create mode 100644 www-client/tor-browser/files/torbrowser.png
- create mode 100644 www-client/tor-browser/tor-browser-4.5.2.ebuild
+ dev-libs/libressl/Manifest              |  2 ++
+ dev-libs/libressl/libressl-2.2.0.ebuild | 57 +++++++++++++++++++++++++++++++++
+ 2 files changed, 59 insertions(+)
+ create mode 100644 dev-libs/libressl/Manifest
+ create mode 100644 dev-libs/libressl/libressl-2.2.0.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

@@ -244,18 +244,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
-!!! ERROR: dev-perl/DBD-Pg-1.43-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/DBD-Pg-1.42-r1 failed.
-
-!!! ERROR: dev-db/openfts-0.39 failed.
-
 !!! ERROR: dev-perl/DBD-Pg-1.48-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-db/openfts-0.39 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-perl/DBD-Pg-1.42-r1 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-perl/DBD-Pg-1.43-r1 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
 
 !!! ERROR: dev-perl/DBD-Pg-1.49-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
@@ -263,89 +267,85 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!          DBD-Pg-1.43-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.42-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!          DBD-Pg-1.48-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.42-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!            openfts-0.39.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'einput'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.49-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.42-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.49-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.48-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!          DBD-Pg-1.48-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
 !!!          DBD-Pg-1.42-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.49-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.49-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-db/openfts/openfts-0.39.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
+!!!            openfts-0.39.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'einput'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.49-r1.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!          DBD-Pg-1.49-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!          DBD-Pg-1.49-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/postgresql-experimental/dev-perl/DBD-Pg/DBD-Pg-1.43-r1.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!          DBD-Pg-1.43-r1.ebuild, line   5:  Called inherit 'perl-module' 'eutils' 'postgresql'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.43-r1
+!!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.42-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.48-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-db/openfts-0.39
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.42-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.49-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DBD-Pg-1.43-r1
  * Cache regenerated successfully
