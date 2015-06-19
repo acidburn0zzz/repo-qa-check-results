@@ -33,6 +33,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -72,6 +73,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -90,104 +92,49 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   d95436e..0a51790  master     -> origin/master
-Updating d95436e..0a51790
+   0a51790..379acc4  master     -> origin/master
+Updating 0a51790..379acc4
 Fast-forward
- app-crypt/seahorse/ChangeLog                       |   8 +-
- app-crypt/seahorse/Manifest                        |  10 +-
- .../files/seahorse-3.16.0-gnupg-detection.patch    | 173 +++++++++++++++
- app-crypt/seahorse/seahorse-3.16.0-r1.ebuild       |  68 ++++++
- dev-java/httpcomponents-core/ChangeLog             |  12 +-
- dev-java/httpcomponents-core/Manifest              |  16 +-
- .../httpcomponents-core-4.4.1-httpcore-build.xml   | 236 ++++++++++++++++++++
- ...ttpcomponents-core-4.4.1-httpcore-nio-build.xml | 241 +++++++++++++++++++++
- .../httpcomponents-core-4.4.1.ebuild               |  74 +++++++
- dev-lang/execline/ChangeLog                        |   5 +-
- dev-lang/execline/Manifest                         |  10 +-
- dev-lang/execline/execline-2.0.2.1.ebuild          |  55 -----
- dev-libs/fstrm/ChangeLog                           |   5 +-
- dev-libs/fstrm/Manifest                            |  10 +-
- dev-libs/fstrm/fstrm-0.2.0-r1.ebuild               |   4 +-
- dev-libs/skalibs/ChangeLog                         |   5 +-
- dev-libs/skalibs/Manifest                          |  10 +-
- dev-libs/skalibs/skalibs-2.3.0.0.ebuild            |  43 ----
- dev-php/suhosin/ChangeLog                          |   5 +-
- dev-php/suhosin/Manifest                           |  20 +-
- dev-php/suhosin/suhosin-0.9.38.ebuild              |   4 +-
- dev-python/eyeD3/ChangeLog                         |   5 +-
- dev-python/eyeD3/Manifest                          |  20 +-
- dev-python/eyeD3/eyeD3-0.7.5.ebuild                |   4 +-
- gnome-base/gnome-shell/ChangeLog                   |   6 +-
- gnome-base/gnome-shell/Manifest                    |  10 +-
- gnome-base/gnome-shell/gnome-shell-3.16.2.ebuild   |   3 +-
- gnome-extra/evolution-data-server/ChangeLog        |   9 +-
- gnome-extra/evolution-data-server/Manifest         |  10 +-
- ...evolution-data-server-3.16.4_pre20150619.ebuild | 140 ++++++++++++
- media-libs/lensfun/ChangeLog                       |   5 +-
- media-libs/lensfun/Manifest                        |  26 +--
- media-libs/lensfun/lensfun-0.3.0.ebuild            |   4 +-
- media-libs/libvpx/ChangeLog                        |   5 +-
- media-libs/libvpx/Manifest                         |  20 +-
- media-libs/libvpx/libvpx-1.4.0.ebuild              |   6 +-
- metadata/dtd/timestamp.chk                         |   2 +-
- metadata/glsa/timestamp.chk                        |   2 +-
- metadata/md5-cache/app-crypt/seahorse-3.16.0-r1    |  13 ++
- .../md5-cache/dev-java/httpcomponents-core-4.4.1   |  13 ++
- metadata/md5-cache/dev-lang/execline-2.0.2.1       |  13 --
- metadata/md5-cache/dev-libs/fstrm-0.2.0-r1         |   4 +-
- metadata/md5-cache/dev-libs/skalibs-2.3.0.0        |  12 -
- metadata/md5-cache/dev-php/suhosin-0.9.38          |   4 +-
- metadata/md5-cache/dev-python/eyeD3-0.7.5          |   4 +-
- metadata/md5-cache/gnome-base/gnome-shell-3.16.2   |   6 +-
- .../evolution-data-server-3.16.4_pre20150619       |  15 ++
- metadata/md5-cache/media-libs/lensfun-0.3.0        |   4 +-
- metadata/md5-cache/media-libs/libvpx-1.4.0         |   4 +-
- metadata/md5-cache/net-dns/unbound-1.5.1-r2        |   4 +-
- metadata/md5-cache/net-dns/unbound-1.5.2           |   4 +-
- metadata/md5-cache/net-dns/unbound-1.5.3           |   4 +-
- metadata/md5-cache/net-wireless/bluez-5.31         |  13 ++
- metadata/md5-cache/sys-apps/s6-2.1.1.1             |  13 --
- .../md5-cache/sys-kernel/gentoo-sources-3.12.44    |  14 ++
- metadata/news/timestamp.chk                        |   2 +-
- metadata/timestamp                                 |   2 +-
- metadata/timestamp.chk                             |   2 +-
- metadata/timestamp.x                               |   2 +-
- net-dns/unbound/ChangeLog                          |   6 +-
- net-dns/unbound/Manifest                           |  14 +-
- net-dns/unbound/unbound-1.5.1-r2.ebuild            |   4 +-
- net-dns/unbound/unbound-1.5.2.ebuild               |   4 +-
- net-dns/unbound/unbound-1.5.3.ebuild               |   4 +-
- net-wireless/bluez/ChangeLog                       |   7 +-
- net-wireless/bluez/Manifest                        |  22 +-
- net-wireless/bluez/bluez-5.31.ebuild               | 209 ++++++++++++++++++
- profiles/ChangeLog                                 |   5 +-
- profiles/package.mask                              |   9 +-
- sys-apps/s6/ChangeLog                              |   5 +-
- sys-apps/s6/Manifest                               |  10 +-
- sys-apps/s6/s6-2.1.1.1.ebuild                      |  67 ------
- sys-kernel/gentoo-sources/ChangeLog                |   7 +-
- sys-kernel/gentoo-sources/Manifest                 |  12 +-
- .../gentoo-sources/gentoo-sources-3.12.44.ebuild   |  29 +++
- 75 files changed, 1462 insertions(+), 395 deletions(-)
- create mode 100644 app-crypt/seahorse/files/seahorse-3.16.0-gnupg-detection.patch
- create mode 100644 app-crypt/seahorse/seahorse-3.16.0-r1.ebuild
- create mode 100644 dev-java/httpcomponents-core/files/httpcomponents-core-4.4.1-httpcore-build.xml
- create mode 100644 dev-java/httpcomponents-core/files/httpcomponents-core-4.4.1-httpcore-nio-build.xml
- create mode 100644 dev-java/httpcomponents-core/httpcomponents-core-4.4.1.ebuild
- delete mode 100644 dev-lang/execline/execline-2.0.2.1.ebuild
- delete mode 100644 dev-libs/skalibs/skalibs-2.3.0.0.ebuild
- create mode 100644 gnome-extra/evolution-data-server/evolution-data-server-3.16.4_pre20150619.ebuild
- create mode 100644 metadata/md5-cache/app-crypt/seahorse-3.16.0-r1
- create mode 100644 metadata/md5-cache/dev-java/httpcomponents-core-4.4.1
- delete mode 100644 metadata/md5-cache/dev-lang/execline-2.0.2.1
- delete mode 100644 metadata/md5-cache/dev-libs/skalibs-2.3.0.0
- create mode 100644 metadata/md5-cache/gnome-extra/evolution-data-server-3.16.4_pre20150619
- create mode 100644 metadata/md5-cache/net-wireless/bluez-5.31
- delete mode 100644 metadata/md5-cache/sys-apps/s6-2.1.1.1
- create mode 100644 metadata/md5-cache/sys-kernel/gentoo-sources-3.12.44
- create mode 100644 net-wireless/bluez/bluez-5.31.ebuild
- delete mode 100644 sys-apps/s6/s6-2.1.1.1.ebuild
- create mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.12.44.ebuild
+ app-emulation/playonlinux/ChangeLog                |  8 +-
+ app-emulation/playonlinux/Manifest                 | 24 ++++--
+ app-emulation/playonlinux/metadata.xml             | 17 ++--
+ ...linux-4.1.9.ebuild => playonlinux-4.2.8.ebuild} | 41 +++++-----
+ dev-games/irrlicht/Manifest                        | 24 +-----
+ dev-python/PyQt5/ChangeLog                         |  9 ++-
+ dev-python/PyQt5/Manifest                          | 42 +++++-----
+ .../{PyQt5-5.4.1.ebuild => PyQt5-5.4.2.ebuild}     | 40 ++++++----
+ dev-python/PyQt5/metadata.xml                      |  2 +
+ metadata/dtd/timestamp.chk                         |  2 +-
+ metadata/glsa/timestamp.chk                        |  2 +-
+ metadata/md5-cache/app-emulation/playonlinux-4.1.9 | 13 ----
+ metadata/md5-cache/app-emulation/playonlinux-4.2.8 | 14 ++++
+ metadata/md5-cache/dev-python/PyQt5-5.4.1          | 14 ----
+ metadata/md5-cache/dev-python/PyQt5-5.4.2          | 14 ++++
+ metadata/md5-cache/net-irc/limnoria-20150523       | 14 ++++
+ ...lla-sources-3.4.107 => vanilla-sources-3.4.108} |  6 +-
+ metadata/news/timestamp.chk                        |  2 +-
+ metadata/timestamp                                 |  2 +-
+ metadata/timestamp.chk                             |  2 +-
+ metadata/timestamp.x                               |  2 +-
+ net-irc/limnoria/ChangeLog                         |  8 +-
+ net-irc/limnoria/Manifest                          | 38 ++++-----
+ net-irc/limnoria/limnoria-20150523.ebuild          | 91 ++++++++++++++++++++++
+ net-irc/limnoria/metadata.xml                      |  7 +-
+ profiles/use.local.desc                            |  2 +
+ sys-kernel/vanilla-sources/ChangeLog               |  8 +-
+ sys-kernel/vanilla-sources/Manifest                | 16 +++-
+ ...4.107.ebuild => vanilla-sources-3.4.108.ebuild} |  2 +-
+ 29 files changed, 298 insertions(+), 168 deletions(-)
+ rename app-emulation/playonlinux/{playonlinux-4.1.9.ebuild => playonlinux-4.2.8.ebuild} (76%)
+ rename dev-python/PyQt5/{PyQt5-5.4.1.ebuild => PyQt5-5.4.2.ebuild} (78%)
+ delete mode 100644 metadata/md5-cache/app-emulation/playonlinux-4.1.9
+ create mode 100644 metadata/md5-cache/app-emulation/playonlinux-4.2.8
+ delete mode 100644 metadata/md5-cache/dev-python/PyQt5-5.4.1
+ create mode 100644 metadata/md5-cache/dev-python/PyQt5-5.4.2
+ create mode 100644 metadata/md5-cache/net-irc/limnoria-20150523
+ rename metadata/md5-cache/sys-kernel/{vanilla-sources-3.4.107 => vanilla-sources-3.4.108} (90%)
+ create mode 100644 net-irc/limnoria/limnoria-20150523.ebuild
+ rename sys-kernel/vanilla-sources/{vanilla-sources-3.4.107.ebuild => vanilla-sources-3.4.108.ebuild} (89%)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
