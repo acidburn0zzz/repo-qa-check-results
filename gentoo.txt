@@ -93,20 +93,58 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   2c582b0..5f3d15f  master     -> origin/master
-Updating 2c582b0..5f3d15f
+   5f3d15f..7456144  master     -> origin/master
+Updating 5f3d15f..7456144
 Fast-forward
- dev-ruby/sass/ChangeLog                 |  5 ++++-
- dev-ruby/sass/Manifest                  | 14 ++++++++++++--
- dev-ruby/sass/sass-3.4.14.ebuild        |  4 ++--
- metadata/dtd/timestamp.chk              |  2 +-
- metadata/glsa/timestamp.chk             |  2 +-
- metadata/md5-cache/dev-ruby/sass-3.4.14 | 10 +++++-----
- metadata/news/timestamp.chk             |  2 +-
- metadata/timestamp                      |  2 +-
- metadata/timestamp.chk                  |  2 +-
- metadata/timestamp.x                    |  2 +-
- 10 files changed, 29 insertions(+), 16 deletions(-)
+ dev-ruby/pdf-inspector/ChangeLog                   |   6 +-
+ dev-ruby/pdf-inspector/Manifest                    |  26 ++---
+ .../pdf-inspector/pdf-inspector-1.1.0-r1.ebuild    |   6 +-
+ dev-ruby/rack/ChangeLog                            |   6 +-
+ dev-ruby/rack/Manifest                             |  22 +---
+ dev-ruby/rack/rack-1.4.6.ebuild                    |   4 +-
+ dev-ruby/rack/rack-1.5.4.ebuild                    |   4 +-
+ mail-client/thunderbird/ChangeLog                  |   5 +-
+ mail-client/thunderbird/Manifest                   |  18 +--
+ .../thunderbird/thunderbird-38.0.1-r1.ebuild       |   3 +-
+ mail-mta/msmtp/ChangeLog                           |   7 +-
+ mail-mta/msmtp/Manifest                            |  30 ++---
+ mail-mta/msmtp/msmtp-1.6.2.ebuild                  | 130 +++++++++++++++++++++
+ media-gfx/potrace/ChangeLog                        |   5 +-
+ media-gfx/potrace/Manifest                         |  20 +---
+ media-gfx/potrace/potrace-1.12.ebuild              |   4 +-
+ metadata/dtd/timestamp.chk                         |   2 +-
+ metadata/glsa/timestamp.chk                        |   2 +-
+ metadata/md5-cache/dev-ruby/pdf-inspector-1.1.0-r1 |  10 +-
+ metadata/md5-cache/dev-ruby/rack-1.4.6             |   4 +-
+ metadata/md5-cache/dev-ruby/rack-1.5.4             |   4 +-
+ .../md5-cache/mail-client/thunderbird-38.0.1-r1    |   2 +-
+ metadata/md5-cache/mail-mta/msmtp-1.6.2            |  14 +++
+ metadata/md5-cache/media-gfx/potrace-1.12          |   4 +-
+ metadata/md5-cache/net-dns/dnsmasq-2.72-r2         |   4 +-
+ metadata/md5-cache/net-ftp/lftp-4.6.3a             |  14 +++
+ metadata/md5-cache/net-mail/getmail-4.48.0         |  14 +++
+ metadata/news/timestamp.chk                        |   2 +-
+ metadata/timestamp                                 |   2 +-
+ metadata/timestamp.chk                             |   2 +-
+ metadata/timestamp.x                               |   2 +-
+ net-dns/dnsmasq/ChangeLog                          |   5 +-
+ net-dns/dnsmasq/Manifest                           |  12 +-
+ net-dns/dnsmasq/dnsmasq-2.72-r2.ebuild             |   4 +-
+ net-ftp/lftp/ChangeLog                             |   8 +-
+ net-ftp/lftp/Manifest                              |  11 +-
+ net-ftp/lftp/files/lftp-4.6.3a-autopoint.patch     |  10 ++
+ net-ftp/lftp/lftp-4.6.3a.ebuild                    |  90 ++++++++++++++
+ net-mail/getmail/ChangeLog                         |   7 +-
+ net-mail/getmail/Manifest                          |  26 ++---
+ net-mail/getmail/getmail-4.48.0.ebuild             |  25 ++++
+ 41 files changed, 424 insertions(+), 152 deletions(-)
+ create mode 100644 mail-mta/msmtp/msmtp-1.6.2.ebuild
+ create mode 100644 metadata/md5-cache/mail-mta/msmtp-1.6.2
+ create mode 100644 metadata/md5-cache/net-ftp/lftp-4.6.3a
+ create mode 100644 metadata/md5-cache/net-mail/getmail-4.48.0
+ create mode 100644 net-ftp/lftp/files/lftp-4.6.3a-autopoint.patch
+ create mode 100644 net-ftp/lftp/lftp-4.6.3a.ebuild
+ create mode 100644 net-mail/getmail/getmail-4.48.0.ebuild
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
