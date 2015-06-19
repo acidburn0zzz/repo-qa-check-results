@@ -225,78 +225,78 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! Call stack:
 
 !!! ERROR: net-misc/ksshaskpass-0.5.1-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: net-analyzer/autoscan-0.99-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        autoscan-0.99-r1.ebuild, line   5:  Called inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
-
-!!! ERROR: net-misc/ksshaskpass-0.4.1 failed.
-!!!       ksshaskpass-0.5.1.ebuild, line   8:  Called inherit 'kde4-base'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!    ksshaskpass-0.5.1-r1.ebuild, line   8:  Called inherit 'kde4-base'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-analyzer/autoscan/autoscan-0.99-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1.ebuild'
+!!!        autoscan-0.99-r1.ebuild, line   5:  Called inherit 'gnome2'
+!!!       ksshaskpass-0.5.1.ebuild, line   8:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.5.1-r1.ebuild'
+!!!    ksshaskpass-0.5.1-r1.ebuild, line   8:  Called inherit 'kde4-base'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+
+!!! ERROR: net-misc/ksshaskpass-0.4.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.4.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.4.1.ebuild'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.4.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.4.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!       ksshaskpass-0.4.1.ebuild, line   5:  Called inherit 'kde' 'cmake-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stormfront/net-misc/ksshaskpass/ksshaskpass-0.4.1.ebuild'
+!!!       ksshaskpass-0.4.1.ebuild, line   5:  Called inherit 'kde' 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
