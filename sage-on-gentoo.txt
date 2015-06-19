@@ -118,7 +118,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g-experimental', named 'n4g-experimental', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named 'r3pek', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   34ecb64..306d985  master     -> origin/master
+Updating 34ecb64..306d985
+Fast-forward
+ package.keywords/sage-6.7                          |   2 -
+ package.keywords/sage-9999                         |   3 -
+ sci-mathematics/sage/ChangeLog                     |   6 +
+ sci-mathematics/sage/files/MPL-1.4.patch           | 501 +++++++++++++++++++++
+ .../sage/{sage-6.7.ebuild => sage-6.7-r1.ebuild}   |   7 +-
+ sci-mathematics/sage/sage-9999.ebuild              |   7 +-
+ 6 files changed, 517 insertions(+), 9 deletions(-)
+ create mode 100644 sci-mathematics/sage/files/MPL-1.4.patch
+ rename sci-mathematics/sage/{sage-6.7.ebuild => sage-6.7-r1.ebuild} (98%)
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
