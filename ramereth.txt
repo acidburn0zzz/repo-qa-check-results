@@ -262,83 +262,84 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'po
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
 !!! ERROR: media-sound/pianobar-9999 failed.
-
-!!! ERROR: dev-util/unify-git-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-util/unify-git-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '181' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/media-sound/pianobar/pianobar-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/media-sound/pianobar/pianobar-9999.ebuild'
 
 !!! ERROR: app-emulation/ganeti-instance-image-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
-!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/media-sound/pianobar/pianobar-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/media-sound/pianobar/pianobar-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/media-sound/pianobar/pianobar-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
-!!!          unify-git-9999.ebuild, line   5:  Called inherit 'git' 'distutils'
+!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!           pianobar-9999.ebuild, line   7:  Called inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!           pianobar-9999.ebuild, line   7:  Called inherit 'git'
 
 !!! ERROR: app-emulation/ganeti-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '251' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: sys-cluster/pydra-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ganeti-instance-image-9999.ebuild, line  12:  Called inherit 'git' 'autotools'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/sys-cluster/pydra/pydra-9999.ebuild'
+!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/app-emulation/ganeti/ganeti-9999.ebuild'
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/app-emulation/ganeti-instance-image/ganeti-instance-image-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/app-emulation/ganeti/ganeti-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/app-emulation/ganeti/ganeti-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/dev-util/unify-git/unify-git-9999.ebuild'
+!!!   ganeti-instance-image-9999.ebuild, line  12:  Called inherit 'git' 'autotools'
+!!!          unify-git-9999.ebuild, line   5:  Called inherit 'git' 'distutils'
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!                   ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/app-emulation/ganeti/ganeti-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/app-emulation/ganeti/ganeti-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/sys-cluster/pydra/pydra-9999.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!             ganeti-9999.ebuild, line  11:  Called inherit 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: sys-cluster/pydra-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ramereth/sys-cluster/pydra/pydra-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ramereth/sys-cluster/pydra/pydra-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ramereth/sys-cluster/pydra/pydra-9999.ebuild'
 !!!              pydra-9999.ebuild, line   7:  Called inherit 'distutils' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
@@ -346,8 +347,6 @@ Sandboxed process killed by signal: Broken pipe
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass distutils
 
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: media-sound/pianobar-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-util/unify-git-9999
