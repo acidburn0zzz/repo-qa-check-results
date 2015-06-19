@@ -91,50 +91,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   0a51790..379acc4  master     -> origin/master
-Updating 0a51790..379acc4
-Fast-forward
- app-emulation/playonlinux/ChangeLog                |  8 +-
- app-emulation/playonlinux/Manifest                 | 24 ++++--
- app-emulation/playonlinux/metadata.xml             | 17 ++--
- ...linux-4.1.9.ebuild => playonlinux-4.2.8.ebuild} | 41 +++++-----
- dev-games/irrlicht/Manifest                        | 24 +-----
- dev-python/PyQt5/ChangeLog                         |  9 ++-
- dev-python/PyQt5/Manifest                          | 42 +++++-----
- .../{PyQt5-5.4.1.ebuild => PyQt5-5.4.2.ebuild}     | 40 ++++++----
- dev-python/PyQt5/metadata.xml                      |  2 +
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- metadata/md5-cache/app-emulation/playonlinux-4.1.9 | 13 ----
- metadata/md5-cache/app-emulation/playonlinux-4.2.8 | 14 ++++
- metadata/md5-cache/dev-python/PyQt5-5.4.1          | 14 ----
- metadata/md5-cache/dev-python/PyQt5-5.4.2          | 14 ++++
- metadata/md5-cache/net-irc/limnoria-20150523       | 14 ++++
- ...lla-sources-3.4.107 => vanilla-sources-3.4.108} |  6 +-
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- net-irc/limnoria/ChangeLog                         |  8 +-
- net-irc/limnoria/Manifest                          | 38 ++++-----
- net-irc/limnoria/limnoria-20150523.ebuild          | 91 ++++++++++++++++++++++
- net-irc/limnoria/metadata.xml                      |  7 +-
- profiles/use.local.desc                            |  2 +
- sys-kernel/vanilla-sources/ChangeLog               |  8 +-
- sys-kernel/vanilla-sources/Manifest                | 16 +++-
- ...4.107.ebuild => vanilla-sources-3.4.108.ebuild} |  2 +-
- 29 files changed, 298 insertions(+), 168 deletions(-)
- rename app-emulation/playonlinux/{playonlinux-4.1.9.ebuild => playonlinux-4.2.8.ebuild} (76%)
- rename dev-python/PyQt5/{PyQt5-5.4.1.ebuild => PyQt5-5.4.2.ebuild} (78%)
- delete mode 100644 metadata/md5-cache/app-emulation/playonlinux-4.1.9
- create mode 100644 metadata/md5-cache/app-emulation/playonlinux-4.2.8
- delete mode 100644 metadata/md5-cache/dev-python/PyQt5-5.4.1
- create mode 100644 metadata/md5-cache/dev-python/PyQt5-5.4.2
- create mode 100644 metadata/md5-cache/net-irc/limnoria-20150523
- rename metadata/md5-cache/sys-kernel/{vanilla-sources-3.4.107 => vanilla-sources-3.4.108} (90%)
- create mode 100644 net-irc/limnoria/limnoria-20150523.ebuild
- rename sys-kernel/vanilla-sources/{vanilla-sources-3.4.107.ebuild => vanilla-sources-3.4.108.ebuild} (89%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded

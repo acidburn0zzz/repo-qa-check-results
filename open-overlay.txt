@@ -90,7 +90,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   ef289b3..758bc0f  master     -> origin/master
+Updating ef289b3..758bc0f
+Fast-forward
+ app-editors/pluma/Manifest                         |   2 +
+ app-editors/pluma/pluma-1.10.1.ebuild              |  86 +++++
+ mate-extra/mate-utils/Manifest                     |   2 +
+ mate-extra/mate-utils/mate-utils-1.10.1.ebuild     |  84 +++++
+ media-gfx/eom/Manifest                             |   2 +
+ media-gfx/eom/eom-1.10.2.ebuild                    |  75 ++++
+ www-client/firefox-bin/Manifest                    |   3 +
+ .../firefox-bin/firefox-bin-39.0_beta7.ebuild      | 180 ++++++++++
+ www-client/firefox/Manifest                        |   2 +
+ www-client/firefox/firefox-39.0_beta7.ebuild       | 380 +++++++++++++++++++++
+ 10 files changed, 816 insertions(+)
+ create mode 100644 app-editors/pluma/pluma-1.10.1.ebuild
+ create mode 100644 mate-extra/mate-utils/mate-utils-1.10.1.ebuild
+ create mode 100644 media-gfx/eom/eom-1.10.2.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-39.0_beta7.ebuild
+ create mode 100644 www-client/firefox/firefox-39.0_beta7.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
