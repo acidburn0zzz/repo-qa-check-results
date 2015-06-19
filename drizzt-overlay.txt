@@ -32,7 +32,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -72,7 +71,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -237,167 +235,78 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: kde-misc/kate-ctags-plugin-0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: kde-misc/kate-projectmanager-0.1.2.24 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-util/kdesvn-1.0.4-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
-!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
 
 !!! ERROR: media-sound/amarok-1.4.5-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!   kate-ctags-plugin-0.1.ebuild, line   5:  Called inherit 'kde'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   kate-projectmanager-0.1.2.24.ebuild, line   5:  Called inherit 'versionator' 'kde'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+
+!!! ERROR: kde-misc/kate-projectmanager-0.1.2.24 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
+!!!   kate-ctags-plugin-0.1.ebuild, line   5:  Called inherit 'kde'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
-!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
+!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
+!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 
-!!! ERROR: sys-freebsd/freebsd-sources-7.0_pre200704 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!                     ebuild-daemon.lib, line  35:  Called die
+!!! ERROR: dev-util/kdesvn-1.0.4-r1 failed.
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: net-p2p/btg-0.7 failed.
-!!!         kdesvn-1.0.4-r1.ebuild, line   7:  Called inherit 'cmake-utils' 'eutils' 'kde-functions' 'versionator'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '152' 'depend'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '272' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!   kate-projectmanager-0.1.2.24.ebuild, line   5:  Called inherit 'versionator' 'kde'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!                     ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for kde failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!         kdesvn-1.0.4-r1.ebuild, line   7:  Called inherit 'cmake-utils' 'eutils' 'kde-functions' 'versionator'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-sources/freebsd-sources-7.0_pre200704.ebuild'
-!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/net-p2p/btg/btg-0.7.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde failed
-
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-sources/freebsd-sources-7.0_pre200704.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/net-p2p/btg/btg-0.7.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/net-p2p/btg/btg-0.7.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-sources/freebsd-sources-7.0_pre200704.ebuild'
-!!!                 btg-0.7.ebuild, line   7:  Called inherit 'toolchain-funcs' 'autotools'
-!!!   freebsd-sources-7.0_pre200704.ebuild, line   5:  Called inherit 'bsdmk' 'freebsd' 'flag-o-matic'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain-funcs'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 262' for eclass toolchain-funcs
-
-received unknown com: export CATEGORY='sys-freebsd' PR=r0 PVR='7.0_pre200704' PV='7.0_pre200704' EBUILD='/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-usbin/freebsd-usbin-7.0_pre200704.ebuild' P='freebsd-usbin-7.0_pre200704' PF='freebsd-usbin-7.0_pre200704' PN='freebsd-usbin'path
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bsdmk'
-!!!                      ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 257' for eclass bsdmk
-
-received unknown com: export CATEGORY='sys-freebsd' PR=r0 PVR='7.0_pre200704' PV='7.0_pre200704' EBUILD='/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-ubin/freebsd-ubin-7.0_pre200704.ebuild' P='freebsd-ubin-7.0_pre200704' PF='freebsd-ubin-7.0_pre200704' PN='freebsd-ubin'path
- * 
- * "/home/mgorny/repos/drizzt-overlay/net-misc/mixminion/mixminion-0.0.8_alpha2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-
-!!! ERROR: sys-freebsd/freebsd-pam-modules-7.0_pre200704 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                         ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                         ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                         ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '292' 'depend'
-!!!                         ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                 ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-pam-modules/freebsd-pam-modules-7.0_pre200704.ebuild'
-!!!                                 ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-pam-modules/freebsd-pam-modules-7.0_pre200704.ebuild'
-!!!                     isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/sys-freebsd/freebsd-pam-modules/freebsd-pam-modules-7.0_pre200704.ebuild'
-!!!   freebsd-pam-modules-7.0_pre200704.ebuild, line   5:  Called inherit 'bsdmk' 'freebsd' 'multilib' 'pam'
-!!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'bsdmk'
-!!!                          ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass bsdmk
-
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: kde-misc/kate-ctags-plugin-0.1
-!!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: kde-misc/kate-projectmanager-0.1.2.24
 !!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: media-sound/amarok-1.4.5-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-mobilephone/ensymble-0.26
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-p2p/btg-0.7
+!!! caught exception inherit requires an unknown eclass, kde cannot be found while processing ebuild src: kde-misc/kate-projectmanager-0.1.2.24
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-util/kdesvn-1.0.4-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-freebsd/freebsd-pam-modules-7.0_pre200704
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-freebsd/freebsd-usbin-7.0_pre200704
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-freebsd/freebsd-ubin-7.0_pre200704
-Traceback (most recent call last):
-  File "/usr/lib/python-exec/python2.7/pmaint", line 26, in <module>
-    commandline.main(subcommands)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/util/commandline.py", line 867, in main
-    exitstatus = main_func(options, out, err)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/scripts/pmaint.py", line 225, in regen_main
-    eclass_caching=(not options.disable_eclass_caching))
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/__init__.py", line 68, in _recast_exception_decorator
-    return functor(*args, **kwds)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/repo.py", line 236, in _cmd_api_regen_cache
-    self._get_observer(observer), threads=threads, **options)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 50, in regen_repository
-    f()
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 501, in finish
-    self.ebp.disable_eclass_caching()
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 553, in disable_eclass_caching
-    self.clear_preloaded_eclasses()
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 518, in clear_preloaded_eclasses
-    self.write("clear_preloaded_eclasses")
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
- * Cache regen failed with 1
+ * Cache regenerated successfully
