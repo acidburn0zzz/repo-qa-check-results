@@ -24,8 +24,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named 'asux', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -34,7 +34,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -49,10 +48,10 @@ Already up-to-date.
 $ pmaint regen -t 2 spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.2.641
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.0.0
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
@@ -62,10 +61,4 @@ error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-f
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

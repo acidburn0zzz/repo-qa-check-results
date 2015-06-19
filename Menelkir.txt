@@ -1,142 +1,151 @@
- * Adding new repository
+$ pmaint sync Menelkir
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+usage: pmaint [-h] [--version] [--debug] [--color BOOLEAN]
+              [--add-config SECTION KEY VALUE]
+              [--new-config SECTION KEY VALUE] [--empty-config]
+              {sync,copy,regen,perl-rebuild,env-update,mirror,digest} ...
+pmaint: error: argument repos: couldn't find raw_repo 'Menelkir' (available raw_repos: <unlabeled repository /home/mgorny/repos/Menelkir>: /home/mgorny/repos/Menelkir, <unlabeled repository /home/mgorny/repos/alice>: /home/mgorny/repos/alice, <unlabeled repository /home/mgorny/repos/anderse>: /home/mgorny/repos/anderse, <unlabeled repository /home/mgorny/repos/arax-os-overlay>: /home/mgorny/repos/arax-os-overlay, <unlabeled repository /home/mgorny/repos/arc>: /home/mgorny/repos/arc, <unlabeled repository /home/mgorny/repos/armagetron>: /home/mgorny/repos/armagetron, <unlabeled repository /home/mgorny/repos/asux>: /home/mgorny/repos/asux, <unlabeled repository /home/mgorny/repos/bicatali>: /home/mgorny/repos/bicatali, <unlabeled repository /home/mgorny/repos/caio>: /home/mgorny/repos/caio, <unlabeled repository /home/mgorny/repos/clickbeetle_tools>: /home/mgorny/repos/clickbeetle_tools, <unlabeled repository /home/mgorny/repos/crossdev>: /home/mgorny/repos/crossdev, <unlabeled repository /home/mgorny/repos/dauleet>: /home/mgorny/repos/dauleet, <unlabeled repository /home/mgorny/repos/docd>: /home/mgorny/repos/docd, <unlabeled repository /home/mgorny/repos/drevilt>: /home/mgorny/repos/drevilt, <unlabeled repository /home/mgorny/repos/drizzt-overlay>: /home/mgorny/repos/drizzt-overlay, <unlabeled repository /home/mgorny/repos/edwtjo-ebuilds>: /home/mgorny/repos/edwtjo-ebuilds, <unlabeled repository /home/mgorny/repos/efika>: /home/mgorny/repos/efika, <unlabeled repository /home/mgorny/repos/gentoo-arm>: /home/mgorny/repos/gentoo-arm, <unlabeled repository /home/mgorny/repos/gentoo-taiwan>: /home/mgorny/repos/gentoo-taiwan, <unlabeled repository /home/mgorny/repos/gentoojp>: /home/mgorny/repos/gentoojp, <unlabeled repository /home/mgorny/repos/gmt>: /home/mgorny/repos/gmt, <unlabeled repository /home/mgorny/repos/gpe>: /home/mgorny/repos/gpe, <unlabeled repository /home/mgorny/repos/halcy0n>: /home/mgorny/repos/halcy0n, <unlabeled repository /home/mgorny/repos/iElectric>: /home/mgorny/repos/iElectric, <unlabeled repository /home/mgorny/repos/ibormuth>: /home/mgorny/repos/ibormuth, <unlabeled repository /home/mgorny/repos/jaervosz>: /home/mgorny/repos/jaervosz, <unlabeled repository /home/mgorny/repos/jxh>: /home/mgorny/repos/jxh, <unlabeled repository /home/mgorny/repos/kvm>: /home/mgorny/repos/kvm, <unlabeled repository /home/mgorny/repos/logan>: /home/mgorny/repos/logan, <unlabeled repository /home/mgorny/repos/matsuu>: /home/mgorny/repos/matsuu, <unlabeled repository /home/mgorny/repos/n4g-experimental>: /home/mgorny/repos/n4g-experimental, <unlabeled repository /home/mgorny/repos/n4g>: /home/mgorny/repos/n4g, <unlabeled repository /home/mgorny/repos/n8x0>: /home/mgorny/repos/n8x0, <unlabeled repository /home/mgorny/repos/nbigaouette>: /home/mgorny/repos/nbigaouette, <unlabeled repository /home/mgorny/repos/njw>: /home/mgorny/repos/njw, <unlabeled repository /home/mgorny/repos/otih>: /home/mgorny/repos/otih, <unlabeled repository /home/mgorny/repos/paddymac>: /home/mgorny/repos/paddymac, <unlabeled repository /home/mgorny/repos/pcsx2>: /home/mgorny/repos/pcsx2, <unlabeled repository /home/mgorny/repos/phunehehe>: /home/mgorny/repos/phunehehe, <unlabeled repository /home/mgorny/repos/postgresql-experimental>: /home/mgorny/repos/postgresql-experimental, <unlabeled repository /home/mgorny/repos/postgresql-testing>: /home/mgorny/repos/postgresql-testing, <unlabeled repository /home/mgorny/repos/pross>: /home/mgorny/repos/pross, <unlabeled repository /home/mgorny/repos/purak>: /home/mgorny/repos/purak, <unlabeled repository /home/mgorny/repos/r3pek>: /home/mgorny/repos/r3pek, <unlabeled repository /home/mgorny/repos/ramereth>: /home/mgorny/repos/ramereth, <unlabeled repository /home/mgorny/repos/remi>: /home/mgorny/repos/remi, <unlabeled repository /home/mgorny/repos/robbat2>: /home/mgorny/repos/robbat2, <unlabeled repository /home/mgorny/repos/rubenqba>: /home/mgorny/repos/rubenqba, <unlabeled repository /home/mgorny/repos/sabotageandi>: /home/mgorny/repos/sabotageandi, <unlabeled repository /home/mgorny/repos/secondlife>: /home/mgorny/repos/secondlife, <unlabeled repository /home/mgorny/repos/soor>: /home/mgorny/repos/soor, <unlabeled repository /home/mgorny/repos/stormfront>: /home/mgorny/repos/stormfront, <unlabeled repository /home/mgorny/repos/tarantool>: /home/mgorny/repos/tarantool, <unlabeled repository /home/mgorny/repos/thousand-parsec>: /home/mgorny/repos/thousand-parsec, <unlabeled repository /home/mgorny/repos/tjy1965>: /home/mgorny/repos/tjy1965, <unlabeled repository /home/mgorny/repos/turbogears2>: /home/mgorny/repos/turbogears2, <unlabeled repository /home/mgorny/repos/ub0rlay>: /home/mgorny/repos/ub0rlay, <unlabeled repository /home/mgorny/repos/ubuntu>: /home/mgorny/repos/ubuntu, <unlabeled repository /home/mgorny/repos/venidera>: /home/mgorny/repos/venidera, <unlabeled repository /home/mgorny/repos/verlihub>: /home/mgorny/repos/verlihub, <unlabeled repository /home/mgorny/repos/wbrana>: /home/mgorny/repos/wbrana, <unlabeled repository /home/mgorny/repos/webapp-experimental>: /home/mgorny/repos/webapp-experimental, <unlabeled repository /home/mgorny/repos/wine-diablo3>: /home/mgorny/repos/wine-diablo3, <unlabeled repository /home/mgorny/repos/wish>: /home/mgorny/repos/wish, <unlabeled repository /home/mgorny/repos/wolf31o2>: /home/mgorny/repos/wolf31o2, <unlabeled repository /home/mgorny/repos/xgr>: /home/mgorny/repos/xgr, <unlabeled repository /home/mgorny/repos/xhub>: /home/mgorny/repos/xhub, Armageddon: /home/mgorny/repos/Armageddon, AstroFloyd: /home/mgorny/repos/AstroFloyd, AzP: /home/mgorny/repos/AzP, DuPol: /home/mgorny/repos/DuPol, FireBurn: /home/mgorny/repos/FireBurn, Krontage: /home/mgorny/repos/Krontage, LaraCraft93: /home/mgorny/repos/LaraCraft93, OSSDL: /home/mgorny/repos/OSSDL, ROKO__: /home/mgorny/repos/ROKO__, TomWij: /home/mgorny/repos/TomWij, abadonna-overlay: /home/mgorny/repos/abadonna-overlay, abendbrot: /home/mgorny/repos/abendbrot, abnorm: /home/mgorny/repos/abnorm, activehome: /home/mgorny/repos/activehome, ago: /home/mgorny/repos/ago, aidecoe: /home/mgorny/repos/aidecoe, alatar-lay: /home/mgorny/repos/alatar-lay, alexcepoi: /home/mgorny/repos/alexcepoi, alexxy: /home/mgorny/repos/alexxy, aluco: /home/mgorny/repos/aluco, alunduil: /home/mgorny/repos/alunduil, amielke-overlay: /home/mgorny/repos/amielke-overlay, anarchy: /home/mgorny/repos/anarchy, anaximander: /home/mgorny/repos/anaximander, and3k-sunrise: /home/mgorny/repos/and3k-sunrise, andy: /home/mgorny/repos/andy, angelos: /home/mgorny/repos/angelos, anyc: /home/mgorny/repos/anyc, archenroot: /home/mgorny/repos/archenroot, arx-libertatis: /home/mgorny/repos/arx-libertatis, awesome: /home/mgorny/repos/awesome, axs: /home/mgorny/repos/axs, bar: /home/mgorny/repos/bar, barnowl: /home/mgorny/repos/barnowl, barzog-overlay: /home/mgorny/repos/barzog-overlay, benf: /home/mgorny/repos/benf, betagarden: /home/mgorny/repos/betagarden, betelgeuse: /home/mgorny/repos/betelgeuse, bibletime: /home/mgorny/repos/bibletime, bircoph: /home/mgorny/repos/bircoph, bitcoin: /home/mgorny/repos/bitcoin, bleeding-edge: /home/mgorny/repos/bleeding-edge, blender-gentoo-logo: /home/mgorny/repos/blender-gentoo-logo, bliss-overlay: /home/mgorny/repos/bliss-overlay, blueness: /home/mgorny/repos/blueness, bobwya: /home/mgorny/repos/bobwya, booboo: /home/mgorny/repos/booboo, bumblebee: /home/mgorny/repos/bumblebee, buzden: /home/mgorny/repos/buzden, c1pher: /home/mgorny/repos/c1pher, c2p-overlay: /home/mgorny/repos/c2p-overlay, calculate: /home/mgorny/repos/calculate, causelay: /home/mgorny/repos/causelay, centerim: /home/mgorny/repos/centerim, chaos: /home/mgorny/repos/chaos, chutzpah: /home/mgorny/repos/chutzpah, cj-overlay: /home/mgorny/repos/cj-overlay, dMaggot: /home/mgorny/repos/dMaggot, daks: /home/mgorny/repos/daks, damex-overlay: /home/mgorny/repos/damex-overlay, dannyboy48888: /home/mgorny/repos/dannyboy48888, darkside: /home/mgorny/repos/darkside, dawan: /home/mgorny/repos/dawan, dberkholz: /home/mgorny/repos/dberkholz, desktop-effects: /home/mgorny/repos/desktop-effects, deter: /home/mgorny/repos/deter, dev-zero: /home/mgorny/repos/dev-zero, dfreise: /home/mgorny/repos/dfreise, dilfridge: /home/mgorny/repos/dilfridge, displacer: /home/mgorny/repos/displacer, distros: /home/mgorny/repos/distros, dlan: /home/mgorny/repos/dlan, dlang: /home/mgorny/repos/dlang, dmol: /home/mgorny/repos/dmol, docker: /home/mgorny/repos/docker, dotnet: /home/mgorny/repos/dotnet, drdim: /home/mgorny/repos/drdim, dswm: /home/mgorny/repos/dswm, dwfreed: /home/mgorny/repos/dwfreed, eatnumber1: /home/mgorny/repos/eatnumber1, eigenlay: /home/mgorny/repos/eigenlay, elementary: /home/mgorny/repos/elementary, emacs: /home/mgorny/repos/emacs, embedded-cross: /home/mgorny/repos/embedded-cross, emc: /home/mgorny/repos/emc, emery: /home/mgorny/repos/emery, enlightenment: /home/mgorny/repos/enlightenment, ennui: /home/mgorny/repos/ennui, ephemeral: /home/mgorny/repos/ephemeral, erikmack: /home/mgorny/repos/erikmack, eroen: /home/mgorny/repos/eroen, espenaf: /home/mgorny/repos/espenaf, eva: /home/mgorny/repos/eva, ext-devlibs: /home/mgorny/repos/ext-devlibs, eyolfson: /home/mgorny/repos/eyolfson, ezod: /home/mgorny/repos/ezod, farmboy0: /home/mgorny/repos/farmboy0, fkmclane: /home/mgorny/repos/fkmclane, flameeyes-overlay: /home/mgorny/repos/flameeyes-overlay, flammie: /home/mgorny/repos/flammie, flavour: /home/mgorny/repos/flavour, floppym: /home/mgorny/repos/floppym, flow: /home/mgorny/repos/flow, fm: /home/mgorny/repos/fm, foo-overlay: /home/mgorny/repos/foo-overlay, fordfrog: /home/mgorny/repos/fordfrog, fouxlay: /home/mgorny/repos/fouxlay, freeswitch: /home/mgorny/repos/freeswitch, frostyx: /home/mgorny/repos/frostyx, funroll-loops: /home/mgorny/repos/funroll-loops, funtoo-deadbeef: /home/mgorny/repos/funtoo-deadbeef, funtoo-gambas: /home/mgorny/repos/funtoo-gambas, funtoo-tengine: /home/mgorny/repos/funtoo-tengine, furikake: /home/mgorny/repos/furikake, fw-overlay: /home/mgorny/repos/fw-overlay, gamerlay: /home/mgorny/repos/gamerlay, games-overlay: /home/mgorny/repos/games-overlay, gbin: /home/mgorny/repos/gbin, geki: /home/mgorny/repos/geki, gentoo-bsd: /home/mgorny/repos/gentoo-bsd, gentoo-el: /home/mgorny/repos/gentoo-el, gentoo-guis: /home/mgorny/repos/gentoo-guis, gentoo-openbsd: /home/mgorny/repos/gentoo-openbsd, gentoo-zh: /home/mgorny/repos/gentoo-zh, gentoo: /home/mgorny/repos/gentoo, gentroid: /home/mgorny/repos/gentroid, gitlab: /home/mgorny/repos/gitlab, gnome: /home/mgorny/repos/gnome, gnustep: /home/mgorny/repos/gnustep, godin: /home/mgorny/repos/godin, graaff: /home/mgorny/repos/graaff, graveyard: /home/mgorny/repos/graveyard, grub2-themes: /home/mgorny/repos/grub2-themes, haarp: /home/mgorny/repos/haarp, hamper-overlay: /home/mgorny/repos/hamper-overlay, hanno: /home/mgorny/repos/hanno, hardened-development: /home/mgorny/repos/hardened-development, haskell: /home/mgorny/repos/haskell, hasufell: /home/mgorny/repos/hasufell, heather: /home/mgorny/repos/heather, hhvm: /home/mgorny/repos/hhvm, hibiscus: /home/mgorny/repos/hibiscus, hnaparst: /home/mgorny/repos/hnaparst, humble: /home/mgorny/repos/humble, ikelos: /home/mgorny/repos/ikelos, improvise: /home/mgorny/repos/improvise, init6: /home/mgorny/repos/init6, interactive-fiction: /home/mgorny/repos/interactive-fiction, ixit: /home/mgorny/repos/ixit, jamesbroadhead: /home/mgorny/repos/jamesbroadhead, jamestr: /home/mgorny/repos/jamestr, jauhien: /home/mgorny/repos/jauhien, java: /home/mgorny/repos/java, javer: /home/mgorny/repos/javer, je_fro: /home/mgorny/repos/je_fro, jensp: /home/mgorny/repos/jensp, jkolo: /home/mgorny/repos/jkolo, jmbsvicetto: /home/mgorny/repos/jmbsvicetto, jmesmon: /home/mgorny/repos/jmesmon, johu: /home/mgorny/repos/johu, joinge: /home/mgorny/repos/joinge, jorgicio: /home/mgorny/repos/jorgicio, jranvier: /home/mgorny/repos/jranvier, jtriley: /home/mgorny/repos/jtriley, k_f: /home/mgorny/repos/k_f, kaa: /home/mgorny/repos/kaa, kde-sunset: /home/mgorny/repos/kde-sunset, kde: /home/mgorny/repos/kde, keruspe: /home/mgorny/repos/keruspe, klondike: /home/mgorny/repos/klondike, kolab: /home/mgorny/repos/kolab, kork: /home/mgorny/repos/kork, kormoc: /home/mgorny/repos/kormoc, last-hope: /home/mgorny/repos/last-hope, laurentb: /home/mgorny/repos/laurentb, leio: /home/mgorny/repos/leio, levenkov: /home/mgorny/repos/levenkov, libressl: /home/mgorny/repos/libressl, lif: /home/mgorny/repos/lif, linuxunderground-overlay: /home/mgorny/repos/linuxunderground-overlay, lisp: /home/mgorny/repos/lisp, lmiphay: /home/mgorny/repos/lmiphay, loongson: /home/mgorny/repos/loongson, lootr: /home/mgorny/repos/lootr, lordvan: /home/mgorny/repos/lordvan, ltsp: /home/mgorny/repos/ltsp, lua: /home/mgorny/repos/lua, luke-jr: /home/mgorny/repos/luke-jr, luman: /home/mgorny/repos/luman, lxde-gtk3: /home/mgorny/repos/lxde-gtk3, maekke: /home/mgorny/repos/maekke, maggu2810-overlay: /home/mgorny/repos/maggu2810-overlay, maksbotan: /home/mgorny/repos/maksbotan, mate: /home/mgorny/repos/mate, mgorny: /home/mgorny/repos/mgorny, mhammill: /home/mgorny/repos/mhammill, miramir: /home/mgorny/repos/miramir, mistafunk: /home/mgorny/repos/mistafunk, moltonel: /home/mgorny/repos/moltonel, moonrise: /home/mgorny/repos/moonrise, mooyooma: /home/mgorny/repos/mooyooma, mozilla: /home/mgorny/repos/mozilla, mpd: /home/mgorny/repos/mpd, mrueg: /home/mgorny/repos/mrueg, mschiff: /home/mgorny/repos/mschiff, multilib-portage: /home/mgorny/repos/multilib-portage, multimedia: /home/mgorny/repos/multimedia, musl: /home/mgorny/repos/musl, mv: /home/mgorny/repos/mv, mva: /home/mgorny/repos/mva, mysql: /home/mgorny/repos/mysql, n900: /home/mgorny/repos/n900, netcrave: /home/mgorny/repos/netcrave, neurogeek: /home/mgorny/repos/neurogeek, nextoo: /home/mgorny/repos/nextoo, nginx-overlay: /home/mgorny/repos/nginx-overlay, nico: /home/mgorny/repos/nico, nightmare: /home/mgorny/repos/nightmare, nigoro-fbsd: /home/mgorny/repos/nigoro-fbsd, nikai: /home/mgorny/repos/nikai, nixphoeni: /home/mgorny/repos/nixphoeni, noiselabs: /home/mgorny/repos/noiselabs, nx: /home/mgorny/repos/nx, o11c: /home/mgorny/repos/o11c, octave: /home/mgorny/repos/octave, okupy: /home/mgorny/repos/okupy, open-overlay: /home/mgorny/repos/open-overlay, owncloud-client: /home/mgorny/repos/owncloud-client, palemoon: /home/mgorny/repos/palemoon, palmer: /home/mgorny/repos/palmer, pandaboard: /home/mgorny/repos/pandaboard, pchrist: /home/mgorny/repos/pchrist, pd-overlay: /home/mgorny/repos/pd-overlay, pentoo: /home/mgorny/repos/pentoo, perl-experimental-snapshots: /home/mgorny/repos/perl-experimental-snapshots, perl-experimental: /home/mgorny/repos/perl-experimental, perl6: /home/mgorny/repos/perl6, petkovich: /home/mgorny/repos/petkovich, pica-pica: /home/mgorny/repos/pica-pica, piczu: /home/mgorny/repos/piczu, pigfoot: /home/mgorny/repos/pigfoot, pinkbyte: /home/mgorny/repos/pinkbyte, plab: /home/mgorny/repos/plab, portage-backup: /home/mgorny/repos/portage-backup, posativ: /home/mgorny/repos/posativ, powerman: /home/mgorny/repos/powerman, printer-drivers: /home/mgorny/repos/printer-drivers, prism-overlay: /home/mgorny/repos/prism-overlay, proaudio: /home/mgorny/repos/proaudio, progress: /home/mgorny/repos/progress, prometheanfire: /home/mgorny/repos/prometheanfire, psix-overlay: /home/mgorny/repos/psix-overlay, pypy_alice: /home/mgorny/repos/pypy_alice, qemu-init: /home/mgorny/repos/qemu-init, qt: /home/mgorny/repos/qt, quantumsummers: /home/mgorny/repos/quantumsummers, quarks: /home/mgorny/repos/quarks, qutebrowser: /home/mgorny/repos/qutebrowser, qwin-overlay: /home/mgorny/repos/qwin-overlay, rafaelmartins: /home/mgorny/repos/rafaelmartins, raiagent: /home/mgorny/repos/raiagent, rainyday: /home/mgorny/repos/rainyday, rasdark: /home/mgorny/repos/rasdark, raw: /home/mgorny/repos/raw, raw:/home/mgorny/repos/lorelei, raw:/home/mgorny/repos/wschlich, rebel: /home/mgorny/repos/rebel, rebutia: /home/mgorny/repos/rebutia, regina-gentoo: /home/mgorny/repos/regina-gentoo, rich0: /home/mgorny/repos/rich0, rion: /home/mgorny/repos/rion, ros: /home/mgorny/repos/ros, roslin: /home/mgorny/repos/roslin, ruby: /home/mgorny/repos/ruby, rust: /home/mgorny/repos/rust, rwald: /home/mgorny/repos/rwald, sabayon-distro: /home/mgorny/repos/sabayon-distro, sabayon: /home/mgorny/repos/sabayon, sage-on-gentoo: /home/mgorny/repos/sage-on-gentoo, salfter: /home/mgorny/repos/salfter, santa01: /home/mgorny/repos/santa01, sardemff7: /home/mgorny/repos/sardemff7, sattvik: /home/mgorny/repos/sattvik, science: /home/mgorny/repos/science, scrill: /home/mgorny/repos/scrill, seafile: /home/mgorny/repos/seafile, sebasmagri: /home/mgorny/repos/sebasmagri, seden: /home/mgorny/repos/seden, seeds: /home/mgorny/repos/seeds, sekh: /home/mgorny/repos/sekh, sekyfsr: /home/mgorny/repos/sekyfsr, sera: /home/mgorny/repos/sera, sft: /home/mgorny/repos/sft, sigrok: /home/mgorny/repos/sigrok, silmano: /home/mgorny/repos/silmano, sinustrom: /home/mgorny/repos/sinustrom, slyfox: /home/mgorny/repos/slyfox, sochotnicky: /home/mgorny/repos/sochotnicky, soehest: /home/mgorny/repos/soehest, sorinp: /home/mgorny/repos/sorinp, spiderlay: /home/mgorny/repos/spiderlay, spike-community-overlay: /home/mgorny/repos/spike-community-overlay, spike: /home/mgorny/repos/spike, sping: /home/mgorny/repos/sping, squeezebox: /home/mgorny/repos/squeezebox, srcshelton: /home/mgorny/repos/srcshelton, steam-overlay: /home/mgorny/repos/steam-overlay, steev: /home/mgorny/repos/steev, stefantalpalaru: /home/mgorny/repos/stefantalpalaru, steveeJ: /home/mgorny/repos/steveeJ, strohel: /home/mgorny/repos/strohel, stuff: /home/mgorny/repos/stuff, stuge: /home/mgorny/repos/stuge, sublime-text: /home/mgorny/repos/sublime-text, sunrise: /home/mgorny/repos/sunrise, synnefo: /home/mgorny/repos/synnefo, systemd-love: /home/mgorny/repos/systemd-love, systemd: /home/mgorny/repos/systemd, tante: /home/mgorny/repos/tante, tegra: /home/mgorny/repos/tegra, tf201: /home/mgorny/repos/tf201, timboudreau: /home/mgorny/repos/timboudreau, timroes: /home/mgorny/repos/timroes, tmacedo: /home/mgorny/repos/tmacedo, tocaro: /home/mgorny/repos/tocaro, toolchain: /home/mgorny/repos/toolchain, torbrowser: /home/mgorny/repos/torbrowser, tox-overlay: /home/mgorny/repos/tox-overlay, trash: /home/mgorny/repos/trash, triquetra: /home/mgorny/repos/triquetra, twister: /home/mgorny/repos/twister, twitch153: /home/mgorny/repos/twitch153, ulm: /home/mgorny/repos/ulm, ultrabug: /home/mgorny/repos/ultrabug, underlay: /home/mgorny/repos/underlay, undesktop: /home/mgorny/repos/undesktop, unity-gentoo: /home/mgorny/repos/unity-gentoo, usr-gentoo: /home/mgorny/repos/usr-gentoo, v-fox: /home/mgorny/repos/v-fox, vaca: /home/mgorny/repos/vaca, vala: /home/mgorny/repos/vala, vapoursynth: /home/mgorny/repos/vapoursynth, vayerx: /home/mgorny/repos/vayerx, vdr-devel: /home/mgorny/repos/vdr-devel, vdr-testing: /home/mgorny/repos/vdr-testing, vincent: /home/mgorny/repos/vincent, viprea-overlay: /home/mgorny/repos/viprea-overlay, virtualization: /home/mgorny/repos/virtualization, vmacs: /home/mgorny/repos/vmacs, vmware: /home/mgorny/repos/vmware, voip: /home/mgorny/repos/voip, vortex: /home/mgorny/repos/vortex, voyageur: /home/mgorny/repos/voyageur, wacfg: /home/mgorny/repos/wacfg, wavilen: /home/mgorny/repos/wavilen, wdzierzan: /home/mgorny/repos/wdzierzan, webos: /home/mgorny/repos/webos, weuxel: /home/mgorny/repos/weuxel, whiledev: /home/mgorny/repos/whiledev, wichtounet: /home/mgorny/repos/wichtounet, wine-a-holics: /home/mgorny/repos/wine-a-holics, wine-overlay: /home/mgorny/repos/wine-overlay, wirelay: /home/mgorny/repos/wirelay, write2David: /home/mgorny/repos/write2David, wtk: /home/mgorny/repos/wtk, wuodan: /home/mgorny/repos/wuodan, x11: /home/mgorny/repos/x11, xarthisius: /home/mgorny/repos/xarthisius, xelnor: /home/mgorny/repos/xelnor, xfce-dev: /home/mgorny/repos/xfce-dev, xmw: /home/mgorny/repos/xmw, xtreemfs: /home/mgorny/repos/xtreemfs, yac: /home/mgorny/repos/yac, yarik-overlay: /home/mgorny/repos/yarik-overlay, yngwin: /home/mgorny/repos/yngwin, yoreek: /home/mgorny/repos/yoreek, zlogene: /home/mgorny/repos/zlogene, zoobab: /home/mgorny/repos/zoobab, zx2c4: /home/mgorny/repos/zx2c4)
+ * Sync failed with 2
+ * Will try to re-create
 $ portage-sync.py Menelkir
-!!! Repository 'secondlife' is missing masters attribute in '/home/mgorny/repos/secondlife/metadata/layout.conf'
+!!! Repository 'njw' is missing masters attribute in '/home/mgorny/repos/njw/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'asux' is missing masters attribute in '/home/mgorny/repos/asux/metadata/layout.conf'
+!!! Repository 'soor' is missing masters attribute in '/home/mgorny/repos/soor/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wbrana' is missing masters attribute in '/home/mgorny/repos/wbrana/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'remi' is missing masters attribute in '/home/mgorny/repos/remi/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'halcy0n' is missing masters attribute in '/home/mgorny/repos/halcy0n/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'kvm' is missing masters attribute in '/home/mgorny/repos/kvm/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wish' is missing masters attribute in '/home/mgorny/repos/wish/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n4g-experimental' is missing masters attribute in '/home/mgorny/repos/n4g-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'Menelkir' is missing masters attribute in '/home/mgorny/repos/Menelkir/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'turbogears2' is missing masters attribute in '/home/mgorny/repos/turbogears2/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'webapp-experimental' is missing masters attribute in '/home/mgorny/repos/webapp-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'drevilt' is missing masters attribute in '/home/mgorny/repos/drevilt/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'venidera' is missing masters attribute in '/home/mgorny/repos/venidera/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'crossdev' is missing masters attribute in '/home/mgorny/repos/crossdev/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'alice' is missing masters attribute in '/home/mgorny/repos/alice/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'iElectric' is missing masters attribute in '/home/mgorny/repos/iElectric/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n4g' is missing masters attribute in '/home/mgorny/repos/n4g/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'verlihub' is missing masters attribute in '/home/mgorny/repos/verlihub/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'xhub' is missing masters attribute in '/home/mgorny/repos/xhub/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'pross' is missing masters attribute in '/home/mgorny/repos/pross/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'ramereth' is missing masters attribute in '/home/mgorny/repos/ramereth/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'armagetron' is missing masters attribute in '/home/mgorny/repos/armagetron/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'tjy1965' is missing masters attribute in '/home/mgorny/repos/tjy1965/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'wine-diablo3' is missing masters attribute in '/home/mgorny/repos/wine-diablo3/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'kvm' is missing masters attribute in '/home/mgorny/repos/kvm/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'webapp-experimental' is missing masters attribute in '/home/mgorny/repos/webapp-experimental/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'ub0rlay' is missing masters attribute in '/home/mgorny/repos/ub0rlay/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'verlihub' is missing masters attribute in '/home/mgorny/repos/verlihub/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'ibormuth' is missing masters attribute in '/home/mgorny/repos/ibormuth/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'pcsx2' is missing masters attribute in '/home/mgorny/repos/pcsx2/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'postgresql-testing' is missing masters attribute in '/home/mgorny/repos/postgresql-testing/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'drizzt-overlay' is missing masters attribute in '/home/mgorny/repos/drizzt-overlay/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'arax-os-overlay' is missing masters attribute in '/home/mgorny/repos/arax-os-overlay/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'iElectric' is missing masters attribute in '/home/mgorny/repos/iElectric/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'paddymac' is missing masters attribute in '/home/mgorny/repos/paddymac/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'r3pek' is missing masters attribute in '/home/mgorny/repos/r3pek/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'n4g' is missing masters attribute in '/home/mgorny/repos/n4g/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'njw' is missing masters attribute in '/home/mgorny/repos/njw/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'ubuntu' is missing masters attribute in '/home/mgorny/repos/ubuntu/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'gpe' is missing masters attribute in '/home/mgorny/repos/gpe/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'sabotageandi' is missing masters attribute in '/home/mgorny/repos/sabotageandi/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'otih' is missing masters attribute in '/home/mgorny/repos/otih/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'jxh' is missing masters attribute in '/home/mgorny/repos/jxh/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'wolf31o2' is missing masters attribute in '/home/mgorny/repos/wolf31o2/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'alice' is missing masters attribute in '/home/mgorny/repos/alice/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'thousand-parsec' is missing masters attribute in '/home/mgorny/repos/thousand-parsec/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'Menelkir' is missing masters attribute in '/home/mgorny/repos/Menelkir/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'gentoo-taiwan' is missing masters attribute in '/home/mgorny/repos/gentoo-taiwan/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'wbrana' is missing masters attribute in '/home/mgorny/repos/wbrana/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'edwtjo-ebuilds' is missing masters attribute in '/home/mgorny/repos/edwtjo-ebuilds/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'turbogears2' is missing masters attribute in '/home/mgorny/repos/turbogears2/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'tarantool' is missing masters attribute in '/home/mgorny/repos/tarantool/metadata/layout.conf'
+!!! Repository 'asux' is missing masters attribute in '/home/mgorny/repos/asux/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'purak' is missing masters attribute in '/home/mgorny/repos/purak/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'stormfront' is missing masters attribute in '/home/mgorny/repos/stormfront/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'phunehehe' is missing masters attribute in '/home/mgorny/repos/phunehehe/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'venidera' is missing masters attribute in '/home/mgorny/repos/venidera/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'anderse' is missing masters attribute in '/home/mgorny/repos/anderse/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'bicatali' is missing masters attribute in '/home/mgorny/repos/bicatali/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'nbigaouette' is missing masters attribute in '/home/mgorny/repos/nbigaouette/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'arc' is missing masters attribute in '/home/mgorny/repos/arc/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'drevilt' is missing masters attribute in '/home/mgorny/repos/drevilt/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'n8x0' is missing masters attribute in '/home/mgorny/repos/n8x0/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'postgresql-experimental' is missing masters attribute in '/home/mgorny/repos/postgresql-experimental/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'matsuu' is missing masters attribute in '/home/mgorny/repos/matsuu/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'jaervosz' is missing masters attribute in '/home/mgorny/repos/jaervosz/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'dauleet' is missing masters attribute in '/home/mgorny/repos/dauleet/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'caio' is missing masters attribute in '/home/mgorny/repos/caio/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'gmt' is missing masters attribute in '/home/mgorny/repos/gmt/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'clickbeetle_tools' is missing masters attribute in '/home/mgorny/repos/clickbeetle_tools/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'rubenqba' is missing masters attribute in '/home/mgorny/repos/rubenqba/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'remi' is missing masters attribute in '/home/mgorny/repos/remi/metadata/layout.conf'
+!!! Repository 'wolf31o2' is missing masters attribute in '/home/mgorny/repos/wolf31o2/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'robbat2' is missing masters attribute in '/home/mgorny/repos/robbat2/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'gentoojp' is missing masters attribute in '/home/mgorny/repos/gentoojp/metadata/layout.conf'
+!!! Repository 'stormfront' is missing masters attribute in '/home/mgorny/repos/stormfront/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'gentoo-arm' is missing masters attribute in '/home/mgorny/repos/gentoo-arm/metadata/layout.conf'
+!!! Repository 'anderse' is missing masters attribute in '/home/mgorny/repos/anderse/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'n4g-experimental' is missing masters attribute in '/home/mgorny/repos/n4g-experimental/metadata/layout.conf'
+!!! Repository 'arc' is missing masters attribute in '/home/mgorny/repos/arc/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'wish' is missing masters attribute in '/home/mgorny/repos/wish/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'crossdev' is missing masters attribute in '/home/mgorny/repos/crossdev/metadata/layout.conf'
-!!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'halcy0n' is missing masters attribute in '/home/mgorny/repos/halcy0n/metadata/layout.conf'
+!!! Repository 'gmt' is missing masters attribute in '/home/mgorny/repos/gmt/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'xgr' is missing masters attribute in '/home/mgorny/repos/xgr/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'efika' is missing masters attribute in '/home/mgorny/repos/efika/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'logan' is missing masters attribute in '/home/mgorny/repos/logan/metadata/layout.conf'
+!!! Repository 'ramereth' is missing masters attribute in '/home/mgorny/repos/ramereth/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
-!!! Repository 'soor' is missing masters attribute in '/home/mgorny/repos/soor/metadata/layout.conf'
+!!! Repository 'jxh' is missing masters attribute in '/home/mgorny/repos/jxh/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'tjy1965' is missing masters attribute in '/home/mgorny/repos/tjy1965/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'matsuu' is missing masters attribute in '/home/mgorny/repos/matsuu/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ubuntu' is missing masters attribute in '/home/mgorny/repos/ubuntu/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wine-diablo3' is missing masters attribute in '/home/mgorny/repos/wine-diablo3/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'drizzt-overlay' is missing masters attribute in '/home/mgorny/repos/drizzt-overlay/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 !!! Repository 'docd' is missing masters attribute in '/home/mgorny/repos/docd/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'tarantool' is missing masters attribute in '/home/mgorny/repos/tarantool/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gpe' is missing masters attribute in '/home/mgorny/repos/gpe/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'phunehehe' is missing masters attribute in '/home/mgorny/repos/phunehehe/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'nbigaouette' is missing masters attribute in '/home/mgorny/repos/nbigaouette/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'otih' is missing masters attribute in '/home/mgorny/repos/otih/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'arax-os-overlay' is missing masters attribute in '/home/mgorny/repos/arax-os-overlay/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'dauleet' is missing masters attribute in '/home/mgorny/repos/dauleet/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'pcsx2' is missing masters attribute in '/home/mgorny/repos/pcsx2/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'logan' is missing masters attribute in '/home/mgorny/repos/logan/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'thousand-parsec' is missing masters attribute in '/home/mgorny/repos/thousand-parsec/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'secondlife' is missing masters attribute in '/home/mgorny/repos/secondlife/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'armagetron' is missing masters attribute in '/home/mgorny/repos/armagetron/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoojp' is missing masters attribute in '/home/mgorny/repos/gentoojp/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'postgresql-testing' is missing masters attribute in '/home/mgorny/repos/postgresql-testing/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'rubenqba' is missing masters attribute in '/home/mgorny/repos/rubenqba/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'edwtjo-ebuilds' is missing masters attribute in '/home/mgorny/repos/edwtjo-ebuilds/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n8x0' is missing masters attribute in '/home/mgorny/repos/n8x0/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'caio' is missing masters attribute in '/home/mgorny/repos/caio/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'jaervosz' is missing masters attribute in '/home/mgorny/repos/jaervosz/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoo-arm' is missing masters attribute in '/home/mgorny/repos/gentoo-arm/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'postgresql-experimental' is missing masters attribute in '/home/mgorny/repos/postgresql-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'r3pek' is missing masters attribute in '/home/mgorny/repos/r3pek/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'paddymac' is missing masters attribute in '/home/mgorny/repos/paddymac/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'sabotageandi' is missing masters attribute in '/home/mgorny/repos/sabotageandi/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'clickbeetle_tools' is missing masters attribute in '/home/mgorny/repos/clickbeetle_tools/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoo-taiwan' is missing masters attribute in '/home/mgorny/repos/gentoo-taiwan/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'bicatali' is missing masters attribute in '/home/mgorny/repos/bicatali/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ub0rlay' is missing masters attribute in '/home/mgorny/repos/ub0rlay/metadata/layout.conf'
 !!! Set 'masters = gentoo' in this file for future compatibility
 >>> Syncing repository 'Menelkir' into '/home/mgorny/repos/Menelkir'...
 /usr/bin/git clone git://anongit.gentoo.org/user/menelkir.git .
 Cloning into '.'...
 === Sync completed for Menelkir
- * Sync succeeded
+ * Sync succeeded after re-adding
  * Missing masters, removing
