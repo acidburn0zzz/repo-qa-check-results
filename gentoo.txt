@@ -3,72 +3,16 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   5fd5fa1..4b95a4b  master     -> origin/master
-Updating 5fd5fa1..4b95a4b
+   4b95a4b..e8331ca  master     -> origin/master
+Updating 4b95a4b..e8331ca
 Fast-forward
- dev-perl/Test-NoWarnings/ChangeLog                 |  9 +++-
- dev-perl/Test-NoWarnings/Manifest                  | 32 ++++++------
- ...-r1.ebuild => Test-NoWarnings-1.40.0-r2.ebuild} |  2 +-
- dev-python/pyzmq/ChangeLog                         | 10 +++-
- dev-python/pyzmq/Manifest                          | 36 ++++++++------
- dev-python/pyzmq/pyzmq-14.4.0.ebuild               | 57 ----------------------
- dev-python/pyzmq/pyzmq-14.4.1.ebuild               | 20 ++++----
- dev-python/pyzmq/pyzmq-14.6.0.ebuild               | 11 ++---
- .../{pyzmq-14.5.0.ebuild => pyzmq-14.7.0.ebuild}   | 11 ++---
- dev-python/pyzmq/pyzmq-2.2.0.1-r1.ebuild           | 48 ------------------
- dev-python/utmp/ChangeLog                          |  8 +++
- dev-python/utmp/Manifest                           | 26 ++++++++++
- dev-python/utmp/metadata.xml                       |  9 ++++
- dev-python/utmp/utmp-0.4.ebuild                    | 27 ++++++++++
- dev-util/uncrustify/ChangeLog                      |  8 ++-
- dev-util/uncrustify/Manifest                       | 29 ++---------
- dev-util/uncrustify/uncrustify-0.60.ebuild         | 29 -----------
- dev-util/uncrustify/uncrustify-0.61-r1.ebuild      | 34 +++++++++++++
- dev-util/uncrustify/uncrustify-9999.ebuild         | 22 ++++-----
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- ...arnings-1.40.0-r1 => Test-NoWarnings-1.40.0-r2} |  2 +-
- metadata/md5-cache/dev-python/pyzmq-14.4.0         | 14 ------
- metadata/md5-cache/dev-python/pyzmq-14.4.1         |  8 +--
- metadata/md5-cache/dev-python/pyzmq-14.6.0         |  8 +--
- .../dev-python/{pyzmq-14.5.0 => pyzmq-14.7.0}      | 10 ++--
- metadata/md5-cache/dev-python/pyzmq-2.2.0.1-r1     | 14 ------
- metadata/md5-cache/dev-python/utmp-0.4             | 14 ++++++
- metadata/md5-cache/dev-util/uncrustify-0.60        | 12 -----
- metadata/md5-cache/dev-util/uncrustify-0.61-r1     | 12 +++++
- metadata/md5-cache/dev-util/uncrustify-9999        |  8 +--
- metadata/md5-cache/net-fs/openafs-legacy-0.1       |  7 +--
- metadata/md5-cache/net-libs/zeromq-4.1.2           | 13 +++++
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- net-fs/openafs-legacy/ChangeLog                    |  7 ++-
- net-fs/openafs-legacy/Manifest                     | 24 ++++++++-
- net-fs/openafs-legacy/openafs-legacy-0.1.ebuild    | 14 +++---
- net-libs/zeromq/ChangeLog                          |  7 ++-
- net-libs/zeromq/Manifest                           | 36 ++++++++------
- net-libs/zeromq/zeromq-4.1.2.ebuild                | 50 +++++++++++++++++++
- 43 files changed, 374 insertions(+), 326 deletions(-)
- rename dev-perl/Test-NoWarnings/{Test-NoWarnings-1.40.0-r1.ebuild => Test-NoWarnings-1.40.0-r2.ebuild} (90%)
- delete mode 100644 dev-python/pyzmq/pyzmq-14.4.0.ebuild
- rename dev-python/pyzmq/{pyzmq-14.5.0.ebuild => pyzmq-14.7.0.ebuild} (84%)
- delete mode 100644 dev-python/pyzmq/pyzmq-2.2.0.1-r1.ebuild
- create mode 100644 dev-python/utmp/ChangeLog
- create mode 100644 dev-python/utmp/Manifest
- create mode 100644 dev-python/utmp/metadata.xml
- create mode 100644 dev-python/utmp/utmp-0.4.ebuild
- delete mode 100644 dev-util/uncrustify/uncrustify-0.60.ebuild
- create mode 100644 dev-util/uncrustify/uncrustify-0.61-r1.ebuild
- rename metadata/md5-cache/dev-perl/{Test-NoWarnings-1.40.0-r1 => Test-NoWarnings-1.40.0-r2} (95%)
- delete mode 100644 metadata/md5-cache/dev-python/pyzmq-14.4.0
- rename metadata/md5-cache/dev-python/{pyzmq-14.5.0 => pyzmq-14.7.0} (92%)
- delete mode 100644 metadata/md5-cache/dev-python/pyzmq-2.2.0.1-r1
- create mode 100644 metadata/md5-cache/dev-python/utmp-0.4
- delete mode 100644 metadata/md5-cache/dev-util/uncrustify-0.60
- create mode 100644 metadata/md5-cache/dev-util/uncrustify-0.61-r1
- create mode 100644 metadata/md5-cache/net-libs/zeromq-4.1.2
- create mode 100644 net-libs/zeromq/zeromq-4.1.2.ebuild
+ metadata/dtd/timestamp.chk  | 2 +-
+ metadata/glsa/timestamp.chk | 2 +-
+ metadata/news/timestamp.chk | 2 +-
+ metadata/timestamp          | 2 +-
+ metadata/timestamp.chk      | 2 +-
+ metadata/timestamp.x        | 2 +-
+ 6 files changed, 6 insertions(+), 6 deletions(-)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
