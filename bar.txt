@@ -1,7 +1,22 @@
 $ pmaint sync bar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/tokiclover/bar-overlay
+   6eb1241..5a3a900  master     -> origin/master
+Updating 6eb1241..5a3a900
+Fast-forward
+ profiles/package.list                              |  1 +
+ sys-process/runit/Manifest                         |  1 +
+ .../runit/files/runit-2.1-runsv-logdir.patch       | 83 ++++++++++++++++++++++
+ sys-process/runit/files/runit-2.1-sv-check.patch   | 40 +++++++++++
+ sys-process/runit/metadata.xml                     | 10 +++
+ sys-process/runit/runit-2.1.2-r1.ebuild            | 62 ++++++++++++++++
+ 6 files changed, 197 insertions(+)
+ create mode 100644 sys-process/runit/Manifest
+ create mode 100644 sys-process/runit/files/runit-2.1-runsv-logdir.patch
+ create mode 100644 sys-process/runit/files/runit-2.1-sv-check.patch
+ create mode 100644 sys-process/runit/metadata.xml
+ create mode 100644 sys-process/runit/runit-2.1.2-r1.ebuild
 *** syncing '/home/mgorny/repos/bar'...
 *** synced '/home/mgorny/repos/bar'
  * Sync succeeded

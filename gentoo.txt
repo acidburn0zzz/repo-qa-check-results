@@ -3,16 +3,22 @@ $ pmaint sync gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   4b95a4b..e8331ca  master     -> origin/master
-Updating 4b95a4b..e8331ca
+   e8331ca..73b3d56  master     -> origin/master
+Updating e8331ca..73b3d56
 Fast-forward
- metadata/dtd/timestamp.chk  | 2 +-
- metadata/glsa/timestamp.chk | 2 +-
- metadata/news/timestamp.chk | 2 +-
- metadata/timestamp          | 2 +-
- metadata/timestamp.chk      | 2 +-
- metadata/timestamp.x        | 2 +-
- 6 files changed, 6 insertions(+), 6 deletions(-)
+ dev-python/selenium/ChangeLog                 |  7 ++++++-
+ dev-python/selenium/Manifest                  | 26 ++++++++++++++++++++------
+ dev-python/selenium/selenium-2.46.0.ebuild    | 24 ++++++++++++++++++++++++
+ metadata/dtd/timestamp.chk                    |  2 +-
+ metadata/glsa/timestamp.chk                   |  2 +-
+ metadata/md5-cache/dev-python/selenium-2.46.0 | 14 ++++++++++++++
+ metadata/news/timestamp.chk                   |  2 +-
+ metadata/timestamp                            |  2 +-
+ metadata/timestamp.chk                        |  2 +-
+ metadata/timestamp.x                          |  2 +-
+ 10 files changed, 70 insertions(+), 13 deletions(-)
+ create mode 100644 dev-python/selenium/selenium-2.46.0.ebuild
+ create mode 100644 metadata/md5-cache/dev-python/selenium-2.46.0
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
