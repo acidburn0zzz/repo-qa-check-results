@@ -102,7 +102,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/rubenqba', named 'rubenqba', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/xgr', named 'xgr', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/maggu2810/maggu2810-overlay
+   08c445f..69eaed4  master     -> origin/master
+Updating 08c445f..69eaed4
+Fast-forward
+ profiles/mjr/make.defaults                 | 19 ++++++++++++-----
+ profiles/mjr/package.mask/indexer          |  1 +
+ profiles/mjr/package.use.force/libreoffice |  6 ------
+ profiles/mjr/package.use/gtk_gnome         | 34 +++---------------------------
+ profiles/mjr/package.use/java              | 25 ++++++++++++++++++++++
+ profiles/mjr/package.use/multilib          |  5 +++++
+ sets/mjr-2-fonts                           |  2 ++
+ 7 files changed, 50 insertions(+), 42 deletions(-)
+ create mode 100644 profiles/mjr/package.mask/indexer
+ delete mode 100644 profiles/mjr/package.use.force/libreoffice
+ create mode 100644 profiles/mjr/package.use/multilib
 *** syncing '/home/mgorny/repos/maggu2810-overlay'...
 *** synced '/home/mgorny/repos/maggu2810-overlay'
  * Sync succeeded
