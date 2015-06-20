@@ -96,14 +96,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/jorgicio/jorgicio-gentoo
-   bfbf6a7..a1219ca  master     -> origin/master
-Updating bfbf6a7..a1219ca
+   a1219ca..8d34e43  master     -> origin/master
+Updating a1219ca..8d34e43
 Fast-forward
- net-wireless/linssid/Manifest           |  2 ++
- net-wireless/linssid/linssid-2.7.ebuild | 50 +++++++++++++++++++++++++++++++++
- 2 files changed, 52 insertions(+)
- create mode 100644 net-wireless/linssid/Manifest
- create mode 100644 net-wireless/linssid/linssid-2.7.ebuild
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
 *** syncing '/home/mgorny/repos/jorgicio'...
 *** synced '/home/mgorny/repos/jorgicio'
  * Sync succeeded
@@ -241,43 +238,43 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
-!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
 !!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
 !!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                  kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
@@ -286,8 +283,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
  * Cache regenerated successfully

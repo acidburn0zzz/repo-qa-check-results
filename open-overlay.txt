@@ -90,7 +90,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   0d3a378..101fd7c  master     -> origin/master
+Updating 0d3a378..101fd7c
+Fast-forward
+ sys-kernel/grsecurity-sources/Manifest             |      3 +
+ .../files/grsecurity-3.1-4.0.5-201506171322.patch  | 158128 ++++++++++++++++++
+ .../grsecurity-sources-4.0.5.ebuild                |     34 +
+ 3 files changed, 158165 insertions(+)
+ create mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.5-201506171322.patch
+ create mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.5.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
