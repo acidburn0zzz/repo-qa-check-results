@@ -110,27 +110,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named 'thousand-parsec', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/NP-Hardass/wine-a-holics
-   3a7512b..47d51c6  master     -> origin/master
-Updating 3a7512b..47d51c6
-Fast-forward
- .../wine-staging/wine-staging-1.7.45.ebuild        | 617 +++++++++++++++++++++
- .../wine-vanilla/wine-vanilla-1.7.45.ebuild        |   1 +
- app-emulation/wine/ChangeLog                       |   6 +
- app-emulation/wine/Manifest                        |  29 +-
- .../files/wine-1.7.45-libunwind-osx-only.patch     |  64 +++
- app-emulation/wine/wine-1.7.45.ebuild              | 617 +++++++++++++++++++++
- app-emulation/winetricks/ChangeLog                 | 214 ++++++-
- app-emulation/winetricks/Manifest                  |  22 +-
- app-emulation/winetricks/metadata.xml              |  21 +-
- ...-20141130.ebuild => winetricks-20150416.ebuild} |  11 +-
- .../winetricks/winetricks-99999999.ebuild          |  11 +-
- 11 files changed, 1569 insertions(+), 44 deletions(-)
- create mode 100644 app-emulation/wine-staging/wine-staging-1.7.45.ebuild
- create mode 120000 app-emulation/wine-vanilla/wine-vanilla-1.7.45.ebuild
- create mode 100644 app-emulation/wine/files/wine-1.7.45-libunwind-osx-only.patch
- create mode 100644 app-emulation/wine/wine-1.7.45.ebuild
- rename app-emulation/winetricks/{winetricks-20141130.ebuild => winetricks-20150416.ebuild} (84%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/wine-a-holics'...
 *** synced '/home/mgorny/repos/wine-a-holics'
  * Sync succeeded

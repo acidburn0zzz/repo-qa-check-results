@@ -232,120 +232,120 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
-!!! ERROR: kde-misc/semantik-0.8.2 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
 !!! ERROR: kde-misc/plasma-workflow-0.1.98 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: kde-misc/kdiff3-0.9.97 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: kde-misc/semantik-0.8.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.96.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.96.ebuild'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/plasma-workflow/plasma-workflow-0.1.98.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.96.ebuild'
-!!!           kdiff3-0.9.96.ebuild, line  18:  Called inherit 'kde4-base' 'qt4-r2'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/plasma-workflow/plasma-workflow-0.1.98.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
 
 !!! ERROR: gnome-extra/gnome-globalmenu-9999 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!          semantik-0.8.2.ebuild, line   8:  Called inherit 'kde4-base' 'waf-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.96.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.97.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/plasma-workflow/plasma-workflow-0.1.98.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.97.ebuild'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/plasma-workflow/plasma-workflow-0.1.98.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/kdiff3/kdiff3-0.9.97.ebuild'
 !!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/plasma-workflow/plasma-workflow-0.1.98.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
 !!!           kdiff3-0.9.97.ebuild, line  20:  Called inherit 'kde4-base' 'qt4-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
+!!!           kdiff3-0.9.96.ebuild, line  18:  Called inherit 'kde4-base' 'qt4-r2'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
 !!!   plasma-workflow-0.1.98.ebuild, line   8:  Called inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/kde-misc/semantik/semantik-0.8.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!          semantik-0.8.2.ebuild, line   8:  Called inherit 'kde4-base' 'waf-utils'
 !!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-el/gnome-extra/gnome-globalmenu/gnome-globalmenu-9999.ebuild'
 !!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!   gnome-globalmenu-9999.ebuild, line   8:  Called inherit 'gnome2' 'subversion' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
+!!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
-!!!  EAPI=1 is not supported
+!!!  EAPI=4 is not supported
+
+!!!                kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   gnome-globalmenu-9999.ebuild, line   8:  Called inherit 'gnome2' 'subversion' 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
 
 !!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!           kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
-!!!  EAPI=4 is not supported
+!!!  EAPI=1 is not supported
 
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-misc/kdiff3-0.9.97
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/kdiff3-0.9.96
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/semantik-0.8.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/gnome-globalmenu-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-misc/plasma-workflow-0.1.98
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/kdiff3-0.9.97
+!!! caught exception False while processing ebuild src: gnome-extra/gnome-globalmenu-9999
  * Cache regenerated successfully
