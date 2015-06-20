@@ -112,7 +112,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named 'thousand-parsec', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wine-diablo3', named 'wine-diablo3', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/fkmclane/overlay
+   dd43ea9..1936f4e  master     -> origin/master
+Updating dd43ea9..1936f4e
+Fast-forward
+ media-sound/mumble/Manifest                        |   4 +
+ .../files/mumble-1.2.4-speech-dispatcher.patch     |  49 ++++++++
+ media-sound/mumble/metadata.xml                    |  14 +++
+ media-sound/mumble/mumble-1.2.9.ebuild             | 127 +++++++++++++++++++++
+ net-mail/syncmaildir/files/makefile-destdir.patch  |   5 +-
+ net-mail/syncmaildir/files/makefile-no-doc.patch   |   1 -
+ .../files/makefile-respect-variables.patch         |   1 -
+ 7 files changed, 196 insertions(+), 5 deletions(-)
+ create mode 100644 media-sound/mumble/Manifest
+ create mode 100644 media-sound/mumble/files/mumble-1.2.4-speech-dispatcher.patch
+ create mode 100644 media-sound/mumble/metadata.xml
+ create mode 100644 media-sound/mumble/mumble-1.2.9.ebuild
 *** syncing '/home/mgorny/repos/fkmclane'...
 *** synced '/home/mgorny/repos/fkmclane'
  * Sync succeeded
