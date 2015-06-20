@@ -92,34 +92,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   8e84e63..e625fb6  master     -> origin/master
-Updating 8e84e63..e625fb6
+   e625fb6..feace0f  master     -> origin/master
+Updating e625fb6..feace0f
 Fast-forward
- dev-db/mariadb/ChangeLog                   |   7 +-
- dev-db/mariadb/Manifest                    |  34 +++++----
- dev-db/mariadb/mariadb-10.0.20.ebuild      | 115 +++++++++++++++++++++++++++++
- dev-lang/nqp/ChangeLog                     |   7 +-
- dev-lang/nqp/Manifest                      |  26 +------
- dev-lang/nqp/nqp-2015.06.ebuild            |  66 +++++++++++++++++
- dev-lang/rakudo/ChangeLog                  |   7 +-
- dev-lang/rakudo/Manifest                   |   4 +-
- dev-lang/rakudo/rakudo-2015.06.ebuild      |  43 +++++++++++
- metadata/dtd/timestamp.chk                 |   2 +-
- metadata/glsa/timestamp.chk                |   2 +-
- metadata/md5-cache/dev-db/mariadb-10.0.20  |  16 ++++
- metadata/md5-cache/dev-lang/nqp-2015.06    |  15 ++++
- metadata/md5-cache/dev-lang/rakudo-2015.06 |  13 ++++
- metadata/news/timestamp.chk                |   2 +-
- metadata/timestamp                         |   2 +-
- metadata/timestamp.chk                     |   2 +-
- metadata/timestamp.x                       |   2 +-
- 18 files changed, 317 insertions(+), 48 deletions(-)
- create mode 100644 dev-db/mariadb/mariadb-10.0.20.ebuild
- create mode 100644 dev-lang/nqp/nqp-2015.06.ebuild
- create mode 100644 dev-lang/rakudo/rakudo-2015.06.ebuild
- create mode 100644 metadata/md5-cache/dev-db/mariadb-10.0.20
- create mode 100644 metadata/md5-cache/dev-lang/nqp-2015.06
- create mode 100644 metadata/md5-cache/dev-lang/rakudo-2015.06
+ dev-db/mariadb/ChangeLog                 |   7 +-
+ dev-db/mariadb/Manifest                  |  32 +++++----
+ dev-db/mariadb/mariadb-5.5.44.ebuild     | 118 +++++++++++++++++++++++++++++++
+ dev-lang/rakudo/ChangeLog                |   7 +-
+ dev-lang/rakudo/Manifest                 |   2 +-
+ metadata/dtd/timestamp.chk               |   2 +-
+ metadata/glsa/timestamp.chk              |   2 +-
+ metadata/md5-cache/dev-db/mariadb-5.5.44 |  16 +++++
+ metadata/news/timestamp.chk              |   2 +-
+ metadata/timestamp                       |   2 +-
+ metadata/timestamp.chk                   |   2 +-
+ metadata/timestamp.x                     |   2 +-
+ 12 files changed, 170 insertions(+), 24 deletions(-)
+ create mode 100644 dev-db/mariadb/mariadb-5.5.44.ebuild
+ create mode 100644 metadata/md5-cache/dev-db/mariadb-5.5.44
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
