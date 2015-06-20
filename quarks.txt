@@ -32,6 +32,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,6 +72,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -220,37 +222,37 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
 !!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
 !!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
@@ -258,7 +260,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
  * Cache regenerated successfully

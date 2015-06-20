@@ -32,6 +32,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/xhub', named 'xhub', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/sabotageandi', named 'sabotageandi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,6 +72,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -240,58 +242,58 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! ERROR: kde-misc/kate-projectmanager-0.1.2.24 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: kde-misc/kate-projectmanager-0.1.2.24 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-util/kdesvn-1.0.4-r1 failed.
-!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-ctags-plugin/kate-ctags-plugin-0.1.ebuild'
-!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
 !!!   kate-ctags-plugin-0.1.ebuild, line   5:  Called inherit 'kde'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/media-sound/amarok/amarok-1.4.5-r1.ebuild'
+!!!         amarok-1.4.5-r1.ebuild, line  12:  Called inherit 'kde' 'eutils' 'flag-o-matic'
 !!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: dev-util/kdesvn-1.0.4-r1 failed.
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
 !!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/kde-misc/kate-projectmanager/kate-projectmanager-0.1.2.24.ebuild'
 !!!   kate-projectmanager-0.1.2.24.ebuild, line   5:  Called inherit 'versionator' 'kde'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
 !!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for kde failed
 
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/drizzt-overlay/dev-util/kdesvn/kdesvn-1.0.4-r1.ebuild'
 !!!         kdesvn-1.0.4-r1.ebuild, line   7:  Called inherit 'cmake-utils' 'eutils' 'kde-functions' 'versionator'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
