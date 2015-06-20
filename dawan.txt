@@ -110,35 +110,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named 'thousand-parsec', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/user/dawan
-   7085151..ab5099a  master     -> origin/master
-Updating 7085151..ab5099a
-Fast-forward
- app-admin/reprepro/ChangeLog                       | 16 ++++
- app-admin/reprepro/Manifest                        |  4 +
- app-admin/reprepro/metadata.xml                    |  9 ++
- app-admin/reprepro/reprepro-4.16.0.ebuild          | 30 +++++++
- dev-ml/getarg/ChangeLog                            | 10 +++
- dev-ml/getarg/Manifest                             |  5 +-
- .../{getarg-0.1_p1.ebuild => getarg-0.4.ebuild}    |  2 +-
- dev-tex/mathpartir/ChangeLog                       | 10 +++
- dev-tex/mathpartir/Manifest                        |  5 +-
- ...tir-1.2.0-r1.ebuild => mathpartir-1.2.1.ebuild} |  4 +-
- sci-mathematics/bedwyr/ChangeLog                   | 49 ++---------
- sci-mathematics/bedwyr/Manifest                    |  8 +-
- sci-mathematics/bedwyr/bedwyr-1.3_rc2.ebuild       | 96 ++++++++++++++++++++++
- ...r-1.4_alpha9.ebuild => bedwyr-1.4_beta9.ebuild} | 37 ++++-----
- 14 files changed, 213 insertions(+), 72 deletions(-)
- create mode 100644 app-admin/reprepro/ChangeLog
- create mode 100644 app-admin/reprepro/Manifest
- create mode 100644 app-admin/reprepro/metadata.xml
- create mode 100644 app-admin/reprepro/reprepro-4.16.0.ebuild
- create mode 100644 dev-ml/getarg/ChangeLog
- rename dev-ml/getarg/{getarg-0.1_p1.ebuild => getarg-0.4.ebuild} (96%)
- create mode 100644 dev-tex/mathpartir/ChangeLog
- rename dev-tex/mathpartir/{mathpartir-1.2.0-r1.ebuild => mathpartir-1.2.1.ebuild} (90%)
- create mode 100644 sci-mathematics/bedwyr/bedwyr-1.3_rc2.ebuild
- rename sci-mathematics/bedwyr/{bedwyr-1.4_alpha9.ebuild => bedwyr-1.4_beta9.ebuild} (57%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/dawan'...
 *** synced '/home/mgorny/repos/dawan'
  * Sync succeeded
