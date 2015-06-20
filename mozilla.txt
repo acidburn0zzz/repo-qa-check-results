@@ -73,27 +73,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/proj/mozilla
-   0384b3c..56fa173  master     -> origin/master
-Updating 0384b3c..56fa173
-Fast-forward
- dev-libs/nss/Manifest                              |   3 +
- dev-libs/nss/files/nss-3.14.2-solaris-gcc.patch    |  24 ++
- .../nss/files/nss-3.15-gentoo-fixup-warnings.patch |  10 +
- dev-libs/nss/files/nss-3.15.4-enable-pem.patch     |  13 +
- dev-libs/nss/files/nss-3.17.1-gentoo-fixups.patch  | 241 +++++++++++++++
- dev-libs/nss/files/nss-cacert-class3.patch         | 204 +++++++++++++
- dev-libs/nss/metadata.xml                          |  16 +
- dev-libs/nss/nss-3.19.2.ebuild                     | 325 +++++++++++++++++++++
- 8 files changed, 836 insertions(+)
- create mode 100644 dev-libs/nss/Manifest
- create mode 100644 dev-libs/nss/files/nss-3.14.2-solaris-gcc.patch
- create mode 100644 dev-libs/nss/files/nss-3.15-gentoo-fixup-warnings.patch
- create mode 100644 dev-libs/nss/files/nss-3.15.4-enable-pem.patch
- create mode 100644 dev-libs/nss/files/nss-3.17.1-gentoo-fixups.patch
- create mode 100644 dev-libs/nss/files/nss-cacert-class3.patch
- create mode 100644 dev-libs/nss/metadata.xml
- create mode 100644 dev-libs/nss/nss-3.19.2.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/mozilla'...
 *** synced '/home/mgorny/repos/mozilla'
  * Sync succeeded
