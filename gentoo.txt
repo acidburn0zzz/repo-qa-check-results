@@ -92,26 +92,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   a84124a..8e84e63  master     -> origin/master
-Updating a84124a..8e84e63
+   8e84e63..e625fb6  master     -> origin/master
+Updating 8e84e63..e625fb6
 Fast-forward
- dev-perl/Test-Deep/ChangeLog                       | 11 ++++++-
- dev-perl/Test-Deep/Manifest                        | 34 +++++++++++-----------
- ...110.0-r1.ebuild => Test-Deep-0.110.0-r2.ebuild} |  2 +-
- ...-0.115.0.ebuild => Test-Deep-0.115.0-r1.ebuild} |  2 +-
- metadata/dtd/timestamp.chk                         |  2 +-
- metadata/glsa/timestamp.chk                        |  2 +-
- .../{Test-Deep-0.110.0-r1 => Test-Deep-0.110.0-r2} |  2 +-
- .../{Test-Deep-0.115.0 => Test-Deep-0.115.0-r1}    |  2 +-
- metadata/news/timestamp.chk                        |  2 +-
- metadata/timestamp                                 |  2 +-
- metadata/timestamp.chk                             |  2 +-
- metadata/timestamp.x                               |  2 +-
- 12 files changed, 37 insertions(+), 28 deletions(-)
- rename dev-perl/Test-Deep/{Test-Deep-0.110.0-r1.ebuild => Test-Deep-0.110.0-r2.ebuild} (91%)
- rename dev-perl/Test-Deep/{Test-Deep-0.115.0.ebuild => Test-Deep-0.115.0-r1.ebuild} (92%)
- rename metadata/md5-cache/dev-perl/{Test-Deep-0.110.0-r1 => Test-Deep-0.110.0-r2} (95%)
- rename metadata/md5-cache/dev-perl/{Test-Deep-0.115.0 => Test-Deep-0.115.0-r1} (96%)
+ dev-db/mariadb/ChangeLog                   |   7 +-
+ dev-db/mariadb/Manifest                    |  34 +++++----
+ dev-db/mariadb/mariadb-10.0.20.ebuild      | 115 +++++++++++++++++++++++++++++
+ dev-lang/nqp/ChangeLog                     |   7 +-
+ dev-lang/nqp/Manifest                      |  26 +------
+ dev-lang/nqp/nqp-2015.06.ebuild            |  66 +++++++++++++++++
+ dev-lang/rakudo/ChangeLog                  |   7 +-
+ dev-lang/rakudo/Manifest                   |   4 +-
+ dev-lang/rakudo/rakudo-2015.06.ebuild      |  43 +++++++++++
+ metadata/dtd/timestamp.chk                 |   2 +-
+ metadata/glsa/timestamp.chk                |   2 +-
+ metadata/md5-cache/dev-db/mariadb-10.0.20  |  16 ++++
+ metadata/md5-cache/dev-lang/nqp-2015.06    |  15 ++++
+ metadata/md5-cache/dev-lang/rakudo-2015.06 |  13 ++++
+ metadata/news/timestamp.chk                |   2 +-
+ metadata/timestamp                         |   2 +-
+ metadata/timestamp.chk                     |   2 +-
+ metadata/timestamp.x                       |   2 +-
+ 18 files changed, 317 insertions(+), 48 deletions(-)
+ create mode 100644 dev-db/mariadb/mariadb-10.0.20.ebuild
+ create mode 100644 dev-lang/nqp/nqp-2015.06.ebuild
+ create mode 100644 dev-lang/rakudo/rakudo-2015.06.ebuild
+ create mode 100644 metadata/md5-cache/dev-db/mariadb-10.0.20
+ create mode 100644 metadata/md5-cache/dev-lang/nqp-2015.06
+ create mode 100644 metadata/md5-cache/dev-lang/rakudo-2015.06
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
