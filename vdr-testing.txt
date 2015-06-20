@@ -43,6 +43,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/turbogears2', named 'turbogears2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -91,6 +92,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named 'paddymac', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -232,9 +234,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: media-plugins/vdr-digicam-1.0.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-plugins/vdr-ircviewer-0.0.1 failed.
+
+!!! ERROR: media-plugins/vdr-chanorg-0.0.6 failed.
+
 !!! ERROR: media-plugins/vdr-adzap-0.0.2 failed.
 
+!!! ERROR: media-plugins/vdr-mldonkey-0.0.4a failed.
+
 !!! ERROR: media-plugins/vdr-analogradio-0.1.3a failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: media-plugins/vdr-control-0.0.2a-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
@@ -243,189 +258,195 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
 
-!!! ERROR: media-plugins/vdr-digicam-1.0.2 failed.
-
-!!! ERROR: media-plugins/vdr-chanorg-0.0.6 failed.
-
-!!! ERROR: media-plugins/vdr-externalplayer-0.1.0 failed.
-
-
-!!! ERROR: media-plugins/vdr-mp3-0.10.0 failed.
-!!! ERROR: media-plugins/vdr-ircviewer-0.0.1 failed.
+!!! ERROR: media-plugins/vdr-mediad-0.1.0 failed.
+!!! Call stack:
 
 !!! ERROR: media-plugins/vdr-isdnlog-0.0.3 failed.
-
-!!! ERROR: media-plugins/vdr-ffnetdev-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: media-plugins/vdr-radioinfo-0.0.3 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! ERROR: media-plugins/vdr-mediad-0.1.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-plugins/vdr-ffnetdev-9999 failed.
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
 
-!!! ERROR: media-plugins/vdr-mosaic-0.0.3 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! ERROR: media-plugins/vdr-setuploadandsave-0.0.1 failed.
 
-!!! ERROR: media-plugins/vdr-dvd-9999 failed.
+!!! ERROR: media-plugins/vdr-externalplayer-0.1.0 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-plugins/vdr-reelosdpip-0.1.12384 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
+!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! Call stack:
 !!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '238' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '248' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
-!!!       vdr-digicam-1.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-analogradio/vdr-analogradio-0.1.3a.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '248' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-digicam/vdr-digicam-1.0.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '227' 'depend'
+!!!       vdr-digicam-1.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-analogradio/vdr-analogradio-0.1.3a.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '248' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vdr-plugin failed
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-chanorg/vdr-chanorg-0.0.6.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
 
-!!! ERROR: media-plugins/vdr-osdtest256-0.1.0 failed.
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
+!!! ERROR: media-plugins/vdr-mp3-0.10.0 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '258' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-analogradio/vdr-analogradio-0.1.3a.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
-!!!     vdr-radioinfo-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-analogradio/vdr-analogradio-0.1.3a.ebuild'
+
+!!! ERROR: media-plugins/vdr-dvd-9999 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         vdr-adzap-0.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-analogradio/vdr-analogradio-0.1.3a.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mediad/vdr-mediad-0.1.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
-!!!          vdr-mp3-0.10.0.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!       vdr-ffnetdev-9999.ebuild, line   7:  Called inherit 'vdr-plugin' 'subversion'
-!!!   vdr-control-0.0.2a-r1.ebuild, line   6:  Called inherit 'vdr-plugin' 'eutils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-externalplayer/vdr-externalplayer-0.1.0.ebuild'
 !!!   vdr-analogradio-0.1.3a.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mediad/vdr-mediad-0.1.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ffnetdev/vdr-ffnetdev-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
+!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-control/vdr-control-0.0.2a-r1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
+!!!   vdr-externalplayer-0.1.0.ebuild, line   7:  Called inherit 'vdr-plugin'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mediad/vdr-mediad-0.1.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!        vdr-mediad-0.1.0.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!                 ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-chanorg/vdr-chanorg-0.0.6.ebuild'
+!!!       vdr-ffnetdev-9999.ebuild, line   7:  Called inherit 'vdr-plugin' 'subversion'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!   vdr-control-0.0.2a-r1.ebuild, line   6:  Called inherit 'vdr-plugin' 'eutils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
+!!!   vdr-reelosdpip-0.1.12384.ebuild, line   7:  Called inherit 'vdr-plugin'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-chanorg/vdr-chanorg-0.0.6.ebuild'
+!!!   vdr-setuploadandsave-0.0.1.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-ircviewer/vdr-ircviewer-0.0.1.ebuild'
+!!!     vdr-mldonkey-0.0.4a.ebuild, line   5:  Called inherit 'vdr-plugin'
+
+!!! ERROR: media-plugins/vdr-statusleds-0.3 failed.
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vdr-plugin failed
 
 !!!     vdr-ircviewer-0.0.1.ebuild, line   4:  Called inherit 'vdr-plugin'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-adzap/vdr-adzap-0.0.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!         vdr-adzap-0.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!  inherit for vdr-plugin failed
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-
-!!! ERROR: media-plugins/vdr-statusandquestion-0.0.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!       vdr-isdnlog-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
 !!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
-!!!   vdr-externalplayer-0.1.0.ebuild, line   7:  Called inherit 'vdr-plugin'
-!!!               ebuild-daemon.lib, line  35:  Called die
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vdr-plugin failed
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-dvd/vdr-dvd-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mediad/vdr-mediad-0.1.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!               ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vdr-plugin failed
 
@@ -434,149 +455,112 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!  inherit for vdr-plugin failed
 
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-isdnlog/vdr-isdnlog-0.0.3.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-adzap-0.0.2
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-digicam-1.0.2
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-chanorg-0.0.6
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-ircviewer-0.0.1
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-analogradio-0.1.3a
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-control-0.0.2a-r1
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-mldonkey-0.0.4a
+!!! !!! !!! !!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-isdnlog-0.0.3caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-mediad-0.1.0
+
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-ffnetdev-9999
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-setuploadandsave-0.0.1
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-externalplayer-0.1.0
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-reelosdpip-0.1.12384
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-mp3-0.10.0
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-video/infosatepg-0.1.2
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-dvd-9999
+!!! caught exception Metadata Exception: pkg ebuild src: media-tv/s2-liplianin-0.1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/s2-liplianin-0.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-statusleds-0.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-softdevice-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-mosaic-0.0.3
+!!! caught exception Metadata Exception: pkg ebuild src: media-tv/mantis-v4l-dvb-hg-0.1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/mantis-v4l-dvb-hg-0.1
+!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-video/reelbox-ehd-xine-13986
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-radioinfo-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-reelfilebrowser-0.31.12384
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-muggle-0.1.11
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-osdpip-0.1.12384
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-radioinfo-0.0.3
+ERROR p!!!                   ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-chanorg/vdr-chanorg-0.0.6.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '218' 'depend'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-dvd/vdr-dvd-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
+!!!       vdr-chanorg-0.0.6.ebuild, line   6:  Called inherit 'vdr-plugin' 'eutils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.10.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!          vdr-mp3-0.10.0.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-dvd/vdr-dvd-9999.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vdr-plugin failed
 
-!!!       vdr-isdnlog-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mediad/vdr-mediad-0.1.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-chanorg/vdr-chanorg-0.0.6.ebuild'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                 ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-dvd/vdr-dvd-9999.ebuild'
-!!!        vdr-mediad-0.1.0.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '228' 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-adzap-0.0.2
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-analogradio-0.1.3a
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-control-0.0.2a-r1
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-chanorg-0.0.6
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-digicam-1.0.2
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-ircviewer-0.0.1
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-externalplayer-0.1.0
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-ffnetdev-9999
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-isdnlog-0.0.3
-caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-mp3-0.10.0
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-radioinfo-0.0.3
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-mediad-0.1.0
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-mosaic-0.0.3
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-plugins/vdr-dvd-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-osdtest256-0.1.0
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-video/reelbox-ehd-bin-9302
-!!! caught exception Metadata Exception: pkg ebuild src: media-tv/mantis-v4l-dvb-hg-0.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/mantis-v4l-dvb-hg-0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-statusandquestion-0.0.2
-!!! caught exception inherit requires an unknown eclass, vdr-plugin cannot be found while processing ebuild src: media-video/reelbox-ehd-tools-9302
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-softdevice-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-setuploadandsave-0.0.1
-!!! caught exception Metadata Exception: pkg ebuild src: media-tv/s2-liplianin-0.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/s2-liplianin-0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-mp3-0.9.15_pre14
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-osdpip-0.1.12384
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-muggle-0.1.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-radioinfo-0.1.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-reelfilebrowser-0.31.12384
-ERROR pkg!!!        vdr-mosaic-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!!            vdr-dvd-9999.ebuild, line  11:  Called inherit 'eutils' 'cvs' 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
-!!!       vdr-chanorg-0.0.6.ebuild, line   6:  Called inherit 'vdr-plugin' 'eutils'
-!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vdr-plugin failed
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
-!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
-!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
-!!!   vdr-statusandquestion-0.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                    ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 230' for eclass vdr-plugin
-
-received unknown com: export CATEGORY='media-video' PR=r0 PVR=9302 PV=9302 EBUILD='/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-tools/reelbox-ehd-tools-9302.ebuild' P='reelbox-ehd-tools-9302' PF='reelbox-ehd-tools-9302' PN='reelbox-ehd-tools'failed
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
-!!!    vdr-osdtest256-0.1.0.ebuild, line   5:  Called inherit 'vdr-plugin'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 220' for eclass vdr-plugin
+!!!  unknown inherit command from pythonic side, 'gen_metadata 202' for eclass vdr-plugin
 
-received unknown com: export CATEGORY='media-video' PR=r0 PVR=9302 PV=9302 EBUILD='/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-bin/reelbox-ehd-bin-9302.ebuild' P='reelbox-ehd-bin-9302' PF='reelbox-ehd-bin-9302' PN='reelbox-ehd-bin'failed
+received unknown com: export CATEGORY='media-video' PR=r0 PVR='0.1.2' PV='0.1.2' EBUILD='/home/mgorny/repos/vdr-testing/media-video/infosatepg/infosatepg-0.1.2.ebuild' P='infosatepg-0.1.2' PF='infosatepg-0.1.2' PN=infosatepgfailed
+!!!      vdr-statusleds-0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-dvd/vdr-dvd-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!            vdr-dvd-9999.ebuild, line  11:  Called inherit 'eutils' 'cvs' 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vdr-plugin failed
 
-!!! ERROR: media-plugins/vdr-statusleds-0.3 failed.
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 230' for eclass vdr-plugin
+
+received unknown com: export CATEGORY='media-video' PR=r0 PVR=13986 PV=13986 EBUILD='/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-xine/reelbox-ehd-xine-13986.ebuild' P='reelbox-ehd-xine-13986' PF='reelbox-ehd-xine-13986' PN='reelbox-ehd-xine'failed
+
+!!! ERROR: media-plugins/vdr-muggle-0.1.11 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '218' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusleds/vdr-statusleds-0.3.ebuild'
-!!!      vdr-statusleds-0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
+!!!       vdr-muggle-0.1.11.ebuild, line   7:  Called inherit 'vdr-plugin'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-video/infosatepg-0.1.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-video/infosatepg/infosatepg-0.1.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-video/infosatepg/infosatepg-0.1.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-video/infosatepg/infosatepg-0.1.2.ebuild'
-!!!        infosatepg-0.1.2.ebuild, line   6:  Called inherit 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass eutils
 
 Sandboxed process killed by signal: Broken pipe
 
@@ -597,18 +581,142 @@ Sandboxed process killed by signal: Broken pipe
 !!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
 
 Sandboxed process killed by signal: Broken pipe
-core: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-reelosdpip-0.1.12384
+
+!!! ERROR: media-plugins/vdr-mosaic-0.0.3 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mosaic/vdr-mosaic-0.0.3.ebuild'
+!!!        vdr-mosaic-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-xinemediaplayer-0.0.8.12384 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '283' 'depend'
+!!!                       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
+!!!                               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
+!!!                   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
+!!!   vdr-xinemediaplayer-0.0.8.12384.ebuild, line   5:  Called inherit 'vdr-plugin' 'versionator'
+!!!             ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!                        ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-statusandquestion-0.0.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
+!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
+!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
+!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-statusandquestion/vdr-statusandquestion-0.0.2.ebuild'
+!!!   vdr-statusandquestion-0.0.2.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!                    ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-mp3-0.9.15_pre14 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
+!!!    vdr-mp3-0.9.15_pre14.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-reelfilebrowser-0.31.12384 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
+!!!   vdr-reelfilebrowser-0.31.12384.ebuild, line   7:  Called inherit 'vdr-plugin'
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!                       ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-osdtest256-0.1.0 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '228' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-osdtest256/vdr-osdtest256-0.1.0.ebuild'
+!!!    vdr-osdtest256-0.1.0.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-video/reelbox-ehd-headers-13986 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '245' 'depend'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-headers/reelbox-ehd-headers-13986.ebuild'
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-headers/reelbox-ehd-headers-13986.ebuild'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-video/reelbox-ehd-headers/reelbox-ehd-headers-13986.ebuild'
+!!!   reelbox-ehd-headers-13986.ebuild, line   9:  Called inherit 'eutils'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!                  ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass eutils
+
+Sandboxed process killed by signal: Broken pipe
+kgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-osdtest256-0.1.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-plugins/vdr-statusandquestion-0.0.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-plugins/vdr-xinemediaplayer-0.0.8.12384
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-statusleds-0.3
+!!! caught exception False while processing ebuild src: media-plugins/vdr-mp3-0.9.15_pre14
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/infosatepg-0.1.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-plugins/vdr-mldonkey-0.0.4a
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/reelbox-ehd-xine-13986
+!!! caught exception False while processing ebuild src: media-video/reelbox-ehd-bin-9302
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-video/reelbox-ehd-headers-13986
 Traceback (most recent call last):
@@ -634,132 +742,6 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!! ERROR: media-plugins/vdr-xinemediaplayer-0.0.8.12384 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '283' 'depend'
-!!!                       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
-!!!                               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
-!!!                   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-xinemediaplayer/vdr-xinemediaplayer-0.0.8.12384.ebuild'
-!!!   vdr-xinemediaplayer-0.0.8.12384.ebuild, line   5:  Called inherit 'vdr-plugin' 'versionator'
-!!!             ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                        ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-reelosdpip-0.1.12384 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '248' 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelosdpip/vdr-reelosdpip-0.1.12384.ebuild'
-!!!   vdr-reelosdpip-0.1.12384.ebuild, line   7:  Called inherit 'vdr-plugin'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                 ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-softdevice-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
-!!!     vdr-softdevice-9999.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-setuploadandsave-0.0.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '258' 'depend'
-!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-setuploadandsave/vdr-setuploadandsave-0.0.1.ebuild'
-!!!   vdr-setuploadandsave-0.0.1.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                   ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-reelfilebrowser-0.31.12384 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-reelfilebrowser/vdr-reelfilebrowser-0.31.12384.ebuild'
-!!!   vdr-reelfilebrowser-0.31.12384.ebuild, line   7:  Called inherit 'vdr-plugin'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!                       ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-mldonkey-0.0.4a failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mldonkey/vdr-mldonkey-0.0.4a.ebuild'
-!!!     vdr-mldonkey-0.0.4a.ebuild, line   5:  Called inherit 'vdr-plugin'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-plugins/vdr-mp3-0.9.15_pre14 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '228' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-mp3/vdr-mp3-0.9.15_pre14.ebuild'
-!!!    vdr-mp3-0.9.15_pre14.ebuild, line   5:  Called inherit 'vdr-plugin' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
-
-Sandboxed process killed by signal: Broken pipe
-
 !!! ERROR: media-plugins/vdr-radioinfo-0.1.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
@@ -778,17 +760,35 @@ Sandboxed process killed by signal: Broken pipe
 
 Sandboxed process killed by signal: Broken pipe
 
-!!! ERROR: media-plugins/vdr-muggle-0.1.11 failed.
+!!! ERROR: media-plugins/vdr-radioinfo-0.0.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '223' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-muggle/vdr-muggle-0.1.11.ebuild'
-!!!       vdr-muggle-0.1.11.ebuild, line   7:  Called inherit 'vdr-plugin'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-radioinfo/vdr-radioinfo-0.0.3.ebuild'
+!!!     vdr-radioinfo-0.0.3.ebuild, line   5:  Called inherit 'vdr-plugin'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass vdr-plugin
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-plugins/vdr-softdevice-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/vdr-testing/media-plugins/vdr-softdevice/vdr-softdevice-9999.ebuild'
+!!!     vdr-softdevice-9999.ebuild, line   5:  Called inherit 'vdr-plugin'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vdr-plugin'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:

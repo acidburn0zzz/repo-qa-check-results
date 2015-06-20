@@ -92,22 +92,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoojp', named 'gentoojp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/gentoo/gentoo-portage-rsync-mirror
-   35355c9..1b0eab2  master     -> origin/master
-Updating 35355c9..1b0eab2
+   1b0eab2..1bc1ca6  master     -> origin/master
+Updating 1b0eab2..1bc1ca6
 Fast-forward
- app-editors/xemacs/ChangeLog                     |  6 ++++-
- app-editors/xemacs/Manifest                      | 34 ++++++++++++------------
- app-editors/xemacs/xemacs-21.4.22-r4.ebuild      | 11 +++++---
- app-editors/xemacs/xemacs-21.4.24.ebuild         | 17 +++++++-----
- metadata/dtd/timestamp.chk                       |  2 +-
- metadata/glsa/timestamp.chk                      |  2 +-
- metadata/md5-cache/app-editors/xemacs-21.4.22-r4 |  6 ++---
- metadata/md5-cache/app-editors/xemacs-21.4.24    |  6 ++---
- metadata/news/timestamp.chk                      |  2 +-
- metadata/timestamp                               |  2 +-
- metadata/timestamp.chk                           |  2 +-
- metadata/timestamp.x                             |  2 +-
- 12 files changed, 51 insertions(+), 41 deletions(-)
+ app-admin/webapp-config/ChangeLog                 |  5 ++++-
+ app-admin/webapp-config/Manifest                  | 24 +++++++++--------------
+ app-admin/webapp-config/webapp-config-9999.ebuild |  4 ++--
+ metadata/dtd/timestamp.chk                        |  2 +-
+ metadata/glsa/timestamp.chk                       |  2 +-
+ metadata/md5-cache/app-admin/webapp-config-9999   |  2 +-
+ metadata/news/timestamp.chk                       |  2 +-
+ metadata/timestamp                                |  2 +-
+ metadata/timestamp.chk                            |  2 +-
+ metadata/timestamp.x                              |  2 +-
+ 10 files changed, 22 insertions(+), 25 deletions(-)
 *** syncing '/home/mgorny/repos/gentoo'...
 *** synced '/home/mgorny/repos/gentoo'
  * Sync succeeded
