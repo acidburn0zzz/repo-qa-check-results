@@ -95,7 +95,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   24a45de..6520493  master     -> origin/master
+Updating 24a45de..6520493
+Fast-forward
+ .../Catalyst-Model-File-0.100.0-r1.ebuild          | 51 ----------------------
+ .../Catalyst-Model-File-0.100.0-r2.ebuild          | 36 +++++++++++++++
+ ....ebuild => Catalyst-Plugin-C3-0.30.0-r1.ebuild} | 13 +++++-
+ ...> Catalyst-Plugin-ErrorCatcher-0.0.8.18.ebuild} |  4 +-
+ dev-perl/Catalyst-Plugin-ErrorCatcher/Manifest     |  2 +-
+ ...=> Catalyst-Plugin-PageCache-0.310.0-r2.ebuild} | 20 ++++++---
+ ...lyst-Plugin-Session-Store-DBI-0.160.0-r1.ebuild | 10 ++++-
+ .../Mojolicious-Plugin-Authentication/Manifest     |  2 +-
+ ...licious-Plugin-Authentication-1.240.0-r1.ebuild | 48 --------------------
+ ...ojolicious-Plugin-Authentication-1.270.0.ebuild | 22 ++++++++++
+ dev-perl/autobox-Core/Manifest                     |  2 +-
+ .../autobox-Core/autobox-Core-1.240.0-r1.ebuild    | 35 ---------------
+ dev-perl/autobox-Core/autobox-Core-1.280.0.ebuild  | 24 ++++++++++
+ profiles/package.mask                              |  4 ++
+ 14 files changed, 125 insertions(+), 148 deletions(-)
+ delete mode 100644 dev-perl/Catalyst-Model-File/Catalyst-Model-File-0.100.0-r1.ebuild
+ create mode 100644 dev-perl/Catalyst-Model-File/Catalyst-Model-File-0.100.0-r2.ebuild
+ rename dev-perl/Catalyst-Plugin-C3/{Catalyst-Plugin-C3-0.30.0.ebuild => Catalyst-Plugin-C3-0.30.0-r1.ebuild} (64%)
+ rename dev-perl/Catalyst-Plugin-ErrorCatcher/{Catalyst-Plugin-ErrorCatcher-0.0.8.15-r1.ebuild => Catalyst-Plugin-ErrorCatcher-0.0.8.18.ebuild} (94%)
+ rename dev-perl/Catalyst-Plugin-PageCache/{Catalyst-Plugin-PageCache-0.310.0-r1.ebuild => Catalyst-Plugin-PageCache-0.310.0-r2.ebuild} (55%)
+ delete mode 100644 dev-perl/Mojolicious-Plugin-Authentication/Mojolicious-Plugin-Authentication-1.240.0-r1.ebuild
+ create mode 100644 dev-perl/Mojolicious-Plugin-Authentication/Mojolicious-Plugin-Authentication-1.270.0.ebuild
+ delete mode 100644 dev-perl/autobox-Core/autobox-Core-1.240.0-r1.ebuild
+ create mode 100644 dev-perl/autobox-Core/autobox-Core-1.280.0.ebuild
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded

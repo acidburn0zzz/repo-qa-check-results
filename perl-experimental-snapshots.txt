@@ -128,7 +128,47 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/turbogears2', named 'turbogears2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-perl/perl-experimental-snapshots
+   6aad777..7e07fef  master     -> origin/master
+Updating 6aad777..7e07fef
+Fast-forward
+ .../Catalyst-Model-File-0.100.0-r1.ebuild          | 51 ----------------------
+ .../Catalyst-Model-File-0.100.0-r2.ebuild          | 36 +++++++++++++++
+ ....ebuild => Catalyst-Plugin-C3-0.30.0-r1.ebuild} | 13 +++++-
+ ...> Catalyst-Plugin-ErrorCatcher-0.0.8.18.ebuild} |  4 +-
+ dev-perl/Catalyst-Plugin-ErrorCatcher/Manifest     |  2 +-
+ ...=> Catalyst-Plugin-PageCache-0.310.0-r2.ebuild} | 20 ++++++---
+ ...lyst-Plugin-Session-Store-DBI-0.160.0-r1.ebuild | 10 ++++-
+ .../Mojolicious-Plugin-Authentication/Manifest     |  2 +-
+ ...licious-Plugin-Authentication-1.240.0-r1.ebuild | 48 --------------------
+ ...ojolicious-Plugin-Authentication-1.270.0.ebuild | 22 ++++++++++
+ dev-perl/autobox-Core/Manifest                     |  2 +-
+ .../autobox-Core/autobox-Core-1.240.0-r1.ebuild    | 35 ---------------
+ dev-perl/autobox-Core/autobox-Core-1.280.0.ebuild  | 24 ++++++++++
+ ...e-0.100.0-r1 => Catalyst-Model-File-0.100.0-r2} |  7 +--
+ ...ugin-C3-0.30.0 => Catalyst-Plugin-C3-0.30.0-r1} |  6 +--
+ ...15-r1 => Catalyst-Plugin-ErrorCatcher-0.0.8.18} |  6 +--
+ ...0.0-r1 => Catalyst-Plugin-PageCache-0.310.0-r2} |  5 ++-
+ .../Catalyst-Plugin-Session-Store-DBI-0.160.0-r1   |  4 +-
+ ...1 => Mojolicious-Plugin-Authentication-1.270.0} |  6 +--
+ ...utobox-Core-1.240.0-r1 => autobox-Core-1.280.0} |  9 ++--
+ profiles/package.mask                              |  4 ++
+ 21 files changed, 148 insertions(+), 168 deletions(-)
+ delete mode 100644 dev-perl/Catalyst-Model-File/Catalyst-Model-File-0.100.0-r1.ebuild
+ create mode 100644 dev-perl/Catalyst-Model-File/Catalyst-Model-File-0.100.0-r2.ebuild
+ rename dev-perl/Catalyst-Plugin-C3/{Catalyst-Plugin-C3-0.30.0.ebuild => Catalyst-Plugin-C3-0.30.0-r1.ebuild} (64%)
+ rename dev-perl/Catalyst-Plugin-ErrorCatcher/{Catalyst-Plugin-ErrorCatcher-0.0.8.15-r1.ebuild => Catalyst-Plugin-ErrorCatcher-0.0.8.18.ebuild} (94%)
+ rename dev-perl/Catalyst-Plugin-PageCache/{Catalyst-Plugin-PageCache-0.310.0-r1.ebuild => Catalyst-Plugin-PageCache-0.310.0-r2.ebuild} (55%)
+ delete mode 100644 dev-perl/Mojolicious-Plugin-Authentication/Mojolicious-Plugin-Authentication-1.240.0-r1.ebuild
+ create mode 100644 dev-perl/Mojolicious-Plugin-Authentication/Mojolicious-Plugin-Authentication-1.270.0.ebuild
+ delete mode 100644 dev-perl/autobox-Core/autobox-Core-1.240.0-r1.ebuild
+ create mode 100644 dev-perl/autobox-Core/autobox-Core-1.280.0.ebuild
+ rename metadata/md5-cache/dev-perl/{Catalyst-Model-File-0.100.0-r1 => Catalyst-Model-File-0.100.0-r2} (60%)
+ rename metadata/md5-cache/dev-perl/{Catalyst-Plugin-C3-0.30.0 => Catalyst-Plugin-C3-0.30.0-r1} (75%)
+ rename metadata/md5-cache/dev-perl/{Catalyst-Plugin-ErrorCatcher-0.0.8.15-r1 => Catalyst-Plugin-ErrorCatcher-0.0.8.18} (59%)
+ rename metadata/md5-cache/dev-perl/{Catalyst-Plugin-PageCache-0.310.0-r1 => Catalyst-Plugin-PageCache-0.310.0-r2} (73%)
+ rename metadata/md5-cache/dev-perl/{Mojolicious-Plugin-Authentication-1.240.0-r1 => Mojolicious-Plugin-Authentication-1.270.0} (66%)
+ rename metadata/md5-cache/dev-perl/{autobox-Core-1.240.0-r1 => autobox-Core-1.280.0} (59%)
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded
