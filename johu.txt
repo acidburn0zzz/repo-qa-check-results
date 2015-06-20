@@ -110,33 +110,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named 'thousand-parsec', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/dev/johu
-   07d8373..29ba67c  master     -> origin/master
-Updating 07d8373..29ba67c
-Fast-forward
- net-libs/webkit-gtk/Manifest                       |   1 +
- .../files/webkit-gtk-1.11.90-gtk-docize-fix.patch  |  10 +
- .../files/webkit-gtk-1.6.1-darwin-quartz.patch     |  67 +++++
- .../files/webkit-gtk-2.2.5-hppa-platform.patch     |  20 ++
- .../files/webkit-gtk-2.2.5-ia64-platform.patch     |  12 +
- .../files/webkit-gtk-2.4.1-ia64-malloc.patch       |  20 ++
- .../files/webkit-gtk-2.4.4-atomic-ppc.patch        |  32 +++
- .../files/webkit-gtk-2.4.4-jpeg-9a.patch           |  30 +++
- .../files/webkit-gtk-2.4.7-disable-webgl.patch     |  11 +
- net-libs/webkit-gtk/metadata.xml                   |  13 +
- net-libs/webkit-gtk/webkit-gtk-2.4.9.ebuild        | 299 +++++++++++++++++++++
- 11 files changed, 515 insertions(+)
- create mode 100644 net-libs/webkit-gtk/Manifest
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-1.11.90-gtk-docize-fix.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-1.6.1-darwin-quartz.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.2.5-hppa-platform.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.2.5-ia64-platform.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.4.1-ia64-malloc.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.4.4-atomic-ppc.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.4.4-jpeg-9a.patch
- create mode 100644 net-libs/webkit-gtk/files/webkit-gtk-2.4.7-disable-webgl.patch
- create mode 100644 net-libs/webkit-gtk/metadata.xml
- create mode 100644 net-libs/webkit-gtk/webkit-gtk-2.4.9.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/johu'...
 *** synced '/home/mgorny/repos/johu'
  * Sync succeeded

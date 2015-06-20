@@ -215,29 +215,29 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
-!!!            xmltv-0.5.61.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
 
 !!! ERROR: games-board/gogui-1.4.6 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gbin/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '170' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            xmltv-0.5.61.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gbin/games-board/gogui/gogui-1.4.6.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gbin/games-board/gogui/gogui-1.4.6.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gbin/games-board/gogui/gogui-1.4.6.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             gogui-1.4.6.ebuild, line   7:  Called inherit 'games' 'java-pkg-2' 'java-ant-2' 'gnome2'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
