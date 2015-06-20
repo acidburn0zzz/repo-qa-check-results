@@ -110,10 +110,155 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named 'verlihub', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named 'thousand-parsec', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+fatal: read error: Connection reset by peer
 *** syncing '/home/mgorny/repos/activehome'...
-*** synced '/home/mgorny/repos/activehome'
- * Sync succeeded
+*** failed syncing '/home/mgorny/repos/activehome'
+ * Sync failed with 1
+ * Will try to re-create
+$ portage-sync.py activehome
+!!! Repository 'soor' is missing masters attribute in '/home/mgorny/repos/soor/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'caio' is missing masters attribute in '/home/mgorny/repos/caio/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'Menelkir' is missing masters attribute in '/home/mgorny/repos/Menelkir/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'rubenqba' is missing masters attribute in '/home/mgorny/repos/rubenqba/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'bicatali' is missing masters attribute in '/home/mgorny/repos/bicatali/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'halcy0n' is missing masters attribute in '/home/mgorny/repos/halcy0n/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'secondlife' is missing masters attribute in '/home/mgorny/repos/secondlife/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'postgresql-experimental' is missing masters attribute in '/home/mgorny/repos/postgresql-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ub0rlay' is missing masters attribute in '/home/mgorny/repos/ub0rlay/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'xhub' is missing masters attribute in '/home/mgorny/repos/xhub/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'webapp-experimental' is missing masters attribute in '/home/mgorny/repos/webapp-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'dauleet' is missing masters attribute in '/home/mgorny/repos/dauleet/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'purak' is missing masters attribute in '/home/mgorny/repos/purak/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wish' is missing masters attribute in '/home/mgorny/repos/wish/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoo-arm' is missing masters attribute in '/home/mgorny/repos/gentoo-arm/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'alice' is missing masters attribute in '/home/mgorny/repos/alice/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'verlihub' is missing masters attribute in '/home/mgorny/repos/verlihub/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'armagetron' is missing masters attribute in '/home/mgorny/repos/armagetron/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'kvm' is missing masters attribute in '/home/mgorny/repos/kvm/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'venidera' is missing masters attribute in '/home/mgorny/repos/venidera/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'clickbeetle_tools' is missing masters attribute in '/home/mgorny/repos/clickbeetle_tools/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gpe' is missing masters attribute in '/home/mgorny/repos/gpe/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoojp' is missing masters attribute in '/home/mgorny/repos/gentoojp/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'AzP' is missing masters attribute in '/home/mgorny/repos/AzP/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ramereth' is missing masters attribute in '/home/mgorny/repos/ramereth/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'efika' is missing masters attribute in '/home/mgorny/repos/efika/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'pross' is missing masters attribute in '/home/mgorny/repos/pross/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'stormfront' is missing masters attribute in '/home/mgorny/repos/stormfront/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'anarchy' is missing masters attribute in '/home/mgorny/repos/anarchy/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'jaervosz' is missing masters attribute in '/home/mgorny/repos/jaervosz/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'anderse' is missing masters attribute in '/home/mgorny/repos/anderse/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'iElectric' is missing masters attribute in '/home/mgorny/repos/iElectric/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'sabotageandi' is missing masters attribute in '/home/mgorny/repos/sabotageandi/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'crossdev' is missing masters attribute in '/home/mgorny/repos/crossdev/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'otih' is missing masters attribute in '/home/mgorny/repos/otih/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n4g' is missing masters attribute in '/home/mgorny/repos/n4g/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'xgr' is missing masters attribute in '/home/mgorny/repos/xgr/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'tjy1965' is missing masters attribute in '/home/mgorny/repos/tjy1965/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wine-diablo3' is missing masters attribute in '/home/mgorny/repos/wine-diablo3/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ubuntu' is missing masters attribute in '/home/mgorny/repos/ubuntu/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n8x0' is missing masters attribute in '/home/mgorny/repos/n8x0/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'drevilt' is missing masters attribute in '/home/mgorny/repos/drevilt/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'turbogears2' is missing masters attribute in '/home/mgorny/repos/turbogears2/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'logan' is missing masters attribute in '/home/mgorny/repos/logan/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'n4g-experimental' is missing masters attribute in '/home/mgorny/repos/n4g-experimental/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'arax-os-overlay' is missing masters attribute in '/home/mgorny/repos/arax-os-overlay/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'drizzt-overlay' is missing masters attribute in '/home/mgorny/repos/drizzt-overlay/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'edwtjo-ebuilds' is missing masters attribute in '/home/mgorny/repos/edwtjo-ebuilds/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wolf31o2' is missing masters attribute in '/home/mgorny/repos/wolf31o2/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'pcsx2' is missing masters attribute in '/home/mgorny/repos/pcsx2/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'r3pek' is missing masters attribute in '/home/mgorny/repos/r3pek/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'nbigaouette' is missing masters attribute in '/home/mgorny/repos/nbigaouette/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'asux' is missing masters attribute in '/home/mgorny/repos/asux/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'matsuu' is missing masters attribute in '/home/mgorny/repos/matsuu/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gentoo-taiwan' is missing masters attribute in '/home/mgorny/repos/gentoo-taiwan/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'activehome' is missing masters attribute in '/home/mgorny/repos/activehome/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'arc' is missing masters attribute in '/home/mgorny/repos/arc/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'ibormuth' is missing masters attribute in '/home/mgorny/repos/ibormuth/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'remi' is missing masters attribute in '/home/mgorny/repos/remi/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'paddymac' is missing masters attribute in '/home/mgorny/repos/paddymac/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'docd' is missing masters attribute in '/home/mgorny/repos/docd/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'postgresql-testing' is missing masters attribute in '/home/mgorny/repos/postgresql-testing/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'phunehehe' is missing masters attribute in '/home/mgorny/repos/phunehehe/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'gmt' is missing masters attribute in '/home/mgorny/repos/gmt/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'jxh' is missing masters attribute in '/home/mgorny/repos/jxh/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'tarantool' is missing masters attribute in '/home/mgorny/repos/tarantool/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'thousand-parsec' is missing masters attribute in '/home/mgorny/repos/thousand-parsec/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'njw' is missing masters attribute in '/home/mgorny/repos/njw/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+!!! Repository 'wbrana' is missing masters attribute in '/home/mgorny/repos/wbrana/metadata/layout.conf'
+!!! Set 'masters = gentoo' in this file for future compatibility
+>>> Syncing repository 'activehome' into '/home/mgorny/repos/activehome'...
+/usr/bin/git clone git://anongit.gentoo.org/user/activehome.git .
+Cloning into '.'...
+=== Sync completed for activehome
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 activehome
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.

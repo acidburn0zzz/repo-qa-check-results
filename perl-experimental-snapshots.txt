@@ -128,7 +128,55 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/turbogears2', named 'turbogears2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-perl/perl-experimental-snapshots
+   7e07fef..e0c24f7  master     -> origin/master
+Updating 7e07fef..e0c24f7
+Fast-forward
+ .../Audio-MPD-Common-1.120.881-r1.ebuild           | 62 ------------------
+ .../Audio-MPD-Common/Audio-MPD-Common-2.2.0.ebuild | 30 +++++++++
+ dev-perl/Audio-MPD-Common/Manifest                 |  2 +-
+ dev-perl/Audio-MPD/Audio-MPD-1.120.610-r1.ebuild   | 76 ----------------------
+ dev-perl/Audio-MPD/Audio-MPD-2.0.0.ebuild          | 50 ++++++++++++++
+ dev-perl/Audio-MPD/Manifest                        |  2 +-
+ dev-perl/Audio-MPD/files/2.000/mpd_019.patch       | 32 +++++++++
+ dev-perl/B-RecDeparse/B-RecDeparse-0.100.0.ebuild  | 22 +++++++
+ dev-perl/B-RecDeparse/B-RecDeparse-0.80.0.ebuild   | 52 ---------------
+ dev-perl/B-RecDeparse/Manifest                     |  2 +-
+ ....861.0-r1.ebuild => Bundle-CPAN-1.862.0.ebuild} | 40 +++++-------
+ dev-perl/Bundle-CPAN/Manifest                      |  2 +-
+ dev-perl/Bundle-CPAN/metadata.xml                  |  7 +-
+ dev-perl/Kwalify/Kwalify-1.220.0.ebuild            | 22 +++++++
+ dev-perl/Kwalify/Manifest                          |  1 +
+ dev-perl/Kwalify/metadata.xml                      | 15 +++++
+ metadata/md5-cache/dev-perl/Audio-MPD-1.120.610-r1 | 14 ----
+ metadata/md5-cache/dev-perl/Audio-MPD-2.0.0        | 13 ++++
+ .../dev-perl/Audio-MPD-Common-1.120.881-r1         | 13 ----
+ metadata/md5-cache/dev-perl/Audio-MPD-Common-2.2.0 | 13 ++++
+ .../{B-RecDeparse-0.80.0 => B-RecDeparse-0.100.0}  | 11 ++--
+ metadata/md5-cache/dev-perl/Bundle-CPAN-1.861.0-r1 | 12 ----
+ metadata/md5-cache/dev-perl/Bundle-CPAN-1.862.0    | 13 ++++
+ metadata/md5-cache/dev-perl/Kwalify-1.220.0        | 12 ++++
+ profiles/use.local.desc                            |  1 +
+ 25 files changed, 257 insertions(+), 262 deletions(-)
+ delete mode 100644 dev-perl/Audio-MPD-Common/Audio-MPD-Common-1.120.881-r1.ebuild
+ create mode 100644 dev-perl/Audio-MPD-Common/Audio-MPD-Common-2.2.0.ebuild
+ delete mode 100644 dev-perl/Audio-MPD/Audio-MPD-1.120.610-r1.ebuild
+ create mode 100644 dev-perl/Audio-MPD/Audio-MPD-2.0.0.ebuild
+ create mode 100644 dev-perl/Audio-MPD/files/2.000/mpd_019.patch
+ create mode 100644 dev-perl/B-RecDeparse/B-RecDeparse-0.100.0.ebuild
+ delete mode 100644 dev-perl/B-RecDeparse/B-RecDeparse-0.80.0.ebuild
+ rename dev-perl/Bundle-CPAN/{Bundle-CPAN-1.861.0-r1.ebuild => Bundle-CPAN-1.862.0.ebuild} (58%)
+ create mode 100644 dev-perl/Kwalify/Kwalify-1.220.0.ebuild
+ create mode 100644 dev-perl/Kwalify/Manifest
+ create mode 100644 dev-perl/Kwalify/metadata.xml
+ delete mode 100644 metadata/md5-cache/dev-perl/Audio-MPD-1.120.610-r1
+ create mode 100644 metadata/md5-cache/dev-perl/Audio-MPD-2.0.0
+ delete mode 100644 metadata/md5-cache/dev-perl/Audio-MPD-Common-1.120.881-r1
+ create mode 100644 metadata/md5-cache/dev-perl/Audio-MPD-Common-2.2.0
+ rename metadata/md5-cache/dev-perl/{B-RecDeparse-0.80.0 => B-RecDeparse-0.100.0} (58%)
+ delete mode 100644 metadata/md5-cache/dev-perl/Bundle-CPAN-1.861.0-r1
+ create mode 100644 metadata/md5-cache/dev-perl/Bundle-CPAN-1.862.0
+ create mode 100644 metadata/md5-cache/dev-perl/Kwalify-1.220.0
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded
