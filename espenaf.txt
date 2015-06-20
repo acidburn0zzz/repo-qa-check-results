@@ -233,198 +233,198 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
-!!! ERROR: dev-perl/mythvideo-scanner-3.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
 !!! ERROR: kde-misc/kustodian-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: dev-perl/Debug-Simple-0.10 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: media-tv/xmltv-0.5.63 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! ERROR: media-tv/xmltv-0.5.61 failed.
 
-!!! ERROR: dev-perl/DBM-Deep-2.0004 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! ERROR: app-emulation/puae-2.3.1_pre9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: media-tv/xmltv-0.5.63 failed.
 
 !!! ERROR: dev-perl/TVDB-API-0.33 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: media-tv/xmltv-0.5.61 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/kde-misc/kustodian/kustodian-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/mythvideo-scanner-3.1 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '199' 'depend'
+
+!!! ERROR: dev-perl/DBM-Deep-2.0004 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/kde-misc/kustodian/kustodian-9999.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: media-tv/xmltv-0.5.59 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-perl/Debug-Simple-0.10 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/kde-misc/kustodian/kustodian-9999.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/kde-misc/kustodian/kustodian-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/kde-misc/kustodian/kustodian-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
-!!!          kustodian-9999.ebuild, line   9:  Called inherit 'kde4-meta'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '199' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/TVDB-API/TVDB-API-0.33.ebuild'
-
-!!! ERROR: app-emulation/puae-2.3.1_pre9999 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-meta'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/TVDB-API/TVDB-API-0.33.ebuild'
+!!!          kustodian-9999.ebuild, line   9:  Called inherit 'kde4-meta'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
-!!!            xmltv-0.5.63.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/TVDB-API/TVDB-API-0.33.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
+!!!      puae-2.3.1_pre9999.ebuild, line   7:  Called inherit 'autotools' 'flag-o-matic' 'git'
+!!!       Debug-Simple-0.10.ebuild, line   5:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-meta'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/TVDB-API/TVDB-API-0.33.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-meta.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/TVDB-API/TVDB-API-0.33.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   mythvideo-scanner-3.1.ebuild, line   5:  Called inherit 'perl-module'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!           TVDB-API-0.33.ebuild, line   5:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/mythvideo-scanner/mythvideo-scanner-3.1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.63.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-meta.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!               kde4-meta.eclass, line  20:  Called inherit 'kde4-base'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/Debug-Simple/Debug-Simple-0.10.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         DBM-Deep-2.0004.ebuild, line   5:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!       Debug-Simple-0.10.ebuild, line   5:  Called inherit 'perl-module'
+!!!   mythvideo-scanner-3.1.ebuild, line   5:  Called inherit 'perl-module'
+!!!            xmltv-0.5.63.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/dev-perl/DBM-Deep/DBM-Deep-2.0004.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.59.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.59.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.59.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.61.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.61.ebuild'
+!!!               kde4-meta.eclass, line  20:  Called inherit 'kde4-base'
+!!!           TVDB-API-0.33.ebuild, line   5:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!            xmltv-0.5.59.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.61.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         DBM-Deep-2.0004.ebuild, line   5:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/media-tv/xmltv/xmltv-0.5.61.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!            xmltv-0.5.59.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!            xmltv-0.5.61.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!            xmltv-0.5.61.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/espenaf/app-emulation/puae/puae-2.3.1_pre9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!      puae-2.3.1_pre9999.ebuild, line   7:  Called inherit 'autotools' 'flag-o-matic' 'git'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-emulation/puae-2.3.1_pre9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.63
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Debug-Simple-0.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.63
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/mythvideo-scanner-3.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DBM-Deep-2.0004
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/TVDB-API-0.33
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/kustodian-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.59
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DBM-Deep-2.0004
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-tv/xmltv-0.5.61
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-misc/kustodian-9999
  * Cache regenerated successfully
