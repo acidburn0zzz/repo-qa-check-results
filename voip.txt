@@ -207,82 +207,82 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: net-voip/sflphone-0.7.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: net-voip/sflphone-0.7.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
 
 !!! ERROR: net-im/ihu-0.6.0 failed.
+!!!          sflphone-0.7.2.ebuild, line   6:  Called inherit 'qt3'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt3 failed
+
 
 !!! ERROR: net-misc/asterisk-1.4.21.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!          sflphone-0.7.0.ebuild, line   6:  Called inherit 'qt3'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
 
 !!! ERROR: net-misc/asterisk-1.4.22.1 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt3 failed
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!          sflphone-0.7.2.ebuild, line   6:  Called inherit 'qt3'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
+!!!          sflphone-0.7.0.ebuild, line   6:  Called inherit 'qt3'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt3 failed
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
-!!!               ihu-0.6.0.ebuild, line   5:  Called inherit 'eutils' 'qt3'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
 !!!       asterisk-1.4.21.2.ebuild, line   7:  Called inherit 'eutils' 'qt3'
+!!!               ihu-0.6.0.ebuild, line   5:  Called inherit 'eutils' 'qt3'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt3 failed
 
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt3 failed
-
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
 !!!       asterisk-1.4.22.1.ebuild, line   6:  Called inherit 'eutils' 'qt3'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt3 failed
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
