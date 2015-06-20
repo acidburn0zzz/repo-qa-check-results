@@ -212,290 +212,290 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
 
 !!! ERROR: dev-embedded/omapfb-test-9999 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
 
 !!! ERROR: x11-libs/pango-1.26.0 failed.
-!!!              metro-9999.ebuild, line   7:  Called inherit 'git'
-
-!!! ERROR: sys-devel/gcc-4.3.4 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!        omapfb-test-9999.ebuild, line   8:  Called inherit 'linux-info' 'git'
 
-!!! ERROR: sys-devel/gcc-4.3.3-r2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!! ERROR: sys-devel/gcc-4.4.0-r1 failed.
 
 !!! ERROR: x11-libs/pixman-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: x11-libs/pango-1.26.1 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
- * Missing variables: KV_PATCH 
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sys-kernel/pandora-sources-9999 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
  * Missing variables: KV_PATCH 
 
 !!! ERROR: sys-kernel/omap-sources-9999 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '217' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: sys-devel/gcc-4.4.0-r1 failed.
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!    pandora-sources-9999.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: sys-kernel/omap-sources-2.6.31.9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: sys-kernel/omap-sources-2.6.31 failed.
-!!!            pango-1.26.1.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/dev-embedded/omapfb-test/omapfb-test-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '241' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!        omapfb-test-9999.ebuild, line   8:  Called inherit 'linux-info' 'git'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
-!!!                kernel-2.eclass, line 457:  Called kernel_is 'ge' '2' '6' '27'
-!!!       omap-sources-9999.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!!            pango-1.26.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
-!!!                kernel-2.eclass, line 408:  Called detect_version
-!!!            gcc-4.4.0-r1.ebuild, line  24:  Called inherit 'toolchain'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!            gcc-4.3.3-r2.ebuild, line  26:  Called inherit 'toolchain'
-!!!                kernel-2.eclass, line 233:  Called die
-!!! The die message:
-!!!  Failed to extract kernel version (try explicit CKV in ebuild)!
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! ERROR: x11-libs/pango-1.26.1 failed.
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
-!!!               gcc-4.3.4.ebuild, line  26:  Called inherit 'toolchain'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
-!!! The die message:
-!!!  EAPI=2 is not supported
+!!! ERROR: sys-devel/gcc-4.3.3-r2 failed.
+ * Missing variables: KV_PATCH 
 
-!!!               toolchain.eclass, line  29:  Called die
-!!! The die message:
-!!!  Need to upgrade to at least EAPI=2
-
-
-!!! ERROR: sys-kernel/omap-sources-2.6.30 failed.
+!!! ERROR: sys-kernel/pandora-sources-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
-!!!                kernel-2.eclass, line 457:  Called kernel_is 'ge' '2' '6' '27'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
-!!!               toolchain.eclass, line  29:  Called die
-!!! The die message:
-!!!  Need to upgrade to at least EAPI=2
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/dev-util/metro/metro-9999.ebuild'
 
+!!! ERROR: sys-devel/gcc-4.3.4 failed.
+!!!              metro-9999.ebuild, line   7:  Called inherit 'git'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
+
+!!! ERROR: sys-kernel/omap-sources-2.6.29 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '217' 'depend'
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
+!!!       omap-sources-9999.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.4.0-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            gcc-4.4.0-r1.ebuild, line  24:  Called inherit 'toolchain'
+
+!!! ERROR: sys-kernel/omap-sources-2.6.31.9999 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
+
+!!! ERROR: sys-kernel/omap-sources-2.6.31 failed.
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
 !!!               toolchain.eclass, line  29:  Called die
-!!!   omap-sources-2.6.31.9999.ebuild, line  14:  Called inherit 'kernel-2' 'eutils' 'git'
 !!! The die message:
 !!!  Need to upgrade to at least EAPI=2
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.3-r2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pixman/pixman-9999.ebuild'
+!!!                kernel-2.eclass, line 457:  Called kernel_is 'ge' '2' '6' '27'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            gcc-4.3.3-r2.ebuild, line  26:  Called inherit 'toolchain'
+!!!             pixman-9999.ebuild, line   9:  Called inherit 'x-modular' 'toolchain-funcs' 'versionator'
 !!!                kernel-2.eclass, line 408:  Called detect_version
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
+!!!            pango-1.26.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                kernel-2.eclass, line 233:  Called die
 !!! The die message:
 !!!  Failed to extract kernel version (try explicit CKV in ebuild)!
 
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/eclass/x-modular.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/eclass/x-modular.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '241' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/pandora-sources/pandora-sources-9999.ebuild'
+!!!               x-modular.eclass, line  39:  Called inherit 'eutils' 'libtool' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'autotools' 'git'
+!!!     omap-sources-2.6.29.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/x11-libs/pango/pango-1.26.1.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!    pandora-sources-9999.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
+!!!            pango-1.26.1.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
+!!!               toolchain.eclass, line  29:  Called die
+!!! The die message:
+!!!  Need to upgrade to at least EAPI=2
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-devel/gcc/gcc-4.3.4.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.31.9999.ebuild'
+!!!     omap-sources-2.6.31.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
+!!!               gcc-4.3.4.ebuild, line  26:  Called inherit 'toolchain'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   omap-sources-2.6.31.9999.ebuild, line  14:  Called inherit 'kernel-2' 'eutils' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'toolchain'
+!!!                kernel-2.eclass, line 457:  Called kernel_is 'ge' '2' '6' '27'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
 !!!                 ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!             pixman-9999.ebuild, line   9:  Called inherit 'x-modular' 'toolchain-funcs' 'versionator'
-!!!     omap-sources-2.6.31.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'x-modular'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/eclass/x-modular.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/eclass/x-modular.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
+!!!                kernel-2.eclass, line 408:  Called detect_version
+!!!                kernel-2.eclass, line 233:  Called die
+!!! The die message:
+!!!  Failed to extract kernel version (try explicit CKV in ebuild)!
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/toolchain.eclass'
+!!!               toolchain.eclass, line  29:  Called die
+!!! The die message:
+!!!  Need to upgrade to at least EAPI=2
 
-!!! ERROR: sys-kernel/omap-sources-2.6.29 failed.
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: sys-kernel/omap-sources-2.6.30 failed.
+Sandboxed process killed by signal: Broken pipe
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!               x-modular.eclass, line  39:  Called inherit 'eutils' 'libtool' 'multilib' 'toolchain-funcs' 'flag-o-matic' 'autotools' 'git'
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
+Sandboxed process killed by signal: Broken pipe
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!     omap-sources-2.6.30.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.30.ebuild'
+!!!     omap-sources-2.6.30.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-arm/sys-kernel/omap-sources/omap-sources-2.6.29.ebuild'
-!!!     omap-sources-2.6.29.ebuild, line  11:  Called inherit 'kernel-2' 'eutils' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass kernel-2
-
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-util/metro-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-embedded/omapfb-test-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-libs/pixman-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/omap-sources-2.6.29
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.31.9999
 !!! caught exception Metadata Exception: pkg ebuild src: x11-libs/libX11-1.2.2, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: x11-libs/libX11-1.2.2
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-libs/pixman-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.29
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.31.9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.31
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-devel/gcc-4.4.0-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-kernel/omap-sources-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/pango-1.26.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-devel/gcc-4.3.3-r2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/pango-1.26.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-kernel/pandora-sources-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.30
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/pango-1.26.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-devel/gcc-4.4.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-devel/gcc-4.3.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-devel/gcc-4.3.3-r2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/omap-sources-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-kernel/omap-sources-2.6.30
  * Cache regenerated successfully
