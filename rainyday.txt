@@ -210,463 +210,463 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: x11-libs/compizconfig-backend-kconfig4-0.8.4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                           ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
 !!! ERROR: x11-libs/compizconfig-backend-kconfig4-0.8.8 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: x11-libs/compizconfig-backend-kconfig4-0.8.4 failed.
-!!!                           ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                           ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                           ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                           ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                           ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '290' 'depend'
+!!!                           ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                           ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                           ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                           ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '290' 'depend'
 !!!                                   ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.4.ebuild'
+!!!                           ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                                   ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.8.ebuild'
+
+!!! ERROR: app-pda/libopensync-plugin-kdepim-9999 failed.
+
+!!! ERROR: app-pda/libopensync-plugin-kdepim-0.36 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: app-pda/libopensync-plugin-kdepim-0.35 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                                   ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.4.ebuild'
-!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.4.ebuild'
-!!!   compizconfig-backend-kconfig4-0.8.4.ebuild, line   7:  Called inherit 'kde4-base'
-!!!                           ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                                   ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.8.ebuild'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                                   ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.8.ebuild'
-!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                                   ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.4.ebuild'
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.8.ebuild'
-!!!                             kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-
-!!! ERROR: app-pda/libopensync-plugin-kdepim-0.36 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-libs/compizconfig-backend-kconfig4/compizconfig-backend-kconfig4-0.8.4.ebuild'
+!!!   compizconfig-backend-kconfig4-0.8.8.ebuild, line   7:  Called inherit 'kde4-base'
+!!!   compizconfig-backend-kconfig4-0.8.4.ebuild, line   7:  Called inherit 'kde4-base'
 !!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
-!!! Call stack:
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '259' 'depend'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                             kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
+!!!                             kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
 !!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   libopensync-plugin-kdepim-0.35.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
+!!!   libopensync-plugin-kdepim-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'subversion' 'kde-functions'
+!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                        kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!   compizconfig-backend-kconfig4-0.8.8.ebuild, line   7:  Called inherit 'kde4-base'
-!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   libopensync-plugin-kdepim-0.35.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
-!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                        kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
 
-!!! ERROR: app-pda/libopensync-plugin-kdepim-9999 failed.
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
-
-!!! ERROR: dev-perl/DCOP-Amarok-Player-0.037 failed.
-!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/DCOP-0.036 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                             kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
 !!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!   libopensync-plugin-kdepim-0.36.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                      cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!                      cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 
 !!! ERROR: dev-perl/DCOP-Amarok-0.035 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/DCOP-Amarok-0.036 failed.
-!!!                      cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-perl/PerlQt-3.009_beta2 failed.
-!!!                 ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                            ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
 
-!!! ERROR: dev-perl/DCOP-0.038 failed.
-!!!                       isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: x11-wm/metacity-2.30.3 failed.
-!!!                        kde4-functions.eclass, line  23:  Called die
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-!!! Call stack:
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
+!!! ERROR: dev-perl/DCOP-0.036 failed.
 
 !!! ERROR: dev-perl/DCOP-Amarok-Player-0.036 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '259' 'depend'
+
+!!! ERROR: dev-perl/DCOP-Amarok-0.036 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                      cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-perl/DCOP-0.038 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+
+!!! ERROR: dev-perl/DCOP-Amarok-Player-0.037 failed.
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: x11-wm/metacity-2.30.3 failed.
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
-!!!   libopensync-plugin-kdepim-0.36.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '203' 'depend'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   DCOP-Amarok-Player-0.037.ebuild, line   6:  Called inherit 'perl-module'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-wm/metacity/metacity-2.30.3.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!              DCOP-0.036.ebuild, line   5:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   libopensync-plugin-kdepim-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'subversion' 'kde-functions'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-wm/metacity/metacity-2.30.3.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-wm/metacity/metacity-2.30.3.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              DCOP-0.038.ebuild, line   5:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         metacity-2.30.3.ebuild, line   9:  Called inherit 'eutils' 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!       DCOP-Amarok-0.036.ebuild, line   5:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!       DCOP-Amarok-0.035.ebuild, line   5:  Called inherit 'perl-module'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                      cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!      PerlQt-3.009_beta2.ebuild, line   7:  Called inherit 'perl-module' 'kde'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-wm/metacity/metacity-2.30.3.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.038.ebuild'
 !!!   DCOP-Amarok-Player-0.036.ebuild, line   5:  Called inherit 'perl-module'
 
-!!! ERROR: media-video/asdf-0.4 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-
 !!! ERROR: www-client/firefox-33.0-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: media-video/dpencoder-0.6c failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: x11-themes/qtcurve-0.65.2 failed.
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.036.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!      PerlQt-3.009_beta2.ebuild, line   7:  Called inherit 'perl-module' 'kde'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-wm/metacity/metacity-2.30.3.ebuild'
+!!!              DCOP-0.038.ebuild, line   5:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         metacity-2.30.3.ebuild, line   9:  Called inherit 'eutils' 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-
-!!! ERROR: x11-themes/gtk-engines-qt-0.8-r4 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP/DCOP-0.036.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!              DCOP-0.036.ebuild, line   5:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: net-misc/gwget-1.0.4-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: x11-themes/qtcurve-0.59.2 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '159' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       DCOP-Amarok-0.036.ebuild, line   5:  Called inherit 'perl-module'
 
 !!! ERROR: x11-themes/qtcurve-0.69.1 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: x11-themes/qtcurve-0.59.5 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '218' 'depend'
-
-!!! ERROR: x11-themes/qtcurve-0.68.1 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!          dpencoder-0.6c.ebuild, line   5:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/www-client/firefox/firefox-33.0-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
+!!!   DCOP-Amarok-Player-0.037.ebuild, line   6:  Called inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       DCOP-Amarok-0.035.ebuild, line   5:  Called inherit 'perl-module'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+
+!!! ERROR: media-video/dpencoder-0.6c failed.
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
-!!!          qtcurve-0.65.2.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: x11-themes/qtcurve-0.68.1 failed.
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/www-client/firefox/firefox-33.0-r1.ebuild'
+
+!!! ERROR: net-misc/gwget-1.0.4-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
-!!!                asdf-0.4.ebuild, line   5:  Called inherit 'perl-app'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/www-client/firefox/firefox-33.0-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
-!!!          qtcurve-0.59.5.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+
+!!! ERROR: media-video/asdf-0.4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
-!!!   gtk-engines-qt-0.8-r4.ebuild, line   9:  Called inherit 'kde' 'cmake-utils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/media-video/dpencoder/dpencoder-0.6c.ebuild'
+
+!!! ERROR: x11-themes/qtcurve-0.59.5 failed.
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/www-client/firefox/firefox-33.0-r1.ebuild'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!         firefox-33.0-r1.ebuild, line  37:  Called inherit 'check-reqs' 'flag-o-matic' 'toolchain-funcs' 'eutils' 'gnome2-utils' 'mozconfig-v5.33' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'virtualx' 'mozlinguas'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.68.1.ebuild'
-!!!          qtcurve-0.59.2.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
+
+!!! ERROR: x11-themes/qtcurve-0.59.2 failed.
+!!!          dpencoder-0.6c.ebuild, line   5:  Called inherit 'perl-module'
+
+!!! ERROR: x11-themes/qtcurve-0.65.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mozconfig-v5.33'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-
-!!! ERROR: kde-base/dcopperl-3.5.10 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.68.1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/mozconfig-v5.33.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!          qtcurve-0.69.1.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/mozconfig-v5.33.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.68.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 !!!         mozconfig-v5.33.eclass, line  25:  Called die
 !!! The die message:
 !!!  This eclass has been disabled and will be removed on 2015-06-30.  If you need it, copy to your overlay and remove this line.
 
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+
+!!! ERROR: x11-themes/gtk-engines-qt-0.8-r4 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '159' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.69.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.68.1.ebuild'
+!!!          qtcurve-0.69.1.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.68.1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!          qtcurve-0.68.1.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!          gwget-1.0.4-r1.ebuild, line   8:  Called inherit 'eutils' 'gnome2'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.5.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.65.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/qtcurve/qtcurve-0.59.2.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported
 
+!!!          qtcurve-0.59.5.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!          qtcurve-0.59.2.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
+!!!          qtcurve-0.65.2.ebuild, line   8:  Called inherit 'kde-functions' 'qt3' 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/media-video/asdf/asdf-0.4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/net-misc/gwget/gwget-1.0.4-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '218' 'depend'
+!!!                asdf-0.4.ebuild, line   5:  Called inherit 'perl-app'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!          gwget-1.0.4-r1.ebuild, line   8:  Called inherit 'eutils' 'gnome2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported
 
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   gtk-engines-qt-0.8-r4.ebuild, line   9:  Called inherit 'kde' 'cmake-utils'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+
+!!! ERROR: kde-base/dcopperl-3.5.10 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/rainyday/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/rainyday/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/rainyday/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
 !!!         dcopperl-3.5.10.ebuild, line   7:  Called inherit 'kde-meta' 'perl-app'
@@ -682,51 +682,51 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!  EAPI=1 is not supported by perl-module.eclass
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.35
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.8
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.36
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.037
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-0.036
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.035
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-0.038
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-wm/metacity-2.30.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.036
+!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.36
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.036
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/PerlQt-3.009_beta2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/dpencoder-0.6c
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-0.036
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.65.2
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.037
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.59.5
+!!! ERRORcaught exception False while processing ebuild src: x11-wm/metacity-2.30.3
+ pkgcore: returned val from gen_metadata was 'False'
+caught exception False while processing ebuild src: dev-perl/DCOP-0.038
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.036
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.035
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-client/firefox-33.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.59.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/gtk-engines-qt-0.8-r4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.69.1
+!!! caught exception False while processing ebuild src: media-video/dpencoder-0.6c
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.68.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/asdf-0.4
+!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.59.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.69.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.59.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-misc/gwget-1.0.4-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-themes/qtcurve-0.65.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: x11-themes/gtk-engines-qt-0.8-r4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/asdf-0.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dcopperl-3.5.10
  * Cache regenerated successfully
