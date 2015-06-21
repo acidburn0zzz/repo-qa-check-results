@@ -237,69 +237,69 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: games-fps/doom3-gpl-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
-!!!           machette-9999.ebuild, line   3:  Called inherit 'eutils' 'git' 'distutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
 
 !!! ERROR: media-gfx/darktable-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             fribid-9999.ebuild, line   5:  Called inherit 'eutils' 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!          doom3-gpl-9999.ebuild, line   3:  Called inherit 'eutils' 'git' 'scons-utils' 'games'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
+
+!!! ERROR: games-fps/doom3-gpl-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/dev-util/machette/machette-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!           machette-9999.ebuild, line   3:  Called inherit 'eutils' 'git' 'distutils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/www-plugins/fribid/fribid-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             fribid-9999.ebuild, line   5:  Called inherit 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+!!!          darktable-9999.ebuild, line   6:  Called inherit 'gnome2' 'cmake-utils' 'git' 'flag-o-matic'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/media-gfx/darktable/darktable-9999.ebuild'
-!!!          darktable-9999.ebuild, line   6:  Called inherit 'gnome2' 'cmake-utils' 'git' 'flag-o-matic'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/edwtjo-ebuilds/games-fps/doom3-gpl/doom3-gpl-9999.ebuild'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
 Sandboxed process killed by signal: Broken pipe
+!!!          doom3-gpl-9999.ebuild, line   3:  Called inherit 'eutils' 'git' 'scons-utils' 'games'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 Sandboxed process killed by signal: Broken pipe
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-util/machette-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: www-plugins/fribid-9999

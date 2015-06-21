@@ -12,6 +12,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,7 +72,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   4fe89d8..c2b789a  master     -> origin/master
+Updating 4fe89d8..c2b789a
+Fast-forward
+ games-strategy/ufo-ai/Manifest                     |   3 +
+ .../ufo-ai/files/ufo-ai-2.5-mathlib.patch          |  29 +++++
+ .../ufo-ai/files/ufo-ai-9999-mathlib.patch         |  29 +++++
+ games-strategy/ufo-ai/ufo-ai-2.5.ebuild            | 117 ++++++++++++++++++++
+ games-strategy/ufo-ai/ufo-ai-9999.ebuild           | 119 +++++++++++++++++++++
+ 5 files changed, 297 insertions(+)
+ create mode 100644 games-strategy/ufo-ai/Manifest
+ create mode 100644 games-strategy/ufo-ai/files/ufo-ai-2.5-mathlib.patch
+ create mode 100644 games-strategy/ufo-ai/files/ufo-ai-9999-mathlib.patch
+ create mode 100644 games-strategy/ufo-ai/ufo-ai-2.5.ebuild
+ create mode 100644 games-strategy/ufo-ai/ufo-ai-9999.ebuild
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded

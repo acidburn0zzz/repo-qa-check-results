@@ -131,7 +131,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/dev/anarchy
+   b20a3d5..bacddf1  master     -> origin/master
+Updating b20a3d5..bacddf1
+Fast-forward
+ media-tv/kodi/Manifest                             |   7 +
+ media-tv/kodi/files/generate.sh                    |  34 +++
+ .../kodi/files/kodi-14.0-dvddemux-ffmpeg.patch     |  16 ++
+ media-tv/kodi/files/kodi-14.2-no-arm-flags.patch   |  16 ++
+ media-tv/kodi/files/kodi-9999-nomythtv.patch       |  67 +++++
+ media-tv/kodi/kodi-14.2.ebuild                     | 279 +++++++++++++++++++++
+ media-tv/kodi/metadata.xml                         |  29 +++
+ 7 files changed, 448 insertions(+)
+ create mode 100644 media-tv/kodi/Manifest
+ create mode 100755 media-tv/kodi/files/generate.sh
+ create mode 100644 media-tv/kodi/files/kodi-14.0-dvddemux-ffmpeg.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-no-arm-flags.patch
+ create mode 100644 media-tv/kodi/files/kodi-9999-nomythtv.patch
+ create mode 100644 media-tv/kodi/kodi-14.2.ebuild
+ create mode 100644 media-tv/kodi/metadata.xml
 *** syncing '/home/mgorny/repos/anarchy'...
 *** synced '/home/mgorny/repos/anarchy'
  * Sync succeeded
