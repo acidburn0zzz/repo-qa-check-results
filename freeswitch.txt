@@ -81,7 +81,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/purak', named 'purak', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named 'wbrana', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/alphallc/freeswitch
+   461398f..1856774  master     -> origin/master
+Updating 461398f..1856774
+Fast-forward
+ media-sound/freeswitch-sounds-music/Manifest       |  4 ---
+ .../freeswitch-sounds-music-1.0.51.ebuild          |  2 +-
+ .../freeswitch-sounds-music-1.0.8.ebuild           | 35 ----------------------
+ media-sound/freeswitch-sounds-music/metadata.xml   | 17 +++++++++++
+ media-sound/freeswitch-sounds/metadata.xml         | 17 +++++++++++
+ net-voip/freeswitch/freeswitch-1.4.18-r1.ebuild    |  1 +
+ profiles/desc/freeswitch_modules.desc              |  9 +++++-
+ 7 files changed, 44 insertions(+), 41 deletions(-)
+ delete mode 100644 media-sound/freeswitch-sounds-music/freeswitch-sounds-music-1.0.8.ebuild
+ create mode 100644 media-sound/freeswitch-sounds-music/metadata.xml
+ create mode 100644 media-sound/freeswitch-sounds/metadata.xml
 *** syncing '/home/mgorny/repos/freeswitch'...
 *** synced '/home/mgorny/repos/freeswitch'
  * Sync succeeded
