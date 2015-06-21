@@ -70,7 +70,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   ada5ed0..c560d70  master     -> origin/master
+Updating ada5ed0..c560d70
+Fast-forward
+ dev-haskell/cabal-install/Manifest                 |  1 +
+ .../cabal-install/cabal-install-1.22.6.0.ebuild    | 67 ++++++++++++++++++++++
+ dev-haskell/cabal/Manifest                         |  1 +
+ dev-haskell/cabal/cabal-1.22.4.0.ebuild            | 59 +++++++++++++++++++
+ dev-haskell/http-client/Manifest                   |  2 +-
+ ...t-0.4.11.3.ebuild => http-client-0.4.12.ebuild} |  0
+ dev-haskell/monad-loops/Manifest                   |  2 +-
+ ...ops-0.4.2.1.ebuild => monad-loops-0.4.3.ebuild} | 15 ++---
+ 8 files changed, 136 insertions(+), 11 deletions(-)
+ create mode 100644 dev-haskell/cabal-install/cabal-install-1.22.6.0.ebuild
+ create mode 100644 dev-haskell/cabal/cabal-1.22.4.0.ebuild
+ rename dev-haskell/http-client/{http-client-0.4.11.3.ebuild => http-client-0.4.12.ebuild} (100%)
+ rename dev-haskell/monad-loops/{monad-loops-0.4.2.1.ebuild => monad-loops-0.4.3.ebuild} (62%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
