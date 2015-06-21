@@ -70,7 +70,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   ed0d373..7d513bb  master     -> origin/master
+Updating ed0d373..7d513bb
+Fast-forward
+ dev-haskell/cautious-file/cautious-file-1.0.2-r1.ebuild | 12 +++++++-----
+ dev-haskell/invariant/Manifest                          |  2 +-
+ .../{invariant-0.1.1.ebuild => invariant-0.1.2.ebuild}  | 12 +++++++-----
+ .../quicktest/files/quicktest-0.1.3-ghc-7.10.patch      | 17 +++++++++++++++++
+ dev-haskell/quicktest/quicktest-0.1.3.ebuild            |  4 +++-
+ 5 files changed, 35 insertions(+), 12 deletions(-)
+ rename dev-haskell/invariant/{invariant-0.1.1.ebuild => invariant-0.1.2.ebuild} (60%)
+ create mode 100644 dev-haskell/quicktest/files/quicktest-0.1.3-ghc-7.10.patch
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
