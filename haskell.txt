@@ -71,17 +71,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/gentoo-haskell/gentoo-haskell
-   ed0d373..7d513bb  master     -> origin/master
-Updating ed0d373..7d513bb
+   7d513bb..ada5ed0  master     -> origin/master
+Updating 7d513bb..ada5ed0
 Fast-forward
- dev-haskell/cautious-file/cautious-file-1.0.2-r1.ebuild | 12 +++++++-----
- dev-haskell/invariant/Manifest                          |  2 +-
- .../{invariant-0.1.1.ebuild => invariant-0.1.2.ebuild}  | 12 +++++++-----
- .../quicktest/files/quicktest-0.1.3-ghc-7.10.patch      | 17 +++++++++++++++++
- dev-haskell/quicktest/quicktest-0.1.3.ebuild            |  4 +++-
- 5 files changed, 35 insertions(+), 12 deletions(-)
- rename dev-haskell/invariant/{invariant-0.1.1.ebuild => invariant-0.1.2.ebuild} (60%)
- create mode 100644 dev-haskell/quicktest/files/quicktest-0.1.3-ghc-7.10.patch
+ .../codec-image-devil-0.2.3-r1.ebuild              |  4 +-
+ .../files/codec-image-devil-0.2.3-ghc-7.10.patch   |  8 ++++
+ dev-haskell/hgl/files/hgl-3.2.0.5-ghc-7.10.patch   | 21 +++++++++
+ dev-haskell/hgl/hgl-3.2.0.5.ebuild                 |  6 ++-
+ .../remote/files/remote-0.1.1-ghc-7.10.patch       | 55 ++++++++++++++++++++++
+ dev-haskell/remote/remote-0.1.1-r1.ebuild          | 36 ++++++++++++++
+ dev-haskell/remote/remote-0.1.1.ebuild             | 32 -------------
+ dev-haskell/remote/remote-9999.ebuild              |  2 +-
+ .../files/xmonad-screenshot-0.1.1.0-ghc-7.10.patch |  9 ++++
+ .../xmonad-screenshot-0.1.1.0.ebuild               |  6 ++-
+ 10 files changed, 143 insertions(+), 36 deletions(-)
+ create mode 100644 dev-haskell/codec-image-devil/files/codec-image-devil-0.2.3-ghc-7.10.patch
+ create mode 100644 dev-haskell/hgl/files/hgl-3.2.0.5-ghc-7.10.patch
+ create mode 100644 dev-haskell/remote/files/remote-0.1.1-ghc-7.10.patch
+ create mode 100644 dev-haskell/remote/remote-0.1.1-r1.ebuild
+ delete mode 100644 dev-haskell/remote/remote-0.1.1.ebuild
+ create mode 100644 dev-haskell/xmonad-screenshot/files/xmonad-screenshot-0.1.1.0-ghc-7.10.patch
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
