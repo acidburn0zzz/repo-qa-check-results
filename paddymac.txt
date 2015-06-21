@@ -233,111 +233,111 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! ERROR: kde-misc/kcm-ufw-0.3.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: net-im/skype-oss-2.1.0.81 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '180' 'depend'
 
 !!! ERROR: sci-biology/gnaural-1.0.20100707 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 
 !!! ERROR: sci-biology/gnaural-1.0.20110606 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!           kcm-ufw-0.3.0.ebuild, line   8:  Called inherit 'kde4-base'
 
 !!! ERROR: app-misc/giver-0.1.8 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20100707.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/net-im/skype-oss/skype-oss-2.1.0.81.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/net-im/skype-oss/skype-oss-2.1.0.81.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/net-im/skype-oss/skype-oss-2.1.0.81.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20100707.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!      skype-oss-2.1.0.81.ebuild, line   7:  Called inherit 'eutils' 'qt4' 'pax-utils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
-
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20100707.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20100707.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/net-im/skype-oss/skype-oss-2.1.0.81.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/app-misc/giver/giver-0.1.8.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!    gnaural-1.0.20110606.ebuild, line   5:  Called inherit 'autotools' 'gnome2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/app-misc/giver/giver-0.1.8.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/kde-misc/kcm-ufw/kcm-ufw-0.3.0.ebuild'
 !!!    gnaural-1.0.20100707.ebuild, line   5:  Called inherit 'autotools' 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!      skype-oss-2.1.0.81.ebuild, line   7:  Called inherit 'eutils' 'qt4' 'pax-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/app-misc/giver/giver-0.1.8.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
 !!!             giver-0.1.8.ebuild, line   7:  Called inherit 'eutils' 'mono' 'gnome2'
+!!!           kcm-ufw-0.3.0.ebuild, line   8:  Called inherit 'kde4-base'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/paddymac/sci-biology/gnaural/gnaural-1.0.20110606.ebuild'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!    gnaural-1.0.20110606.ebuild, line   5:  Called inherit 'autotools' 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
 Sandboxed process killed by signal: Broken pipe
-!!! caught exception Metadata Exception: pkg ebuild src: net-wireless/b43-asm-0.20091126, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-wireless/b43-asm-0.20091126
-!!! caught exception Metadata Exception: pkg ebuild src: net-wireless/b43-openfwwf-5.2, attr eapi
+!!! !!! !!! caught exception Metadata Exception: pkg ebuild src: net-wireless/b43-openfwwf-5.2, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-wireless/b43-openfwwf-5.2
+caught exception Metadata Exception: pkg ebuild src: net-wireless/b43-asm-0.20091126, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-wireless/b43-asm-0.20091126
 !!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: net-im/skype-oss-2.1.0.81
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/kcm-ufw-0.3.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sci-biology/gnaural-1.0.20110606
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sci-biology/gnaural-1.0.20100707
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-misc/giver-0.1.8
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-misc/kcm-ufw-0.3.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sci-biology/gnaural-1.0.20110606
  * Cache regenerated successfully
