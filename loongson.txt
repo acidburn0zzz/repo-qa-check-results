@@ -244,84 +244,84 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
 
 !!! ERROR: net-libs/xulrunner-1.9.2.13-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
-!!!   xulrunner-2.0_beta5_pre-r2.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'autotools' 'python' 'versionator' 'pax-utils' 'prefix'
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! ERROR: net-libs/xulrunner-1.9.2.8-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.13-r1.ebuild'
-
-!!! ERROR: www-client/firefox-3.6.13 failed.
-!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.13-r1.ebuild'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.13-r1.ebuild'
+
+!!! ERROR: www-client/firefox-3.6.13 failed.
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: www-client/firefox-3.6.8 failed.
+!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!   xulrunner-1.9.2.13-r1.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'java-pkg-opt-2' 'autotools' 'python' 'prefix' 'pax-utils'
+!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-2.0_beta5_pre-r2.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!   xulrunner-2.0_beta5_pre-r2.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'autotools' 'python' 'versionator' 'pax-utils' 'prefix'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
+!!!                  python.eclass, line  16:  Called die
+!!! The die message:
+!!!  python.eclass can not be used with python-r1 suite eclasses.
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!    xulrunner-1.9.2.8-r1.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'java-pkg-opt-2' 'autotools' 'python' 'prefix' 'pax-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
 !!!                       python.eclass, line  16:  Called die
 !!! The die message:
 !!!  python.eclass can not be used with python-r1 suite eclasses.
 
-!!!   xulrunner-1.9.2.13-r1.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'java-pkg-opt-2' 'autotools' 'python' 'prefix' 'pax-utils'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: www-client/firefox-3.6.8 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                  python.eclass, line  16:  Called die
-!!! The die message:
-!!!  python.eclass can not be used with python-r1 suite eclasses.
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.13.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/net-libs/xulrunner/xulrunner-1.9.2.8-r1.ebuild'
-!!!          firefox-3.6.13.ebuild, line   7:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'mozextension' 'java-pkg-opt-2' 'python'
-!!!    xulrunner-1.9.2.8-r1.ebuild, line   8:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'java-pkg-opt-2' 'autotools' 'python' 'prefix' 'pax-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                  python.eclass, line  16:  Called die
-!!! The die message:
-!!!  python.eclass can not be used with python-r1 suite eclasses.
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.8.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!          firefox-3.6.13.ebuild, line   7:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'mozextension' 'java-pkg-opt-2' 'python'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.8.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/loongson/www-client/firefox/firefox-3.6.8.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                  python.eclass, line  16:  Called die
+!!! The die message:
+!!!  python.eclass can not be used with python-r1 suite eclasses.
+
 !!!           firefox-3.6.8.ebuild, line   7:  Called inherit 'flag-o-matic' 'toolchain-funcs' 'eutils' 'mozconfig-3' 'makeedit' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'mozextension' 'java-pkg-opt-2' 'python'
 !!!                  python.eclass, line  16:  Called die
 !!! The die message:
@@ -335,13 +335,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', d
 !!!  python.eclass can not be used with python-r1 suite eclasses.
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-libs/xulrunner-2.0_beta5_pre-r2
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: net-libs/xulrunner-1.9.2.13-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-libs/xulrunner-1.9.2.8-r1
+!!! caught exception False while processing ebuild src: net-libs/xulrunner-2.0_beta5_pre-r2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-client/firefox-3.6.13
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-libs/xulrunner-1.9.2.8-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-client/firefox-3.6.8
  * Cache regenerated successfully
