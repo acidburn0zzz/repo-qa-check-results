@@ -95,7 +95,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   5aa1a48..37d48d9  master     -> origin/master
+Updating 5aa1a48..37d48d9
+Fast-forward
+ .../CPAN-Uploader/CPAN-Uploader-0.103.2.ebuild     | 58 --------------
+ .../CPAN-Uploader/CPAN-Uploader-0.103.4.ebuild     | 62 ---------------
+ .../CPAN-Uploader/CPAN-Uploader-0.103.9.ebuild     | 31 ++++++++
+ dev-perl/CPAN-Uploader/Manifest                    |  3 +-
+ eclass/perl-module.eclass                          |  5 ++
+ eclass/perl-version.eclass                         | 91 ++++++++++++++++++++++
+ 6 files changed, 128 insertions(+), 122 deletions(-)
+ delete mode 100644 dev-perl/CPAN-Uploader/CPAN-Uploader-0.103.2.ebuild
+ delete mode 100644 dev-perl/CPAN-Uploader/CPAN-Uploader-0.103.4.ebuild
+ create mode 100644 dev-perl/CPAN-Uploader/CPAN-Uploader-0.103.9.ebuild
+ create mode 100644 eclass/perl-version.eclass
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
