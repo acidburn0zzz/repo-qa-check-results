@@ -96,35 +96,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/jorgicio/jorgicio-gentoo
-   89723cc..c5b914b  master     -> origin/master
-Updating 89723cc..c5b914b
+   c5b914b..8ae8444  master     -> origin/master
+Updating c5b914b..8ae8444
 Fast-forward
- README.md                                          |  2 +
- net-dns/dnscrypt-proxy/Manifest                    |  4 ++
- net-dns/dnscrypt-proxy/dnscrypt-proxy-1.5.0.ebuild | 38 ++++++++++
- net-dns/dnscrypt-proxy/files/dnscrypt-proxy.confd  |  7 ++
- net-dns/dnscrypt-proxy/files/dnscrypt-proxy.initd  | 48 +++++++++++++
- sys-apps/kbd/Manifest                              |  4 ++
- sys-apps/kbd/files/dvorak-la.map                   | 84 ++++++++++++++++++++++
- sys-apps/kbd/files/kbd-2.0.0-tests.patch           | 31 ++++++++
- sys-apps/kbd/kbd-2.0.2-r1.ebuild                   | 66 +++++++++++++++++
- x11-misc/xkeyboard-config/Manifest                 |  4 ++
- x11-misc/xkeyboard-config/files/evdev-dvorak.patch | 15 ++++
- x11-misc/xkeyboard-config/files/latam-dvorak.patch | 67 +++++++++++++++++
- .../xkeyboard-config-2.14-r1.ebuild                | 54 ++++++++++++++
- 13 files changed, 424 insertions(+)
- create mode 100644 net-dns/dnscrypt-proxy/Manifest
- create mode 100644 net-dns/dnscrypt-proxy/dnscrypt-proxy-1.5.0.ebuild
- create mode 100644 net-dns/dnscrypt-proxy/files/dnscrypt-proxy.confd
- create mode 100644 net-dns/dnscrypt-proxy/files/dnscrypt-proxy.initd
- create mode 100644 sys-apps/kbd/Manifest
- create mode 100644 sys-apps/kbd/files/dvorak-la.map
- create mode 100644 sys-apps/kbd/files/kbd-2.0.0-tests.patch
- create mode 100644 sys-apps/kbd/kbd-2.0.2-r1.ebuild
- create mode 100644 x11-misc/xkeyboard-config/Manifest
- create mode 100644 x11-misc/xkeyboard-config/files/evdev-dvorak.patch
- create mode 100644 x11-misc/xkeyboard-config/files/latam-dvorak.patch
- create mode 100644 x11-misc/xkeyboard-config/xkeyboard-config-2.14-r1.ebuild
+ x11-misc/xkeyboard-config/Manifest                        |  4 +++-
+ x11-misc/xkeyboard-config/files/base-dvorak.patch         | 15 +++++++++++++++
+ x11-misc/xkeyboard-config/files/es-dvorak-lang.patch      | 13 +++++++++++++
+ x11-misc/xkeyboard-config/xkeyboard-config-2.14-r1.ebuild |  2 ++
+ 4 files changed, 33 insertions(+), 1 deletion(-)
+ create mode 100644 x11-misc/xkeyboard-config/files/base-dvorak.patch
+ create mode 100644 x11-misc/xkeyboard-config/files/es-dvorak-lang.patch
 *** syncing '/home/mgorny/repos/jorgicio'...
 *** synced '/home/mgorny/repos/jorgicio'
  * Sync succeeded
@@ -262,48 +243,48 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 
+!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
+
 !!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
 !!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 WARNING: 'use_enable' function invoked by x11-misc/xkeyboard-config-2.14-r1 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
-!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
 !!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                  kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!                  kde4-functions.eclass, line  23:  Called die
@@ -311,7 +292,7 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!!  EAPI=4 is not supported
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
  * Cache regenerated successfully
