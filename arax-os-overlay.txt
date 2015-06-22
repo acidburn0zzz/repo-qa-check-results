@@ -1,5 +1,22 @@
+{u'description': [u'Arax OS overlay'],
+ u'feeds': [u'https://github.com/arax-os/overlay/commits/master.atom'],
+ u'homepage': u'https://github.com/arax-os/overlay',
+ u'irc': None,
+ u'name': u'arax-os-overlay',
+ u'official': False,
+ u'owner_email': u'arax@arnet.am',
+ u'owner_name': None,
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'git://github.com/arax-os/overlay.git', u'Git', u''),
+              (u'https://github.com/arax-os/overlay.git', u'Git', u''),
+              (u'git@github.com:arax-os/overlay.git', u'Git', u'')],
+ u'status': u'unofficial',
+ u'supported': True}
  * Adding new repository
 $ pmaint sync /home/mgorny/repos/arax-os-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -7,9 +24,8 @@ WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't 
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/repos/arax-os-overlay'...
 *** syncing '/home/mgorny/repos/arax-os-overlay'...
 *** synced '/home/mgorny/repos/arax-os-overlay'

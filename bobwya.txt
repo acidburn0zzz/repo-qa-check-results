@@ -1,19 +1,37 @@
+{u'description': [u'Miscellaneous Gentoo ebuilds'],
+ u'feeds': [u'https://github.com/bobwya/miscellaneous_ebuilds/commits/master.atom'],
+ u'homepage': u'https://github.com/bobwya/miscellaneous_ebuilds',
+ u'irc': None,
+ u'name': u'bobwya',
+ u'official': False,
+ u'owner_email': u'bob.mt.wya@gmail.com',
+ u'owner_name': u'Bob Wya',
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'https://github.com/bobwya/miscellaneous_ebuilds.git',
+               u'Git',
+               u''),
+              (u'git://github.com/bobwya/miscellaneous_ebuilds.git',
+               u'Git',
+               u''),
+              (u'git@github.com:bobwya/miscellaneous_ebuilds.git',
+               u'Git',
+               u'')],
+ u'status': u'unofficial',
+ u'supported': True}
 $ pmaint sync /home/mgorny/repos/bobwya
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arax-os-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named '<unlabeled repository /home/mgorny/repos/arax-os-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/asux' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named '<unlabeled repository /home/mgorny/repos/asux>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/bobwya'...
 *** synced '/home/mgorny/repos/bobwya'

@@ -1,3 +1,18 @@
+{u'description': [u'From drm-next to phoronix-test-suite ebuilds'],
+ u'feeds': [u'https://cgit.gentoo.org/user/aluco.git/atom/'],
+ u'homepage': u'https://cgit.gentoo.org/user/aluco.git/',
+ u'irc': None,
+ u'name': u'aluco',
+ u'official': False,
+ u'owner_email': u'anthoine.bourgeois@gmail.com',
+ u'owner_name': u'Anthoine Bourgeois',
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'git://anongit.gentoo.org/user/aluco.git', u'Git', u''),
+              (u'https://anongit.gentoo.org/git/user/aluco.git', u'Git', u''),
+              (u'git+ssh://git@git.gentoo.org/user/aluco.git', u'Git', u'')],
+ u'status': u'unofficial',
+ u'supported': True}
 $ pmaint sync /home/mgorny/repos/aluco
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions

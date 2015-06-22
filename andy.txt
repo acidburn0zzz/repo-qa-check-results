@@ -1,11 +1,26 @@
+{u'description': [u'Development tools for embedded systems and misc stuff'],
+ u'feeds': [u'https://cgit.gentoo.org/user/andy.git/atom/'],
+ u'homepage': u'https://cgit.gentoo.org/user/andy.git/',
+ u'irc': None,
+ u'name': u'andy',
+ u'official': False,
+ u'owner_email': u'andy@ndyk.de',
+ u'owner_name': u'Andrew Karpow',
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'git://anongit.gentoo.org/user/andy.git', u'Git', u''),
+              (u'https://anongit.gentoo.org/git/user/andy.git', u'Git', u''),
+              (u'git+ssh://git@git.gentoo.org/user/andy.git', u'Git', u'')],
+ u'status': u'unofficial',
+ u'supported': True}
 $ pmaint sync /home/mgorny/repos/andy
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/andy'...
 *** synced '/home/mgorny/repos/andy'

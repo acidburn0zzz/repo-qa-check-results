@@ -1,12 +1,26 @@
+{u'description': [u'3D light cycles, like the movie TRON'],
+ u'feeds': [],
+ u'homepage': u'http://armagetronad.net',
+ u'irc': None,
+ u'name': u'armagetron',
+ u'official': False,
+ u'owner_email': u'luke-jr+gentoobugs@utopios.org',
+ u'owner_name': None,
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'https://armagetronad.svn.sourceforge.net/svnroot/armagetronad/armagetronad/trunk/build/gentoo/overlay',
+               u'Subversion',
+               None)],
+ u'status': u'unofficial',
+ u'supported': True}
  * Adding new repository
 $ pmaint sync /home/mgorny/repos/armagetron
 WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arc' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named '<unlabeled repository /home/mgorny/repos/arc>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
