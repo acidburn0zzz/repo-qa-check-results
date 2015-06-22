@@ -14,6 +14,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named 'ramereth', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/crossdev', named 'crossdev', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ibormuth' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ibormuth', named '<unlabeled repository /home/mgorny/repos/ibormuth>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g', named 'n4g', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -87,22 +89,43 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wish', named 'wish', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 receiving incremental file list
+eclass/R-packages.eclass
+metadata/layout.conf
+metadata/md5-cache/sci-R/
+metadata/md5-cache/sci-R/MuMIn-1.15.0
+metadata/md5-cache/sci-R/libamtrack-0.6.2-r6
+metadata/md5-cache/sci-R/lmerTest-2.0.28-r1
+profiles/categories
+profiles/repo_name
+profiles/use.desc
+sci-R/MuMIn/
+sci-R/MuMIn/Manifest
+sci-R/MuMIn/MuMIn-1.15.0.ebuild
+sci-R/MuMIn/metadata.xml
+sci-R/libamtrack/
+sci-R/libamtrack/Manifest
+sci-R/libamtrack/libamtrack-0.6.2-r6.ebuild
+sci-R/libamtrack/metadata.xml
+sci-R/lmerTest/
+sci-R/lmerTest/Manifest
+sci-R/lmerTest/lmerTest-2.0.28-r1.ebuild
+sci-R/lmerTest/metadata.xml
 
-Number of files: 81,318 (reg: 70,861, dir: 10,457)
-Number of created files: 0
-Number of regular files transferred: 0
-Total file size: 57.66M bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Number of files: 81,324 (reg: 70,867, dir: 10,457)
+Number of created files: 6 (reg: 6)
+Number of regular files transferred: 17
+Total file size: 57.67M bytes
+Total transferred file size: 188.90K bytes
+Literal data: 188.90K bytes
 Matched data: 0 bytes
-File list size: 1.68M
+File list size: 1.67M
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 10.53K
-Total bytes received: 1.92M
+Total bytes sent: 10.88K
+Total bytes received: 2.02M
 
-sent 10.53K bytes  received 1.92M bytes  124.79K bytes/sec
-total size is 57.66M  speedup is 29.81
+sent 10.88K bytes  received 2.02M bytes  140.28K bytes/sec
+total size is 57.67M  speedup is 28.35
 *** syncing '/home/mgorny/repos/R_Overlay'...
 *** synced '/home/mgorny/repos/R_Overlay'
  * Sync succeeded
