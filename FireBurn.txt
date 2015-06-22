@@ -12,7 +12,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/FireBurn
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing '/home/mgorny/repos/FireBurn'...
@@ -21,7 +20,4 @@ Already up-to-date.
 $ pmaint regen -t 2 FireBurn
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by games-action/trine-bin-1.08_p5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

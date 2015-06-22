@@ -50,8 +50,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named '<unlabeled repository /home/mgorny/repos/gentoo>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-arm' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named '<unlabeled repository /home/mgorny/repos/gentoo-arm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -66,77 +64,58 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named '<unlabeled repository /home/mgorny/repos/gentoo>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gmt' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named '<unlabeled repository /home/mgorny/repos/gmt>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/jorgicio/jorgicio-gentoo
+   ea142f1..ed9f1b0  master     -> origin/master
+Updating ea142f1..ed9f1b0
+Fast-forward
+ dev-python/python-wikipedia/Manifest               |  2 ++
+ .../python-wikipedia/python-wikipedia-1.4.0.ebuild | 24 ++++++++++++++++++++++
+ media-sound/lollypop/Manifest                      |  8 ++++----
+ media-sound/lollypop/lollypop-0.9.32.ebuild        |  3 ++-
+ media-sound/lollypop/lollypop-0.9.33.ebuild        |  3 ++-
+ media-sound/lollypop/lollypop-0.9.34.ebuild        |  3 ++-
+ media-sound/lollypop/lollypop-9999.ebuild          |  3 ++-
+ 7 files changed, 38 insertions(+), 8 deletions(-)
+ create mode 100644 dev-python/python-wikipedia/Manifest
+ create mode 100644 dev-python/python-wikipedia/python-wikipedia-1.4.0.ebuild
 *** syncing '/home/mgorny/repos/jorgicio'...
 *** synced '/home/mgorny/repos/jorgicio'
  * Sync succeeded
 $ pmaint regen -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use_enable' function invoked by x11-misc/xkeyboard-config-2.14-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.0.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 
 !!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.8 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.2 failed.
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use_enable' function invoked by gnome-extra/gpaste-3.2.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
 !!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
 !!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
+!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
+!!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
@@ -145,18 +124,18 @@ WARNING: Please ensure upstream is aware of it and working to remove it.
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-!!!                      ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_kde4-base'
-!!!                 isolated-functions.lib, line 221:  Called __preloaded_eclass_kde4-base
-!!!                     ebuild-daemon.bash, line 416:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!                      ebuild-daemon.lib, line  23:  Called __qa_invoke '__preloaded_eclass_kde4-functions'
-!!!                 isolated-functions.lib, line 221:  Called __preloaded_eclass_kde4-functions
-!!!                     ebuild-daemon.bash, line 402:  Called die
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
  * Cache regenerated successfully
