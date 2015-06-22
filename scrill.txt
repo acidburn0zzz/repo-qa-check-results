@@ -106,28 +106,8 @@ Already up-to-date.
 *** synced '/home/mgorny/repos/scrill'
  * Sync succeeded
 $ pmaint regen -t 2 scrill
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-
-!!! ERROR: dev-perl/Log-LogLite-0.82 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/scrill/dev-perl/Log-LogLite/Log-LogLite-0.82.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/scrill/dev-perl/Log-LogLite/Log-LogLite-0.82.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/scrill/dev-perl/Log-LogLite/Log-LogLite-0.82.ebuild'
-!!!        Log-LogLite-0.82.ebuild, line   9:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Log-LogLite-0.82
- * Cache regenerated successfully
+Error in configuration:
+ Parsing failed: while loading portage configuration
+ 'main-repo'
+ 'main-repo'
+ * Cache regen failed with 246

@@ -93,20 +93,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named 'gentoo-arm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/sci
-   2fafef6..f29543a  master     -> origin/master
-Updating 2fafef6..f29543a
-Fast-forward
- sys-cluster/openmpi/ChangeLog            |   5 +
- sys-cluster/openmpi/Manifest             |   1 +
- sys-cluster/openmpi/openmpi-1.8.6.ebuild | 164 +++++++++++++++++++++++++++++++
- 3 files changed, 170 insertions(+)
- create mode 100644 sys-cluster/openmpi/openmpi-1.8.6.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/science'...
 *** synced '/home/mgorny/repos/science'
  * Sync succeeded
 $ pmaint regen -t 2 science
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+Error in configuration:
+ Parsing failed: while loading portage configuration
+ 'main-repo'
+ 'main-repo'
+ * Cache regen failed with 246

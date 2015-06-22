@@ -296,63 +296,15 @@
 </pre></td></tr>
             <tr class="" id="l143"><td><a href="#l143"><span>143</span></a></td><td><pre>$ pmaint regen -t 2 roslin
 </pre></td></tr>
-            <tr class="" id="l144"><td><a href="#l144"><span>144</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+            <tr class="" id="l144"><td><a href="#l144"><span>144</span></a></td><td><pre>Error in configuration:
 </pre></td></tr>
-            <tr class="" id="l145"><td><a href="#l145"><span>145</span></a></td><td><pre>WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
+            <tr class="" id="l145"><td><a href="#l145"><span>145</span></a></td><td><pre> Parsing failed: while loading portage configuration
 </pre></td></tr>
-            <tr class="" id="l146"><td><a href="#l146"><span>146</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+            <tr class="" id="l146"><td><a href="#l146"><span>146</span></a></td><td><pre> 'main-repo'
 </pre></td></tr>
-            <tr class="" id="l147"><td><a href="#l147"><span>147</span></a></td><td><pre>
+            <tr class="" id="l147"><td><a href="#l147"><span>147</span></a></td><td><pre> 'main-repo'
 </pre></td></tr>
-            <tr class="err" id="l148"><td><a href="#l148"><span>148</span></a></td><td><pre>!!! ERROR: media-video/qnapi-0.1.6_rc2-r1 failed.
-</pre></td><td>[FATAL]</td></tr>
-            <tr class="" id="l149"><td><a href="#l149"><span>149</span></a></td><td><pre>!!! die invoked from directory /usr/lib64/pkgcore
-</pre></td></tr>
-            <tr class="" id="l150"><td><a href="#l150"><span>150</span></a></td><td><pre>!!! Call stack:
-</pre></td></tr>
-            <tr class="" id="l151"><td><a href="#l151"><span>151</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-</pre></td></tr>
-            <tr class="" id="l152"><td><a href="#l152"><span>152</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-</pre></td></tr>
-            <tr class="" id="l153"><td><a href="#l153"><span>153</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
-</pre></td></tr>
-            <tr class="" id="l154"><td><a href="#l154"><span>154</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-</pre></td></tr>
-            <tr class="" id="l155"><td><a href="#l155"><span>155</span></a></td><td><pre>!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/roslin/media-video/qnapi/qnapi-0.1.6_rc2-r1.ebuild'
-</pre></td></tr>
-            <tr class="" id="l156"><td><a href="#l156"><span>156</span></a></td><td><pre>!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/roslin/media-video/qnapi/qnapi-0.1.6_rc2-r1.ebuild'
-</pre></td></tr>
-            <tr class="" id="l157"><td><a href="#l157"><span>157</span></a></td><td><pre>!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/roslin/media-video/qnapi/qnapi-0.1.6_rc2-r1.ebuild'
-</pre></td></tr>
-            <tr class="" id="l158"><td><a href="#l158"><span>158</span></a></td><td><pre>!!!      qnapi-0.1.6_rc2-r1.ebuild, line   9:  Called inherit 'eutils' 'gnome2-utils' 'kde4-base' 'qt4-r2'
-</pre></td></tr>
-            <tr class="" id="l159"><td><a href="#l159"><span>159</span></a></td><td><pre>!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-</pre></td></tr>
-            <tr class="" id="l160"><td><a href="#l160"><span>160</span></a></td><td><pre>!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-</pre></td></tr>
-            <tr class="" id="l161"><td><a href="#l161"><span>161</span></a></td><td><pre>!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-</pre></td></tr>
-            <tr class="" id="l162"><td><a href="#l162"><span>162</span></a></td><td><pre>!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-</pre></td></tr>
-            <tr class="" id="l163"><td><a href="#l163"><span>163</span></a></td><td><pre>!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-</pre></td></tr>
-            <tr class="" id="l164"><td><a href="#l164"><span>164</span></a></td><td><pre>!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-</pre></td></tr>
-            <tr class="" id="l165"><td><a href="#l165"><span>165</span></a></td><td><pre>!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-</pre></td></tr>
-            <tr class="" id="l166"><td><a href="#l166"><span>166</span></a></td><td><pre>!!!          kde4-functions.eclass, line  23:  Called die
-</pre></td></tr>
-            <tr class="err" id="l167"><td><a href="#l167"><span>167</span></a></td><td><pre>!!! The die message:
-</pre></td><td>[FATAL]</td></tr>
-            <tr class="" id="l168"><td><a href="#l168"><span>168</span></a></td><td><pre>!!!  EAPI=4 is not supported
-</pre></td></tr>
-            <tr class="" id="l169"><td><a href="#l169"><span>169</span></a></td><td><pre>
-</pre></td></tr>
-            <tr class="" id="l170"><td><a href="#l170"><span>170</span></a></td><td><pre>ERROR pkgcore: returned val from gen_metadata was 'False'
-</pre></td></tr>
-            <tr class="" id="l171"><td><a href="#l171"><span>171</span></a></td><td><pre>!!! caught exception False while processing ebuild src: media-video/qnapi-0.1.6_rc2-r1
-</pre></td></tr>
-            <tr class="" id="l172"><td><a href="#l172"><span>172</span></a></td><td><pre> * Cache regenerated successfully
+            <tr class="" id="l148"><td><a href="#l148"><span>148</span></a></td><td><pre> * Cache regen failed with 246
 </pre></td></tr>
 
         </table>

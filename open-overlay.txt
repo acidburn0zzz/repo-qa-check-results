@@ -108,12 +108,39 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   9f212b0..9e20d17  master     -> origin/master
+Updating 9f212b0..9e20d17
+Fast-forward
+ dev-util/android-sdk-update-manager/Manifest       |   2 +
+ .../android-sdk-update-manager-24.3.3.ebuild       | 108 +++++++++++++++++++++
+ dev-util/bluej/Manifest                            |   2 +
+ dev-util/bluej/bluej-3.1.5.ebuild                  |  57 +++++++++++
+ dev-util/eclipse-cpp/Manifest                      |   4 +-
+ dev-util/eclipse-cpp/eclipse-cpp-4.5.0-r1.ebuild   |  48 ---------
+ dev-util/eclipse-java-bin/Manifest                 |   4 +-
+ .../eclipse-java-bin-4.5.0-r1.ebuild               |  51 ----------
+ dev-util/eclipse-sdk-bin/Manifest                  |   4 +-
+ .../eclipse-sdk-bin-4.5.0-r1.ebuild                |  52 ----------
+ dev-util/idea-community/Manifest                   |   4 +-
+ .../idea-community-14.1.4.141.1532.4.ebuild        |  32 ++++++
+ dev-util/idea-ultimate/Manifest                    |   4 +-
+ .../idea-ultimate-14.1.4.141.1532.4.ebuild         |  29 ++++++
+ 14 files changed, 239 insertions(+), 162 deletions(-)
+ create mode 100644 dev-util/android-sdk-update-manager/android-sdk-update-manager-24.3.3.ebuild
+ create mode 100644 dev-util/bluej/bluej-3.1.5.ebuild
+ delete mode 100644 dev-util/eclipse-cpp/eclipse-cpp-4.5.0-r1.ebuild
+ delete mode 100644 dev-util/eclipse-java-bin/eclipse-java-bin-4.5.0-r1.ebuild
+ delete mode 100644 dev-util/eclipse-sdk-bin/eclipse-sdk-bin-4.5.0-r1.ebuild
+ create mode 100644 dev-util/idea-community/idea-community-14.1.4.141.1532.4.ebuild
+ create mode 100644 dev-util/idea-ultimate/idea-ultimate-14.1.4.141.1532.4.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
 $ pmaint regen -t 2 open-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+ERROR:pkgcore:Cannot write cache for /usr/lib64/python2.7/site-packages/pkgcore/plugins/plugincache: [Errno 13] Permission denied: '/usr/lib64/python2.7/site-packages/pkgcore/plugins/.update.plugincache'. Try running pplugincache.
+Error in configuration:
+ Parsing failed: while loading portage configuration
+ 'main-repo'
+ 'main-repo'
+ * Cache regen failed with 246

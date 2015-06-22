@@ -139,32 +139,8 @@ Already up-to-date.
 *** synced '/home/mgorny/repos/pinkbyte'
  * Sync succeeded
 $ pmaint regen -t 2 pinkbyte
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't exist, or lacks 0755 minimal permissions
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-
-!!! ERROR: kde-misc/serverstatuswidget-9999-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/pinkbyte/kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/pinkbyte/kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/pinkbyte/kde-misc/serverstatuswidget/serverstatuswidget-9999-r1.ebuild'
-!!!   serverstatuswidget-9999-r1.ebuild, line   7:  Called inherit 'kde4-base' 'git-2'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                    kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!               kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/serverstatuswidget-9999-r1
- * Cache regenerated successfully
+Error in configuration:
+ Parsing failed: while loading portage configuration
+ 'main-repo'
+ 'main-repo'
+ * Cache regen failed with 246
