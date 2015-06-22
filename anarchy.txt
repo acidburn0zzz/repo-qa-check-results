@@ -4,7 +4,26 @@ WARNING:pkgcore:disabling buildpkg related features since PKGDIR either doesn't 
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/dev/anarchy
+   bacddf1..10e3092  master     -> origin/master
+Updating bacddf1..10e3092
+Fast-forward
+ media-tv/kodi/Manifest                             |   8 +-
+ media-tv/kodi/files/kodi-14.2-disable-gtest.patch  |  13 ++
+ media-tv/kodi/files/kodi-14.2-privacy.patch        |  14 ++
+ .../files/kodi-14.2-remove-ljbig-and-ljasper.patch |  37 +++++
+ .../files/kodi-14.2-use-external-dvdread.patch     | 126 +++++++++++++++++
+ .../kodi-14.2-use-external-libhdhomerun.patch      | 154 +++++++++++++++++++++
+ .../files/kodi-14.2-use-external-libsidplay.patch  |  62 +++++++++
+ .../kodi/{kodi-14.2.ebuild => kodi-14.2-r1.ebuild} |  75 +++++++++-
+ 8 files changed, 481 insertions(+), 8 deletions(-)
+ create mode 100644 media-tv/kodi/files/kodi-14.2-disable-gtest.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-privacy.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-remove-ljbig-and-ljasper.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-use-external-dvdread.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-use-external-libhdhomerun.patch
+ create mode 100644 media-tv/kodi/files/kodi-14.2-use-external-libsidplay.patch
+ rename media-tv/kodi/{kodi-14.2.ebuild => kodi-14.2-r1.ebuild} (78%)
 *** syncing '/home/mgorny/repos/anarchy'...
 *** synced '/home/mgorny/repos/anarchy'
  * Sync succeeded
