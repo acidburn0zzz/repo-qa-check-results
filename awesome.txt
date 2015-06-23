@@ -14,12 +14,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/awesome
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arc' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named '<unlabeled repository /home/mgorny/repos/arc>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arc' lacks a defined repo_name
@@ -30,9 +28,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/asux' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named '<unlabeled repository /home/mgorny/repos/asux>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arax-os-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named '<unlabeled repository /home/mgorny/repos/arax-os-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-os-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From https://gitlab.awesome-it.de/overlays/awesome
+   178a09e..4e39688  master     -> origin/master
+Updating 178a09e..4e39688
+Fast-forward
+ app-office/openerp/Manifest                    |  8 ++++----
+ app-office/openerp/files/openerp.cfg           | 28 ++++++--------------------
+ app-office/openerp/files/openerp.confd         |  1 -
+ app-office/openerp/files/openerp.initd         | 13 +++++++-----
+ app-office/openerp/openerp-7.0.20150609.ebuild |  1 +
+ www-apps/redmine/Manifest                      |  4 ++--
+ www-apps/redmine/files/redmine.initd           |  2 +-
+ www-apps/redmine/redmine-3.0.3.ebuild          | 18 ++++++++++++++---
+ 8 files changed, 37 insertions(+), 38 deletions(-)
 *** syncing '/home/mgorny/repos/awesome'...
 *** synced '/home/mgorny/repos/awesome'
  * Sync succeeded
