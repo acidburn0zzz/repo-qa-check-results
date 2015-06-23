@@ -18,8 +18,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-arm' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-arm', named '<unlabeled repository /home/mgorny/repos/gentoo-arm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -46,7 +44,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/gmt' lacks a defined 
 WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named '<unlabeled repository /home/mgorny/repos/gmt>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -75,7 +74,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named 'arax-
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   8cb07dd..ea4cef5  master     -> origin/master
+Updating 8cb07dd..ea4cef5
+Fast-forward
+ dev-java/gcj-jdk/ChangeLog                         |   7 ++
+ dev-java/gcj-jdk/Manifest                          |  12 +--
+ ...cj-jdk-5.1.0.ebuild => gcj-jdk-5.1.0-r1.ebuild} |   7 +-
+ dev-java/gcj-jdk/metadata.xml                      |   3 +
+ dev-java/gnu-classpath/ChangeLog                   |  20 +++-
+ dev-java/gnu-classpath/Manifest                    |  26 ++----
+ dev-java/gnu-classpath/files/freetype.patch        |  64 +++++++++++++
+ dev-java/gnu-classpath/files/pr55182.patch         | 103 +++++++++++++++++++++
+ ...th-0.99.ebuild => gnu-classpath-0.99-r1.ebuild} |  28 +++---
+ dev-java/gnu-classpath/gnu-classpath-9999.ebuild   |  23 ++---
+ 10 files changed, 239 insertions(+), 54 deletions(-)
+ rename dev-java/gcj-jdk/{gcj-jdk-5.1.0.ebuild => gcj-jdk-5.1.0-r1.ebuild} (96%)
+ create mode 100644 dev-java/gnu-classpath/files/freetype.patch
+ create mode 100644 dev-java/gnu-classpath/files/pr55182.patch
+ rename dev-java/gnu-classpath/{gnu-classpath-0.99.ebuild => gnu-classpath-0.99-r1.ebuild} (82%)
 *** syncing '/home/mgorny/repos/java'...
 *** synced '/home/mgorny/repos/java'
  * Sync succeeded
