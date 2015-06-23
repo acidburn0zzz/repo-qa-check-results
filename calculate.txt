@@ -29,11 +29,32 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named 'arc', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://git.calculate.ru/calculate/overlay
+   f2e4890..11a7830  master     -> origin/master
+   11a7830..aebc787  develop    -> origin/develop
+   11a7830..aebc787  update     -> origin/update
+Updating f2e4890..11a7830
+Fast-forward
+ sys-apps/calculate-utils/Manifest                  |  1 +
+ .../calculate-utils/calculate-utils-3.3.2.8.ebuild | 24 ++++++++++++++++++++++
+ 2 files changed, 25 insertions(+)
+ create mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.8.ebuild
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.2.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.2.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.2.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.2.8 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
