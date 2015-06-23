@@ -13,20 +13,40 @@
  u'supported': True}
  * Adding new repository
 $ pmaint sync /home/mgorny/repos/bazaar
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anderse' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named '<unlabeled repository /home/mgorny/repos/anderse>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/anderse', named 'anderse', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arax-os-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arax-os-overlay', named '<unlabeled repository /home/mgorny/repos/arax-os-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/asux' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/asux', named '<unlabeled repository /home/mgorny/repos/asux>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arc' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named '<unlabeled repository /home/mgorny/repos/arc>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arc' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arc', named '<unlabeled repository /home/mgorny/repos/arc>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-The command 'bzr get' has been deprecated in bzr 2.4. Please use 'bzr branch' instead.
-bzr: ERROR: Not a branch: "/home/mgorny/repos/bazaar/".
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+You have not informed bzr of your Launchpad ID, and you must do this to
+write to Launchpad or access private data.  See "bzr help launchpad-login".
+Branched 379 revisions.
 *** syncing '/home/mgorny/repos/bazaar'...
-*** failed syncing '/home/mgorny/repos/bazaar'
- * Sync failed with 1
+*** synced '/home/mgorny/repos/bazaar'
+ * Sync succeeded
+$ pmaint regen -t 2 bazaar
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * 
+ * "/home/mgorny/repos/bazaar/www-apps/trac-bzr/trac-bzr-0.4.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * Cache regenerated successfully
