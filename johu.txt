@@ -14,6 +14,8 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/johu
+WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
@@ -52,15 +54,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/dev/johu
-   29ba67c..cc77b91  master     -> origin/master
-Updating 29ba67c..cc77b91
-Fast-forward
- app-portage/genlop/genlop-9999.ebuild | 29 +++++++++++++++++++++++++++++
- app-portage/genlop/metadata.xml       |  6 ++++++
- 2 files changed, 35 insertions(+)
- create mode 100644 app-portage/genlop/genlop-9999.ebuild
- create mode 100644 app-portage/genlop/metadata.xml
+Already up-to-date.
 *** syncing '/home/mgorny/repos/johu'...
 *** synced '/home/mgorny/repos/johu'
  * Sync succeeded
