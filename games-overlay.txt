@@ -28,7 +28,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/hasufell/games-overlay
+   cc344c5..c3df44a  master     -> origin/master
+Updating cc344c5..c3df44a
+Fast-forward
+ ...epsxe-1.6.0-r4.ebuild => epsxe-1.6.0-r5.ebuild} |  5 +-
+ ...8.ebuild => psemu-gpupetemesagl-1.78-r1.ebuild} |  5 +-
+ ....9.ebuild => psemu-gpupetexgl2-2.0.9-r1.ebuild} |  5 +-
+ ...xwin-1.6.ebuild => psemu-padxwin-1.6-r1.ebuild} |  5 +-
+ ...18.ebuild => psemu-peopssoftgpu-1.18-r1.ebuild} |  5 +-
+ ...1.0.9.ebuild => psemu-peopsspu-1.0.9-r1.ebuild} |  8 +-
+ games-misc/katawa-shoujo/Manifest                  |  1 -
+ ...-1.2-r2.ebuild => katawa-shoujo-1.3j-r1.ebuild} |  3 +-
+ games-misc/katawa-shoujo/katawa-shoujo-1.3j.ebuild | 92 ----------------------
+ ....ebuild => baldurs-gate-2-ee-1.0.0.1-r1.ebuild} | 30 ++-----
+ ....1.ebuild => baldurs-gate-ee-1.0.0.1-r1.ebuild} | 30 ++-----
+ ...9.0.13.ebuild => wasteland2-1.9.0.13-r1.ebuild} | 63 +++------------
+ 12 files changed, 37 insertions(+), 215 deletions(-)
+ rename games-emulation/epsxe/{epsxe-1.6.0-r4.ebuild => epsxe-1.6.0-r5.ebuild} (95%)
+ rename games-emulation/psemu-gpupetemesagl/{psemu-gpupetemesagl-1.78.ebuild => psemu-gpupetemesagl-1.78-r1.ebuild} (89%)
+ rename games-emulation/psemu-gpupetexgl2/{psemu-gpupetexgl2-2.0.9.ebuild => psemu-gpupetexgl2-2.0.9-r1.ebuild} (92%)
+ rename games-emulation/psemu-padxwin/{psemu-padxwin-1.6.ebuild => psemu-padxwin-1.6-r1.ebuild} (87%)
+ rename games-emulation/psemu-peopssoftgpu/{psemu-peopssoftgpu-1.18.ebuild => psemu-peopssoftgpu-1.18-r1.ebuild} (88%)
+ rename games-emulation/psemu-peopsspu/{psemu-peopsspu-1.0.9.ebuild => psemu-peopsspu-1.0.9-r1.ebuild} (88%)
+ rename games-misc/katawa-shoujo/{katawa-shoujo-1.2-r2.ebuild => katawa-shoujo-1.3j-r1.ebuild} (97%)
+ delete mode 100644 games-misc/katawa-shoujo/katawa-shoujo-1.3j.ebuild
+ rename games-rpg/baldurs-gate-2-ee/{baldurs-gate-2-ee-1.0.0.1.ebuild => baldurs-gate-2-ee-1.0.0.1-r1.ebuild} (72%)
+ rename games-rpg/baldurs-gate-ee/{baldurs-gate-ee-1.0.0.1.ebuild => baldurs-gate-ee-1.0.0.1-r1.ebuild} (72%)
+ rename games-rpg/wasteland2/{wasteland2-1.9.0.13.ebuild => wasteland2-1.9.0.13-r1.ebuild} (54%)
 *** syncing '/home/mgorny/repos/games-overlay'...
 *** synced '/home/mgorny/repos/games-overlay'
  * Sync succeeded
