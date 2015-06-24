@@ -20,8 +20,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gmt' lacks a defined repo_name
@@ -34,8 +33,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doe
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Updating '.':
@@ -47,39 +45,40 @@ $ pmaint regen -t 2 hanno
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: dev-db/mysql-5.4.3_beta failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
 !!! ERROR: dev-db/mysql-5.5.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: dev-db/mysql-5.4.3_beta failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!             mysql-5.5.1.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for mysql failed
-
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
-!!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.4.3_beta
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for mysql failed
+
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.5.1
+!!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.4.3_beta
  * Cache regenerated successfully
