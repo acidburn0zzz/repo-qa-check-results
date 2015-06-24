@@ -44,10 +44,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repos
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named 'postgresql-testing', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/postgresql-testing' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/postgresql-testing', named '<unlabeled repository /home/mgorny/repos/postgresql-testing>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gmt', named 'gmt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -67,7 +67,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   c026500..33cea93  master     -> origin/master
+Updating c026500..33cea93
+Fast-forward
+ sci-biology/RSeQC/ChangeLog          |  9 +++++++++
+ sci-biology/RSeQC/Manifest           |  2 ++
+ sci-biology/RSeQC/RSeQC-2.6.1.ebuild | 30 ++++++++++++++++++++++++++++++
+ sci-biology/RSeQC/metadata.xml       |  9 +++++++++
+ 4 files changed, 50 insertions(+)
+ create mode 100644 sci-biology/RSeQC/ChangeLog
+ create mode 100644 sci-biology/RSeQC/Manifest
+ create mode 100644 sci-biology/RSeQC/RSeQC-2.6.1.ebuild
+ create mode 100644 sci-biology/RSeQC/metadata.xml
 *** syncing '/home/mgorny/repos/science'...
 *** synced '/home/mgorny/repos/science'
  * Sync succeeded

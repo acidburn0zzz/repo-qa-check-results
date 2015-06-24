@@ -16,14 +16,205 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a d
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/overlay
+   aebc787..161092a  master     -> origin/master
+Updating aebc787..161092a
+Fast-forward
+ profiles/base/desktop/package.keywords/default     |   3 +
+ profiles/base/package.keywords/default             |   1 +
+ profiles/calculate/README.txt                      |   1 -
+ profiles/calculate/amd64/parent                    |   1 -
+ profiles/calculate/base/package.mask               |   9 -
+ profiles/calculate/base/package.use                |  16 --
+ .../desktop/CLD/amd64/binary/make.defaults         |   2 -
+ profiles/calculate/desktop/CLD/amd64/binary/parent |   1 -
+ profiles/calculate/desktop/CLD/amd64/make.defaults |   5 -
+ profiles/calculate/desktop/CLD/amd64/parent        |   3 -
+ profiles/calculate/desktop/CLD/calculate.env       |   5 -
+ profiles/calculate/desktop/CLD/make.defaults       |  25 --
+ profiles/calculate/desktop/CLD/package.keywords    | 315 ---------------------
+ profiles/calculate/desktop/CLD/package.mask        |   4 -
+ profiles/calculate/desktop/CLD/package.unmask      |   5 -
+ profiles/calculate/desktop/CLD/package.use         |  86 ------
+ profiles/calculate/desktop/CLD/virtuals            |   2 -
+ .../calculate/desktop/CLD/x86/binary/make.defaults |   2 -
+ profiles/calculate/desktop/CLD/x86/binary/parent   |   1 -
+ profiles/calculate/desktop/CLD/x86/make.defaults   |   5 -
+ profiles/calculate/desktop/CLD/x86/parent          |   3 -
+ .../desktop/CLDX/amd64/binary/make.defaults        |   2 -
+ .../calculate/desktop/CLDX/amd64/binary/parent     |   1 -
+ .../calculate/desktop/CLDX/amd64/make.defaults     |   5 -
+ profiles/calculate/desktop/CLDX/amd64/parent       |   3 -
+ profiles/calculate/desktop/CLDX/calculate.env      |   5 -
+ profiles/calculate/desktop/CLDX/make.defaults      |  19 --
+ profiles/calculate/desktop/CLDX/package.keywords   |  30 --
+ profiles/calculate/desktop/CLDX/package.mask       |   3 -
+ profiles/calculate/desktop/CLDX/package.unmask     |   3 -
+ profiles/calculate/desktop/CLDX/package.use        |  37 ---
+ profiles/calculate/desktop/CLDX/virtuals           |   2 -
+ .../desktop/CLDX/x86/binary/make.defaults          |   2 -
+ profiles/calculate/desktop/CLDX/x86/binary/parent  |   1 -
+ profiles/calculate/desktop/CLDX/x86/make.defaults  |   5 -
+ profiles/calculate/desktop/CLDX/x86/parent         |   3 -
+ .../desktop/CLS/amd64/binary/make.defaults         |   2 -
+ profiles/calculate/desktop/CLS/amd64/binary/parent |   1 -
+ profiles/calculate/desktop/CLS/amd64/make.defaults |   5 -
+ profiles/calculate/desktop/CLS/amd64/parent        |   3 -
+ profiles/calculate/desktop/CLS/calculate.env       |   4 -
+ profiles/calculate/desktop/CLS/make.defaults       |   6 -
+ profiles/calculate/desktop/CLS/package.unmask      |   1 -
+ profiles/calculate/desktop/CLS/package.use         |   6 -
+ .../calculate/desktop/CLS/x86/binary/make.defaults |   2 -
+ profiles/calculate/desktop/CLS/x86/binary/parent   |   1 -
+ profiles/calculate/desktop/CLS/x86/make.defaults   |   5 -
+ profiles/calculate/desktop/CLS/x86/parent          |   3 -
+ .../desktop/CMC/amd64/binary/make.defaults         |   2 -
+ profiles/calculate/desktop/CMC/amd64/binary/parent |   1 -
+ profiles/calculate/desktop/CMC/amd64/make.defaults |   5 -
+ profiles/calculate/desktop/CMC/amd64/package.mask  |   1 -
+ profiles/calculate/desktop/CMC/amd64/parent        |   3 -
+ profiles/calculate/desktop/CMC/calculate.env       |   4 -
+ profiles/calculate/desktop/CMC/make.defaults       |  18 --
+ profiles/calculate/desktop/CMC/package.keywords    |   4 -
+ profiles/calculate/desktop/CMC/package.unmask      |   2 -
+ profiles/calculate/desktop/CMC/package.use         |  24 --
+ .../calculate/desktop/CMC/x86/binary/make.defaults |   2 -
+ profiles/calculate/desktop/CMC/x86/binary/parent   |   1 -
+ profiles/calculate/desktop/CMC/x86/make.defaults   |   5 -
+ profiles/calculate/desktop/CMC/x86/parent          |   3 -
+ profiles/calculate/desktop/amd64/parent            |   1 -
+ profiles/calculate/desktop/x86/parent              |   1 -
+ .../server/CDS/amd64/binary/make.defaults          |   2 -
+ profiles/calculate/server/CDS/amd64/binary/parent  |   1 -
+ profiles/calculate/server/CDS/amd64/make.defaults  |   5 -
+ profiles/calculate/server/CDS/amd64/parent         |   3 -
+ profiles/calculate/server/CDS/calculate.env        |   4 -
+ profiles/calculate/server/CDS/make.defaults        |  25 --
+ profiles/calculate/server/CDS/package.keywords     |   8 -
+ profiles/calculate/server/CDS/package.mask         |   0
+ profiles/calculate/server/CDS/package.unmask       |   1 -
+ profiles/calculate/server/CDS/package.use          |  27 --
+ profiles/calculate/server/CDS/virtuals             |   5 -
+ .../calculate/server/CDS/x86/binary/make.defaults  |   2 -
+ profiles/calculate/server/CDS/x86/binary/parent    |   1 -
+ profiles/calculate/server/CDS/x86/make.defaults    |   5 -
+ profiles/calculate/server/CDS/x86/package.mask     |   2 -
+ profiles/calculate/server/CDS/x86/parent           |   3 -
+ .../server/CSS/amd64/binary/make.defaults          |   2 -
+ profiles/calculate/server/CSS/amd64/binary/parent  |   1 -
+ profiles/calculate/server/CSS/amd64/make.defaults  |   5 -
+ profiles/calculate/server/CSS/amd64/parent         |   3 -
+ profiles/calculate/server/CSS/calculate.env        |   4 -
+ profiles/calculate/server/CSS/make.defaults        |   5 -
+ profiles/calculate/server/CSS/package.unmask       |   1 -
+ profiles/calculate/server/CSS/package.use          |   1 -
+ .../calculate/server/CSS/x86/binary/make.defaults  |   2 -
+ profiles/calculate/server/CSS/x86/binary/parent    |   1 -
+ profiles/calculate/server/CSS/x86/make.defaults    |   5 -
+ profiles/calculate/server/CSS/x86/parent           |   3 -
+ profiles/calculate/server/amd64/parent             |   1 -
+ profiles/calculate/server/x86/parent               |   1 -
+ profiles/calculate/x86/parent                      |   1 -
+ 95 files changed, 4 insertions(+), 858 deletions(-)
+ delete mode 100644 profiles/calculate/README.txt
+ delete mode 100644 profiles/calculate/amd64/parent
+ delete mode 100644 profiles/calculate/base/package.mask
+ delete mode 100644 profiles/calculate/base/package.use
+ delete mode 100644 profiles/calculate/desktop/CLD/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLD/amd64/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLD/amd64/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLD/amd64/parent
+ delete mode 100644 profiles/calculate/desktop/CLD/calculate.env
+ delete mode 100644 profiles/calculate/desktop/CLD/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLD/package.keywords
+ delete mode 100644 profiles/calculate/desktop/CLD/package.mask
+ delete mode 100644 profiles/calculate/desktop/CLD/package.unmask
+ delete mode 100644 profiles/calculate/desktop/CLD/package.use
+ delete mode 100644 profiles/calculate/desktop/CLD/virtuals
+ delete mode 100644 profiles/calculate/desktop/CLD/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLD/x86/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLD/x86/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLD/x86/parent
+ delete mode 100644 profiles/calculate/desktop/CLDX/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLDX/amd64/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLDX/amd64/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLDX/amd64/parent
+ delete mode 100644 profiles/calculate/desktop/CLDX/calculate.env
+ delete mode 100644 profiles/calculate/desktop/CLDX/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLDX/package.keywords
+ delete mode 100644 profiles/calculate/desktop/CLDX/package.mask
+ delete mode 100644 profiles/calculate/desktop/CLDX/package.unmask
+ delete mode 100644 profiles/calculate/desktop/CLDX/package.use
+ delete mode 100644 profiles/calculate/desktop/CLDX/virtuals
+ delete mode 100644 profiles/calculate/desktop/CLDX/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLDX/x86/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLDX/x86/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLDX/x86/parent
+ delete mode 100644 profiles/calculate/desktop/CLS/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLS/amd64/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLS/amd64/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLS/amd64/parent
+ delete mode 100644 profiles/calculate/desktop/CLS/calculate.env
+ delete mode 100644 profiles/calculate/desktop/CLS/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLS/package.unmask
+ delete mode 100644 profiles/calculate/desktop/CLS/package.use
+ delete mode 100644 profiles/calculate/desktop/CLS/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLS/x86/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CLS/x86/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CLS/x86/parent
+ delete mode 100644 profiles/calculate/desktop/CMC/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CMC/amd64/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CMC/amd64/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CMC/amd64/package.mask
+ delete mode 100644 profiles/calculate/desktop/CMC/amd64/parent
+ delete mode 100644 profiles/calculate/desktop/CMC/calculate.env
+ delete mode 100644 profiles/calculate/desktop/CMC/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CMC/package.keywords
+ delete mode 100644 profiles/calculate/desktop/CMC/package.unmask
+ delete mode 100644 profiles/calculate/desktop/CMC/package.use
+ delete mode 100644 profiles/calculate/desktop/CMC/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CMC/x86/binary/parent
+ delete mode 100644 profiles/calculate/desktop/CMC/x86/make.defaults
+ delete mode 100644 profiles/calculate/desktop/CMC/x86/parent
+ delete mode 100644 profiles/calculate/desktop/amd64/parent
+ delete mode 100644 profiles/calculate/desktop/x86/parent
+ delete mode 100644 profiles/calculate/server/CDS/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/server/CDS/amd64/binary/parent
+ delete mode 100644 profiles/calculate/server/CDS/amd64/make.defaults
+ delete mode 100644 profiles/calculate/server/CDS/amd64/parent
+ delete mode 100644 profiles/calculate/server/CDS/calculate.env
+ delete mode 100644 profiles/calculate/server/CDS/make.defaults
+ delete mode 100644 profiles/calculate/server/CDS/package.keywords
+ delete mode 100644 profiles/calculate/server/CDS/package.mask
+ delete mode 100644 profiles/calculate/server/CDS/package.unmask
+ delete mode 100644 profiles/calculate/server/CDS/package.use
+ delete mode 100644 profiles/calculate/server/CDS/virtuals
+ delete mode 100644 profiles/calculate/server/CDS/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/server/CDS/x86/binary/parent
+ delete mode 100644 profiles/calculate/server/CDS/x86/make.defaults
+ delete mode 100644 profiles/calculate/server/CDS/x86/package.mask
+ delete mode 100644 profiles/calculate/server/CDS/x86/parent
+ delete mode 100644 profiles/calculate/server/CSS/amd64/binary/make.defaults
+ delete mode 100644 profiles/calculate/server/CSS/amd64/binary/parent
+ delete mode 100644 profiles/calculate/server/CSS/amd64/make.defaults
+ delete mode 100644 profiles/calculate/server/CSS/amd64/parent
+ delete mode 100644 profiles/calculate/server/CSS/calculate.env
+ delete mode 100644 profiles/calculate/server/CSS/make.defaults
+ delete mode 100644 profiles/calculate/server/CSS/package.unmask
+ delete mode 100644 profiles/calculate/server/CSS/package.use
+ delete mode 100644 profiles/calculate/server/CSS/x86/binary/make.defaults
+ delete mode 100644 profiles/calculate/server/CSS/x86/binary/parent
+ delete mode 100644 profiles/calculate/server/CSS/x86/make.defaults
+ delete mode 100644 profiles/calculate/server/CSS/x86/parent
+ delete mode 100644 profiles/calculate/server/amd64/parent
+ delete mode 100644 profiles/calculate/server/x86/parent
+ delete mode 100644 profiles/calculate/x86/parent
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
