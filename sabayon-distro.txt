@@ -45,8 +45,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/n4g-experimental' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g-experimental', named '<unlabeled repository /home/mgorny/repos/n4g-experimental>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named 'paddymac', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -60,7 +59,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repo
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   0fefefa..556e904  master     -> origin/master
+Updating 0fefefa..556e904
+Fast-forward
+ media-sound/pithos/Manifest                        |  1 -
+ .../files/pithos-20130808-detect-datadir.patch     | 16 -------
+ .../files/pithos-20130808-dont-notify-volume.patch | 13 ------
+ media-sound/pithos/files/setup.py                  | 37 ----------------
+ media-sound/pithos/metadata.xml                    |  8 ----
+ media-sound/pithos/pithos-20130808.ebuild          | 49 ----------------------
+ 6 files changed, 124 deletions(-)
+ delete mode 100644 media-sound/pithos/Manifest
+ delete mode 100644 media-sound/pithos/files/pithos-20130808-detect-datadir.patch
+ delete mode 100644 media-sound/pithos/files/pithos-20130808-dont-notify-volume.patch
+ delete mode 100644 media-sound/pithos/files/setup.py
+ delete mode 100644 media-sound/pithos/metadata.xml
+ delete mode 100644 media-sound/pithos/pithos-20130808.ebuild
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded
