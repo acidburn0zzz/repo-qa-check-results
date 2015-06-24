@@ -30,10 +30,12 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -56,85 +58,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/salfter/portage
-   ccdf777..1749793  master     -> origin/master
-Updating ccdf777..1749793
-Fast-forward
- net-p2p/acoin-cli/Manifest                         |   3 -
- net-p2p/acoin-cli/acoin-cli-9999.ebuild            |  74 -------------
- net-p2p/acoin-cli/files/0.9.0-sys_leveldb.patch    |  34 ------
- net-p2p/acoin-cli/metadata.xml                     |  20 ----
- net-p2p/bitmark-cli/Manifest                       |   3 -
- net-p2p/bitmark-cli/bitmark-cli-9999.ebuild        |  74 -------------
- net-p2p/bitmark-cli/files/0.9.0-sys_leveldb.patch  |  34 ------
- net-p2p/bitmark-cli/metadata.xml                   |  20 ----
- net-p2p/digibyte-cli/Manifest                      |   3 -
- net-p2p/digibyte-cli/digibyte-cli-9999.ebuild      |  74 -------------
- net-p2p/digibyte-cli/files/0.9.0-sys_leveldb.patch |  34 ------
- net-p2p/digibyte-cli/metadata.xml                  |  20 ----
- net-p2p/dogecoin-cli/Manifest                      |   3 -
- net-p2p/dogecoin-cli/dogecoin-cli-9999.ebuild      |  74 -------------
- net-p2p/dogecoin-cli/files/0.9.0-sys_leveldb.patch |  34 ------
- net-p2p/dogecoin-cli/metadata.xml                  |  20 ----
- net-p2p/fractalcoind/Manifest                      |  10 ++
- .../files/0.9.0-sys_leveldb.patch                  |   0
- net-p2p/fractalcoind/files/fractalcoin.conf        |   8 ++
- net-p2p/fractalcoind/files/fractalcoin.confd       |  10 ++
- net-p2p/fractalcoind/files/fractalcoin.initd       | 104 ++++++++++++++++++
- net-p2p/fractalcoind/files/fractalcoin.initd-r1    |  29 +++++
- net-p2p/fractalcoind/files/fractalcoind.logrotate  |   7 ++
- net-p2p/fractalcoind/files/fractalcoind.service    |  30 ++++++
- .../fractalcoind/files/leveldbwrapper-memenv.patch |  11 ++
- net-p2p/fractalcoind/fractalcoind-9999.ebuild      | 120 +++++++++++++++++++++
- .../{zetacoin-cli => fractalcoind}/metadata.xml    |   0
- net-p2p/joulecoin-cli/Manifest                     |   3 -
- .../joulecoin-cli/files/0.9.0-sys_leveldb.patch    |  34 ------
- net-p2p/joulecoin-cli/joulecoin-cli-9999.ebuild    |  74 -------------
- net-p2p/joulecoin-cli/metadata.xml                 |  20 ----
- net-p2p/nautiluscoin-cli/Manifest                  |   3 -
- .../nautiluscoin-cli/files/0.9.0-sys_leveldb.patch |  34 ------
- net-p2p/nautiluscoin-cli/metadata.xml              |  20 ----
- .../nautiluscoin-cli/nautiluscoin-cli-9999.ebuild  |  74 -------------
- net-p2p/zetacoin-cli/Manifest                      |   3 -
- net-p2p/zetacoin-cli/zetacoin-cli-9999.ebuild      |  74 -------------
- 37 files changed, 329 insertions(+), 863 deletions(-)
- delete mode 100644 net-p2p/acoin-cli/Manifest
- delete mode 100644 net-p2p/acoin-cli/acoin-cli-9999.ebuild
- delete mode 100644 net-p2p/acoin-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/acoin-cli/metadata.xml
- delete mode 100644 net-p2p/bitmark-cli/Manifest
- delete mode 100644 net-p2p/bitmark-cli/bitmark-cli-9999.ebuild
- delete mode 100644 net-p2p/bitmark-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/bitmark-cli/metadata.xml
- delete mode 100644 net-p2p/digibyte-cli/Manifest
- delete mode 100644 net-p2p/digibyte-cli/digibyte-cli-9999.ebuild
- delete mode 100644 net-p2p/digibyte-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/digibyte-cli/metadata.xml
- delete mode 100644 net-p2p/dogecoin-cli/Manifest
- delete mode 100644 net-p2p/dogecoin-cli/dogecoin-cli-9999.ebuild
- delete mode 100644 net-p2p/dogecoin-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/dogecoin-cli/metadata.xml
- create mode 100644 net-p2p/fractalcoind/Manifest
- rename net-p2p/{zetacoin-cli => fractalcoind}/files/0.9.0-sys_leveldb.patch (100%)
- create mode 100644 net-p2p/fractalcoind/files/fractalcoin.conf
- create mode 100644 net-p2p/fractalcoind/files/fractalcoin.confd
- create mode 100644 net-p2p/fractalcoind/files/fractalcoin.initd
- create mode 100644 net-p2p/fractalcoind/files/fractalcoin.initd-r1
- create mode 100644 net-p2p/fractalcoind/files/fractalcoind.logrotate
- create mode 100644 net-p2p/fractalcoind/files/fractalcoind.service
- create mode 100644 net-p2p/fractalcoind/files/leveldbwrapper-memenv.patch
- create mode 100644 net-p2p/fractalcoind/fractalcoind-9999.ebuild
- rename net-p2p/{zetacoin-cli => fractalcoind}/metadata.xml (100%)
- delete mode 100644 net-p2p/joulecoin-cli/Manifest
- delete mode 100644 net-p2p/joulecoin-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/joulecoin-cli/joulecoin-cli-9999.ebuild
- delete mode 100644 net-p2p/joulecoin-cli/metadata.xml
- delete mode 100644 net-p2p/nautiluscoin-cli/Manifest
- delete mode 100644 net-p2p/nautiluscoin-cli/files/0.9.0-sys_leveldb.patch
- delete mode 100644 net-p2p/nautiluscoin-cli/metadata.xml
- delete mode 100644 net-p2p/nautiluscoin-cli/nautiluscoin-cli-9999.ebuild
- delete mode 100644 net-p2p/zetacoin-cli/Manifest
- delete mode 100644 net-p2p/zetacoin-cli/zetacoin-cli-9999.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/salfter'...
 *** synced '/home/mgorny/repos/salfter'
  * Sync succeeded
@@ -142,108 +66,108 @@ $ pmaint regen -t 2 salfter
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: perl-gcpan/HTML-WikiConverter-0.68 failed.
+
+!!! ERROR: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
+!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: perl-gcpan/Math-Round-0.06 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: perl-gcpan/HTML-CalendarMonthSimple-1.25 failed.
+!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
+
 !!! ERROR: perl-gcpan/CSS-1.08 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: perl-gcpan/Math-Round-0.06 failed.
-
-!!! ERROR: perl-gcpan/HTML-CalendarMonthSimple-1.25 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: perl-gcpan/HTML-WikiConverter-0.68 failed.
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '156' 'depend'
-!!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
-!!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
-!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
-!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
 !!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter/HTML-WikiConverter-0.68.ebuild'
-!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! Call stack:
 !!!   HTML-WikiConverter-0.68.ebuild, line   5:  Called inherit 'perl-module'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
-!!!                CSS-1.08.ebuild, line   5:  Called inherit 'perl-module'
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '156' 'depend'
+!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
 !!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
-!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   HTML-WikiConverter-DokuWiki-0.53.ebuild, line   5:  Called inherit 'perl-module'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
 !!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
 !!!               perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '263' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/Math-Round/Math-Round-0.06.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         Math-Round-0.06.ebuild, line   5:  Called inherit 'perl-module'
-!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     perl-module.eclass, line  40:  Called die
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/CSS/CSS-1.08.ebuild'
+!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
+!!!                CSS-1.08.ebuild, line   5:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-WikiConverter-DokuWiki/HTML-WikiConverter-DokuWiki-0.53.ebuild'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   HTML-WikiConverter-DokuWiki-0.53.ebuild, line   5:  Called inherit 'perl-module'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/salfter/perl-gcpan/HTML-CalendarMonthSimple/HTML-CalendarMonthSimple-1.25.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   HTML-CalendarMonthSimple-1.25.ebuild, line   5:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                         ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                        perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-0.68
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/CSS-1.08
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: perl-gcpan/Math-Round-0.06
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-WikiConverter-DokuWiki-0.53
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: perl-gcpan/HTML-CalendarMonthSimple-1.25
  * Cache regenerated successfully
