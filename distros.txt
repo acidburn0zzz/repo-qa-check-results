@@ -32,48 +32,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://git.calculate.ru/calculate/distros
-   2af46ef..196e5b7  master     -> origin/master
-Updating 2af46ef..196e5b7
-Fast-forward
- profiles/CLDX+/amd64/make.defaults                      |  4 ++++
- profiles/CLDX+/amd64/parent                             |  2 ++
- profiles/CLDX+/calculate.env                            |  4 ++++
- profiles/CLDX+/make.defaults                            |  4 ++++
- profiles/CLDX+/parent                                   |  1 +
- profiles/CLDX+/x86/make.defaults                        |  4 ++++
- profiles/CLDX+/x86/parent                               |  2 ++
- profiles/CMC/amd64/make.defaults                        |  6 +++---
- profiles/CMC/make.defaults                              | 17 -----------------
- profiles/CMC/package.keywords                           |  1 -
- profiles/CMC/package.mask                               |  3 ---
- profiles/CMC/x86/make.defaults                          |  6 +++---
- profiles/profiles.desc                                  |  2 ++
- .../3.2/6_ac_update_sync/world/create/applications      |  4 ++--
- .../3.2/6_ac_update_sync/world/create/decoration        |  4 ++--
- .../3.2/6_ac_update_sync/world/create/emulation         |  6 ++++++
- .../3.2/6_ac_update_sync/world/create/graphics          |  4 ++--
- .../templates/3.2/6_ac_update_sync/world/create/mate    |  2 +-
- .../3.2/6_ac_update_sync/world/create/multimedia        | 10 ++++++++--
- .../templates/3.2/6_ac_update_sync/world/create/netapps | 12 ++++++++----
- .../templates/3.2/6_ac_update_sync/world/create/network |  8 ++++----
- .../templates/3.2/6_ac_update_sync/world/create/openbox |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/printer |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/tools   | 12 ++++++------
- .../3.2/6_ac_update_sync/world/create/wireless          |  4 ++--
- .../templates/3.2/6_ac_update_sync/world/create/xfce    |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/xorg    |  4 ++--
- 27 files changed, 75 insertions(+), 57 deletions(-)
- create mode 100644 profiles/CLDX+/amd64/make.defaults
- create mode 100644 profiles/CLDX+/amd64/parent
- create mode 100644 profiles/CLDX+/calculate.env
- create mode 100644 profiles/CLDX+/make.defaults
- create mode 100644 profiles/CLDX+/parent
- create mode 100644 profiles/CLDX+/x86/make.defaults
- create mode 100644 profiles/CLDX+/x86/parent
- delete mode 100644 profiles/CMC/package.keywords
- delete mode 100644 profiles/CMC/package.mask
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/create/emulation
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
