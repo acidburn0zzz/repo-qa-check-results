@@ -51,7 +51,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   16cd0a1..202de9f  master     -> origin/master
+Updating 16cd0a1..202de9f
+Fast-forward
+ eclass/github.eclass                               | 144 +++++++++++++++++++++
+ www-apps/nginx_ensite/Manifest                     |   1 +
+ www-apps/nginx_ensite/metadata.xml                 |   8 ++
+ .../nginx_ensite/nginx_ensite-0_p20150610.ebuild   |  25 ++++
+ www-apps/nginx_ensite/nginx_ensite-9999.ebuild     |  25 ++++
+ 5 files changed, 203 insertions(+)
+ create mode 100644 eclass/github.eclass
+ create mode 100644 www-apps/nginx_ensite/Manifest
+ create mode 100644 www-apps/nginx_ensite/metadata.xml
+ create mode 100644 www-apps/nginx_ensite/nginx_ensite-0_p20150610.ebuild
+ create mode 100644 www-apps/nginx_ensite/nginx_ensite-9999.ebuild
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded

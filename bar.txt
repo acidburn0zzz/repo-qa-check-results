@@ -22,41 +22,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/tokiclover/bar-overlay
-   6950653..c4904e6  master     -> origin/master
-Updating 6950653..c4904e6
-Fast-forward
- media-fonts/artwiz-aleczapka-de/Manifest           |   1 +
- .../artwiz-aleczapka-de-1.3.ebuild                 |  20 ++
- media-fonts/artwiz-aleczapka-de/metadata.xml       |   8 +
- media-fonts/artwiz-aleczapka-se/Manifest           |  26 ++
- .../artwiz-aleczapka-se-1.3.ebuild                 |  20 ++
- media-fonts/artwiz-aleczapka-se/metadata.xml       |   8 +
- profiles/package.list                              |   4 +
- profiles/sets/mail                                 |   4 +
- profiles/sets/portage                              |   1 +
- x11-themes/awoken-icon-theme/Manifest              |   1 +
- .../awoken-icon-theme/awoken-icon-theme-2.5.ebuild |  86 ++++++
- .../files/awoken-icon-settings.sh                  | 309 +++++++++++++++++++++
- x11-themes/awoken-icon-theme/metadata.xml          |  11 +
- x11-themes/kawoken-icon-theme/Manifest             |   2 +
- .../files/awoken-icon-settings.sh                  | 309 +++++++++++++++++++++
- .../kawoken-icon-theme-1.5.ebuild                  |  85 ++++++
- 16 files changed, 895 insertions(+)
- create mode 100644 media-fonts/artwiz-aleczapka-de/Manifest
- create mode 100644 media-fonts/artwiz-aleczapka-de/artwiz-aleczapka-de-1.3.ebuild
- create mode 100644 media-fonts/artwiz-aleczapka-de/metadata.xml
- create mode 100644 media-fonts/artwiz-aleczapka-se/Manifest
- create mode 100644 media-fonts/artwiz-aleczapka-se/artwiz-aleczapka-se-1.3.ebuild
- create mode 100644 media-fonts/artwiz-aleczapka-se/metadata.xml
- create mode 100644 profiles/sets/mail
- create mode 100644 x11-themes/awoken-icon-theme/Manifest
- create mode 100644 x11-themes/awoken-icon-theme/awoken-icon-theme-2.5.ebuild
- create mode 100755 x11-themes/awoken-icon-theme/files/awoken-icon-settings.sh
- create mode 100644 x11-themes/awoken-icon-theme/metadata.xml
- create mode 100644 x11-themes/kawoken-icon-theme/Manifest
- create mode 100755 x11-themes/kawoken-icon-theme/files/awoken-icon-settings.sh
- create mode 100644 x11-themes/kawoken-icon-theme/kawoken-icon-theme-1.5.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/bar'...
 *** synced '/home/mgorny/repos/bar'
  * Sync succeeded
