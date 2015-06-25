@@ -45,6 +45,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/n4g-experimental' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/n4g-experimental', named '<unlabeled repository /home/mgorny/repos/n4g-experimental>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -69,8 +71,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled r
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/phunehehe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named '<unlabeled repository /home/mgorny/repos/phunehehe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -86,7 +86,38 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-
 WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/gentoo-perl/perl-experimental-snapshots
+   0d8a026..647138b  master     -> origin/master
+Updating 0d8a026..647138b
+Fast-forward
+ metadata/md5-cache/virtual/perl-List-Util-1.380.0        |  7 +++++++
+ metadata/md5-cache/virtual/perl-List-Util-1.410.0        |  7 +++++++
+ metadata/md5-cache/virtual/perl-Scalar-Util-1.380.0      |  7 +++++++
+ metadata/md5-cache/virtual/perl-Scalar-Util-1.410.0      |  7 +++++++
+ metadata/md5-cache/virtual/perl-Sub-Util-1.410.0         |  7 +++++++
+ profiles/package.mask                                    |  3 +++
+ virtual/perl-List-Util/metadata.xml                      |  5 +++++
+ virtual/perl-List-Util/perl-List-Util-1.380.0.ebuild     | 15 +++++++++++++++
+ virtual/perl-List-Util/perl-List-Util-1.410.0.ebuild     | 15 +++++++++++++++
+ virtual/perl-Scalar-Util/metadata.xml                    |  5 +++++
+ virtual/perl-Scalar-Util/perl-Scalar-Util-1.380.0.ebuild | 15 +++++++++++++++
+ virtual/perl-Scalar-Util/perl-Scalar-Util-1.410.0.ebuild | 15 +++++++++++++++
+ virtual/perl-Sub-Util/metadata.xml                       |  5 +++++
+ virtual/perl-Sub-Util/perl-Sub-Util-1.410.0.ebuild       | 15 +++++++++++++++
+ 14 files changed, 128 insertions(+)
+ create mode 100644 metadata/md5-cache/virtual/perl-List-Util-1.380.0
+ create mode 100644 metadata/md5-cache/virtual/perl-List-Util-1.410.0
+ create mode 100644 metadata/md5-cache/virtual/perl-Scalar-Util-1.380.0
+ create mode 100644 metadata/md5-cache/virtual/perl-Scalar-Util-1.410.0
+ create mode 100644 metadata/md5-cache/virtual/perl-Sub-Util-1.410.0
+ create mode 100644 virtual/perl-List-Util/metadata.xml
+ create mode 100644 virtual/perl-List-Util/perl-List-Util-1.380.0.ebuild
+ create mode 100644 virtual/perl-List-Util/perl-List-Util-1.410.0.ebuild
+ create mode 100644 virtual/perl-Scalar-Util/metadata.xml
+ create mode 100644 virtual/perl-Scalar-Util/perl-Scalar-Util-1.380.0.ebuild
+ create mode 100644 virtual/perl-Scalar-Util/perl-Scalar-Util-1.410.0.ebuild
+ create mode 100644 virtual/perl-Sub-Util/metadata.xml
+ create mode 100644 virtual/perl-Sub-Util/perl-Sub-Util-1.410.0.ebuild
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded
