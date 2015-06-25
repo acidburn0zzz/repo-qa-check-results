@@ -19,7 +19,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -43,6 +43,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defi
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/graveyard'...
 *** synced '/home/mgorny/repos/graveyard'
@@ -62,9 +64,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
 !!!            xmms-kde-3.1.ebuild, line   7:  Called inherit 'kde' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 
 !!! ERROR: media-plugins/xmms-outpost-0.15 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
