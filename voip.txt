@@ -18,6 +18,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', d
 WARNING:pkgcore:repository at location '/home/mgorny/repos/thousand-parsec' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named '<unlabeled repository /home/mgorny/repos/thousand-parsec>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/verlihub' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named '<unlabeled repository /home/mgorny/repos/verlihub>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -35,12 +37,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named '<unlabeled re
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/soor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named '<unlabeled repository /home/mgorny/repos/soor>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named 'venidera', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -66,83 +68,83 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: net-voip/sflphone-0.7.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: net-voip/sflphone-0.7.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: net-misc/asterisk-1.4.21.2 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: net-misc/asterisk-1.4.22.1 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-
-!!! ERROR: net-misc/asterisk-1.4.21.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!          sflphone-0.7.0.ebuild, line   6:  Called inherit 'qt3'
+!!!          sflphone-0.7.2.ebuild, line   6:  Called inherit 'qt3'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt3 failed
+
 
 !!! ERROR: net-im/ihu-0.6.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: net-misc/asterisk-1.4.22.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!          sflphone-0.7.0.ebuild, line   6:  Called inherit 'qt3'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
 !!!  inherit for qt3 failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.22.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-misc/asterisk/asterisk-1.4.21.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!       asterisk-1.4.22.1.ebuild, line   6:  Called inherit 'eutils' 'qt3'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt3 failed
+
 !!!       asterisk-1.4.21.2.ebuild, line   7:  Called inherit 'eutils' 'qt3'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-voip/sflphone/sflphone-0.7.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt3 failed
 
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt3 failed
-
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
-!!!          sflphone-0.7.2.ebuild, line   6:  Called inherit 'qt3'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/voip/net-im/ihu/ihu-0.6.0.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt3 failed
-
 !!!               ihu-0.6.0.ebuild, line   5:  Called inherit 'eutils' 'qt3'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
 !!!              ebuild-daemon.lib, line  35:  Called die
@@ -152,9 +154,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-voip/sflphone-0.7.2
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-voip/sflphone-0.7.0
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-misc/asterisk-1.4.21.2
-!!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-im/ihu-0.6.0
 !!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-misc/asterisk-1.4.22.1
+!!! caught exception inherit requires an unknown eclass, qt3 cannot be found while processing ebuild src: net-im/ihu-0.6.0
  * Cache regenerated successfully
