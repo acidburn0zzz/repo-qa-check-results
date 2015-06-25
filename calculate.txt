@@ -14,30 +14,14 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   161092a..b4173e2  master     -> origin/master
-   79c1950..b4173e2  update     -> origin/update
-Updating 161092a..b4173e2
-Fast-forward
- .../dracut/dracut.conf.d/50-calculate.conf         |  2 +-
- .../templates/3.3/6_ac_update_sync/remerge/00-ini  |  2 +-
- profiles/templates/3.3/6_ac_update_sync/remerge/58 |  4 ++
- .../3.3/6_ac_update_sync/revision/46_drop_cache    |  4 ++
- .../calculate-lib/calculate-lib-2.2.32-r11.ebuild  | 59 +++++++++++++++++++
- .../files/calculate-lib-2.2.32-distros_plus.patch  | 67 ++++++++++++++++++++++
- .../calculate-utils-2.2.32-r21.ebuild              | 30 ++++++++++
- 7 files changed, 166 insertions(+), 2 deletions(-)
- create mode 100644 profiles/templates/3.3/6_ac_update_sync/remerge/58
- create mode 100644 profiles/templates/3.3/6_ac_update_sync/revision/46_drop_cache
- create mode 100644 sys-apps/calculate-lib/calculate-lib-2.2.32-r11.ebuild
- create mode 100644 sys-apps/calculate-lib/files/calculate-lib-2.2.32-distros_plus.patch
- create mode 100644 sys-apps/calculate-utils/calculate-utils-2.2.32-r21.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded

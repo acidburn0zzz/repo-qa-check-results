@@ -14,15 +14,21 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/awesome
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://gitlab.awesome-it.de/overlays/awesome
+   4e39688..4482929  master     -> origin/master
+Updating 4e39688..4482929
+Fast-forward
+ www-apps/orangehrm/Manifest                 |  3 +--
+ www-apps/orangehrm/files/postinstall-en.txt |  0
+ www-apps/orangehrm/orangehrm-3.3.1.ebuild   | 15 +++++++--------
+ 3 files changed, 8 insertions(+), 10 deletions(-)
+ delete mode 100644 www-apps/orangehrm/files/postinstall-en.txt
 *** syncing '/home/mgorny/repos/awesome'...
 *** synced '/home/mgorny/repos/awesome'
  * Sync succeeded
