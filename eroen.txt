@@ -19,7 +19,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named '<unlabeled repository /home/mgorny/repos/bicatali>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/efika' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named '<unlabeled repository /home/mgorny/repos/efika>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
@@ -55,53 +56,53 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-cdr/k3b-2.0.2-r4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: dev-python/pyffi-2.2.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eroen/dev-python/pyffi/pyffi-2.2.2.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
-!!!             pyffi-2.2.2.ebuild, line  13:  Called inherit 'eutils' 'distutils-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eroen/app-cdr/k3b/k3b-2.0.2-r4.ebuild'
 !!!            k3b-2.0.2-r4.ebuild, line  25:  Called inherit 'kde4-base'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!             pyffi-2.2.2.ebuild, line  13:  Called inherit 'eutils' 'distutils-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!               python-r1.eclass, line 232:  Called _python_set_globals
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!               python-r1.eclass, line 199:  Called die
-!!! The die message:
-!!!  No supported implementation in PYTHON_COMPAT.
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
 !!!          kde4-functions.eclass, line  23:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/pyffi-2.2.2
+!!!               python-r1.eclass, line 232:  Called _python_set_globals
+!!!               python-r1.eclass, line 199:  Called die
+!!! The die message:
+!!!  No supported implementation in PYTHON_COMPAT.
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-cdr/k3b-2.0.2-r4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-python/pyffi-2.2.2
  * Cache regenerated successfully
