@@ -18,11 +18,119 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a def
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/archenroot/gentoo-overlay
+   4381707..e978ad4  master     -> origin/master
+Updating 4381707..e978ad4
+Fast-forward
+ app-backup/burp/burp-1.6.18.ebuild                 |  95 +++++++++
+ app-emulation/vmware-modules/Manifest              |  16 ++
+ app-emulation/vmware-modules/files/304-apic.patch  |  12 ++
+ .../vmware-modules/files/304-filldir.patch         |  91 ++++++++
+ .../vmware-modules/files/304-kernel-3.15.patch     |  47 ++++
+ .../vmware-modules/files/304-kernel-3.19.patch     | 236 +++++++++++++++++++++
+ .../vmware-modules/files/304-kernel-4.0.patch      |  47 ++++
+ .../files/304-makefile-include.patch               |  40 ++++
+ .../files/304-makefile-kernel-dir.patch            |  51 +++++
+ .../vmware-modules/files/304-netdevice.patch       |  24 +++
+ .../vmware-modules/files/304-putname.patch         |  13 ++
+ .../vmware-modules/files/304-vfsfollowlink.patch   |  30 +++
+ .../vmware-modules/files/304-vmblock-3.14.patch    |  21 ++
+ .../vmware-modules/files/304-vmblock.patch         |  36 ++++
+ app-emulation/vmware-modules/files/hardened.patch  | 170 +++++++++++++++
+ app-emulation/vmware-modules/metadata.xml          |  13 ++
+ .../vmware-modules/vmware-modules-304.0.ebuild     | 104 +++++++++
+ .../vmware-modules/vmware-modules-304.ebuild       | 103 +++++++++
+ app-emulation/vmware-workstation/Manifest          |   5 +
+ .../vmware-workstation/files/configure-hostd.sh    |  20 ++
+ .../files/list-bundle-components.xsl               |  17 ++
+ .../files/list-component-files.xsl                 |  19 ++
+ app-emulation/vmware-workstation/files/vmware.rc   |  31 +++
+ app-emulation/vmware-workstation/metadata.xml      |  32 +++
+ media-video/vsxu/Manifest                          |   2 +
+ media-video/vsxu/vsxu-0.3.1.ebuild                 |  25 +++
+ media-video/vsxu/vsxu-0.4.2.ebuild                 |  25 +++
+ net-wireless/wifite/Manifest                       |   7 +
+ net-wireless/wifite/files/index.html               |  13 ++
+ net-wireless/wifite/files/index.html?C=D;O=A       |  13 ++
+ net-wireless/wifite/files/index.html?C=D;O=D       |  13 ++
+ net-wireless/wifite/files/index.html?C=M;O=A       |  13 ++
+ net-wireless/wifite/files/index.html?C=M;O=D       |  13 ++
+ net-wireless/wifite/files/index.html?C=N;O=A       |  13 ++
+ net-wireless/wifite/files/index.html?C=N;O=D       |  13 ++
+ net-wireless/wifite/files/index.html?C=S;O=A       |  13 ++
+ net-wireless/wifite/files/index.html?C=S;O=D       |  13 ++
+ .../wifite/files/wifite-2014_noupgrade.patch       |  11 +
+ net-wireless/wifite/files/wifite-noupgrade.patch   |  11 +
+ net-wireless/wifite/files/wifite-tshark.patch      |  38 ++++
+ net-wireless/wifite/index.html                     |  16 ++
+ net-wireless/wifite/index.html?C=D;O=A             |  16 ++
+ net-wireless/wifite/index.html?C=D;O=D             |  16 ++
+ net-wireless/wifite/index.html?C=M;O=A             |  16 ++
+ net-wireless/wifite/index.html?C=M;O=D             |  16 ++
+ net-wireless/wifite/index.html?C=N;O=A             |  16 ++
+ net-wireless/wifite/index.html?C=N;O=D             |  16 ++
+ net-wireless/wifite/index.html?C=S;O=A             |  16 ++
+ net-wireless/wifite/index.html?C=S;O=D             |  16 ++
+ net-wireless/wifite/metadata.xml                   |  19 ++
+ net-wireless/wifite/wifite-2.85_p20140806.ebuild   |  38 ++++
+ net-wireless/wifite/wifite-2.85_p20150508.ebuild   |  38 ++++
+ net-wireless/wifite/wifite-2.85_p20150526.ebuild   |  39 ++++
+ 53 files changed, 1787 insertions(+)
+ create mode 100644 app-backup/burp/burp-1.6.18.ebuild
+ create mode 100644 app-emulation/vmware-modules/Manifest
+ create mode 100644 app-emulation/vmware-modules/files/304-apic.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-filldir.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-kernel-3.15.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-kernel-3.19.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-kernel-4.0.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-makefile-include.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-makefile-kernel-dir.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-netdevice.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-putname.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vfsfollowlink.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vmblock-3.14.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vmblock.patch
+ create mode 100644 app-emulation/vmware-modules/files/hardened.patch
+ create mode 100644 app-emulation/vmware-modules/metadata.xml
+ create mode 100644 app-emulation/vmware-modules/vmware-modules-304.0.ebuild
+ create mode 100644 app-emulation/vmware-modules/vmware-modules-304.ebuild
+ create mode 100644 app-emulation/vmware-workstation/files/configure-hostd.sh
+ create mode 100644 app-emulation/vmware-workstation/files/list-bundle-components.xsl
+ create mode 100644 app-emulation/vmware-workstation/files/list-component-files.xsl
+ create mode 100644 app-emulation/vmware-workstation/files/vmware.rc
+ create mode 100644 app-emulation/vmware-workstation/metadata.xml
+ create mode 100644 media-video/vsxu/Manifest
+ create mode 100644 media-video/vsxu/vsxu-0.3.1.ebuild
+ create mode 100644 media-video/vsxu/vsxu-0.4.2.ebuild
+ create mode 100644 net-wireless/wifite/Manifest
+ create mode 100644 net-wireless/wifite/files/index.html
+ create mode 100644 net-wireless/wifite/files/index.html?C=D;O=A
+ create mode 100644 net-wireless/wifite/files/index.html?C=D;O=D
+ create mode 100644 net-wireless/wifite/files/index.html?C=M;O=A
+ create mode 100644 net-wireless/wifite/files/index.html?C=M;O=D
+ create mode 100644 net-wireless/wifite/files/index.html?C=N;O=A
+ create mode 100644 net-wireless/wifite/files/index.html?C=N;O=D
+ create mode 100644 net-wireless/wifite/files/index.html?C=S;O=A
+ create mode 100644 net-wireless/wifite/files/index.html?C=S;O=D
+ create mode 100644 net-wireless/wifite/files/wifite-2014_noupgrade.patch
+ create mode 100644 net-wireless/wifite/files/wifite-noupgrade.patch
+ create mode 100644 net-wireless/wifite/files/wifite-tshark.patch
+ create mode 100644 net-wireless/wifite/index.html
+ create mode 100644 net-wireless/wifite/index.html?C=D;O=A
+ create mode 100644 net-wireless/wifite/index.html?C=D;O=D
+ create mode 100644 net-wireless/wifite/index.html?C=M;O=A
+ create mode 100644 net-wireless/wifite/index.html?C=M;O=D
+ create mode 100644 net-wireless/wifite/index.html?C=N;O=A
+ create mode 100644 net-wireless/wifite/index.html?C=N;O=D
+ create mode 100644 net-wireless/wifite/index.html?C=S;O=A
+ create mode 100644 net-wireless/wifite/index.html?C=S;O=D
+ create mode 100644 net-wireless/wifite/metadata.xml
+ create mode 100644 net-wireless/wifite/wifite-2.85_p20140806.ebuild
+ create mode 100644 net-wireless/wifite/wifite-2.85_p20150508.ebuild
+ create mode 100644 net-wireless/wifite/wifite-2.85_p20150526.ebuild
 *** syncing '/home/mgorny/repos/archenroot'...
 *** synced '/home/mgorny/repos/archenroot'
  * Sync succeeded

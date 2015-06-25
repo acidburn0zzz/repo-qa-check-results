@@ -15,36 +15,13 @@
  u'supported': True}
  * Adding new repository
 $ pmaint sync /home/mgorny/repos/armagetron
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Redirecting to URL 'https://svn.code.sf.net/p/armagetronad/code/armagetronad/trunk/build/gentoo/overlay':
-A    repos/armagetron/profiles
-A    repos/armagetron/profiles/use.local.desc
-A    repos/armagetron/profiles/package.mask
-A    repos/armagetron/profiles/repo_name
-A    repos/armagetron/games-action
-A    repos/armagetron/games-action/armagetronad-live
-A    repos/armagetron/games-action/armagetronad-live/metadata.xml
-A    repos/armagetron/games-action/armagetronad-live/files
-A    repos/armagetron/games-action/armagetronad-live/armagetronad-live-0.3_alpha9014.ebuild
-A    repos/armagetron/games-action/armagetronad-live/Manifest
-A    repos/armagetron/games-action/armagetronad-live/ChangeLog
-A    repos/armagetron/games-action/armagetronad-live/armagetronad-live-0.2.8_alpha8586.ebuild
-A    repos/armagetron/games-action/armagetronad-live/armagetronad-live-0.3_alpha8429.ebuild
-A    repos/armagetron/games-action/armagetronad
-A    repos/armagetron/games-action/armagetronad/metadata.xml
-A    repos/armagetron/games-action/armagetronad/files
-A    repos/armagetron/games-action/armagetronad/Manifest
-A    repos/armagetron/games-action/armagetronad/ChangeLog
-A    repos/armagetron/games-action/armagetronad/armagetronad-0.2.8.3.2.ebuild
-A    repos/armagetron/eclass
-A    repos/armagetron/eclass/live.eclass
-Checked out revision 10764.
+svn: E000104: Unable to connect to a repository at URL 'https://svn.code.sf.net/p/armagetronad/code/armagetronad/trunk/build/gentoo/overlay'
+svn: E000104: Error running context: Connection reset by peer
 *** syncing '/home/mgorny/repos/armagetron'...
-*** synced '/home/mgorny/repos/armagetron'
- * Sync succeeded
- * Missing masters!
+*** failed syncing '/home/mgorny/repos/armagetron'
+ * Sync failed with 1
