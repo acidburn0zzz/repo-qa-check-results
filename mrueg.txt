@@ -52,12 +52,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   2a4c722..8f91e32  master     -> origin/master
-Updating 2a4c722..8f91e32
+   8f91e32..facc472  master     -> origin/master
+Updating 8f91e32..facc472
 Fast-forward
- eclass/github.eclass                               | 85 ++++++++++++++++------
- .../nginx_ensite/nginx_ensite-0_p20150602.ebuild   |  2 +-
- 2 files changed, 63 insertions(+), 24 deletions(-)
+ app-misc/ckb/files/ckb.initd                   |  6 ++++--
+ eclass/github.eclass                           | 28 +++++++-------------------
+ www-apps/nginx_ensite/nginx_ensite-9999.ebuild |  1 +
+ 3 files changed, 12 insertions(+), 23 deletions(-)
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
