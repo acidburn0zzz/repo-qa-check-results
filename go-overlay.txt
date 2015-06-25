@@ -14,7 +14,6 @@
 $ pmaint sync /home/mgorny/repos/go-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/drevilt', named 'drevilt', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -32,47 +31,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/Dr-Terrible/go-overlay
-   8c826ed..b79e9b4  master     -> origin/master
-Updating 8c826ed..b79e9b4
-Fast-forward
- README.md                                          | 10 +--
- dev-go/gcli/Manifest                               |  5 +-
- ...-0.2.0_pre20150622.ebuild => gcli-0.2.0.ebuild} |  3 +-
- dev-go/gostatus/Manifest                           |  3 +-
- dev-go/gostatus/gostatus-20150606.ebuild           |  1 +
- dev-go/wellington/Manifest                         |  3 +
- dev-go/wellington/metadata.xml                     | 17 ++++
- dev-go/wellington/wellington-0.9.0.ebuild          | 22 +++++
- eclass/golang-single.eclass                        | 97 +++++++++++-----------
- metadata/md5-cache/dev-go/gcli-0.2.0               | 13 +++
- metadata/md5-cache/dev-go/gcli-0.2.0_pre20150622   | 13 ---
- metadata/md5-cache/dev-go/gostatus-20150606        |  6 +-
- metadata/md5-cache/dev-go/wellington-0.9.0         | 13 +++
- metadata/md5-cache/net-misc/gollum-0.3.2           | 13 +++
- metadata/pkg_desc_index                            |  3 +-
- net-misc/gollum/Manifest                           |  4 +
- net-misc/gollum/gollum-0.3.2.ebuild                | 49 +++++++++++
- net-misc/gollum/metadata.xml                       | 24 ++++++
- 18 files changed, 221 insertions(+), 78 deletions(-)
- rename dev-go/gcli/{gcli-0.2.0_pre20150622.ebuild => gcli-0.2.0.ebuild} (92%)
- create mode 100644 dev-go/wellington/Manifest
- create mode 100644 dev-go/wellington/metadata.xml
- create mode 100644 dev-go/wellington/wellington-0.9.0.ebuild
- create mode 100644 metadata/md5-cache/dev-go/gcli-0.2.0
- delete mode 100644 metadata/md5-cache/dev-go/gcli-0.2.0_pre20150622
- create mode 100644 metadata/md5-cache/dev-go/wellington-0.9.0
- create mode 100644 metadata/md5-cache/net-misc/gollum-0.3.2
- create mode 100644 net-misc/gollum/Manifest
- create mode 100644 net-misc/gollum/gollum-0.3.2.ebuild
- create mode 100644 net-misc/gollum/metadata.xml
+Already up-to-date.
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded
