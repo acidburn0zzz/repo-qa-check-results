@@ -47,4 +47,28 @@ Cloning into '/home/mgorny/repos/n4g'...
 *** syncing '/home/mgorny/repos/n4g'...
 *** synced '/home/mgorny/repos/n4g'
  * Sync succeeded
- * Missing masters!
+$ pmaint regen -t 2 n4g
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+
+!!! ERROR: app-admin/oessysmon-0.1.7-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n4g/app-admin/oessysmon/oessysmon-0.1.7-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n4g/app-admin/oessysmon/oessysmon-0.1.7-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n4g/app-admin/oessysmon/oessysmon-0.1.7-r1.ebuild'
+!!!      oessysmon-0.1.7-r1.ebuild, line   5:  Called inherit 'eutils' 'gnome2' 'mono'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-admin/oessysmon-0.1.7-r1
+ * Cache regenerated successfully

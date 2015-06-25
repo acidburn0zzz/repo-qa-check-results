@@ -52,20 +52,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   16cd0a1..202de9f  master     -> origin/master
-Updating 16cd0a1..202de9f
+   202de9f..c48d4e7  master     -> origin/master
+Updating 202de9f..c48d4e7
 Fast-forward
- eclass/github.eclass                               | 144 +++++++++++++++++++++
- www-apps/nginx_ensite/Manifest                     |   1 +
- www-apps/nginx_ensite/metadata.xml                 |   8 ++
- .../nginx_ensite/nginx_ensite-0_p20150610.ebuild   |  25 ++++
- www-apps/nginx_ensite/nginx_ensite-9999.ebuild     |  25 ++++
- 5 files changed, 203 insertions(+)
- create mode 100644 eclass/github.eclass
- create mode 100644 www-apps/nginx_ensite/Manifest
- create mode 100644 www-apps/nginx_ensite/metadata.xml
- create mode 100644 www-apps/nginx_ensite/nginx_ensite-0_p20150610.ebuild
- create mode 100644 www-apps/nginx_ensite/nginx_ensite-9999.ebuild
+ eclass/github.eclass                               | 22 +++++++++++++++---
+ www-apps/nginx_ensite/Manifest                     |  3 +++
+ .../nginx_ensite/nginx_ensite-0_p20150602.ebuild   | 26 ++++++++++++++++++++++
+ www-apps/nginx_ensite/nginx_ensite-9999.ebuild     |  3 +--
+ 4 files changed, 49 insertions(+), 5 deletions(-)
+ create mode 100644 www-apps/nginx_ensite/nginx_ensite-0_p20150602.ebuild
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
