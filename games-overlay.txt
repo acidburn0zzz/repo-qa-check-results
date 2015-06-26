@@ -26,27 +26,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/hasufell/games-overlay
-   c3df44a..eebf152  master     -> origin/master
-Updating c3df44a..eebf152
-Fast-forward
- games-action/brutal-legend/Manifest                |   1 +
- .../brutal-legend/brutal-legend-20130615-r1.ebuild |  84 +++++++++++++++
- games-strategy/wesnoth/Manifest                    |   4 +-
- .../wesnoth/files/wesnoth-1.12.1-build.patch       |  29 -----
- ...12.2-build.patch => wesnoth-1.12.4-build.patch} |   0
- games-strategy/wesnoth/wesnoth-1.11.5.ebuild       | 110 -------------------
- games-strategy/wesnoth/wesnoth-1.12.1.ebuild       | 119 ---------------------
- ...wesnoth-1.12.2.ebuild => wesnoth-1.12.4.ebuild} |   2 +-
- profiles/package.mask                              |   4 +
- 9 files changed, 91 insertions(+), 262 deletions(-)
- create mode 100644 games-action/brutal-legend/Manifest
- create mode 100644 games-action/brutal-legend/brutal-legend-20130615-r1.ebuild
- delete mode 100644 games-strategy/wesnoth/files/wesnoth-1.12.1-build.patch
- rename games-strategy/wesnoth/files/{wesnoth-1.12.2-build.patch => wesnoth-1.12.4-build.patch} (100%)
- delete mode 100644 games-strategy/wesnoth/wesnoth-1.11.5.ebuild
- delete mode 100644 games-strategy/wesnoth/wesnoth-1.12.1.ebuild
- rename games-strategy/wesnoth/{wesnoth-1.12.2.ebuild => wesnoth-1.12.4.ebuild} (97%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/games-overlay'...
 *** synced '/home/mgorny/repos/games-overlay'
  * Sync succeeded
