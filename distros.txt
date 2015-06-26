@@ -31,7 +31,57 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://git.calculate.ru/calculate/distros
+   196e5b7..87f2d63  master     -> origin/master
+Updating 196e5b7..87f2d63
+Fast-forward
+ profiles/CDS+/amd64/make.defaults                  |  4 ++++
+ profiles/CDS+/amd64/parent                         |  2 ++
+ profiles/CDS+/calculate.env                        |  3 +++
+ profiles/CDS+/make.defaults                        |  4 ++++
+ profiles/CDS+/parent                               |  1 +
+ profiles/CDS+/x86/make.defaults                    |  4 ++++
+ profiles/CDS+/x86/parent                           |  2 ++
+ profiles/CLD+/amd64/make.defaults                  |  4 ++++
+ profiles/CLD+/amd64/parent                         |  2 ++
+ profiles/CLD+/calculate.env                        |  4 ++++
+ profiles/CLD+/make.defaults                        |  3 +++
+ profiles/CLD+/parent                               |  1 +
+ profiles/CLD+/x86/make.defaults                    |  4 ++++
+ profiles/CLD+/x86/parent                           |  2 ++
+ profiles/CLDX+/calculate.env                       |  2 +-
+ profiles/profiles.desc                             |  4 ++++
+ .../3.2/6_ac_update_sync/world/create/applications | 10 +++-----
+ .../3.2/6_ac_update_sync/world/create/base         |  1 -
+ .../3.2/6_ac_update_sync/world/create/decoration   |  6 ++---
+ .../3.2/6_ac_update_sync/world/create/graphics     |  7 +++---
+ .../3.2/6_ac_update_sync/world/create/kde          |  2 +-
+ .../3.2/6_ac_update_sync/world/create/mate         |  2 +-
+ .../3.2/6_ac_update_sync/world/create/multimedia   | 12 ++++++----
+ .../3.2/6_ac_update_sync/world/create/netapps      | 13 +++++------
+ .../3.2/6_ac_update_sync/world/create/network      | 10 ++++----
+ .../3.2/6_ac_update_sync/world/create/openbox      |  2 +-
+ .../3.2/6_ac_update_sync/world/create/printer      |  2 +-
+ .../3.2/6_ac_update_sync/world/create/server       |  4 ++--
+ .../3.2/6_ac_update_sync/world/create/tools        | 27 +++++++++++-----------
+ .../3.2/6_ac_update_sync/world/create/wireless     |  4 ++--
+ .../3.2/6_ac_update_sync/world/create/xfce         |  2 +-
+ .../3.2/6_ac_update_sync/world/create/xorg         |  5 ++--
+ 32 files changed, 96 insertions(+), 59 deletions(-)
+ create mode 100644 profiles/CDS+/amd64/make.defaults
+ create mode 100644 profiles/CDS+/amd64/parent
+ create mode 100644 profiles/CDS+/calculate.env
+ create mode 100644 profiles/CDS+/make.defaults
+ create mode 100644 profiles/CDS+/parent
+ create mode 100644 profiles/CDS+/x86/make.defaults
+ create mode 100644 profiles/CDS+/x86/parent
+ create mode 100644 profiles/CLD+/amd64/make.defaults
+ create mode 100644 profiles/CLD+/amd64/parent
+ create mode 100644 profiles/CLD+/calculate.env
+ create mode 100644 profiles/CLD+/make.defaults
+ create mode 100644 profiles/CLD+/parent
+ create mode 100644 profiles/CLD+/x86/make.defaults
+ create mode 100644 profiles/CLD+/x86/parent
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
