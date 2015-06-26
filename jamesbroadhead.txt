@@ -20,7 +20,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/jamesbroadhead
-WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
@@ -62,7 +65,7 @@ $ pmaint regen -t 2 jamesbroadhead
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-office/gscan2pdf-1.1.2-r1 failed.
+!!! ERROR: media-sound/kid3-2.0-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
@@ -70,70 +73,70 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! ERROR: media-sound/kid3-1.6-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 
-!!! ERROR: media-sound/kid3-2.0-r1 failed.
+!!! ERROR: app-office/gscan2pdf-1.1.2-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-2.0-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-2.0-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jamesbroadhead/app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jamesbroadhead/app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jamesbroadhead/app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!      gscan2pdf-1.1.2-r1.ebuild, line   6:  Called inherit 'perl-app'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-2.0-r1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jamesbroadhead/media-sound/kid3/kid3-1.6-r1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!             kid3-1.6-r1.ebuild, line   9:  Called inherit 'kde4-base'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             kid3-2.0-r1.ebuild, line   9:  Called inherit 'kde4-base'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jamesbroadhead/app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jamesbroadhead/app-office/gscan2pdf/gscan2pdf-1.1.2-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!      gscan2pdf-1.1.2-r1.ebuild, line   6:  Called inherit 'perl-app'
-!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!          kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-office/gscan2pdf-1.1.2-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/kid3-2.0-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-sound/kid3-1.6-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-office/gscan2pdf-1.1.2-r1
  * Cache regenerated successfully

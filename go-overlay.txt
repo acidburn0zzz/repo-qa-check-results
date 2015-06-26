@@ -40,29 +40,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/Dr-Terrible/go-overlay
-   b79e9b4..f14c548  master     -> origin/master
-Updating b79e9b4..f14c548
+   f14c548..ccd858d  master     -> origin/master
+Updating f14c548..ccd858d
 Fast-forward
- {dev-go => app-misc}/asciinema/Manifest            |  2 +-
- .../asciinema/asciinema-1.1.1.ebuild               |  4 +-
- {dev-go => app-misc}/asciinema/metadata.xml        |  0
- .../md5-cache/{dev-go => app-misc}/asciinema-1.1.1 |  8 +--
- metadata/md5-cache/www-apps/hugo-0.14              |  2 +-
- metadata/md5-cache/www-apps/hugo-0.15_pre20150612  | 13 -----
- ...hugo-0.15_pre20150623 => hugo-0.15_pre20150625} |  6 +--
- metadata/pkg_desc_index                            |  4 +-
- www-apps/hugo/Manifest                             |  6 +--
- www-apps/hugo/hugo-0.15_pre20150612.ebuild         | 63 ----------------------
- ...0150623.ebuild => hugo-0.15_pre20150625.ebuild} |  4 +-
- 11 files changed, 17 insertions(+), 95 deletions(-)
- rename {dev-go => app-misc}/asciinema/Manifest (66%)
- rename {dev-go => app-misc}/asciinema/asciinema-1.1.1.ebuild (85%)
- rename {dev-go => app-misc}/asciinema/metadata.xml (100%)
- rename metadata/md5-cache/{dev-go => app-misc}/asciinema-1.1.1 (66%)
- delete mode 100644 metadata/md5-cache/www-apps/hugo-0.15_pre20150612
- rename metadata/md5-cache/www-apps/{hugo-0.15_pre20150623 => hugo-0.15_pre20150625} (92%)
- delete mode 100644 www-apps/hugo/hugo-0.15_pre20150612.ebuild
- rename www-apps/hugo/{hugo-0.15_pre20150623.ebuild => hugo-0.15_pre20150625.ebuild} (96%)
+ dev-go/re2dfa/Manifest                             |  3 +++
+ dev-go/re2dfa/metadata.xml                         | 17 +++++++++++++++++
+ dev-go/re2dfa/re2dfa-0.1.0_pre20150625.ebuild      | 18 ++++++++++++++++++
+ metadata/md5-cache/dev-go/re2dfa-0.1.0_pre20150625 | 13 +++++++++++++
+ metadata/pkg_desc_index                            |  1 +
+ 5 files changed, 52 insertions(+)
+ create mode 100644 dev-go/re2dfa/Manifest
+ create mode 100644 dev-go/re2dfa/metadata.xml
+ create mode 100644 dev-go/re2dfa/re2dfa-0.1.0_pre20150625.ebuild
+ create mode 100644 metadata/md5-cache/dev-go/re2dfa-0.1.0_pre20150625
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded
