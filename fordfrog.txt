@@ -25,8 +25,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/drizzt-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named '<unlabeled repository /home/mgorny/repos/drizzt-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -38,7 +37,95 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defi
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/dev/fordfrog
+   e4a92f7..9546113  master     -> origin/master
+Updating e4a92f7..9546113
+Fast-forward
+ dev-java/netbeans-apisupport/ChangeLog             |   6 +
+ dev-java/netbeans-apisupport/Manifest              |   4 +-
+ .../netbeans-apisupport-9999_p20150627.ebuild      | 111 ++++++
+ dev-java/netbeans-cnd/ChangeLog                    |   6 +
+ dev-java/netbeans-cnd/Manifest                     |   4 +-
+ .../netbeans-cnd-9999_p20150627.ebuild             | 127 +++++++
+ dev-java/netbeans-dlight/ChangeLog                 |   6 +
+ dev-java/netbeans-dlight/Manifest                  |   4 +-
+ .../netbeans-dlight-9999_p20150627.ebuild          | 101 ++++++
+ dev-java/netbeans-enterprise/ChangeLog             |   6 +
+ dev-java/netbeans-enterprise/Manifest              |   4 +-
+ .../netbeans-enterprise-9999_p20150627.ebuild      | 266 +++++++++++++++
+ dev-java/netbeans-ergonomics/ChangeLog             |   6 +
+ dev-java/netbeans-ergonomics/Manifest              |   4 +-
+ .../netbeans-ergonomics-9999_p20150627.ebuild      | 101 ++++++
+ dev-java/netbeans-extide/ChangeLog                 |   6 +
+ dev-java/netbeans-extide/Manifest                  |   4 +-
+ .../netbeans-extide-9999_p20150627.ebuild          | 108 ++++++
+ dev-java/netbeans-groovy/ChangeLog                 |   6 +
+ dev-java/netbeans-groovy/Manifest                  |   4 +-
+ .../netbeans-groovy-9999_p20150627.ebuild          | 111 ++++++
+ dev-java/netbeans-harness/ChangeLog                |   6 +
+ dev-java/netbeans-harness/Manifest                 |   4 +-
+ .../netbeans-harness-9999_p20150627.ebuild         | 114 +++++++
+ dev-java/netbeans-ide/ChangeLog                    |   6 +
+ dev-java/netbeans-ide/Manifest                     |   4 +-
+ .../netbeans-ide-9999_p20150627.ebuild             | 377 +++++++++++++++++++++
+ dev-java/netbeans-java/ChangeLog                   |   6 +
+ dev-java/netbeans-java/Manifest                    |   4 +-
+ .../netbeans-java-9999_p20150627.ebuild            | 271 +++++++++++++++
+ dev-java/netbeans-javacard/ChangeLog               |   6 +
+ dev-java/netbeans-javacard/Manifest                |   4 +-
+ .../netbeans-javacard-9999_p20150627.ebuild        | 134 ++++++++
+ dev-java/netbeans-javadoc/ChangeLog                |   6 +
+ dev-java/netbeans-javadoc/Manifest                 |   4 +-
+ .../netbeans-javadoc-9999_p20150627.ebuild         | 168 +++++++++
+ dev-java/netbeans-javafx/ChangeLog                 |   6 +
+ dev-java/netbeans-javafx/Manifest                  |   4 +-
+ .../netbeans-javafx-9999_p20150627.ebuild          | 124 +++++++
+ dev-java/netbeans-mobility/ChangeLog               |   6 +
+ dev-java/netbeans-mobility/Manifest                |   4 +-
+ .../netbeans-mobility-9999_p20150627.ebuild        | 126 +++++++
+ dev-java/netbeans-nb/ChangeLog                     |   6 +
+ dev-java/netbeans-nb/Manifest                      |   4 +-
+ .../netbeans-nb/netbeans-nb-9999_p20150627.ebuild  | 148 ++++++++
+ dev-java/netbeans-php/ChangeLog                    |   6 +
+ dev-java/netbeans-php/Manifest                     |   4 +-
+ .../netbeans-php-9999_p20150627.ebuild             | 127 +++++++
+ dev-java/netbeans-platform/ChangeLog               |   6 +
+ dev-java/netbeans-platform/Manifest                |   4 +-
+ .../netbeans-platform-9999_p20150627.ebuild        | 166 +++++++++
+ dev-java/netbeans-profiler/ChangeLog               |   6 +
+ dev-java/netbeans-profiler/Manifest                |   4 +-
+ .../netbeans-profiler-9999_p20150627.ebuild        | 121 +++++++
+ dev-java/netbeans-webcommon/ChangeLog              |   6 +
+ dev-java/netbeans-webcommon/Manifest               |   4 +-
+ .../netbeans-webcommon-9999_p20150627.ebuild       | 123 +++++++
+ dev-java/netbeans-websvccommon/ChangeLog           |   6 +
+ dev-java/netbeans-websvccommon/Manifest            |   4 +-
+ .../netbeans-websvccommon-9999_p20150627.ebuild    |  94 +++++
+ dev-util/netbeans/ChangeLog                        |   6 +
+ dev-util/netbeans/Manifest                         |   4 +-
+ dev-util/netbeans/netbeans-9999_p20150627.ebuild   | 264 +++++++++++++++
+ 63 files changed, 3471 insertions(+), 21 deletions(-)
+ create mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150627.ebuild
+ create mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150627.ebuild
+ create mode 100644 dev-util/netbeans/netbeans-9999_p20150627.ebuild
 *** syncing '/home/mgorny/repos/fordfrog'...
 *** synced '/home/mgorny/repos/fordfrog'
  * Sync succeeded
