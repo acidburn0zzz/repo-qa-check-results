@@ -31,8 +31,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -58,7 +60,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -75,7 +78,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named 'r3pek', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   016eac7..d34136c  master     -> origin/master
+Updating 016eac7..d34136c
+Fast-forward
+ package.keywords/sage-9999                                        | 2 +-
+ profiles/package.mask                                             | 1 -
+ sci-mathematics/pari/ChangeLog                                    | 8 ++++++++
+ sci-mathematics/pari/Manifest                                     | 2 +-
+ ...no-automagic.patch => pari-2.8_pre20150611-no-automagic.patch} | 0
+ .../{pari-2.8_pre20150519.ebuild => pari-2.8_pre20150611.ebuild}  | 7 +++----
+ sci-mathematics/pari/pari-9999.ebuild                             | 2 +-
+ 7 files changed, 14 insertions(+), 8 deletions(-)
+ rename sci-mathematics/pari/files/{pari-9999-no-automagic.patch => pari-2.8_pre20150611-no-automagic.patch} (100%)
+ rename sci-mathematics/pari/{pari-2.8_pre20150519.ebuild => pari-2.8_pre20150611.ebuild} (94%)
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
