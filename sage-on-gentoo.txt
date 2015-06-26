@@ -31,8 +31,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -50,8 +49,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/r3pek' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repository /home/mgorny/repos/r3pek>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -78,57 +76,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named 'r3pek', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/cschwan/sage-on-gentoo
-   d34136c..bd0925e  master     -> origin/master
-Updating d34136c..bd0925e
-Fast-forward
- package.keywords/sage-6.5                          | 119 ------
- sci-mathematics/pari/ChangeLog                     |   6 +
- sci-mathematics/pari/Manifest                      |   1 -
- .../pari/files/pari-2.7.0-slow-discriminant.patch  |  54 ---
- .../pari/files/pari-2.7.1-cb_pari_err_handle.patch | 105 ------
- .../pari/files/pari-2.7.1-nffactor.patch           |  59 ---
- sci-mathematics/pari/pari-2.7.1-r2.ebuild          | 139 -------
- sci-mathematics/sage-baselayout/ChangeLog          |   4 +
- sci-mathematics/sage-baselayout/Manifest           |   2 -
- sci-mathematics/sage-baselayout/files/gprc.expect  |  45 ---
- .../sage-baselayout/sage-baselayout-6.5.ebuild     | 144 --------
- sci-mathematics/sage-clib/ChangeLog                |   4 +
- sci-mathematics/sage-clib/Manifest                 |   1 -
- sci-mathematics/sage-clib/sage-clib-6.5.ebuild     |  49 ---
- sci-mathematics/sage-doc-bin/ChangeLog             |   4 +
- sci-mathematics/sage-doc-bin/Manifest              |   3 -
- sci-mathematics/sage-doc-bin/metadata.xml          |   1 -
- .../sage-doc-bin/sage-doc-bin-6.5-r2.ebuild        | 100 -----
- sci-mathematics/sage-doc/ChangeLog                 |   4 +
- sci-mathematics/sage-doc/Manifest                  |   1 -
- sci-mathematics/sage-doc/sage-doc-6.5-r1.ebuild    | 106 ------
- sci-mathematics/sage/ChangeLog                     |  11 +
- sci-mathematics/sage/Manifest                      |   2 -
- .../sage/files/sage-6.0-safepython.patch           |  78 ----
- sci-mathematics/sage/files/sage-6.0-sagedoc.patch  |  11 -
- sci-mathematics/sage/files/sage-6.4-blas.patch     | 407 ---------------------
- sci-mathematics/sage/files/sage-6.8-blas-r1.patch  | 204 ++---------
- sci-mathematics/sage/files/sage-6.8-noclean.patch  |  17 +-
- .../sage/files/sage-6.8-sources-r1.patch           |  16 +-
- sci-mathematics/sage/sage-6.5.ebuild               | 323 ----------------
- sci-mathematics/sage/sage-6.7-r1.ebuild            |   2 +-
- sci-mathematics/sage/sage-9999.ebuild              |   5 +-
- 32 files changed, 88 insertions(+), 1939 deletions(-)
- delete mode 100644 package.keywords/sage-6.5
- delete mode 100644 sci-mathematics/pari/files/pari-2.7.0-slow-discriminant.patch
- delete mode 100644 sci-mathematics/pari/files/pari-2.7.1-cb_pari_err_handle.patch
- delete mode 100644 sci-mathematics/pari/files/pari-2.7.1-nffactor.patch
- delete mode 100644 sci-mathematics/pari/pari-2.7.1-r2.ebuild
- delete mode 100644 sci-mathematics/sage-baselayout/files/gprc.expect
- delete mode 100644 sci-mathematics/sage-baselayout/sage-baselayout-6.5.ebuild
- delete mode 100644 sci-mathematics/sage-clib/sage-clib-6.5.ebuild
- delete mode 100644 sci-mathematics/sage-doc-bin/sage-doc-bin-6.5-r2.ebuild
- delete mode 100644 sci-mathematics/sage-doc/sage-doc-6.5-r1.ebuild
- delete mode 100644 sci-mathematics/sage/files/sage-6.0-safepython.patch
- delete mode 100644 sci-mathematics/sage/files/sage-6.0-sagedoc.patch
- delete mode 100644 sci-mathematics/sage/files/sage-6.4-blas.patch
- delete mode 100644 sci-mathematics/sage/sage-6.5.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
