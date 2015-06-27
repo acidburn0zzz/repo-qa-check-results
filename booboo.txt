@@ -12,13 +12,60 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/booboo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/l29ah/booboo
+   2f1b66f..8d672ff  master     -> origin/master
+Updating 2f1b66f..8d672ff
+Fast-forward
+ dev-haskell/blaze-svg/Manifest                     |  1 +
+ dev-haskell/blaze-svg/blaze-svg-0.3.4.1.ebuild     | 27 ++++++++++++++++
+ dev-haskell/blaze-svg/metadata.xml                 | 20 ++++++++++++
+ dev-haskell/boolean/Manifest                       |  1 +
+ dev-haskell/boolean/boolean-0.2.3.ebuild           | 30 ++++++++++++++++++
+ dev-haskell/boolean/metadata.xml                   | 15 +++++++++
+ dev-haskell/memotrie/Manifest                      |  1 +
+ dev-haskell/memotrie/memotrie-0.6.2.ebuild         | 31 ++++++++++++++++++
+ dev-haskell/memotrie/metadata.xml                  | 14 ++++++++
+ dev-haskell/numinstances/Manifest                  |  1 +
+ dev-haskell/numinstances/metadata.xml              | 11 +++++++
+ dev-haskell/numinstances/numinstances-1.4.ebuild   | 30 ++++++++++++++++++
+ dev-haskell/storable-endian/Manifest               |  1 +
+ dev-haskell/storable-endian/metadata.xml           |  8 +++++
+ .../storable-endian/storable-endian-0.2.5.ebuild   | 26 +++++++++++++++
+ dev-haskell/vector-space/Manifest                  |  1 +
+ dev-haskell/vector-space/metadata.xml              | 19 +++++++++++
+ .../vector-space/vector-space-0.10.2.ebuild        | 28 ++++++++++++++++
+ media-gfx/implicitcad/implicitcad-9999.ebuild      | 37 ++++++++++++++++++++++
+ media-gfx/implicitcad/metadata.xml                 | 10 ++++++
+ 20 files changed, 312 insertions(+)
+ create mode 100644 dev-haskell/blaze-svg/Manifest
+ create mode 100644 dev-haskell/blaze-svg/blaze-svg-0.3.4.1.ebuild
+ create mode 100644 dev-haskell/blaze-svg/metadata.xml
+ create mode 100644 dev-haskell/boolean/Manifest
+ create mode 100644 dev-haskell/boolean/boolean-0.2.3.ebuild
+ create mode 100644 dev-haskell/boolean/metadata.xml
+ create mode 100644 dev-haskell/memotrie/Manifest
+ create mode 100644 dev-haskell/memotrie/memotrie-0.6.2.ebuild
+ create mode 100644 dev-haskell/memotrie/metadata.xml
+ create mode 100644 dev-haskell/numinstances/Manifest
+ create mode 100644 dev-haskell/numinstances/metadata.xml
+ create mode 100644 dev-haskell/numinstances/numinstances-1.4.ebuild
+ create mode 100644 dev-haskell/storable-endian/Manifest
+ create mode 100644 dev-haskell/storable-endian/metadata.xml
+ create mode 100644 dev-haskell/storable-endian/storable-endian-0.2.5.ebuild
+ create mode 100644 dev-haskell/vector-space/Manifest
+ create mode 100644 dev-haskell/vector-space/metadata.xml
+ create mode 100644 dev-haskell/vector-space/vector-space-0.10.2.ebuild
+ create mode 100644 media-gfx/implicitcad/implicitcad-9999.ebuild
+ create mode 100644 media-gfx/implicitcad/metadata.xml
 *** syncing '/home/mgorny/repos/booboo'...
 *** synced '/home/mgorny/repos/booboo'
  * Sync succeeded

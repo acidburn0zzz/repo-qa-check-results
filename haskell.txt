@@ -33,7 +33,33 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   90cacc5..60ecec3  master     -> origin/master
+Updating 90cacc5..60ecec3
+Fast-forward
+ dev-haskell/extra/Manifest                         |  2 +-
+ .../extra/{extra-1.1.ebuild => extra-1.3.ebuild}   |  0
+ dev-haskell/haskell-src-meta/Manifest              |  2 +-
+ ...0.9.ebuild => haskell-src-meta-0.6.0.10.ebuild} |  4 +--
+ dev-haskell/lazy-csv/Manifest                      |  2 +-
+ .../{lazy-csv-0.5.ebuild => lazy-csv-0.5.1.ebuild} |  4 +--
+ dev-haskell/units-parser/Manifest                  |  1 +
+ dev-haskell/units-parser/metadata.xml              | 10 +++++++
+ .../units-parser/units-parser-0.1.0.0.ebuild       | 31 ++++++++++++++++++++++
+ dev-haskell/units/Manifest                         |  2 +-
+ .../units/{units-2.2.1.ebuild => units-2.3.ebuild} |  6 ++---
+ dev-haskell/yesod-auth-oauth2/Manifest             |  2 +-
+ dev-haskell/yesod-auth-oauth2/metadata.xml         |  3 +++
+ ....1-r1.ebuild => yesod-auth-oauth2-0.1.2.ebuild} |  0
+ 14 files changed, 57 insertions(+), 12 deletions(-)
+ rename dev-haskell/extra/{extra-1.1.ebuild => extra-1.3.ebuild} (100%)
+ rename dev-haskell/haskell-src-meta/{haskell-src-meta-0.6.0.9.ebuild => haskell-src-meta-0.6.0.10.ebuild} (89%)
+ rename dev-haskell/lazy-csv/{lazy-csv-0.5.ebuild => lazy-csv-0.5.1.ebuild} (85%)
+ create mode 100644 dev-haskell/units-parser/Manifest
+ create mode 100644 dev-haskell/units-parser/metadata.xml
+ create mode 100644 dev-haskell/units-parser/units-parser-0.1.0.0.ebuild
+ rename dev-haskell/units/{units-2.2.1.ebuild => units-2.3.ebuild} (85%)
+ rename dev-haskell/yesod-auth-oauth2/{yesod-auth-oauth2-0.1.1-r1.ebuild => yesod-auth-oauth2-0.1.2.ebuild} (100%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
