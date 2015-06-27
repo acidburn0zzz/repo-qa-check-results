@@ -19,7 +19,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -49,7 +50,30 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/gentoo/libressl
+   176a1d2..4d7ea1c  master     -> origin/master
+   36f2549..f12c53b  ca         -> origin/ca
+Updating 176a1d2..4d7ea1c
+Fast-forward
+ dev-libs/libressl/Manifest                 |  2 +
+ dev-libs/libressl/libressl-2.1.2-r2.ebuild |  2 +-
+ dev-libs/libressl/libressl-2.1.3.ebuild    |  2 +-
+ dev-libs/libressl/libressl-2.1.4.ebuild    |  2 +-
+ dev-libs/libressl/libressl-2.1.5.ebuild    |  2 +-
+ dev-libs/libressl/libressl-2.1.6.ebuild    |  2 +-
+ dev-libs/libressl/libressl-2.1.7.ebuild    | 62 ++++++++++++++++++++++++++++++
+ dev-libs/libressl/libressl-2.2.0.ebuild    | 59 ++++++++++++++++++++++++++++
+ dev-libs/openssl/openssl-1.0.1n.ebuild     | 20 ++++++++++
+ dev-libs/openssl/openssl-1.0.1o.ebuild     | 20 ++++++++++
+ dev-libs/openssl/openssl-1.0.2b.ebuild     | 20 ++++++++++
+ dev-libs/openssl/openssl-1.0.2c.ebuild     | 20 ++++++++++
+ 12 files changed, 208 insertions(+), 5 deletions(-)
+ create mode 100644 dev-libs/libressl/libressl-2.1.7.ebuild
+ create mode 100644 dev-libs/libressl/libressl-2.2.0.ebuild
+ create mode 100644 dev-libs/openssl/openssl-1.0.1n.ebuild
+ create mode 100644 dev-libs/openssl/openssl-1.0.1o.ebuild
+ create mode 100644 dev-libs/openssl/openssl-1.0.2b.ebuild
+ create mode 100644 dev-libs/openssl/openssl-1.0.2c.ebuild
 *** syncing '/home/mgorny/repos/libressl'...
 *** synced '/home/mgorny/repos/libressl'
  * Sync succeeded
