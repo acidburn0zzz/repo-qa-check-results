@@ -18,7 +18,8 @@ $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
@@ -56,48 +57,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jxh' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named '<unlabeled repository /home/mgorny/repos/jxh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/kde
-   c43aa61..fe9be22  master     -> origin/master
-Updating c43aa61..fe9be22
+   fe9be22..6e6bf8f  master     -> origin/master
+Updating fe9be22..6e6bf8f
 Fast-forward
- .../kde-extras-live.keywords                       |   1 -
- Documentation/package.unmask/kde-extras-live       |   1 -
- app-cdr/k3b/k3b-5.9999.ebuild                      | 132 ---------------------
- app-cdr/k3b/k3b-9999.ebuild                        |  47 +++++---
- app-editors/kile/kile-5.9999.ebuild                |  75 ------------
- app-editors/kile/kile-9999.ebuild                  |  37 ++++--
- app-office/skrooge/skrooge-2.0.0.ebuild            |   2 -
- app-office/skrooge/skrooge-9999.ebuild             |   2 -
- .../cpp-dependency-analyzer-9999.ebuild            |  26 ----
- dev-util/cpp-dependency-analyzer/metadata.xml      |   5 -
- dev-util/krazy2/files/krazy2-9999-libs.patch       |  35 ------
- dev-util/krazy2/krazy2-9999.ebuild                 |  74 ------------
- dev-util/krazy2/metadata.xml                       |   5 -
- kde-misc/kolor-manager/kolor-manager-5.9999.ebuild |  28 -----
- kde-misc/kolor-manager/kolor-manager-9999.ebuild   |  13 +-
- kde-misc/krusader/krusader-5.9999.ebuild           |  61 ----------
- kde-misc/krusader/krusader-9999.ebuild             |  57 +++++++--
- kde-misc/krusader/metadata.xml                     |   3 -
- ...skanlite-5.9999.ebuild => skanlite-9999.ebuild} |   0
- kde-misc/yakuake/yakuake-5.9999.ebuild             |  44 -------
- kde-misc/yakuake/yakuake-9999.ebuild               |  42 +++++--
- ...kte-5.9999.ebuild => libkvkontakte-9999.ebuild} |   0
- net-libs/likeback/likeback-9999.ebuild             |  16 ---
- net-libs/likeback/metadata.xml                     |   5 -
- 24 files changed, 147 insertions(+), 564 deletions(-)
- delete mode 100644 app-cdr/k3b/k3b-5.9999.ebuild
- delete mode 100644 app-editors/kile/kile-5.9999.ebuild
- delete mode 100644 dev-util/cpp-dependency-analyzer/cpp-dependency-analyzer-9999.ebuild
- delete mode 100644 dev-util/cpp-dependency-analyzer/metadata.xml
- delete mode 100644 dev-util/krazy2/files/krazy2-9999-libs.patch
- delete mode 100644 dev-util/krazy2/krazy2-9999.ebuild
- delete mode 100644 dev-util/krazy2/metadata.xml
- delete mode 100644 kde-misc/kolor-manager/kolor-manager-5.9999.ebuild
- delete mode 100644 kde-misc/krusader/krusader-5.9999.ebuild
- rename kde-misc/skanlite/{skanlite-5.9999.ebuild => skanlite-9999.ebuild} (100%)
- delete mode 100644 kde-misc/yakuake/yakuake-5.9999.ebuild
- rename net-libs/libkvkontakte/{libkvkontakte-5.9999.ebuild => libkvkontakte-9999.ebuild} (100%)
- delete mode 100644 net-libs/likeback/likeback-9999.ebuild
- delete mode 100644 net-libs/likeback/metadata.xml
+ app-office/skrooge/Manifest             |  1 -
+ app-office/skrooge/skrooge-2.0.0.ebuild | 92 ---------------------------------
+ sets/kde-applications-live              |  2 +-
+ 3 files changed, 1 insertion(+), 94 deletions(-)
+ delete mode 100644 app-office/skrooge/Manifest
+ delete mode 100644 app-office/skrooge/skrooge-2.0.0.ebuild
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
