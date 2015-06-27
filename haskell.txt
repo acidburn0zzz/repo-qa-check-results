@@ -28,37 +28,24 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   ddb951e..d9cc20c  master     -> origin/master
-Updating ddb951e..d9cc20c
+   d9cc20c..90cacc5  master     -> origin/master
+Updating d9cc20c..90cacc5
 Fast-forward
- dev-haskell/cabal-helper/Manifest                  |  2 +-
- ...-0.3.5.0.ebuild => cabal-helper-0.3.6.0.ebuild} |  3 +-
- dev-haskell/cipher-aes/Manifest                    |  2 +-
- ...-aes-0.2.10.ebuild => cipher-aes-0.2.11.ebuild} |  0
- dev-haskell/doctest/Manifest                       |  1 +
- dev-haskell/doctest/doctest-0.10.0.ebuild          | 35 ++++++++++
- .../prolog/files/prolog-0.2.0.1-ghc-7.10.patch     | 19 ++++++
- dev-haskell/prolog/prolog-0.2.0.1.ebuild           |  4 +-
- dev-util/bustle/Manifest                           |  1 +
- dev-util/bustle/bustle-0.5.0.ebuild                | 74 ++++++++++++++++++++++
- dev-util/bustle/files/bustle-0.5.0-ghc-7.10.patch  | 16 +++++
- 11 files changed, 153 insertions(+), 4 deletions(-)
- rename dev-haskell/cabal-helper/{cabal-helper-0.3.5.0.ebuild => cabal-helper-0.3.6.0.ebuild} (86%)
- rename dev-haskell/cipher-aes/{cipher-aes-0.2.10.ebuild => cipher-aes-0.2.11.ebuild} (100%)
- create mode 100644 dev-haskell/doctest/doctest-0.10.0.ebuild
- create mode 100644 dev-haskell/prolog/files/prolog-0.2.0.1-ghc-7.10.patch
- create mode 100644 dev-util/bustle/bustle-0.5.0.ebuild
- create mode 100644 dev-util/bustle/files/bustle-0.5.0-ghc-7.10.patch
+ dev-haskell/xmonad-screenshot/Manifest               |  2 +-
+ .../files/xmonad-screenshot-0.1.1.0-ghc-7.10.patch   |  9 ---------
+ ...0.1.1.0.ebuild => xmonad-screenshot-0.1.2.ebuild} | 20 +++++++-------------
+ 3 files changed, 8 insertions(+), 23 deletions(-)
+ delete mode 100644 dev-haskell/xmonad-screenshot/files/xmonad-screenshot-0.1.1.0-ghc-7.10.patch
+ rename dev-haskell/xmonad-screenshot/{xmonad-screenshot-0.1.1.0.ebuild => xmonad-screenshot-0.1.2.ebuild} (51%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
