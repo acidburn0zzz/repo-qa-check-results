@@ -42,8 +42,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nbigaouette' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named '<unlabeled repository /home/mgorny/repos/nbigaouette>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -66,63 +64,63 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! ERROR: sys-apps/fb_text2screen-0.1.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: sys-apps/opendsme-0.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: app-accessibility/florence-0.5.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
 !!!            opendsme-0.2.ebuild, line   5:  Called inherit 'cmake-utils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
-!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
+!!!          florence-0.5.1.ebuild, line   7:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!          florence-0.5.1.ebuild, line   7:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-apps/opendsme-0.2
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: sys-apps/fb_text2screen-0.1.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-accessibility/florence-0.5.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: sys-apps/opendsme-0.2
  * Cache regenerated successfully
