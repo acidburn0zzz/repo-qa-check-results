@@ -14,8 +14,9 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/bar
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -28,55 +29,4 @@ Already up-to-date.
 $ pmaint regen -t 2 bar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by media-fonts/liberation-fonts-2.00.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.20 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.90 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.00 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.70 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-4.10 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.90 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.80 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-4.00 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-2.60 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.40 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.80 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.50 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.60 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by net-print/cnijfilter-3.30 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
