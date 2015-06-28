@@ -33,32 +33,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   a09bda7..7574f62  master     -> origin/master
-Updating a09bda7..7574f62
-Fast-forward
- dev-haskell/bloodhound/Manifest                    |  2 +-
- ...nd-0.6.0.0.ebuild => bloodhound-0.6.0.1.ebuild} | 14 +----
- dev-haskell/conduit-combinators/Manifest           |  1 +
- .../conduit-combinators-1.0.1.ebuild               | 46 +++++++++++++++
- dev-haskell/engine-io/Manifest                     |  2 +-
- ...gine-io-1.2.7.ebuild => engine-io-1.2.9.ebuild} |  0
- dev-haskell/hakyll/Manifest                        |  1 -
- dev-haskell/hakyll/hakyll-4.6.9.0.ebuild           | 66 ----------------------
- dev-haskell/hsb2hs/Manifest                        |  1 +
- dev-haskell/hsb2hs/hsb2hs-0.3.ebuild               | 26 +++++++++
- dev-haskell/network-transport-tcp/Manifest         |  2 +-
- ...1.ebuild => network-transport-tcp-0.4.2.ebuild} |  9 ++-
- .../files/htsn-import-0.2.4-time-1.5.patch         | 43 ++++++++++++++
- net-misc/htsn-import/htsn-import-0.2.4.ebuild      |  9 ++-
- 14 files changed, 137 insertions(+), 85 deletions(-)
- rename dev-haskell/bloodhound/{bloodhound-0.6.0.0.ebuild => bloodhound-0.6.0.1.ebuild} (84%)
- create mode 100644 dev-haskell/conduit-combinators/conduit-combinators-1.0.1.ebuild
- rename dev-haskell/engine-io/{engine-io-1.2.7.ebuild => engine-io-1.2.9.ebuild} (100%)
- delete mode 100644 dev-haskell/hakyll/hakyll-4.6.9.0.ebuild
- create mode 100644 dev-haskell/hsb2hs/hsb2hs-0.3.ebuild
- rename dev-haskell/network-transport-tcp/{network-transport-tcp-0.4.1-r1.ebuild => network-transport-tcp-0.4.2.ebuild} (85%)
- create mode 100644 net-misc/htsn-import/files/htsn-import-0.2.4-time-1.5.patch
+Already up-to-date.
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
