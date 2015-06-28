@@ -22,6 +22,8 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -31,30 +33,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   8f731df..42bccf9  master     -> origin/master
-Updating 8f731df..42bccf9
-Fast-forward
- dev-haskell/descriptive/Manifest                      |  2 +-
- ...criptive-0.9.3.ebuild => descriptive-0.9.4.ebuild} | 10 +++++-----
- dev-haskell/happstack-server-tls/Manifest             |  2 +-
- ...7.1.5.ebuild => happstack-server-tls-7.1.6.ebuild} | 10 ++--------
- dev-haskell/harp/files/harp-0.4-ghc-7.10.patch        | 19 +++++++++++++++++++
- dev-haskell/harp/harp-0.4-r1.ebuild                   |  6 +++++-
- dev-haskell/hashable/Manifest                         |  2 +-
- ...ashable-1.2.3.2.ebuild => hashable-1.2.3.3.ebuild} |  2 +-
- dev-haskell/imagesize-conduit/Manifest                |  2 +-
- ...1.0.0.4-r1.ebuild => imagesize-conduit-1.1.ebuild} | 10 +++-------
- 10 files changed, 39 insertions(+), 26 deletions(-)
- rename dev-haskell/descriptive/{descriptive-0.9.3.ebuild => descriptive-0.9.4.ebuild} (79%)
- rename dev-haskell/happstack-server-tls/{happstack-server-tls-7.1.5.ebuild => happstack-server-tls-7.1.6.ebuild} (80%)
- create mode 100644 dev-haskell/harp/files/harp-0.4-ghc-7.10.patch
- rename dev-haskell/hashable/{hashable-1.2.3.2.ebuild => hashable-1.2.3.3.ebuild} (96%)
- rename dev-haskell/imagesize-conduit/{imagesize-conduit-1.0.0.4-r1.ebuild => imagesize-conduit-1.1.ebuild} (76%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded

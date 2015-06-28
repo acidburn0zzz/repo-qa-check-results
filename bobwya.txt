@@ -22,13 +22,24 @@
 $ pmaint sync /home/mgorny/repos/bobwya
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/bobwya/miscellaneous_ebuilds
+   fccc001..6026dd6  master     -> origin/master
+Updating fccc001..6026dd6
+Fast-forward
+ app-benchmarks/i7z/ChangeLog       | 81 ++++++++++++++++++++++++++++++++++++++
+ app-benchmarks/i7z/Manifest        |  3 ++
+ app-benchmarks/i7z/i7z-9999.ebuild | 41 +++++++++++++++++++
+ app-benchmarks/i7z/metadata.xml    | 10 +++++
+ 4 files changed, 135 insertions(+)
+ create mode 100644 app-benchmarks/i7z/ChangeLog
+ create mode 100644 app-benchmarks/i7z/Manifest
+ create mode 100644 app-benchmarks/i7z/i7z-9999.ebuild
+ create mode 100644 app-benchmarks/i7z/metadata.xml
 *** syncing '/home/mgorny/repos/bobwya'...
 *** synced '/home/mgorny/repos/bobwya'
  * Sync succeeded
