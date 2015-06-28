@@ -34,18 +34,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   8876179..de307df  master     -> origin/master
-Updating 8876179..de307df
+   de307df..8f731df  master     -> origin/master
+Updating de307df..8f731df
 Fast-forward
- dev-haskell/mime-string/mime-string-0.4-r1.ebuild  | 34 ++++++++++++++++++++++
- dev-haskell/mime-string/mime-string-0.4.ebuild     | 27 -----------------
- dev-haskell/ztail/files/ztail-1.1-time-1.5.patch   | 22 ++++++++++++++
- .../{ztail-1.1.ebuild => ztail-1.1-r1.ebuild}      | 24 +++++++++------
- 4 files changed, 71 insertions(+), 36 deletions(-)
- create mode 100644 dev-haskell/mime-string/mime-string-0.4-r1.ebuild
- delete mode 100644 dev-haskell/mime-string/mime-string-0.4.ebuild
- create mode 100644 dev-haskell/ztail/files/ztail-1.1-time-1.5.patch
- rename dev-haskell/ztail/{ztail-1.1.ebuild => ztail-1.1-r1.ebuild} (55%)
+ dev-haskell/messagepack/Manifest                         |  2 +-
+ ...sagepack-0.3.0-r1.ebuild => messagepack-0.4.0.ebuild} | 12 ++----------
+ dev-haskell/network-transport/Manifest                   |  2 +-
+ ...t-0.4.1.0.ebuild => network-transport-0.4.2.0.ebuild} |  4 ++--
+ dev-haskell/tuple-th/Manifest                            |  2 +-
+ .../{tuple-th-0.2.4.ebuild => tuple-th-0.2.5.ebuild}     | 16 +++++++++-------
+ dev-util/bustle/Manifest                                 |  2 +-
+ .../bustle/{bustle-0.5.0.ebuild => bustle-0.5.1.ebuild}  |  4 ----
+ dev-util/bustle/files/bustle-0.5.0-ghc-7.10.patch        | 16 ----------------
+ 9 files changed, 17 insertions(+), 43 deletions(-)
+ rename dev-haskell/messagepack/{messagepack-0.3.0-r1.ebuild => messagepack-0.4.0.ebuild} (69%)
+ rename dev-haskell/network-transport/{network-transport-0.4.1.0.ebuild => network-transport-0.4.2.0.ebuild} (89%)
+ rename dev-haskell/tuple-th/{tuple-th-0.2.4.ebuild => tuple-th-0.2.5.ebuild} (64%)
+ rename dev-util/bustle/{bustle-0.5.0.ebuild => bustle-0.5.1.ebuild} (96%)
+ delete mode 100644 dev-util/bustle/files/bustle-0.5.0-ghc-7.10.patch
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
