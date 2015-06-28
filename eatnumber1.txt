@@ -30,8 +30,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/efika' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named '<unlabeled repository /home/mgorny/repos/efika>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -74,11 +72,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+Sandboxed process killed by signal: Broken pipe
 !!!                       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '279' 'depend'
 !!!                       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
-Sandboxed process killed by signal: Broken pipe
 !!!                               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!                   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eatnumber1/games-roguelike/dwarf-fortress/dwarf-fortress-0.28.181.40d-r18.ebuild'
 !!!   dwarf-fortress-0.28.181.40d-r18.ebuild, line   8:  Called inherit 'games' 'eutils' 'git' 'multilib' 'flag-o-matic'
