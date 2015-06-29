@@ -50,13 +50,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   eb29bca..fb6f1cd  master     -> origin/master
-Updating eb29bca..fb6f1cd
+   fb6f1cd..5f74b52  master     -> origin/master
+Updating fb6f1cd..5f74b52
 Fast-forward
- www-apps/redmine_git_hosting/Manifest                                   | 2 +-
- ...edmine_git_hosting-1.1.0.ebuild => redmine_git_hosting-1.1.1.ebuild} | 0
- 2 files changed, 1 insertion(+), 1 deletion(-)
- rename www-apps/redmine_git_hosting/{redmine_git_hosting-1.1.0.ebuild => redmine_git_hosting-1.1.1.ebuild} (100%)
+ licenses/CC-BY-ND-4.0                              | 388 +++++++++++++++++++++
+ www-apps/redmine_scrum/Manifest                    |   1 +
+ www-apps/redmine_scrum/metadata.xml                |   8 +
+ www-apps/redmine_scrum/redmine_scrum-0.11.1.ebuild |  64 ++++
+ 4 files changed, 461 insertions(+)
+ create mode 100644 licenses/CC-BY-ND-4.0
+ create mode 100644 www-apps/redmine_scrum/Manifest
+ create mode 100644 www-apps/redmine_scrum/metadata.xml
+ create mode 100644 www-apps/redmine_scrum/redmine_scrum-0.11.1.ebuild
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
