@@ -41,7 +41,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://gitlab.awesome-it.de/overlays/gitlab
+   daf5f58..5798a99  master     -> origin/master
+Updating daf5f58..5798a99
+Fast-forward
+ www-apps/gitlabhq/Manifest                   |   3 +
+ www-apps/gitlabhq/files/gitlabhq-7.12.0.init |  64 ++++
+ www-apps/gitlabhq/gitlabhq-7.12.0.ebuild     | 439 +++++++++++++++++++++++++++
+ www-apps/gitlabhq/gitlabhq-7.8.2.ebuild      |   0
+ www-apps/gitlabhq/gitlabhq-7.8.3.ebuild      |   0
+ www-apps/gitlabhq/gitlabhq-7.8.4.ebuild      |   0
+ www-apps/gitlabhq/metadata.xml               |   9 +
+ 7 files changed, 515 insertions(+)
+ create mode 100644 www-apps/gitlabhq/files/gitlabhq-7.12.0.init
+ create mode 100644 www-apps/gitlabhq/gitlabhq-7.12.0.ebuild
+ mode change 100755 => 100644 www-apps/gitlabhq/gitlabhq-7.8.2.ebuild
+ mode change 100755 => 100644 www-apps/gitlabhq/gitlabhq-7.8.3.ebuild
+ mode change 100755 => 100644 www-apps/gitlabhq/gitlabhq-7.8.4.ebuild
+ create mode 100644 www-apps/gitlabhq/metadata.xml
 *** syncing '/home/mgorny/repos/gitlab'...
 *** synced '/home/mgorny/repos/gitlab'
  * Sync succeeded
