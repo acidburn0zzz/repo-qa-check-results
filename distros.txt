@@ -12,8 +12,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/distros
-WARNING:pkgcore:repository at location '/home/mgorny/repos/awesome' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/awesome', named '<unlabeled repository /home/mgorny/repos/awesome>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
@@ -33,7 +31,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://git.calculate.ru/calculate/distros
+   952bb4e..4eaba4a  master     -> origin/master
+Updating 952bb4e..4eaba4a
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini           |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/graphics |  8 ++++----
+ profiles/templates/3.2/6_ac_update_sync/world/update/56       | 11 +++++++++++
+ 3 files changed, 16 insertions(+), 5 deletions(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/56
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

@@ -14,10 +14,9 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/java
-WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gitlab' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gitlab', named '<unlabeled repository /home/mgorny/repos/gitlab>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -46,14 +45,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gitlab' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gitlab', named '<unlabeled repository /home/mgorny/repos/gitlab>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/java
+   4924c4b..b3783a1  master     -> origin/master
+Updating 4924c4b..b3783a1
+Fast-forward
+ dev-java/wss4j/ChangeLog                           | 10 ---
+ dev-java/wss4j/Manifest                            |  6 --
+ dev-java/wss4j/files/WSSPolicyProcessor.java.patch | 32 ---------
+ dev-java/wss4j/files/build.xml.patch               | 55 ---------------
+ dev-java/wss4j/metadata.xml                        |  5 --
+ dev-java/wss4j/wss4j-1.5.1.ebuild                  | 81 ----------------------
+ 6 files changed, 189 deletions(-)
+ delete mode 100644 dev-java/wss4j/ChangeLog
+ delete mode 100644 dev-java/wss4j/Manifest
+ delete mode 100644 dev-java/wss4j/files/WSSPolicyProcessor.java.patch
+ delete mode 100644 dev-java/wss4j/files/build.xml.patch
+ delete mode 100644 dev-java/wss4j/metadata.xml
+ delete mode 100644 dev-java/wss4j/wss4j-1.5.1.ebuild
 *** syncing '/home/mgorny/repos/java'...
 *** synced '/home/mgorny/repos/java'
  * Sync succeeded
