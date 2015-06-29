@@ -14,7 +14,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/ixit
-WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
@@ -44,12 +45,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/okias/ixit
+   665b772..e6e3cfe  master     -> origin/master
+Updating 665b772..e6e3cfe
+Fast-forward
+ dev-qt/qtsingleapplication/Manifest                |   1 +
+ .../files/2.6.1_p20130904-no-gui.patch             |  67 +++
+ .../files/2.6.1_p20130904-qt5_5-fix.patch          |  11 +
+ .../2.6.1_p20130904-unbundle-qtlockedfile.patch    |  81 +++
+ .../files/qtsingleapplication.prf                  |   9 +
+ .../files/qtsinglecoreapplication.prf              |   8 +
+ dev-qt/qtsingleapplication/metadata.xml            |   5 +
+ .../qtsingleapplication-2.6.1_p20130904-r5.ebuild  | 101 ++++
+ eclass/qt5-build.eclass                            | 572 ---------------------
+ eclass/qt5.eclass                                  | 253 ---------
+ 10 files changed, 283 insertions(+), 825 deletions(-)
+ create mode 100644 dev-qt/qtsingleapplication/Manifest
+ create mode 100644 dev-qt/qtsingleapplication/files/2.6.1_p20130904-no-gui.patch
+ create mode 100644 dev-qt/qtsingleapplication/files/2.6.1_p20130904-qt5_5-fix.patch
+ create mode 100644 dev-qt/qtsingleapplication/files/2.6.1_p20130904-unbundle-qtlockedfile.patch
+ create mode 100644 dev-qt/qtsingleapplication/files/qtsingleapplication.prf
+ create mode 100644 dev-qt/qtsingleapplication/files/qtsinglecoreapplication.prf
+ create mode 100644 dev-qt/qtsingleapplication/metadata.xml
+ create mode 100644 dev-qt/qtsingleapplication/qtsingleapplication-2.6.1_p20130904-r5.ebuild
+ delete mode 100644 eclass/qt5-build.eclass
+ delete mode 100644 eclass/qt5.eclass
 *** syncing '/home/mgorny/repos/ixit'...
 *** synced '/home/mgorny/repos/ixit'
  * Sync succeeded
