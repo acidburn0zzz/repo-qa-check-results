@@ -22,6 +22,8 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -31,41 +33,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   a67acc3..0b955cb  master     -> origin/master
-Updating a67acc3..0b955cb
-Fast-forward
- app-editors/yi/yi-0.12.0.ebuild                    |  7 +++-
- dev-haskell/alut/Manifest                          |  1 +
- dev-haskell/alut/alut-2.4.0.0.ebuild               | 40 +++++++++++++++++++
- .../concrete-typerep-0.1.0.2.ebuild                |  6 ++-
- .../files/concrete-typerep-0.1.0.2-ghc-7.10.patch  | 13 +++++++
- dev-haskell/fluent-logger/Manifest                 |  2 +-
- ...0.2.3.0.ebuild => fluent-logger-0.2.3.1.ebuild} |  0
- dev-haskell/gluraw/Manifest                        |  1 +
- dev-haskell/gluraw/gluraw-1.5.0.1.ebuild           | 39 +++++++++++++++++++
- dev-haskell/glut/Manifest                          |  1 +
- dev-haskell/glut/glut-2.7.0.1.ebuild               | 41 ++++++++++++++++++++
- .../files/hp2any-graph-0.5.4.2-ghc-7.10.patch      |  8 ++++
- .../hp2any-graph/hp2any-graph-0.5.4.2.ebuild       |  6 ++-
- dev-haskell/openal/Manifest                        |  1 +
- dev-haskell/openal/openal-1.7.0.0.ebuild           | 41 ++++++++++++++++++++
- dev-haskell/opengl/Manifest                        |  1 +
- dev-haskell/opengl/opengl-2.12.0.1.ebuild          | 36 +++++++++++++++++
- .../monadius/files/monadius-0.99-glut-2.5.patch    |  9 +++++
- games-action/monadius/monadius-0.99.ebuild         | 45 ++++++++++++++++++----
- 19 files changed, 286 insertions(+), 12 deletions(-)
- create mode 100644 dev-haskell/alut/alut-2.4.0.0.ebuild
- create mode 100644 dev-haskell/concrete-typerep/files/concrete-typerep-0.1.0.2-ghc-7.10.patch
- rename dev-haskell/fluent-logger/{fluent-logger-0.2.3.0.ebuild => fluent-logger-0.2.3.1.ebuild} (100%)
- create mode 100644 dev-haskell/gluraw/gluraw-1.5.0.1.ebuild
- create mode 100644 dev-haskell/glut/glut-2.7.0.1.ebuild
- create mode 100644 dev-haskell/hp2any-graph/files/hp2any-graph-0.5.4.2-ghc-7.10.patch
- create mode 100644 dev-haskell/openal/openal-1.7.0.0.ebuild
- create mode 100644 dev-haskell/opengl/opengl-2.12.0.1.ebuild
- create mode 100644 games-action/monadius/files/monadius-0.99-glut-2.5.patch
+Already up-to-date.
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
