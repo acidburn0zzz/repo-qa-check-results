@@ -51,13 +51,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/pantera31752/open-overlay
-   941a911..f4aac3a  master     -> origin/master
-Updating 941a911..f4aac3a
+   f4aac3a..526bd52  master     -> origin/master
+Updating f4aac3a..526bd52
 Fast-forward
- sys-apps/lm_sensors/Manifest                |   2 +
- sys-apps/lm_sensors/lm_sensors-3.4.0.ebuild | 108 ++++++++++++++++++++++++++++
- 2 files changed, 110 insertions(+)
- create mode 100644 sys-apps/lm_sensors/lm_sensors-3.4.0.ebuild
+ sys-apps/lm_sensors/Manifest                       |   1 +
+ .../lm_sensors-3.4.0-sensors-detect-gentoo.patch   | 122 +++++++++++++++++++++
+ 2 files changed, 123 insertions(+)
+ create mode 100644 sys-apps/lm_sensors/files/lm_sensors-3.4.0-sensors-detect-gentoo.patch
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

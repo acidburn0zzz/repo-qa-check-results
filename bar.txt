@@ -14,15 +14,54 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/bar
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From git://github.com/tokiclover/bar-overlay
+   0334264..c84bf44  master     -> origin/master
+Updating 0334264..c84bf44
+Fast-forward
+ eclass/kernel-git.eclass                          | 168 +++++++++++++---------
+ sys-kernel/git-sources/Manifest                   |  76 ++++++----
+ sys-kernel/git-sources/git-sources-3.10.69.ebuild |  63 --------
+ sys-kernel/git-sources/git-sources-3.10.81.ebuild |  26 ++++
+ sys-kernel/git-sources/git-sources-3.12.37.ebuild |  65 ---------
+ sys-kernel/git-sources/git-sources-3.12.44.ebuild |  25 ++++
+ sys-kernel/git-sources/git-sources-3.14.32.ebuild |  64 ---------
+ sys-kernel/git-sources/git-sources-3.14.33.ebuild |  58 ++------
+ sys-kernel/git-sources/git-sources-3.14.44.ebuild |  26 ++++
+ sys-kernel/git-sources/git-sources-3.18.13.ebuild |  65 ---------
+ sys-kernel/git-sources/git-sources-3.18.16.ebuild |  26 ++++
+ sys-kernel/git-sources/git-sources-3.19.5.ebuild  |  48 ++-----
+ sys-kernel/git-sources/git-sources-3.2.65.ebuild  |  58 --------
+ sys-kernel/git-sources/git-sources-3.2.69.ebuild  |  23 +++
+ sys-kernel/git-sources/git-sources-3.4.106.ebuild |  60 --------
+ sys-kernel/git-sources/git-sources-3.4.107.ebuild |  24 ++++
+ sys-kernel/git-sources/git-sources-4.0.2.ebuild   |  51 -------
+ sys-kernel/git-sources/git-sources-4.0.5.ebuild   |  23 +++
+ sys-kernel/git-sources/metadata.xml               |   1 +
+ 19 files changed, 340 insertions(+), 610 deletions(-)
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.10.69.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.10.81.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.12.37.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.12.44.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.14.32.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.14.44.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.18.13.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.18.16.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.2.65.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.2.69.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-3.4.106.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-3.4.107.ebuild
+ delete mode 100644 sys-kernel/git-sources/git-sources-4.0.2.ebuild
+ create mode 100644 sys-kernel/git-sources/git-sources-4.0.5.ebuild
 *** syncing '/home/mgorny/repos/bar'...
 *** synced '/home/mgorny/repos/bar'
  * Sync succeeded
