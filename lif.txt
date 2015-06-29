@@ -20,8 +20,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/lif
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -52,7 +51,44 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/killer2tester/gentoo-overlay-lif
+   d040ebd..8be56a9  master     -> origin/master
+Updating d040ebd..8be56a9
+Fast-forward
+ app-accessibility/onboard/onboard-1.0.1.ebuild     |   2 +-
+ app-admin/eselect-linux/eselect-linux-1.ebuild     |  19 +++
+ app-admin/eselect-linux/files/linux.eselect        | 135 +++++++++++++++++++++
+ dev-util/eric/eric-6.0.3.ebuild                    |  92 --------------
+ games-misc/opengfx/opengfx-0.5.1.ebuild            |   2 +-
+ games-misc/openmsx/openmsx-0.3.1.ebuild            |   2 +-
+ games-misc/opensfx/opensfx-0.2.3.ebuild            |   2 +-
+ games-simulation/openttd/openttd-1.4.4.ebuild      |   2 +-
+ .../openttd/openttd-1.5.0_beta1.ebuild             |   2 +-
+ games-util/catcodec/catcodec-1.0.5.ebuild          |   2 +-
+ games-util/grfcodec/grfcodec-6.0.4.ebuild          |   2 +-
+ games-util/nml/nml-0.3.1.ebuild                    |   2 +-
+ media-gfx/nomacs/nomacs-2.2.0.ebuild               |   2 +-
+ net-misc/livestreamer/livestreamer-1.11.1.ebuild   |   2 +-
+ net-misc/youtube-dl/youtube-dl-2014.12.15.ebuild   |   2 +-
+ net-print/hplip-plugin/hplip-plugin-3.14.10.ebuild |   2 +-
+ net-print/hplip-plugin/hplip-plugin-3.15.2.ebuild  |   2 +-
+ net-print/hplip-plugin/hplip-plugin-3.15.4.ebuild  |   2 +-
+ .../anything-sync-daemon-5.73.ebuild               |   2 +-
+ sys-devel/icecream/icecream-1.1.0-r1.ebuild        |   2 +-
+ sys-kernel/linux-headers/linux-headers-4.0.ebuild  |  57 +++++++++
+ sys-kernel/linux/linux-3.19.3.ebuild               |   2 +-
+ sys-kernel/linux/linux-4.0.3.ebuild                |   2 +-
+ virtual/linux-sources/linux-sources-0.ebuild       |   2 +-
+ virtual/linux-sources/linux-sources-1.ebuild       |   2 +-
+ .../nvidia-drivers/nvidia-drivers-340.76.ebuild    |   2 +-
+ x11-misc/easystroke/easystroke-0.6.0.ebuild        |   2 +-
+ x11-themes/oxygen-gtk2/oxygen-gtk2-1.4.6.ebuild    |   2 +-
+ x11-themes/oxygen-gtk3/oxygen-gtk3-1.4.1.ebuild    |   2 +-
+ 29 files changed, 236 insertions(+), 117 deletions(-)
+ create mode 100644 app-admin/eselect-linux/eselect-linux-1.ebuild
+ create mode 100644 app-admin/eselect-linux/files/linux.eselect
+ delete mode 100644 dev-util/eric/eric-6.0.3.ebuild
+ create mode 100644 sys-kernel/linux-headers/linux-headers-4.0.ebuild
 *** syncing '/home/mgorny/repos/lif'...
 *** synced '/home/mgorny/repos/lif'
  * Sync succeeded
