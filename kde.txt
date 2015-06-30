@@ -18,7 +18,8 @@ $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
@@ -55,7 +56,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jxh' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named '<unlabeled repository /home/mgorny/repos/jxh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   f5c97bc..e31a883  master     -> origin/master
+Updating f5c97bc..e31a883
+Fast-forward
+ eclass/kde4-base.eclass                 |  4 ++++
+ eclass/kde4-meta.eclass                 |  2 +-
+ kde-base/kjots/Manifest                 |  1 +
+ kde-base/kjots/kjots-4.4.2015.06.ebuild | 19 +++++++++++++++++++
+ 4 files changed, 25 insertions(+), 1 deletion(-)
+ create mode 100644 kde-base/kjots/kjots-4.4.2015.06.ebuild
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
