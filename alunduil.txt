@@ -19,7 +19,19 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   46ddbf6..399c1cd  master     -> origin/master
+Updating 46ddbf6..399c1cd
+Fast-forward
+ dev-python/mkdocs/Manifest                      |  4 ---
+ dev-python/mkdocs/files/skip-invalid-test.patch | 24 -------------
+ dev-python/mkdocs/metadata.xml                  | 10 ------
+ dev-python/mkdocs/mkdocs-0.14.0.ebuild          | 48 -------------------------
+ 4 files changed, 86 deletions(-)
+ delete mode 100644 dev-python/mkdocs/Manifest
+ delete mode 100644 dev-python/mkdocs/files/skip-invalid-test.patch
+ delete mode 100644 dev-python/mkdocs/metadata.xml
+ delete mode 100644 dev-python/mkdocs/mkdocs-0.14.0.ebuild
 *** syncing '/home/mgorny/repos/alunduil'...
 *** synced '/home/mgorny/repos/alunduil'
  * Sync succeeded
