@@ -51,31 +51,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/killer2tester/gentoo-overlay-lif
-   8be56a9..3ce3696  master     -> origin/master
-Updating 8be56a9..3ce3696
-Fast-forward
- sets/dl-core                                      |    6 +-
- sets/dl-desktop-kde                               |   20 +-
- sets/dl-desktop-mate                              |    7 +
- sets/dl-desktop-xfce                              |    7 +
- sets/dl-meta-desktop                              |    8 +-
- sets/dl-meta-rescue                               |   18 +
- sets/dl-meta-server                               |   19 +-
- sys-kernel/linux-headers/linux-headers-4.1.ebuild |   57 +
- sys-kernel/linux/files/4.1/config.i686            | 7356 +++++++++++++++++++++
- sys-kernel/linux/files/4.1/config.x86_64          | 7105 ++++++++++++++++++++
- sys-kernel/linux/linux-4.0.6.ebuild               |  206 +
- sys-kernel/linux/linux-4.1.0.ebuild               |  208 +
- 12 files changed, 14983 insertions(+), 34 deletions(-)
- create mode 100644 sets/dl-desktop-mate
- create mode 100644 sets/dl-desktop-xfce
- create mode 100644 sets/dl-meta-rescue
- create mode 100644 sys-kernel/linux-headers/linux-headers-4.1.ebuild
- create mode 100644 sys-kernel/linux/files/4.1/config.i686
- create mode 100644 sys-kernel/linux/files/4.1/config.x86_64
- create mode 100644 sys-kernel/linux/linux-4.0.6.ebuild
- create mode 100644 sys-kernel/linux/linux-4.1.0.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/lif'...
 *** synced '/home/mgorny/repos/lif'
  * Sync succeeded
