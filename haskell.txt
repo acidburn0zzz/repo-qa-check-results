@@ -22,8 +22,6 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -35,7 +33,35 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   a66ddb1..de3cc7d  master     -> origin/master
+Updating a66ddb1..de3cc7d
+Fast-forward
+ .../distributed-process-simplelocalnet/Manifest    |  1 +
+ ...stributed-process-simplelocalnet-0.2.3.0.ebuild | 38 ++++++++++++++
+ dev-haskell/distributed-process/Manifest           |  1 +
+ .../distributed-process-0.5.5.ebuild               | 43 ++++++++++++++++
+ dev-haskell/distributed-static/Manifest            |  1 +
+ .../distributed-static-0.3.2.0.ebuild              | 27 ++++++++++
+ dev-haskell/rank1dynamic/Manifest                  |  1 +
+ .../rank1dynamic/rank1dynamic-0.3.1.0.ebuild       | 29 +++++++++++
+ games-arcade/blubber-server/Manifest               |  1 +
+ .../blubber-server/blubber-server-0.0.1.ebuild     | 58 ++++++++++++++++++++++
+ games-arcade/blubber-server/metadata.xml           | 11 ++++
+ games-arcade/blubber/Manifest                      |  1 +
+ games-arcade/blubber/blubber-0.0.1.ebuild          | 53 ++++++++++++++++++++
+ games-arcade/blubber/metadata.xml                  | 11 ++++
+ 14 files changed, 276 insertions(+)
+ create mode 100644 dev-haskell/distributed-process-simplelocalnet/distributed-process-simplelocalnet-0.2.3.0.ebuild
+ create mode 100644 dev-haskell/distributed-process/distributed-process-0.5.5.ebuild
+ create mode 100644 dev-haskell/distributed-static/distributed-static-0.3.2.0.ebuild
+ create mode 100644 dev-haskell/rank1dynamic/rank1dynamic-0.3.1.0.ebuild
+ create mode 100644 games-arcade/blubber-server/Manifest
+ create mode 100644 games-arcade/blubber-server/blubber-server-0.0.1.ebuild
+ create mode 100644 games-arcade/blubber-server/metadata.xml
+ create mode 100644 games-arcade/blubber/Manifest
+ create mode 100644 games-arcade/blubber/blubber-0.0.1.ebuild
+ create mode 100644 games-arcade/blubber/metadata.xml
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded

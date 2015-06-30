@@ -19,8 +19,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pcsx2' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named '<unlabeled repository /home/mgorny/repos/pcsx2>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -70,23 +68,90 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 -------------------------------------------------------------------------------
 
 receiving incremental file list
+timestamp.chk
 
 Number of files: 1 (reg: 1)
 Number of created files: 0
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
 File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 58
+Total bytes sent: 85
+Total bytes received: 131
 
-sent 62 bytes  received 58 bytes  48.00 bytes/sec
-total size is 32  speedup is 0.27
+sent 85 bytes  received 131 bytes  48.00 bytes/sec
+total size is 32  speedup is 0.15
+-------------------------------------------------------------------------------
+| Welcome to rsync on gentoofan.no-ip.org:873                                 |
+| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
+| Thus this server only has a dynamic IP I cannot stat it here.               |
+-------------------------------------------------------------------------------
+
+  ,-~~-.___.
+ / |  '     \
+(  )        0
+ \_/-, ,----'
+    ====           //
+   /  \-'~;    /~~~(O)
+  /  __/~|   /       |
+=(  _____| (_________|
+
+ server specs:
+    -CPU		Intel Atom-330 (2x 1,6 GHz)
+    -RAM		2048 MB PC2-533
+    -OS			Gentoo GNU/Linux (Kernel 3.x)
+    -BANDWIDTH		ADSL (16000/1024)
+    -LIMIT		3 users (concurrently)
+    -LOCATION		Ludwigshafen / Germany
+    -CONTACT		polynomial-c@gentoo.org
+
+-------------------------------------------------------------------------------
+
+receiving incremental file list
+metadata/
+metadata/timestamp.chk
+metadata/md5-cache/net-im/
+metadata/md5-cache/net-im/pidgin-2.10.11
+metadata/md5-cache/net-libs/
+metadata/md5-cache/net-libs/webkit-gtk-2.4.9
+metadata/md5-cache/sys-apps/
+metadata/md5-cache/sys-apps/iproute2-4.1.0
+net-im/pidgin/
+net-im/pidgin/Manifest
+net-im/pidgin/pidgin-2.10.11.ebuild
+net-im/pidgin/files/
+net-im/pidgin/files/pidgin-2.10.11-tinfo.patch
+net-libs/webkit-gtk/
+net-libs/webkit-gtk/Manifest
+net-libs/webkit-gtk/webkit-gtk-2.4.9.ebuild
+sys-apps/iproute2/
+sys-apps/iproute2/Manifest
+sys-apps/iproute2/iproute2-4.1.0.ebuild
+deleting metadata/.tmp.timestamp.chk
+deleting metadata/md5-cache/sys-apps/iproute2-4.0.0-r1
+deleting sys-apps/iproute2/iproute2-4.0.0-r1.ebuild
+
+Number of files: 1,434 (reg: 1,042, dir: 392)
+Number of created files: 3 (reg: 3)
+Number of deleted files: 3 (reg: 3)
+Number of regular files transferred: 11
+Total file size: 3.72M bytes
+Total transferred file size: 52.76K bytes
+Literal data: 52.76K bytes
+Matched data: 0 bytes
+File list size: 43.54K
+File list generation time: 0.001 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 784
+Total bytes received: 70.95K
+
+sent 784 bytes  received 70.95K bytes  20.49K bytes/sec
+total size is 3.72M  speedup is 51.82
 *** syncing '/home/mgorny/repos/poly-c'...
 *** synced '/home/mgorny/repos/poly-c'
  * Sync succeeded
