@@ -29,7 +29,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -49,47 +50,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/Sabayon/sabayon-distro
-   f7195d0..71e330b  master     -> origin/master
-Updating f7195d0..71e330b
-Fast-forward
- sys-kernel/ec2-sources/Manifest                    |  4 ++++
- sys-kernel/ec2-sources/ec2-sources-3.10.82.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/ec2-sources/ec2-sources-3.14.46.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/ec2-sources/ec2-sources-3.18.17.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/ec2-sources/ec2-sources-4.0.7.ebuild    | 21 +++++++++++++++++++++
- sys-kernel/linux-ec2/Manifest                      |  4 ++++
- sys-kernel/linux-ec2/linux-ec2-3.10.82.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-ec2/linux-ec2-3.14.46.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-ec2/linux-ec2-3.18.17.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-ec2/linux-ec2-4.0.7.ebuild        | 16 ++++++++++++++++
- sys-kernel/linux-sabayon/Manifest                  |  4 ++++
- .../linux-sabayon/linux-sabayon-3.10.82.ebuild     | 21 +++++++++++++++++++++
- .../linux-sabayon/linux-sabayon-3.14.46.ebuild     | 21 +++++++++++++++++++++
- .../linux-sabayon/linux-sabayon-3.18.17.ebuild     | 21 +++++++++++++++++++++
- .../linux-sabayon/linux-sabayon-4.0.7.ebuild       | 21 +++++++++++++++++++++
- sys-kernel/sabayon-sources/Manifest                |  4 ++++
- .../sabayon-sources/sabayon-sources-3.10.82.ebuild | 22 ++++++++++++++++++++++
- .../sabayon-sources/sabayon-sources-3.14.46.ebuild | 22 ++++++++++++++++++++++
- .../sabayon-sources/sabayon-sources-3.18.17.ebuild | 22 ++++++++++++++++++++++
- .../sabayon-sources/sabayon-sources-4.0.7.ebuild   | 22 ++++++++++++++++++++++
- 20 files changed, 336 insertions(+)
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.10.82.ebuild
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.14.46.ebuild
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.18.17.ebuild
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-4.0.7.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.10.82.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.14.46.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.18.17.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-4.0.7.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.10.82.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.14.46.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.18.17.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-4.0.7.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.10.82.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.14.46.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.18.17.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-4.0.7.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded
