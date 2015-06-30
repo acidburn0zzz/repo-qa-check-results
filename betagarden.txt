@@ -18,41 +18,15 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/betagarden
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/proj/betagarden
-   00e2dfb..743720b  master     -> origin/master
-Updating 00e2dfb..743720b
-Fast-forward
- media-sound/dermixd/Manifest                       |   3 +
- media-sound/dermixd/dermixd-1.6.2.ebuild           |  47 ++++++++
- media-sound/dermixd/dermixd-2.0.0.ebuild           |  49 +++++++++
- .../dermixd/files/dermixd-1.6.2-compile.patch      | 121 +++++++++++++++++++++
- media-sound/dermixd/metadata.xml                   |   8 ++
- media-sound/slart/Manifest                         |   1 +
- .../files/slart-0.8.0.880-exclude-stripped.patch   |  23 ++++
- .../slart/files/slart-0.8.0.880-linking.patch      |  66 +++++++++++
- .../slart/files/slart-0.8.0.880-unstripped.patch   |  22 ++++
- media-sound/slart/slart-0.8.0.880.ebuild           |  43 ++++++++
- 10 files changed, 383 insertions(+)
- create mode 100644 media-sound/dermixd/Manifest
- create mode 100644 media-sound/dermixd/dermixd-1.6.2.ebuild
- create mode 100644 media-sound/dermixd/dermixd-2.0.0.ebuild
- create mode 100644 media-sound/dermixd/files/dermixd-1.6.2-compile.patch
- create mode 100644 media-sound/dermixd/metadata.xml
- create mode 100644 media-sound/slart/Manifest
- create mode 100644 media-sound/slart/files/slart-0.8.0.880-exclude-stripped.patch
- create mode 100644 media-sound/slart/files/slart-0.8.0.880-linking.patch
- create mode 100644 media-sound/slart/files/slart-0.8.0.880-unstripped.patch
- create mode 100644 media-sound/slart/slart-0.8.0.880.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/betagarden'...
 *** synced '/home/mgorny/repos/betagarden'
  * Sync succeeded
