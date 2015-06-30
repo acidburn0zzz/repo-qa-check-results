@@ -12,8 +12,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
-WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -22,44 +20,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   76cbde8..e80f415  master     -> origin/master
-Updating 76cbde8..e80f415
-Fast-forward
- .../calculate-sources/.calculate_directory         |    2 +
- .../sys-kernel/calculate-sources/ksm.start         |    8 +
- .../calculate-sources/3.19/.calculate_directory    |    1 -
- ...oups-kconfig-build-bits-for-BFQ-v7r7-3.19.patch |  105 -
- ...introduce-the-BFQ-v7r7-I-O-sched-for-3.19.patch | 6967 --------------------
- ...ly-Queue-Merge-EQM-to-BFQ-v7r7-for-3.19.0.patch | 1223 ----
- .../sys-kernel/calculate-sources/3.19/20-ipmi      |   11 -
- .../sys-kernel/calculate-sources/3.19/30-bfq       |    6 -
- .../3.19/nouveau_remove_loop.patch                 |  112 -
- ...{10-calculate-x86-3.19 => 10-calculate-x86-4.0} |    0
- ...lculate-x86_64-3.19 => 10-calculate-x86_64-4.0} |    0
- .../calculate-sources/4.1/.calculate_directory     |    1 +
- .../10-calculate-x86-4.1}                          |  124 +-
- .../10-calculate-x86_64-4.1}                       |  100 +-
- .../calculate-sources/{3.19 => 4.1}/20-server      |    0
- sys-kernel/calculate-sources/Manifest              |    2 +
- .../calculate-sources-4.1.1.ebuild                 |   36 +
- 17 files changed, 230 insertions(+), 8468 deletions(-)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/sys-kernel/calculate-sources/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/sys-kernel/calculate-sources/ksm.start
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/.calculate_directory
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r7-3.19.patch
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/0002-block-introduce-the-BFQ-v7r7-I-O-sched-for-3.19.patch
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r7-for-3.19.0.patch
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/20-ipmi
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/30-bfq
- delete mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/3.19/nouveau_remove_loop.patch
- rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/{10-calculate-x86-3.19 => 10-calculate-x86-4.0} (100%)
- rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/{10-calculate-x86_64-3.19 => 10-calculate-x86_64-4.0} (100%)
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/.calculate_directory
- rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/{3.19/10-calculate-x86-3.19 => 4.1/10-calculate-x86-4.1} (96%)
- rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/{3.19/10-calculate-x86_64-3.19 => 4.1/10-calculate-x86_64-4.1} (97%)
- rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/{3.19 => 4.1}/20-server (100%)
- create mode 100644 sys-kernel/calculate-sources/calculate-sources-4.1.1.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded

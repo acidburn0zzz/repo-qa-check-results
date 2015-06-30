@@ -67,18 +67,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
- * (need_php_by_category) Deprecated function call.  Set to be removed on 2015-07-17
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-
-!!! ERROR: dev-php5/ioncube-3.3.7 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+ * (need_php_by_category) Deprecated function call.  Set to be removed on 2015-07-17
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
 !!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
+
+!!! ERROR: dev-php5/ioncube-3.3.7 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
 !!!       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
