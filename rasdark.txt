@@ -34,9 +34,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named 'paddymac', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
@@ -49,7 +49,21 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repo
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   0208d8f..30c1082  master     -> origin/master
+Updating 0208d8f..30c1082
+Fast-forward
+ eclass/calculate-kernel-6.eclass                   |   1 -
+ ...oups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch} |   6 +-
+ ...introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch} | 198 ++++++++++-----------
+ ...ly-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch} |  96 +++++-----
+ sys-kernel/calculate-sources/Manifest              |   4 +-
+ ....4-r1.ebuild => calculate-sources-4.0.7.ebuild} |   2 +-
+ 6 files changed, 144 insertions(+), 163 deletions(-)
+ rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/{0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r7-4.0.patch => 0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch} (97%)
+ rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/{0002-block-introduce-the-BFQ-v7r7-I-O-sched-for-4.0.patch => 0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch} (98%)
+ rename profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/{0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r7-for-4.0.0.patch => 0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch} (94%)
+ rename sys-kernel/calculate-sources/{calculate-sources-4.0.4-r1.ebuild => calculate-sources-4.0.7.ebuild} (95%)
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
