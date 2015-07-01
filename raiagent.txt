@@ -25,7 +25,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
@@ -71,10 +72,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/r3pek' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repository /home/mgorny/repos/r3pek>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ramereth' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ramereth', named '<unlabeled repository /home/mgorny/repos/ramereth>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/leycec/raiagent
+   f29c576..79a0ebc  master     -> origin/master
+Updating f29c576..79a0ebc
+Fast-forward
+ app-misc/powerline/metadata.xml            |   3 +-
+ app-vim/powerline-vim/metadata.xml         |   1 +
+ games-roguelike/cataclysm-dda/metadata.xml |   4 +-
+ licenses/i2p                               | 290 +++++++++++++++++++++++++++++
+ net-p2p/i2p/Manifest                       |   1 +
+ net-p2p/i2p/files/i2p                      |  35 ++++
+ net-p2p/i2p/files/i2p.service              |  13 ++
+ net-p2p/i2p/i2p-0.9.20.ebuild              | 259 ++++++++++++++++++++++++++
+ net-p2p/i2p/metadata.xml                   |  24 +++
+ 9 files changed, 628 insertions(+), 2 deletions(-)
+ create mode 100644 licenses/i2p
+ create mode 100644 net-p2p/i2p/Manifest
+ create mode 100755 net-p2p/i2p/files/i2p
+ create mode 100755 net-p2p/i2p/files/i2p.service
+ create mode 100644 net-p2p/i2p/i2p-0.9.20.ebuild
+ create mode 100644 net-p2p/i2p/metadata.xml
 *** syncing '/home/mgorny/repos/raiagent'...
 *** synced '/home/mgorny/repos/raiagent'
  * Sync succeeded
