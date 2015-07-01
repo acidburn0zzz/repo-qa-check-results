@@ -19,14 +19,15 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/and3k/and3k-sunrise
-   4b83607..8d71a9b  master     -> origin/master
-Updating 4b83607..8d71a9b
+   8d71a9b..9800630  master     -> origin/master
+Updating 8d71a9b..9800630
 Fast-forward
- app-misc/fluxgui/Manifest                          |   3 +-
- .../fluxgui/files/fluxgui-1.1.8-appindicator.patch | 155 +++++++++++++++++++++
- app-misc/fluxgui/fluxgui-1.1.8_pre20130226.ebuild  |  10 +-
- 3 files changed, 166 insertions(+), 2 deletions(-)
- create mode 100644 app-misc/fluxgui/files/fluxgui-1.1.8-appindicator.patch
+ README.md                                         | 14 ++++++----
+ app-misc/fluxgui/Manifest                         |  3 ++-
+ app-misc/fluxgui/fluxgui-1.1.8_pre20130226.ebuild |  7 ++---
+ app-misc/fluxgui/fluxgui-1.1.8_pre20140503.ebuild | 32 +++++++++++++++++++++++
+ 4 files changed, 47 insertions(+), 9 deletions(-)
+ create mode 100644 app-misc/fluxgui/fluxgui-1.1.8_pre20140503.ebuild
 *** syncing '/home/mgorny/repos/and3k-sunrise'...
 *** synced '/home/mgorny/repos/and3k-sunrise'
  * Sync succeeded
