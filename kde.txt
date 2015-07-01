@@ -50,34 +50,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jxh' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named '<unlabeled repository /home/mgorny/repos/jxh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/kde
-   dfa9a8a..61198af  master     -> origin/master
-Updating dfa9a8a..61198af
+   61198af..214bd71  master     -> origin/master
+Updating 61198af..214bd71
 Fast-forward
- .../package.accept_keywords/kde-live.keywords      | 321 ---------------------
- .../soprano-2.9.3-make-broken-redland-fatal.cmake  |  13 -
- dev-libs/soprano/metadata.xml                      |  10 -
- dev-libs/soprano/soprano-9999.ebuild               | 100 -------
- .../kaddressbook/kaddressbook-4.4.2015.06.ebuild   |   4 +-
- kde-base/kdepim-kresources/Manifest                |   1 +
- .../kdepim-kresources-4.4.2015.06.ebuild           |  36 +++
- .../kdepim-meta/kdepim-meta-4.4.2015.06.ebuild     |  43 +++
- .../kdepim-wizards-4.4.2015.06.ebuild              |   4 +-
- kde-base/kmail/kmail-4.4.2015.06.ebuild            |   4 +-
- kde-base/kontact/kontact-4.4.2015.06.ebuild        |   4 +-
- 11 files changed, 85 insertions(+), 455 deletions(-)
- delete mode 100644 Documentation/package.accept_keywords/kde-live.keywords
- delete mode 100644 dev-libs/soprano/files/soprano-2.9.3-make-broken-redland-fatal.cmake
- delete mode 100644 dev-libs/soprano/metadata.xml
- delete mode 100644 dev-libs/soprano/soprano-9999.ebuild
- create mode 100644 kde-base/kdepim-kresources/kdepim-kresources-4.4.2015.06.ebuild
- create mode 100644 kde-base/kdepim-meta/kdepim-meta-4.4.2015.06.ebuild
+ kde-apps/marble/Manifest                           |   2 +-
+ .../kaddressbook/kaddressbook-4.4.2015.06.ebuild   |   7 +
+ .../kdepim-kresources-4.4.2015.06.ebuild           |   3 +-
+ profiles/package.mask/kde-apps-15.04.1             | 239 ---------------------
+ profiles/package.mask/kde-apps-15.04.3             |   2 +-
+ 5 files changed, 11 insertions(+), 242 deletions(-)
+ delete mode 100644 profiles/package.mask/kde-apps-15.04.1
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
