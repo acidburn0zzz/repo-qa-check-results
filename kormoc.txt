@@ -15,7 +15,8 @@
 $ pmaint sync /home/mgorny/repos/kormoc
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
@@ -26,13 +27,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jxh' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named '<unlabeled repository /home/mgorny/repos/jxh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -44,107 +45,107 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: sys-fs/fusecompress-2.6 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: dev-db/mysql-5.1.47 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-db/maatkit-7540 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
 
 !!! ERROR: dev-db/percona-toolkit-2.2.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: dev-db/percona-toolkit-2.2.6 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!        fusecompress-2.6.ebuild, line   4:  Called inherit 'git'
  * 
  * "/home/mgorny/repos/kormoc/media-tv/miro/miro-2.5.2.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-
-!!! ERROR: dev-db/percona-toolkit-2.2.6 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for mysql failed
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!   percona-toolkit-2.2.6.ebuild, line   5:  Called inherit 'perl-app'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!        fusecompress-2.6.ebuild, line   4:  Called inherit 'git'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
+!!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for mysql failed
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!   percona-toolkit-2.2.6.ebuild, line   5:  Called inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
@@ -158,9 +159,9 @@ Sandboxed process killed by signal: Broken pipe
 !!! caught exception Metadata Exception: pkg ebuild src: media-tv/miro-2.5.2, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/miro-2.5.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-db/maatkit-7540
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
  * Cache regenerated successfully
