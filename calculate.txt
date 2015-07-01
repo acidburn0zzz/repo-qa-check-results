@@ -12,6 +12,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -20,51 +22,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   95dbcb1..3901e6e  master     -> origin/master
-   95dbcb1..3901e6e  update     -> origin/update
-Updating 95dbcb1..3901e6e
-Fast-forward
- sys-apps/calculate-utils/Manifest                  | 33 ++++++----------------
- .../calculate-utils/calculate-utils-3.3.1.5.ebuild | 25 ----------------
- .../calculate-utils-3.3.1.7-r1.ebuild              | 25 ----------------
- .../calculate-utils/calculate-utils-3.3.2.1.ebuild | 21 --------------
- .../calculate-utils/calculate-utils-3.3.2.2.ebuild | 21 --------------
- .../calculate-utils/calculate-utils-3.3.2.3.ebuild | 21 --------------
- .../calculate-utils-3.3.2.4-r2.ebuild              | 22 ---------------
- .../calculate-utils/calculate-utils-3.3.2.5.ebuild | 22 ---------------
- .../calculate-utils/calculate-utils-3.3.2.6.ebuild | 22 ---------------
- .../calculate-utils/calculate-utils-3.3.2.7.ebuild | 23 ---------------
- .../calculate-utils/calculate-utils-3.3.2.9.ebuild | 24 ----------------
- ...s-3.3.2.ebuild => calculate-utils-3.3.3.ebuild} |  0
- 12 files changed, 9 insertions(+), 250 deletions(-)
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.1.5.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.1.7-r1.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.1.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.2.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.3.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.4-r2.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.5.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.6.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.7.ebuild
- delete mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.2.9.ebuild
- rename sys-apps/calculate-utils/{calculate-utils-3.3.2.ebuild => calculate-utils-3.3.3.ebuild} (100%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
