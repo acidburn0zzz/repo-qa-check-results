@@ -39,39 +39,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/no-hope/fw-overlay
-   4b1cb14..f6b009a  master     -> origin/master
-Updating 4b1cb14..f6b009a
-Fast-forward
- app-editors/sublime-text/Manifest                  |  2 +
- app-editors/sublime-text/sublime-text-3.ebuild     | 40 ++++++++++++
- dev-db/apache-cassandra-bin/Manifest               |  2 +
- .../apache-cassandra-bin-2.0.16.ebuild             | 73 ++++++++++++++++++++++
- .../apache-cassandra-bin-2.1.7.ebuild              | 73 ++++++++++++++++++++++
- metadata/md5-cache/app-admin/keepassx-2.0_alpha4   |  2 +-
- metadata/md5-cache/app-admin/keepassx-2.0_alpha5   |  2 +-
- .../md5-cache/app-admin/keepassx-2.0_alpha5-r1     |  2 +-
- metadata/md5-cache/app-admin/keepassx-9999         |  2 +-
- metadata/md5-cache/app-editors/sublime-text-3      | 11 ++++
- .../md5-cache/dev-db/apache-cassandra-bin-2.0.16   | 13 ++++
- .../md5-cache/dev-db/apache-cassandra-bin-2.1.7    | 13 ++++
- metadata/md5-cache/dev-java/groovy-bin-2.4.3       |  2 +-
- metadata/md5-cache/dev-java/maven-ant-tasks-2.1.3  |  2 +-
- metadata/md5-cache/dev-java/sbt-bin-0.13.0         |  2 +-
- .../dev-java/wowza-media-server-2.0.0_p15          |  2 +-
- .../md5-cache/dev-java/wowza-media-server-2.1.2    |  2 +-
- metadata/md5-cache/dev-util/idea-plugins-ivy-9999  |  2 +-
- metadata/md5-cache/dev-util/plantuml-7976          |  2 +-
- metadata/md5-cache/dev-util/yed-3.11.1             |  2 +-
- metadata/md5-cache/dev-util/yed-3.12.2             |  2 +-
- metadata/md5-cache/sys-cluster/zookeeper-3.4.6     |  2 +-
- 22 files changed, 241 insertions(+), 14 deletions(-)
- create mode 100644 app-editors/sublime-text/sublime-text-3.ebuild
- create mode 100644 dev-db/apache-cassandra-bin/apache-cassandra-bin-2.0.16.ebuild
- create mode 100644 dev-db/apache-cassandra-bin/apache-cassandra-bin-2.1.7.ebuild
- create mode 100644 metadata/md5-cache/app-editors/sublime-text-3
- create mode 100644 metadata/md5-cache/dev-db/apache-cassandra-bin-2.0.16
- create mode 100644 metadata/md5-cache/dev-db/apache-cassandra-bin-2.1.7
+Already up-to-date.
 *** syncing '/home/mgorny/repos/fw-overlay'...
 *** synced '/home/mgorny/repos/fw-overlay'
  * Sync succeeded
