@@ -14,10 +14,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/jkolo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jaervosz' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled repository /home/mgorny/repos/jaervosz>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/halcy0n' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named '<unlabeled repository /home/mgorny/repos/halcy0n>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,27 +68,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
+!!!       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
-!!!       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              g-pypi-0.4.ebuild, line  13:  Called inherit 'distutils-r1'
-!!!               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!!       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
+!!!       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
 !!!   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!     ioncube-3.3.7.ebuild, line  26:  Called need_php_by_category
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!        depend.php.eclass, line 115:  Called die
 !!! The die message:
 !!!  Version of PHP required by packages in category dev-php5 unknown
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
