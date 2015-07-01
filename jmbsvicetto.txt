@@ -56,35 +56,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named '<unlabeled r
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/dev/jmbsvicetto
-   a101e30..ee4f7cd  master     -> origin/master
-Updating a101e30..ee4f7cd
-Fast-forward
- app-misc/gramps/Manifest                           |  2 +
- app-misc/gramps/files/gramps-resourcepath.patch    | 11 +++
- app-misc/gramps/files/gramps-use_bsddb3.patch      | 11 +++
- app-misc/gramps/gramps-3.4.9.ebuild                | 78 +++++++++++++++++++
- app-misc/gramps/gramps-4.1.3.ebuild                | 51 +++++++++++++
- dev-python/pyicu/Manifest                          |  1 +
- dev-python/pyicu/metadata.xml                      |  8 ++
- dev-python/pyicu/pyicu-1.9.2.ebuild                | 50 ++++++++++++
- sci-geosciences/osm-gps-map/Manifest               |  2 +
- .../files/osm-gps-map-fix-introspection.patch      | 10 +++
- .../osm-gps-map/osm-gps-map-0.7.3.ebuild           | 88 ++++++++++++++++------
- .../osm-gps-map/osm-gps-map-1.0.1.ebuild           | 82 ++++++++++++++++++++
- www-apps/dokuwiki/dokuwiki-20140505e.ebuild        |  4 +-
- www-apps/dokuwiki/dokuwiki-20140929d.ebuild        |  6 +-
- 14 files changed, 374 insertions(+), 30 deletions(-)
- create mode 100644 app-misc/gramps/Manifest
- create mode 100644 app-misc/gramps/files/gramps-resourcepath.patch
- create mode 100644 app-misc/gramps/files/gramps-use_bsddb3.patch
- create mode 100644 app-misc/gramps/gramps-3.4.9.ebuild
- create mode 100644 app-misc/gramps/gramps-4.1.3.ebuild
- create mode 100644 dev-python/pyicu/Manifest
- create mode 100644 dev-python/pyicu/metadata.xml
- create mode 100644 dev-python/pyicu/pyicu-1.9.2.ebuild
- create mode 100644 sci-geosciences/osm-gps-map/files/osm-gps-map-fix-introspection.patch
- create mode 100644 sci-geosciences/osm-gps-map/osm-gps-map-1.0.1.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/jmbsvicetto'...
 *** synced '/home/mgorny/repos/jmbsvicetto'
  * Sync succeeded

@@ -30,7 +30,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -51,7 +52,26 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   009db00..8829e47  master     -> origin/master
+Updating 009db00..8829e47
+Fast-forward
+ dev-vcs/git-cvs/Manifest                                            | 6 +++---
+ dev-vcs/git-cvs/{git-cvs-2.4.3.ebuild => git-cvs-2.4.5.ebuild}      | 0
+ dev-vcs/git-gui-tools/Manifest                                      | 2 +-
+ .../{git-gui-tools-2.4.3.ebuild => git-gui-tools-2.4.5.ebuild}      | 0
+ dev-vcs/git-subversion/Manifest                                     | 6 +++---
+ .../{git-subversion-2.4.3.ebuild => git-subversion-2.4.5.ebuild}    | 0
+ dev-vcs/git/Manifest                                                | 6 +++---
+ dev-vcs/git/{git-2.4.3.ebuild => git-2.4.5.ebuild}                  | 6 +++---
+ www-apps/gitweb/Manifest                                            | 2 +-
+ www-apps/gitweb/{gitweb-2.4.3.ebuild => gitweb-2.4.5.ebuild}        | 4 ++--
+ 10 files changed, 16 insertions(+), 16 deletions(-)
+ rename dev-vcs/git-cvs/{git-cvs-2.4.3.ebuild => git-cvs-2.4.5.ebuild} (100%)
+ rename dev-vcs/git-gui-tools/{git-gui-tools-2.4.3.ebuild => git-gui-tools-2.4.5.ebuild} (100%)
+ rename dev-vcs/git-subversion/{git-subversion-2.4.3.ebuild => git-subversion-2.4.5.ebuild} (100%)
+ rename dev-vcs/git/{git-2.4.3.ebuild => git-2.4.5.ebuild} (99%)
+ rename www-apps/gitweb/{gitweb-2.4.3.ebuild => gitweb-2.4.5.ebuild} (97%)
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded
