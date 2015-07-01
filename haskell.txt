@@ -36,21 +36,29 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabe
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   6ea23c5..d2fc463  master     -> origin/master
-Updating 6ea23c5..d2fc463
+   d2fc463..9adb08a  master     -> origin/master
+Updating d2fc463..9adb08a
 Fast-forward
- dev-haskell/gloss-algorithms/Manifest              |  1 +
- .../gloss-algorithms-1.9.4.1.ebuild                | 27 +++++++++++++++
- dev-haskell/gloss-rendering/Manifest               |  1 +
- .../gloss-rendering/gloss-rendering-1.9.3.1.ebuild | 28 +++++++++++++++
- dev-haskell/gloss/Manifest                         |  1 +
- dev-haskell/gloss/gloss-1.9.4.1.ebuild             | 37 ++++++++++++++++++++
- .../files/mime-string-0.4-ghc-7.10.patch           | 40 ++++++++++++++++++++++
- 7 files changed, 135 insertions(+)
- create mode 100644 dev-haskell/gloss-algorithms/gloss-algorithms-1.9.4.1.ebuild
- create mode 100644 dev-haskell/gloss-rendering/gloss-rendering-1.9.3.1.ebuild
- create mode 100644 dev-haskell/gloss/gloss-1.9.4.1.ebuild
- create mode 100644 dev-haskell/mime-string/files/mime-string-0.4-ghc-7.10.patch
+ dev-haskell/gloss-examples/Manifest                |  1 +
+ .../gloss-examples/gloss-examples-1.9.4.1.ebuild   | 43 ++++++++++++++++++++++
+ dev-haskell/gloss-raster/Manifest                  |  1 +
+ .../gloss-raster/gloss-raster-1.9.4.1.ebuild       | 35 ++++++++++++++++++
+ dev-haskell/repa-algorithms/Manifest               |  1 +
+ .../repa-algorithms/repa-algorithms-3.4.0.1.ebuild | 28 ++++++++++++++
+ dev-haskell/repa-devil/Manifest                    |  1 +
+ dev-haskell/repa-devil/repa-devil-0.3.2.6.ebuild   | 28 ++++++++++++++
+ dev-haskell/repa-io/Manifest                       |  1 +
+ dev-haskell/repa-io/repa-io-3.4.0.1.ebuild         | 31 ++++++++++++++++
+ dev-haskell/repa/Manifest                          |  1 +
+ dev-haskell/repa/repa-3.4.0.1.ebuild               | 28 ++++++++++++++
+ .../blubber-server/blubber-server-0.0.1.ebuild     |  5 +++
+ 13 files changed, 204 insertions(+)
+ create mode 100644 dev-haskell/gloss-examples/gloss-examples-1.9.4.1.ebuild
+ create mode 100644 dev-haskell/gloss-raster/gloss-raster-1.9.4.1.ebuild
+ create mode 100644 dev-haskell/repa-algorithms/repa-algorithms-3.4.0.1.ebuild
+ create mode 100644 dev-haskell/repa-devil/repa-devil-0.3.2.6.ebuild
+ create mode 100644 dev-haskell/repa-io/repa-io-3.4.0.1.ebuild
+ create mode 100644 dev-haskell/repa/repa-3.4.0.1.ebuild
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
