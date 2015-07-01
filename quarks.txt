@@ -39,7 +39,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named 'paddymac', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -64,31 +65,31 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
 !!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
 !!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
 !!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
 !!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
