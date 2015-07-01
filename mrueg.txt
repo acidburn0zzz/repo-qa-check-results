@@ -17,9 +17,12 @@
 $ pmaint sync /home/mgorny/repos/mrueg
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/matsuu' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named '<unlabeled repository /home/mgorny/repos/matsuu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/logan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named '<unlabeled repository /home/mgorny/repos/logan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
@@ -44,27 +47,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/logan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named '<unlabeled repository /home/mgorny/repos/logan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   0a09a49..00bce69  master     -> origin/master
-Updating 0a09a49..00bce69
+   00bce69..a2ee609  master     -> origin/master
+Updating 00bce69..a2ee609
 Fast-forward
- dev-python/vcrpy/Manifest                          |  1 +
- dev-python/vcrpy/metadata.xml                      |  8 ++++++
- dev-python/vcrpy/vcrpy-1.5.2.ebuild                | 33 ++++++++++++++++++++++
- media-plugins/moped/moped-0.6.1.ebuild             |  3 --
- media-plugins/mopidy-soundcloud/Manifest           |  1 +
- media-plugins/mopidy-soundcloud/metadata.xml       |  8 ++++++
- .../mopidy-soundcloud-2.0.0.ebuild                 | 29 +++++++++++++++++++
- 7 files changed, 80 insertions(+), 3 deletions(-)
- create mode 100644 dev-python/vcrpy/Manifest
- create mode 100644 dev-python/vcrpy/metadata.xml
- create mode 100644 dev-python/vcrpy/vcrpy-1.5.2.ebuild
- create mode 100644 media-plugins/mopidy-soundcloud/Manifest
- create mode 100644 media-plugins/mopidy-soundcloud/metadata.xml
- create mode 100644 media-plugins/mopidy-soundcloud/mopidy-soundcloud-2.0.0.ebuild
+ dev-tex/latexdraw/latexdraw-3.3.1.ebuild           |  4 +--
+ media-plugins/mopidy-mpris/Manifest                |  1 +
+ media-plugins/mopidy-mpris/metadata.xml            |  8 ++++++
+ .../mopidy-mpris/mopidy-mpris-1.2.0.ebuild         | 30 ++++++++++++++++++++++
+ media-sound/mopidy/mopidy-1.0.7.ebuild             |  8 ++++--
+ sci-mathematics/calc/calc-2.12.5.0.ebuild          |  9 +++----
+ 6 files changed, 51 insertions(+), 9 deletions(-)
+ create mode 100644 media-plugins/mopidy-mpris/Manifest
+ create mode 100644 media-plugins/mopidy-mpris/metadata.xml
+ create mode 100644 media-plugins/mopidy-mpris/mopidy-mpris-1.2.0.ebuild
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
