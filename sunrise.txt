@@ -31,13 +31,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/soor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named '<unlabeled repository /home/mgorny/repos/soor>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -71,31 +68,31 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
-!!!         lipsofsuna-9999.ebuild, line   9:  Called inherit 'eutils' 'games' 'waf-utils' 'git-2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 
 !!! ERROR: games-rpg/lipsofsuna-0.5.0 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!               waf-utils.eclass, line  22:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
-
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         lipsofsuna-9999.ebuild, line   9:  Called inherit 'eutils' 'games' 'waf-utils' 'git-2'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
-!!!        lipsofsuna-0.5.0.ebuild, line   6:  Called inherit 'eutils' 'games' 'waf-utils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!        lipsofsuna-0.5.0.ebuild, line   6:  Called inherit 'eutils' 'games' 'waf-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!               waf-utils.eclass, line  22:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!               waf-utils.eclass, line  22:  Called die
