@@ -28,9 +28,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -46,7 +49,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined 
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -63,22 +67,22 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/perl-overlay
-   30859e5..ff8a1b1  master     -> origin/master
-Updating 30859e5..ff8a1b1
+   ff8a1b1..bc7deca  master     -> origin/master
+Updating ff8a1b1..bc7deca
 Fast-forward
- .../Apache-LogRegex/Apache-LogRegex-1.700.0.ebuild | 20 ++++++++++++++++++
- dev-perl/Apache-LogRegex/Manifest                  |  1 +
- dev-perl/Apache-LogRegex/metadata.xml              |  9 ++++++++
- .../Data-Throttler/Data-Throttler-0.80.0.ebuild    | 24 ++++++++++++++++++++++
- dev-perl/Data-Throttler/Manifest                   |  1 +
- dev-perl/Data-Throttler/metadata.xml               |  9 ++++++++
- 6 files changed, 64 insertions(+)
- create mode 100644 dev-perl/Apache-LogRegex/Apache-LogRegex-1.700.0.ebuild
- create mode 100644 dev-perl/Apache-LogRegex/Manifest
- create mode 100644 dev-perl/Apache-LogRegex/metadata.xml
- create mode 100644 dev-perl/Data-Throttler/Data-Throttler-0.80.0.ebuild
- create mode 100644 dev-perl/Data-Throttler/Manifest
- create mode 100644 dev-perl/Data-Throttler/metadata.xml
+ dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild      | 23 ++++++++++++++
+ dev-perl/File-Rsync/Manifest                       |  1 +
+ dev-perl/File-Rsync/metadata.xml                   |  9 ++++++
+ .../Filter-Template/Filter-Template-1.43.0.ebuild  | 35 ++++++++++++++++++++++
+ dev-perl/Filter-Template/Manifest                  |  1 +
+ dev-perl/Filter-Template/metadata.xml              |  9 ++++++
+ 6 files changed, 78 insertions(+)
+ create mode 100644 dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild
+ create mode 100644 dev-perl/File-Rsync/Manifest
+ create mode 100644 dev-perl/File-Rsync/metadata.xml
+ create mode 100644 dev-perl/Filter-Template/Filter-Template-1.43.0.ebuild
+ create mode 100644 dev-perl/Filter-Template/Manifest
+ create mode 100644 dev-perl/Filter-Template/metadata.xml
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded

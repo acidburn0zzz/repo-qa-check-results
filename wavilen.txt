@@ -18,6 +18,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', d
 WARNING:pkgcore:repository at location '/home/mgorny/repos/thousand-parsec' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/thousand-parsec', named '<unlabeled repository /home/mgorny/repos/thousand-parsec>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/verlihub' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/verlihub', named '<unlabeled repository /home/mgorny/repos/verlihub>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/ubuntu' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/ubuntu', named '<unlabeled repository /home/mgorny/repos/ubuntu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -42,8 +44,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouet
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/venidera' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/venidera', named '<unlabeled repository /home/mgorny/repos/venidera>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -83,29 +83,11 @@ Already up-to-date.
 $ pmaint regen -t 2 wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 
 !!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
- * 
- * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
@@ -115,9 +97,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!    notify-osd-0.9.29-r1.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
