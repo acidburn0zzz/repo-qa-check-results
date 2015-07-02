@@ -22,6 +22,8 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -33,31 +35,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   9adb08a..67b83c4  master     -> origin/master
-Updating 9adb08a..67b83c4
-Fast-forward
- dev-haskell/htsn-common/Manifest                   |   1 -
- dev-haskell/htsn-common/htsn-common-0.0.2.ebuild   |  28 ---
- dev-haskell/htsn-common/metadata.xml               |  31 ----
- net-misc/htsn-import/Manifest                      |   1 -
- .../files/htsn-import-0.2.4-time-1.5.patch         |  43 -----
- net-misc/htsn-import/htsn-import-0.2.4.ebuild      |  79 ---------
- net-misc/htsn-import/metadata.xml                  |  47 -----
- net-misc/htsn/Manifest                             |   1 -
- net-misc/htsn/htsn-0.1.1.ebuild                    |  78 ---------
- net-misc/htsn/metadata.xml                         | 191 ---------------------
- 10 files changed, 500 deletions(-)
- delete mode 100644 dev-haskell/htsn-common/Manifest
- delete mode 100644 dev-haskell/htsn-common/htsn-common-0.0.2.ebuild
- delete mode 100644 dev-haskell/htsn-common/metadata.xml
- delete mode 100644 net-misc/htsn-import/Manifest
- delete mode 100644 net-misc/htsn-import/files/htsn-import-0.2.4-time-1.5.patch
- delete mode 100644 net-misc/htsn-import/htsn-import-0.2.4.ebuild
- delete mode 100644 net-misc/htsn-import/metadata.xml
- delete mode 100644 net-misc/htsn/Manifest
- delete mode 100644 net-misc/htsn/htsn-0.1.1.ebuild
- delete mode 100644 net-misc/htsn/metadata.xml
+Already up-to-date.
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
