@@ -40,8 +40,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -79,82 +77,42 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/gentoo-perl/perl-experimental-snapshots
-   a70b24b..f373b83  master     -> origin/master
-Updating a70b24b..f373b83
+   f373b83..810b988  master     -> origin/master
+Updating f373b83..810b988
 Fast-forward
- .../Apache-LogRegex/Apache-LogRegex-1.700.0.ebuild | 20 +++++++++++++
- dev-perl/Apache-LogRegex/Manifest                  |  1 +
- dev-perl/Apache-LogRegex/metadata.xml              |  9 ++++++
- .../Data-Throttler/Data-Throttler-0.80.0.ebuild    | 24 +++++++++++++++
- dev-perl/Data-Throttler/Manifest                   |  1 +
- dev-perl/Data-Throttler/metadata.xml               |  9 ++++++
- dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild      | 23 ++++++++++++++
- dev-perl/File-Rsync/Manifest                       |  1 +
- dev-perl/File-Rsync/metadata.xml                   |  9 ++++++
- .../Filter-Template/Filter-Template-1.43.0.ebuild  | 35 ++++++++++++++++++++++
- dev-perl/Filter-Template/Manifest                  |  1 +
- dev-perl/Filter-Template/metadata.xml              |  9 ++++++
- ...idator-Simple-ProfileManager-YAML-0.60.0.ebuild | 20 +++++++++++++
- .../Manifest                                       |  1 +
- .../metadata.xml                                   |  9 ++++++
- .../Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild | 21 +++++++++++++
- dev-perl/Geo-WeatherNOAA/Manifest                  |  1 +
- dev-perl/Geo-WeatherNOAA/metadata.xml              |  9 ++++++
- dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild        | 32 ++++++++++++++++++++
- dev-perl/HTML-Lint/Manifest                        |  1 +
- dev-perl/HTML-Lint/metadata.xml                    |  9 ++++++
- dev-perl/Regexp-Grammars-Common-String/Manifest    |  1 +
- .../Regexp-Grammars-Common-String-1.0.1.ebuild     | 29 ++++++++++++++++++
- .../Regexp-Grammars-Common-String/metadata.xml     |  9 ++++++
- dev-perl/iCal-Parser/Manifest                      |  1 +
- dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild    | 28 +++++++++++++++++
- dev-perl/iCal-Parser/metadata.xml                  |  9 ++++++
- .../md5-cache/dev-perl/Apache-LogRegex-1.700.0     | 13 ++++++++
- metadata/md5-cache/dev-perl/Data-Throttler-0.80.0  | 12 ++++++++
- metadata/md5-cache/dev-perl/File-Rsync-0.450.0     | 12 ++++++++
- metadata/md5-cache/dev-perl/Filter-Template-1.43.0 | 13 ++++++++
- ...FormValidator-Simple-ProfileManager-YAML-0.60.0 | 13 ++++++++
- .../md5-cache/dev-perl/Geo-WeatherNOAA-4.380.0     | 12 ++++++++
- metadata/md5-cache/dev-perl/HTML-Lint-2.220.0      | 13 ++++++++
- .../dev-perl/Regexp-Grammars-Common-String-1.0.1   | 13 ++++++++
- metadata/md5-cache/dev-perl/iCal-Parser-1.200.0    | 13 ++++++++
- 36 files changed, 436 insertions(+)
- create mode 100644 dev-perl/Apache-LogRegex/Apache-LogRegex-1.700.0.ebuild
- create mode 100644 dev-perl/Apache-LogRegex/Manifest
- create mode 100644 dev-perl/Apache-LogRegex/metadata.xml
- create mode 100644 dev-perl/Data-Throttler/Data-Throttler-0.80.0.ebuild
- create mode 100644 dev-perl/Data-Throttler/Manifest
- create mode 100644 dev-perl/Data-Throttler/metadata.xml
- create mode 100644 dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild
- create mode 100644 dev-perl/File-Rsync/Manifest
- create mode 100644 dev-perl/File-Rsync/metadata.xml
- create mode 100644 dev-perl/Filter-Template/Filter-Template-1.43.0.ebuild
- create mode 100644 dev-perl/Filter-Template/Manifest
- create mode 100644 dev-perl/Filter-Template/metadata.xml
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/FormValidator-Simple-ProfileManager-YAML-0.60.0.ebuild
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/Manifest
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/metadata.xml
- create mode 100644 dev-perl/Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild
- create mode 100644 dev-perl/Geo-WeatherNOAA/Manifest
- create mode 100644 dev-perl/Geo-WeatherNOAA/metadata.xml
- create mode 100644 dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild
- create mode 100644 dev-perl/HTML-Lint/Manifest
- create mode 100644 dev-perl/HTML-Lint/metadata.xml
- create mode 100644 dev-perl/Regexp-Grammars-Common-String/Manifest
- create mode 100644 dev-perl/Regexp-Grammars-Common-String/Regexp-Grammars-Common-String-1.0.1.ebuild
- create mode 100644 dev-perl/Regexp-Grammars-Common-String/metadata.xml
- create mode 100644 dev-perl/iCal-Parser/Manifest
- create mode 100644 dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild
- create mode 100644 dev-perl/iCal-Parser/metadata.xml
- create mode 100644 metadata/md5-cache/dev-perl/Apache-LogRegex-1.700.0
- create mode 100644 metadata/md5-cache/dev-perl/Data-Throttler-0.80.0
- create mode 100644 metadata/md5-cache/dev-perl/File-Rsync-0.450.0
- create mode 100644 metadata/md5-cache/dev-perl/Filter-Template-1.43.0
- create mode 100644 metadata/md5-cache/dev-perl/FormValidator-Simple-ProfileManager-YAML-0.60.0
- create mode 100644 metadata/md5-cache/dev-perl/Geo-WeatherNOAA-4.380.0
- create mode 100644 metadata/md5-cache/dev-perl/HTML-Lint-2.220.0
- create mode 100644 metadata/md5-cache/dev-perl/Regexp-Grammars-Common-String-1.0.1
- create mode 100644 metadata/md5-cache/dev-perl/iCal-Parser-1.200.0
+ .../Lingua-EN-Numbers-2.20.0.ebuild                | 29 ++++++++++++++++++++++
+ dev-perl/Lingua-EN-Numbers/Manifest                |  1 +
+ dev-perl/Lingua-EN-Numbers/metadata.xml            |  9 +++++++
+ .../Log-Dispatch-Jabber-0.300.0.ebuild             | 22 ++++++++++++++++
+ dev-perl/Log-Dispatch-Jabber/Manifest              |  1 +
+ dev-perl/Log-Dispatch-Jabber/metadata.xml          |  9 +++++++
+ dev-perl/Module-Install-Any-Moose/Manifest         |  1 +
+ .../Module-Install-Any-Moose-0.0.30.ebuild         | 20 +++++++++++++++
+ dev-perl/Module-Install-Any-Moose/metadata.xml     |  9 +++++++
+ dev-perl/Module-Install-Repository/Manifest        |  1 +
+ .../Module-Install-Repository-0.60.0.ebuild        | 26 +++++++++++++++++++
+ dev-perl/Module-Install-Repository/metadata.xml    |  9 +++++++
+ .../md5-cache/dev-perl/Lingua-EN-Numbers-2.20.0    | 13 ++++++++++
+ .../md5-cache/dev-perl/Log-Dispatch-Jabber-0.300.0 | 13 ++++++++++
+ .../dev-perl/Module-Install-Any-Moose-0.0.30       | 13 ++++++++++
+ .../dev-perl/Module-Install-Repository-0.60.0      | 13 ++++++++++
+ 16 files changed, 189 insertions(+)
+ create mode 100644 dev-perl/Lingua-EN-Numbers/Lingua-EN-Numbers-2.20.0.ebuild
+ create mode 100644 dev-perl/Lingua-EN-Numbers/Manifest
+ create mode 100644 dev-perl/Lingua-EN-Numbers/metadata.xml
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/Log-Dispatch-Jabber-0.300.0.ebuild
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/Manifest
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/metadata.xml
+ create mode 100644 dev-perl/Module-Install-Any-Moose/Manifest
+ create mode 100644 dev-perl/Module-Install-Any-Moose/Module-Install-Any-Moose-0.0.30.ebuild
+ create mode 100644 dev-perl/Module-Install-Any-Moose/metadata.xml
+ create mode 100644 dev-perl/Module-Install-Repository/Manifest
+ create mode 100644 dev-perl/Module-Install-Repository/Module-Install-Repository-0.60.0.ebuild
+ create mode 100644 dev-perl/Module-Install-Repository/metadata.xml
+ create mode 100644 metadata/md5-cache/dev-perl/Lingua-EN-Numbers-2.20.0
+ create mode 100644 metadata/md5-cache/dev-perl/Log-Dispatch-Jabber-0.300.0
+ create mode 100644 metadata/md5-cache/dev-perl/Module-Install-Any-Moose-0.0.30
+ create mode 100644 metadata/md5-cache/dev-perl/Module-Install-Repository-0.60.0
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded

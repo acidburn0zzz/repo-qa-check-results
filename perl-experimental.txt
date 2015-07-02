@@ -32,8 +32,6 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -65,34 +63,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/perl-overlay
-   bc7deca..11bb3d1  master     -> origin/master
-Updating bc7deca..11bb3d1
+   11bb3d1..855367e  master     -> origin/master
+Updating 11bb3d1..855367e
 Fast-forward
- ...idator-Simple-ProfileManager-YAML-0.60.0.ebuild | 20 ++++++++++++++
- .../Manifest                                       |  1 +
- .../metadata.xml                                   |  9 ++++++
- .../Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild | 21 ++++++++++++++
- dev-perl/Geo-WeatherNOAA/Manifest                  |  1 +
- dev-perl/Geo-WeatherNOAA/metadata.xml              |  9 ++++++
- dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild        | 32 ++++++++++++++++++++++
- dev-perl/HTML-Lint/Manifest                        |  1 +
- dev-perl/HTML-Lint/metadata.xml                    |  9 ++++++
- dev-perl/iCal-Parser/Manifest                      |  1 +
- dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild    | 28 +++++++++++++++++++
- dev-perl/iCal-Parser/metadata.xml                  |  9 ++++++
- 12 files changed, 141 insertions(+)
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/FormValidator-Simple-ProfileManager-YAML-0.60.0.ebuild
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/Manifest
- create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/metadata.xml
- create mode 100644 dev-perl/Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild
- create mode 100644 dev-perl/Geo-WeatherNOAA/Manifest
- create mode 100644 dev-perl/Geo-WeatherNOAA/metadata.xml
- create mode 100644 dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild
- create mode 100644 dev-perl/HTML-Lint/Manifest
- create mode 100644 dev-perl/HTML-Lint/metadata.xml
- create mode 100644 dev-perl/iCal-Parser/Manifest
- create mode 100644 dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild
- create mode 100644 dev-perl/iCal-Parser/metadata.xml
+ .../Lingua-EN-Numbers-2.20.0.ebuild                | 29 ++++++++++++++++++++++
+ dev-perl/Lingua-EN-Numbers/Manifest                |  1 +
+ dev-perl/Lingua-EN-Numbers/metadata.xml            |  9 +++++++
+ .../Log-Dispatch-Jabber-0.300.0.ebuild             | 22 ++++++++++++++++
+ dev-perl/Log-Dispatch-Jabber/Manifest              |  1 +
+ dev-perl/Log-Dispatch-Jabber/metadata.xml          |  9 +++++++
+ dev-perl/Module-Install-Any-Moose/Manifest         |  1 +
+ .../Module-Install-Any-Moose-0.0.30.ebuild         | 20 +++++++++++++++
+ dev-perl/Module-Install-Any-Moose/metadata.xml     |  9 +++++++
+ dev-perl/Module-Install-Repository/Manifest        |  1 +
+ .../Module-Install-Repository-0.60.0.ebuild        | 26 +++++++++++++++++++
+ dev-perl/Module-Install-Repository/metadata.xml    |  9 +++++++
+ 12 files changed, 137 insertions(+)
+ create mode 100644 dev-perl/Lingua-EN-Numbers/Lingua-EN-Numbers-2.20.0.ebuild
+ create mode 100644 dev-perl/Lingua-EN-Numbers/Manifest
+ create mode 100644 dev-perl/Lingua-EN-Numbers/metadata.xml
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/Log-Dispatch-Jabber-0.300.0.ebuild
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/Manifest
+ create mode 100644 dev-perl/Log-Dispatch-Jabber/metadata.xml
+ create mode 100644 dev-perl/Module-Install-Any-Moose/Manifest
+ create mode 100644 dev-perl/Module-Install-Any-Moose/Module-Install-Any-Moose-0.0.30.ebuild
+ create mode 100644 dev-perl/Module-Install-Any-Moose/metadata.xml
+ create mode 100644 dev-perl/Module-Install-Repository/Manifest
+ create mode 100644 dev-perl/Module-Install-Repository/Module-Install-Repository-0.60.0.ebuild
+ create mode 100644 dev-perl/Module-Install-Repository/metadata.xml
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
