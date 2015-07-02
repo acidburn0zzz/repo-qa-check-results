@@ -21,9 +21,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named '<unlabeled repository /home/mgorny/repos/bicatali>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -46,30 +46,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/rasdark/overlay
-   30c1082..5a863b6  master     -> origin/master
-Updating 30c1082..5a863b6
-Fast-forward
- www-servers/nginx/Manifest                         |  21 +
- www-servers/nginx/files/check_1.7.2+.patch         | 201 ++++++
- .../files/nginx-1.4.1-fix-perl-install-path.patch  |  13 +
- www-servers/nginx/files/nginx.conf                 |  72 +++
- www-servers/nginx/files/nginx.initd-r2             |  89 +++
- www-servers/nginx/files/nginx.logrotate-r1         |  12 +
- www-servers/nginx/files/nginx.service-r1           |  14 +
- www-servers/nginx/nginx-1.8.0.ebuild               | 686 +++++++++++++++++++++
- 8 files changed, 1108 insertions(+)
- create mode 100644 www-servers/nginx/Manifest
- create mode 100644 www-servers/nginx/files/check_1.7.2+.patch
- create mode 100644 www-servers/nginx/files/nginx-1.4.1-fix-perl-install-path.patch
- create mode 100644 www-servers/nginx/files/nginx.conf
- create mode 100644 www-servers/nginx/files/nginx.initd-r2
- create mode 100644 www-servers/nginx/files/nginx.logrotate-r1
- create mode 100644 www-servers/nginx/files/nginx.service-r1
- create mode 100644 www-servers/nginx/nginx-1.8.0.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
