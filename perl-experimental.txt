@@ -43,8 +43,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -67,22 +65,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/perl-overlay
-   ff8a1b1..bc7deca  master     -> origin/master
-Updating ff8a1b1..bc7deca
+   bc7deca..11bb3d1  master     -> origin/master
+Updating bc7deca..11bb3d1
 Fast-forward
- dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild      | 23 ++++++++++++++
- dev-perl/File-Rsync/Manifest                       |  1 +
- dev-perl/File-Rsync/metadata.xml                   |  9 ++++++
- .../Filter-Template/Filter-Template-1.43.0.ebuild  | 35 ++++++++++++++++++++++
- dev-perl/Filter-Template/Manifest                  |  1 +
- dev-perl/Filter-Template/metadata.xml              |  9 ++++++
- 6 files changed, 78 insertions(+)
- create mode 100644 dev-perl/File-Rsync/File-Rsync-0.450.0.ebuild
- create mode 100644 dev-perl/File-Rsync/Manifest
- create mode 100644 dev-perl/File-Rsync/metadata.xml
- create mode 100644 dev-perl/Filter-Template/Filter-Template-1.43.0.ebuild
- create mode 100644 dev-perl/Filter-Template/Manifest
- create mode 100644 dev-perl/Filter-Template/metadata.xml
+ ...idator-Simple-ProfileManager-YAML-0.60.0.ebuild | 20 ++++++++++++++
+ .../Manifest                                       |  1 +
+ .../metadata.xml                                   |  9 ++++++
+ .../Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild | 21 ++++++++++++++
+ dev-perl/Geo-WeatherNOAA/Manifest                  |  1 +
+ dev-perl/Geo-WeatherNOAA/metadata.xml              |  9 ++++++
+ dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild        | 32 ++++++++++++++++++++++
+ dev-perl/HTML-Lint/Manifest                        |  1 +
+ dev-perl/HTML-Lint/metadata.xml                    |  9 ++++++
+ dev-perl/iCal-Parser/Manifest                      |  1 +
+ dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild    | 28 +++++++++++++++++++
+ dev-perl/iCal-Parser/metadata.xml                  |  9 ++++++
+ 12 files changed, 141 insertions(+)
+ create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/FormValidator-Simple-ProfileManager-YAML-0.60.0.ebuild
+ create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/Manifest
+ create mode 100644 dev-perl/FormValidator-Simple-ProfileManager-YAML/metadata.xml
+ create mode 100644 dev-perl/Geo-WeatherNOAA/Geo-WeatherNOAA-4.380.0.ebuild
+ create mode 100644 dev-perl/Geo-WeatherNOAA/Manifest
+ create mode 100644 dev-perl/Geo-WeatherNOAA/metadata.xml
+ create mode 100644 dev-perl/HTML-Lint/HTML-Lint-2.220.0.ebuild
+ create mode 100644 dev-perl/HTML-Lint/Manifest
+ create mode 100644 dev-perl/HTML-Lint/metadata.xml
+ create mode 100644 dev-perl/iCal-Parser/Manifest
+ create mode 100644 dev-perl/iCal-Parser/iCal-Parser-1.200.0.ebuild
+ create mode 100644 dev-perl/iCal-Parser/metadata.xml
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
