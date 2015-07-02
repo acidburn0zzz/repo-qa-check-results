@@ -36,12 +36,36 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at location '/home/mgorny/repos/docd' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named '<unlabeled repository /home/mgorny/repos/docd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/drizzt-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named '<unlabeled repository /home/mgorny/repos/drizzt-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/drdim/layman
-   2b46122..cf6cb3c  master     -> origin/master
-Updating 2b46122..cf6cb3c
+   cf6cb3c..4a4e0d3  master     -> origin/master
+Updating cf6cb3c..4a4e0d3
 Fast-forward
- dev-util/phpstorm/Manifest | 10 ++++++++++
- 1 file changed, 10 insertions(+)
+ dev-util/clion/Manifest                            |  4 ++-
+ .../clion-1.0.3.ebuild}                            | 20 +++++------
+ .../clion-1.0.4.ebuild}                            | 20 +++++------
+ dev-util/idea-professional/Manifest                | 18 +++-------
+ .../idea-professional-135.909.ebuild               | 40 ----------------------
+ .../idea-professional-139.225.ebuild               | 40 ----------------------
+ .../idea-professional-139.463.4.ebuild             | 40 ----------------------
+ ....ebuild => idea-professional-141.1532.4.ebuild} |  4 +--
+ ....ebuild => idea-professional-142.2887.3.ebuild} |  4 +--
+ dev-util/idea/Manifest                             | 18 +++-------
+ dev-util/idea/idea-139.463.4.ebuild                | 40 ----------------------
+ ...{idea-135.909.ebuild => idea-141.1532.4.ebuild} |  4 +--
+ ...dea-139.560.4.ebuild => idea-142.2887.3.ebuild} |  4 +--
+ 13 files changed, 39 insertions(+), 217 deletions(-)
+ rename dev-util/{idea/idea-139.224.ebuild => clion/clion-1.0.3.ebuild} (55%)
+ rename dev-util/{idea/idea-139.225.ebuild => clion/clion-1.0.4.ebuild} (55%)
+ delete mode 100644 dev-util/idea-professional/idea-professional-135.909.ebuild
+ delete mode 100644 dev-util/idea-professional/idea-professional-139.225.ebuild
+ delete mode 100644 dev-util/idea-professional/idea-professional-139.463.4.ebuild
+ rename dev-util/idea-professional/{idea-professional-139.224.ebuild => idea-professional-141.1532.4.ebuild} (88%)
+ rename dev-util/idea-professional/{idea-professional-139.560.4.ebuild => idea-professional-142.2887.3.ebuild} (87%)
+ delete mode 100644 dev-util/idea/idea-139.463.4.ebuild
+ rename dev-util/idea/{idea-135.909.ebuild => idea-141.1532.4.ebuild} (90%)
+ rename dev-util/idea/{idea-139.560.4.ebuild => idea-142.2887.3.ebuild} (89%)
 *** syncing '/home/mgorny/repos/drdim'...
 *** synced '/home/mgorny/repos/drdim'
  * Sync succeeded
