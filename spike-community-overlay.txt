@@ -54,7 +54,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/secondlife' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named '<unlabeled repository /home/mgorny/repos/secondlife>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -77,10 +78,12 @@ Already up-to-date.
 $ pmaint regen -t 2 spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: dev-db/cassandra-0.7.0-r2, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-db/cassandra-0.7.0-r2
+!!! caught exception Metadata Exception: pkg ebuild src: net-analyzer/scamper-20140530, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-analyzer/scamper-20140530
 !!! caught exception Metadata Exception: pkg ebuild src: dev-db/cassandra-0.6.1, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-db/cassandra-0.6.1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-db/cassandra-0.7.0-r2, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-db/cassandra-0.7.0-r2
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
