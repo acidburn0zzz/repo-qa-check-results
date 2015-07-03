@@ -29,8 +29,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -39,7 +38,42 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   49bbb12..be2b188  master     -> origin/master
+Updating 49bbb12..be2b188
+Fast-forward
+ app-admin/boom/boom-20141103.ebuild             |  1 -
+ app-shells/peco/Manifest                        |  5 +++++
+ app-shells/peco/metadata.xml                    | 10 ++++++++++
+ app-shells/peco/peco-0.3.2.ebuild               | 26 +++++++++++++++++++++++++
+ dev-go/gox/Manifest                             |  3 +++
+ dev-go/gox/gox-0.3.0.ebuild                     | 22 +++++++++++++++++++++
+ dev-go/gox/gox-0.4.0_pre20150618.ebuild         | 22 +++++++++++++++++++++
+ dev-go/gox/metadata.xml                         | 10 ++++++++++
+ dev-go/goxc/Manifest                            |  3 +++
+ dev-go/goxc/goxc-0.17.0.ebuild                  | 23 ++++++++++++++++++++++
+ dev-go/goxc/metadata.xml                        | 10 ++++++++++
+ metadata/md5-cache/app-admin/boom-20141103      |  4 ++--
+ metadata/md5-cache/app-shells/peco-0.3.2        | 13 +++++++++++++
+ metadata/md5-cache/dev-go/gox-0.3.0             | 13 +++++++++++++
+ metadata/md5-cache/dev-go/gox-0.4.0_pre20150618 | 13 +++++++++++++
+ metadata/md5-cache/dev-go/goxc-0.17.0           | 13 +++++++++++++
+ metadata/pkg_desc_index                         |  3 +++
+ 17 files changed, 191 insertions(+), 3 deletions(-)
+ create mode 100644 app-shells/peco/Manifest
+ create mode 100644 app-shells/peco/metadata.xml
+ create mode 100644 app-shells/peco/peco-0.3.2.ebuild
+ create mode 100644 dev-go/gox/Manifest
+ create mode 100644 dev-go/gox/gox-0.3.0.ebuild
+ create mode 100644 dev-go/gox/gox-0.4.0_pre20150618.ebuild
+ create mode 100644 dev-go/gox/metadata.xml
+ create mode 100644 dev-go/goxc/Manifest
+ create mode 100644 dev-go/goxc/goxc-0.17.0.ebuild
+ create mode 100644 dev-go/goxc/metadata.xml
+ create mode 100644 metadata/md5-cache/app-shells/peco-0.3.2
+ create mode 100644 metadata/md5-cache/dev-go/gox-0.3.0
+ create mode 100644 metadata/md5-cache/dev-go/gox-0.4.0_pre20150618
+ create mode 100644 metadata/md5-cache/dev-go/goxc-0.17.0
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded
