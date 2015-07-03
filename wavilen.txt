@@ -32,8 +32,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/ub0rlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named '<unlabeled repository /home/mgorny/repos/ub0rlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -86,6 +85,18 @@ Already up-to-date.
 $ pmaint regen -t 2 wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * 
+ * 
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
 
 !!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
@@ -94,9 +105,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+ * 
+ * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!    notify-osd-0.9.29-r1.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
