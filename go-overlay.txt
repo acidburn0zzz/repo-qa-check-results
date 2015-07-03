@@ -37,7 +37,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   cf5a89e..4759375  master     -> origin/master
+Updating cf5a89e..4759375
+Fast-forward
+ metadata/md5-cache/www-apps/hugo-0.14                               | 2 +-
+ .../www-apps/{hugo-0.15_pre20150629 => hugo-0.15_pre20150702}       | 6 +++---
+ metadata/pkg_desc_index                                             | 2 +-
+ www-apps/hugo/Manifest                                              | 2 +-
+ .../{hugo-0.15_pre20150629.ebuild => hugo-0.15_pre20150702.ebuild}  | 2 +-
+ 5 files changed, 7 insertions(+), 7 deletions(-)
+ rename metadata/md5-cache/www-apps/{hugo-0.15_pre20150629 => hugo-0.15_pre20150702} (92%)
+ rename www-apps/hugo/{hugo-0.15_pre20150629.ebuild => hugo-0.15_pre20150702.ebuild} (96%)
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded

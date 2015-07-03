@@ -51,14 +51,34 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/Flex1911/qwin-overlay
-   9198144..bd3d43a  master     -> origin/master
-Updating 9198144..bd3d43a
+   bd3d43a..f469384  master     -> origin/master
+Updating bd3d43a..f469384
 Fast-forward
- dev-libs/ustr/Manifest             |  2 ++
- dev-libs/ustr/ustr-1.0.4-r6.ebuild | 66 ++++++++++++++++++++++++++++++++++++++
- 2 files changed, 68 insertions(+)
- create mode 100644 dev-libs/ustr/Manifest
- create mode 100644 dev-libs/ustr/ustr-1.0.4-r6.ebuild
+ sys-apps/memtest86+/Manifest                       |  12 +++
+ sys-apps/memtest86+/files/39_memtest86+            |  33 ++++++
+ .../memtest86+/files/make-memtest86+-boot-floppy   | 111 +++++++++++++++++++++
+ .../memtest86+/files/make-memtest86+-boot-floppy.1 |  39 ++++++++
+ .../files/memtest86+-1.70-gnu_hash.patch           |  11 ++
+ .../files/memtest86+-2.01-hardcoded_cc.patch       |  30 ++++++
+ .../files/memtest86+-4.00-hardcoded_cc.patch       |  30 ++++++
+ .../files/memtest86+-4.20-hardcoded_cc.patch       |  30 ++++++
+ .../memtest86+/files/memtest86+-5.01-gcc-473.patch |  54 ++++++++++
+ .../memtest86+/files/memtest86+-5.01-gcc-510.patch |  10 ++
+ .../files/memtest86+-5.01-hardcoded_cc.patch       |  16 +++
+ sys-apps/memtest86+/memtest86+-5.01-r1.ebuild      |  91 +++++++++++++++++
+ 12 files changed, 467 insertions(+)
+ create mode 100644 sys-apps/memtest86+/Manifest
+ create mode 100644 sys-apps/memtest86+/files/39_memtest86+
+ create mode 100644 sys-apps/memtest86+/files/make-memtest86+-boot-floppy
+ create mode 100644 sys-apps/memtest86+/files/make-memtest86+-boot-floppy.1
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-1.70-gnu_hash.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-2.01-hardcoded_cc.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-4.00-hardcoded_cc.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-4.20-hardcoded_cc.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-5.01-gcc-473.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-5.01-gcc-510.patch
+ create mode 100644 sys-apps/memtest86+/files/memtest86+-5.01-hardcoded_cc.patch
+ create mode 100644 sys-apps/memtest86+/memtest86+-5.01-r1.ebuild
 *** syncing '/home/mgorny/repos/qwin-overlay'...
 *** synced '/home/mgorny/repos/qwin-overlay'
  * Sync succeeded
