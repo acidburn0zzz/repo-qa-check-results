@@ -39,44 +39,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/Dr-Terrible/go-overlay
-   083928f..cf5a89e  master     -> origin/master
-Updating 083928f..cf5a89e
-Fast-forward
- {app-admin => app-benchmarks}/boom/Manifest        |  0
- .../boom/boom-20141103.ebuild                      |  0
- {app-admin => app-benchmarks}/boom/metadata.xml    |  0
- app-benchmarks/vegeta/Manifest                     |  2 ++
- app-benchmarks/vegeta/metadata.xml                 | 10 ++++++++
- app-benchmarks/vegeta/vegeta-5.7.1.ebuild          | 22 ++++++++++++++++++
- dev-go/flint/Manifest                              |  8 +++++++
- dev-go/flint/flint-0.0.4.ebuild                    | 27 ++++++++++++++++++++++
- dev-go/flint/metadata.xml                          | 10 ++++++++
- dev-go/forego/Manifest                             |  1 +
- dev-go/forego/forego-0.16.1.ebuild                 | 18 +++++++++++++++
- dev-go/forego/metadata.xml                         | 10 ++++++++
- .../{app-admin => app-benchmarks}/boom-20141103    |  2 +-
- metadata/md5-cache/app-benchmarks/vegeta-5.7.1     | 12 ++++++++++
- metadata/md5-cache/dev-go/flint-0.0.4              | 12 ++++++++++
- metadata/md5-cache/dev-go/forego-0.16.1            | 13 +++++++++++
- metadata/pkg_desc_index                            |  5 +++-
- 17 files changed, 150 insertions(+), 2 deletions(-)
- rename {app-admin => app-benchmarks}/boom/Manifest (100%)
- rename {app-admin => app-benchmarks}/boom/boom-20141103.ebuild (100%)
- rename {app-admin => app-benchmarks}/boom/metadata.xml (100%)
- create mode 100644 app-benchmarks/vegeta/Manifest
- create mode 100644 app-benchmarks/vegeta/metadata.xml
- create mode 100644 app-benchmarks/vegeta/vegeta-5.7.1.ebuild
- create mode 100644 dev-go/flint/Manifest
- create mode 100644 dev-go/flint/flint-0.0.4.ebuild
- create mode 100644 dev-go/flint/metadata.xml
- create mode 100644 dev-go/forego/Manifest
- create mode 100644 dev-go/forego/forego-0.16.1.ebuild
- create mode 100644 dev-go/forego/metadata.xml
- rename metadata/md5-cache/{app-admin => app-benchmarks}/boom-20141103 (84%)
- create mode 100644 metadata/md5-cache/app-benchmarks/vegeta-5.7.1
- create mode 100644 metadata/md5-cache/dev-go/flint-0.0.4
- create mode 100644 metadata/md5-cache/dev-go/forego-0.16.1
+Already up-to-date.
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded
