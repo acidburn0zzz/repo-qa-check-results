@@ -29,7 +29,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/ub0rlay', named 'ub0rlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -64,7 +65,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/webapp-experimental', named 'w
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named 'r3pek', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/wolf31o2', named 'wolf31o2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/secondlife', named 'secondlife', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tjy1965', named 'tjy1965', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -115,315 +117,431 @@ Already up-to-date.
 $ pmaint regen -t 2 piczu
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-
-!!! ERROR: net-misc/networkmanager-9999 failed.
-
-!!! ERROR: media-video/qnapi-0.1.6_rc2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+ * 
+ * "/home/mgorny/repos/piczu/dev-python/django-tinymce/django-tinymce-1.5.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/piczu/dev-python/django-tagging/django-tagging-0.3.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/piczu/dev-python/django-grappelli/django-grappelli-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
  * 
  * "/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
+ * 
+ * "/home/mgorny/repos/piczu/dev-python/django-registration/django-registration-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/piczu/dev-python/django-tinymce/django-tinymce-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 
 !!! ERROR: dev-python/django-debug-toolbar-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!     networkmanager-9999.ebuild, line   7:  Called inherit 'git' 'autotools' 'gnome2' 'eutils'
-!!!         qnapi-0.1.6_rc2.ebuild, line   7:  Called inherit 'qt4' 'multilib' 'gnome2'
-
-!!! ERROR: media-video/gnome-mplayer-0.8.0 failed.
-
-!!! ERROR: gnome-base/gnome-main-menu-9999 failed.
 !!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for qt4 failed
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
+!!! ERROR: gnome-base/gnome-desktop-2.24.3 failed.
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
+!!!   django-debug-toolbar-9999.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+
+!!! ERROR: gnome-base/gnome-panel-2.24.3-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+ * 
+ * "/home/mgorny/repos/piczu/dev-util/hgview/hgview-9999.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
+
+!!! ERROR: net-misc/networkmanager-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
+
+!!! ERROR: gnome-base/gnome-panel-2.24.1 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
-!!! ERROR: gnome-base/gnome-panel-2.24.3-r1 failed.
+!!! ERROR: gnome-base/gnome-main-menu-0.9.10 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!    gnome-desktop-2.24.3.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
 
-!!! ERROR: media-video/gnome-mplayer-0.9.5 failed.
+!!! ERROR: media-video/qnapi-0.1.6_rc2 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 
 !!! ERROR: gnome-base/gnome-mount-0.8 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: gnome-base/gnome-desktop-2.24.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: media-video/gnome-mplayer-0.8.0 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+ * 
+ * "/home/mgorny/repos/piczu/gnome-extra/alarm-clock/alarm-clock-0.9.17.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '206' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   gnome-panel-2.24.3-r1.ebuild, line   7:  Called inherit 'autotools' 'gnome2'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 211' for eclass autotools
+
+received unknown com: export CATEGORY='media-video' PR=r0 PVR='0.13.0' PV='0.13.0' EBUILD='/home/mgorny/repos/piczu/media-video/gmediaserver/gmediaserver-0.13.0.ebuild' P='gmediaserver-0.13.0' PF='gmediaserver-0.13.0' PN=gmediaserverpath
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+Exception in thread Thread-9:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
 
 !!! ERROR: media-video/gnome-mplayer-0.9.2 failed.
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/net-misc/networkmanager/networkmanager-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
+!!!     networkmanager-9999.ebuild, line   7:  Called inherit 'git' 'autotools' 'gnome2' 'eutils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
 
-!!! ERROR: gnome-extra/avant-window-navigator-0.4.0_rc1 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! ERROR: gnome-base/gnome-main-menu-9999 failed.
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: gnome-base/gnome-panel-2.24.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! Call stack:
-
-!!! ERROR: gnome-base/gnome-main-menu-0.9.10 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.8.0.ebuild'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
+
+!!! ERROR: gnome-extra/avant-window-navigator-0.4.0_rc1 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   gnome-main-menu-0.9.10.ebuild, line   5:  Called inherit 'eutils' 'subversion' 'mono' 'gnome2'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '215' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
-!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
-!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '226' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
-!!!    gnome-main-menu-9999.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'subversion' 'gnome2'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '206' 'depend'
-!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.3-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
-!!!     gnome-mplayer-0.9.5.ebuild, line   5:  Called inherit 'gnome2'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
-!!!         gnome-mount-0.8.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/dev-python/django-debug-toolbar/django-debug-toolbar-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
-!!!     gnome-mplayer-0.9.2.ebuild, line   7:  Called inherit 'gnome2'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   gnome-panel-2.24.3-r1.ebuild, line   7:  Called inherit 'autotools' 'gnome2'
-!!!   django-debug-toolbar-9999.ebuild, line   7:  Called inherit 'distutils' 'eutils' 'git'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-desktop/gnome-desktop-2.24.3.ebuild'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-panel/gnome-panel-2.24.1.ebuild'
-!!!                  ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!    gnome-desktop-2.24.3.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!      gnome-panel-2.24.1.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.8.0.ebuild'
-!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-0.9.10.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!   gnome-main-menu-0.9.10.ebuild, line   5:  Called inherit 'eutils' 'subversion' 'mono' 'gnome2'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!! ERROR: gnome-extra/avant-window-navigator-extras-0.4.0_rc1 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/qnapi/qnapi-0.1.6_rc2.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.8.0.ebuild'
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.8.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+ * 
+ * "/home/mgorny/repos/piczu/gnome-extra/gdm2setup/gdm2setup-0.5.0.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         qnapi-0.1.6_rc2.ebuild, line   7:  Called inherit 'qt4' 'multilib' 'gnome2'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!     gnome-mplayer-0.8.0.ebuild, line   7:  Called inherit 'gnome2'
-!!!   avant-window-navigator-0.4.0_rc1.ebuild, line   7:  Called inherit 'gnome2' 'python'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!! ERROR: games-strategy/s25rttr-0.6 failed.
+
+!!! ERROR: media-video/gnome-mplayer-0.9.5 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt4'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '212' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for qt4 failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.8.0.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                         ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!      gnome-panel-2.24.1.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'gnome2'
+!!! Call stack:
+!!!                        ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                   gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
+ * 
+ * "/home/mgorny/repos/piczu/gnome-extra/grnotify/grnotify-1.0.1.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+
+!!! ERROR: media-video/realplayer-11.0.0.4028-r2 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                        ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                        ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '278' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!     gnome-mplayer-0.8.0.ebuild, line   7:  Called inherit 'gnome2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '177' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-mount/gnome-mount-0.8.ebuild'
+!!!                        ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         gnome-mount-0.8.ebuild, line   5:  Called inherit 'eutils' 'gnome2'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                                ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
+!!!                               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '313' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-base/gnome-main-menu/gnome-main-menu-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.2.ebuild'
+!!!                                ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/realplayer/realplayer-11.0.0.4028-r2.ebuild'
+!!!     gnome-mplayer-0.9.2.ebuild, line   7:  Called inherit 'gnome2'
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/realplayer/realplayer-11.0.0.4028-r2.ebuild'
+!!!    gnome-main-menu-9999.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'subversion' 'gnome2'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+WARNING: 'use' function invoked by games-emulation/dolphin-bin-2.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by games-emulation/dolphin-bin-2.0 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/games-strategy/s25rttr/s25rttr-0.6.ebuild'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator/avant-window-navigator-0.4.0_rc1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/realplayer/realplayer-11.0.0.4028-r2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/games-strategy/s25rttr/s25rttr-0.6.ebuild'
+!!!   realplayer-11.0.0.4028-r2.ebuild, line   5:  Called inherit 'nsplugins' 'eutils' 'rpm'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!                                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/games-strategy/s25rttr/s25rttr-0.6.ebuild'
+!!!   avant-window-navigator-0.4.0_rc1.ebuild, line   7:  Called inherit 'gnome2' 'python'
+!!!                                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI= is not supported
+
+!!!             s25rttr-0.6.ebuild, line   7:  Called inherit 'games'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'nsplugins'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 167' for eclass nsplugins
+
+received unknown com: export CATEGORY='media-sound' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/piczu/media-sound/sonata/sonata-9999.ebuild' P='sonata-9999' PF='sonata-9999' PN=sonatapath
+!!!              ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'games'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
+!!!   avant-window-navigator-extras-0.4.0_rc1.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'python'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 167' for eclass games
+
+received unknown com: export CATEGORY='media-tv' PR=r0 PVR='0.9.6' PV='0.9.6' EBUILD='/home/mgorny/repos/piczu/media-tv/me-tv/me-tv-0.9.6.ebuild' P='me-tv-0.9.6' PF='me-tv-0.9.6' PN='me-tv'path
+!!!                         ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-video/gnome-mplayer/gnome-mplayer-0.9.5.ebuild'
+!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!     gnome-mplayer-0.9.5.ebuild, line   5:  Called inherit 'gnome2'
+!!!                     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                                ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                             gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!                           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                                    gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI= is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                    isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-!!!                             gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: gnome-extra/avant-window-navigator-extras-0.4.0_rc1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '313' 'depend'
-!!!                               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
-!!!                                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
-!!!                           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/gnome-extra/avant-window-navigator-extras/avant-window-navigator-extras-0.4.0_rc1.ebuild'
-!!!   avant-window-navigator-extras-0.4.0_rc1.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'python'
-!!!                     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!                                ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass eutils
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: media-tv/me-tv-0.9.6 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/piczu/media-tv/me-tv/me-tv-0.9.6.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/piczu/media-tv/me-tv/me-tv-0.9.6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/piczu/media-tv/me-tv/me-tv-0.9.6.ebuild'
-!!!             me-tv-0.9.6.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass autotools
-
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/networkmanager-9999
-!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-video/qnapi-0.1.6_rc2
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/django-debug-toolbar-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-tv/me-tv-0.9.6
+!!! caught exception False while processing ebuild src: gnome-base/gnome-panel-2.24.3-r1
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/networkmanager-9999
+!!! caught exception inherit requires an unknown eclass, qt4 cannot be found while processing ebuild src: media-video/qnapi-0.1.6_rc2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-extra/avant-window-navigator-extras-0.4.0_rc1
+!!! caught exception False while processing ebuild src: gnome-base/gnome-desktop-2.24.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/gmediaserver-0.13.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/gstfakevideo-9999
+!!! caught exception Metadata Exception: pkg ebuild src: games-strategy/s25rttr-0.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: games-strategy/s25rttr-0.6
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/realplayer-11.0.0.4028-r2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-base/gnome-main-menu-0.9.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-base/gnome-panel-2.24.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.8.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.9.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-base/gnome-main-menu-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-base/gnome-mount-0.8
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.9.5
+!!! caught exception False while processing ebuild src: media-sound/sonata-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: media-plugins/totem-sopcast-0.0.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-base/gnome-panel-2.24.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.9.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-base/gnome-panel-2.24.3-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-base/gnome-main-menu-0.9.10
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: gnome-base/gnome-desktop-2.24.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.8.0
+!!! caught exception False while processing ebuild src: media-tv/me-tv-0.9.6
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/avant-window-navigator-0.4.0_rc1
- * Cache regenerated successfully
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: gnome-extra/avant-window-navigator-extras-0.4.0_rc1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-video/gnome-mplayer-0.9.5
+Error running an operation:
+ Unhandled exception in regen_cache
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+ * Cache regen failed with 246
