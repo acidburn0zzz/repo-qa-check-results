@@ -21,8 +21,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
@@ -46,39 +45,28 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/Flex1911/qwin-overlay
-   d81a21b..a7f3550  master     -> origin/master
-Updating d81a21b..a7f3550
+   a7f3550..65ed223  master     -> origin/master
+Updating a7f3550..65ed223
 Fast-forward
- x11-drivers/xf86-video-intel/Manifest              |  11 +++
- ...15-handle-updates-to-DamageUnregister-API.patch |  24 +++++
- .../xf86-video-intel-2.99.905-fix-randr.patch      |  56 +++++++++++
- .../xf86-video-intel-2.99.906-server-crash.patch   |  37 ++++++++
- .../xf86-video-intel-2.99.907-invalidation.patch   |  46 ++++++++++
- ...video-intel-2.99.911-sna-pixmap-migration.patch | 102 +++++++++++++++++++++
- .../xf86-video-intel-2.99.912-disable-dri3.patch   |  22 +++++
- ...eo-intel-2.99.917-libdrm-kernel-4_0-crash.patch |  65 +++++++++++++
- .../xf86-video-intel-2.99.917-sna-udev-fstat.patch |  57 ++++++++++++
- .../xf86-video-intel-2.99.917-uxa-udev-fstat.patch |  27 ++++++
- .../xf86-video-intel-2.99.917-r3.ebuild            |  74 +++++++++++++++
- 11 files changed, 521 insertions(+)
- create mode 100644 x11-drivers/xf86-video-intel/Manifest
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.21.15-handle-updates-to-DamageUnregister-API.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.905-fix-randr.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.906-server-crash.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.907-invalidation.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.911-sna-pixmap-migration.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.912-disable-dri3.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.917-libdrm-kernel-4_0-crash.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.917-sna-udev-fstat.patch
- create mode 100644 x11-drivers/xf86-video-intel/files/xf86-video-intel-2.99.917-uxa-udev-fstat.patch
- create mode 100644 x11-drivers/xf86-video-intel/xf86-video-intel-2.99.917-r3.ebuild
+ sys-libs/libsemanage/Manifest                      |   3 +
+ ...-do-not-copy-contexts-in-semanage_migrate.patch | 208 +++++++++++++++++++++
+ sys-libs/libsemanage/libsemanage-2.4-r2.ebuild     | 128 +++++++++++++
+ x11-apps/sessreg/Manifest                          |   3 +
+ x11-apps/sessreg/files/gcc50.patch                 |  10 +
+ x11-apps/sessreg/sessreg-1.1.0-r1.ebuild           |  19 ++
+ 6 files changed, 371 insertions(+)
+ create mode 100644 sys-libs/libsemanage/Manifest
+ create mode 100644 sys-libs/libsemanage/files/0001-libsemanage-do-not-copy-contexts-in-semanage_migrate.patch
+ create mode 100644 sys-libs/libsemanage/libsemanage-2.4-r2.ebuild
+ create mode 100644 x11-apps/sessreg/Manifest
+ create mode 100644 x11-apps/sessreg/files/gcc50.patch
+ create mode 100644 x11-apps/sessreg/sessreg-1.1.0-r1.ebuild
 *** syncing '/home/mgorny/repos/qwin-overlay'...
 *** synced '/home/mgorny/repos/qwin-overlay'
  * Sync succeeded

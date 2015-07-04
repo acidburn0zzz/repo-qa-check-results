@@ -19,7 +19,25 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   399c1cd..bc7870e  master     -> origin/master
+Updating 399c1cd..bc7870e
+Fast-forward
+ dev-python/debtcollector/Manifest                  |  2 +-
+ .../debtcollector/debtcollector-0.5.0.ebuild       |  2 +-
+ dev-python/docker-py/Manifest                      |  3 --
+ dev-python/docker-py/docker-py-1.2.3.ebuild        | 44 ----------------------
+ dev-python/docker-py/metadata.xml                  | 10 -----
+ dev-python/oslo-utils/Manifest                     |  4 +-
+ ...-utils-1.6.0.ebuild => oslo-utils-1.7.0.ebuild} | 13 +++----
+ dev-python/oslotest/Manifest                       |  4 +-
+ ...oslotest-1.7.0.ebuild => oslotest-1.8.0.ebuild} |  4 +-
+ 9 files changed, 14 insertions(+), 72 deletions(-)
+ delete mode 100644 dev-python/docker-py/Manifest
+ delete mode 100644 dev-python/docker-py/docker-py-1.2.3.ebuild
+ delete mode 100644 dev-python/docker-py/metadata.xml
+ rename dev-python/oslo-utils/{oslo-utils-1.6.0.ebuild => oslo-utils-1.7.0.ebuild} (95%)
+ rename dev-python/oslotest/{oslotest-1.7.0.ebuild => oslotest-1.8.0.ebuild} (95%)
 *** syncing '/home/mgorny/repos/alunduil'...
 *** synced '/home/mgorny/repos/alunduil'
  * Sync succeeded
