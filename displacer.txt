@@ -18,8 +18,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/displacer
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/clickbeetle_tools' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named '<unlabeled repository /home/mgorny/repos/clickbeetle_tools>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
@@ -34,9 +36,41 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repo
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/user/displacer
+   80a85cb..50f8016  master     -> origin/master
+Updating 80a85cb..50f8016
+Fast-forward
+ media-libs/mesa/Manifest                           |   8 +
+ ...-not-use-NoFramePointerElim-with-LLVM-3.7.patch |  49 +++
+ .../0002-gallivm-Workaround-LLVM-PR23628.patch     |  48 +++
+ media-libs/mesa/files/eselect-mesa.conf.9.2        |  39 ++
+ media-libs/mesa/files/glx_ro_text_segm.patch       |  28 ++
+ .../mesa-9.2-dont-require-llvm-for-r300.patch      |  12 +
+ .../mesa-9999-dont-require-llvm-for-r300.patch     |  11 +
+ media-libs/mesa/mesa-9999.ebuild                   | 463 +++++++++++++++++++++
+ media-libs/mesa/metadata.xml                       |  27 ++
+ x11-drivers/xf86-video-amdgpu/Manifest             |   2 +
+ x11-drivers/xf86-video-amdgpu/metadata.xml         |   5 +
+ .../xf86-video-amdgpu-9999.ebuild                  |  21 +
+ x11-libs/libdrm/Manifest                           |   1 +
+ .../{libdrm-9999-r1.ebuild => libdrm-9999.ebuild}  |  18 +-
+ 14 files changed, 726 insertions(+), 6 deletions(-)
+ create mode 100644 media-libs/mesa/Manifest
+ create mode 100644 media-libs/mesa/files/0001-gallivm-Do-not-use-NoFramePointerElim-with-LLVM-3.7.patch
+ create mode 100644 media-libs/mesa/files/0002-gallivm-Workaround-LLVM-PR23628.patch
+ create mode 100644 media-libs/mesa/files/eselect-mesa.conf.9.2
+ create mode 100644 media-libs/mesa/files/glx_ro_text_segm.patch
+ create mode 100644 media-libs/mesa/files/mesa-9.2-dont-require-llvm-for-r300.patch
+ create mode 100644 media-libs/mesa/files/mesa-9999-dont-require-llvm-for-r300.patch
+ create mode 100644 media-libs/mesa/mesa-9999.ebuild
+ create mode 100644 media-libs/mesa/metadata.xml
+ create mode 100644 x11-drivers/xf86-video-amdgpu/Manifest
+ create mode 100644 x11-drivers/xf86-video-amdgpu/metadata.xml
+ create mode 100644 x11-drivers/xf86-video-amdgpu/xf86-video-amdgpu-9999.ebuild
+ rename x11-libs/libdrm/{libdrm-9999-r1.ebuild => libdrm-9999.ebuild} (71%)
 *** syncing '/home/mgorny/repos/displacer'...
 *** synced '/home/mgorny/repos/displacer'
  * Sync succeeded
