@@ -20,24 +20,28 @@
 $ pmaint sync /home/mgorny/repos/alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/alunduil/alunduil-overlay
-   399c1cd..bc7870e  master     -> origin/master
-Updating 399c1cd..bc7870e
+   bc7870e..863f6d8  master     -> origin/master
+Updating bc7870e..863f6d8
 Fast-forward
- dev-python/debtcollector/Manifest                  |  2 +-
- .../debtcollector/debtcollector-0.5.0.ebuild       |  2 +-
- dev-python/docker-py/Manifest                      |  3 --
- dev-python/docker-py/docker-py-1.2.3.ebuild        | 44 ----------------------
- dev-python/docker-py/metadata.xml                  | 10 -----
- dev-python/oslo-utils/Manifest                     |  4 +-
- ...-utils-1.6.0.ebuild => oslo-utils-1.7.0.ebuild} | 13 +++----
- dev-python/oslotest/Manifest                       |  4 +-
- ...oslotest-1.7.0.ebuild => oslotest-1.8.0.ebuild} |  4 +-
- 9 files changed, 14 insertions(+), 72 deletions(-)
- delete mode 100644 dev-python/docker-py/Manifest
- delete mode 100644 dev-python/docker-py/docker-py-1.2.3.ebuild
- delete mode 100644 dev-python/docker-py/metadata.xml
- rename dev-python/oslo-utils/{oslo-utils-1.6.0.ebuild => oslo-utils-1.7.0.ebuild} (95%)
- rename dev-python/oslotest/{oslotest-1.7.0.ebuild => oslotest-1.8.0.ebuild} (95%)
+ app-admin/fleet/Manifest                           |  6 +++
+ app-admin/fleet/files/fleet.service                | 14 ++++++
+ app-admin/fleet/files/fleet.socket                 |  2 +
+ app-admin/fleet/files/fleetd.service               |  9 ++++
+ app-admin/fleet/fleet-0.11.0.ebuild                | 56 ++++++++++++++++++++++
+ app-admin/fleet/metadata.xml                       | 10 ++++
+ app-emulation/docker-compose/Manifest              |  4 +-
+ ....3.0_rc2.ebuild => docker-compose-1.3.1.ebuild} |  8 ++--
+ app-emulation/rkt/Manifest                         |  4 +-
+ .../rkt/{rkt-0.5.6.ebuild => rkt-0.6.1.ebuild}     |  0
+ 10 files changed, 104 insertions(+), 9 deletions(-)
+ create mode 100644 app-admin/fleet/Manifest
+ create mode 100644 app-admin/fleet/files/fleet.service
+ create mode 100644 app-admin/fleet/files/fleet.socket
+ create mode 100644 app-admin/fleet/files/fleetd.service
+ create mode 100644 app-admin/fleet/fleet-0.11.0.ebuild
+ create mode 100644 app-admin/fleet/metadata.xml
+ rename app-emulation/docker-compose/{docker-compose-1.3.0_rc2.ebuild => docker-compose-1.3.1.ebuild} (88%)
+ rename app-emulation/rkt/{rkt-0.5.6.ebuild => rkt-0.6.1.ebuild} (100%)
 *** syncing '/home/mgorny/repos/alunduil'...
 *** synced '/home/mgorny/repos/alunduil'
  * Sync succeeded
