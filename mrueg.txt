@@ -21,8 +21,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/matsuu' lacks a defin
 WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named '<unlabeled repository /home/mgorny/repos/matsuu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/logan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named '<unlabeled repository /home/mgorny/repos/logan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -53,7 +52,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/dev/mrueg
+   36b5a54..185015e  master     -> origin/master
+Updating 36b5a54..185015e
+Fast-forward
+ dev-python/freezegun/Manifest                      |  1 -
+ dev-python/freezegun/freezegun-0.3.4.ebuild        | 24 ----------------------
+ dev-python/freezegun/metadata.xml                  |  8 --------
+ dev-python/scrypt/Manifest                         |  2 +-
+ .../{scrypt-0.6.1.ebuild => scrypt-0.7.0.ebuild}   |  4 ++--
+ dev-ruby/terminal-table/Manifest                   |  2 +-
+ ...le-1.5.1.ebuild => terminal-table-1.5.2.ebuild} |  0
+ 7 files changed, 4 insertions(+), 37 deletions(-)
+ delete mode 100644 dev-python/freezegun/Manifest
+ delete mode 100644 dev-python/freezegun/freezegun-0.3.4.ebuild
+ delete mode 100644 dev-python/freezegun/metadata.xml
+ rename dev-python/scrypt/{scrypt-0.6.1.ebuild => scrypt-0.7.0.ebuild} (85%)
+ rename dev-ruby/terminal-table/{terminal-table-1.5.1.ebuild => terminal-table-1.5.2.ebuild} (100%)
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
