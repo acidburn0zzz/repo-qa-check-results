@@ -29,8 +29,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -39,49 +38,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From https://github.com/Dr-Terrible/go-overlay
-   4759375..d2bcaf0  master     -> origin/master
-Updating 4759375..d2bcaf0
-Fast-forward
- dev-db/cayley/cayley-0.4.1.ebuild           |   4 +-
- dev-db/influxdb/Manifest                    |  16 ++++
- dev-db/influxdb/files/influxdb.conf         |   3 +
- dev-db/influxdb/files/influxdb.service.conf |   2 +
- dev-db/influxdb/influxdb-0.9.1.ebuild       | 117 ++++++++++++++++++++++++++++
- dev-db/influxdb/metadata.xml                |  19 +++++
- dev-db/telegraf/Manifest                    |  17 ++++
- dev-db/telegraf/files/telegraf.conf         |   3 +
- dev-db/telegraf/files/telegraf.service      |  13 ++++
- dev-db/telegraf/files/telegraf.service.conf |   2 +
- dev-db/telegraf/metadata.xml                |  10 +++
- dev-db/telegraf/telegraf-0.1.2.ebuild       |  70 +++++++++++++++++
- dev-go/protobuf/Manifest                    |   1 +
- dev-go/protobuf/metadata.xml                |  10 +++
- dev-go/protobuf/protobuf-20150626.ebuild    |  27 +++++++
- eclass/golang-single.eclass                 |  89 +++++++++++++++++----
- metadata/md5-cache/dev-db/cayley-0.4.1      |   6 +-
- metadata/md5-cache/dev-db/influxdb-0.9.1    |  13 ++++
- metadata/md5-cache/dev-db/telegraf-0.1.2    |  13 ++++
- metadata/md5-cache/dev-go/protobuf-20150626 |  12 +++
- metadata/pkg_desc_index                     |   3 +
- 21 files changed, 428 insertions(+), 22 deletions(-)
- create mode 100644 dev-db/influxdb/Manifest
- create mode 100644 dev-db/influxdb/files/influxdb.conf
- create mode 100644 dev-db/influxdb/files/influxdb.service.conf
- create mode 100644 dev-db/influxdb/influxdb-0.9.1.ebuild
- create mode 100644 dev-db/influxdb/metadata.xml
- create mode 100644 dev-db/telegraf/Manifest
- create mode 100644 dev-db/telegraf/files/telegraf.conf
- create mode 100644 dev-db/telegraf/files/telegraf.service
- create mode 100644 dev-db/telegraf/files/telegraf.service.conf
- create mode 100644 dev-db/telegraf/metadata.xml
- create mode 100644 dev-db/telegraf/telegraf-0.1.2.ebuild
- create mode 100644 dev-go/protobuf/Manifest
- create mode 100644 dev-go/protobuf/metadata.xml
- create mode 100644 dev-go/protobuf/protobuf-20150626.ebuild
- create mode 100644 metadata/md5-cache/dev-db/influxdb-0.9.1
- create mode 100644 metadata/md5-cache/dev-db/telegraf-0.1.2
- create mode 100644 metadata/md5-cache/dev-go/protobuf-20150626
+Already up-to-date.
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded

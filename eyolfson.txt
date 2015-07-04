@@ -22,7 +22,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/efika' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named '<unlabeled repository /home/mgorny/repos/efika>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -43,7 +44,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/edwtjo-ebuilds' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named '<unlabeled repository /home/mgorny/repos/edwtjo-ebuilds>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/eyolfson'...
 *** synced '/home/mgorny/repos/eyolfson'
@@ -52,94 +54,94 @@ $ pmaint regen -t 2 eyolfson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: dev-lisp/gsd-999 failed.
-
 !!! ERROR: dev-perl/Time-Format-1.11 failed.
+
+!!! ERROR: dev-lisp/gsd-999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
 !!! ERROR: dev-perl/Weather-Com-0.5.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '195' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 
 !!! ERROR: gnome-extra/gnome-gmail-notifier-0.10.1 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '195' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '144' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: gnome-base/gnome-panel-2.28.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
-!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '200' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/dev-perl/Time-Format/Time-Format-1.11.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
+
+!!! ERROR: gnome-base/gnome-panel-2.28.0 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                 gsd-999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-perl/Time-Format/Time-Format-1.11.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-perl/Time-Format/Time-Format-1.11.ebuild'
 !!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '256' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-lisp/gsd/gsd-999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-perl/Time-Format/Time-Format-1.11.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
 !!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        Time-Format-1.11.ebuild, line   7:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
-!!!                 gsd-999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-perl/Weather-Com/Weather-Com-0.5.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
-!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/gnome-extra/gnome-gmail-notifier/gnome-gmail-notifier-0.10.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!       Weather-Com-0.5.5.ebuild, line   7:  Called inherit 'perl-module'
+!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/gnome-extra/gnome-gmail-notifier/gnome-gmail-notifier-0.10.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/dev-perl/Time-Format/Time-Format-1.11.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!        Time-Format-1.11.ebuild, line   7:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/gnome-extra/gnome-gmail-notifier/gnome-gmail-notifier-0.10.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/gnome-extra/gnome-gmail-notifier/gnome-gmail-notifier-0.10.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/eyolfson/gnome-base/gnome-panel/gnome-panel-2.28.0.ebuild'
 !!!   gnome-gmail-notifier-0.10.1.ebuild, line   6:  Called inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!      gnome-panel-2.28.0.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                    ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!                    ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                        gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported
@@ -147,9 +149,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsd-999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Time-Format-1.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Weather-Com-0.5.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Time-Format-1.11
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: gnome-extra/gnome-gmail-notifier-0.10.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
