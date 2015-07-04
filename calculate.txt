@@ -12,25 +12,14 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named '<unlabeled repository /home/mgorny/repos/bicatali>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   50d9e8b..1efb81f  master     -> origin/master
-Updating 50d9e8b..1efb81f
-Fast-forward
- .../calculate-assemble-2.2.32-r6.ebuild            | 41 ++++++++++++++++++++++
- .../files/calculate-assemble-2.2.32-prelink.patch  | 34 ++++++++++++++++++
- .../calculate-utils-2.2.32-r23.ebuild              | 30 ++++++++++++++++
- 3 files changed, 105 insertions(+)
- create mode 100644 sys-apps/calculate-assemble/calculate-assemble-2.2.32-r6.ebuild
- create mode 100644 sys-apps/calculate-assemble/files/calculate-assemble-2.2.32-prelink.patch
- create mode 100644 sys-apps/calculate-utils/calculate-utils-2.2.32-r23.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
