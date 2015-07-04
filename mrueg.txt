@@ -23,7 +23,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -50,12 +51,23 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   94f2502..b7aa3f1  master     -> origin/master
-Updating 94f2502..b7aa3f1
+   b7aa3f1..125d396  master     -> origin/master
+Updating b7aa3f1..125d396
 Fast-forward
- www-apps/redmine/redmine-2.6.5.ebuild | 4 ++--
- www-apps/redmine/redmine-3.0.3.ebuild | 6 +++---
- 2 files changed, 5 insertions(+), 5 deletions(-)
+ .../redmine_bootstrap_kit-0.2.3.ebuild             |  2 +-
+ .../redmine_checklists-3.1.1.ebuild                |  2 +-
+ .../redmine_code_review-0.7.0.ebuild               |  2 +-
+ .../redmine_dashboard-2.6.1.ebuild                 |  4 +-
+ .../redmine_git_hosting-1.1.1.ebuild               |  2 +-
+ .../redmine_jenkins/redmine_jenkins-1.0.1.ebuild   |  2 +-
+ www-apps/redmine_logs/Manifest                     |  1 +
+ www-apps/redmine_logs/metadata.xml                 |  8 +++
+ www-apps/redmine_logs/redmine_logs-0.1.0.ebuild    | 65 ++++++++++++++++++++++
+ www-apps/redmine_scrum/redmine_scrum-0.11.1.ebuild |  2 +-
+ 10 files changed, 82 insertions(+), 8 deletions(-)
+ create mode 100644 www-apps/redmine_logs/Manifest
+ create mode 100644 www-apps/redmine_logs/metadata.xml
+ create mode 100644 www-apps/redmine_logs/redmine_logs-0.1.0.ebuild
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
