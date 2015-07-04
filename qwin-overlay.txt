@@ -29,7 +29,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nbigaouette' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named '<unlabeled repository /home/mgorny/repos/nbigaouette>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -47,8 +48,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined 
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/phunehehe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named '<unlabeled repository /home/mgorny/repos/phunehehe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
@@ -58,37 +58,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defi
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://github.com/Flex1911/qwin-overlay
-   65ed223..8b06521  master     -> origin/master
-Updating 65ed223..8b06521
-Fast-forward
- app-emulation/wine/Manifest                        |  19 +
- .../wine/files/wine-1.4_rc2-multilib-portage.patch |  40 ++
- .../wine/files/wine-1.5.17-osmesa-check.patch      |  38 ++
- app-emulation/wine/files/wine-1.5.26-winegcc.patch |  59 +++
- app-emulation/wine/files/wine-1.6-memset-O3.patch  |  21 +
- .../wine/files/wine-1.7.12-osmesa-check.patch      |  38 ++
- .../wine/files/wine-1.7.2-osmesa-check.patch       |  38 ++
- .../wine-1.7.38-gstreamer-v5-staging-post.patch    |  58 +++
- .../wine-1.7.38-gstreamer-v5-staging-pre.patch     |  48 +++
- .../wine-1.7.39-gstreamer-v5-staging-post.patch    |  38 ++
- .../wine-1.7.39-gstreamer-v5-staging-pre.patch     |  40 ++
- .../files/wine-1.7.45-libunwind-osx-only.patch     |  64 +++
- app-emulation/wine/wine-1.7.46.ebuild              | 436 +++++++++++++++++++++
- 13 files changed, 937 insertions(+)
- create mode 100644 app-emulation/wine/Manifest
- create mode 100644 app-emulation/wine/files/wine-1.4_rc2-multilib-portage.patch
- create mode 100644 app-emulation/wine/files/wine-1.5.17-osmesa-check.patch
- create mode 100644 app-emulation/wine/files/wine-1.5.26-winegcc.patch
- create mode 100644 app-emulation/wine/files/wine-1.6-memset-O3.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.12-osmesa-check.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.2-osmesa-check.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.38-gstreamer-v5-staging-post.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.38-gstreamer-v5-staging-pre.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.39-gstreamer-v5-staging-post.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.39-gstreamer-v5-staging-pre.patch
- create mode 100644 app-emulation/wine/files/wine-1.7.45-libunwind-osx-only.patch
- create mode 100644 app-emulation/wine/wine-1.7.46.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/qwin-overlay'...
 *** synced '/home/mgorny/repos/qwin-overlay'
  * Sync succeeded
