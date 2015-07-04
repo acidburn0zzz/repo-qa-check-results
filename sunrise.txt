@@ -64,36 +64,36 @@ $ pmaint regen -t 2 sunrise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: games-rpg/lipsofsuna-0.5.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
-
 !!! ERROR: games-rpg/lipsofsuna-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: games-rpg/lipsofsuna-0.5.0 failed.
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        lipsofsuna-0.5.0.ebuild, line   6:  Called inherit 'eutils' 'games' 'waf-utils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
+!!!         lipsofsuna-9999.ebuild, line   9:  Called inherit 'eutils' 'games' 'waf-utils' 'git-2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-0.5.0.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!        lipsofsuna-0.5.0.ebuild, line   6:  Called inherit 'eutils' 'games' 'waf-utils'
 !!!               waf-utils.eclass, line  22:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sunrise/games-rpg/lipsofsuna/lipsofsuna-9999.ebuild'
-!!!         lipsofsuna-9999.ebuild, line   9:  Called inherit 'eutils' 'games' 'waf-utils' 'git-2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
@@ -101,8 +101,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-rpg/lipsofsuna-0.5.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-rpg/lipsofsuna-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: games-rpg/lipsofsuna-0.5.0
  * Cache regenerated successfully
