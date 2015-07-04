@@ -52,570 +52,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/proj/kde-sunset
-   c5c6c5e..0d14d90  master     -> origin/master
-Updating c5c6c5e..0d14d90
-Fast-forward
- app-antivirus/klamav/Manifest                   |   6 +-
- app-arch/p7zip/Manifest                         |  20 +---
- app-backup/keep/Manifest                        |   6 +-
- app-cdr/k3b/Manifest                            |  12 +-
- app-cdr/k3b/k3b-1.0.5-r6.ebuild                 |   2 +-
- app-cdr/kcdlabel/Manifest                       |   9 +-
- app-cdr/koverartist/Manifest                    |   7 +-
- app-crypt/calcchecksum/Manifest                 |   7 +-
- app-crypt/pinentry/Manifest                     |   8 --
- app-crypt/qca-tls/Manifest                      |   8 +-
- app-crypt/qca/Manifest                          |   8 --
- app-doc/quanta-docs/Manifest                    |  13 +--
- app-editors/kile/Manifest                       |   6 +-
- app-i18n/koffice-i18n/Manifest                  |  81 +++++++-------
- app-laptop/khdapsmon/Manifest                   |   5 +-
- app-laptop/khdapsmonitor/Manifest               |   7 +-
- app-laptop/kthinkbat/Manifest                   |   5 +-
- app-misc/hal-info/Manifest                      |   4 +-
- app-misc/releaseforge/Manifest                  |   8 +-
- app-mobilephone/kmobiletools/Manifest           |   5 +-
- app-office/karbon/Manifest                      |   5 +-
- app-office/kbudget/Manifest                     |   6 +-
- app-office/kchart/Manifest                      |   5 +-
- app-office/kexi/Manifest                        |   5 +-
- app-office/kformula/Manifest                    |   5 +-
- app-office/kivio/Manifest                       |   5 +-
- app-office/kletterwizard/Manifest               |   6 +-
- app-office/kmm_kbanking/Manifest                |   5 +-
- app-office/kmymoney2/Manifest                   |  10 +-
- app-office/kmymoney2/kmymoney2-1.0.2.ebuild     |   2 +-
- app-office/koffice-data/Manifest                |   5 +-
- app-office/koffice-libs/Manifest                |   5 +-
- app-office/koffice-meta/Manifest                |   3 -
- app-office/koshell/Manifest                     |   5 +-
- app-office/kplato/Manifest                      |   5 +-
- app-office/kpresenter/Manifest                  |   5 +-
- app-office/krita/Manifest                       |   3 -
- app-office/kspread/Manifest                     |   6 +-
- app-office/kugar/Manifest                       |   5 +-
- app-office/kword/Manifest                       |   6 +-
- app-office/qbankmanager/Manifest                |   6 -
- app-office/qtstalker/Manifest                   |  14 ---
- app-office/taskjuggler/Manifest                 |   3 -
- app-portage/kelogviewer/Manifest                |   5 +-
- app-portage/kuroo/Manifest                      |  13 +--
- app-text/kbarcode/Manifest                      |  11 +-
- app-text/kchmviewer/Manifest                    |   4 -
- app-text/kding/Manifest                         |   5 +-
- app-text/poppler/Manifest                       |   4 -
- app-text/poppler/poppler-0.14.5-r1.ebuild       |   2 +-
- app-text/poppler/poppler-0.16.7.ebuild          |   2 +-
- dev-db/hk_classes/Manifest                      |  11 +-
- dev-db/hk_classes/hk_classes-0.8.3-r1.ebuild    |   2 +-
- dev-db/hk_classes/hk_classes-0.8.3.ebuild       |   2 +-
- dev-db/knoda/Manifest                           |   5 +-
- dev-db/qt-unixODBC/Manifest                     |   8 +-
- dev-db/unixODBC/Manifest                        |   9 --
- dev-embedded/pikdev/Manifest                    |   9 +-
- dev-libs/dbus-qt3-old/Manifest                  |   4 -
- dev-libs/poppler-qt3/Manifest                   |   7 --
- dev-python/PyQt/Manifest                        |   4 -
- dev-python/pykde/Manifest                       |   8 +-
- dev-python/qscintilla-python/Manifest           |   8 +-
- dev-qt/qt-meta/Manifest                         |  23 +---
- dev-util/bouml/Manifest                         |   8 --
- dev-util/kdbg/Manifest                          |  11 +-
- dev-util/kdevelop/Manifest                      |  15 +--
- dev-util/kodos/Manifest                         |   9 +-
- dev-util/kscope/Manifest                        |   7 +-
- dev-util/qgit/Manifest                          |   4 -
- dev-vcs/kdesvn/Manifest                         |   7 +-
- eclass/kde.eclass                               |   2 +-
- eclass/poppler.eclass                           |   2 +-
- games-emulation/kvisualboyadvance/Manifest      |   5 +-
- games-puzzle/easysok/Manifest                   |   6 +-
- games-util/agistudio/Manifest                   |   6 -
- kde-base/akregator/Manifest                     |   9 +-
- kde-base/amor/Manifest                          |   5 +-
- kde-base/ark/Manifest                           |   8 +-
- kde-base/arts/Manifest                          |   7 --
- kde-base/arts/arts-3.5.10.ebuild                |   2 +-
- kde-base/artsplugin-akode/Manifest              |   5 +-
- kde-base/artsplugin-audiofile/Manifest          |   5 +-
- kde-base/artsplugin-xine/Manifest               |   5 +-
- kde-base/atlantik/Manifest                      |   5 +-
- kde-base/atlantikdesigner/Manifest              |   5 +-
- kde-base/blinken/Manifest                       |   5 +-
- kde-base/certmanager/Manifest                   |  10 +-
- kde-base/cervisia/Manifest                      |   7 +-
- kde-base/dcopc/Manifest                         |   6 +-
- kde-base/dcopjava/Manifest                      |   6 +-
- kde-base/dcoppython/Manifest                    |   8 +-
- kde-base/dcoprss/Manifest                       |   5 +-
- kde-base/drkonqi/Manifest                       |   7 +-
- kde-base/eyesapplet/Manifest                    |   5 +-
- kde-base/fifteenapplet/Manifest                 |   5 +-
- kde-base/juk/Manifest                           |   7 +-
- kde-base/kaboodle/Manifest                      |   5 +-
- kde-base/kaddressbook-plugins/Manifest          |   5 +-
- kde-base/kaddressbook/Manifest                  |  11 +-
- kde-base/kalarm/Manifest                        |   7 +-
- kde-base/kalyptus/Manifest                      |   6 +-
- kde-base/kalzium/Manifest                       |   6 +-
- kde-base/kamera/Manifest                        |   5 +-
- kde-base/kanagram/Manifest                      |   5 +-
- kde-base/kandy/Manifest                         |   8 +-
- kde-base/kappfinder/Manifest                    |   5 +-
- kde-base/kapptemplate/Manifest                  |   5 +-
- kde-base/karm/Manifest                          |   5 +-
- kde-base/kasteroids/Manifest                    |   5 +-
- kde-base/kate-plugins/Manifest                  |   5 +-
- kde-base/kate/Manifest                          |   5 +-
- kde-base/katomic/Manifest                       |   5 +-
- kde-base/kaudiocreator/Manifest                 |   6 +-
- kde-base/kbabel/Manifest                        |   6 +-
- kde-base/kbackgammon/Manifest                   |   5 +-
- kde-base/kbattleship/Manifest                   |   5 +-
- kde-base/kblackbox/Manifest                     |   5 +-
- kde-base/kbounce/Manifest                       |   5 +-
- kde-base/kbruch/Manifest                        |   5 +-
- kde-base/kbstateapplet/Manifest                 |   5 +-
- kde-base/kbugbuster/Manifest                    |   5 +-
- kde-base/kcachegrind/Manifest                   |   7 +-
- kde-base/kcalc/Manifest                         |   7 +-
- kde-base/kcharselect/Manifest                   |   5 +-
- kde-base/kcheckpass/Manifest                    |   7 +-
- kde-base/kcminit/Manifest                       |   5 +-
- kde-base/kcoloredit/Manifest                    |   5 +-
- kde-base/kcontrol/Manifest                      |  11 +-
- kde-base/kcron/Manifest                         |   5 +-
- kde-base/kdat/Manifest                          |   7 +-
- kde-base/kdcop/Manifest                         |   5 +-
- kde-base/kde-i18n/Manifest                      | 143 ++++++++++++------------
- kde-base/kde-l10n/Manifest                      |   1 -
- kde-base/kde-meta/Manifest                      |   3 -
- kde-base/kdeaccessibility-iconthemes/Manifest   |   5 +-
- kde-base/kdeaccessibility-meta/Manifest         |   3 -
- kde-base/kdeaddons-docs-konq-plugins/Manifest   |   5 +-
- kde-base/kdeaddons-kfile-plugins/Manifest       |   5 +-
- kde-base/kdeaddons-meta/Manifest                |   3 -
- kde-base/kdeadmin-kfile-plugins/Manifest        |   5 +-
- kde-base/kdeadmin-meta/Manifest                 |   3 -
- kde-base/kdeartwork-emoticons/Manifest          |   5 +-
- kde-base/kdeartwork-icewm-themes/Manifest       |   5 +-
- kde-base/kdeartwork-iconthemes/Manifest         |  12 +-
- kde-base/kdeartwork-kscreensaver/Manifest       |   5 +-
- kde-base/kdeartwork-kwin-styles/Manifest        |   5 +-
- kde-base/kdeartwork-kworldclock/Manifest        |   5 +-
- kde-base/kdeartwork-meta/Manifest               |   3 -
- kde-base/kdeartwork-sounds/Manifest             |   5 +-
- kde-base/kdeartwork-styles/Manifest             |   5 +-
- kde-base/kdeartwork-wallpapers/Manifest         |   5 +-
- kde-base/kdebase-data/Manifest                  |   7 +-
- kde-base/kdebase-kioslaves/Manifest             |  11 +-
- kde-base/kdebase-meta/Manifest                  |   3 -
- kde-base/kdebase-pam/Manifest                   |   5 -
- kde-base/kdebase-startkde/Manifest              |   8 +-
- kde-base/kdebindings-meta/Manifest              |   3 -
- kde-base/kdebugdialog/Manifest                  |   5 +-
- kde-base/kdeedu-applnk/Manifest                 |   5 +-
- kde-base/kdeedu-meta/Manifest                   |   3 -
- kde-base/kdegames-meta/Manifest                 |   3 -
- kde-base/kdegraphics-kfile-plugins/Manifest     |   5 +-
- kde-base/kdegraphics-meta/Manifest              |   3 -
- kde-base/kdejava/Manifest                       |   8 +-
- kde-base/kdelibs/Manifest                       |  17 ---
- kde-base/kdelirc/Manifest                       |   5 +-
- kde-base/kdemultimedia-arts/Manifest            |   5 +-
- kde-base/kdemultimedia-kappfinder-data/Manifest |   5 +-
- kde-base/kdemultimedia-kfile-plugins/Manifest   |   5 +-
- kde-base/kdemultimedia-kioslaves/Manifest       |   8 +-
- kde-base/kdemultimedia-meta/Manifest            |   3 -
- kde-base/kdenetwork-filesharing/Manifest        |   5 +-
- kde-base/kdenetwork-kfile-plugins/Manifest      |   5 +-
- kde-base/kdenetwork-meta/Manifest               |   3 -
- kde-base/kdepasswd/Manifest                     |   5 +-
- kde-base/kdepim-kioslaves/Manifest              |  11 +-
- kde-base/kdepim-kresources/Manifest             |  10 +-
- kde-base/kdepim-meta/Manifest                   |   3 -
- kde-base/kdepim-wizards/Manifest                |   7 +-
- kde-base/kdeprint/Manifest                      |   5 +-
- kde-base/kdesdk-kfile-plugins/Manifest          |   5 +-
- kde-base/kdesdk-kioslaves/Manifest              |   5 +-
- kde-base/kdesdk-meta/Manifest                   |   3 -
- kde-base/kdesdk-misc/Manifest                   |   6 +-
- kde-base/kdesdk-scripts/Manifest                |   6 +-
- kde-base/kdesktop/Manifest                      |   7 +-
- kde-base/kdesu/Manifest                         |   7 +-
- kde-base/kdetoys-meta/Manifest                  |   3 -
- kde-base/kdeutils-meta/Manifest                 |   3 -
- kde-base/kdewebdev-meta/Manifest                |   3 -
- kde-base/kdf/Manifest                           |   5 +-
- kde-base/kdialog/Manifest                       |   3 -
- kde-base/kdict/Manifest                         |   5 +-
- kde-base/kdm/Manifest                           |   7 +-
- kde-base/kdnssd/Manifest                        |   5 +-
- kde-base/kdvi/Manifest                          |   6 +-
- kde-base/kedit/Manifest                         |   5 +-
- kde-base/keduca/Manifest                        |   5 +-
- kde-base/kenolaba/Manifest                      |   5 +-
- kde-base/kfax/Manifest                          |   5 +-
- kde-base/kfilereplace/Manifest                  |   5 +-
- kde-base/kfind/Manifest                         |   5 +-
- kde-base/kfloppy/Manifest                       |   5 +-
- kde-base/kfouleggs/Manifest                     |   5 +-
- kde-base/kgamma/Manifest                        |   5 +-
- kde-base/kgeography/Manifest                    |   5 +-
- kde-base/kget/Manifest                          |   5 +-
- kde-base/kghostview/Manifest                    |   5 +-
- kde-base/kgoldrunner/Manifest                   |   5 +-
- kde-base/kgpg/Manifest                          |   7 +-
- kde-base/khangman/Manifest                      |   5 +-
- kde-base/khelpcenter/Manifest                   |   7 +-
- kde-base/khexedit/Manifest                      |   5 +-
- kde-base/khotkeys/Manifest                      |   5 +-
- kde-base/kicker-applets/Manifest                |   5 +-
- kde-base/kicker/Manifest                        |  13 +--
- kde-base/kiconedit/Manifest                     |   5 +-
- kde-base/kig/Manifest                           |   5 +-
- kde-base/kimagemapeditor/Manifest               |   5 +-
- kde-base/kitchensync/Manifest                   |   8 +-
- kde-base/kiten/Manifest                         |   5 +-
- kde-base/kjots/Manifest                         |   5 +-
- kde-base/kjsembed/Manifest                      |   6 +-
- kde-base/kjumpingcube/Manifest                  |   5 +-
- kde-base/klaptopdaemon/Manifest                 |   7 +-
- kde-base/klatin/Manifest                        |   5 +-
- kde-base/klettres/Manifest                      |   5 +-
- kde-base/klickety/Manifest                      |   5 +-
- kde-base/klines/Manifest                        |   5 +-
- kde-base/klinkstatus/Manifest                   |   7 +-
- kde-base/klipper/Manifest                       |   5 +-
- kde-base/kmag/Manifest                          |   5 +-
- kde-base/kmahjongg/Manifest                     |   5 +-
- kde-base/kmail/Manifest                         |  11 +-
- kde-base/kmailcvt/Manifest                      |   5 +-
- kde-base/kmenuedit/Manifest                     |   5 +-
- kde-base/kmid/Manifest                          |   5 +-
- kde-base/kmilo/Manifest                         |   6 +-
- kde-base/kmines/Manifest                        |   5 +-
- kde-base/kmix/Manifest                          |   8 +-
- kde-base/kmoon/Manifest                         |   5 +-
- kde-base/kmousetool/Manifest                    |   5 +-
- kde-base/kmouth/Manifest                        |   5 +-
- kde-base/kmplot/Manifest                        |   5 +-
- kde-base/kmrml/Manifest                         |   5 +-
- kde-base/kmtrace/Manifest                       |   5 +-
- kde-base/knetattach/Manifest                    |   7 +-
- kde-base/knetwalk/Manifest                      |   5 +-
- kde-base/knetworkconf/Manifest                  |   7 +-
- kde-base/knewsticker-scripts/Manifest           |   5 +-
- kde-base/knewsticker/Manifest                   |   5 +-
- kde-base/knode/Manifest                         |   5 +-
- kde-base/knotes/Manifest                        |   5 +-
- kde-base/kode/Manifest                          |   5 +-
- kde-base/kodo/Manifest                          |   5 +-
- kde-base/kolf/Manifest                          |   5 +-
- kde-base/kolourpaint/Manifest                   |   5 +-
- kde-base/kommander/Manifest                     |   8 +-
- kde-base/kompare/Manifest                       |   5 +-
- kde-base/konq-plugins/Manifest                  |   6 +-
- kde-base/konqueror-akregator/Manifest           |   5 +-
- kde-base/konqueror/Manifest                     |   5 +-
- kde-base/konquest/Manifest                      |   5 +-
- kde-base/konsole/Manifest                       |   5 +-
- kde-base/konsolekalendar/Manifest               |   5 +-
- kde-base/kontact-specialdates/Manifest          |   5 +-
- kde-base/kontact/Manifest                       |   7 +-
- kde-base/kooka/Manifest                         |   5 +-
- kde-base/kopete/Manifest                        |  19 ----
- kde-base/korganizer/Manifest                    |   7 +-
- kde-base/korn/Manifest                          |   5 +-
- kde-base/korundum/Manifest                      |   7 +-
- kde-base/kpackage/Manifest                      |   5 +-
- kde-base/kpager/Manifest                        |   5 +-
- kde-base/kpat/Manifest                          |   5 +-
- kde-base/kpdf/Manifest                          |  15 +--
- kde-base/kpercentage/Manifest                   |   5 +-
- kde-base/kpersonalizer/Manifest                 |   5 +-
- kde-base/kpf/Manifest                           |   5 +-
- kde-base/kpilot/Manifest                        |   5 +-
- kde-base/kpoker/Manifest                        |   5 +-
- kde-base/kpovmodeler/Manifest                   |   5 +-
- kde-base/kppp/Manifest                          |   7 +-
- kde-base/krdc/Manifest                          |   5 +-
- kde-base/kreadconfig/Manifest                   |   5 +-
- kde-base/krec/Manifest                          |   5 +-
- kde-base/kregexpeditor/Manifest                 |   5 +-
- kde-base/kreversi/Manifest                      |   5 +-
- kde-base/krfb/Manifest                          |   5 +-
- kde-base/kruler/Manifest                        |   5 +-
- kde-base/ksame/Manifest                         |   5 +-
- kde-base/ksayit/Manifest                        |   5 +-
- kde-base/kscd/Manifest                          |   8 +-
- kde-base/kscreensaver/Manifest                  |   5 +-
- kde-base/kshisen/Manifest                       |   5 +-
- kde-base/ksig/Manifest                          |   5 +-
- kde-base/ksim/Manifest                          |   6 +-
- kde-base/ksirc/Manifest                         |   5 +-
- kde-base/ksirtet/Manifest                       |   6 +-
- kde-base/ksmiletris/Manifest                    |   5 +-
- kde-base/ksmserver/Manifest                     |   5 +-
- kde-base/ksnake/Manifest                        |   5 +-
- kde-base/ksnapshot/Manifest                     |   5 +-
- kde-base/ksokoban/Manifest                      |   5 +-
- kde-base/kspaceduel/Manifest                    |   5 +-
- kde-base/ksplashml/Manifest                     |   5 +-
- kde-base/kspy/Manifest                          |   5 +-
- kde-base/kstars/Manifest                        |   5 +-
- kde-base/kstart/Manifest                        |   5 +-
- kde-base/ksvg/Manifest                          |  11 +-
- kde-base/ksysguard/Manifest                     |   5 +-
- kde-base/ksystraycmd/Manifest                   |   9 +-
- kde-base/ksysv/Manifest                         |   5 +-
- kde-base/ktalkd/Manifest                        |   5 +-
- kde-base/kteatime/Manifest                      |   5 +-
- kde-base/ktimer/Manifest                        |   5 +-
- kde-base/ktip/Manifest                          |   5 +-
- kde-base/ktnef/Manifest                         |   5 +-
- kde-base/ktouch/Manifest                        |   5 +-
- kde-base/ktron/Manifest                         |   5 +-
- kde-base/kttsd/Manifest                         |   5 +-
- kde-base/ktuberling/Manifest                    |   5 +-
- kde-base/kturtle/Manifest                       |   5 +-
- kde-base/ktux/Manifest                          |   5 +-
- kde-base/kuickshow/Manifest                     |   5 +-
- kde-base/kuiviewer/Manifest                     |   5 +-
- kde-base/kuser/Manifest                         |   5 +-
- kde-base/kverbos/Manifest                       |   5 +-
- kde-base/kview/Manifest                         |   5 +-
- kde-base/kviewshell/Manifest                    |   5 +-
- kde-base/kvoctrain/Manifest                     |   5 +-
- kde-base/kwalletmanager/Manifest                |   5 +-
- kde-base/kweather/Manifest                      |   6 +-
- kde-base/kwifimanager/Manifest                  |   5 +-
- kde-base/kwin/Manifest                          |   9 +-
- kde-base/kwin4/Manifest                         |   5 +-
- kde-base/kwordquiz/Manifest                     |   5 +-
- kde-base/kworldclock/Manifest                   |   7 +-
- kde-base/kxkb/Manifest                          |   7 +-
- kde-base/kxsldbg/Manifest                       |   5 +-
- kde-base/libkcal/Manifest                       |   7 +-
- kde-base/libkcddb/Manifest                      |   5 +-
- kde-base/libkdeedu/Manifest                     |   5 +-
- kde-base/libkdegames/Manifest                   |   5 +-
- kde-base/libkdenetwork/Manifest                 |   7 +-
- kde-base/libkdepim/Manifest                     |   7 +-
- kde-base/libkholidays/Manifest                  |   7 +-
- kde-base/libkmime/Manifest                      |   7 +-
- kde-base/libkonq/Manifest                       |   5 +-
- kde-base/libkpgp/Manifest                       |   5 +-
- kde-base/libkpimexchange/Manifest               |   5 +-
- kde-base/libkpimidentities/Manifest             |   5 +-
- kde-base/libkscan/Manifest                      |   5 +-
- kde-base/libksieve/Manifest                     |   5 +-
- kde-base/librss/Manifest                        |   5 +-
- kde-base/lilo-config/Manifest                   |   6 +-
- kde-base/lisa/Manifest                          |   8 +-
- kde-base/lskat/Manifest                         |   5 +-
- kde-base/mimelib/Manifest                       |   6 +-
- kde-base/networkstatus/Manifest                 |   7 +-
- kde-base/noatun-plugins/Manifest                |   5 +-
- kde-base/noatun/Manifest                        |   5 +-
- kde-base/nsplugins/Manifest                     |   9 +-
- kde-base/qtjava/Manifest                        |   6 -
- kde-base/qtruby/Manifest                        |   7 +-
- kde-base/quanta/Manifest                        |   8 +-
- kde-base/renamedlg-audio/Manifest               |   5 +-
- kde-base/renamedlg-images/Manifest              |   5 +-
- kde-base/secpolicy/Manifest                     |   5 +-
- kde-base/smoke/Manifest                         |   6 +-
- kde-base/superkaramba/Manifest                  |   8 +-
- kde-base/umbrello/Manifest                      |   5 +-
- kde-misc/basket/Manifest                        |   5 +-
- kde-misc/dolphin/Manifest                       |   6 +-
- kde-misc/filelight-i18n/Manifest                |   5 +-
- kde-misc/filelight/Manifest                     |   8 +-
- kde-misc/kadslwatch/Manifest                    |   6 +-
- kde-misc/kalbum/Manifest                        |   7 +-
- kde-misc/kanyremote/Manifest                    |   6 +-
- kde-misc/kaptain/Manifest                       |   7 +-
- kde-misc/katalog/Manifest                       |   6 +-
- kde-misc/katapult/Manifest                      |   5 +-
- kde-misc/kbeam/Manifest                         |   7 +-
- kde-misc/kbfx/Manifest                          |   5 +-
- kde-misc/kblogger/Manifest                      |  11 +-
- kde-misc/kdiff3/Manifest                        |   8 +-
- kde-misc/kdirstat/Manifest                      |  14 +--
- kde-misc/kdissert/Manifest                      |   6 +-
- kde-misc/kdmtheme/Manifest                      |  17 +--
- kde-misc/kdnssd-avahi/Manifest                  |   9 +-
- kde-misc/kdocker/Manifest                       |   7 +-
- kde-misc/kerry/Manifest                         |   6 +-
- kde-misc/kerry/kerry-0.2.1.ebuild               |   4 +-
- kde-misc/kexchange/Manifest                     |   5 +-
- kde-misc/kfish/Manifest                         |   5 +-
- kde-misc/kima/Manifest                          |   5 +-
- kde-misc/kio-locate/Manifest                    |   6 +-
- kde-misc/kio-sword/Manifest                     |   9 +-
- kde-misc/kisdnwatch/Manifest                    |   6 +-
- kde-misc/kkbswitch/Manifest                     |   6 +-
- kde-misc/kkeyled/Manifest                       |   6 +-
- kde-misc/kleds/Manifest                         |   5 +-
- kde-misc/kload/Manifest                         |   9 +-
- kde-misc/knetdockapp/Manifest                   |   8 +-
- kde-misc/knetstats/Manifest                     |   8 +-
- kde-misc/knetworkmanager/Manifest               |   9 +-
- kde-misc/komparator/Manifest                    |   5 +-
- kde-misc/kompose/Manifest                       |   6 +-
- kde-misc/kooldock/Manifest                      |   6 +-
- kde-misc/kopete-antispam-kde3/Manifest          |   5 +-
- kde-misc/kopete-ktts/Manifest                   |   5 +-
- kde-misc/koppermine/Manifest                    |   5 +-
- kde-misc/krd/Manifest                           |  16 +--
- kde-misc/krecipes/Manifest                      |  20 +---
- kde-misc/krename/Manifest                       |   8 +-
- kde-misc/krusader/Manifest                      |  10 +-
- kde-misc/ksensors/Manifest                      |  12 +-
- kde-misc/kshutdown/Manifest                     |  12 +-
- kde-misc/ksmoothdock/Manifest                   |   6 +-
- kde-misc/ksplash-engine-moodin/Manifest         |   7 +-
- kde-misc/ksynaptics/Manifest                    |   5 +-
- kde-misc/ksystemlog/Manifest                    |   6 +-
- kde-misc/kvdrmon/Manifest                       |  17 +--
- kde-misc/kvkbd/Manifest                         |   6 +-
- kde-misc/metamonitor/Manifest                   |  16 +--
- kde-misc/mtaskbar/Manifest                      |   7 +-
- kde-misc/pwmanager/Manifest                     |   9 +-
- kde-misc/quadkonsole/Manifest                   |   5 +-
- kde-misc/rsibreak/Manifest                      |   5 +-
- kde-misc/styleclock/Manifest                    |   3 -
- kde-misc/tellico/Manifest                       |  13 +--
- kde-misc/tork/Manifest                          |  14 +--
- kde-misc/yakuake/Manifest                       |   9 +-
- kde-misc/youtube-servicemenu/Manifest           |   5 +-
- mail-client/mailody/Manifest                    |   9 +-
- media-gfx/digikam/Manifest                      |  19 +---
- media-gfx/imgseek/Manifest                      |   7 +-
- media-gfx/kflickr/Manifest                      |   6 +-
- media-libs/SoQt/Manifest                        |   4 -
- media-libs/SoQt/SoQt-1.4.1.ebuild               |   2 +-
- media-libs/akode/Manifest                       |  13 +--
- media-libs/dssi/Manifest                        |   8 --
- media-libs/dssi/dssi-0.9.1-r1.ebuild            |   2 +-
- media-libs/dssi/dssi-0.9.1-r2.ebuild            |   2 +-
- media-libs/dssi/dssi-0.9.1.ebuild               |   2 +-
- media-libs/dssi/dssi-1.0.0.ebuild               |   2 +-
- media-libs/libkdcraw/Manifest                   |   8 +-
- media-libs/libkexif/Manifest                    |   6 +-
- media-libs/libkexif/libkexif-0.2.5.ebuild       |   2 +-
- media-libs/libkexiv2/Manifest                   |   8 +-
- media-libs/libkipi/Manifest                     |   8 +-
- media-libs/libkipi/libkipi-0.1.5.ebuild         |   2 +-
- media-plugins/kipi-plugins/Manifest             |   5 -
- media-sound/albumart/Manifest                   |   5 +-
- media-sound/amarok/Manifest                     |  17 ---
- media-sound/hydrogen/Manifest                   |  15 +--
- media-sound/hydrogen/hydrogen-0.9.3-r3.ebuild   |   2 +-
- media-sound/hydrogen/hydrogen-0.9.3-r4.ebuild   |   2 +-
- media-sound/k3guitune/Manifest                  |  11 +-
- media-sound/kstreamripper/Manifest              |   6 +-
- media-sound/musicman/Manifest                   |  11 +-
- media-sound/rosegarden/Manifest                 |  11 +-
- media-sound/rosegarden/rosegarden-1.5.1.ebuild  |   4 +-
- media-sound/rosegarden/rosegarden-1.7.3.ebuild  |   4 +-
- media-sound/transkode/Manifest                  |   5 +-
- media-tv/kdetv/Manifest                         |   7 --
- media-tv/kvdr/Manifest                          |  10 +-
- media-video/kaffeine/Manifest                   |  10 --
- media-video/kmplayer/Manifest                   |   8 +-
- media-video/kplayer/Manifest                    |   5 +-
- media-video/quickrip/Manifest                   |   4 -
- media-video/qvamps/Manifest                     |   7 +-
- metadata/layout.conf                            |   1 +
- net-analyzer/knetscan/Manifest                  |   8 +-
- net-analyzer/ksniffer/Manifest                  |   5 +-
- net-dns/avahi/Manifest                          |  18 ---
- net-dns/avahi/avahi-0.6.28-r1.ebuild            |   2 +-
- net-dns/avahi/avahi-0.6.30-r1.ebuild            |   2 +-
- net-firewall/knetfilter/Manifest                |   5 +-
- net-im/kmess/Manifest                           |   9 +-
- net-im/sim/Manifest                             |   3 -
- net-irc/konversation/Manifest                   |   5 +-
- net-irc/vyqchat/Manifest                        |   5 -
- net-misc/guidedog/Manifest                      |   3 -
- net-misc/kbandwidth/Manifest                    |   3 -
- net-misc/knemo/Manifest                         |   2 -
- net-misc/knutclient/Manifest                    |   4 -
- net-misc/kovpn/Manifest                         |   6 -
- net-misc/kvpnc/Manifest                         |   4 -
- net-misc/kwebget/Manifest                       |   4 -
- net-misc/mDNSResponder/Manifest                 |   9 --
- net-misc/smb4k/Manifest                         |   3 -
- net-nds/luma/Manifest                           |   4 -
- net-p2p/kmldonkey/Manifest                      |  12 +-
- net-p2p/ktorrent/Manifest                       |   7 +-
- net-p2p/qtorrent/Manifest                       |   7 +-
- net-voip/twinkle/Manifest                       |   4 -
- net-voip/twinkle/twinkle-1.4.2.ebuild           |   2 +-
- net-wireless/gerix/Manifest                     |   5 +-
- net-wireless/kwlaninfo/Manifest                 |   8 +-
- sci-electronics/qucs/Manifest                   |   3 -
- sci-mathematics/koctave/Manifest                |  12 +-
- sci-mathematics/kseg/Manifest                   |   3 -
- sci-misc/kboincspy/Manifest                     |   5 +-
- sci-misc/qcad/Manifest                          |  27 +----
- sys-apps/hal/Manifest                           |   9 +-
- sys-apps/hal/hal-0.5.14-r4.ebuild               |   2 +-
- sys-power/kpowersave/Manifest                   |   9 +-
- virtual/poppler-qt3/Manifest                    |  11 --
- www-client/kita/Manifest                        |  15 +--
- x11-libs/libsynaptics/Manifest                  |   4 +-
- x11-libs/qscintilla/Manifest                    |  11 --
- x11-misc/dekorator/Manifest                     |  15 +--
- x11-misc/icecursorscfg/Manifest                 |   5 +-
- x11-misc/iceiconcvt/Manifest                    |   5 +-
- x11-misc/icemergeprefs/Manifest                 |   5 +-
- x11-misc/karamba/Manifest                       |   8 +-
- x11-misc/lineak-kdeplugins/Manifest             |   6 +-
- x11-plugins/khexclock/Manifest                  |   5 +-
- x11-terms/kuake/Manifest                        |   9 +-
- x11-themes/activeheart/Manifest                 |   5 +-
- x11-themes/alloy/Manifest                       |   9 +-
- x11-themes/baghira/Manifest                     |   6 +-
- x11-themes/comix/Manifest                       |   5 +-
- x11-themes/domino/Manifest                      |   7 +-
- x11-themes/fahrenheit/Manifest                  |   7 +-
- x11-themes/fusionx-aqua/Manifest                |   5 +-
- x11-themes/knifty/Manifest                      |   5 +-
- x11-themes/kwin-neos/Manifest                   |   7 +-
- x11-themes/liquid/Manifest                      |   7 +-
- x11-themes/polyester/Manifest                   |   5 +-
- x11-themes/qinx/Manifest                        |   5 +-
- x11-themes/qtcurve/Manifest                     |   4 -
- x11-themes/reinhardtstyle/Manifest              |   7 +-
- x11-themes/ridge/Manifest                       |   5 +-
- x11-themes/thinkeramik/Manifest                 |   5 +-
- x11-themes/tiblit/Manifest                      |   8 +-
- 538 files changed, 693 insertions(+), 2869 deletions(-)
- delete mode 100644 app-office/koffice-meta/Manifest
- delete mode 100644 kde-base/kde-meta/Manifest
- delete mode 100644 kde-base/kdeaccessibility-meta/Manifest
- delete mode 100644 kde-base/kdeaddons-meta/Manifest
- delete mode 100644 kde-base/kdeadmin-meta/Manifest
- delete mode 100644 kde-base/kdeartwork-meta/Manifest
- delete mode 100644 kde-base/kdebase-meta/Manifest
- delete mode 100644 kde-base/kdebase-pam/Manifest
- delete mode 100644 kde-base/kdebindings-meta/Manifest
- delete mode 100644 kde-base/kdeedu-meta/Manifest
- delete mode 100644 kde-base/kdegames-meta/Manifest
- delete mode 100644 kde-base/kdegraphics-meta/Manifest
- delete mode 100644 kde-base/kdemultimedia-meta/Manifest
- delete mode 100644 kde-base/kdenetwork-meta/Manifest
- delete mode 100644 kde-base/kdepim-meta/Manifest
- delete mode 100644 kde-base/kdesdk-meta/Manifest
- delete mode 100644 kde-base/kdetoys-meta/Manifest
- delete mode 100644 kde-base/kdeutils-meta/Manifest
- delete mode 100644 kde-base/kdewebdev-meta/Manifest
- delete mode 100644 net-im/sim/Manifest
- delete mode 100644 virtual/poppler-qt3/Manifest
+Already up-to-date.
 *** syncing '/home/mgorny/repos/kde-sunset'...
 *** synced '/home/mgorny/repos/kde-sunset'
  * Sync succeeded
@@ -623,58 +60,86 @@ $ pmaint regen -t 2 kde-sunset
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: app-pda/libopensync-plugin-kdepim-0.35 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
 !!! ERROR: app-pda/libopensync-plugin-kdepim-0.36 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: app-pda/libopensync-plugin-kdepim-0.35 failed.
-
 !!! ERROR: app-pda/libopensync-plugin-kdepim-9999 failed.
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: media-video/asdf-0.4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: media-video/dpencoder-0.6c failed.
+!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/DCOP-Amarok-0.035 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '265' 'depend'
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/DCOP-Amarok-Player-0.036 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '265' 'depend'
 !!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '265' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
+
+!!! ERROR: dev-perl/DCOP-Amarok-Player-0.037 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '261' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
 !!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
 !!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.36.ebuild'
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/media-video/dpencoder/dpencoder-0.6c.ebuild'
+!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!   libopensync-plugin-kdepim-0.36.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!                asdf-0.4.ebuild, line   5:  Called inherit 'perl-app'
 !!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-9999.ebuild'
-!!!   libopensync-plugin-kdepim-0.35.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!   libopensync-plugin-kdepim-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'subversion' 'kde-functions'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                      cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                      cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/media-video/dpencoder/dpencoder-0.6c.ebuild'
 !!!                      cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported
@@ -683,311 +148,271 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! ERROR: kde-misc/strigiapplet-0.5.7 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * 
- * "/home/mgorny/repos/kde-sunset/dev-python/pykde/pykde-3.16.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-
-!!! ERROR: media-video/asdf-0.4 failed.
- * 
- * "/home/mgorny/repos/kde-sunset/dev-python/pykde/pykde-3.16.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
-
-!!! ERROR: media-video/dpencoder-0.6c failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '191' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
-!!!      strigiapplet-0.5.7.ebuild, line   5:  Called inherit 'kde' 'multilib' 'cmake-utils'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-pda/libopensync-plugin-kdepim/libopensync-plugin-kdepim-0.35.ebuild'
+!!!   libopensync-plugin-kdepim-0.35.ebuild, line   7:  Called inherit 'cmake-utils' 'kde-functions'
+!!!   libopensync-plugin-kdepim-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'subversion' 'kde-functions'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/media-video/dpencoder/dpencoder-0.6c.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/media-video/asdf/asdf-0.4.ebuild'
-!!!          dpencoder-0.6c.ebuild, line   5:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                asdf-0.4.ebuild, line   5:  Called inherit 'perl-app'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 
 !!! ERROR: app-office/scribus-1.3.3.12-r1 failed.
+!!!                      cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
+!!!          dpencoder-0.6c.ebuild, line   5:  Called inherit 'perl-module'
+!!!   DCOP-Amarok-Player-0.037.ebuild, line   6:  Called inherit 'perl-module'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   DCOP-Amarok-Player-0.036.ebuild, line   5:  Called inherit 'perl-module'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                      cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!       DCOP-Amarok-0.035.ebuild, line   5:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/app-office/scribus/scribus-1.3.3.12-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/app-office/scribus/scribus-1.3.3.12-r1.ebuild'
-
-!!! ERROR: dev-perl/DCOP-Amarok-0.035 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-office/scribus/scribus-1.3.3.12-r1.ebuild'
 
 !!! ERROR: x11-themes/gtk-engines-qt-0.8-r4 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: dev-perl/DCOP-0.038 failed.
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: dev-perl/DCOP-Amarok-Player-0.037 failed.
+!!!     scribus-1.3.3.12-r1.ebuild, line   7:  Called inherit 'qt3' 'eutils' 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/DCOP-Amarok-Player-0.036 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '220' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/kde-misc/strigiapplet/strigiapplet-0.5.7.ebuild'
+!!!      strigiapplet-0.5.7.ebuild, line   5:  Called inherit 'kde' 'multilib' 'cmake-utils'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!   gtk-engines-qt-0.8-r4.ebuild, line   9:  Called inherit 'kde' 'cmake-utils'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
+
+!!! ERROR: dev-perl/DCOP-0.036 failed.
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!              DCOP-0.038.ebuild, line   5:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=1 is not supported
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-perl/DCOP-Amarok-0.036 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/app-office/scribus/scribus-1.3.3.12-r1.ebuild'
-
-!!! ERROR: dev-perl/DCOP-0.036 failed.
-!!!     scribus-1.3.3.12-r1.ebuild, line   7:  Called inherit 'qt3' 'eutils' 'cmake-utils'
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-perl/PerlQt-3.009_beta2 failed.
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-
-!!! ERROR: dev-perl/DCOP-0.038 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.037.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/x11-themes/gtk-engines-qt/gtk-engines-qt-0.8-r4.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
-!!!   DCOP-Amarok-Player-0.037.ebuild, line   6:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
-!!!   gtk-engines-qt-0.8-r4.ebuild, line   9:  Called inherit 'kde' 'cmake-utils'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.035.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!       DCOP-Amarok-0.035.ebuild, line   5:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!       DCOP-Amarok-0.036.ebuild, line   5:  Called inherit 'perl-module'
-!!!              DCOP-0.036.ebuild, line   5:  Called inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok-Player/DCOP-Amarok-Player-0.036.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=1 is not supported
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   DCOP-Amarok-Player-0.036.ebuild, line   5:  Called inherit 'perl-module'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.038.ebuild'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              DCOP-0.038.ebuild, line   5:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!      PerlQt-3.009_beta2.ebuild, line   6:  Called inherit 'perl-module' 'kde'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
 
 !!! ERROR: kde-base/dcopperl-3.5.10 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '202' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP/DCOP-0.036.ebuild'
+!!!              DCOP-0.036.ebuild, line   5:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+
+!!! ERROR: dev-perl/PerlQt-3.009_beta2 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/DCOP-Amarok/DCOP-Amarok-0.036.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!       DCOP-Amarok-0.036.ebuild, line   5:  Called inherit 'perl-module'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/kde-base/dcopperl/dcopperl-3.5.10.ebuild'
 !!!         dcopperl-3.5.10.ebuild, line   9:  Called inherit 'kde-meta' 'perl-app'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kde-sunset/dev-perl/PerlQt/PerlQt-3.009_beta2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!      PerlQt-3.009_beta2.ebuild, line   6:  Called inherit 'perl-module' 'kde'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=1 is not supported by perl-module.eclass
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.35
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.36
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-9999
 !!! caught exception Metadata Exception: pkg ebuild src: net-im/kopete-otr-0.7, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-im/kopete-otr-0.7
 !!! caught exception Metadata Exception: pkg ebuild src: kde-misc/kate-symbolviewer-plugin-1.11.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: kde-misc/kate-symbolviewer-plugin-1.11.0
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.36
 !!! caught exception Metadata Exception: pkg ebuild src: media-gfx/gwenview-1.4.2-r3, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-gfx/gwenview-1.4.2-r3
 !!! caught exception Metadata Exception: pkg ebuild src: media-gfx/showimg-0.9.5-r2, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-gfx/showimg-0.9.5-r2
-!!! caught exception Metadata Exception: pkg ebuild src: media-video/subtitlecomposer-0.4.3-r1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-video/subtitlecomposer-0.4.3-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-misc/strigiapplet-0.5.7
+!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-pda/libopensync-plugin-kdepim-0.35
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.037
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.036
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.035
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-video/dpencoder-0.6c
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-video/asdf-0.4
+!!! caught exception Metadata Exception: pkg ebuild src: media-video/subtitlecomposer-0.4.3-r1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-video/subtitlecomposer-0.4.3-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-office/scribus-1.3.3.12-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-misc/strigiapplet-0.5.7
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-0.038
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: x11-themes/gtk-engines-qt-0.8-r4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.037
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.036
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.035
+!!! caught exception Metadata Exception: pkg ebuild src: mail-client/kbiff-3.9, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: mail-client/kbiff-3.9
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DCOP-0.036
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-Player-0.036
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DCOP-0.038
+!!! caught exception False while processing ebuild src: dev-perl/DCOP-Amarok-0.036
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/PerlQt-3.009_beta2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dcopperl-3.5.10
-!!! caught exception Metadata Exception: pkg ebuild src: mail-client/kbiff-3.9, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: mail-client/kbiff-3.9
  * Cache regenerated successfully
