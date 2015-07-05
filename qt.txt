@@ -41,7 +41,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named 'paddymac', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/paddymac' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/paddymac', named '<unlabeled repository /home/mgorny/repos/paddymac>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -74,7 +75,131 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled reposi
 WARNING:pkgcore:repository at '/home/mgorny/repos/pcsx2', named 'pcsx2', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/qt
+   2201d92..d683b21  master     -> origin/master
+Updating 2201d92..d683b21
+Fast-forward
+ dev-qt/assistant/Manifest                                               | 2 +-
+ dev-qt/assistant/{assistant-5.5.0_rc.ebuild => assistant-5.5.0.ebuild}  | 0
+ dev-qt/designer/Manifest                                                | 2 +-
+ dev-qt/designer/{designer-5.5.0_rc.ebuild => designer-5.5.0.ebuild}     | 0
+ dev-qt/linguist-tools/Manifest                                          | 2 +-
+ .../{linguist-tools-5.5.0_rc.ebuild => linguist-tools-5.5.0.ebuild}     | 0
+ dev-qt/linguist/Manifest                                                | 2 +-
+ dev-qt/linguist/{linguist-5.5.0_rc.ebuild => linguist-5.5.0.ebuild}     | 0
+ dev-qt/pixeltool/Manifest                                               | 2 +-
+ dev-qt/pixeltool/{pixeltool-5.5.0_rc.ebuild => pixeltool-5.5.0.ebuild}  | 0
+ dev-qt/qdbus/Manifest                                                   | 2 +-
+ dev-qt/qdbus/{qdbus-5.5.0_rc.ebuild => qdbus-5.5.0.ebuild}              | 0
+ dev-qt/qdbusviewer/Manifest                                             | 2 +-
+ .../{qdbusviewer-5.5.0_rc.ebuild => qdbusviewer-5.5.0.ebuild}           | 0
+ dev-qt/qdoc/Manifest                                                    | 2 +-
+ dev-qt/qdoc/{qdoc-5.5.0_rc.ebuild => qdoc-5.5.0.ebuild}                 | 0
+ dev-qt/qtconcurrent/Manifest                                            | 2 +-
+ .../{qtconcurrent-5.5.0_rc.ebuild => qtconcurrent-5.5.0.ebuild}         | 0
+ dev-qt/qtcore/Manifest                                                  | 2 +-
+ dev-qt/qtcore/{qtcore-5.5.0_rc.ebuild => qtcore-5.5.0.ebuild}           | 0
+ dev-qt/qtdbus/Manifest                                                  | 2 +-
+ dev-qt/qtdbus/{qtdbus-5.5.0_rc.ebuild => qtdbus-5.5.0.ebuild}           | 0
+ dev-qt/qtdeclarative/Manifest                                           | 2 +-
+ .../{qtdeclarative-5.5.0_rc.ebuild => qtdeclarative-5.5.0.ebuild}       | 0
+ dev-qt/qtdiag/Manifest                                                  | 2 +-
+ dev-qt/qtdiag/{qtdiag-5.5.0_rc.ebuild => qtdiag-5.5.0.ebuild}           | 0
+ dev-qt/qtgraphicaleffects/Manifest                                      | 2 +-
+ ...graphicaleffects-5.5.0_rc.ebuild => qtgraphicaleffects-5.5.0.ebuild} | 0
+ dev-qt/qtgui/Manifest                                                   | 2 +-
+ dev-qt/qtgui/{qtgui-5.5.0_rc.ebuild => qtgui-5.5.0.ebuild}              | 0
+ dev-qt/qthelp/Manifest                                                  | 2 +-
+ dev-qt/qthelp/{qthelp-5.5.0_rc.ebuild => qthelp-5.5.0.ebuild}           | 0
+ dev-qt/qtimageformats/Manifest                                          | 2 +-
+ .../{qtimageformats-5.5.0_rc.ebuild => qtimageformats-5.5.0.ebuild}     | 0
+ dev-qt/qtmultimedia/Manifest                                            | 2 +-
+ .../{qtmultimedia-5.5.0_rc.ebuild => qtmultimedia-5.5.0.ebuild}         | 0
+ dev-qt/qtnetwork/Manifest                                               | 2 +-
+ dev-qt/qtnetwork/{qtnetwork-5.5.0_rc.ebuild => qtnetwork-5.5.0.ebuild}  | 0
+ dev-qt/qtopengl/Manifest                                                | 2 +-
+ dev-qt/qtopengl/{qtopengl-5.5.0_rc.ebuild => qtopengl-5.5.0.ebuild}     | 0
+ dev-qt/qtpaths/Manifest                                                 | 2 +-
+ dev-qt/qtpaths/{qtpaths-5.5.0_rc.ebuild => qtpaths-5.5.0.ebuild}        | 0
+ dev-qt/qtpositioning/Manifest                                           | 2 +-
+ .../{qtpositioning-5.5.0_rc.ebuild => qtpositioning-5.5.0.ebuild}       | 0
+ dev-qt/qtprintsupport/Manifest                                          | 2 +-
+ .../{qtprintsupport-5.5.0_rc.ebuild => qtprintsupport-5.5.0.ebuild}     | 0
+ dev-qt/qtquick1/Manifest                                                | 2 +-
+ dev-qt/qtquick1/{qtquick1-5.5.0_rc.ebuild => qtquick1-5.5.0.ebuild}     | 0
+ dev-qt/qtquickcontrols/Manifest                                         | 2 +-
+ .../{qtquickcontrols-5.5.0_rc.ebuild => qtquickcontrols-5.5.0.ebuild}   | 0
+ dev-qt/qtscript/Manifest                                                | 2 +-
+ dev-qt/qtscript/{qtscript-5.5.0_rc.ebuild => qtscript-5.5.0.ebuild}     | 0
+ dev-qt/qtsensors/Manifest                                               | 2 +-
+ dev-qt/qtsensors/{qtsensors-5.5.0_rc.ebuild => qtsensors-5.5.0.ebuild}  | 0
+ dev-qt/qtserialport/Manifest                                            | 2 +-
+ .../{qtserialport-5.5.0_rc.ebuild => qtserialport-5.5.0.ebuild}         | 0
+ dev-qt/qtsql/Manifest                                                   | 2 +-
+ dev-qt/qtsql/{qtsql-5.5.0_rc.ebuild => qtsql-5.5.0.ebuild}              | 0
+ dev-qt/qtsvg/Manifest                                                   | 2 +-
+ dev-qt/qtsvg/{qtsvg-5.5.0_rc.ebuild => qtsvg-5.5.0.ebuild}              | 0
+ dev-qt/qttest/Manifest                                                  | 2 +-
+ dev-qt/qttest/{qttest-5.5.0_rc.ebuild => qttest-5.5.0.ebuild}           | 0
+ dev-qt/qttranslations/Manifest                                          | 2 +-
+ .../{qttranslations-5.5.0_rc.ebuild => qttranslations-5.5.0.ebuild}     | 0
+ dev-qt/qtwayland/Manifest                                               | 2 +-
+ dev-qt/qtwayland/{qtwayland-5.5.0_rc.ebuild => qtwayland-5.5.0.ebuild}  | 0
+ dev-qt/qtwebchannel/Manifest                                            | 2 +-
+ .../{qtwebchannel-5.5.0_rc.ebuild => qtwebchannel-5.5.0.ebuild}         | 0
+ dev-qt/qtwebkit/Manifest                                                | 2 +-
+ dev-qt/qtwebkit/{qtwebkit-5.5.0_rc.ebuild => qtwebkit-5.5.0.ebuild}     | 0
+ dev-qt/qtwebsockets/Manifest                                            | 2 +-
+ .../{qtwebsockets-5.5.0_rc.ebuild => qtwebsockets-5.5.0.ebuild}         | 0
+ dev-qt/qtwidgets/Manifest                                               | 2 +-
+ dev-qt/qtwidgets/{qtwidgets-5.5.0_rc.ebuild => qtwidgets-5.5.0.ebuild}  | 0
+ dev-qt/qtx11extras/Manifest                                             | 2 +-
+ .../{qtx11extras-5.5.0_rc.ebuild => qtx11extras-5.5.0.ebuild}           | 0
+ dev-qt/qtxml/Manifest                                                   | 2 +-
+ dev-qt/qtxml/{qtxml-5.5.0_rc.ebuild => qtxml-5.5.0.ebuild}              | 0
+ dev-qt/qtxmlpatterns/Manifest                                           | 2 +-
+ .../{qtxmlpatterns-5.5.0_rc.ebuild => qtxmlpatterns-5.5.0.ebuild}       | 0
+ 80 files changed, 40 insertions(+), 40 deletions(-)
+ rename dev-qt/assistant/{assistant-5.5.0_rc.ebuild => assistant-5.5.0.ebuild} (100%)
+ rename dev-qt/designer/{designer-5.5.0_rc.ebuild => designer-5.5.0.ebuild} (100%)
+ rename dev-qt/linguist-tools/{linguist-tools-5.5.0_rc.ebuild => linguist-tools-5.5.0.ebuild} (100%)
+ rename dev-qt/linguist/{linguist-5.5.0_rc.ebuild => linguist-5.5.0.ebuild} (100%)
+ rename dev-qt/pixeltool/{pixeltool-5.5.0_rc.ebuild => pixeltool-5.5.0.ebuild} (100%)
+ rename dev-qt/qdbus/{qdbus-5.5.0_rc.ebuild => qdbus-5.5.0.ebuild} (100%)
+ rename dev-qt/qdbusviewer/{qdbusviewer-5.5.0_rc.ebuild => qdbusviewer-5.5.0.ebuild} (100%)
+ rename dev-qt/qdoc/{qdoc-5.5.0_rc.ebuild => qdoc-5.5.0.ebuild} (100%)
+ rename dev-qt/qtconcurrent/{qtconcurrent-5.5.0_rc.ebuild => qtconcurrent-5.5.0.ebuild} (100%)
+ rename dev-qt/qtcore/{qtcore-5.5.0_rc.ebuild => qtcore-5.5.0.ebuild} (100%)
+ rename dev-qt/qtdbus/{qtdbus-5.5.0_rc.ebuild => qtdbus-5.5.0.ebuild} (100%)
+ rename dev-qt/qtdeclarative/{qtdeclarative-5.5.0_rc.ebuild => qtdeclarative-5.5.0.ebuild} (100%)
+ rename dev-qt/qtdiag/{qtdiag-5.5.0_rc.ebuild => qtdiag-5.5.0.ebuild} (100%)
+ rename dev-qt/qtgraphicaleffects/{qtgraphicaleffects-5.5.0_rc.ebuild => qtgraphicaleffects-5.5.0.ebuild} (100%)
+ rename dev-qt/qtgui/{qtgui-5.5.0_rc.ebuild => qtgui-5.5.0.ebuild} (100%)
+ rename dev-qt/qthelp/{qthelp-5.5.0_rc.ebuild => qthelp-5.5.0.ebuild} (100%)
+ rename dev-qt/qtimageformats/{qtimageformats-5.5.0_rc.ebuild => qtimageformats-5.5.0.ebuild} (100%)
+ rename dev-qt/qtmultimedia/{qtmultimedia-5.5.0_rc.ebuild => qtmultimedia-5.5.0.ebuild} (100%)
+ rename dev-qt/qtnetwork/{qtnetwork-5.5.0_rc.ebuild => qtnetwork-5.5.0.ebuild} (100%)
+ rename dev-qt/qtopengl/{qtopengl-5.5.0_rc.ebuild => qtopengl-5.5.0.ebuild} (100%)
+ rename dev-qt/qtpaths/{qtpaths-5.5.0_rc.ebuild => qtpaths-5.5.0.ebuild} (100%)
+ rename dev-qt/qtpositioning/{qtpositioning-5.5.0_rc.ebuild => qtpositioning-5.5.0.ebuild} (100%)
+ rename dev-qt/qtprintsupport/{qtprintsupport-5.5.0_rc.ebuild => qtprintsupport-5.5.0.ebuild} (100%)
+ rename dev-qt/qtquick1/{qtquick1-5.5.0_rc.ebuild => qtquick1-5.5.0.ebuild} (100%)
+ rename dev-qt/qtquickcontrols/{qtquickcontrols-5.5.0_rc.ebuild => qtquickcontrols-5.5.0.ebuild} (100%)
+ rename dev-qt/qtscript/{qtscript-5.5.0_rc.ebuild => qtscript-5.5.0.ebuild} (100%)
+ rename dev-qt/qtsensors/{qtsensors-5.5.0_rc.ebuild => qtsensors-5.5.0.ebuild} (100%)
+ rename dev-qt/qtserialport/{qtserialport-5.5.0_rc.ebuild => qtserialport-5.5.0.ebuild} (100%)
+ rename dev-qt/qtsql/{qtsql-5.5.0_rc.ebuild => qtsql-5.5.0.ebuild} (100%)
+ rename dev-qt/qtsvg/{qtsvg-5.5.0_rc.ebuild => qtsvg-5.5.0.ebuild} (100%)
+ rename dev-qt/qttest/{qttest-5.5.0_rc.ebuild => qttest-5.5.0.ebuild} (100%)
+ rename dev-qt/qttranslations/{qttranslations-5.5.0_rc.ebuild => qttranslations-5.5.0.ebuild} (100%)
+ rename dev-qt/qtwayland/{qtwayland-5.5.0_rc.ebuild => qtwayland-5.5.0.ebuild} (100%)
+ rename dev-qt/qtwebchannel/{qtwebchannel-5.5.0_rc.ebuild => qtwebchannel-5.5.0.ebuild} (100%)
+ rename dev-qt/qtwebkit/{qtwebkit-5.5.0_rc.ebuild => qtwebkit-5.5.0.ebuild} (100%)
+ rename dev-qt/qtwebsockets/{qtwebsockets-5.5.0_rc.ebuild => qtwebsockets-5.5.0.ebuild} (100%)
+ rename dev-qt/qtwidgets/{qtwidgets-5.5.0_rc.ebuild => qtwidgets-5.5.0.ebuild} (100%)
+ rename dev-qt/qtx11extras/{qtx11extras-5.5.0_rc.ebuild => qtx11extras-5.5.0.ebuild} (100%)
+ rename dev-qt/qtxml/{qtxml-5.5.0_rc.ebuild => qtxml-5.5.0.ebuild} (100%)
+ rename dev-qt/qtxmlpatterns/{qtxmlpatterns-5.5.0_rc.ebuild => qtxmlpatterns-5.5.0.ebuild} (100%)
 *** syncing '/home/mgorny/repos/qt'...
 *** synced '/home/mgorny/repos/qt'
  * Sync succeeded
