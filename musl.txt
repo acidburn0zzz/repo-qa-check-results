@@ -61,30 +61,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric',
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/musl
-   b99863a..87c6dd0  master     -> origin/master
-Updating b99863a..87c6dd0
+   87c6dd0..308de0e  master     -> origin/master
+Updating 87c6dd0..308de0e
 Fast-forward
- dev-qt/qtcore/Manifest                             |  11 +
- ...isallow-deep-or-widely-nested-entity-refs.patch | 114 ++++++
- .../CVE-2013-4549-02-fully-expand-entities.patch   | 124 ++++++
- ...ExcludeSocketNotifiers-in-glib-event-loop.patch |  81 ++++
- .../qtcore-4.8.5-moc-boost-lexical-cast.patch      |  12 +
- .../qtcore-4.8.5-qeventdispatcher-recursive.patch  |  94 +++++
- .../files/qtcore-4.8.6-QNAM-corruptions-fix.patch  | 431 +++++++++++++++++++++
- .../files/qtcore-4.8.7-fix-socklent-for-musl.patch | 119 ++++++
- dev-qt/qtcore/metadata.xml                         |  16 +
- dev-qt/qtcore/qtcore-4.8.7-r99.ebuild              |  90 +++++
- 10 files changed, 1092 insertions(+)
- create mode 100644 dev-qt/qtcore/Manifest
- create mode 100644 dev-qt/qtcore/files/CVE-2013-4549-01-disallow-deep-or-widely-nested-entity-refs.patch
- create mode 100644 dev-qt/qtcore/files/CVE-2013-4549-02-fully-expand-entities.patch
- create mode 100644 dev-qt/qtcore/files/qtcore-4.8.5-honor-ExcludeSocketNotifiers-in-glib-event-loop.patch
- create mode 100644 dev-qt/qtcore/files/qtcore-4.8.5-moc-boost-lexical-cast.patch
- create mode 100644 dev-qt/qtcore/files/qtcore-4.8.5-qeventdispatcher-recursive.patch
- create mode 100644 dev-qt/qtcore/files/qtcore-4.8.6-QNAM-corruptions-fix.patch
- create mode 100644 dev-qt/qtcore/files/qtcore-4.8.7-fix-socklent-for-musl.patch
- create mode 100644 dev-qt/qtcore/metadata.xml
- create mode 100644 dev-qt/qtcore/qtcore-4.8.7-r99.ebuild
+ dev-qt/qt3support/Manifest                         |   4 +
+ .../qt3support-4.8.7-fix-socklent-for-musl.patch   | 119 +++++++++++++++++++++
+ dev-qt/qt3support/metadata.xml                     |  13 +++
+ dev-qt/qt3support/qt3support-4.8.7-r99.ebuild      |  38 +++++++
+ 4 files changed, 174 insertions(+)
+ create mode 100644 dev-qt/qt3support/Manifest
+ create mode 100644 dev-qt/qt3support/files/qt3support-4.8.7-fix-socklent-for-musl.patch
+ create mode 100644 dev-qt/qt3support/metadata.xml
+ create mode 100644 dev-qt/qt3support/qt3support-4.8.7-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded

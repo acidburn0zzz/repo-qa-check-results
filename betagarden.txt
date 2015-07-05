@@ -18,6 +18,8 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/betagarden
+WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -25,26 +27,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-From git://anongit.gentoo.org/proj/betagarden
-   062819b..d2a1029  master     -> origin/master
-Updating 062819b..d2a1029
-Fast-forward
- dev-python/libpulseaudio/Manifest                  |  1 +
- .../libpulseaudio-1.1_p20111124.ebuild             | 23 +++++++++++++++++++
- dev-python/libpulseaudio/metadata.xml              |  8 +++++++
- media-sound/pamixer/Manifest                       |  1 +
- ..._pre20120212-install-pamixer-pulse-module.patch | 25 +++++++++++++++++++++
- media-sound/pamixer/metadata.xml                   |  8 +++++++
- .../pamixer/pamixer-0.1.4_pre20120212.ebuild       | 26 ++++++++++++++++++++++
- 7 files changed, 92 insertions(+)
- create mode 100644 dev-python/libpulseaudio/Manifest
- create mode 100644 dev-python/libpulseaudio/libpulseaudio-1.1_p20111124.ebuild
- create mode 100644 dev-python/libpulseaudio/metadata.xml
- create mode 100644 media-sound/pamixer/Manifest
- create mode 100644 media-sound/pamixer/files/pamixer-0.1.4_pre20120212-install-pamixer-pulse-module.patch
- create mode 100644 media-sound/pamixer/metadata.xml
- create mode 100644 media-sound/pamixer/pamixer-0.1.4_pre20120212.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/betagarden'...
 *** synced '/home/mgorny/repos/betagarden'
  * Sync succeeded
