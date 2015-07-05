@@ -18,7 +18,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -37,8 +38,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/graveyard'...
 *** synced '/home/mgorny/repos/graveyard'
@@ -54,33 +53,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: media-plugins/xmms-outpost-0.15 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-kde/xmms-kde-3.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
+!!!       xmms-outpost-0.15.ebuild, line   7:  Called inherit 'kde' 'eutils'
 !!!            xmms-kde-3.1.ebuild, line   7:  Called inherit 'kde' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/media-plugins/xmms-outpost/xmms-outpost-0.15.ebuild'
-!!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde-functions failed
-
-!!!       xmms-outpost-0.15.ebuild, line   7:  Called inherit 'kde' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/graveyard/eclass/kde.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/graveyard/eclass/kde.eclass'
 !!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
@@ -88,6 +81,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for kde-functions failed
 
+!!!                     kde.eclass, line  18:  Called inherit 'base' 'eutils' 'kde-functions' 'flag-o-matic' 'libtool' 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for kde-functions failed
+
+Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-kde-3.1
 !!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: media-plugins/xmms-outpost-0.15
