@@ -198,9 +198,49 @@
 </pre></td></tr>
             <tr class="" id="l94"><td><a href="#l94"><span>94</span></a></td><td><pre>
 </pre></td></tr>
-            <tr class="" id="l95"><td><a href="#l95"><span>95</span></a></td><td><pre>!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/starcluster-9999
+            <tr class="" id="l95"><td><a href="#l95"><span>95</span></a></td><td><pre>
 </pre></td></tr>
-            <tr class="" id="l96"><td><a href="#l96"><span>96</span></a></td><td><pre> * Cache regenerated successfully
+            <tr class="err" id="l96"><td><a href="#l96"><span>96</span></a></td><td><pre>!!! ERROR: net-libs/celery-2.1.3 failed.
+</pre></td><td>[FATAL]</td></tr>
+            <tr class="" id="l97"><td><a href="#l97"><span>97</span></a></td><td><pre>!!! die invoked from directory /usr/lib64/pkgcore
+</pre></td></tr>
+            <tr class="" id="l98"><td><a href="#l98"><span>98</span></a></td><td><pre>!!! Call stack:
+</pre></td></tr>
+            <tr class="" id="l99"><td><a href="#l99"><span>99</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+</pre></td></tr>
+            <tr class="" id="l100"><td><a href="#l100"><span>100</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+</pre></td></tr>
+            <tr class="" id="l101"><td><a href="#l101"><span>101</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+</pre></td></tr>
+            <tr class="" id="l102"><td><a href="#l102"><span>102</span></a></td><td><pre>!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+</pre></td></tr>
+            <tr class="" id="l103"><td><a href="#l103"><span>103</span></a></td><td><pre>!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quantumsummers/net-libs/celery/celery-2.1.3.ebuild'
+</pre></td></tr>
+            <tr class="" id="l104"><td><a href="#l104"><span>104</span></a></td><td><pre>!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quantumsummers/net-libs/celery/celery-2.1.3.ebuild'
+</pre></td></tr>
+            <tr class="" id="l105"><td><a href="#l105"><span>105</span></a></td><td><pre>!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quantumsummers/net-libs/celery/celery-2.1.3.ebuild'
+</pre></td></tr>
+            <tr class="" id="l106"><td><a href="#l106"><span>106</span></a></td><td><pre>!!!            celery-2.1.3.ebuild, line   9:  Called inherit 'distutils' 'eutils'
+</pre></td></tr>
+            <tr class="" id="l107"><td><a href="#l107"><span>107</span></a></td><td><pre>!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils'
+</pre></td></tr>
+            <tr class="" id="l108"><td><a href="#l108"><span>108</span></a></td><td><pre>!!!              ebuild-daemon.lib, line  37:  Called die
+</pre></td></tr>
+            <tr class="err" id="l109"><td><a href="#l109"><span>109</span></a></td><td><pre>!!! The die message:
+</pre></td><td>[FATAL]</td></tr>
+            <tr class="" id="l110"><td><a href="#l110"><span>110</span></a></td><td><pre>!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass distutils
+</pre></td></tr>
+            <tr class="" id="l111"><td><a href="#l111"><span>111</span></a></td><td><pre>
+</pre></td></tr>
+            <tr class="" id="l112"><td><a href="#l112"><span>112</span></a></td><td><pre>Sandboxed process killed by signal: Broken pipe
+</pre></td></tr>
+            <tr class="" id="l113"><td><a href="#l113"><span>113</span></a></td><td><pre>!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/starcluster-9999
+</pre></td></tr>
+            <tr class="" id="l114"><td><a href="#l114"><span>114</span></a></td><td><pre>ERROR pkgcore: returned val from gen_metadata was 'False'
+</pre></td></tr>
+            <tr class="" id="l115"><td><a href="#l115"><span>115</span></a></td><td><pre>!!! caught exception False while processing ebuild src: net-libs/celery-2.1.3
+</pre></td></tr>
+            <tr class="" id="l116"><td><a href="#l116"><span>116</span></a></td><td><pre> * Cache regenerated successfully
 </pre></td></tr>
 
         </table>
