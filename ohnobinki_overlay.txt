@@ -16,7 +16,8 @@
 $ pmaint sync /home/mgorny/repos/ohnobinki_overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named 'matsuu', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/matsuu' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/matsuu', named '<unlabeled repository /home/mgorny/repos/matsuu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -44,7 +45,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nbigaouette' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named '<unlabeled repository /home/mgorny/repos/nbigaouette>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -68,57 +70,57 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! ERROR: sci-calculators/gfm-1.02 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: sys-libs/tdb-1.2.9 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
 
 !!! ERROR: sys-libs/talloc-2.0.5 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '176' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
 
-!!! ERROR: app-doc/doxygen-1.5.8-r1 failed.
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! ERROR: sys-libs/tdb-1.2.9 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!               tdb-1.2.9.ebuild, line   8:  Called inherit 'eutils' 'waf-utils' 'python'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
-!!!                gfm-1.02.ebuild, line   6:  Called inherit 'qt3'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ohnobinki_overlay/sci-calculators/gfm/gfm-1.02.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                gfm-1.02.ebuild, line   6:  Called inherit 'qt3'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'qt3'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '182' 'depend'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for qt3 failed
 
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ohnobinki_overlay/sys-libs/tdb/tdb-1.2.9.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ohnobinki_overlay/sys-libs/talloc/talloc-2.0.5.ebuild'
+!!!               tdb-1.2.9.ebuild, line   8:  Called inherit 'eutils' 'waf-utils' 'python'
 !!!            talloc-2.0.5.ebuild, line   7:  Called inherit 'eutils' 'waf-utils' 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'waf-utils'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!               waf-utils.eclass, line  22:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
+
+!!! ERROR: app-doc/doxygen-1.5.8-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/waf-utils.eclass'
 !!!               waf-utils.eclass, line  22:  Called die
