@@ -49,17 +49,22 @@ $ pmaint regen -t 2 moonrise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-editors/vim-core-7.3.161 failed.
-
-!!! ERROR: app-editors/vim-core-7.3.125 failed.
+!!! ERROR: app-editors/gvim-7.3.161 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: app-editors/vim-core-7.3.161 failed.
+
+!!! ERROR: app-editors/gvim-7.3.125 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
 !!! ERROR: app-editors/vim-7.3.125 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
-!!! ERROR: app-editors/gvim-7.3.161 failed.
+!!! ERROR: app-editors/vim-core-7.3.125 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
@@ -68,153 +73,148 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: app-editors/gvim-7.3.125 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: x11-wm/wmfs-9999 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
+!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.125.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
+!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.125.ebuild'
 !!!        vim-core-7.3.125.ebuild, line   6:  Called inherit 'vim'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim-core/vim-core-7.3.161.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
-!!!            gvim-7.3.125.ebuild, line   6:  Called inherit 'vim'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
-!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/gvim/gvim-7.3.161.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.125.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!             vim-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!               wmfs-9999.ebuild, line   7:  Called inherit 'eutils' 'git'
+!!!        vim-core-7.3.161.ebuild, line   6:  Called inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/app-editors/vim/vim-7.3.161.ebuild'
 
-!!! ERROR: media-gfx/gimp-2.7.1 failed.
+!!! ERROR: media-gfx/gimp-2.7.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
-!!!             vim-7.3.125.ebuild, line   6:  Called inherit 'vim'
 !!!            gvim-7.3.161.ebuild, line   6:  Called inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for vim failed
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/x11-wm/wmfs/wmfs-9999.ebuild'
-!!!               wmfs-9999.ebuild, line   7:  Called inherit 'eutils' 'git'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for vim failed
-
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
+!!!             vim-7.3.161.ebuild, line   6:  Called inherit 'vim'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: www-client/firefox-10.0_beta4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'vim'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for vim failed
+
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
 
 !!! ERROR: www-client/firefox-10.0_beta2 failed.
-!!!              gimp-2.7.1.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'fdo-mime' 'multilib' 'python' 'versionator'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta4.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta4.ebuild'
+!!!              gimp-2.7.3.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'fdo-mime' 'multilib' 'python' 'versionator'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta4.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!      firefox-10.0_beta4.ebuild, line   8:  Called inherit 'check-reqs' 'flag-o-matic' 'toolchain-funcs' 'eutils' 'gnome2-utils' 'mozconfig-3' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'mozextension' 'versionator' 'python' 'virtualx' 'nsplugins'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  python.eclass, line  16:  Called die
 !!! The die message:
 !!!  python.eclass can not be used with python-r1 suite eclasses.
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/www-client/firefox/firefox-10.0_beta2.ebuild'
+!!!                  gnome2.eclass, line  19:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported
 
 !!!      firefox-10.0_beta2.ebuild, line   8:  Called inherit 'check-reqs' 'flag-o-matic' 'toolchain-funcs' 'eutils' 'gnome2-utils' 'mozconfig-3' 'multilib' 'pax-utils' 'fdo-mime' 'autotools' 'mozextension' 'versionator' 'python' 'virtualx' 'nsplugins'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
@@ -224,46 +224,82 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  python.eclass can not be used with python-r1 suite eclasses.
 
-!!! !!! !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.161
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.161
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.161
+caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
 !!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/gvim-7.3.125
-!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.161
+caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-7.3.161
+!!! caught exception inherit requires an unknown eclass, vim cannot be found while processing ebuild src: app-editors/vim-core-7.3.125
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-wm/wmfs-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-libs/libtorrent-0.12.7
+!!! caught exception False while processing ebuild src: media-video/imagination-2.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/dropbox-1.1.31
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/tucan-0.3.10
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: net-misc/dropbox-1.2.4
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/gimp-2.7.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-firewall/firehol-2.0.0_pre6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-util/bam-0.4.0
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-gfx/gimp-2.7.3
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-misc/lightdm-0.3.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: media-gfx/gimp-2.7.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-client/firefox-10.0_beta4
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: media-gfx/gimp-2.7.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-client/firefox-10.0_beta2
 Error running an operation:
  Unhandled exception in regen_cache
  app-backup/qt4-fsarchiver-0.6.19-1
 
-!!! ERROR: media-gfx/gimp-2.7.3 failed.
+!!! ERROR: net-misc/dropbox-1.2.4 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.2.4.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.2.4.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.2.4.ebuild'
+!!!           dropbox-1.2.4.ebuild, line   6:  Called inherit 'base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass base
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-video/imagination-2.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/media-video/imagination/imagination-2.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/media-video/imagination/imagination-2.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/media-video/imagination/imagination-2.1.ebuild'
+!!!         imagination-2.1.ebuild, line   5:  Called inherit 'eutils'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass eutils
+
+Sandboxed process killed by signal: Broken pipe
+
+!!! ERROR: media-gfx/gimp-2.7.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '165' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.3.ebuild'
-!!!              gimp-2.7.3.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'fdo-mime' 'multilib' 'python' 'versionator'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/media-gfx/gimp/gimp-2.7.1.ebuild'
+!!!              gimp-2.7.1.ebuild, line   7:  Called inherit 'eutils' 'gnome2' 'fdo-mime' 'multilib' 'python' 'versionator'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
@@ -271,35 +307,17 @@ Error running an operation:
 
 Sandboxed process killed by signal: Broken pipe
 
-!!! ERROR: dev-util/bam-0.4.0 failed.
+!!! ERROR: net-misc/tucan-0.3.10 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '158' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '173' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/dev-util/bam/bam-0.4.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/dev-util/bam/bam-0.4.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/dev-util/bam/bam-0.4.0.ebuild'
-!!!               bam-0.4.0.ebuild, line   9:  Called inherit 'eutils' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass eutils
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: net-libs/libtorrent-0.12.7 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '198' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/net-libs/libtorrent/libtorrent-0.12.7.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/net-libs/libtorrent/libtorrent-0.12.7.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/net-libs/libtorrent/libtorrent-0.12.7.ebuild'
-!!!       libtorrent-0.12.7.ebuild, line   6:  Called inherit 'eutils' 'libtool' 'toolchain-funcs'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/net-misc/tucan/tucan-0.3.10.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/net-misc/tucan/tucan-0.3.10.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/net-misc/tucan/tucan-0.3.10.ebuild'
+!!!            tucan-0.3.10.ebuild, line   7:  Called inherit 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
@@ -325,39 +343,21 @@ Sandboxed process killed by signal: Broken pipe
 
 Sandboxed process killed by signal: Broken pipe
 
-!!! ERROR: x11-misc/lightdm-0.3.0 failed.
+!!! ERROR: net-misc/dropbox-1.1.31 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/x11-misc/lightdm/lightdm-0.3.0.ebuild'
-!!!           lightdm-0.3.0.ebuild, line   6:  Called inherit 'autotools' 'eutils' 'pam'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.1.31.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.1.31.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/net-misc/dropbox/dropbox-1.1.31.ebuild'
+!!!          dropbox-1.1.31.ebuild, line   6:  Called inherit 'base'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'base'
 !!!              ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass autotools
-
-Sandboxed process killed by signal: Broken pipe
-
-!!! ERROR: net-firewall/firehol-2.0.0_pre6 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/moonrise/net-firewall/firehol/firehol-2.0.0_pre6.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/moonrise/net-firewall/firehol/firehol-2.0.0_pre6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/moonrise/net-firewall/firehol/firehol-2.0.0_pre6.ebuild'
-!!!      firehol-2.0.0_pre6.ebuild, line   6:  Called inherit 'eutils' 'linux-info'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eutils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass eutils
+!!!  unknown inherit command from pythonic side, 'shutdown_daemon' for eclass base
 
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

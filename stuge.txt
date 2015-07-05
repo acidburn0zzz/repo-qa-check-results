@@ -27,6 +27,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named 'arcon', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/soor' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named '<unlabeled repository /home/mgorny/repos/soor>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -88,86 +90,86 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
+!!! ERROR: net-misc/openbsc-9999 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
 !!! ERROR: net-misc/openggsn-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: net-misc/openbsc-9999 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '170' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
  * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
 
 !!! ERROR: games-puzzle/gnome-sudoku-0.7.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '170' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!           openggsn-9999.ebuild, line   4:  Called inherit 'git' 'autotools'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
 !!!            qcad-2.0.5.0.ebuild, line   5:  Called inherit 'kde-functions' 'eutils'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde-functions failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
 
 !!! ERROR: dev-perl/Device-Gsm-1.60 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!            openbsc-9999.ebuild, line   3:  Called inherit 'git' 'autotools'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for kde-functions failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
+!!!      gnome-sudoku-0.7.1.ebuild, line   6:  Called inherit 'python'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
+!!!           openggsn-9999.ebuild, line   4:  Called inherit 'git' 'autotools'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
-!!!      gnome-sudoku-0.7.1.ebuild, line   6:  Called inherit 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
 !!!                  python.eclass, line 277:  Called die
 !!! The die message:
 !!!  NEED_PYTHON variable is banned
 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
 !!!         Device-Gsm-1.60.ebuild, line   7:  Called inherit 'perl-module'
+!!!            openbsc-9999.ebuild, line   3:  Called inherit 'git' 'autotools'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
@@ -181,14 +183,14 @@ Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/openggsn-9999
 !!! caught exception Metadata Exception: pkg ebuild src: dev-java/etherpad-1.1, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/etherpad-1.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/json-lib-2.3, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/json-lib-2.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/xom-1.2.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/xom-1.2.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: games-puzzle/gnome-sudoku-0.7.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/ezmorph-1.0.6, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/ezmorph-1.0.6
+!!! caught exception Metadata Exception: pkg ebuild src: dev-java/xom-1.2.1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/xom-1.2.1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-java/json-lib-2.3, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/json-lib-2.3
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Device-Gsm-1.60
+!!! caught exception Metadata Exception: pkg ebuild src: dev-java/ezmorph-1.0.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/ezmorph-1.0.6
  * Cache regenerated successfully
