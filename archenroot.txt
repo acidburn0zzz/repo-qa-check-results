@@ -18,7 +18,71 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+From https://github.com/archenroot/gentoo-overlay
+   e978ad4..4516a4e  master     -> origin/master
+Updating e978ad4..4516a4e
+Fast-forward
+ net-wireless/cowpatty/Manifest                     |   7 +
+ net-wireless/cowpatty/cowpatty-4.3-r2.ebuild       |  28 ++
+ net-wireless/cowpatty/cowpatty-4.6-r4.ebuild       |  28 ++
+ .../cowpatty/files/cowpatty-4.3-fixup2.patch       | 221 +++++++++++++
+ .../cowpatty/files/cowpatty-4.3-hashfix.patch      |  12 +
+ .../cowpatty/files/cowpatty-4.6-fixup14.patch      | 346 +++++++++++++++++++++
+ net-wireless/reaver-wps/Manifest                   |   3 +
+ net-wireless/reaver-wps/metadata.xml               |   8 +
+ net-wireless/reaver-wps/reaver-wps-1.4.ebuild      |  34 ++
+ net-wireless/wifite/files/index.html               |  13 -
+ net-wireless/wifite/files/index.html?C=D;O=A       |  13 -
+ net-wireless/wifite/files/index.html?C=D;O=D       |  13 -
+ net-wireless/wifite/files/index.html?C=M;O=A       |  13 -
+ net-wireless/wifite/files/index.html?C=M;O=D       |  13 -
+ net-wireless/wifite/files/index.html?C=N;O=A       |  13 -
+ net-wireless/wifite/files/index.html?C=N;O=D       |  13 -
+ net-wireless/wifite/files/index.html?C=S;O=A       |  13 -
+ net-wireless/wifite/files/index.html?C=S;O=D       |  13 -
+ net-wireless/wifite/index.html                     |  16 -
+ net-wireless/wifite/index.html?C=D;O=A             |  16 -
+ net-wireless/wifite/index.html?C=D;O=D             |  16 -
+ net-wireless/wifite/index.html?C=M;O=A             |  16 -
+ net-wireless/wifite/index.html?C=M;O=D             |  16 -
+ net-wireless/wifite/index.html?C=N;O=A             |  16 -
+ net-wireless/wifite/index.html?C=N;O=D             |  16 -
+ net-wireless/wifite/index.html?C=S;O=A             |  16 -
+ net-wireless/wifite/index.html?C=S;O=D             |  16 -
+ x11-drivers/xf86-video-fbdev/Manifest              |   1 +
+ .../xf86-video-fbdev/xf86-video-fbdev-9999.ebuild  |  19 ++
+ 29 files changed, 707 insertions(+), 261 deletions(-)
+ create mode 100644 net-wireless/cowpatty/Manifest
+ create mode 100644 net-wireless/cowpatty/cowpatty-4.3-r2.ebuild
+ create mode 100644 net-wireless/cowpatty/cowpatty-4.6-r4.ebuild
+ create mode 100644 net-wireless/cowpatty/files/cowpatty-4.3-fixup2.patch
+ create mode 100644 net-wireless/cowpatty/files/cowpatty-4.3-hashfix.patch
+ create mode 100644 net-wireless/cowpatty/files/cowpatty-4.6-fixup14.patch
+ create mode 100644 net-wireless/reaver-wps/Manifest
+ create mode 100644 net-wireless/reaver-wps/metadata.xml
+ create mode 100644 net-wireless/reaver-wps/reaver-wps-1.4.ebuild
+ delete mode 100644 net-wireless/wifite/files/index.html
+ delete mode 100644 net-wireless/wifite/files/index.html?C=D;O=A
+ delete mode 100644 net-wireless/wifite/files/index.html?C=D;O=D
+ delete mode 100644 net-wireless/wifite/files/index.html?C=M;O=A
+ delete mode 100644 net-wireless/wifite/files/index.html?C=M;O=D
+ delete mode 100644 net-wireless/wifite/files/index.html?C=N;O=A
+ delete mode 100644 net-wireless/wifite/files/index.html?C=N;O=D
+ delete mode 100644 net-wireless/wifite/files/index.html?C=S;O=A
+ delete mode 100644 net-wireless/wifite/files/index.html?C=S;O=D
+ delete mode 100644 net-wireless/wifite/index.html
+ delete mode 100644 net-wireless/wifite/index.html?C=D;O=A
+ delete mode 100644 net-wireless/wifite/index.html?C=D;O=D
+ delete mode 100644 net-wireless/wifite/index.html?C=M;O=A
+ delete mode 100644 net-wireless/wifite/index.html?C=M;O=D
+ delete mode 100644 net-wireless/wifite/index.html?C=N;O=A
+ delete mode 100644 net-wireless/wifite/index.html?C=N;O=D
+ delete mode 100644 net-wireless/wifite/index.html?C=S;O=A
+ delete mode 100644 net-wireless/wifite/index.html?C=S;O=D
+ create mode 100644 x11-drivers/xf86-video-fbdev/Manifest
+ create mode 100644 x11-drivers/xf86-video-fbdev/xf86-video-fbdev-9999.ebuild
 *** syncing '/home/mgorny/repos/archenroot'...
 *** synced '/home/mgorny/repos/archenroot'
  * Sync succeeded
