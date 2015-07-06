@@ -31,6 +31,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/efika' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named '<unlabeled repository /home/mgorny/repos/efika>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -44,32 +46,15 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/drizzt-overlay' lacks
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named '<unlabeled repository /home/mgorny/repos/drizzt-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 pulling from https://bitbucket.org/AdmiralNemo/overlay
 searching for changes
-no changes found
+adding changesets
+adding manifests
+adding file changes
+added 1 changesets with 0 changes to 0 files
+0 files updated, 0 files merged, 6 files removed, 0 files unresolved
 *** syncing '/home/mgorny/repos/dustin'...
 *** synced '/home/mgorny/repos/dustin'
  * Sync succeeded
 $ pmaint regen -t 2 dustin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-
-!!! ERROR: sec-policy/selinux-run-netconf-2.20130424-r2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                         ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                         ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                         ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '276' 'depend'
-!!!                         ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                 ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/dustin/sec-policy/selinux-run-netconf/selinux-run-netconf-2.20130424-r2.ebuild'
-!!!                                 ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/dustin/sec-policy/selinux-run-netconf/selinux-run-netconf-2.20130424-r2.ebuild'
-!!!                     isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/dustin/sec-policy/selinux-run-netconf/selinux-run-netconf-2.20130424-r2.ebuild'
-!!!   selinux-run-netconf-2.20130424-r2.ebuild, line  11:  Called inherit 'selinux-policy-2'
-!!!               ebuild-default-functions.lib, line 230:  Called __internal_inherit 'selinux-policy-2'
-!!!                          ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/selinux-policy-2.eclass'
-!!!                     isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/selinux-policy-2.eclass'
-!!!                    selinux-policy-2.eclass, line 121:  Called die
-!!! The die message:
-!!!  EAPI<5 is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sec-policy/selinux-run-netconf-2.20130424-r2
  * Cache regenerated successfully
