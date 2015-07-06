@@ -39,28 +39,28 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at location '/home/mgorny/repos/drizzt-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named '<unlabeled repository /home/mgorny/repos/drizzt-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From https://github.com/drdim/layman
-   4a4e0d3..dc5212f  master     -> origin/master
-Updating 4a4e0d3..dc5212f
+   dc5212f..de1d181  master     -> origin/master
+   b7a02e9..7486822  extended   -> origin/extended
+Updating dc5212f..de1d181
 Fast-forward
- dev-util/phpstorm/phpstorm-141.1000.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1224.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1306.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1408.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1534.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1619.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1717.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.1815.ebuild | 46 ++++++++++++++++++++++++++++++
- dev-util/phpstorm/phpstorm-141.891.ebuild  | 46 ++++++++++++++++++++++++++++++
- 9 files changed, 414 insertions(+)
- create mode 100644 dev-util/phpstorm/phpstorm-141.1000.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1224.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1306.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1408.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1534.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1619.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1717.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.1815.ebuild
- create mode 100644 dev-util/phpstorm/phpstorm-141.891.ebuild
+ dev-util/clion/Manifest                            |  2 -
+ dev-util/pycharm-community/Manifest                |  6 ++-
+ .../pycharm-community-141.1245.ebuild              | 41 ++++++++++++++++++++
+ .../pycharm-community-141.1699.ebuild              | 41 ++++++++++++++++++++
+ dev-util/pycharm/Manifest                          |  6 ++-
+ dev-util/pycharm/pycharm-141.1580.ebuild           | 44 ++++++++++++++++++++++
+ dev-util/pycharm/pycharm-141.1699.ebuild           | 44 ++++++++++++++++++++++
+ dev-util/rubymine/Manifest                         |  4 +-
+ ...ne-141.1119.ebuild => rubymine-141.1835.ebuild} |  4 +-
+ dev-util/webstorm/Manifest                         |  4 +-
+ .../webstorm-141.1550.ebuild}                      | 22 +++++------
+ 11 files changed, 195 insertions(+), 23 deletions(-)
+ create mode 100644 dev-util/pycharm-community/pycharm-community-141.1245.ebuild
+ create mode 100644 dev-util/pycharm-community/pycharm-community-141.1699.ebuild
+ create mode 100644 dev-util/pycharm/pycharm-141.1580.ebuild
+ create mode 100644 dev-util/pycharm/pycharm-141.1699.ebuild
+ rename dev-util/rubymine/{rubymine-141.1119.ebuild => rubymine-141.1835.ebuild} (90%)
+ rename dev-util/{clion/clion-138.2344.17.ebuild => webstorm/webstorm-141.1550.ebuild} (50%)
 *** syncing '/home/mgorny/repos/drdim'...
 *** synced '/home/mgorny/repos/drdim'
  * Sync succeeded
