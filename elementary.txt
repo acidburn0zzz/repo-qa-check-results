@@ -17,49 +17,40 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'cli
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named '<unlabeled repository /home/mgorny/repos/bicatali>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/docd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named '<unlabeled repository /home/mgorny/repos/docd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/drizzt-overlay' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named '<unlabeled repository /home/mgorny/repos/drizzt-overlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/edwtjo-ebuilds' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named '<unlabeled repository /home/mgorny/repos/edwtjo-ebuilds>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pimvullers/elementary
-   80792cf..23c65b3  master     -> origin/master
-Updating 80792cf..23c65b3
+   23c65b3..c6fde2c  master     -> origin/master
+Updating 23c65b3..c6fde2c
 Fast-forward
- app-editors/scratch/Manifest                       |   4 +-
- .../{scratch-2.1.0.ebuild => scratch-2.2.0.ebuild} |   3 +-
- app-office/maya/Manifest                           |   4 +-
- .../{maya-0.3.1.ebuild => maya-0.3.1.1.ebuild}     |   2 +-
- pantheon-base/pantheon-files/Manifest              |   4 +-
- ...es-0.2.0.ebuild => pantheon-files-0.2.1.ebuild} |   2 +-
- pantheon-base/slingshot/Manifest                   |   4 +-
- ...slingshot-0.8.ebuild => slingshot-0.8.1.ebuild} |   0
- pantheon-base/wingpanel/Manifest                   |   4 +-
- ...panel-0.3.0.ebuild => wingpanel-0.3.0.1.ebuild} |   2 +-
- x11-libs/gtk+/Manifest                             |   4 +
- .../gtk+/files/gtk+-3.16.4-ubuntu-patch-series     |  20 ++
- x11-libs/gtk+/gtk+-3.16.4.ebuild                   | 259 +++++++++++++++++++++
- x11-misc/indicator-datetime/Manifest               |   2 +-
- .../indicator-datetime-13.10.0_p20141009.ebuild    |   2 +-
- x11-terms/pantheon-terminal/Manifest               |   4 +-
- ...1.1.ebuild => pantheon-terminal-0.3.1.3.ebuild} |   0
- x11-themes/elementary-theme/Manifest               |   3 +-
- ...0_p262.ebuild => elementary-theme-4.0.3.ebuild} |  10 +-
- 19 files changed, 308 insertions(+), 25 deletions(-)
- rename app-editors/scratch/{scratch-2.1.0.ebuild => scratch-2.2.0.ebuild} (94%)
- rename app-office/maya/{maya-0.3.1.ebuild => maya-0.3.1.1.ebuild} (97%)
- rename pantheon-base/pantheon-files/{pantheon-files-0.2.0.ebuild => pantheon-files-0.2.1.ebuild} (95%)
- rename pantheon-base/slingshot/{slingshot-0.8.ebuild => slingshot-0.8.1.ebuild} (100%)
- rename pantheon-base/wingpanel/{wingpanel-0.3.0.ebuild => wingpanel-0.3.0.1.ebuild} (96%)
- create mode 100644 x11-libs/gtk+/files/gtk+-3.16.4-ubuntu-patch-series
- create mode 100644 x11-libs/gtk+/gtk+-3.16.4.ebuild
- rename x11-terms/pantheon-terminal/{pantheon-terminal-0.3.1.1.ebuild => pantheon-terminal-0.3.1.3.ebuild} (100%)
- rename x11-themes/elementary-theme/{elementary-theme-4.0_p262.ebuild => elementary-theme-4.0.3.ebuild} (87%)
+ media-video/audience/Manifest                      |  4 +--
+ ...audience-0.1.ebuild => audience-0.1.0.1.ebuild} |  0
+ pantheon-base/libpantheon/Manifest                 |  4 ---
+ .../libpantheon/libpantheon-0.2_p20120915.ebuild   | 40 ----------------------
+ pantheon-base/libpantheon/libpantheon-9999.ebuild  | 40 ----------------------
+ pantheon-base/libpantheon/metadata.xml             |  7 ----
+ pantheon-base/pantheon-greeter/Manifest            |  4 +--
+ ...-2.0.0.ebuild => pantheon-greeter-2.0.1.ebuild} |  0
+ pantheon-base/switchboard/Manifest                 |  4 +--
+ ...board-1.0.1.ebuild => switchboard-2.0.1.ebuild} | 27 +++++++++++----
+ 10 files changed, 26 insertions(+), 104 deletions(-)
+ rename media-video/audience/{audience-0.1.ebuild => audience-0.1.0.1.ebuild} (100%)
+ delete mode 100644 pantheon-base/libpantheon/Manifest
+ delete mode 100644 pantheon-base/libpantheon/libpantheon-0.2_p20120915.ebuild
+ delete mode 100644 pantheon-base/libpantheon/libpantheon-9999.ebuild
+ delete mode 100644 pantheon-base/libpantheon/metadata.xml
+ rename pantheon-base/pantheon-greeter/{pantheon-greeter-2.0.0.ebuild => pantheon-greeter-2.0.1.ebuild} (100%)
+ rename pantheon-base/switchboard/{switchboard-1.0.1.ebuild => switchboard-2.0.1.ebuild} (71%)
 *** syncing '/home/mgorny/repos/elementary'...
 *** synced '/home/mgorny/repos/elementary'
  * Sync succeeded

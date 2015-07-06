@@ -37,7 +37,25 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   467b932..d86d084  master     -> origin/master
+Updating 467b932..d86d084
+Fast-forward
+ dev-go/minify/Manifest                             |  4 ++++
+ dev-go/minify/metadata.xml                         | 10 ++++++++
+ dev-go/minify/minify-20150602.ebuild               | 27 ++++++++++++++++++++++
+ metadata/md5-cache/dev-go/minify-20150602          | 13 +++++++++++
+ .../{syncthing-0.11.11 => syncthing-0.11.13}       |  4 ++--
+ metadata/pkg_desc_index                            |  3 ++-
+ net-misc/syncthing/Manifest                        |  2 +-
+ ...ing-0.11.11.ebuild => syncthing-0.11.13.ebuild} |  4 ++--
+ 8 files changed, 61 insertions(+), 6 deletions(-)
+ create mode 100644 dev-go/minify/Manifest
+ create mode 100644 dev-go/minify/metadata.xml
+ create mode 100644 dev-go/minify/minify-20150602.ebuild
+ create mode 100644 metadata/md5-cache/dev-go/minify-20150602
+ rename metadata/md5-cache/net-misc/{syncthing-0.11.11 => syncthing-0.11.13} (83%)
+ rename net-misc/syncthing/{syncthing-0.11.11.ebuild => syncthing-0.11.13.ebuild} (84%)
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded

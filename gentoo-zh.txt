@@ -39,7 +39,14 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/microcai/gentoo-zh
+   99ce3e6..114150d  master     -> origin/master
+Updating 99ce3e6..114150d
+Fast-forward
+ sys-kernel/e-sources/Manifest                                     | 7 ++++---
+ .../e-sources/{e-sources-4.1.0.ebuild => e-sources-4.1.1.ebuild}  | 8 ++++----
+ 2 files changed, 8 insertions(+), 7 deletions(-)
+ rename sys-kernel/e-sources/{e-sources-4.1.0.ebuild => e-sources-4.1.1.ebuild} (76%)
 *** syncing '/home/mgorny/repos/gentoo-zh'...
 *** synced '/home/mgorny/repos/gentoo-zh'
  * Sync succeeded
@@ -62,6 +69,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for npm failed
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-kernel/e-sources-4.1.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
 
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, npm cannot be found while processing ebuild src: dev-lang/coffee-script-1.9.2
