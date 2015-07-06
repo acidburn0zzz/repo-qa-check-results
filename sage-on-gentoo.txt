@@ -33,8 +33,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouet
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/remi' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named '<unlabeled repository /home/mgorny/repos/remi>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -50,8 +49,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't spe
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/r3pek' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repository /home/mgorny/repos/r3pek>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/pross' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named '<unlabeled repository /home/mgorny/repos/pross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/pross', named 'pross', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -79,7 +77,18 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doe
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/r3pek' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/r3pek', named '<unlabeled repository /home/mgorny/repos/r3pek>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   5136ec2..902e608  master     -> origin/master
+Updating 5136ec2..902e608
+Fast-forward
+ dev-python/cython/ChangeLog                        |   9 ++
+ dev-python/cython/cython-0.22-r2.ebuild            |  72 ------------
+ ...cython-0.22-r3.ebuild => cython-0.22-r4.ebuild} |   1 +
+ dev-python/cython/files/cython-0.22-find_pxd.patch | 128 +++++++++++++++++++++
+ 4 files changed, 138 insertions(+), 72 deletions(-)
+ delete mode 100644 dev-python/cython/cython-0.22-r2.ebuild
+ rename dev-python/cython/{cython-0.22-r3.ebuild => cython-0.22-r4.ebuild} (98%)
+ create mode 100644 dev-python/cython/files/cython-0.22-find_pxd.patch
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded

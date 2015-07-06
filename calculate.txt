@@ -21,9 +21,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repo
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   175fdbf..ffc9432  develop    -> origin/develop
-   1efb81f..ffc9432  update     -> origin/update
-Already up-to-date.
+   1efb81f..ffc9432  master     -> origin/master
+Updating 1efb81f..ffc9432
+Fast-forward
+ profiles/base/desktop/package.keywords/default                          | 2 ++
+ .../2-user/kde-base/KDE-4.10/.kde4/share/config/konsolerc               | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
