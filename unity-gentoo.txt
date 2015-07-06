@@ -31,7 +31,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', d
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/stormfront', named 'stormfront', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named 'soor', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/soor' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/soor', named '<unlabeled repository /home/mgorny/repos/soor>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/remi', named 'remi', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -74,7 +75,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt
 WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named 'phunehehe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named 'otih', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/tarantool', named 'tarantool', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/shiznix/unity-gentoo
+   09fe9ef..7e4c321  master     -> origin/master
+Updating 09fe9ef..7e4c321
+Fast-forward
+ NOTES                                                    |  3 ++-
+ x11-libs/gtk+/Manifest                                   |  2 +-
+ ...14.13_p0_p01.ebuild => gtk+-3.14.13_p0_p01-r1.ebuild} |  4 +++-
+ x11-misc/lightdm/Manifest                                |  4 ++--
+ x11-misc/lightdm/files/Xsession                          |  9 +--------
+ ...4.2_p0_p01.ebuild => lightdm-1.14.2_p0_p01-r1.ebuild} | 16 ++++------------
+ 6 files changed, 13 insertions(+), 25 deletions(-)
+ rename x11-libs/gtk+/{gtk+-3.14.13_p0_p01.ebuild => gtk+-3.14.13_p0_p01-r1.ebuild} (98%)
+ rename x11-misc/lightdm/{lightdm-1.14.2_p0_p01.ebuild => lightdm-1.14.2_p0_p01-r1.ebuild} (90%)
 *** syncing '/home/mgorny/repos/unity-gentoo'...
 *** synced '/home/mgorny/repos/unity-gentoo'
  * Sync succeeded

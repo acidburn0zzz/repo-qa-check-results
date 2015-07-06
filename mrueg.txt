@@ -34,7 +34,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-taiwan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named '<unlabeled repository /home/mgorny/repos/gentoo-taiwan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -50,22 +51,11 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/logan', named 'logan', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/dev/mrueg
-   a5d4a57..1592d87  master     -> origin/master
-Updating a5d4a57..1592d87
+   1592d87..28a8e7e  master     -> origin/master
+Updating 1592d87..28a8e7e
 Fast-forward
- dev-ruby/escape_utils/Manifest                  |  1 -
- dev-ruby/escape_utils/escape_utils-1.1.0.ebuild | 41 -------------------------
- dev-ruby/escape_utils/metadata.xml              |  8 -----
- dev-ruby/html2haml/Manifest                     |  1 -
- dev-ruby/html2haml/html2haml-2.0.0.ebuild       | 35 ---------------------
- dev-ruby/html2haml/metadata.xml                 |  8 -----
- 6 files changed, 94 deletions(-)
- delete mode 100644 dev-ruby/escape_utils/Manifest
- delete mode 100644 dev-ruby/escape_utils/escape_utils-1.1.0.ebuild
- delete mode 100644 dev-ruby/escape_utils/metadata.xml
- delete mode 100644 dev-ruby/html2haml/Manifest
- delete mode 100644 dev-ruby/html2haml/html2haml-2.0.0.ebuild
- delete mode 100644 dev-ruby/html2haml/metadata.xml
+ media-sound/mopidy/mopidy-1.0.7-r1.ebuild | 5 +++++
+ 1 file changed, 5 insertions(+)
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded
