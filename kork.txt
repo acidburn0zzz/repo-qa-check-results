@@ -16,18 +16,10 @@
 $ pmaint sync /home/mgorny/repos/kork
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing '/home/mgorny/repos/kork'...
-*** failed syncing '/home/mgorny/repos/kork'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/kork
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/kork'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/kork'...
 *** synced '/home/mgorny/repos/kork'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 kork
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -48,6 +40,5 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for ruby failed
 
-Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, ruby cannot be found while processing ebuild src: app-office/ekee-2.0.2
  * Cache regenerated successfully
