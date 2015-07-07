@@ -12,10 +12,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/distros
-WARNING:pkgcore:repository at location '/home/mgorny/repos/clickbeetle_tools' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named '<unlabeled repository /home/mgorny/repos/clickbeetle_tools>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bicatali' lacks a defined repo_name
@@ -30,32 +28,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repo
 WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/armagetron' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named '<unlabeled repository /home/mgorny/repos/armagetron>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://git.calculate.ru/calculate/distros
-   c231ade..b5d18c8  master     -> origin/master
-   b5d18c8..d58890f  develop    -> origin/develop
-   b5d18c8..d58890f  update     -> origin/update
-Updating c231ade..b5d18c8
-Fast-forward
- .../templates/3.2/6_ac_update_sync/world/0-ini     |  2 +-
- .../3.2/6_ac_update_sync/world/create/applications | 10 +++
- .../3.2/6_ac_update_sync/world/create/emulation    |  4 ++
- .../3.2/6_ac_update_sync/world/create/graphics     |  2 +-
- .../3.2/6_ac_update_sync/world/create/multimedia   |  9 ++-
- .../3.2/6_ac_update_sync/world/create/netapps      |  7 +-
- .../3.2/6_ac_update_sync/world/create/network      |  2 +-
- .../3.2/6_ac_update_sync/world/create/printer      |  7 +-
- .../3.2/6_ac_update_sync/world/create/tools        | 13 ++--
- .../templates/3.2/6_ac_update_sync/world/update/59 | 21 ++++++
- .../templates/3.2/6_ac_update_sync/world/update/60 |  7 ++
- .../templates/3.2/6_ac_update_sync/world/update/61 | 80 ++++++++++++++++++++++
- 12 files changed, 146 insertions(+), 18 deletions(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/59
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/60
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/61
+   d58890f..3279297  develop    -> origin/develop
+   d58890f..3279297  update     -> origin/update
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

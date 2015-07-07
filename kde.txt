@@ -21,8 +21,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doe
 WARNING:pkgcore:repository at location '/home/mgorny/repos/iElectric' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named '<unlabeled repository /home/mgorny/repos/iElectric>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/clickbeetle_tools', named 'clickbeetle_tools', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ibormuth' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ibormuth', named '<unlabeled repository /home/mgorny/repos/ibormuth>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -35,6 +33,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
@@ -51,12 +50,24 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jaervosz', named 'jaervosz', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/halcy0n', named 'halcy0n', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gpe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named '<unlabeled repository /home/mgorny/repos/gpe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gpe', named 'gpe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-taiwan', named 'gentoo-taiwan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/iElectric', named 'iElectric', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/jxh' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named '<unlabeled repository /home/mgorny/repos/jxh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   dd80b76..f6b4761  master     -> origin/master
+Updating dd80b76..f6b4761
+Fast-forward
+ ...ook.patch => korganizer-4.14.10-handbook.patch} |  0
+ kde-base/korganizer/korganizer-4.14.10.ebuild      |  2 +-
+ kde-base/korganizer/korganizer-4.4.2015.06.ebuild  |  2 +-
+ kde-base/korganizer/korganizer-4.9999.ebuild       |  2 +-
+ .../files/plasma-desktop-5.4.0-cmake-xkb.patch     | 78 ----------------------
+ .../plasma-desktop/plasma-desktop-9999.ebuild      |  2 -
+ 6 files changed, 3 insertions(+), 83 deletions(-)
+ rename kde-base/korganizer/files/{korganizer-4.10.0-handbook.patch => korganizer-4.14.10-handbook.patch} (100%)
+ delete mode 100644 kde-plasma/plasma-desktop/files/plasma-desktop-5.4.0-cmake-xkb.patch
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
