@@ -40,34 +40,20 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://github.com/microcai/gentoo-zh
-   e4b072a..4edfce3  master     -> origin/master
-Updating e4b072a..4edfce3
+   4edfce3..002926e  master     -> origin/master
+Updating 4edfce3..002926e
 Fast-forward
- app-i18n/sunpinyin/sunpinyin-9999.ebuild | 5 +----
- 1 file changed, 1 insertion(+), 4 deletions(-)
+ dev-lang/coffee-script/Manifest                   |  1 -
+ dev-lang/coffee-script/coffee-script-1.9.2.ebuild | 24 -----------------------
+ dev-lang/coffee-script/metadata.xml               | 11 -----------
+ 3 files changed, 36 deletions(-)
+ delete mode 100644 dev-lang/coffee-script/Manifest
+ delete mode 100644 dev-lang/coffee-script/coffee-script-1.9.2.ebuild
+ delete mode 100644 dev-lang/coffee-script/metadata.xml
 *** syncing '/home/mgorny/repos/gentoo-zh'...
 *** synced '/home/mgorny/repos/gentoo-zh'
  * Sync succeeded
 $ pmaint regen -t 2 gentoo-zh
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-
-!!! ERROR: dev-lang/coffee-script-1.9.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/gentoo-zh/dev-lang/coffee-script/coffee-script-1.9.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo-zh/dev-lang/coffee-script/coffee-script-1.9.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo-zh/dev-lang/coffee-script/coffee-script-1.9.2.ebuild'
-!!!     coffee-script-1.9.2.ebuild, line  10:  Called inherit 'npm'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'npm'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for npm failed
-
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, npm cannot be found while processing ebuild src: dev-lang/coffee-script-1.9.2
  * Cache regenerated successfully
