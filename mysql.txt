@@ -46,60 +46,60 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 /usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
 
-!!! ERROR: dev-db/mariadb-connector-c-2.0.0-r1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-/usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
-
 !!! ERROR: dev-db/mariadb-connector-c-2.1.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+/usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
+
+!!! ERROR: dev-db/mariadb-connector-c-2.0.0-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
-/usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '242' 'depend'
-!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
 !!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+/usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
+
+!!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
 !!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
-!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
 !!!   mariadb-connector-c-2.1.0.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
 !!!   mariadb-connector-c-2.0.0-r1.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
 !!!                     ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
+Sandboxed process killed by signal: Broken pipe
 !!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
 !!!                  ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.0.0-r1
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.1.0
+!!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.0.0-r1
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-java/mariadb-java-client-1.1.7
  * Cache regenerated successfully
