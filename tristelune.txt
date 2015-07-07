@@ -1,0 +1,27 @@
+{u'description': [u"C\xe9dric's user overlay"],
+ u'feeds': [],
+ u'homepage': u'https://github.com/tristelune1/tristelune-overlay',
+ u'irc': None,
+ u'name': u'tristelune',
+ u'official': False,
+ u'owner_email': u'cmacquat@mykolab.com',
+ u'owner_name': u'C\xe9dric',
+ u'priority': 50,
+ u'quality': u'experimental',
+ u'sources': [(u'https://github.com/tristelune1/tristelune-overlay.git',
+               u'Git',
+               u'')],
+ u'status': u'unofficial',
+ u'supported': True}
+ * Adding new repository
+$ pmaint sync /home/mgorny/repos/tristelune
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/tristelune'...
+*** syncing '/home/mgorny/repos/tristelune'...
+*** synced '/home/mgorny/repos/tristelune'
+ * Sync succeeded
+$ pmaint regen -t 2 tristelune
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully
