@@ -24,6 +24,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/jxh', named 'jxh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/otih' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/otih', named '<unlabeled repository /home/mgorny/repos/otih>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/nbigaouette', named 'nbigaouette', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -39,8 +41,6 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/njw' lacks a defined 
 WARNING:pkgcore:repository at '/home/mgorny/repos/njw', named '<unlabeled repository /home/mgorny/repos/njw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/kvm', named 'kvm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/phunehehe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/phunehehe', named '<unlabeled repository /home/mgorny/repos/phunehehe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 -------------------------------------------------------------------------------
 | Welcome to rsync on gentoofan.no-ip.org:873                                 |
 | This is a mirror of gentoo's portage-tree and host of my portage overlay    |
@@ -86,63 +86,6 @@ Total bytes received: 133
 
 sent 85 bytes  received 133 bytes  145.33 bytes/sec
 total size is 32  speedup is 0.15
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-app-emulation/virtualbox/
-app-emulation/virtualbox/Manifest
-app-emulation/virtualbox/virtualbox-5.0.0_rc2.ebuild
-metadata/
-metadata/timestamp.chk
-metadata/md5-cache/app-emulation/
-metadata/md5-cache/app-emulation/virtualbox-5.0.0_rc2
-metadata/md5-cache/net-misc/
-metadata/md5-cache/net-misc/openssh-6.9_p1-r1
-net-misc/openssh/
-net-misc/openssh/Manifest
-net-misc/openssh/openssh-6.9_p1-r1.ebuild
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 1,312 (reg: 970, dir: 342)
-Number of created files: 2 (reg: 2)
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 7
-Total file size: 3.54M bytes
-Total transferred file size: 44.73K bytes
-Literal data: 44.73K bytes
-Matched data: 0 bytes
-File list size: 39.65K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 603
-Total bytes received: 63.02K
-
-sent 603 bytes  received 63.02K bytes  18.18K bytes/sec
-total size is 3.54M  speedup is 55.72
 *** syncing '/home/mgorny/repos/poly-c'...
 *** synced '/home/mgorny/repos/poly-c'
  * Sync succeeded
