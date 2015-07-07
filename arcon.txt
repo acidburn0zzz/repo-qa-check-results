@@ -15,17 +15,55 @@
 $ pmaint sync /home/mgorny/repos/arcon
 WARNING:pkgcore:repository at location '/home/mgorny/repos/alice' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named '<unlabeled repository /home/mgorny/repos/alice>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/Menelkir' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named '<unlabeled repository /home/mgorny/repos/Menelkir>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-requesting all changes
-adding changesets
-adding manifests
-adding file changes
-added 705 changesets with 3756 changes to 2629 files
-updating to branch arcon-overlay
-216 files updated, 0 files merged, 0 files removed, 0 files unresolved
+** unknown exception encountered, please report by visiting
+** http://mercurial.selenic.com/wiki/BugTracker
+** Python 2.7.10 (default, May 29 2015, 10:59:09) [GCC 4.9.2]
+** Mercurial Distributed SCM (version 3.4.1)
+** Extensions loaded: 
+Traceback (most recent call last):
+  File "/usr/lib/python-exec/python2.7/hg", line 43, in <module>
+    mercurial.dispatch.run()
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 29, in run
+    sys.exit((dispatch(request(sys.argv[1:])) or 0) & 255)
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 91, in dispatch
+    ret = _runcatch(req)
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 160, in _runcatch
+    return _dispatch(req)
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 885, in _dispatch
+    cmdpats, cmdoptions)
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 646, in runcommand
+    ret = _runcommand(ui, options, cmd, d)
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 976, in _runcommand
+    return checkargs()
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 947, in checkargs
+    return cmdfunc()
+  File "/usr/lib64/python2.7/site-packages/mercurial/dispatch.py", line 882, in <lambda>
+    d = lambda: util.checksignature(func)(ui, *args, **cmdoptions)
+  File "/usr/lib64/python2.7/site-packages/mercurial/util.py", line 716, in check
+    return func(*args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/mercurial/commands.py", line 1408, in clone
+    branch=opts.get('branch'))
+  File "/usr/lib64/python2.7/site-packages/mercurial/hg.py", line 324, in clone
+    srcpeer = peer(ui, peeropts, source)
+  File "/usr/lib64/python2.7/site-packages/mercurial/hg.py", line 142, in peer
+    return _peerorrepo(rui, path, create).peer()
+  File "/usr/lib64/python2.7/site-packages/mercurial/hg.py", line 119, in _peerorrepo
+    obj = _peerlookup(path).instance(ui, path, create)
+  File "/usr/lib64/python2.7/site-packages/mercurial/httppeer.py", line 264, in instance
+    inst._fetchcaps()
+  File "/usr/lib64/python2.7/site-packages/mercurial/httppeer.py", line 58, in _fetchcaps
+    self.caps = set(self._call('capabilities').split())
+  File "/usr/lib64/python2.7/site-packages/mercurial/httppeer.py", line 174, in _call
+    return fp.read()
+  File "/usr/lib64/python2.7/site-packages/mercurial/keepalive.py", line 420, in read
+    s = self._rbuf + self._raw_read(amt)
+  File "/usr/lib64/python2.7/httplib.py", line 588, in read
+    return self._read_chunked(amt)
+  File "/usr/lib64/python2.7/site-packages/mercurial/keepalive.py", line 443, in _read_chunked
+    raise httplib.IncompleteRead(value)
+httplib.IncompleteRead: IncompleteRead(31 bytes read)
 *** syncing '/home/mgorny/repos/arcon'...
-*** synced '/home/mgorny/repos/arcon'
- * Sync succeeded
- * Missing masters!
+*** failed syncing '/home/mgorny/repos/arcon'
+ * Sync failed with 1
