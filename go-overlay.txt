@@ -18,8 +18,7 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/bicatali', named 'bicatali', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -29,8 +28,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at location '/home/mgorny/repos/arcon' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/arcon', named '<unlabeled repository /home/mgorny/repos/arcon>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/efika', named 'efika', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dauleet' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named '<unlabeled repository /home/mgorny/repos/dauleet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/dauleet', named 'dauleet', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/armagetron', named 'armagetron', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/Menelkir', named 'Menelkir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -39,7 +37,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/docd', named 'docd', doesn't s
 WARNING:pkgcore:repository at '/home/mgorny/repos/edwtjo-ebuilds', named 'edwtjo-ebuilds', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/alice', named 'alice', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/drizzt-overlay', named 'drizzt-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From https://github.com/Dr-Terrible/go-overlay
+   a7d96ff..a825402  master     -> origin/master
+Updating a7d96ff..a825402
+Fast-forward
+ app-admin/trousseau/Manifest                       |  1 +
+ app-admin/trousseau/metadata.xml                   | 13 ++++++
+ .../trousseau/trousseau-0.3.5_pre20150212.ebuild   | 48 ++++++++++++++++++++++
+ metadata/md5-cache/app-admin/trousseau-0.3.4       | 13 ------
+ metadata/md5-cache/app-admin/trousseau-0.3.4-r1    | 10 -----
+ metadata/md5-cache/app-admin/trousseau-0.3.5       | 13 ------
+ .../app-admin/trousseau-0.3.5_pre20150212          | 13 ++++++
+ metadata/pkg_desc_index                            |  2 +-
+ profiles/use.local.desc                            |  1 +
+ 9 files changed, 77 insertions(+), 37 deletions(-)
+ create mode 100644 app-admin/trousseau/Manifest
+ create mode 100644 app-admin/trousseau/metadata.xml
+ create mode 100644 app-admin/trousseau/trousseau-0.3.5_pre20150212.ebuild
+ delete mode 100644 metadata/md5-cache/app-admin/trousseau-0.3.4
+ delete mode 100644 metadata/md5-cache/app-admin/trousseau-0.3.4-r1
+ delete mode 100644 metadata/md5-cache/app-admin/trousseau-0.3.5
+ create mode 100644 metadata/md5-cache/app-admin/trousseau-0.3.5_pre20150212
 *** syncing '/home/mgorny/repos/go-overlay'...
 *** synced '/home/mgorny/repos/go-overlay'
  * Sync succeeded
