@@ -19,11 +19,41 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/hibiscus
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
 *** syncing '/home/mgorny/repos/hibiscus'...
-*** synced '/home/mgorny/repos/hibiscus'
- * Sync succeeded
-$ pmaint regen -t 2 hibiscus
+*** failed syncing '/home/mgorny/repos/hibiscus'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/hibiscus
+WARNING:pkgcore:repository at location '/home/mgorny/repos/enlightenment' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/enlightenment', named '<unlabeled repository /home/mgorny/repos/enlightenment>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eva' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eva', named '<unlabeled repository /home/mgorny/repos/eva>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dotnet' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dotnet', named '<unlabeled repository /home/mgorny/repos/dotnet>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dmol' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dmol', named '<unlabeled repository /home/mgorny/repos/dmol>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eroen' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eroen', named '<unlabeled repository /home/mgorny/repos/eroen>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dswm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dswm', named '<unlabeled repository /home/mgorny/repos/dswm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eatnumber1' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eatnumber1', named '<unlabeled repository /home/mgorny/repos/eatnumber1>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/embedded-cross' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/embedded-cross', named '<unlabeled repository /home/mgorny/repos/embedded-cross>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/emacs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/emacs', named '<unlabeled repository /home/mgorny/repos/emacs>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/emery' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/emery', named '<unlabeled repository /home/mgorny/repos/emery>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eva' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eva', named '<unlabeled repository /home/mgorny/repos/eva>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/hibiscus'...
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
+*** syncing '/home/mgorny/repos/hibiscus'...
+*** failed syncing '/home/mgorny/repos/hibiscus'
+ * Sync failed again with 1, removing

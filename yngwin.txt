@@ -16,11 +16,82 @@
 $ pmaint sync /home/mgorny/repos/yngwin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
 *** syncing '/home/mgorny/repos/yngwin'...
-*** synced '/home/mgorny/repos/yngwin'
- * Sync succeeded
-$ pmaint regen -t 2 yngwin
+*** failed syncing '/home/mgorny/repos/yngwin'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/yngwin
+WARNING:pkgcore:repository at location '/home/mgorny/repos/voip' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/voip', named '<unlabeled repository /home/mgorny/repos/voip>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tegra' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tegra', named '<unlabeled repository /home/mgorny/repos/tegra>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/virtualization' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/virtualization', named '<unlabeled repository /home/mgorny/repos/virtualization>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vmware' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vmware', named '<unlabeled repository /home/mgorny/repos/vmware>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ulm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ulm', named '<unlabeled repository /home/mgorny/repos/ulm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tocaro' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tocaro', named '<unlabeled repository /home/mgorny/repos/tocaro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vdr-testing' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vdr-testing', named '<unlabeled repository /home/mgorny/repos/vdr-testing>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ultrabug' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ultrabug', named '<unlabeled repository /home/mgorny/repos/ultrabug>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vmacs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vmacs', named '<unlabeled repository /home/mgorny/repos/vmacs>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vincent' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vincent', named '<unlabeled repository /home/mgorny/repos/vincent>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vdr-devel' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vdr-devel', named '<unlabeled repository /home/mgorny/repos/vdr-devel>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/underlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/underlay', named '<unlabeled repository /home/mgorny/repos/underlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/xfce-dev' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/xfce-dev', named '<unlabeled repository /home/mgorny/repos/xfce-dev>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/triquetra' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/triquetra', named '<unlabeled repository /home/mgorny/repos/triquetra>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wbrana' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named '<unlabeled repository /home/mgorny/repos/wbrana>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/toolchain' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/toolchain', named '<unlabeled repository /home/mgorny/repos/toolchain>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wuodan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wuodan', named '<unlabeled repository /home/mgorny/repos/wuodan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/voip' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/voip', named '<unlabeled repository /home/mgorny/repos/voip>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/xfce-dev' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/xfce-dev', named '<unlabeled repository /home/mgorny/repos/xfce-dev>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/xmw' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/xmw', named '<unlabeled repository /home/mgorny/repos/xmw>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wbrana' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named '<unlabeled repository /home/mgorny/repos/wbrana>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vmacs' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vmacs', named '<unlabeled repository /home/mgorny/repos/vmacs>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vincent' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vincent', named '<unlabeled repository /home/mgorny/repos/vincent>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/wuodan' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/wuodan', named '<unlabeled repository /home/mgorny/repos/wuodan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tocaro' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tocaro', named '<unlabeled repository /home/mgorny/repos/tocaro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vmware' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vmware', named '<unlabeled repository /home/mgorny/repos/vmware>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ulm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ulm', named '<unlabeled repository /home/mgorny/repos/ulm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/underlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/underlay', named '<unlabeled repository /home/mgorny/repos/underlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/virtualization' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/virtualization', named '<unlabeled repository /home/mgorny/repos/virtualization>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/vdr-testing' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/vdr-testing', named '<unlabeled repository /home/mgorny/repos/vdr-testing>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/write2David' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/write2David', named '<unlabeled repository /home/mgorny/repos/write2David>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/yngwin'...
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
+*** syncing '/home/mgorny/repos/yngwin'...
+*** failed syncing '/home/mgorny/repos/yngwin'
+ * Sync failed again with 1, removing

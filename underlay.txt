@@ -20,95 +20,90 @@
 $ pmaint sync /home/mgorny/repos/underlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
 *** syncing '/home/mgorny/repos/underlay'...
-*** synced '/home/mgorny/repos/underlay'
- * Sync succeeded
-$ pmaint regen -t 2 underlay
+*** failed syncing '/home/mgorny/repos/underlay'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/underlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tegra' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tegra', named '<unlabeled repository /home/mgorny/repos/tegra>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sochotnicky' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sochotnicky', named '<unlabeled repository /home/mgorny/repos/sochotnicky>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/science' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/science', named '<unlabeled repository /home/mgorny/repos/science>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/squeezebox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/squeezebox', named '<unlabeled repository /home/mgorny/repos/squeezebox>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/rebutia' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/rebutia', named '<unlabeled repository /home/mgorny/repos/rebutia>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/systemd' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/systemd', named '<unlabeled repository /home/mgorny/repos/systemd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tocaro' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tocaro', named '<unlabeled repository /home/mgorny/repos/tocaro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sunrise' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sunrise', named '<unlabeled repository /home/mgorny/repos/sunrise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sardemff7' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sardemff7', named '<unlabeled repository /home/mgorny/repos/sardemff7>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sera' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sera', named '<unlabeled repository /home/mgorny/repos/sera>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/steev' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/steev', named '<unlabeled repository /home/mgorny/repos/steev>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/robbat2' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/robbat2', named '<unlabeled repository /home/mgorny/repos/robbat2>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/plab' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/plab', named '<unlabeled repository /home/mgorny/repos/plab>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sekh' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sekh', named '<unlabeled repository /home/mgorny/repos/sekh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quantumsummers' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quantumsummers', named '<unlabeled repository /home/mgorny/repos/quantumsummers>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/qt' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/qt', named '<unlabeled repository /home/mgorny/repos/qt>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/qemu-init' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/qemu-init', named '<unlabeled repository /home/mgorny/repos/qemu-init>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/srcshelton' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/srcshelton', named '<unlabeled repository /home/mgorny/repos/srcshelton>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/seden' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/seden', named '<unlabeled repository /home/mgorny/repos/seden>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/silmano' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/silmano', named '<unlabeled repository /home/mgorny/repos/silmano>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ruby' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ruby', named '<unlabeled repository /home/mgorny/repos/ruby>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/prometheanfire' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/prometheanfire', named '<unlabeled repository /home/mgorny/repos/prometheanfire>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/triquetra' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/triquetra', named '<unlabeled repository /home/mgorny/repos/triquetra>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/toolchain' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/toolchain', named '<unlabeled repository /home/mgorny/repos/toolchain>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/piczu' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/piczu', named '<unlabeled repository /home/mgorny/repos/piczu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/rwald' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/rwald', named '<unlabeled repository /home/mgorny/repos/rwald>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sunrise' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sunrise', named '<unlabeled repository /home/mgorny/repos/sunrise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sochotnicky' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sochotnicky', named '<unlabeled repository /home/mgorny/repos/sochotnicky>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/srcshelton' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/srcshelton', named '<unlabeled repository /home/mgorny/repos/srcshelton>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sekh' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sekh', named '<unlabeled repository /home/mgorny/repos/sekh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/tocaro' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/tocaro', named '<unlabeled repository /home/mgorny/repos/tocaro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quantumsummers' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quantumsummers', named '<unlabeled repository /home/mgorny/repos/quantumsummers>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ulm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ulm', named '<unlabeled repository /home/mgorny/repos/ulm>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/steev' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/steev', named '<unlabeled repository /home/mgorny/repos/steev>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/squeezebox' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/squeezebox', named '<unlabeled repository /home/mgorny/repos/squeezebox>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/underlay'...
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
 
-!!! ERROR: dev-perl/Lirc-Client-1.51-r1 failed.
-
-!!! ERROR: dev-perl/Net-LibLO-0.07 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/Audio-Ardour-Irc-0.20 failed.
-
-!!! ERROR: dev-perl/Exporter-5.63 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '220' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!          Net-LibLO-0.07.ebuild, line   8:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!           Exporter-5.63.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!     Lirc-Client-1.51-r1.ebuild, line   8:  Called inherit 'perl-module'
-!!!   Audio-Ardour-Irc-0.20.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-LibLO-0.07
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Exporter-5.63
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Lirc-Client-1.51-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Audio-Ardour-Irc-0.20
- * Cache regenerated successfully
+*** syncing '/home/mgorny/repos/underlay'...
+*** failed syncing '/home/mgorny/repos/underlay'
+ * Sync failed again with 1, removing

@@ -20,11 +20,22 @@
 $ pmaint sync /home/mgorny/repos/betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
 *** syncing '/home/mgorny/repos/betagarden'...
-*** synced '/home/mgorny/repos/betagarden'
- * Sync succeeded
-$ pmaint regen -t 2 betagarden
+*** failed syncing '/home/mgorny/repos/betagarden'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/betagarden
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named '<unlabeled repository /home/mgorny/repos/TomWij>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/betagarden'...
+fatal: unable to connect to anongit.gentoo.org:
+anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
+
+*** syncing '/home/mgorny/repos/betagarden'...
+*** failed syncing '/home/mgorny/repos/betagarden'
+ * Sync failed again with 1, removing
