@@ -16,29 +16,7 @@
 $ pmaint sync /home/mgorny/repos/java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/java
-   b3783a1..fdc13b2  master     -> origin/master
-Updating b3783a1..fdc13b2
-Fast-forward
- dev-java/cacao/ChangeLog               |  13 +++-
- dev-java/cacao/Manifest                |  24 ++-----
- dev-java/cacao/cacao-1.6.0-r1.ebuild   |  96 -------------------------
- dev-java/cacao/cacao-1.6.0-r2.ebuild   | 111 +++++++++++++++++++++++++++++
- dev-java/cacao/files/cacao.env         |   8 +--
- dev-java/jamvm/ChangeLog               |  16 ++++-
- dev-java/jamvm/Manifest                |  24 +++----
- dev-java/jamvm/files/jamvm.env         |  11 ++-
- dev-java/jamvm/files/javac.in          |  57 +++++++++++++++
- dev-java/jamvm/files/noexecstack.patch |  48 +++++++++++++
- dev-java/jamvm/jamvm-2.0.0-r1.ebuild   | 124 +++++++++++++++++++++++++++++++++
- dev-java/jamvm/jamvm-2.0.0.ebuild      |  88 -----------------------
- 12 files changed, 394 insertions(+), 226 deletions(-)
- delete mode 100644 dev-java/cacao/cacao-1.6.0-r1.ebuild
- create mode 100644 dev-java/cacao/cacao-1.6.0-r2.ebuild
- create mode 100644 dev-java/jamvm/files/javac.in
- create mode 100644 dev-java/jamvm/files/noexecstack.patch
- create mode 100644 dev-java/jamvm/jamvm-2.0.0-r1.ebuild
- delete mode 100644 dev-java/jamvm/jamvm-2.0.0.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/java'...
 *** synced '/home/mgorny/repos/java'
  * Sync succeeded

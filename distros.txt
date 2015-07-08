@@ -15,9 +15,47 @@ $ pmaint sync /home/mgorny/repos/distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   5469774..f21c9aa  develop    -> origin/develop
-   5469774..f21c9aa  update     -> origin/update
-Already up-to-date.
+   5469774..f21c9aa  master     -> origin/master
+   f21c9aa..3c03d4c  develop    -> origin/develop
+   f21c9aa..3c03d4c  update     -> origin/update
+Updating 5469774..f21c9aa
+Fast-forward
+ profiles/CDS+/x86/make.defaults    | 2 --
+ profiles/CDS/amd64/make.defaults   | 2 --
+ profiles/CDS/x86/make.defaults     | 2 --
+ profiles/CLD+/x86/make.defaults    | 2 --
+ profiles/CLD/amd64/make.defaults   | 2 --
+ profiles/CLD/x86/make.defaults     | 2 --
+ profiles/CLDX+/amd64/make.defaults | 1 -
+ profiles/CLDX+/x86/make.defaults   | 2 --
+ profiles/CLDX/amd64/make.defaults  | 2 --
+ profiles/CLDX/x86/make.defaults    | 2 --
+ profiles/CLS/amd64/make.defaults   | 2 --
+ profiles/CLS/x86/make.defaults     | 2 --
+ profiles/CLSM/amd64/make.defaults  | 2 --
+ profiles/CLSM/x86/make.defaults    | 2 --
+ profiles/CMC/amd64/make.defaults   | 2 --
+ profiles/CMC/x86/make.defaults     | 2 --
+ profiles/CSS/amd64/make.defaults   | 2 --
+ profiles/CSS/x86/make.defaults     | 2 --
+ 18 files changed, 35 deletions(-)
+ delete mode 100644 profiles/CDS+/x86/make.defaults
+ delete mode 100644 profiles/CDS/amd64/make.defaults
+ delete mode 100644 profiles/CDS/x86/make.defaults
+ delete mode 100644 profiles/CLD+/x86/make.defaults
+ delete mode 100644 profiles/CLD/amd64/make.defaults
+ delete mode 100644 profiles/CLD/x86/make.defaults
+ delete mode 100644 profiles/CLDX+/x86/make.defaults
+ delete mode 100644 profiles/CLDX/amd64/make.defaults
+ delete mode 100644 profiles/CLDX/x86/make.defaults
+ delete mode 100644 profiles/CLS/amd64/make.defaults
+ delete mode 100644 profiles/CLS/x86/make.defaults
+ delete mode 100644 profiles/CLSM/amd64/make.defaults
+ delete mode 100644 profiles/CLSM/x86/make.defaults
+ delete mode 100644 profiles/CMC/amd64/make.defaults
+ delete mode 100644 profiles/CMC/x86/make.defaults
+ delete mode 100644 profiles/CSS/amd64/make.defaults
+ delete mode 100644 profiles/CSS/x86/make.defaults
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
