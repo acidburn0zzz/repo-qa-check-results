@@ -15,18 +15,14 @@
               (u'git+ssh://git@git.gentoo.org/dev/angelos.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync /home/mgorny/repos/angelos
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named '<unlabeled repository /home/mgorny/repos/TomWij>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/aluco' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/aluco', named '<unlabeled repository /home/mgorny/repos/aluco>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/angelos'...
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
+Already up-to-date.
 *** syncing '/home/mgorny/repos/angelos'...
-*** failed syncing '/home/mgorny/repos/angelos'
- * Sync failed with 1
+*** synced '/home/mgorny/repos/angelos'
+ * Sync succeeded
+$ pmaint regen -t 2 angelos
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

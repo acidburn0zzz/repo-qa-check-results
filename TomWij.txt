@@ -13,14 +13,14 @@
               (u'git+ssh://git@git.gentoo.org/dev/TomWij.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync /home/mgorny/repos/TomWij
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/TomWij'...
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
+Already up-to-date.
 *** syncing '/home/mgorny/repos/TomWij'...
-*** failed syncing '/home/mgorny/repos/TomWij'
- * Sync failed with 1
+*** synced '/home/mgorny/repos/TomWij'
+ * Sync succeeded
+$ pmaint regen -t 2 TomWij
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

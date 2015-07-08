@@ -13,14 +13,17 @@
               (u'git+ssh://git@git.gentoo.org/dev/alexxy.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync /home/mgorny/repos/alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/alexxy'...
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
+Already up-to-date.
 *** syncing '/home/mgorny/repos/alexxy'...
-*** failed syncing '/home/mgorny/repos/alexxy'
- * Sync failed with 1
+*** synced '/home/mgorny/repos/alexxy'
+ * Sync succeeded
+$ pmaint regen -t 2 alexxy
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sci-chemistry/gromacs-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+ * Cache regenerated successfully

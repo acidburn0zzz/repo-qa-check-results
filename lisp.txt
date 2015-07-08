@@ -13,98 +13,291 @@
               (u'git+ssh://git@git.gentoo.org/proj/lisp.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync /home/mgorny/repos/lisp
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-guis' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-guis', named '<unlabeled repository /home/mgorny/repos/gentoo-guis>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/leio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/leio', named '<unlabeled repository /home/mgorny/repos/leio>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hardened-development' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hardened-development', named '<unlabeled repository /home/mgorny/repos/hardened-development>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jranvier' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jranvier', named '<unlabeled repository /home/mgorny/repos/jranvier>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jmbsvicetto' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jmbsvicetto', named '<unlabeled repository /home/mgorny/repos/jmbsvicetto>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/improvise' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/improvise', named '<unlabeled repository /home/mgorny/repos/improvise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/graaff' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/graaff', named '<unlabeled repository /home/mgorny/repos/graaff>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/johu' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/johu', named '<unlabeled repository /home/mgorny/repos/johu>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/je_fro' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/je_fro', named '<unlabeled repository /home/mgorny/repos/je_fro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hibiscus' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hibiscus', named '<unlabeled repository /home/mgorny/repos/hibiscus>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-openbsd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-openbsd', named '<unlabeled repository /home/mgorny/repos/gentoo-openbsd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-bsd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-bsd', named '<unlabeled repository /home/mgorny/repos/gentoo-bsd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/haarp' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/haarp', named '<unlabeled repository /home/mgorny/repos/haarp>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jensp' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jensp', named '<unlabeled repository /home/mgorny/repos/jensp>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/joinge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/joinge', named '<unlabeled repository /home/mgorny/repos/joinge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kde-sunset' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kde-sunset', named '<unlabeled repository /home/mgorny/repos/kde-sunset>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/java' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/java', named '<unlabeled repository /home/mgorny/repos/java>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/keruspe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/keruspe', named '<unlabeled repository /home/mgorny/repos/keruspe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named '<unlabeled repository /home/mgorny/repos/levenkov>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jtriley' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jtriley', named '<unlabeled repository /home/mgorny/repos/jtriley>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kde' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kde', named '<unlabeled repository /home/mgorny/repos/kde>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gnome' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gnome', named '<unlabeled repository /home/mgorny/repos/gnome>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ikelos' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ikelos', named '<unlabeled repository /home/mgorny/repos/ikelos>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/klondike' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/klondike', named '<unlabeled repository /home/mgorny/repos/klondike>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kork' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kork', named '<unlabeled repository /home/mgorny/repos/kork>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jamesbroadhead' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jamesbroadhead', named '<unlabeled repository /home/mgorny/repos/jamesbroadhead>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gnustep' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gnustep', named '<unlabeled repository /home/mgorny/repos/gnustep>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named '<unlabeled repository /home/mgorny/repos/levenkov>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gnustep' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gnustep', named '<unlabeled repository /home/mgorny/repos/gnustep>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hibiscus' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hibiscus', named '<unlabeled repository /home/mgorny/repos/hibiscus>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jtriley' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jtriley', named '<unlabeled repository /home/mgorny/repos/jtriley>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/hardened-development' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/hardened-development', named '<unlabeled repository /home/mgorny/repos/hardened-development>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/graaff' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/graaff', named '<unlabeled repository /home/mgorny/repos/graaff>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-guis' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-guis', named '<unlabeled repository /home/mgorny/repos/gentoo-guis>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/keruspe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/keruspe', named '<unlabeled repository /home/mgorny/repos/keruspe>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-openbsd' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-openbsd', named '<unlabeled repository /home/mgorny/repos/gentoo-openbsd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/improvise' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/improvise', named '<unlabeled repository /home/mgorny/repos/improvise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jranvier' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jranvier', named '<unlabeled repository /home/mgorny/repos/jranvier>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/joinge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/joinge', named '<unlabeled repository /home/mgorny/repos/joinge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/je_fro' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/je_fro', named '<unlabeled repository /home/mgorny/repos/je_fro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kork' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kork', named '<unlabeled repository /home/mgorny/repos/kork>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/leio' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/leio', named '<unlabeled repository /home/mgorny/repos/leio>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/lisp'...
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
+Already up-to-date.
 *** syncing '/home/mgorny/repos/lisp'...
-*** failed syncing '/home/mgorny/repos/lisp'
- * Sync failed with 1
+*** synced '/home/mgorny/repos/lisp'
+ * Sync succeeded
+$ pmaint regen -t 2 lisp
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+
+!!! ERROR: dev-lisp/fsbv-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+
+!!! ERROR: dev-lisp/gsll-9999 failed.
+
+!!! ERROR: dev-lisp/gsd-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '145' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!               gsll-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                gsd-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+
+!!! ERROR: dev-lisp/sbcl-1.2.6 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '159' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/sbcl/sbcl-1.2.6.ebuild'
+WARNING: 'use' function invoked by dev-scheme/chibi-scheme-0.6.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+
+!!! ERROR: dev-scheme/jazzscheme-999 failed.
+
+!!! ERROR: dev-scheme/guile-reader-0.6 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/sbcl/sbcl-1.2.6.ebuild'
+
+!!! ERROR: dev-scheme/hop-2.1.1 failed.
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '195' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+WARNING: 'use' function invoked by dev-scheme/larceny-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by dev-scheme/larceny-petit-0.97 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/sbcl/sbcl-1.2.6.ebuild'
+WARNING: 'use' function invoked by dev-scheme/larceny-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!              sbcl-1.2.6.ebuild, line   6:  Called inherit 'multilib' 'eutils' 'flag-o-matic' 'pax-utils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '158' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'flag-o-matic'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 226' for eclass flag-o-matic
+
+received unknown com: export CATEGORY='dev-lisp' PR=r0 PVR='1.0.2' PV='1.0.2' EBUILD='/home/mgorny/repos/lisp/dev-lisp/trivial-backtrace/trivial-backtrace-1.0.2.ebuild' P='trivial-backtrace-1.0.2' PF='trivial-backtrace-1.0.2' PN='trivial-backtrace'path
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/hop/hop-2.1.1.ebuild'
+!!!               hop-2.1.1.ebuild, line   7:  Called inherit 'multilib' 'eutils' 'user'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'user'
+!!!        guile-reader-0.6.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 173' for eclass user
+
+received unknown com: export CATEGORY='dev-scheme' PR=r0 PVR='0.0.1' PV='0.0.1' EBUILD='/home/mgorny/repos/lisp/dev-scheme/ikarus/ikarus-0.0.1.ebuild' P='ikarus-0.0.1' PF='ikarus-0.0.1' PN=ikaruspath
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'autotools'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 164' for eclass autotools
+
+received unknown com: export CATEGORY='dev-scheme' PR=r0 PVR=9999 PV=9999 EBUILD='/home/mgorny/repos/lisp/dev-scheme/ikarus/ikarus-9999.ebuild' P='ikarus-9999' PF='ikarus-9999' PN=ikaruspath
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/fsbv-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsd-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.22
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-cgi-0.2
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/nuclblog-0.5, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/nuclblog-0.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lisp/hunchentoot-1.2.21
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/parse-js-9999, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/parse-js-9999
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/puri-1.5.5, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/puri-1.5.5
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/rsm-delayed-1.2, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/rsm-delayed-1.2
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/rsm-mpoly-1.3, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/rsm-mpoly-1.3
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/rt-20040621-r4, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/rt-20040621-r4
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/sbcl-1.2.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/sbcl-1.2.6
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/spatial-trees-0.2-r1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/spatial-trees-0.2-r1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-lisp/trivial-backtrace-1.1.0, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-lisp/trivial-backtrace-1.1.0
+!!! caught exception Metadata Exception: pkg ebuild src: dev-scheme/gambit-4.6.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-scheme/gambit-4.6.6
+!!! caught exception Metadata Exception: pkg ebuild src: dev-scheme/hop-2.1.1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-scheme/hop-2.1.1
+!!! caught exception Metadata Exception: pkg ebuild src: dev-scheme/guile-reader-0.6, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-scheme/guile-reader-0.6
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-lisp/trivial-backtrace-1.0.2
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-scheme/ikarus-0.0.1
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-chicken/pyffi-200801162015
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-scheme/ikarus-9999
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-chicken/silex-200803222148
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-scheme/kawa-1.9.90
+!!! caught exception Metadat
+!!! ERROR: dev-chicken/unix-sockets-200801162015-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '249' 'depend'
+!!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-chicken/unix-sockets/unix-sockets-200801162015-r1.ebuild'
+!!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-chicken/unix-sockets/unix-sockets-200801162015-r1.ebuild'
+!!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-chicken/unix-sockets/unix-sockets-200801162015-r1.ebuild'
+!!!   unix-sockets-200801162015-r1.ebuild, line   7:  Called inherit 'eggs'
+!!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit 'eggs'
+!!!                     ebuild-daemon.lib, line  37:  Called die
+!!! The die message:
+!!!  unknown inherit command from pythonic side, 'gen_metadata 157' for eclass eggs
+
+received unknown com: export CATEGORY='app-emacs' PR=r0 PVR=999 PV=999 EBUILD='/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild' P='geiser-999' PF='geiser-999' PN=geiserpath
+a Exception: pkg ebuild src: dev-chicken/unix-sockets-200801162015-r1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-chicken/unix-sockets-200801162015-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-emacs/geiser-999
+Error running an operation:
+ Unhandled exception in regen_cache
+ * Cache regen failed with 246
