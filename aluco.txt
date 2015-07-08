@@ -16,10 +16,23 @@
 $ pmaint sync /home/mgorny/repos/aluco
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing '/home/mgorny/repos/aluco'...
+*** failed syncing '/home/mgorny/repos/aluco'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/aluco
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named '<unlabeled repository /home/mgorny/repos/TomWij>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/aluco'...
 *** syncing '/home/mgorny/repos/aluco'...
 *** synced '/home/mgorny/repos/aluco'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 aluco
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
