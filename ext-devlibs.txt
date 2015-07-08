@@ -28,44 +28,44 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-python/xorg_query-9999 failed.
-
-!!! ERROR: dev-python/xorg_query-0.6-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '193' 'depend'
+
+!!! ERROR: dev-python/xorg_query-0.6-r1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '201' 'depend'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-9999.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
-!!!       xorg_query-0.6-r1.ebuild, line   7:  Called inherit 'distutils-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         xorg_query-9999.ebuild, line   7:  Called inherit 'distutils-r1' 'git-2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ext-devlibs/dev-python/xorg_query/xorg_query-0.6-r1.ebuild'
 !!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!       xorg_query-0.6-r1.ebuild, line   7:  Called inherit 'distutils-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
 !!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
 
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die

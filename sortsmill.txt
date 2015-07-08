@@ -17,13 +17,21 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/sortsmill
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-pulling from https://bitbucket.org/sortsmill/sortsmill-gentoo-overlay
-searching for changes
-no changes found
+requesting all changes
+adding changesets
+adding manifests
+adding file changes
+added 52 changesets with 190 changes to 85 files
+updating to branch default
+83 files updated, 0 files merged, 0 files removed, 0 files unresolved
 *** syncing '/home/mgorny/repos/sortsmill'...
 *** synced '/home/mgorny/repos/sortsmill'
  * Sync succeeded
- * Invalid metadata, removing: Failed instantiating section '/home/mgorny/repos/sortsmill'
+$ pmaint regen -t 2 sortsmill
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * Cache regenerated successfully

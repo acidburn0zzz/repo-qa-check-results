@@ -18,36 +18,13 @@
 $ pmaint sync /home/mgorny/repos/lordvan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing '/home/mgorny/repos/lordvan'...
-*** failed syncing '/home/mgorny/repos/lordvan'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/lordvan
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/lordvan'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/lordvan'...
 *** synced '/home/mgorny/repos/lordvan'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 lordvan
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * 
- * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.2.2.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/lordvan/media-video/openshot/openshot-1.4.1.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 
 !!! ERROR: app-misc/labyrinth-0.4.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
