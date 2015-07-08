@@ -12,17 +12,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/distros
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/distros
-   284e98d..5469774  master     -> origin/master
-Updating 284e98d..5469774
-Fast-forward
- profiles/templates/3.2/6_ac_update_sync/world/0-ini     |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/tools   | 10 +++++++---
- profiles/templates/3.2/6_ac_update_sync/world/update/68 | 17 +++++++++++++++++
- 3 files changed, 25 insertions(+), 4 deletions(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/68
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
