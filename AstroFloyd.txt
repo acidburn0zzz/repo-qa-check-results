@@ -20,40 +20,11 @@
 $ pmaint sync /home/mgorny/repos/AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing '/home/mgorny/repos/AstroFloyd'...
-*** failed syncing '/home/mgorny/repos/AstroFloyd'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/AstroFloyd
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/AstroFloyd'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/AstroFloyd'...
 *** synced '/home/mgorny/repos/AstroFloyd'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sci-libs/fgsl-0.9.1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sci-libs/fgsl-0.9 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-text/epubcheck-1.0.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.18.9 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.16.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-kernel/gentoo-sources-3.14.14 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
