@@ -14,34 +14,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/spike-community-overlay
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sochotnicky' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sochotnicky', named '<unlabeled repository /home/mgorny/repos/sochotnicky>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sera' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sera', named '<unlabeled repository /home/mgorny/repos/sera>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sekh' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sekh', named '<unlabeled repository /home/mgorny/repos/sekh>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ruby' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ruby', named '<unlabeled repository /home/mgorny/repos/ruby>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sattvik' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sattvik', named '<unlabeled repository /home/mgorny/repos/sattvik>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/rwald' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/rwald', named '<unlabeled repository /home/mgorny/repos/rwald>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sattvik' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sattvik', named '<unlabeled repository /home/mgorny/repos/sattvik>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sochotnicky' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sochotnicky', named '<unlabeled repository /home/mgorny/repos/sochotnicky>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/spike-community-overlay'...
 *** synced '/home/mgorny/repos/spike-community-overlay'
@@ -49,14 +23,16 @@ Already up-to-date.
 $ pmaint regen -t 2 spike-community-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.2.641
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-6.12.3, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-6.12.3
-!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.2.641, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.2.641
 !!! caught exception Metadata Exception: pkg ebuild src: net-analyzer/scamper-20140530, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: net-analyzer/scamper-20140530
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/bulk_extractor-1.5.5, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/bulk_extractor-1.5.5
+!!! caught exception Metadata Exception: pkg ebuild src: app-forensics/ssdeep-2.11.1, attr eapi
+error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/ssdeep-2.11.1
 !!! caught exception Metadata Exception: pkg ebuild src: app-forensics/dc3dd-7.0.0, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: app-forensics/dc3dd-7.0.0
 !!! caught exception Metadata Exception: pkg ebuild src: dev-db/cassandra-0.6.1, attr eapi
@@ -66,7 +42,6 @@ error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-d
 Error running an operation:
  Unhandled exception in regen_cache
  app-forensics/xmount-0.5.0-2
-Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
  * Cache regen failed with 246

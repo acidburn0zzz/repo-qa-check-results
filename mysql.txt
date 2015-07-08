@@ -13,35 +13,9 @@
               (u'git+ssh://git@git.gentoo.org/proj/mysql.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
- * Resetting, sync parameters changed
 $ pmaint sync /home/mgorny/repos/mysql
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mgorny' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mgorny', named '<unlabeled repository /home/mgorny/repos/mgorny>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/jmbsvicetto' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/jmbsvicetto', named '<unlabeled repository /home/mgorny/repos/jmbsvicetto>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luman' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luman', named '<unlabeled repository /home/mgorny/repos/luman>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mistafunk' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mistafunk', named '<unlabeled repository /home/mgorny/repos/mistafunk>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mhammill' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mhammill', named '<unlabeled repository /home/mgorny/repos/mhammill>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mrueg' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mrueg', named '<unlabeled repository /home/mgorny/repos/mrueg>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/je_fro' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/je_fro', named '<unlabeled repository /home/mgorny/repos/je_fro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/maksbotan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/maksbotan', named '<unlabeled repository /home/mgorny/repos/maksbotan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named '<unlabeled repository /home/mgorny/repos/dev-zero>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/mysql'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/mysql'...
 *** synced '/home/mgorny/repos/mysql'
  * Sync succeeded
@@ -54,47 +28,48 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
 /usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
 
 !!! ERROR: dev-db/mariadb-connector-c-2.0.0-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!                    ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
+!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 /usr/lib/pkgcore/ebuild-daemon.lib: line 22: PKGCORE_PRELOADED_ECLASSES: bad array subscript
+!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '242' 'depend'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-java/mariadb-java-client-1.1.7 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
 !!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                    ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
-!!!                    ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '242' 'depend'
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!   mariadb-connector-c-2.1.0.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
 !!!                    ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
-!!!                  ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for  failed
-
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!                            ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '233' 'depend'
 !!!                            ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
 !!!                isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.0.0-r1.ebuild'
 !!!   mariadb-connector-c-2.0.0-r1.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!          ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-db/mariadb-connector-c/mariadb-connector-c-2.1.0.ebuild'
 !!!                     ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for  failed
 
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
+!!!   mariadb-connector-c-2.1.0.ebuild, line  23:  Called inherit 'cmake-multilib' 'eutils' ''
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                  ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for  failed
+
+Sandboxed process killed by signal: Broken pipe
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/mysql/dev-java/mariadb-java-client/mariadb-java-client-1.1.7.ebuild'
 !!!   mariadb-java-client-1.1.7.ebuild, line  23:  Called inherit 'java-pkg-2' 'java-ant-2' ''
 !!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit ''
@@ -102,7 +77,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for  failed
 
-Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.1.0
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-db/mariadb-connector-c-2.0.0-r1
 !!! caught exception inherit requires an eclass specified, none specified while processing ebuild src: dev-java/mariadb-java-client-1.1.7

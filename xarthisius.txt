@@ -17,47 +17,14 @@
                u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync /home/mgorny/repos/xarthisius
-WARNING:pkgcore:repository at location '/home/mgorny/repos/virtualization' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/virtualization', named '<unlabeled repository /home/mgorny/repos/virtualization>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sunrise' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sunrise', named '<unlabeled repository /home/mgorny/repos/sunrise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wbrana' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named '<unlabeled repository /home/mgorny/repos/wbrana>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wdzierzan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wdzierzan', named '<unlabeled repository /home/mgorny/repos/wdzierzan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wuodan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wuodan', named '<unlabeled repository /home/mgorny/repos/wuodan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/sunrise' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/sunrise', named '<unlabeled repository /home/mgorny/repos/sunrise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wbrana' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wbrana', named '<unlabeled repository /home/mgorny/repos/wbrana>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/wuodan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/wuodan', named '<unlabeled repository /home/mgorny/repos/wuodan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/virtualization' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/virtualization', named '<unlabeled repository /home/mgorny/repos/virtualization>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/xarthisius'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/xarthisius'...
 *** synced '/home/mgorny/repos/xarthisius'
  * Sync succeeded
 $ pmaint regen -t 2 xarthisius
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * 
- * "/home/mgorny/repos/xarthisius/net-misc/gwibber/gwibber-2.31.4.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
  * Cache regenerated successfully
