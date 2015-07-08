@@ -13,16 +13,7 @@
               (u'git+ssh://git@git.gentoo.org/user/andy.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/andy
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
-*** syncing '/home/mgorny/repos/andy'...
-*** failed syncing '/home/mgorny/repos/andy'
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -32,12 +23,10 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/TomWij' lacks a defin
 WARNING:pkgcore:repository at '/home/mgorny/repos/TomWij', named '<unlabeled repository /home/mgorny/repos/TomWij>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/aluco' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/aluco', named '<unlabeled repository /home/mgorny/repos/aluco>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/betagarden' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/betagarden', named '<unlabeled repository /home/mgorny/repos/betagarden>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named '<unlabeled repository /home/mgorny/repos/anaximander>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/benf' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/benf', named '<unlabeled repository /home/mgorny/repos/benf>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/angelos' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/angelos', named '<unlabeled repository /home/mgorny/repos/angelos>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/AstroFloyd' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/AstroFloyd', named '<unlabeled repository /home/mgorny/repos/AstroFloyd>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/AzP' lacks a defined repo_name
@@ -48,4 +37,4 @@ anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
 
 *** syncing '/home/mgorny/repos/andy'...
 *** failed syncing '/home/mgorny/repos/andy'
- * Sync failed again with 1, removing
+ * Sync failed with 1

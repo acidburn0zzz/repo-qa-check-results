@@ -13,16 +13,7 @@
               (u'git+ssh://git@git.gentoo.org/dev/alexxy.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/alexxy
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
-*** syncing '/home/mgorny/repos/alexxy'...
-*** failed syncing '/home/mgorny/repos/alexxy'
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -32,4 +23,4 @@ anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
 
 *** syncing '/home/mgorny/repos/alexxy'...
 *** failed syncing '/home/mgorny/repos/alexxy'
- * Sync failed again with 1, removing
+ * Sync failed with 1

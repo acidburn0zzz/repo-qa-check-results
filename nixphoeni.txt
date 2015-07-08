@@ -17,15 +17,7 @@
                u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/nixphoeni
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: unable to connect to anongit.gentoo.org:
-anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
-
-*** syncing '/home/mgorny/repos/nixphoeni'...
-*** failed syncing '/home/mgorny/repos/nixphoeni'
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/nixphoeni
 WARNING:pkgcore:repository at location '/home/mgorny/repos/lordvan' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/lordvan', named '<unlabeled repository /home/mgorny/repos/lordvan>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
@@ -35,6 +27,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/lisp' lacks a defined
 WARNING:pkgcore:repository at '/home/mgorny/repos/lisp', named '<unlabeled repository /home/mgorny/repos/lisp>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/leio' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/leio', named '<unlabeled repository /home/mgorny/repos/leio>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nikai' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nikai', named '<unlabeled repository /home/mgorny/repos/nikai>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/mgorny' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/mgorny', named '<unlabeled repository /home/mgorny/repos/mgorny>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/musl' lacks a defined repo_name
@@ -65,6 +59,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a define
 WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named '<unlabeled repository /home/mgorny/repos/mysql>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/lua' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/lua', named '<unlabeled repository /home/mgorny/repos/lua>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named '<unlabeled repository /home/mgorny/repos/levenkov>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/ltsp' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/ltsp', named '<unlabeled repository /home/mgorny/repos/ltsp>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
@@ -74,6 +70,8 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/mschiff' lacks a defi
 WARNING:pkgcore:repository at '/home/mgorny/repos/mschiff', named '<unlabeled repository /home/mgorny/repos/mschiff>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/nico' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/nico', named '<unlabeled repository /home/mgorny/repos/nico>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named '<unlabeled repository /home/mgorny/repos/levenkov>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named '<unlabeled repository /home/mgorny/repos/mysql>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/repos/nixphoeni'...
@@ -82,4 +80,4 @@ anongit.gentoo.org[0: 108.28.123.102]: errno=Connection timed out
 
 *** syncing '/home/mgorny/repos/nixphoeni'...
 *** failed syncing '/home/mgorny/repos/nixphoeni'
- * Sync failed again with 1, removing
+ * Sync failed with 1
