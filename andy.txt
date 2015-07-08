@@ -16,7 +16,10 @@
 $ pmaint sync /home/mgorny/repos/andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 *** syncing '/home/mgorny/repos/andy'...
 *** failed syncing '/home/mgorny/repos/andy'
  * Sync failed with 1
@@ -31,9 +34,9 @@ Cloning into '/home/mgorny/repos/andy'...
 $ pmaint regen -t 2 andy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-/home/mgorny/repos/andy/dev-embedded/jlink/jlink-4.80e.ebuild: line 9: usex: command not found
-/home/mgorny/repos/andy/dev-embedded/jlink/jlink-4.84a.ebuild: line 9: usex: command not found
 WARNING: 'use' function invoked by dev-embedded/xvcd-9999 during metadata regeneration.
 WARNING: Please ensure upstream is aware of it and working to remove it.
 
+/home/mgorny/repos/andy/dev-embedded/jlink/jlink-4.80e.ebuild: line 9: usex: command not found
+/home/mgorny/repos/andy/dev-embedded/jlink/jlink-4.84a.ebuild: line 9: usex: command not found
  * Cache regenerated successfully

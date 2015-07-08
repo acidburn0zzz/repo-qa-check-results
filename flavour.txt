@@ -13,6 +13,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/flavour
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named '<unlabeled repository /home/mgorny/repos/eigenlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -39,5 +41,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for twisted failed
 
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, twisted cannot be found while processing ebuild src: net-misc/epoptes-9999
  * Cache regenerated successfully
