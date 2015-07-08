@@ -14,8 +14,14 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/java
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named '<unlabeled repository /home/mgorny/repos/dev-zero>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named '<unlabeled repository /home/mgorny/repos/dev-zero>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/je_fro' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/je_fro', named '<unlabeled repository /home/mgorny/repos/je_fro>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/java'...
 *** synced '/home/mgorny/repos/java'
@@ -23,20 +29,4 @@ Already up-to-date.
 $ pmaint regen -t 2 java
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-java/ibm-jdk-bin-1.4.2.13-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-java/ibm-jdk-bin-1.4.2.13-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-java/ibm-jdk-bin-1.4.2.13-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-java/ibm-jdk-bin-1.4.2.13-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by www-servers/jboss-bin-4.0.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
- * QA Notice: The 'hasq' function is deprecated (replaced by 'has')
  * Cache regenerated successfully

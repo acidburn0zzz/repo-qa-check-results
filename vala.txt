@@ -14,6 +14,10 @@
 $ pmaint sync /home/mgorny/repos/vala
 WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named '<unlabeled repository /home/mgorny/repos/mozilla>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sunrise' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sunrise', named '<unlabeled repository /home/mgorny/repos/sunrise>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/sattvik' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/sattvik', named '<unlabeled repository /home/mgorny/repos/sattvik>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named '<unlabeled repository /home/mgorny/repos/multilib-portage>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -24,13 +28,4 @@ Already up-to-date.
 $ pmaint regen -t 2 vala
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by x11-terms/valaterm-0.4.2-r1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by app-office/latexila-2.2.0 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by x11-terms/valaterm-0.4.2 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

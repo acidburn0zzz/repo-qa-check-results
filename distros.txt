@@ -14,21 +14,12 @@
 $ pmaint sync /home/mgorny/repos/distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/displacer' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/displacer', named '<unlabeled repository /home/mgorny/repos/displacer>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://git.calculate.ru/calculate/distros
-   38ee87d..284e98d  master     -> origin/master
-   284e98d..f72bed4  develop    -> origin/develop
-   284e98d..f72bed4  update     -> origin/update
-Updating 38ee87d..284e98d
-Fast-forward
- profiles/templates/3.2/6_ac_update_sync/world/0-ini          |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/applications |  1 +
- .../templates/3.2/6_ac_update_sync/world/create/emulation    |  1 +
- .../templates/3.2/6_ac_update_sync/world/create/multimedia   |  1 +
- profiles/templates/3.2/6_ac_update_sync/world/create/wm      |  5 +++++
- profiles/templates/3.2/6_ac_update_sync/world/update/66      | 12 ++++++++++++
- 6 files changed, 21 insertions(+), 1 deletion(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/create/wm
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/66
+   f72bed4..5469774  develop    -> origin/develop
+   f72bed4..5469774  update     -> origin/update
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

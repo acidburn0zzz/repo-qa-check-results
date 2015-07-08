@@ -12,10 +12,12 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/gamarouns
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named '<unlabeled repository /home/mgorny/repos/dev-zero>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ezod' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ezod', named '<unlabeled repository /home/mgorny/repos/ezod>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named '<unlabeled repository /home/mgorny/repos/dev-zero>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 pulling from https://bitbucket.org/amaroun/gamarouns
 searching for changes
 no changes found
