@@ -13,11 +13,21 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing '/home/mgorny/repos/lmiphay'...
+*** failed syncing '/home/mgorny/repos/lmiphay'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/lmiphay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/lmiphay'...
 *** syncing '/home/mgorny/repos/lmiphay'...
 *** synced '/home/mgorny/repos/lmiphay'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 lmiphay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by net-mail/davmail-bin-4.6.1 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

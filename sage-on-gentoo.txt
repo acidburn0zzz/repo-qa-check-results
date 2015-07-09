@@ -13,26 +13,9 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/cschwan/sage-on-gentoo
-   e3c370f..c13748c  master     -> origin/master
-Updating e3c370f..c13748c
-Fast-forward
- sci-libs/libsingular/ChangeLog                     |   6 +
- .../libsingular/files/singular-3.1.7-ntl8.patch    |   1 +
- .../libsingular/libsingular-3.1.7_p1-r5.ebuild     | 170 ++++++++++++++++++++
- sci-mathematics/singular/ChangeLog                 |   8 +
- .../singular/files/singular-3.1.7-ntl8.patch       |  47 ++++++
- .../singular/singular-3.1.7_p1-r2.ebuild           |   2 +-
- .../singular/singular-3.1.7_p1-r3.ebuild           | 175 +++++++++++++++++++++
- 7 files changed, 408 insertions(+), 1 deletion(-)
- create mode 120000 sci-libs/libsingular/files/singular-3.1.7-ntl8.patch
- create mode 100644 sci-libs/libsingular/libsingular-3.1.7_p1-r5.ebuild
- create mode 100644 sci-mathematics/singular/files/singular-3.1.7-ntl8.patch
- create mode 100644 sci-mathematics/singular/singular-3.1.7_p1-r3.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
