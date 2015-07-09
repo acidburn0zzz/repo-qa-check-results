@@ -16,7 +16,48 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   f99b33a..65f8392  master     -> origin/master
+Updating f99b33a..65f8392
+Fast-forward
+ dev-libs/libressl/Manifest                         |   2 +
+ dev-libs/libressl/libressl-2.2.1.ebuild            |  57 +++++
+ gnome-extra/cinnamon-translations/Manifest         |   2 +
+ .../cinnamon-translations-2.6.3.ebuild             |  37 +++
+ gnome-extra/cinnamon/Manifest                      |   8 +
+ gnome-extra/cinnamon/cinnamon-2.6.12.ebuild        | 256 +++++++++++++++++++++
+ .../cinnamon-2.2.6-automagic-gnome-bluetooth.patch |  44 ++++
+ .../cinnamon/files/cinnamon-2.4.5-background.patch |  26 +++
+ .../cinnamon/files/cinnamon-2.4.5-gnome-3.14.patch |  43 ++++
+ .../cinnamon-2.6.7-optional-networkmanager.patch   |  88 +++++++
+ .../cinnamon/files/cinnamon-2.6.7-set-wheel.patch  |  73 ++++++
+ .../polkit-cinnamon-authentication-agent-1.desktop |   9 +
+ gnome-extra/cjs/Manifest                           |   5 +
+ gnome-extra/cjs/cjs-2.6.2.ebuild                   |  73 ++++++
+ .../cjs/files/cjs-2.4.0-disable-unittest-1.patch   |  48 ++++
+ .../cjs/files/cjs-2.4.0-disable-unittest-2.patch   |  40 ++++
+ .../cjs/files/cjs-2.4.0-disable-unittest-3.patch   |  35 +++
+ gnome-extra/nemo/Manifest                          |   2 +
+ gnome-extra/nemo/nemo-2.6.7.ebuild                 |  87 +++++++
+ 19 files changed, 935 insertions(+)
+ create mode 100644 dev-libs/libressl/libressl-2.2.1.ebuild
+ create mode 100644 gnome-extra/cinnamon-translations/Manifest
+ create mode 100644 gnome-extra/cinnamon-translations/cinnamon-translations-2.6.3.ebuild
+ create mode 100644 gnome-extra/cinnamon/Manifest
+ create mode 100644 gnome-extra/cinnamon/cinnamon-2.6.12.ebuild
+ create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.2.6-automagic-gnome-bluetooth.patch
+ create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.4.5-background.patch
+ create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.4.5-gnome-3.14.patch
+ create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.6.7-optional-networkmanager.patch
+ create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.6.7-set-wheel.patch
+ create mode 100644 gnome-extra/cinnamon/files/polkit-cinnamon-authentication-agent-1.desktop
+ create mode 100644 gnome-extra/cjs/Manifest
+ create mode 100644 gnome-extra/cjs/cjs-2.6.2.ebuild
+ create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-1.patch
+ create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-2.patch
+ create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-3.patch
+ create mode 100644 gnome-extra/nemo/Manifest
+ create mode 100644 gnome-extra/nemo/nemo-2.6.7.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
