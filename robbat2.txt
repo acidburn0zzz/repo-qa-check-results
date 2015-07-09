@@ -20,8 +20,6 @@ WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defin
 WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing '/home/mgorny/repos/robbat2'...
 *** synced '/home/mgorny/repos/robbat2'
@@ -30,398 +28,429 @@ $ pmaint regen -t 2 robbat2
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: x11-wm/awesome-9999 failed.
+
 !!! ERROR: sys-apps/ethtool-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: x11-wm/awesome-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/CGI-Application-4.31 failed.
-
-!!! ERROR: dev-perl/Business-EDI-0.05 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/Business-ISBN-Data-20081208 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/Bundle-InterchangeKitchenSink-1.08 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-perl/Archive-Tar-Streamed-0.03 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-perl/Business-ISBN-2.05 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/Business-CreditCard-0.31 failed.
-!!!                          ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-perl/Class-DBI-Frozen301-3.0.1 failed.
 
 !!! ERROR: dev-perl/Acme-Damn-0.04 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Business-EDI-0.05 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
+
+!!! ERROR: dev-perl/Class-DBI-Frozen301-3.0.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '164' 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: dev-perl/CGI-Application-Plugin-ValidateRM-2.3 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '168' 'depend'
+!!! ERROR: dev-perl/Business-CreditCard-0.31 failed.
+
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! ERROR: dev-perl/Business-ISBN-Data-20081208 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Business-OnlinePayment-3.01 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
+!!!            ethtool-9999.ebuild, line   7:  Called inherit 'git'
+
+!!! ERROR: dev-perl/Bundle-InterchangeKitchenSink-1.08 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Crypt-Enigma-1.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!                          ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
-!!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                          ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '284' 'depend'
 
-!!! ERROR: dev-perl/Business-OnlinePayment-3.01 failed.
+!!! ERROR: dev-perl/CGI-Application-4.31 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
+
+!!! ERROR: dev-perl/Authen-Captcha-1.023 failed.
+
+!!! ERROR: dev-perl/CGI-Application-Plugin-ValidateRM-2.3 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '199' 'depend'
-!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/Crypt-Enigma-1.5 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                   ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                          ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * Missing variables: KV_PATCH 
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
-
-!!! ERROR: sys-kernel/vanilla-drm-next-sources-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
-!!!                             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '299' 'depend'
-!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '245' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                                  ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/x11-wm/awesome/awesome-9999.ebuild'
 !!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '234' 'depend'
-!!!            awesome-9999.ebuild, line   6:  Called inherit 'git' 'cmake-utils' 'eutils'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
-!!!                                  ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
-
-!!! ERROR: dev-perl/Authen-Captcha-1.023 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/sys-apps/ethtool/ethtool-9999.ebuild'
-!!!                      isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
-!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
-!!!                             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-perl/DateTime-Format-Atom-1.0.2 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
-!!!       Business-EDI-0.05.ebuild, line  12:  Called inherit 'perl-module'
-!!!   Bundle-InterchangeKitchenSink-1.08.ebuild, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
-!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '259' 'depend'
-!!!      Business-ISBN-2.05.ebuild, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
-!!!            ethtool-9999.ebuild, line   7:  Called inherit 'git'
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
-!!!                                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
-!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
-!!!    CGI-Application-4.31.ebuild, line   9:  Called inherit 'perl-module'
-!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '249' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
-!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   Business-CreditCard-0.31.ebuild, line  10:  Called inherit 'perl-module'
-!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
-!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
-!!!                ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!        Crypt-Enigma-1.5.ebuild, line  10:  Called inherit 'perl-module'
-!!!   Archive-Tar-Streamed-0.03.ebuild, line  10:  Called inherit 'perl-module'
-!!!   Business-ISBN-Data-20081208.ebuild, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!          Acme-Damn-0.04.ebuild, line   9:  Called inherit 'perl-module'
-!!!                                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '245' 'depend'
+!!!                   ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! ERROR: dev-perl/Archive-Tar-Streamed-0.03 failed.
 
 !!! ERROR: dev-perl/Data-FormValidator-4.65 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                    ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!   Class-DBI-Frozen301-3.0.1.ebuild, line  10:  Called inherit 'perl-module'
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '244' 'depend'
-!!!                         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                           ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                perl-module.eclass, line  40:  Called die
-!!!                   perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-
-!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!   CGI-Application-Plugin-ValidateRM-2.3.ebuild, line   9:  Called inherit 'perl-module'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                      isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                   ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '249' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                   ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
+!!!                             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!            awesome-9999.ebuild, line   6:  Called inherit 'git' 'cmake-utils' 'eutils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
+!!!                          ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Acme-Damn/Acme-Damn-0.04.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
 !!!               ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '234' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!                           ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                          ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
+!!!          Acme-Damn-0.04.ebuild, line   9:  Called inherit 'perl-module'
+!!!                 ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                           ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '299' 'depend'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!                             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN-Data/Business-ISBN-Data-20081208.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-ISBN/Business-ISBN-2.05.ebuild'
+
+!!! ERROR: dev-perl/DateTime-Format-Atom-1.0.2 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                          ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '284' 'depend'
 !!!               ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!      Business-ISBN-2.05.ebuild, line  10:  Called inherit 'perl-module'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
+!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
+!!!   Business-ISBN-Data-20081208.ebuild, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
+!!!                          ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
+!!!                 ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-EDI/Business-EDI-0.05.ebuild'
+!!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Class-DBI-Frozen301/Class-DBI-Frozen301-3.0.1.ebuild'
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!    Authen-Captcha-1.023.ebuild, line  10:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Crypt-Enigma/Crypt-Enigma-1.5.ebuild'
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                                  ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!        Crypt-Enigma-1.5.ebuild, line  10:  Called inherit 'perl-module'
+!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!       Business-EDI-0.05.ebuild, line  12:  Called inherit 'perl-module'
+ * Missing variables: KV_PATCH 
+
+!!! ERROR: sys-kernel/vanilla-drm-next-sources-9999 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                                  ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/CGI-Application/CGI-Application-4.31.ebuild'
+
+!!!                 ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '239' 'depend'
+!!!   Business-OnlinePayment-3.01.ebuild, line  10:  Called inherit 'perl-module'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-CreditCard/Business-CreditCard-0.31.ebuild'
+!!!                                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
+!!!                      isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Bundle-InterchangeKitchenSink/Bundle-InterchangeKitchenSink-1.08.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!    CGI-Application-4.31.ebuild, line   9:  Called inherit 'perl-module'
+!!!   Class-DBI-Frozen301-3.0.1.ebuild, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   Bundle-InterchangeKitchenSink-1.08.ebuild, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '244' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                    ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                 ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                           ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+
+!!! ERROR: dev-perl/Exporter-Easy-0.16 failed.
+!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
+!!!   Business-CreditCard-0.31.ebuild, line  10:  Called inherit 'perl-module'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!                      isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! Call stack:
+!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!                          perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!               ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '229' 'depend'
+!!!                         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/CGI-Application-Plugin-ValidateRM/CGI-Application-Plugin-ValidateRM-2.3.ebuild'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                         ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
 
-!!! ERROR: dev-perl/Exporter-Easy-0.16 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Authen-Captcha/Authen-Captcha-1.023.ebuild'
-!!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Business-OnlinePayment/Business-OnlinePayment-3.01.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+
+!!! ERROR: dev-perl/Geo-Coder-Yahoo-0.44 failed.
+!!!                   perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!   CGI-Application-Plugin-ValidateRM-2.3.ebuild, line   9:  Called inherit 'perl-module'
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!   vanilla-drm-next-sources-9999.ebuild, line  19:  Called inherit 'kernel-2' 'git'
 !!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: dev-perl/Geo-METAR-1.14 failed.
-!!!               ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   Business-OnlinePayment-3.01.ebuild, line  10:  Called inherit 'perl-module'
-!!!                 perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!    Authen-Captcha-1.023.ebuild, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
-!!!         ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-
-!!! ERROR: dev-perl/IO-Stty-0.03 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-
-!!! ERROR: dev-perl/Geo-TAF-1.04 failed.
-!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!                             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!! Call stack:
-!!!                 perl-module.eclass, line  40:  Called die
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   Data-FormValidator-4.65.ebuild, line   9:  Called inherit 'perl-module'
+!!!                         ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 
 !!! ERROR: dev-perl/GDGraph-histogram-1.1 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
-
-!!! ERROR: dev-perl/Geo-Coder-Yahoo-0.44 failed.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                       ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                    ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                       ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
+!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Archive-Tar-Streamed/Archive-Tar-Streamed-0.03.ebuild'
+!!!                ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
+!!!  unknown inherit command from pythonic side, 'gen_metadata 259' for eclass perl-module
 
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
-
-!!! ERROR: dev-perl/Hash-Inflator-1.100820 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!   Archive-Tar-Streamed-0.03.ebuild, line  10:  Called inherit 'perl-module'
 !!!               isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!           isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Data-FormValidator/Data-FormValidator-4.65.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+received unknown com: export CATEGORY='dev-perl' PR=r0 PVR='1.0.5' PV='1.0.5' EBUILD='/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-RFC3339/DateTime-Format-RFC3339-1.0.5.ebuild' P='DateTime-Format-RFC3339-1.0.5' PF='DateTime-Format-RFC3339-1.0.5' PN='DateTime-Format-RFC3339'path
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                   perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
+!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
+!!!                perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
+    regen_func(x)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
+    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
+    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
+    return self._update_metadata(pkg, ebp=ebp)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
+    mydata = my_proc.get_keys(pkg, self._ecache)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
+    {"key": receive_key})
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
+    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
+  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
+    raise RuntimeError(ie)
+RuntimeError: [Errno 32] Broken pipe
+
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
+!!!                 perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!       ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
-!!! ERROR: dev-perl/Module-Install-TestTarget-0.19 failed.
-!!!   Data-FormValidator-4.65.ebuild, line   9:  Called inherit 'perl-module'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   DateTime-Format-Atom-1.0.2.ebuild, line  10:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
-!!!                        kernel-2.eclass, line 464:  Called kernel_is 'ge' '2' '6' '27'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
-
-!!! ERROR: dev-perl/Net-HTTPS-Any-0.10 failed.
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
+!!! ERROR: dev-perl/IO-Stty-0.03 failed.
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
+!!!                  ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
 
 !!! ERROR: dev-perl/IPTables-IPv4-0.98 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!     ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                ebuild-daemon.lib, line  37:  Called die
+
+!!! ERROR: dev-perl/Hash-Inflator-1.100820 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '259' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                 perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-perl/Net-Braintree-0.6.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Geo-TAF-1.04 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '224' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-perl/Geo-METAR-1.14 failed.
+
+!!! ERROR: dev-perl/Net-SSH2-0.33 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-Atom/DateTime-Format-Atom-1.0.2.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   DateTime-Format-Atom-1.0.2.ebuild, line  10:  Called inherit 'perl-module'
+
+!!! ERROR: dev-perl/Net-IP-Match-Regexp-1.01 failed.
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                   ebuild-daemon.lib, line  37:  Called die
 !!! The die message:
 !!!  unknown inherit command from pythonic side, 'gen_metadata 219' for eclass perl-module
 
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 received unknown com: export CATEGORY='dev-perl' PR=r0 PVR='1.09' PV='1.09' EBUILD='/home/mgorny/repos/robbat2/dev-perl/Digest-Whirlpool/Digest-Whirlpool-1.09.ebuild' P='Digest-Whirlpool-1.09' PF='Digest-Whirlpool-1.09' PN='Digest-Whirlpool'path
-
-!!! ERROR: dev-perl/Net-Braintree-0.6.1 failed.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
 Exception in thread Thread-11:
 Traceback (most recent call last):
   File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
@@ -446,210 +475,202 @@ Traceback (most recent call last):
     raise RuntimeError(ie)
 RuntimeError: [Errno 32] Broken pipe
 
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
+!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Net-HTTPS-Any-0.10 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   GDGraph-histogram-1.1.ebuild, line   9:  Called inherit 'perl-module'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                      ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-perl/Net-IP-Match-Regexp-1.01 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
-!!!                        kernel-2.eclass, line 411:  Called detect_version
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
+!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
+
+!!! ERROR: dev-perl/Set-Crontab-1.03 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!      Exporter-Easy-0.16.ebuild, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
+!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-Coder-Yahoo/Geo-Coder-Yahoo-0.44.ebuild'
+!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/sys-kernel/vanilla-drm-next-sources/vanilla-drm-next-sources-9999.ebuild'
+!!!    Geo-Coder-Yahoo-0.44.ebuild, line   9:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
+!!!   vanilla-drm-next-sources-9999.ebuild, line  19:  Called inherit 'kernel-2' 'git'
+!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '234' 'depend'
+!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!     Net-Braintree-0.6.1.ebuild, line  10:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-TAF/Geo-TAF-1.04.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
+!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kernel-2'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
+!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '194' 'depend'
+!!!            IO-Stty-0.03.ebuild, line  10:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+
+!!! ERROR: dev-perl/Sys-SigAction-0.11 failed.
+!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   Net-IP-Match-Regexp-1.01.ebuild, line  10:  Called inherit 'perl-module'
+!!!      IPTables-IPv4-0.98.ebuild, line   9:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!      Net-HTTPS-Any-0.10.ebuild, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
+
+!!! ERROR: dev-perl/Text-Query-0.07 failed.
+!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Set-Crontab/Set-Crontab-1.03.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!          Geo-METAR-1.14.ebuild, line   6:  Called inherit 'perl-module'
+!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   Hash-Inflator-1.100820.ebuild, line  10:  Called inherit 'perl-module'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kernel-2.eclass'
+!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Set-Crontab/Set-Crontab-1.03.ebuild'
+!!!            Geo-TAF-1.04.ebuild, line   6:  Called inherit 'perl-module'
+!!!                perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Set-Crontab/Set-Crontab-1.03.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                        kernel-2.eclass, line 464:  Called kernel_is 'ge' '2' '6' '27'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                        kernel-2.eclass, line 411:  Called detect_version
+
+!!! ERROR: dev-perl/URI-Query-0.09 failed.
+!!!        Set-Crontab-1.03.ebuild, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
 !!!                        kernel-2.eclass, line 236:  Called die
 !!! The die message:
 !!!  Failed to extract kernel version (try explicit CKV in ebuild)!
-
-!!!                      ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '224' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                   ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'gen_metadata 259' for eclass perl-module
-
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-received unknown com: export CATEGORY='dev-perl' PR=r0 PVR='1.0.5' PV='1.0.5' EBUILD='/home/mgorny/repos/robbat2/dev-perl/DateTime-Format-RFC3339/DateTime-Format-RFC3339-1.0.5.ebuild' P='DateTime-Format-RFC3339-1.0.5' PF='DateTime-Format-RFC3339-1.0.5' PN='DateTime-Format-RFC3339'path
-Exception in thread Thread-13:
-Traceback (most recent call last):
-  File "/usr/lib64/python2.7/threading.py", line 810, in __bootstrap_inner
-    self.run()
-  File "/usr/lib64/python2.7/threading.py", line 763, in run
-    self.__target(*self.__args, **self.__kwargs)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/operations/regen.py", line 15, in regen_iter
-    regen_func(x)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/repository.py", line 497, in __call__
-    return pkg._fetch_metadata(ebp=self.ebp, force_regen=self.force)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 274, in _fetch_metadata
-    return self._parent._get_metadata(self, ebp=ebp, force_regen=force_regen)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 365, in _get_metadata
-    return self._update_metadata(pkg, ebp=ebp)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/ebuild_src.py", line 373, in _update_metadata
-    mydata = my_proc.get_keys(pkg, self._ecache)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 781, in get_keys
-    {"key": receive_key})
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 714, in _run_depend_like_phase
-    self.write("%s %i\n%s" % (command, len(data), data), append_newline=False)
-  File "/usr/lib64/python2.7/site-packages/pkgcore/ebuild/processor.py", line 430, in write
-    raise RuntimeError(ie)
-RuntimeError: [Errno 32] Broken pipe
-
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
-
-!!! ERROR: dev-perl/Net-SSH2-0.33 failed.
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!            Geo-TAF-1.04.ebuild, line   6:  Called inherit 'perl-module'
-!!!                      ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '264' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '209' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Exporter-Easy/Exporter-Easy-0.16.ebuild'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '234' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                      ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
-!!!              ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/GDGraph-histogram/GDGraph-histogram-1.1.ebuild'
-!!!      Exporter-Easy-0.16.ebuild, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                              ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Module-Install-TestTarget/Module-Install-TestTarget-0.19.ebuild'
-!!!                      ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!    Geo-Coder-Yahoo-0.44.ebuild, line   9:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                              ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Module-Install-TestTarget/Module-Install-TestTarget-0.19.ebuild'
-!!!                      ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Module-Install-TestTarget/Module-Install-TestTarget-0.19.ebuild'
-
-!!! ERROR: dev-perl/Switch-2.16 failed.
-!!!   GDGraph-histogram-1.1.ebuild, line   9:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Hash-Inflator/Hash-Inflator-1.100820.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
-!!!   Hash-Inflator-1.100820.ebuild, line  10:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Geo-METAR/Geo-METAR-1.14.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   Module-Install-TestTarget-0.19.ebuild, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-IP-Match-Regexp/Net-IP-Match-Regexp-1.01.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-!!!    ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-HTTPS-Any/Net-HTTPS-Any-0.10.ebuild'
-!!!            ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-Braintree/Net-Braintree-0.6.1.ebuild'
 !!!               ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!      Net-HTTPS-Any-0.10.ebuild, line  10:  Called inherit 'perl-module'
-!!!                       ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/IPTables-IPv4/IPTables-IPv4-0.98.ebuild'
-!!!     Net-Braintree-0.6.1.ebuild, line  10:  Called inherit 'perl-module'
-!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   Net-IP-Match-Regexp-1.01.ebuild, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                  isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
-!!!                      perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!          Geo-METAR-1.14.ebuild, line   6:  Called inherit 'perl-module'
-!!!      IPTables-IPv4-0.98.ebuild, line   9:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
 
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-apps/ethtool-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-wm/awesome-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DateTime-Format-Atom-1.0.2
+caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: x11-wm/awesome-9999
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Data-FormValidator-4.65
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Business-EDI-0.05
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/CGI-Application-4.31
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Business-CreditCard-0.31
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Business-ISBN-Data-20081208
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Crypt-Enigma-1.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Business-ISBN-2.05
+!!! caught exception False while processing ebuild src: dev-perl/DateTime-Format-Atom-1.0.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Acme-Damn-0.04
 ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Business-ISBN-2.05
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Authen-Captcha-1.023
+ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Bundle-InterchangeKitchenSink-1.08
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Crypt-Enigma-1.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/CGI-Application-4.31
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Business-ISBN-Data-20081208
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Business-EDI-0.05
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/DateTime-Format-RFC3339-1.0.5
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Business-OnlinePayment-3.01
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Business-CreditCard-0.31
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Class-DBI-Frozen301-3.0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
@@ -657,177 +678,184 @@ ERROR pkgcore: returned val from gen_metadata was 'False'
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Archive-Tar-Streamed-0.03
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Authen-Captcha-1.023
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Business-OnlinePayment-3.01
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Digest-Whirlpool-1.09
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-perl/Set-Crontab-1.03
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: sys-kernel/vanilla-drm-next-sources-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/DateTime-Format-RFC3339-1.0.5
-!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-perl/Sys-SigAction-0.11
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Geo-Coder-Yahoo-0.44
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Geo-TAF-1.04
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Hash-Inflator-1.100820
+!!! caught exception ("Expected command; instead got nothing from ''", None) while processing ebuild src: dev-perl/Statistics-Basic-1.6601
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/GDGraph-histogram-1.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Module-Install-TestTarget-0.19
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Exporter-Easy-0.16
-ERROR pkgcore: returned val from gen_metada!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Geo-Coder-Yahoo-0.44
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/IO-Stty-0.03
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Net-Braintree-0.6.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Net-IP-Match-Regexp-1.01
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/IPTables-IPv4-0.98
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Net-HTTPS-Any-0.10
+ERROR pkgcore: returned val from gen_metadata was 'Fal!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!          isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/IO-Stty/IO-Stty-0.03.ebuild'
-!!!            IO-Stty-0.03.ebuild, line  10:  Called inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+!!!           Net-SSH2-0.33.ebuild, line  10:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Switch/Switch-2.16.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+
+!!! ERROR: dev-perl/UUID-Tiny-1.03 failed.
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
-
-!!! ERROR: dev-perl/XML-SAX-ExpatXS-1.31 failed.
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 
 !!! ERROR: dev-perl/forks-0.33 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Net-SSH2/Net-SSH2-0.33.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Switch/Switch-2.16.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
+!!!  EAPI= is not supported by perl-module.eclass
 
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: dev-perl/XML-SAX-ExpatXS-1.31 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! Call stack:
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!           Net-SSH2-0.33.ebuild, line  10:  Called inherit 'perl-module'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-
-!!! ERROR: dev-perl/Yahoo-Search-1.10.13 failed.
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/UUID-Tiny-1.03 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/URI-Query-0.09 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Switch/Switch-2.16.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             Switch-2.16.ebuild, line  10:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-perl/local-lib-1.008004 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Sys-SigAction/Sys-SigAction-0.11.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
 !!! ERROR: dev-perl/mod_perl-2.0.5 failed.
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Sys-SigAction/Sys-SigAction-0.11.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Text-Query/Text-Query-0.07.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-perl/Yahoo-Search-1.10.13 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '162' 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Text-Query/Text-Query-0.07.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Text-Query/Text-Query-0.07.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Sys-SigAction/Sys-SigAction-0.11.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/URI-Query/URI-Query-0.09.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/URI-Query/URI-Query-0.09.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!          UUID-Tiny-1.03.ebuild, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/URI-Query/URI-Query-0.09.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
-!!!              forks-0.33.ebuild, line   9:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         Text-Query-0.07.ebuild, line  10:  Called inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/local-lib/local-lib-1.008004.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/local-lib/local-lib-1.008004.ebuild'
-!!!          URI-Query-0.09.ebuild, line  10:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/UUID-Tiny/UUID-Tiny-1.03.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!      Sys-SigAction-0.11.ebuild, line   9:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
+!!!          UUID-Tiny-1.03.ebuild, line  10:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/local-lib/local-lib-1.008004.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/URI-Query/URI-Query-0.09.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '184' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/local-lib/local-lib-1.008004.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/XML-SAX-ExpatXS/XML-SAX-ExpatXS-1.31.ebuild'
+!!!      local-lib-1.008004.ebuild, line  10:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/URI-Query/URI-Query-0.09.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!    XML-SAX-ExpatXS-1.31.ebuild, line   9:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
+!!!          URI-Query-0.09.ebuild, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/forks/forks-0.33.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/mod_perl/mod_perl-2.0.5.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              forks-0.33.ebuild, line   9:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!          mod_perl-2.0.5.ebuild, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/local-lib/local-lib-1.008004.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/robbat2/dev-perl/Yahoo-Search/Yahoo-Search-1.10.13.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
@@ -835,6 +863,11 @@ ERROR pkgcore: returned val from gen_metada!!!                 ebuild-daemon.lib
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 !!!    Yahoo-Search-1.10.13.ebuild, line   9:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
@@ -842,10 +875,7 @@ ERROR pkgcore: returned val from gen_metada!!!                 ebuild-daemon.lib
 
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!      local-lib-1.008004.ebuild, line  10:  Called inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
@@ -855,48 +885,36 @@ ERROR pkgcore: returned val from gen_metada!!!                 ebuild-daemon.lib
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
-
-ta was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/IPTables-IPv4-0.98
+se'
+!!! caught exception False while processing ebuild src: sys-kernel/vanilla-drm-next-sources-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Hash-Inflator-1.100820
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Geo-METAR-1.14
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-HTTPS-Any-0.10
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-Braintree-0.6.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/IO-Stty-0.03
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-IP-Match-Regexp-1.01
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Switch-2.16
+!!! caught exception False while processing ebuild src: dev-perl/Geo-TAF-1.04
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Net-SSH2-0.33
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/forks-0.33
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/XML-SAX-ExpatXS-1.31
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/URI-Query-0.09
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Yahoo-Search-1.10.13
+!!! caught exception False while processing ebuild src: dev-perl/Set-Crontab-1.03
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/UUID-Tiny-1.03
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/mod_perl-2.0.5
+!!! caught exception False while processing ebuild src: dev-perl/Sys-SigAction-0.11
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Text-Query-0.07
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/XML-SAX-ExpatXS-1.31
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/local-lib-1.008004
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/URI-Query-0.09
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/forks-0.33
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Yahoo-Search-1.10.13
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/mod_perl-2.0.5
 Error running an operation:
  Unhandled exception in regen_cache
  * Cache regen failed with 246
