@@ -16,45 +16,7 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/pantera31752/open-overlay
-   65f8392..241c3c6  master     -> origin/master
-Updating 65f8392..241c3c6
-Fast-forward
- app-emulation/vmware-modules/Manifest              |  10 +
- app-emulation/vmware-modules/files/304-apic.patch  |  12 +
- .../vmware-modules/files/304-kernel-4.0.patch      |  47 +++
- .../files/304-makefile-include.patch               |  40 +++
- .../files/304-makefile-kernel-dir.patch            |  51 +++
- .../vmware-modules/files/304-netdevice.patch       |  24 ++
- .../vmware-modules/files/304-vfsfollowlink.patch   |  30 ++
- .../vmware-modules/files/304-vmblock-3.14.patch    |  21 ++
- .../vmware-modules/files/304-vmblock.patch         |  36 ++
- app-emulation/vmware-modules/files/hardened.patch  | 170 +++++++++
- .../vmware-modules/vmware-modules-304.1.ebuild     |  98 ++++++
- www-client/firefox-bin/Manifest                    |   3 +
- .../firefox-bin/firefox-bin-40.0_beta2.ebuild      | 180 ++++++++++
- www-client/firefox-developer-bin/Manifest          |   3 +
- .../firefox-developer-bin-41.0_alpha2.ebuild       |  38 +++
- www-client/firefox/Manifest                        |   3 +
- www-client/firefox/firefox-40.0_beta2.ebuild       | 380 +++++++++++++++++++++
- x11-themes/mate-themes/Manifest                    |   2 +
- x11-themes/mate-themes/mate-themes-1.10.2.ebuild   |  40 +++
- 19 files changed, 1188 insertions(+)
- create mode 100644 app-emulation/vmware-modules/Manifest
- create mode 100644 app-emulation/vmware-modules/files/304-apic.patch
- create mode 100644 app-emulation/vmware-modules/files/304-kernel-4.0.patch
- create mode 100644 app-emulation/vmware-modules/files/304-makefile-include.patch
- create mode 100644 app-emulation/vmware-modules/files/304-makefile-kernel-dir.patch
- create mode 100644 app-emulation/vmware-modules/files/304-netdevice.patch
- create mode 100644 app-emulation/vmware-modules/files/304-vfsfollowlink.patch
- create mode 100644 app-emulation/vmware-modules/files/304-vmblock-3.14.patch
- create mode 100644 app-emulation/vmware-modules/files/304-vmblock.patch
- create mode 100644 app-emulation/vmware-modules/files/hardened.patch
- create mode 100644 app-emulation/vmware-modules/vmware-modules-304.1.ebuild
- create mode 100644 www-client/firefox-bin/firefox-bin-40.0_beta2.ebuild
- create mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-41.0_alpha2.ebuild
- create mode 100644 www-client/firefox/firefox-40.0_beta2.ebuild
- create mode 100644 x11-themes/mate-themes/mate-themes-1.10.2.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
