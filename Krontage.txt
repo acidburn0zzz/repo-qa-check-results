@@ -23,125 +23,125 @@ $ pmaint regen -t 2 Krontage
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: www-servers/nginx-1.2.5 failed.
-
 !!! ERROR: www-servers/nginx-1.2.6-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-php/pecl-stem-1.5.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: www-servers/nginx-1.2.1 failed.
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+
+!!! ERROR: www-servers/nginx-1.2.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '183' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
+
+!!! ERROR: dev-php/pecl-zookeeper-0.2.1 failed.
+
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! ERROR: dev-php/pecl-stem-1.5.1 failed.
+!!! Call stack:
 
 !!! ERROR: dev-php/pecl-zookeeper-0.2.2 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.6-r1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
 !!!          nginx-1.2.6-r1.ebuild, line 107:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
+!!!             nginx-1.2.1.ebuild, line  80:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.5.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
 !!!             nginx-1.2.5.ebuild, line  85:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/www-servers/nginx/nginx-1.2.1.ebuild'
-
-!!! ERROR: dev-php/pecl-zookeeper-0.2.1 failed.
-!!!             nginx-1.2.1.ebuild, line  80:  Called inherit 'eutils' 'ssl-cert' 'toolchain-funcs' 'perl-module' 'flag-o-matic' 'user'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         pecl-stem-1.5.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!    pecl-zookeeper-0.2.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '213' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.2.ebuild'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-zookeeper/pecl-zookeeper-0.2.1.ebuild'
-!!!       php-ext-source-r2.eclass, line  62:  Called die
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
-!!!  USE_PHP is not set for the php-ext-source-r2 eclass
+!!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
 !!!    pecl-zookeeper-0.2.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!    pecl-zookeeper-0.2.2.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
-!!!       php-ext-source-r2.eclass, line  62:  Called die
-!!! The die message:
-!!!  USE_PHP is not set for the php-ext-source-r2 eclass
-
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/Krontage/dev-php/pecl-stem/pecl-stem-1.5.1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
+!!!         pecl-stem-1.5.1.ebuild, line  11:  Called inherit 'php-ext-pecl-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-pecl-r2'
+!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-pecl-r2.eclass'
 !!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!       php-ext-source-r2.eclass, line  62:  Called die
+!!! The die message:
+!!!  USE_PHP is not set for the php-ext-source-r2 eclass
+
+!!!         php-ext-pecl-r2.eclass, line  51:  Called inherit 'php-ext-source-r2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-source-r2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
+!!!       php-ext-source-r2.eclass, line  62:  Called die
+!!! The die message:
+!!!  USE_PHP is not set for the php-ext-source-r2 eclass
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/php-ext-source-r2.eclass'
 !!!       php-ext-source-r2.eclass, line  62:  Called die
@@ -151,13 +151,13 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/nginx-1.2.6-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: www-servers/nginx-1.2.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-php/pecl-stem-1.5.1
+!!! caught exception False while processing ebuild src: www-servers/nginx-1.2.5
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-php/pecl-zookeeper-0.2.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-php/pecl-zookeeper-0.2.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-php/pecl-stem-1.5.1
  * Cache regenerated successfully
