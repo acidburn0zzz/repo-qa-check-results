@@ -25,104 +25,104 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! ERROR: sys-fs/fusecompress-2.6 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
 !!! ERROR: dev-db/mysql-5.1.47 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 
 !!! ERROR: dev-db/percona-toolkit-2.2.5 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: dev-db/maatkit-7540 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
 
-!!! ERROR: dev-db/maatkit-7540 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-
-!!! Call stack:
 !!! ERROR: dev-db/percona-toolkit-2.2.6 failed.
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
  * 
  * "/home/mgorny/repos/kormoc/media-tv/miro/miro-2.5.2.ebuild":
  * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
  * for multiple Python ABIs in EAPI <=2 is deprecated.
  * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
  * 
-!!!        fusecompress-2.6.ebuild, line   4:  Called inherit 'git'
-!!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
+!!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
+!!!        fusecompress-2.6.ebuild, line   4:  Called inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 !!!   percona-toolkit-2.2.6.ebuild, line   5:  Called inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
@@ -137,9 +137,9 @@ Sandboxed process killed by signal: Broken pipe
 !!! caught exception Metadata Exception: pkg ebuild src: media-tv/miro-2.5.2, attr eapi
 error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/miro-2.5.2
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
+!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-db/maatkit-7540
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
+!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
  * Cache regenerated successfully
