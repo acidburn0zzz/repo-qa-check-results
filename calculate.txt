@@ -14,9 +14,14 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   7af5de3..0dec196  develop    -> origin/develop
-   7af5de3..0dec196  update     -> origin/update
-Already up-to-date.
+   c0df0f3..0dec196  master     -> origin/master
+Updating c0df0f3..0dec196
+Fast-forward
+ profiles/base/desktop/package.keywords/default | 3 ++-
+ profiles/base/desktop/package.keywords/qt5     | 9 ++++++++-
+ profiles/base/desktop/package.use/default      | 3 +++
+ profiles/base/make.defaults                    | 2 +-
+ 4 files changed, 14 insertions(+), 3 deletions(-)
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
