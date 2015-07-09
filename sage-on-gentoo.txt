@@ -13,26 +13,26 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/cschwan/sage-on-gentoo
-   902e608..e3c370f  master     -> origin/master
-Updating 902e608..e3c370f
+   e3c370f..c13748c  master     -> origin/master
+Updating e3c370f..c13748c
 Fast-forward
- dev-libs/ntl/ChangeLog                             |  11 +-
- dev-libs/ntl/Manifest                              |   1 +
- dev-libs/ntl/files/ntl-9.2.0-sage-callback.patch   |  67 +++++++++
- .../ntl/files/ntl-9.2.0-sanitize-makefile.patch    | 160 +++++++++++++++++++++
- dev-libs/ntl/files/ntl-9.2.0-singular.patch        |  13 ++
- dev-libs/ntl/files/ntl-9.2.0-sp_arith.patch        |  14 ++
- dev-libs/ntl/ntl-6.2.1.ebuild                      |   4 +-
- dev-libs/ntl/ntl-9.2.0.ebuild                      |  86 +++++++++++
- 8 files changed, 353 insertions(+), 3 deletions(-)
- create mode 100644 dev-libs/ntl/files/ntl-9.2.0-sage-callback.patch
- create mode 100644 dev-libs/ntl/files/ntl-9.2.0-sanitize-makefile.patch
- create mode 100644 dev-libs/ntl/files/ntl-9.2.0-singular.patch
- create mode 100644 dev-libs/ntl/files/ntl-9.2.0-sp_arith.patch
- create mode 100644 dev-libs/ntl/ntl-9.2.0.ebuild
+ sci-libs/libsingular/ChangeLog                     |   6 +
+ .../libsingular/files/singular-3.1.7-ntl8.patch    |   1 +
+ .../libsingular/libsingular-3.1.7_p1-r5.ebuild     | 170 ++++++++++++++++++++
+ sci-mathematics/singular/ChangeLog                 |   8 +
+ .../singular/files/singular-3.1.7-ntl8.patch       |  47 ++++++
+ .../singular/singular-3.1.7_p1-r2.ebuild           |   2 +-
+ .../singular/singular-3.1.7_p1-r3.ebuild           | 175 +++++++++++++++++++++
+ 7 files changed, 408 insertions(+), 1 deletion(-)
+ create mode 120000 sci-libs/libsingular/files/singular-3.1.7-ntl8.patch
+ create mode 100644 sci-libs/libsingular/libsingular-3.1.7_p1-r5.ebuild
+ create mode 100644 sci-mathematics/singular/files/singular-3.1.7-ntl8.patch
+ create mode 100644 sci-mathematics/singular/singular-3.1.7_p1-r3.ebuild
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
