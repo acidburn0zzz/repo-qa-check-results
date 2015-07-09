@@ -17,47 +17,44 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   f99b33a..65f8392  master     -> origin/master
-Updating f99b33a..65f8392
+   65f8392..241c3c6  master     -> origin/master
+Updating 65f8392..241c3c6
 Fast-forward
- dev-libs/libressl/Manifest                         |   2 +
- dev-libs/libressl/libressl-2.2.1.ebuild            |  57 +++++
- gnome-extra/cinnamon-translations/Manifest         |   2 +
- .../cinnamon-translations-2.6.3.ebuild             |  37 +++
- gnome-extra/cinnamon/Manifest                      |   8 +
- gnome-extra/cinnamon/cinnamon-2.6.12.ebuild        | 256 +++++++++++++++++++++
- .../cinnamon-2.2.6-automagic-gnome-bluetooth.patch |  44 ++++
- .../cinnamon/files/cinnamon-2.4.5-background.patch |  26 +++
- .../cinnamon/files/cinnamon-2.4.5-gnome-3.14.patch |  43 ++++
- .../cinnamon-2.6.7-optional-networkmanager.patch   |  88 +++++++
- .../cinnamon/files/cinnamon-2.6.7-set-wheel.patch  |  73 ++++++
- .../polkit-cinnamon-authentication-agent-1.desktop |   9 +
- gnome-extra/cjs/Manifest                           |   5 +
- gnome-extra/cjs/cjs-2.6.2.ebuild                   |  73 ++++++
- .../cjs/files/cjs-2.4.0-disable-unittest-1.patch   |  48 ++++
- .../cjs/files/cjs-2.4.0-disable-unittest-2.patch   |  40 ++++
- .../cjs/files/cjs-2.4.0-disable-unittest-3.patch   |  35 +++
- gnome-extra/nemo/Manifest                          |   2 +
- gnome-extra/nemo/nemo-2.6.7.ebuild                 |  87 +++++++
- 19 files changed, 935 insertions(+)
- create mode 100644 dev-libs/libressl/libressl-2.2.1.ebuild
- create mode 100644 gnome-extra/cinnamon-translations/Manifest
- create mode 100644 gnome-extra/cinnamon-translations/cinnamon-translations-2.6.3.ebuild
- create mode 100644 gnome-extra/cinnamon/Manifest
- create mode 100644 gnome-extra/cinnamon/cinnamon-2.6.12.ebuild
- create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.2.6-automagic-gnome-bluetooth.patch
- create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.4.5-background.patch
- create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.4.5-gnome-3.14.patch
- create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.6.7-optional-networkmanager.patch
- create mode 100644 gnome-extra/cinnamon/files/cinnamon-2.6.7-set-wheel.patch
- create mode 100644 gnome-extra/cinnamon/files/polkit-cinnamon-authentication-agent-1.desktop
- create mode 100644 gnome-extra/cjs/Manifest
- create mode 100644 gnome-extra/cjs/cjs-2.6.2.ebuild
- create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-1.patch
- create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-2.patch
- create mode 100644 gnome-extra/cjs/files/cjs-2.4.0-disable-unittest-3.patch
- create mode 100644 gnome-extra/nemo/Manifest
- create mode 100644 gnome-extra/nemo/nemo-2.6.7.ebuild
+ app-emulation/vmware-modules/Manifest              |  10 +
+ app-emulation/vmware-modules/files/304-apic.patch  |  12 +
+ .../vmware-modules/files/304-kernel-4.0.patch      |  47 +++
+ .../files/304-makefile-include.patch               |  40 +++
+ .../files/304-makefile-kernel-dir.patch            |  51 +++
+ .../vmware-modules/files/304-netdevice.patch       |  24 ++
+ .../vmware-modules/files/304-vfsfollowlink.patch   |  30 ++
+ .../vmware-modules/files/304-vmblock-3.14.patch    |  21 ++
+ .../vmware-modules/files/304-vmblock.patch         |  36 ++
+ app-emulation/vmware-modules/files/hardened.patch  | 170 +++++++++
+ .../vmware-modules/vmware-modules-304.1.ebuild     |  98 ++++++
+ www-client/firefox-bin/Manifest                    |   3 +
+ .../firefox-bin/firefox-bin-40.0_beta2.ebuild      | 180 ++++++++++
+ www-client/firefox-developer-bin/Manifest          |   3 +
+ .../firefox-developer-bin-41.0_alpha2.ebuild       |  38 +++
+ www-client/firefox/Manifest                        |   3 +
+ www-client/firefox/firefox-40.0_beta2.ebuild       | 380 +++++++++++++++++++++
+ x11-themes/mate-themes/Manifest                    |   2 +
+ x11-themes/mate-themes/mate-themes-1.10.2.ebuild   |  40 +++
+ 19 files changed, 1188 insertions(+)
+ create mode 100644 app-emulation/vmware-modules/Manifest
+ create mode 100644 app-emulation/vmware-modules/files/304-apic.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-kernel-4.0.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-makefile-include.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-makefile-kernel-dir.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-netdevice.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vfsfollowlink.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vmblock-3.14.patch
+ create mode 100644 app-emulation/vmware-modules/files/304-vmblock.patch
+ create mode 100644 app-emulation/vmware-modules/files/hardened.patch
+ create mode 100644 app-emulation/vmware-modules/vmware-modules-304.1.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-40.0_beta2.ebuild
+ create mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-41.0_alpha2.ebuild
+ create mode 100644 www-client/firefox/firefox-40.0_beta2.ebuild
+ create mode 100644 x11-themes/mate-themes/mate-themes-1.10.2.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
