@@ -17,13 +17,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
 http://bazaar.launchpad.net/~bzr-gentoo-team/bzr-gentoo-overlay/overlay-main is permanently redirected to http://bazaar.launchpad.net/~bzr-gentoo-team/bzr-gentoo-overlay/overlay-main/changes
+bzr: ERROR: Invalid http response for https://xmlrpc.launchpad.net/bazaar/: Unable to handle http code 502: Bad Gateway
+*** syncing '/home/mgorny/repos/bazaar'...
+*** failed syncing '/home/mgorny/repos/bazaar'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/bazaar
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
-No revisions or tags to pull.
+Branched 379 revisions.
 *** syncing '/home/mgorny/repos/bazaar'...
 *** synced '/home/mgorny/repos/bazaar'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 bazaar
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * 
+ * "/home/mgorny/repos/bazaar/www-apps/trac-bzr/trac-bzr-0.4.2.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
  * Cache regenerated successfully
