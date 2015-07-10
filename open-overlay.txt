@@ -17,13 +17,27 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   13ab7d9..bdb9a63  master     -> origin/master
-Updating 13ab7d9..bdb9a63
+   bdb9a63..cc81858  master     -> origin/master
+Updating bdb9a63..cc81858
 Fast-forward
- www-client/firefox/Manifest                  |   2 +
- www-client/firefox/firefox-40.0_beta3.ebuild | 380 +++++++++++++++++++++++++++
- 2 files changed, 382 insertions(+)
- create mode 100644 www-client/firefox/firefox-40.0_beta3.ebuild
+ sys-kernel/gen-sources/Manifest                    |   2 +
+ sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild  |  46 ++++++
+ sys-kernel/vanilla-sources/Manifest                |  12 ++
+ .../vanilla-sources/vanilla-sources-3.10.84.ebuild |  18 +++
+ .../vanilla-sources/vanilla-sources-3.14.48.ebuild |  18 +++
+ .../vanilla-sources/vanilla-sources-3.18.8.ebuild  |  17 ++
+ .../vanilla-sources/vanilla-sources-4.0.8.ebuild   |  18 +++
+ .../vanilla-sources/vanilla-sources-4.1.2.ebuild   |  18 +++
+ www-client/firefox-bin/Manifest                    |   3 +
+ .../firefox-bin/firefox-bin-40.0_beta3.ebuild      | 180 +++++++++++++++++++++
+ 10 files changed, 332 insertions(+)
+ create mode 100644 sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.10.84.ebuild
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.14.48.ebuild
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.18.8.ebuild
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.8.ebuild
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.1.2.ebuild
+ create mode 100644 www-client/firefox-bin/firefox-bin-40.0_beta3.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

@@ -14,53 +14,7 @@
 $ pmaint sync /home/mgorny/repos/distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/distros
-   905a111..6b484d3  master     -> origin/master
-   905a111..6b484d3  update     -> origin/update
-Updating 905a111..6b484d3
-Fast-forward
- profiles/CLDM/amd64/parent                         |  2 ++
- profiles/CLDM/calculate.env                        |  4 ++++
- profiles/CLDM/make.defaults                        |  4 ++++
- profiles/CLDM/package.use                          |  4 ++++
- profiles/CLDM/parent                               |  1 +
- profiles/CLDM/x86/parent                           |  2 ++
- profiles/CLSM/make.defaults                        |  4 ++--
- profiles/profiles.desc                             |  2 ++
- .../templates/3.2/6_ac_update_sync/world/0-ini     |  2 +-
- .../3.2/6_ac_update_sync/world/create/applications |  4 ++--
- .../3.2/6_ac_update_sync/world/create/decoration   | 20 ++++++++++++--------
- .../world/create/{dicts => dicts+}                 |  0
- .../world/create/{drivers => drivers+}             |  0
- .../world/create/{emulation => emulation+}         |  0
- .../world/create/{games => games+}                 |  0
- .../3.2/6_ac_update_sync/world/create/graphics     |  4 ++--
- .../6_ac_update_sync/world/create/{lib => lib+}    |  0
- .../3.2/6_ac_update_sync/world/create/mate         |  2 +-
- .../3.2/6_ac_update_sync/world/create/multimedia   | 14 +++++++-------
- .../3.2/6_ac_update_sync/world/create/netapps      |  8 ++++----
- .../3.2/6_ac_update_sync/world/create/network      | 13 +++++--------
- .../3.2/6_ac_update_sync/world/create/printer      |  4 ++--
- .../3.2/6_ac_update_sync/world/create/server       |  2 +-
- .../3.2/6_ac_update_sync/world/create/tools        | 22 +++++++++++-----------
- .../3.2/6_ac_update_sync/world/create/wireless     |  4 ++--
- .../3.2/6_ac_update_sync/world/create/{wm => wm+}  |  0
- .../3.2/6_ac_update_sync/world/create/xorg         |  4 ++--
- .../templates/3.2/6_ac_update_sync/world/update/73 | 12 ++++++++++++
- 28 files changed, 85 insertions(+), 53 deletions(-)
- create mode 100644 profiles/CLDM/amd64/parent
- create mode 100644 profiles/CLDM/calculate.env
- create mode 100644 profiles/CLDM/make.defaults
- create mode 100644 profiles/CLDM/package.use
- create mode 100644 profiles/CLDM/parent
- create mode 100644 profiles/CLDM/x86/parent
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{dicts => dicts+} (100%)
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{drivers => drivers+} (100%)
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{emulation => emulation+} (100%)
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{games => games+} (100%)
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{lib => lib+} (100%)
- rename profiles/templates/3.2/6_ac_update_sync/world/create/{wm => wm+} (100%)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/73
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
