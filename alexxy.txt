@@ -16,25 +16,11 @@
 $ pmaint sync /home/mgorny/repos/alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing '/home/mgorny/repos/alexxy'...
-*** failed syncing '/home/mgorny/repos/alexxy'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/alexxy
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/alexxy'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/alexxy'...
 *** synced '/home/mgorny/repos/alexxy'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 alexxy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sci-chemistry/gromacs-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
