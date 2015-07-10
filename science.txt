@@ -18,10 +18,57 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/science
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   33cea93..2fbef18  master     -> origin/master
+Updating 33cea93..2fbef18
+Fast-forward
+ dev-java/jeuclid-core/ChangeLog                    |    4 +
+ dev-java/jeuclid-core/jeuclid-core-3.1.9-r1.ebuild |    2 +-
+ dev-java/jlatexmath-fop/ChangeLog                  |    6 +-
+ .../jlatexmath-fop/jlatexmath-fop-1.0.3.ebuild     |    8 +-
+ dev-python/pylibconfig2/ChangeLog                  |   13 +
+ dev-python/pylibconfig2/Manifest                   |    1 +
+ dev-python/pylibconfig2/metadata.xml               |   18 +
+ dev-python/pylibconfig2/pylibconfig2-0.2.3.ebuild  |   21 +
+ dev-python/pylibconfig2/pylibconfig2-9999.ebuild   |   27 +
+ dev-util/nvidia-cuda-sdk/ChangeLog                 |    9 +
+ dev-util/nvidia-cuda-sdk/Manifest                  |    1 +
+ dev-util/nvidia-cuda-sdk/metadata.xml              |   13 +
+ .../nvidia-cuda-sdk/nvidia-cuda-sdk-7.5.7.ebuild   |  151 ++
+ dev-util/nvidia-cuda-toolkit/ChangeLog             |    9 +
+ dev-util/nvidia-cuda-toolkit/Manifest              |    1 +
+ dev-util/nvidia-cuda-toolkit/files/cuda-config.in  |   28 +
+ dev-util/nvidia-cuda-toolkit/metadata.xml          |   14 +
+ .../nvidia-cuda-toolkit-7.5.7.ebuild               |  152 ++
+ licenses/NVIDIA-CUDA                               | 2297 ++++++++++++++++++++
+ profiles/license_groups                            |    2 +-
+ sci-libs/dealii/ChangeLog                          |    3 +
+ sci-libs/dealii/dealii-9999.ebuild                 |    1 +
+ sci-libs/nipype/ChangeLog                          |    3 +
+ sci-libs/nipype/nipype-9999.ebuild                 |    1 +
+ sci-mathematics/scilab/ChangeLog                   |    3 +
+ sci-mathematics/scilab/scilab-5.5.2.ebuild         |    4 +-
+ sci-visualization/mayavi/ChangeLog                 |    5 +
+ sci-visualization/mayavi/Manifest                  |    1 +
+ sci-visualization/mayavi/mayavi-4.4.2.ebuild       |   69 +
+ 29 files changed, 2858 insertions(+), 9 deletions(-)
+ create mode 100644 dev-python/pylibconfig2/ChangeLog
+ create mode 100644 dev-python/pylibconfig2/Manifest
+ create mode 100644 dev-python/pylibconfig2/metadata.xml
+ create mode 100644 dev-python/pylibconfig2/pylibconfig2-0.2.3.ebuild
+ create mode 100644 dev-python/pylibconfig2/pylibconfig2-9999.ebuild
+ create mode 100644 dev-util/nvidia-cuda-sdk/ChangeLog
+ create mode 100644 dev-util/nvidia-cuda-sdk/Manifest
+ create mode 100644 dev-util/nvidia-cuda-sdk/metadata.xml
+ create mode 100644 dev-util/nvidia-cuda-sdk/nvidia-cuda-sdk-7.5.7.ebuild
+ create mode 100644 dev-util/nvidia-cuda-toolkit/ChangeLog
+ create mode 100644 dev-util/nvidia-cuda-toolkit/Manifest
+ create mode 100644 dev-util/nvidia-cuda-toolkit/files/cuda-config.in
+ create mode 100644 dev-util/nvidia-cuda-toolkit/metadata.xml
+ create mode 100644 dev-util/nvidia-cuda-toolkit/nvidia-cuda-toolkit-7.5.7.ebuild
+ create mode 100644 licenses/NVIDIA-CUDA
+ create mode 100644 sci-visualization/mayavi/mayavi-4.4.2.ebuild
 *** syncing '/home/mgorny/repos/science'...
 *** synced '/home/mgorny/repos/science'
  * Sync succeeded
