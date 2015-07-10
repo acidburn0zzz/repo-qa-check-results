@@ -13,33 +13,7 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   d80f642..008ea33  master     -> origin/master
-   008ea33..2ef049f  develop    -> origin/develop
-   59d58ab..008ea33  update     -> origin/update
-Updating d80f642..008ea33
-Fast-forward
- .../empty_dir/Desktop/.calculate_directory         |   1 +
- .../2-user/mate-base/.calculate_directory          |   1 +
- .../2-user/mate-base/MATE-1.8/.calculate_directory |   1 +
- .../2-user/mate-base/MATE-1.8/ini.env              |   7 ++
- .../2-user/mate-base/MATE-1.8/mate                 |  28 +++++
- .../2-user/mate-base/MATE-1.8/panel                | 118 +++++++++++++++++++++
- .../2-user/mate-base/MATE-1.8/terminal             |   7 ++
- .../calculate-assemble-2.2.32-r9.ebuild            |  45 ++++++++
- ...lculate-assemble-2.2.32-remove_nvidia_304.patch |  14 +++
- .../calculate-utils-2.2.32-r26.ebuild              |  30 ++++++
- 10 files changed, 252 insertions(+)
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/1-user-init/empty_dir/Desktop/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/ini.env
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/mate
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/panel
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/terminal
- create mode 100644 sys-apps/calculate-assemble/calculate-assemble-2.2.32-r9.ebuild
- create mode 100644 sys-apps/calculate-assemble/files/calculate-assemble-2.2.32-remove_nvidia_304.patch
- create mode 100644 sys-apps/calculate-utils/calculate-utils-2.2.32-r26.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
