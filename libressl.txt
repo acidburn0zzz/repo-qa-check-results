@@ -16,28 +16,8 @@ $ pmaint sync /home/mgorny/repos/libressl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/gentoo/libressl
-   c329fc0..8c60ec2  master     -> origin/master
-Updating c329fc0..8c60ec2
-Fast-forward
- app-crypt/johntheripper/Manifest                   |   2 +
- .../johntheripper-1.7.3.1-mkdir-sandbox.patch      |  12 +
- .../files/johntheripper-1.7.6-cflags.patch         |  83 +++++++
- .../files/johntheripper-1.7.9-libressl.patch       |  78 ++++++
- .../johntheripper-1.7.9-ppc-compile-fix.patch      |  17 ++
- .../johntheripper/johntheripper-1.7.9-r10.ebuild   | 267 +++++++++++++++++++++
- app-crypt/johntheripper/metadata.xml               |  15 ++
- dev-libs/openssl/openssl-1.0.1p.ebuild             |  20 ++
- dev-libs/openssl/openssl-1.0.2d.ebuild             |  20 ++
- 9 files changed, 514 insertions(+)
- create mode 100644 app-crypt/johntheripper/Manifest
- create mode 100644 app-crypt/johntheripper/files/johntheripper-1.7.3.1-mkdir-sandbox.patch
- create mode 100644 app-crypt/johntheripper/files/johntheripper-1.7.6-cflags.patch
- create mode 100644 app-crypt/johntheripper/files/johntheripper-1.7.9-libressl.patch
- create mode 100644 app-crypt/johntheripper/files/johntheripper-1.7.9-ppc-compile-fix.patch
- create mode 100644 app-crypt/johntheripper/johntheripper-1.7.9-r10.ebuild
- create mode 100644 app-crypt/johntheripper/metadata.xml
- create mode 100644 dev-libs/openssl/openssl-1.0.1p.ebuild
- create mode 100644 dev-libs/openssl/openssl-1.0.2d.ebuild
+   f12c53b..de3bf89  ca         -> origin/ca
+Already up-to-date.
 *** syncing '/home/mgorny/repos/libressl'...
 *** synced '/home/mgorny/repos/libressl'
  * Sync succeeded
