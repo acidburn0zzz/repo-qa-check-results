@@ -48,61 +48,81 @@
 </pre></td></tr>
             <tr class="" id="l19"><td><a href="#l19"><span>19</span></a></td><td><pre>From git://github.com/pantera31752/open-overlay
 </pre></td></tr>
-            <tr class="" id="l20"><td><a href="#l20"><span>20</span></a></td><td><pre>   bdb9a63..cc81858  master     -&gt; origin/master
+            <tr class="" id="l20"><td><a href="#l20"><span>20</span></a></td><td><pre>   cc81858..164ed83  master     -&gt; origin/master
 </pre></td></tr>
-            <tr class="" id="l21"><td><a href="#l21"><span>21</span></a></td><td><pre>Updating bdb9a63..cc81858
+            <tr class="" id="l21"><td><a href="#l21"><span>21</span></a></td><td><pre>Updating cc81858..164ed83
 </pre></td></tr>
             <tr class="" id="l22"><td><a href="#l22"><span>22</span></a></td><td><pre>Fast-forward
 </pre></td></tr>
-            <tr class="" id="l23"><td><a href="#l23"><span>23</span></a></td><td><pre> sys-kernel/gen-sources/Manifest                    |   2 +
+            <tr class="" id="l23"><td><a href="#l23"><span>23</span></a></td><td><pre> www-client/tor-browser/Manifest                    |   4 +
 </pre></td></tr>
-            <tr class="" id="l24"><td><a href="#l24"><span>24</span></a></td><td><pre> sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild  |  46 ++++++
+            <tr class="" id="l24"><td><a href="#l24"><span>24</span></a></td><td><pre> .../tor-browser/files/tor-browser-4.5.3.desktop    |  10 +
 </pre></td></tr>
-            <tr class="" id="l25"><td><a href="#l25"><span>25</span></a></td><td><pre> sys-kernel/vanilla-sources/Manifest                |  12 ++
+            <tr class="" id="l25"><td><a href="#l25"><span>25</span></a></td><td><pre> www-client/tor-browser/tor-browser-4.5.3.ebuild    |  90 ++++++++
 </pre></td></tr>
-            <tr class="" id="l26"><td><a href="#l26"><span>26</span></a></td><td><pre> .../vanilla-sources/vanilla-sources-3.10.84.ebuild |  18 +++
+            <tr class="" id="l26"><td><a href="#l26"><span>26</span></a></td><td><pre> x11-drivers/xf86-video-virtualbox/Manifest         |  11 +
 </pre></td></tr>
-            <tr class="" id="l27"><td><a href="#l27"><span>27</span></a></td><td><pre> .../vanilla-sources/vanilla-sources-3.14.48.ebuild |  18 +++
+            <tr class="" id="l27"><td><a href="#l27"><span>27</span></a></td><td><pre> ...xf86-video-virtualbox-2.2.0-enable-opengl.patch |  13 ++
 </pre></td></tr>
-            <tr class="" id="l28"><td><a href="#l28"><span>28</span></a></td><td><pre> .../vanilla-sources/vanilla-sources-3.18.8.ebuild  |  17 ++
+            <tr class="" id="l28"><td><a href="#l28"><span>28</span></a></td><td><pre> .../files/xf86-video-virtualbox-3-localconfig      |  30 +++
 </pre></td></tr>
-            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre> .../vanilla-sources/vanilla-sources-4.0.8.ebuild   |  18 +++
+            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre> .../xf86-video-virtualbox-3-vboxvideo_drm.makefile | 240 +++++++++++++++++++++
 </pre></td></tr>
-            <tr class="" id="l30"><td><a href="#l30"><span>30</span></a></td><td><pre> .../vanilla-sources/vanilla-sources-4.1.2.ebuild   |  18 +++
+            <tr class="" id="l30"><td><a href="#l30"><span>30</span></a></td><td><pre> .../xf86-video-virtualbox-3.2.8-mesa-check.patch   |  36 ++++
 </pre></td></tr>
-            <tr class="" id="l31"><td><a href="#l31"><span>31</span></a></td><td><pre> www-client/firefox-bin/Manifest                    |   3 +
+            <tr class="" id="l31"><td><a href="#l31"><span>31</span></a></td><td><pre> .../xf86-video-virtualbox-4-makeself-check.patch   |  10 +
 </pre></td></tr>
-            <tr class="" id="l32"><td><a href="#l32"><span>32</span></a></td><td><pre> .../firefox-bin/firefox-bin-40.0_beta3.ebuild      | 180 +++++++++++++++++++++
+            <tr class="" id="l32"><td><a href="#l32"><span>32</span></a></td><td><pre> .../xf86-video-virtualbox-4-mkisofs-check.patch    |  10 +
 </pre></td></tr>
-            <tr class="" id="l33"><td><a href="#l33"><span>33</span></a></td><td><pre> 10 files changed, 332 insertions(+)
+            <tr class="" id="l33"><td><a href="#l33"><span>33</span></a></td><td><pre> .../xf86-video-virtualbox-4.3.6-link-lazy.patch    |  17 ++
 </pre></td></tr>
-            <tr class="" id="l34"><td><a href="#l34"><span>34</span></a></td><td><pre> create mode 100644 sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild
+            <tr class="" id="l34"><td><a href="#l34"><span>34</span></a></td><td><pre> ...o-virtualbox-4.3.8-vboxvideo_compilefixes.patch |  31 +++
 </pre></td></tr>
-            <tr class="" id="l35"><td><a href="#l35"><span>35</span></a></td><td><pre> create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.10.84.ebuild
+            <tr class="" id="l35"><td><a href="#l35"><span>35</span></a></td><td><pre> .../files/xf86-video-virtualbox-link-lazy.patch    |  16 ++
 </pre></td></tr>
-            <tr class="" id="l36"><td><a href="#l36"><span>36</span></a></td><td><pre> create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.14.48.ebuild
+            <tr class="" id="l36"><td><a href="#l36"><span>36</span></a></td><td><pre> .../xf86-video-virtualbox-4.3.12.ebuild            | 162 ++++++++++++++
 </pre></td></tr>
-            <tr class="" id="l37"><td><a href="#l37"><span>37</span></a></td><td><pre> create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.18.8.ebuild
+            <tr class="" id="l37"><td><a href="#l37"><span>37</span></a></td><td><pre> 14 files changed, 680 insertions(+)
 </pre></td></tr>
-            <tr class="" id="l38"><td><a href="#l38"><span>38</span></a></td><td><pre> create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.8.ebuild
+            <tr class="" id="l38"><td><a href="#l38"><span>38</span></a></td><td><pre> create mode 100644 www-client/tor-browser/files/tor-browser-4.5.3.desktop
 </pre></td></tr>
-            <tr class="" id="l39"><td><a href="#l39"><span>39</span></a></td><td><pre> create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.1.2.ebuild
+            <tr class="" id="l39"><td><a href="#l39"><span>39</span></a></td><td><pre> create mode 100644 www-client/tor-browser/tor-browser-4.5.3.ebuild
 </pre></td></tr>
-            <tr class="" id="l40"><td><a href="#l40"><span>40</span></a></td><td><pre> create mode 100644 www-client/firefox-bin/firefox-bin-40.0_beta3.ebuild
+            <tr class="" id="l40"><td><a href="#l40"><span>40</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/Manifest
 </pre></td></tr>
-            <tr class="" id="l41"><td><a href="#l41"><span>41</span></a></td><td><pre>*** syncing '/home/mgorny/repos/open-overlay'...
+            <tr class="" id="l41"><td><a href="#l41"><span>41</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-2.2.0-enable-opengl.patch
 </pre></td></tr>
-            <tr class="" id="l42"><td><a href="#l42"><span>42</span></a></td><td><pre>*** synced '/home/mgorny/repos/open-overlay'
+            <tr class="" id="l42"><td><a href="#l42"><span>42</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-localconfig
 </pre></td></tr>
-            <tr class="" id="l43"><td><a href="#l43"><span>43</span></a></td><td><pre> * Sync succeeded
+            <tr class="" id="l43"><td><a href="#l43"><span>43</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-vboxvideo_drm.makefile
 </pre></td></tr>
-            <tr class="" id="l44"><td><a href="#l44"><span>44</span></a></td><td><pre>$ pmaint regen -t 2 open-overlay
+            <tr class="" id="l44"><td><a href="#l44"><span>44</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3.2.8-mesa-check.patch
 </pre></td></tr>
-            <tr class="" id="l45"><td><a href="#l45"><span>45</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+            <tr class="" id="l45"><td><a href="#l45"><span>45</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-makeself-check.patch
 </pre></td></tr>
-            <tr class="" id="l46"><td><a href="#l46"><span>46</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+            <tr class="" id="l46"><td><a href="#l46"><span>46</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-mkisofs-check.patch
 </pre></td></tr>
-            <tr class="" id="l47"><td><a href="#l47"><span>47</span></a></td><td><pre> * Cache regenerated successfully
+            <tr class="" id="l47"><td><a href="#l47"><span>47</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.6-link-lazy.patch
+</pre></td></tr>
+            <tr class="" id="l48"><td><a href="#l48"><span>48</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.8-vboxvideo_compilefixes.patch
+</pre></td></tr>
+            <tr class="" id="l49"><td><a href="#l49"><span>49</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-link-lazy.patch
+</pre></td></tr>
+            <tr class="" id="l50"><td><a href="#l50"><span>50</span></a></td><td><pre> create mode 100644 x11-drivers/xf86-video-virtualbox/xf86-video-virtualbox-4.3.12.ebuild
+</pre></td></tr>
+            <tr class="" id="l51"><td><a href="#l51"><span>51</span></a></td><td><pre>*** syncing '/home/mgorny/repos/open-overlay'...
+</pre></td></tr>
+            <tr class="" id="l52"><td><a href="#l52"><span>52</span></a></td><td><pre>*** synced '/home/mgorny/repos/open-overlay'
+</pre></td></tr>
+            <tr class="" id="l53"><td><a href="#l53"><span>53</span></a></td><td><pre> * Sync succeeded
+</pre></td></tr>
+            <tr class="" id="l54"><td><a href="#l54"><span>54</span></a></td><td><pre>$ pmaint regen -t 2 open-overlay
+</pre></td></tr>
+            <tr class="" id="l55"><td><a href="#l55"><span>55</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+</pre></td></tr>
+            <tr class="" id="l56"><td><a href="#l56"><span>56</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+</pre></td></tr>
+            <tr class="" id="l57"><td><a href="#l57"><span>57</span></a></td><td><pre> * Cache regenerated successfully
 </pre></td></tr>
 
         </table>
