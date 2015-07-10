@@ -17,7 +17,20 @@
 $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   30e9f52..43f5a8b  master     -> origin/master
+Updating 30e9f52..43f5a8b
+Fast-forward
+ .../kmix/files/kmix-15.04.2-alsa-optional.patch    | 26 ++++++++++++++++++++++
+ kde-frameworks/kauth/kauth-5.12.0.ebuild           |  2 +-
+ kde-frameworks/kauth/kauth-9999.ebuild             |  2 +-
+ kde-plasma/plasma-desktop/metadata.xml             |  1 +
+ .../plasma-desktop/plasma-desktop-9999.ebuild      | 12 ++++------
+ net-libs/signond/files/signond-8.57-qt55.patch     | 24 ++++++++++++++++++++
+ net-libs/signond/signond-8.57.ebuild               |  2 ++
+ 7 files changed, 59 insertions(+), 10 deletions(-)
+ create mode 100644 kde-apps/kmix/files/kmix-15.04.2-alsa-optional.patch
+ create mode 100644 net-libs/signond/files/signond-8.57-qt55.patch
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
