@@ -15,7 +15,19 @@
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   c13748c..fa33cc0  master     -> origin/master
+Updating c13748c..fa33cc0
+Fast-forward
+ dev-libs/ntl/ChangeLog                              |  7 +++++++
+ dev-libs/ntl/Manifest                               |  2 +-
+ dev-libs/ntl/files/ntl-9.2.0-singular.patch         | 13 -------------
+ dev-libs/ntl/files/ntl-9.2.0-sp_arith.patch         | 14 --------------
+ dev-libs/ntl/{ntl-9.2.0.ebuild => ntl-9.3.0.ebuild} |  6 +-----
+ 5 files changed, 9 insertions(+), 33 deletions(-)
+ delete mode 100644 dev-libs/ntl/files/ntl-9.2.0-singular.patch
+ delete mode 100644 dev-libs/ntl/files/ntl-9.2.0-sp_arith.patch
+ rename dev-libs/ntl/{ntl-9.2.0.ebuild => ntl-9.3.0.ebuild} (89%)
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
