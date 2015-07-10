@@ -16,7 +16,39 @@
 $ pmaint sync /home/mgorny/repos/graaff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/graaff
+   60aef33..a6e0319  master     -> origin/master
+Updating 60aef33..a6e0319
+Fast-forward
+ dev-ruby/rsi/ChangeLog                         | 25 -----------
+ dev-ruby/rsi/Manifest                          | 17 -------
+ dev-ruby/rsi/files/rsi-0.4-fix-and-query.patch | 15 -------
+ dev-ruby/rsi/files/rsi-0.4-fix-logger.patch    | 12 -----
+ dev-ruby/rsi/metadata.xml                      |  6 ---
+ dev-ruby/rsi/rsi-0.4-r1.ebuild                 | 29 ------------
+ dev-ruby/rsi/rsi-0.4-r2.ebuild                 | 29 ------------
+ net-misc/ptpd/ChangeLog                        | 11 -----
+ net-misc/ptpd/Manifest                         |  1 -
+ net-misc/ptpd/files/ptpd.conf                  | 62 --------------------------
+ net-misc/ptpd/files/ptpd.confd                 |  4 --
+ net-misc/ptpd/files/ptpd.rc                    | 58 ------------------------
+ net-misc/ptpd/metadata.xml                     | 16 -------
+ net-misc/ptpd/ptpd-2.3.0.ebuild                | 53 ----------------------
+ 14 files changed, 338 deletions(-)
+ delete mode 100644 dev-ruby/rsi/ChangeLog
+ delete mode 100644 dev-ruby/rsi/Manifest
+ delete mode 100644 dev-ruby/rsi/files/rsi-0.4-fix-and-query.patch
+ delete mode 100644 dev-ruby/rsi/files/rsi-0.4-fix-logger.patch
+ delete mode 100644 dev-ruby/rsi/metadata.xml
+ delete mode 100644 dev-ruby/rsi/rsi-0.4-r1.ebuild
+ delete mode 100644 dev-ruby/rsi/rsi-0.4-r2.ebuild
+ delete mode 100644 net-misc/ptpd/ChangeLog
+ delete mode 100644 net-misc/ptpd/Manifest
+ delete mode 100644 net-misc/ptpd/files/ptpd.conf
+ delete mode 100644 net-misc/ptpd/files/ptpd.confd
+ delete mode 100644 net-misc/ptpd/files/ptpd.rc
+ delete mode 100644 net-misc/ptpd/metadata.xml
+ delete mode 100644 net-misc/ptpd/ptpd-2.3.0.ebuild
 *** syncing '/home/mgorny/repos/graaff'...
 *** synced '/home/mgorny/repos/graaff'
  * Sync succeeded
