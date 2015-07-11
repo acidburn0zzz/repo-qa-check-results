@@ -14,87 +14,8 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   824f6d8..9385261  master     -> origin/master
-   9385261..02dfcbb  develop    -> origin/develop
-Updating 824f6d8..9385261
-Fast-forward
- .../800-TextEdit/30-pluma/.calculate_directory     |    1 +
- .../30-pluma/install/.calculate_directory          |    1 +
- .../800-TextEdit/30-pluma/install/mimeapps.list    |    8 +
- .../30-pluma/install/pluma-1.8.desktop             |    6 +
- .../Desktop/800-TextEdit/30-pluma/uninstall        |    5 +
- .../.calculate_directory                           |    0
- .../install/.calculate_directory                   |    0
- .../install/leafpad-0.8.desktop                    |    0
- .../install/mimeapps.list                          |    0
- .../{30-leafpad => 40-leafpad}/uninstall           |    0
- .../Desktop/800-TextEdit/mimeapps.list             |    2 +-
- .../30-mate-terminal/.calculate_directory          |    2 +
- .../30-mate-terminal/install/.calculate_directory  |    1 +
- .../install/mate-terminal-1.8.desktop              |    6 +
- .../install/mimeapps.list                          |    2 +-
- .../uninstall                                      |    2 +-
- .../40-rxvt-unicode/.calculate_directory           |    2 -
- .../40-rxvt-unicode/install/.calculate_directory   |    1 -
- .../install/rxvt-unicode-9.15.desktop              |    6 -
- .../.calculate_directory                           |    0
- .../install/.calculate_directory                   |    0
- .../install/mimeapps.list                          |    0
- .../install/terminal-0.4.desktop                   |    0
- .../install/xfce4-terminal.desktop                 |    0
- .../uninstall                                      |    0
- .../Desktop/900-Terminal/mimeapps.list             |    2 +-
- .../2-user/mate-base/MATE-1.8/index.theme          |   13 +
- .../2-user/mate-base/MATE-1.8/mate                 |   11 +-
- .../2-user/mate-base/MATE-1.8/panel                |    2 +-
- .../2-user/mate-base/MATE-1.8/terminal             |    1 +
- ...roups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch |  105 +
- ...-introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch | 6953 ++++++++++++++++++++
- ...rly-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch | 1221 ++++
- ...roups-kconfig-build-bits-for-BFQ-v7r8-4.1.patch |  105 +
- ...-introduce-the-BFQ-v7r8-I-O-sched-for-4.1.patch | 6953 ++++++++++++++++++++
- ...rly-Queue-Merge-EQM-to-BFQ-v7r8-for-4.1.0.patch | 1221 ++++
- sys-kernel/calculate-sources/Manifest              |    8 +-
- ....46.ebuild => calculate-sources-3.14.48.ebuild} |    0
- ....17.ebuild => calculate-sources-3.18.18.ebuild} |    0
- ...4.1.1.ebuild => calculate-sources-4.0.8.ebuild} |    0
- ...4.0.7.ebuild => calculate-sources-4.1.2.ebuild} |    0
- 41 files changed, 16621 insertions(+), 19 deletions(-)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/30-pluma/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/30-pluma/install/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/30-pluma/install/mimeapps.list
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/30-pluma/install/pluma-1.8.desktop
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/30-pluma/uninstall
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/{30-leafpad => 40-leafpad}/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/{30-leafpad => 40-leafpad}/install/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/{30-leafpad => 40-leafpad}/install/leafpad-0.8.desktop (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/{30-leafpad => 40-leafpad}/install/mimeapps.list (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/800-TextEdit/{30-leafpad => 40-leafpad}/uninstall (100%)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/30-mate-terminal/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/30-mate-terminal/install/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/30-mate-terminal/install/mate-terminal-1.8.desktop
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{40-rxvt-unicode => 30-mate-terminal}/install/mimeapps.list (71%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{40-rxvt-unicode => 30-mate-terminal}/uninstall (55%)
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/40-rxvt-unicode/.calculate_directory
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/40-rxvt-unicode/install/.calculate_directory
- delete mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/40-rxvt-unicode/install/rxvt-unicode-9.15.desktop
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/install/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/install/mimeapps.list (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/install/terminal-0.4.desktop (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/install/xfce4-terminal.desktop (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/900-Terminal/{30-xfce4-terminal => 40-xfce4-terminal}/uninstall (100%)
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/index.theme
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.0.patch
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.0.patch
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.0.0.patch
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.1.patch
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.1.patch
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.1.0.patch
- rename sys-kernel/calculate-sources/{calculate-sources-3.14.46.ebuild => calculate-sources-3.14.48.ebuild} (100%)
- rename sys-kernel/calculate-sources/{calculate-sources-3.18.17.ebuild => calculate-sources-3.18.18.ebuild} (100%)
- rename sys-kernel/calculate-sources/{calculate-sources-4.1.1.ebuild => calculate-sources-4.0.8.ebuild} (100%)
- rename sys-kernel/calculate-sources/{calculate-sources-4.0.7.ebuild => calculate-sources-4.1.2.ebuild} (100%)
+   02dfcbb..e1e5bde  develop    -> origin/develop
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded

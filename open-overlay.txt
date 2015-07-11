@@ -16,27 +16,7 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/pantera31752/open-overlay
-   4193eea..3100c6e  master     -> origin/master
-Updating 4193eea..3100c6e
-Fast-forward
- x11-drivers/nvidia-drivers/Manifest                |   2 +-
- .../nvidia-drivers/nvidia-drivers-340.76-r1.ebuild | 374 ++-------------------
- x11-drivers/nvidia-userspace/Manifest              |  10 +
- x11-drivers/nvidia-userspace/files/nvidia-169.07   |  14 +
- x11-drivers/nvidia-userspace/files/nvidia-smi.init |  25 ++
- x11-drivers/nvidia-userspace/files/nvidia-udev.sh  |  17 +
- x11-drivers/nvidia-userspace/files/nvidia-uvm.conf |   3 +
- .../nvidia-userspace/files/nvidia.udev-rule        |   6 +
- .../nvidia-userspace-340.76-r1.ebuild              | 352 +++++++++++++++++++
- 9 files changed, 460 insertions(+), 343 deletions(-)
- create mode 100644 x11-drivers/nvidia-userspace/Manifest
- create mode 100644 x11-drivers/nvidia-userspace/files/nvidia-169.07
- create mode 100644 x11-drivers/nvidia-userspace/files/nvidia-smi.init
- create mode 100644 x11-drivers/nvidia-userspace/files/nvidia-udev.sh
- create mode 100644 x11-drivers/nvidia-userspace/files/nvidia-uvm.conf
- create mode 100644 x11-drivers/nvidia-userspace/files/nvidia.udev-rule
- create mode 100644 x11-drivers/nvidia-userspace/nvidia-userspace-340.76-r1.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
