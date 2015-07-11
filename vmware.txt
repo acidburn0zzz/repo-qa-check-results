@@ -18,7 +18,53 @@
 $ pmaint sync /home/mgorny/repos/vmware
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/vmware
+   4758765..19adc44  master     -> origin/master
+Updating 4758765..19adc44
+Fast-forward
+ .../files/279-3.18-00-version-redefined.patch      |  24 +
+ .../files/279-3.19-00-compat-namei.patch           |  23 +
+ .../vmware-modules/files/279-3.19-01-dentry.patch  |  13 +
+ .../files/279-3.19-02-vmblock-path.patch           |  67 +++
+ .../vmware-modules/files/279-3.19-03-iovec.patch   |  19 +
+ .../vmware-modules/files/279-3.19-04-iovec.patch   |  39 ++
+ .../files/279-3.19-05-vmci_qpair.patch             |  24 +
+ .../vmware-modules/files/279-3.19-06-vsock.patch   |  15 +
+ .../vmware-modules/files/279-3.19-07-vsock.patch   |  12 +
+ .../vmware-modules/vmware-modules-271.3-r1.ebuild  |   6 +-
+ .../vmware-modules/vmware-modules-279.2-r1.ebuild  | 107 -----
+ .../vmware-modules/vmware-modules-279.3-r1.ebuild  | 107 -----
+ ...es-279.5.ebuild => vmware-modules-279.6.ebuild} |  19 +-
+ .../vmware-modules/vmware-modules-304.0.ebuild     |  43 +-
+ app-emulation/vmware-player/Manifest               |   5 +-
+ ...7.ebuild => vmware-player-6.0.6.2700073.ebuild} |   2 +-
+ .../vmware-player-7.1.0.2496824.ebuild             | 244 ++++++++++
+ app-emulation/vmware-tools/Manifest                |  36 +-
+ .../vmware-tools/vmware-tools-9.6.2.1744117.ebuild |  55 ---
+ ...46.ebuild => vmware-tools-9.6.5.2700073.ebuild} |   4 +-
+ .../vmware-vsphere-cli-4.1.0.254719-r1.ebuild      |   6 +-
+ app-emulation/vmware-workstation/Manifest          |   6 +-
+ .../vmware-workstation-10.0.2.1744117.ebuild       | 493 ---------------------
+ ...ld => vmware-workstation-10.0.6.2700073.ebuild} |   0
+ 24 files changed, 542 insertions(+), 827 deletions(-)
+ create mode 100644 app-emulation/vmware-modules/files/279-3.18-00-version-redefined.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-00-compat-namei.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-01-dentry.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-02-vmblock-path.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-03-iovec.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-04-iovec.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-05-vmci_qpair.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-06-vsock.patch
+ create mode 100644 app-emulation/vmware-modules/files/279-3.19-07-vsock.patch
+ delete mode 100644 app-emulation/vmware-modules/vmware-modules-279.2-r1.ebuild
+ delete mode 100644 app-emulation/vmware-modules/vmware-modules-279.3-r1.ebuild
+ rename app-emulation/vmware-modules/{vmware-modules-279.5.ebuild => vmware-modules-279.6.ebuild} (76%)
+ rename app-emulation/vmware-player/{vmware-player-6.0.2.1744117.ebuild => vmware-player-6.0.6.2700073.ebuild} (99%)
+ create mode 100644 app-emulation/vmware-player/vmware-player-7.1.0.2496824.ebuild
+ delete mode 100644 app-emulation/vmware-tools/vmware-tools-9.6.2.1744117.ebuild
+ rename app-emulation/vmware-tools/{vmware-tools-9.6.4.2443746.ebuild => vmware-tools-9.6.5.2700073.ebuild} (93%)
+ delete mode 100644 app-emulation/vmware-workstation/vmware-workstation-10.0.2.1744117.ebuild
+ rename app-emulation/vmware-workstation/{vmware-workstation-10.0.5.2443746.ebuild => vmware-workstation-10.0.6.2700073.ebuild} (100%)
 *** syncing '/home/mgorny/repos/vmware'...
 *** synced '/home/mgorny/repos/vmware'
  * Sync succeeded
