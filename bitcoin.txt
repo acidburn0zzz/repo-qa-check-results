@@ -14,37 +14,7 @@
 $ pmaint sync /home/mgorny/repos/bitcoin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From https://gitlab.com/bitcoin/gentoo
-   c701c89..9f5a5d7  master     -> origin/master
-Updating c701c89..9f5a5d7
-Fast-forward
- dev-libs/libsecp256k1/Manifest                     |   1 +
- .../libsecp256k1-0.0.0_pre20150423.ebuild          |  54 +++++++++++
- dev-util/bitcoin-tx/Manifest                       |   2 +
- dev-util/bitcoin-tx/bitcoin-tx-0.11.0.ebuild       |  21 +++++
- eclass/bitcoincore.eclass                          |   9 ++
- net-libs/libbitcoinconsensus/Manifest              |   2 +
- .../libbitcoinconsensus-0.11.0.ebuild              |  26 ++++++
- net-libs/libbitcoinconsensus/metadata.xml          |   3 +
- net-p2p/bitcoin-cli/Manifest                       |   2 +
- net-p2p/bitcoin-cli/bitcoin-cli-0.11.0.ebuild      |  33 +++++++
- net-p2p/bitcoin-cli/metadata.xml                   |   3 +
- net-p2p/bitcoin-qt/Manifest                        |   3 +
- net-p2p/bitcoin-qt/bitcoin-qt-0.11.0.ebuild        | 102 +++++++++++++++++++++
- net-p2p/bitcoin-qt/metadata.xml                    |   1 +
- net-p2p/bitcoind/Manifest                          |   3 +
- net-p2p/bitcoind/bitcoind-0.11.0.ebuild            |  75 +++++++++++++++
- net-p2p/bitcoind/metadata.xml                      |   1 +
- virtual/bitcoin-leveldb/bitcoin-leveldb-0.ebuild   |   8 +-
- virtual/bitcoin-leveldb/metadata.xml               |  13 +++
- 19 files changed, 355 insertions(+), 7 deletions(-)
- create mode 100644 dev-libs/libsecp256k1/libsecp256k1-0.0.0_pre20150423.ebuild
- create mode 100644 dev-util/bitcoin-tx/bitcoin-tx-0.11.0.ebuild
- create mode 100644 net-libs/libbitcoinconsensus/libbitcoinconsensus-0.11.0.ebuild
- create mode 100644 net-p2p/bitcoin-cli/bitcoin-cli-0.11.0.ebuild
- create mode 100644 net-p2p/bitcoin-qt/bitcoin-qt-0.11.0.ebuild
- create mode 100644 net-p2p/bitcoind/bitcoind-0.11.0.ebuild
- create mode 100644 virtual/bitcoin-leveldb/metadata.xml
+Already up-to-date.
 *** syncing '/home/mgorny/repos/bitcoin'...
 *** synced '/home/mgorny/repos/bitcoin'
  * Sync succeeded
