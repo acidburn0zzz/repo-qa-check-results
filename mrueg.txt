@@ -18,17 +18,24 @@ $ pmaint sync /home/mgorny/repos/mrueg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/dev/mrueg
-   2b46f02..65456d8  master     -> origin/master
-Updating 2b46f02..65456d8
+   65456d8..8257273  master     -> origin/master
+Updating 65456d8..8257273
 Fast-forward
- dev-python/pythondialog/Manifest                   |  2 +
- dev-python/pythondialog/metadata.xml               | 11 ++++
- .../pythondialog/pythondialog-3.3.0-r1.ebuild      | 72 ++++++++++++++++++++++
- dev-python/zope-event/zope-event-4.0.3.ebuild      |  2 +-
- 4 files changed, 86 insertions(+), 1 deletion(-)
- create mode 100644 dev-python/pythondialog/Manifest
- create mode 100644 dev-python/pythondialog/metadata.xml
- create mode 100644 dev-python/pythondialog/pythondialog-3.3.0-r1.ebuild
+ .../letsencrypt-apache-9999.ebuild                 | 34 ++++++++++++++++++
+ app-crypt/letsencrypt-apache/metadata.xml          |  8 +++++
+ .../letsencrypt-nginx-9999.ebuild                  | 33 +++++++++++++++++
+ app-crypt/letsencrypt-nginx/metadata.xml           |  8 +++++
+ app-crypt/letsencrypt/letsencrypt-9999.ebuild      | 39 ++++++++++++++++++++
+ app-crypt/letsencrypt/metadata.xml                 |  8 +++++
+ dev-python/acme/acme-9999.ebuild                   |  7 +---
+ .../pythondialog/pythondialog-3.3.0-r1.ebuild      | 42 ++++++++--------------
+ 8 files changed, 146 insertions(+), 33 deletions(-)
+ create mode 100644 app-crypt/letsencrypt-apache/letsencrypt-apache-9999.ebuild
+ create mode 100644 app-crypt/letsencrypt-apache/metadata.xml
+ create mode 100644 app-crypt/letsencrypt-nginx/letsencrypt-nginx-9999.ebuild
+ create mode 100644 app-crypt/letsencrypt-nginx/metadata.xml
+ create mode 100644 app-crypt/letsencrypt/letsencrypt-9999.ebuild
+ create mode 100644 app-crypt/letsencrypt/metadata.xml
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded

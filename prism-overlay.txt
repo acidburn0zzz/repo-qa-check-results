@@ -14,7 +14,67 @@
 $ pmaint sync /home/mgorny/repos/prism-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hasufell/prism-overlay
+   d28e841..a96e3c3  master     -> origin/master
+Updating d28e841..a96e3c3
+Fast-forward
+ www-client/inox/Manifest                           |   1 +
+ www-client/inox/files/chromium-cups-r0.patch       |  70 +++
+ www-client/inox/files/chromium-gcc-4.7-r0.patch    |  12 +
+ www-client/inox/files/chromium-gnome-r0.patch      |  40 ++
+ .../inox/files/chromium-hotwording-2403.patch      | 147 +++++
+ www-client/inox/files/chromium-launcher-r2.sh      |  32 +
+ www-client/inox/files/chromium-launcher-r3.sh      |  39 ++
+ www-client/inox/files/chromium-libsecret-r0.patch  |  14 +
+ .../inox/files/chromium-system-jinja-r6.patch      |  55 ++
+ .../inox/files/chromium-system-jinja-r7.patch      |  35 ++
+ .../inox/files/chromium-system-libvpx-r0.patch     |  10 +
+ www-client/inox/files/chromium-widevine.patch      |  31 +
+ www-client/inox/files/chromium.default             |   5 +
+ www-client/inox/files/dot-gclient                  |   6 +
+ www-client/inox/files/inox-browser.xml             |  13 +
+ www-client/inox/files/inox-launcher-r3.sh          |  39 ++
+ .../files/inox/add-duckduckgo-search-engine.patch  | 585 ++++++++++++++++++
+ www-client/inox/files/inox/branding.patch          |  97 +++
+ .../inox/disable-autofill-download-manager.patch   |  43 ++
+ .../files/inox/disable-default-extensions.patch    | 176 ++++++
+ .../inox/files/inox/disable-gcm-status-check.patch |  32 +
+ .../files/inox/disable-google-ipv6-probes.patch    |  17 +
+ .../files/inox/disable-google-url-tracker.patch    |  49 ++
+ .../files/inox/disable-instant-extended-api.patch  |  21 +
+ .../files/inox/disable-missing-key-warning.patch   |  10 +
+ .../inox/disable-notification-promo-fetch.patch    |  12 +
+ .../inox/files/inox/modify-default-prefs.patch     | 243 ++++++++
+ www-client/inox/inox-43.0.2357.130.ebuild          | 667 +++++++++++++++++++++
+ 28 files changed, 2501 insertions(+)
+ create mode 100644 www-client/inox/Manifest
+ create mode 100644 www-client/inox/files/chromium-cups-r0.patch
+ create mode 100644 www-client/inox/files/chromium-gcc-4.7-r0.patch
+ create mode 100644 www-client/inox/files/chromium-gnome-r0.patch
+ create mode 100644 www-client/inox/files/chromium-hotwording-2403.patch
+ create mode 100644 www-client/inox/files/chromium-launcher-r2.sh
+ create mode 100644 www-client/inox/files/chromium-launcher-r3.sh
+ create mode 100644 www-client/inox/files/chromium-libsecret-r0.patch
+ create mode 100644 www-client/inox/files/chromium-system-jinja-r6.patch
+ create mode 100644 www-client/inox/files/chromium-system-jinja-r7.patch
+ create mode 100644 www-client/inox/files/chromium-system-libvpx-r0.patch
+ create mode 100644 www-client/inox/files/chromium-widevine.patch
+ create mode 100644 www-client/inox/files/chromium.default
+ create mode 100644 www-client/inox/files/dot-gclient
+ create mode 100644 www-client/inox/files/inox-browser.xml
+ create mode 100644 www-client/inox/files/inox-launcher-r3.sh
+ create mode 100644 www-client/inox/files/inox/add-duckduckgo-search-engine.patch
+ create mode 100644 www-client/inox/files/inox/branding.patch
+ create mode 100644 www-client/inox/files/inox/disable-autofill-download-manager.patch
+ create mode 100644 www-client/inox/files/inox/disable-default-extensions.patch
+ create mode 100644 www-client/inox/files/inox/disable-gcm-status-check.patch
+ create mode 100644 www-client/inox/files/inox/disable-google-ipv6-probes.patch
+ create mode 100644 www-client/inox/files/inox/disable-google-url-tracker.patch
+ create mode 100644 www-client/inox/files/inox/disable-instant-extended-api.patch
+ create mode 100644 www-client/inox/files/inox/disable-missing-key-warning.patch
+ create mode 100644 www-client/inox/files/inox/disable-notification-promo-fetch.patch
+ create mode 100644 www-client/inox/files/inox/modify-default-prefs.patch
+ create mode 100644 www-client/inox/inox-43.0.2357.130.ebuild
 *** syncing '/home/mgorny/repos/prism-overlay'...
 *** synced '/home/mgorny/repos/prism-overlay'
  * Sync succeeded
