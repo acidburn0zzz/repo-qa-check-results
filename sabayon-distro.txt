@@ -12,42 +12,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon-distro
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   6923a82..3c5dfa5  master     -> origin/master
-Updating 6923a82..3c5dfa5
-Fast-forward
- sys-kernel/ec2-sources/Manifest                    |  3 +++
- sys-kernel/ec2-sources/ec2-sources-3.14.48.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/ec2-sources/ec2-sources-3.18.18.ebuild  | 21 +++++++++++++++++++++
- sys-kernel/ec2-sources/ec2-sources-4.0.8.ebuild    | 21 +++++++++++++++++++++
- sys-kernel/linux-ec2/Manifest                      |  3 +++
- sys-kernel/linux-ec2/linux-ec2-3.14.48.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-ec2/linux-ec2-3.18.18.ebuild      | 16 ++++++++++++++++
- sys-kernel/linux-ec2/linux-ec2-4.0.8.ebuild        | 16 ++++++++++++++++
- sys-kernel/linux-sabayon/Manifest                  |  3 +++
- .../linux-sabayon/linux-sabayon-3.14.48.ebuild     | 21 +++++++++++++++++++++
- .../linux-sabayon/linux-sabayon-3.18.18.ebuild     | 21 +++++++++++++++++++++
- .../linux-sabayon/linux-sabayon-4.0.8.ebuild       | 21 +++++++++++++++++++++
- sys-kernel/sabayon-sources/Manifest                |  3 +++
- .../sabayon-sources/sabayon-sources-3.14.48.ebuild | 22 ++++++++++++++++++++++
- .../sabayon-sources/sabayon-sources-3.18.18.ebuild | 22 ++++++++++++++++++++++
- .../sabayon-sources/sabayon-sources-4.0.8.ebuild   | 22 ++++++++++++++++++++++
- 16 files changed, 252 insertions(+)
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.14.48.ebuild
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-3.18.18.ebuild
- create mode 100644 sys-kernel/ec2-sources/ec2-sources-4.0.8.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.14.48.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-3.18.18.ebuild
- create mode 100644 sys-kernel/linux-ec2/linux-ec2-4.0.8.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.14.48.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-3.18.18.ebuild
- create mode 100644 sys-kernel/linux-sabayon/linux-sabayon-4.0.8.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.14.48.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-3.18.18.ebuild
- create mode 100644 sys-kernel/sabayon-sources/sabayon-sources-4.0.8.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded
