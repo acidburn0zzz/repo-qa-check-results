@@ -16,38 +16,7 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/pantera31752/open-overlay
-   cc81858..164ed83  master     -> origin/master
-Updating cc81858..164ed83
-Fast-forward
- www-client/tor-browser/Manifest                    |   4 +
- .../tor-browser/files/tor-browser-4.5.3.desktop    |  10 +
- www-client/tor-browser/tor-browser-4.5.3.ebuild    |  90 ++++++++
- x11-drivers/xf86-video-virtualbox/Manifest         |  11 +
- ...xf86-video-virtualbox-2.2.0-enable-opengl.patch |  13 ++
- .../files/xf86-video-virtualbox-3-localconfig      |  30 +++
- .../xf86-video-virtualbox-3-vboxvideo_drm.makefile | 240 +++++++++++++++++++++
- .../xf86-video-virtualbox-3.2.8-mesa-check.patch   |  36 ++++
- .../xf86-video-virtualbox-4-makeself-check.patch   |  10 +
- .../xf86-video-virtualbox-4-mkisofs-check.patch    |  10 +
- .../xf86-video-virtualbox-4.3.6-link-lazy.patch    |  17 ++
- ...o-virtualbox-4.3.8-vboxvideo_compilefixes.patch |  31 +++
- .../files/xf86-video-virtualbox-link-lazy.patch    |  16 ++
- .../xf86-video-virtualbox-4.3.12.ebuild            | 162 ++++++++++++++
- 14 files changed, 680 insertions(+)
- create mode 100644 www-client/tor-browser/files/tor-browser-4.5.3.desktop
- create mode 100644 www-client/tor-browser/tor-browser-4.5.3.ebuild
- create mode 100644 x11-drivers/xf86-video-virtualbox/Manifest
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-2.2.0-enable-opengl.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-localconfig
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-vboxvideo_drm.makefile
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3.2.8-mesa-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-makeself-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-mkisofs-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.6-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.8-vboxvideo_compilefixes.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/xf86-video-virtualbox-4.3.12.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
