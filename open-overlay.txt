@@ -17,36 +17,19 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   164ed83..f3b51ba  master     -> origin/master
-Updating 164ed83..f3b51ba
+   f3b51ba..ca275c7  master     -> origin/master
+Updating f3b51ba..ca275c7
 Fast-forward
- app-text/atril/Manifest                            |   6 +-
- app-text/atril/atril-1.10.0.ebuild                 |   6 +-
- app-text/atril/atril-1.9.2.ebuild                  |   8 +-
- dev-util/android-studio/Manifest                   |   2 +
- .../android-studio-1.3.0.6.141.2071668.ebuild      |  60 ++++
- mail-client/thunderbird-bin/Manifest               |  55 ++++
- .../thunderbird-bin/thunderbird-bin-38.1.0.ebuild  | 142 +++++++++
- mail-client/thunderbird/Manifest                   |  64 ++++
- .../files/enigmail-1.6.0-parallel-fix.patch        |  38 +++
- .../files/icon/thunderbird-unbranded.desktop       |   9 +
- .../thunderbird/files/icon/thunderbird.desktop     |   9 +
- .../files/thunderbird-31.7.0-gcc5-1.patch          | 242 +++++++++++++++
- .../files/thunderbird-gentoo-default-prefs-1.js-1  |   9 +
- mail-client/thunderbird/thunderbird-38.1.0.ebuild  | 328 +++++++++++++++++++++
- mate-base/mate-desktop/Manifest                    |   2 +
- mate-base/mate-desktop/mate-desktop-1.10.1.ebuild  |  65 ++++
- 16 files changed, 1037 insertions(+), 8 deletions(-)
- create mode 100644 dev-util/android-studio/android-studio-1.3.0.6.141.2071668.ebuild
- create mode 100644 mail-client/thunderbird-bin/thunderbird-bin-38.1.0.ebuild
- create mode 100644 mail-client/thunderbird/Manifest
- create mode 100644 mail-client/thunderbird/files/enigmail-1.6.0-parallel-fix.patch
- create mode 100644 mail-client/thunderbird/files/icon/thunderbird-unbranded.desktop
- create mode 100644 mail-client/thunderbird/files/icon/thunderbird.desktop
- create mode 100644 mail-client/thunderbird/files/thunderbird-31.7.0-gcc5-1.patch
- create mode 100644 mail-client/thunderbird/files/thunderbird-gentoo-default-prefs-1.js-1
- create mode 100644 mail-client/thunderbird/thunderbird-38.1.0.ebuild
- create mode 100644 mate-base/mate-desktop/mate-desktop-1.10.1.ebuild
+ dev-util/android-studio/Manifest                   |  2 +-
+ .../android-studio-1.3.0.6.141.2071668.ebuild      |  6 ++
+ mail-client/thunderbird-bin/Manifest               |  1 +
+ mate-base/mate-panel/Manifest                      |  2 +
+ mate-base/mate-panel/mate-panel-1.10.1.ebuild      | 77 ++++++++++++++++++++++
+ mate-extra/mate-sensors-applet/Manifest            |  2 +
+ .../mate-sensors-applet-1.10.3.ebuild              | 70 ++++++++++++++++++++
+ 7 files changed, 159 insertions(+), 1 deletion(-)
+ create mode 100644 mate-base/mate-panel/mate-panel-1.10.1.ebuild
+ create mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.3.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
