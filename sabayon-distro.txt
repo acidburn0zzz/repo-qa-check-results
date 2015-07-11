@@ -13,7 +13,28 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   f8fdcf5..c3d16d8  master     -> origin/master
+Updating f8fdcf5..c3d16d8
+Fast-forward
+ app-crypt/pinentry-base/Manifest                   |  2 +-
+ .../pinentry-base/files/pinentry-0.8.2-texi.patch  | 20 --------
+ ...ase-0.9.0.ebuild => pinentry-base-0.9.5.ebuild} | 21 +++-----
+ app-crypt/pinentry-gnome/Manifest                  |  1 +
+ .../pinentry-gnome/pinentry-gnome-0.9.5.ebuild     | 57 ++++++++++++++++++++++
+ app-crypt/pinentry-gtk2/Manifest                   |  2 +-
+ ...tk2-0.9.0.ebuild => pinentry-gtk2-0.9.5.ebuild} | 12 ++---
+ app-crypt/pinentry-qt4/Manifest                    |  2 +-
+ ...-qt4-0.9.0.ebuild => pinentry-qt4-0.9.5.ebuild} | 29 +++++------
+ ...pinentry-0.9.0.ebuild => pinentry-0.9.5.ebuild} |  5 +-
+ 10 files changed, 90 insertions(+), 61 deletions(-)
+ delete mode 100644 app-crypt/pinentry-base/files/pinentry-0.8.2-texi.patch
+ rename app-crypt/pinentry-base/{pinentry-base-0.9.0.ebuild => pinentry-base-0.9.5.ebuild} (83%)
+ create mode 100644 app-crypt/pinentry-gnome/Manifest
+ create mode 100644 app-crypt/pinentry-gnome/pinentry-gnome-0.9.5.ebuild
+ rename app-crypt/pinentry-gtk2/{pinentry-gtk2-0.9.0.ebuild => pinentry-gtk2-0.9.5.ebuild} (82%)
+ rename app-crypt/pinentry-qt4/{pinentry-qt4-0.9.0.ebuild => pinentry-qt4-0.9.5.ebuild} (68%)
+ rename app-crypt/pinentry/{pinentry-0.9.0.ebuild => pinentry-0.9.5.ebuild} (81%)
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded

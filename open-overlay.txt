@@ -16,7 +16,18 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   e639087..4193eea  master     -> origin/master
+Updating e639087..4193eea
+Fast-forward
+ sys-kernel/vanilla-sources/Manifest                    |  2 ++
+ .../vanilla-sources/vanilla-sources-4.0.0.ebuild       | 18 ++++++++++++++++++
+ x11-drivers/nvidia-drivers/Manifest                    |  4 ++--
+ ...ux-4.0.patch => nvidia-drivers-for-linux-4.0.patch} |  0
+ .../nvidia-drivers/nvidia-drivers-340.76-r1.ebuild     |  6 +++---
+ 5 files changed, 25 insertions(+), 5 deletions(-)
+ create mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.0.ebuild
+ rename x11-drivers/nvidia-drivers/files/{nvidia-drivers-340.76-for-linux-4.0.patch => nvidia-drivers-for-linux-4.0.patch} (100%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
