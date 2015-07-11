@@ -15,31 +15,15 @@ $ pmaint sync /home/mgorny/repos/unity-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/shiznix/unity-gentoo
-   5b10113..a613499  master     -> origin/master
-Updating 5b10113..a613499
+   a613499..6bf15dc  master     -> origin/master
+Updating a613499..6bf15dc
 Fast-forward
- dev-libs/glib/Manifest                             |   4 +-
- ...4.0_p1_p03.ebuild => glib-2.44.1_p1_p01.ebuild} |   0
- dev-util/gdbus-codegen/Manifest                    |   4 +-
- ...n-2.44.0.ebuild => gdbus-codegen-2.44.1.ebuild} |   0
- media-sound/banshee/Manifest                       |   4 +-
- ...0_p2_p04.ebuild => banshee-2.9.0_p2_p05.ebuild} |   0
- net-libs/oxide-qt/Manifest                         |   6 +-
- ...1.ebuild => oxide-qt-1.7.9_p0_p00150401.ebuild} |   0
- sys-kernel/ubuntu-sources/Manifest                 |   4 +-
- ...ebuild => ubuntu-sources-3.19.8_p22_p22.ebuild} |   0
- www-client/chromium/Manifest                       |   9 +-
- ... => chromium-43.0.2357.130_p0_p00150401.ebuild} |  10 +-
- .../chromium/files/chromium-hotwording-2403.patch  | 147 +++++++++++++++++++++
- www-client/chromium/metadata.xml                   |   3 +
- 14 files changed, 172 insertions(+), 19 deletions(-)
- rename dev-libs/glib/{glib-2.44.0_p1_p03.ebuild => glib-2.44.1_p1_p01.ebuild} (100%)
- rename dev-util/gdbus-codegen/{gdbus-codegen-2.44.0.ebuild => gdbus-codegen-2.44.1.ebuild} (100%)
- rename media-sound/banshee/{banshee-2.9.0_p2_p04.ebuild => banshee-2.9.0_p2_p05.ebuild} (100%)
- rename net-libs/oxide-qt/{oxide-qt-1.7.8_p0_p00150401.ebuild => oxide-qt-1.7.9_p0_p00150401.ebuild} (100%)
- rename sys-kernel/ubuntu-sources/{ubuntu-sources-3.19.3_p21_p21.ebuild => ubuntu-sources-3.19.8_p22_p22.ebuild} (100%)
- rename www-client/chromium/{chromium-43.0.2357.81_p0_p00150401.ebuild => chromium-43.0.2357.130_p0_p00150401.ebuild} (98%)
- create mode 100644 www-client/chromium/files/chromium-hotwording-2403.patch
+ www-client/firefox/Manifest                        | 167 ++++++++++-----------
+ ...firefox-37.0-jemalloc_configure_unbashify.patch |  11 --
+ ...401.ebuild => firefox-39.0_p0_p00150401.ebuild} |  54 ++++---
+ 3 files changed, 116 insertions(+), 116 deletions(-)
+ delete mode 100644 www-client/firefox/files/firefox-37.0-jemalloc_configure_unbashify.patch
+ rename www-client/firefox/{firefox-38.0_p0_p00150401.ebuild => firefox-39.0_p0_p00150401.ebuild} (91%)
 *** syncing '/home/mgorny/repos/unity-gentoo'...
 *** synced '/home/mgorny/repos/unity-gentoo'
  * Sync succeeded

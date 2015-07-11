@@ -12,27 +12,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/distros
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   6b484d3..00209f7  master     -> origin/master
-   3533956..00209f7  develop    -> origin/develop
-   6b484d3..00209f7  update     -> origin/update
-Updating 6b484d3..00209f7
-Fast-forward
- profiles/templates/3.2/6_ac_update_sync/world/0-ini          |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/graphics     |  2 +-
- profiles/templates/3.2/6_ac_update_sync/world/create/mate    |  1 +
- profiles/templates/3.2/6_ac_update_sync/world/create/tools   |  4 ----
- profiles/templates/3.2/6_ac_update_sync/world/create/xfce    |  2 ++
- profiles/templates/3.2/6_ac_update_sync/world/create/xorg    |  6 +++++-
- profiles/templates/3.2/6_ac_update_sync/world/update/76      | 12 ++++++++++++
- profiles/templates/3.2/6_ac_update_sync/world/update/77      |  8 ++++++++
- 8 files changed, 30 insertions(+), 7 deletions(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/76
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/77
+   00209f7..b4b84b9  develop    -> origin/develop
+Already up-to-date.
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

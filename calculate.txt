@@ -14,64 +14,8 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   2ef049f..20e2b56  master     -> origin/master
-   2ef049f..20e2b56  update     -> origin/update
-Updating 2ef049f..20e2b56
-Fast-forward
- .../20-mate-calc/.calculate_directory              |   2 +
- .../20-mate-calc/install/.calculate_directory      |   1 +
- .../20-mate-calc/install/mate-calc-1.8.desktop     |   6 +
- .../20-mate-calc/install/mimeapps.list             |   5 +
- .../Desktop/220-Calculator/20-mate-calc/uninstall  |   5 +
- .../Desktop/220-Calculator/mimeapps.list           |   2 +-
- .../320-ImageView/20-eom/.calculate_directory      |   1 +
- .../20-eom/install/.calculate_directory            |   1 +
- .../320-ImageView/20-eom/install/eom-1.8.desktop   |   6 +
- .../320-ImageView/20-eom/install/mimeapps.list     |  27 ++++
- .../Desktop/320-ImageView/20-eom/uninstall         |   5 +
- .../{20-nomacs => 40-nomacs}/.calculate_directory  |   0
- .../install/.calculate_directory                   |   0
- .../{20-nomacs => 40-nomacs}/install/mimeapps.list |   0
- .../install/nomacs-1.6.desktop                     |   0
- .../{20-nomacs => 40-nomacs}/uninstall             |   0
- .../{40-geeqie => 50-geeqie}/.calculate_directory  |   0
- .../install/.calculate_directory                   |   0
- .../install/geeqie-1.0.desktop                     |   0
- .../{40-geeqie => 50-geeqie}/install/mimeapps.list |   0
- .../{40-geeqie => 50-geeqie}/uninstall             |   0
- .../Desktop/320-ImageView/mimeapps.list            |   2 +-
- .../2-user/mate-base/MATE-1.8/home.desktop         |  12 ++
- .../2-user/mate-base/MATE-1.8/panel                | 144 ++++++++++++++++++---
- .../2-user/x11-misc/parcellite-1.0/parcelliterc    |   9 --
- .../.calculate_directory                           |   2 +-
- .../2-user/x11-misc/parcellite-1.1/ini.env         |   7 +
- .../2-user/x11-misc/parcellite-1.1/parcelliterc    |   7 +
- 28 files changed, 217 insertions(+), 27 deletions(-)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/220-Calculator/20-mate-calc/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/220-Calculator/20-mate-calc/install/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/220-Calculator/20-mate-calc/install/mate-calc-1.8.desktop
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/220-Calculator/20-mate-calc/install/mimeapps.list
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/220-Calculator/20-mate-calc/uninstall
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/20-eom/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/20-eom/install/.calculate_directory
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/20-eom/install/eom-1.8.desktop
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/20-eom/install/mimeapps.list
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/20-eom/uninstall
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{20-nomacs => 40-nomacs}/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{20-nomacs => 40-nomacs}/install/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{20-nomacs => 40-nomacs}/install/mimeapps.list (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{20-nomacs => 40-nomacs}/install/nomacs-1.6.desktop (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{20-nomacs => 40-nomacs}/uninstall (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{40-geeqie => 50-geeqie}/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{40-geeqie => 50-geeqie}/install/.calculate_directory (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{40-geeqie => 50-geeqie}/install/geeqie-1.0.desktop (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{40-geeqie => 50-geeqie}/install/mimeapps.list (100%)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/320-ImageView/{40-geeqie => 50-geeqie}/uninstall (100%)
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/home.desktop
- delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-misc/parcellite-1.0/parcelliterc
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-misc/{parcellite-1.0 => parcellite-1.1}/.calculate_directory (54%)
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-misc/parcellite-1.1/ini.env
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-misc/parcellite-1.1/parcelliterc
+   20e2b56..cb8c465  develop    -> origin/develop
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
