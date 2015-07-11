@@ -16,37 +16,7 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/pantera31752/open-overlay
-   685a437..e639087  master     -> origin/master
-Updating 685a437..e639087
-Fast-forward
- x11-drivers/nvidia-drivers/Manifest                |  16 +
- .../nvidia-drivers/files/95-nvidia-settings        |   2 +
- x11-drivers/nvidia-drivers/files/nvidia-169.07     |  14 +
- .../files/nvidia-drivers-331.13-pax-usercopy.patch |  52 +++
- .../files/nvidia-drivers-337.12-pax-constify.patch |  25 ++
- .../nvidia-drivers-340.76-for-linux-4.0.patch      |  28 ++
- .../files/nvidia-drivers-settings.desktop          |   7 +
- .../nvidia-drivers/files/nvidia-persistenced.conf  |   8 +
- .../nvidia-drivers/files/nvidia-persistenced.init  |  25 ++
- x11-drivers/nvidia-drivers/files/nvidia-smi.init   |  25 ++
- x11-drivers/nvidia-drivers/files/nvidia-uvm.conf   |   3 +
- x11-drivers/nvidia-drivers/files/nvidia.udev-rule  |   6 +
- .../nvidia-drivers/nvidia-drivers-340.76-r1.ebuild | 492 +++++++++++++++++++++
- 13 files changed, 703 insertions(+)
- create mode 100644 x11-drivers/nvidia-drivers/Manifest
- create mode 100644 x11-drivers/nvidia-drivers/files/95-nvidia-settings
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-169.07
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-331.13-pax-usercopy.patch
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-337.12-pax-constify.patch
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-340.76-for-linux-4.0.patch
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-drivers-settings.desktop
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-persistenced.conf
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-persistenced.init
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-smi.init
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia-uvm.conf
- create mode 100644 x11-drivers/nvidia-drivers/files/nvidia.udev-rule
- create mode 100644 x11-drivers/nvidia-drivers/nvidia-drivers-340.76-r1.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
