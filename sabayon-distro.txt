@@ -12,23 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon-distro
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/sabayon-distro
-   3c5dfa5..f8fdcf5  master     -> origin/master
-Updating 3c5dfa5..f8fdcf5
-Fast-forward
- app-misc/calamares-sabayon/Manifest                       |  1 +
- ...sabayon-1.0-r1.ebuild => calamares-sabayon-1.1.ebuild} | 15 +++++++++++----
- .../files/{calamares-sabayon-1.0 => }/Installer.desktop   |  7 ++++---
- app-misc/calamares-sabayon/files/Installer.sh             |  2 ++
- .../files/calamares-sabayon-1.0/Installer.sh              |  2 --
- 5 files changed, 18 insertions(+), 9 deletions(-)
- create mode 100644 app-misc/calamares-sabayon/Manifest
- rename app-misc/calamares-sabayon/{calamares-sabayon-1.0-r1.ebuild => calamares-sabayon-1.1.ebuild} (58%)
- rename app-misc/calamares-sabayon/files/{calamares-sabayon-1.0 => }/Installer.desktop (66%)
- mode change 100644 => 100755
- create mode 100644 app-misc/calamares-sabayon/files/Installer.sh
- delete mode 100644 app-misc/calamares-sabayon/files/calamares-sabayon-1.0/Installer.sh
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded

@@ -12,21 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/for-gentoo
-   22e0de7..314c15b  master     -> origin/master
-Updating 22e0de7..314c15b
-Fast-forward
- .../{calamares-1.1.1.ebuild => calamares-1.1.1-r1.ebuild}      | 10 +++++++++-
- app-admin/calamares/calamares-9999.ebuild                      | 10 +++++++++-
- app-admin/calamares/files/calamares-pkexec                     |  2 ++
- ...20150428.ebuild => numix-icon-theme-circle-20150709.ebuild} |  2 +-
- ...-theme-20150411.ebuild => numix-icon-theme-20150710.ebuild} |  2 +-
- 5 files changed, 22 insertions(+), 4 deletions(-)
- rename app-admin/calamares/{calamares-1.1.1.ebuild => calamares-1.1.1-r1.ebuild} (87%)
- create mode 100644 app-admin/calamares/files/calamares-pkexec
- rename x11-themes/numix-icon-theme-circle/{numix-icon-theme-circle-20150428.ebuild => numix-icon-theme-circle-20150709.ebuild} (92%)
- rename x11-themes/numix-icon-theme/{numix-icon-theme-20150411.ebuild => numix-icon-theme-20150710.ebuild} (91%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sabayon'...
 *** synced '/home/mgorny/repos/sabayon'
  * Sync succeeded
