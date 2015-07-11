@@ -12,8 +12,26 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/rasdark
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   b2bad66..8d6d5f0  master     -> origin/master
+Updating b2bad66..8d6d5f0
+Fast-forward
+ .../calculate-sources/4.1/.calculate_directory     |    1 +
+ ...roups-kconfig-build-bits-for-BFQ-v7r8-4.1.patch |  105 +
+ ...-introduce-the-BFQ-v7r8-I-O-sched-for-4.1.patch | 6953 ++++++++++++++++++++
+ ...rly-Queue-Merge-EQM-to-BFQ-v7r8-for-4.1.0.patch | 1221 ++++
+ .../4.1/10-config-asus-laptop-i686                 | 2899 ++++++++
+ .../calculate-sources/4.1/10_config-p8h77-x64_86   | 1915 ++++++
+ 6 files changed, 13094 insertions(+)
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/.calculate_directory
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.1.patch
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.1.patch
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.1.0.patch
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/10-config-asus-laptop-i686
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/10_config-p8h77-x64_86
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
