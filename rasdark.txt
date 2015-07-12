@@ -12,8 +12,15 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/rasdark
+WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   8d6d5f0..a2afbdf  master     -> origin/master
+Updating 8d6d5f0..a2afbdf
+Fast-forward
+ profiles/DesktopM/package.keywords | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
