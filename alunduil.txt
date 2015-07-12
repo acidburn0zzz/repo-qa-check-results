@@ -19,7 +19,27 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   3100777..e8f1078  master     -> origin/master
+Updating 3100777..e8f1078
+Fast-forward
+ app-emulation/lxd/ChangeLog                        |  20 +++
+ app-emulation/lxd/Manifest                         |   8 ++
+ .../lxd/files/lxd-0.13-nc-binary-name.patch        |  11 ++
+ app-emulation/lxd/files/lxd.confd                  |  26 ++++
+ app-emulation/lxd/files/lxd.initd                  |  35 ++++++
+ app-emulation/lxd/files/lxd.service                |  12 ++
+ app-emulation/lxd/lxd-0.13.ebuild                  | 136 +++++++++++++++++++++
+ app-emulation/lxd/metadata.xml                     |  26 ++++
+ 8 files changed, 274 insertions(+)
+ create mode 100644 app-emulation/lxd/ChangeLog
+ create mode 100644 app-emulation/lxd/Manifest
+ create mode 100644 app-emulation/lxd/files/lxd-0.13-nc-binary-name.patch
+ create mode 100644 app-emulation/lxd/files/lxd.confd
+ create mode 100644 app-emulation/lxd/files/lxd.initd
+ create mode 100644 app-emulation/lxd/files/lxd.service
+ create mode 100644 app-emulation/lxd/lxd-0.13.ebuild
+ create mode 100644 app-emulation/lxd/metadata.xml
 *** syncing '/home/mgorny/repos/alunduil'...
 *** synced '/home/mgorny/repos/alunduil'
  * Sync succeeded
