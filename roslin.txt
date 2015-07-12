@@ -12,8 +12,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/roslin
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -36,6 +34,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/roslin/media-video/qnapi/qnapi-0.1.6_rc2-r1.ebuild'
 !!!      qnapi-0.1.6_rc2-r1.ebuild, line   9:  Called inherit 'eutils' 'gnome2-utils' 'kde4-base' 'qt4-r2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+WARNING: 'use' function invoked by games-fps/quake1-soa-1-r2 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
 !!!               kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
