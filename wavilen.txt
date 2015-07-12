@@ -16,21 +16,60 @@
 $ pmaint sync /home/mgorny/repos/wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/wavilen/wavilen-overlay
+   03debab..19f6ec3  master     -> origin/master
+Updating 03debab..19f6ec3
+Fast-forward
+ app-admin/diamond/Manifest                         |  1 +
+ app-admin/diamond/diamond-9999.ebuild              | 72 ++++++++++++++++++++++
+ dev-db/influxdb/Manifest                           |  3 +
+ dev-db/influxdb/files/influxdb.service             | 14 +++++
+ dev-db/influxdb/influxdb-0.8.8.ebuild              | 70 +++++++++++++++++++++
+ dev-python/influxdb-python/Manifest                |  2 +
+ .../influxdb-python/influxdb-python-2.6.0.ebuild   | 23 +++++++
+ 7 files changed, 185 insertions(+)
+ create mode 100644 app-admin/diamond/Manifest
+ create mode 100644 app-admin/diamond/diamond-9999.ebuild
+ create mode 100644 dev-db/influxdb/Manifest
+ create mode 100644 dev-db/influxdb/files/influxdb.service
+ create mode 100644 dev-db/influxdb/influxdb-0.8.8.ebuild
+ create mode 100644 dev-python/influxdb-python/Manifest
+ create mode 100644 dev-python/influxdb-python/influxdb-python-2.6.0.ebuild
 *** syncing '/home/mgorny/repos/wavilen'...
 *** synced '/home/mgorny/repos/wavilen'
  * Sync succeeded
 $ pmaint regen -t 2 wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+ * 
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
+ * 
+ * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 
 !!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+ * 
+ * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
+ * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
+ * for multiple Python ABIs in EAPI <=2 is deprecated.
+ * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
+ * 
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
