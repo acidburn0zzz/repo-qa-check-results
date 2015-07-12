@@ -13,11 +13,31 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/fkmclane
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named '<unlabeled repository /home/mgorny/repos/eigenlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/fkmclane/overlay
+   e056923..fc85a6d  master     -> origin/master
+Updating e056923..fc85a6d
+Fast-forward
+ README.md                                          |  3 ++
+ media-gfx/maim/Manifest                            |  4 +--
+ .../{maim-3.4.43.ebuild => maim-3.4.45.ebuild}     |  0
+ media-libs/csfml/Manifest                          |  2 +-
+ media-libs/csfml/csfml-2.2.ebuild                  |  7 ++--
+ net-mail/syncmaildir/Manifest                      |  2 +-
+ net-mail/syncmaildir/syncmaildir-1.2.6.1.ebuild    |  6 ++--
+ www-plugins/pipelight/Manifest                     |  2 +-
+ www-plugins/pipelight/pipelight-0.2.8.1.ebuild     |  7 ++--
+ x11-misc/slop/Manifest                             | 11 +++---
+ x11-misc/slop/files/no-cppcheck.patch              |  2 +-
+ x11-misc/slop/files/no-gengetopt.patch             |  3 +-
+ x11-misc/slop/files/no-librt.patch                 | 41 ++++++++--------------
+ x11-misc/slop/files/no-opengl.patch                | 18 ++++++++++
+ .../{slop-4.1.16.ebuild => slop-4.2.17.ebuild}     | 29 ++++++++++++---
+ 15 files changed, 81 insertions(+), 56 deletions(-)
+ rename media-gfx/maim/{maim-3.4.43.ebuild => maim-3.4.45.ebuild} (100%)
+ create mode 100644 x11-misc/slop/files/no-opengl.patch
+ rename x11-misc/slop/{slop-4.1.16.ebuild => slop-4.2.17.ebuild} (69%)
 *** syncing '/home/mgorny/repos/fkmclane'...
 *** synced '/home/mgorny/repos/fkmclane'
  * Sync succeeded
