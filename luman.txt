@@ -15,21 +15,11 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/luman
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing '/home/mgorny/repos/luman'...
-*** failed syncing '/home/mgorny/repos/luman'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/luman
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/luman'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/luman'...
 *** synced '/home/mgorny/repos/luman'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 luman
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by app-editors/komodo-edit-bin-7.1.3 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully

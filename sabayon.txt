@@ -12,29 +12,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/Sabayon/for-gentoo
-   314c15b..8427b81  master     -> origin/master
-Updating 314c15b..8427b81
-Fast-forward
- net-fs/openafs-kernel/Manifest                     |   5 +-
- .../files/openafs-1.6.2-kernel-3.8-1.patch         | 366 ---------------------
- .../files/openafs-1.6.2-kernel-3.8-2.patch         | 137 --------
- .../files/openafs-1.6.2-kernel-3.8-3.patch         |  80 -----
- .../files/openafs-1.6.2-kernel-3.8-4.patch         |  37 ---
- .../files/openafs-1.6.2-kernel-3.8-5.patch         |  65 ----
- net-fs/openafs-kernel/openafs-kernel-1.6.11.ebuild | 117 +++++++
- net-fs/openafs-kernel/openafs-kernel-1.6.2.ebuild  |  89 -----
- 8 files changed, 120 insertions(+), 776 deletions(-)
- delete mode 100644 net-fs/openafs-kernel/files/openafs-1.6.2-kernel-3.8-1.patch
- delete mode 100644 net-fs/openafs-kernel/files/openafs-1.6.2-kernel-3.8-2.patch
- delete mode 100644 net-fs/openafs-kernel/files/openafs-1.6.2-kernel-3.8-3.patch
- delete mode 100644 net-fs/openafs-kernel/files/openafs-1.6.2-kernel-3.8-4.patch
- delete mode 100644 net-fs/openafs-kernel/files/openafs-1.6.2-kernel-3.8-5.patch
- create mode 100644 net-fs/openafs-kernel/openafs-kernel-1.6.11.ebuild
- delete mode 100644 net-fs/openafs-kernel/openafs-kernel-1.6.2.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/sabayon'...
 *** synced '/home/mgorny/repos/sabayon'
  * Sync succeeded
