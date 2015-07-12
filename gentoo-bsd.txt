@@ -20,44 +20,19 @@
 $ pmaint sync /home/mgorny/repos/gentoo-bsd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/gentoo-bsd
+   2f12a22..988ba7c  master     -> origin/master
+Updating 2f12a22..988ba7c
+Fast-forward
+ scripts/automatic_updater.sh           |   2 +
+ scripts/mkstages/create_forcestage3.sh | 107 +++++++++++++++++++++++++++++++++
+ scripts/mkstages/stages_builder.sh     |  15 +++--
+ 3 files changed, 118 insertions(+), 6 deletions(-)
+ create mode 100644 scripts/mkstages/create_forcestage3.sh
 *** syncing '/home/mgorny/repos/gentoo-bsd'...
 *** synced '/home/mgorny/repos/gentoo-bsd'
  * Sync succeeded
 $ pmaint regen -t 2 gentoo-bsd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-lib-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-cddl-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-rescue-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-usbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sbin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-share-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-sources-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-ubin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-freebsd/freebsd-ubin-10.2_beta1 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
