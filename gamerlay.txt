@@ -20,7 +20,18 @@
 $ pmaint sync /home/mgorny/repos/gamerlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/gamerlay
+   718bd1d..458c01d  master     -> origin/master
+Updating 718bd1d..458c01d
+Fast-forward
+ games-fps/redeclipse/Manifest                      | 10 +--
+ .../files/redeclipse-1.4_gamesdatadir.patch        | 20 ------
+ .../files/redeclipse-1.5.2_unbundle-enet.patch     | 76 ++++++++++++++++++++++
+ ...declipse-1.4.ebuild => redeclipse-1.5.2.ebuild} | 48 +++++---------
+ 4 files changed, 98 insertions(+), 56 deletions(-)
+ delete mode 100644 games-fps/redeclipse/files/redeclipse-1.4_gamesdatadir.patch
+ create mode 100644 games-fps/redeclipse/files/redeclipse-1.5.2_unbundle-enet.patch
+ rename games-fps/redeclipse/{redeclipse-1.4.ebuild => redeclipse-1.5.2.ebuild} (68%)
 *** syncing '/home/mgorny/repos/gamerlay'...
 *** synced '/home/mgorny/repos/gamerlay'
  * Sync succeeded

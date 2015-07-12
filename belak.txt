@@ -27,32 +27,32 @@ $ pmaint regen -t 2 belak
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: app-editors/scribes-0.4-r954 failed.
 
 !!! ERROR: app-editors/scribes-9999 failed.
-!!! ERROR: app-editors/scribes-0.4-r954 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '188' 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-9999.ebuild'
-!!!            scribes-9999.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python' 'bzr'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
+!!!            scribes-9999.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python' 'bzr'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/belak/app-editors/scribes/scribes-0.4-r954.ebuild'
 !!!        scribes-0.4-r954.ebuild, line  10:  Called inherit 'autotools' 'eutils' 'gnome2' 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
