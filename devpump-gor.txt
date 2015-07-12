@@ -14,7 +14,22 @@
 $ pmaint sync /home/mgorny/repos/devpump-gor
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/DevPump/gentoo-overlay
+   a713b46..d003c32  master     -> origin/master
+Updating a713b46..d003c32
+Fast-forward
+ net-p2p/syncthing/Manifest                         | 12 +---
+ net-p2p/syncthing/syncthing-0.10.26.ebuild         | 76 ---------------------
+ net-p2p/syncthing/syncthing-0.10.27.ebuild         | 76 ---------------------
+ net-p2p/syncthing/syncthing-0.10.30.ebuild         | 77 ----------------------
+ net-p2p/syncthing/syncthing-0.11.0.ebuild          | 77 ----------------------
+ ...hing-0.11.6.ebuild => syncthing-0.11.13.ebuild} |  2 +
+ 6 files changed, 4 insertions(+), 316 deletions(-)
+ delete mode 100755 net-p2p/syncthing/syncthing-0.10.26.ebuild
+ delete mode 100755 net-p2p/syncthing/syncthing-0.10.27.ebuild
+ delete mode 100755 net-p2p/syncthing/syncthing-0.10.30.ebuild
+ delete mode 100755 net-p2p/syncthing/syncthing-0.11.0.ebuild
+ rename net-p2p/syncthing/{syncthing-0.11.6.ebuild => syncthing-0.11.13.ebuild} (96%)
 *** syncing '/home/mgorny/repos/devpump-gor'...
 *** synced '/home/mgorny/repos/devpump-gor'
  * Sync succeeded
