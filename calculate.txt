@@ -12,41 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   9385261..f09b260  master     -> origin/master
-Updating 9385261..f09b260
-Fast-forward
- profiles/base/package.keywords/default                 |  1 +
- .../{amarok-2.5.desktop => clementine-1.2.desktop}     |  2 +-
- .../x11-themes/calculate-icon-theme/20-index.theme     | 10 +++++-----
- .../x11-themes/calculate-icon-theme/start-here.svg     |  1 +
- .../2-user/mate-base/MATE-1.8/index.theme              |  2 +-
- .../MATE-1.8/{home.desktop => launcher-home.desktop}   |  0
- .../2-user/mate-base/MATE-1.8/mate                     | 18 +++++++++++-------
- .../2-user/mate-base/MATE-1.8/panel                    |  3 ++-
- .../.calculate_directory                               |  0
- .../ini.env                                            |  0
- .../login/.calculate_directory                         |  0
- .../login/ini.env                                      |  0
- .../login/plasma-desktop-appletsrc                     |  0
- .../login/xfce4-panel.xml                              |  0
- .../sys-kernel/calculate-sources/4.0/30-bfq            |  6 ++++++
- .../sys-kernel/calculate-sources/4.1/30-bfq            |  6 ++++++
- ...-14-r4.ebuild => calculate-icon-theme-14-r5.ebuild} | 11 +++--------
- 17 files changed, 37 insertions(+), 23 deletions(-)
- rename profiles/templates/3.3/2_ac_install_merge/Desktop/400-AudioPlayer/20-clementine/install/{amarok-2.5.desktop => clementine-1.2.desktop} (91%)
- create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/calculate-icon-theme/start-here.svg
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/{home.desktop => launcher-home.desktop} (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/.calculate_directory (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/ini.env (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/login/.calculate_directory (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/login/ini.env (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/login/plasma-desktop-appletsrc (100%)
- rename profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/{calculate-icon-theme-14-14-r2 => calculate-icon-theme-14-r2}/login/xfce4-panel.xml (100%)
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.0/30-bfq
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/30-bfq
- rename x11-themes/calculate-icon-theme/{calculate-icon-theme-14-r4.ebuild => calculate-icon-theme-14-r5.ebuild} (84%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
