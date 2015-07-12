@@ -17,101 +17,28 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   e4eb588..64cc3d9  master     -> origin/master
-Updating e4eb588..64cc3d9
+   64cc3d9..f99a4f8  master     -> origin/master
+Updating 64cc3d9..f99a4f8
 Fast-forward
- mate-extra/caja-dropbox/Manifest                   |   3 +
- mate-extra/caja-dropbox/caja-dropbox-1.10.0.ebuild |  88 +++++++++++++++
- .../files/caja-dropbox-1.10.0-system-rst2man.patch |  11 ++
- mate-extra/caja-extensions/Manifest                |   2 +
- .../caja-extensions/caja-extensions-1.10.0.ebuild  |  81 ++++++++++++++
- mate-extra/mate-media/Manifest                     |   2 +
- mate-extra/mate-media/mate-media-1.10.0.ebuild     | 100 +++++++++++++++++
- mate-extra/mate-polkit/Manifest                    |   4 +
- mate-extra/mate-polkit/mate-polkit-1.10.0.ebuild   |  52 +++++++++
- mate-extra/mate-polkit/mate-polkit-1.9.90.ebuild   |  52 +++++++++
- mate-extra/mate-power-manager/Manifest             |   2 +
- .../mate-power-manager-1.10.0.ebuild               |  96 ++++++++++++++++
- mate-extra/mate-screensaver/Manifest               |   7 ++
- ...screensaver-1.2.0-fix-popsquares-includes.patch |  11 ++
- .../mate-screensaver-1.2.0-fix-with-libgl.patch    |  11 ++
- .../mate-screensaver/files/xss-conversion.txt      |  22 ++++
- .../mate-screensaver-1.10.1.ebuild                 | 123 +++++++++++++++++++++
- .../mate-screensaver/mate-screensaver-1.9.2.ebuild | 123 +++++++++++++++++++++
- mate-extra/mate-sensors-applet/Manifest            |   8 ++
- .../mate-sensors-applet-1.10.1.ebuild              |  73 ++++++++++++
- .../mate-sensors-applet-1.10.2.ebuild              |  73 ++++++++++++
- .../mate-sensors-applet-1.10.3.ebuild              |  74 +++++++++++++
- .../mate-sensors-applet-1.9.0.ebuild               |  74 +++++++++++++
- mate-extra/mate-system-monitor/Manifest            |   4 +
- .../mate-system-monitor-1.10.0.ebuild              |  61 ++++++++++
- .../mate-system-monitor-1.9.2.ebuild               |  61 ++++++++++
- mate-extra/mate-user-guide/Manifest                |   2 +
- .../mate-user-guide/mate-user-guide-1.10.0.ebuild  |  31 ++++++
- mate-extra/mate-user-share/Manifest                |   4 +
- .../mate-user-share/mate-user-share-1.10.0.ebuild  |  66 +++++++++++
- .../mate-user-share/mate-user-share-1.9.0.ebuild   |  66 +++++++++++
- mate-extra/mate-utils/Manifest                     |   6 +
- mate-extra/mate-utils/mate-utils-1.10.0.ebuild     |  90 +++++++++++++++
- mate-extra/mate-utils/mate-utils-1.10.1.ebuild     |  90 +++++++++++++++
- mate-extra/mate-utils/mate-utils-1.9.1.ebuild      |  90 +++++++++++++++
- mate-extra/mintmenu/Manifest                       |   3 +
- mate-extra/mintmenu/mintmenu-5.6.4.ebuild          | 104 +++++++++++++++++
- media-gfx/eom/Manifest                             |   8 +-
- media-gfx/eom/eom-1.10.1.ebuild                    |  18 ++-
- media-gfx/eom/eom-1.10.2.ebuild                    |  18 ++-
- media-gfx/eom/eom-1.9.1.ebuild                     |  14 ++-
- net-analyzer/mate-netspeed/Manifest                |   4 +-
- .../mate-netspeed/mate-netspeed-1.10.0.ebuild      |  22 +++-
- .../mate-netspeed/mate-netspeed-1.10.1.ebuild      |  22 +++-
- profiles/use.mask/mate                             |   2 +
- x11-misc/mate-notification-daemon/Manifest         |   6 +-
- .../mate-notification-daemon-1.10.0.ebuild         |  22 +++-
- .../mate-notification-daemon-1.9.90.ebuild         |  20 +++-
- x11-misc/mozo/Manifest                             |   2 +-
- x11-misc/mozo/mozo-1.10.0.ebuild                   |   9 +-
- x11-terms/mate-terminal/Manifest                   |   6 +-
- .../mate-terminal/mate-terminal-1.10.0.ebuild      |  22 +++-
- x11-terms/mate-terminal/mate-terminal-1.9.1.ebuild |  22 +++-
- 53 files changed, 1926 insertions(+), 61 deletions(-)
- create mode 100644 mate-extra/caja-dropbox/Manifest
- create mode 100644 mate-extra/caja-dropbox/caja-dropbox-1.10.0.ebuild
- create mode 100644 mate-extra/caja-dropbox/files/caja-dropbox-1.10.0-system-rst2man.patch
- create mode 100644 mate-extra/caja-extensions/Manifest
- create mode 100644 mate-extra/caja-extensions/caja-extensions-1.10.0.ebuild
- create mode 100644 mate-extra/mate-media/Manifest
- create mode 100644 mate-extra/mate-media/mate-media-1.10.0.ebuild
- create mode 100644 mate-extra/mate-polkit/Manifest
- create mode 100644 mate-extra/mate-polkit/mate-polkit-1.10.0.ebuild
- create mode 100644 mate-extra/mate-polkit/mate-polkit-1.9.90.ebuild
- create mode 100644 mate-extra/mate-power-manager/Manifest
- create mode 100644 mate-extra/mate-power-manager/mate-power-manager-1.10.0.ebuild
- create mode 100644 mate-extra/mate-screensaver/Manifest
- create mode 100644 mate-extra/mate-screensaver/files/mate-screensaver-1.2.0-fix-popsquares-includes.patch
- create mode 100644 mate-extra/mate-screensaver/files/mate-screensaver-1.2.0-fix-with-libgl.patch
- create mode 100644 mate-extra/mate-screensaver/files/xss-conversion.txt
- create mode 100644 mate-extra/mate-screensaver/mate-screensaver-1.10.1.ebuild
- create mode 100644 mate-extra/mate-screensaver/mate-screensaver-1.9.2.ebuild
- create mode 100644 mate-extra/mate-sensors-applet/Manifest
- create mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.1.ebuild
- create mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.2.ebuild
- create mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.3.ebuild
- create mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.9.0.ebuild
- create mode 100644 mate-extra/mate-system-monitor/Manifest
- create mode 100644 mate-extra/mate-system-monitor/mate-system-monitor-1.10.0.ebuild
- create mode 100644 mate-extra/mate-system-monitor/mate-system-monitor-1.9.2.ebuild
- create mode 100644 mate-extra/mate-user-guide/Manifest
- create mode 100644 mate-extra/mate-user-guide/mate-user-guide-1.10.0.ebuild
- create mode 100644 mate-extra/mate-user-share/Manifest
- create mode 100644 mate-extra/mate-user-share/mate-user-share-1.10.0.ebuild
- create mode 100644 mate-extra/mate-user-share/mate-user-share-1.9.0.ebuild
- create mode 100644 mate-extra/mate-utils/Manifest
- create mode 100644 mate-extra/mate-utils/mate-utils-1.10.0.ebuild
- create mode 100644 mate-extra/mate-utils/mate-utils-1.10.1.ebuild
- create mode 100644 mate-extra/mate-utils/mate-utils-1.9.1.ebuild
- create mode 100644 mate-extra/mintmenu/Manifest
- create mode 100644 mate-extra/mintmenu/mintmenu-5.6.4.ebuild
- create mode 100644 profiles/use.mask/mate
+ mate-base/mate/Manifest                            |  1 +
+ mate-extra/mate-user-guide/Manifest                |  2 +
+ .../mate-user-guide/mate-user-guide-1.10.1.ebuild  | 31 ++++++++
+ mate-extra/mate-utils/Manifest                     |  2 +
+ mate-extra/mate-utils/mate-utils-1.10.2.ebuild     | 90 ++++++++++++++++++++++
+ media-libs/libmatemixer/Manifest                   |  2 +-
+ media-libs/libmatemixer/libmatemixer-1.10.0.ebuild |  2 +-
+ x11-terms/mate-terminal/Manifest                   |  2 +
+ .../mate-terminal/mate-terminal-1.10.1.ebuild      | 51 ++++++++++++
+ x11-wm/marco/Manifest                              |  2 +-
+ x11-wm/marco/marco-1.10.1.ebuild                   | 20 +++--
+ 11 files changed, 195 insertions(+), 10 deletions(-)
+ create mode 100644 mate-base/mate/Manifest
+ mode change 100644 => 100755 mate-extra/mate-user-guide/Manifest
+ create mode 100644 mate-extra/mate-user-guide/mate-user-guide-1.10.1.ebuild
+ mode change 100644 => 100755 mate-extra/mate-utils/Manifest
+ create mode 100644 mate-extra/mate-utils/mate-utils-1.10.2.ebuild
+ mode change 100644 => 100755 x11-terms/mate-terminal/Manifest
+ create mode 100644 x11-terms/mate-terminal/mate-terminal-1.10.1.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

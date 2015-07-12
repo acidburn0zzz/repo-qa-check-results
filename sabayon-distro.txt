@@ -14,14 +14,21 @@
 $ pmaint sync /home/mgorny/repos/sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/Sabayon/sabayon-distro
-   c3d16d8..5167fbf  master     -> origin/master
-Updating c3d16d8..5167fbf
+   5167fbf..b0b9c65  master     -> origin/master
+Updating 5167fbf..b0b9c65
 Fast-forward
- app-misc/sabayon-live/files/text-installer.patch            | 13 +++++++++++++
- ...{sabayon-live-13-r1.ebuild => sabayon-live-13-r2.ebuild} |  1 +
- 2 files changed, 14 insertions(+)
- create mode 100644 app-misc/sabayon-live/files/text-installer.patch
- rename app-misc/sabayon-live/{sabayon-live-13-r1.ebuild => sabayon-live-13-r2.ebuild} (94%)
+ x11-misc/lightdm-base/Manifest                     |  2 +-
+ ...-1.8.5-r1.ebuild => lightdm-base-1.14.1.ebuild} | 27 ++++++++++++++++------
+ x11-misc/lightdm-gtk-greeter/Manifest              |  2 +-
+ ...7.0.ebuild => lightdm-gtk-greeter-2.0.1.ebuild} |  6 ++---
+ x11-misc/lightdm-qt4/Manifest                      |  2 +-
+ ...-qt4-1.8.5.ebuild => lightdm-qt4-1.14.1.ebuild} | 10 ++++----
+ ...ghtdm-1.8.5-r1.ebuild => lightdm-1.14.1.ebuild} | 15 ++++++------
+ 7 files changed, 38 insertions(+), 26 deletions(-)
+ rename x11-misc/lightdm-base/{lightdm-base-1.8.5-r1.ebuild => lightdm-base-1.14.1.ebuild} (70%)
+ rename x11-misc/lightdm-gtk-greeter/{lightdm-gtk-greeter-1.7.0.ebuild => lightdm-gtk-greeter-2.0.1.ebuild} (89%)
+ rename x11-misc/lightdm-qt4/{lightdm-qt4-1.8.5.ebuild => lightdm-qt4-1.14.1.ebuild} (84%)
+ rename x11-misc/lightdm/{lightdm-1.8.5-r1.ebuild => lightdm-1.14.1.ebuild} (51%)
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded

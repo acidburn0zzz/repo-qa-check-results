@@ -15,7 +15,18 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/hardened-development
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/hardened-dev
+   f8e4b36..d0bb9a3  master     -> origin/master
+Updating f8e4b36..d0bb9a3
+Fast-forward
+ sys-kernel/hardened-sources/Manifest               | 36 +++++++++++-----------
+ ...4.47.ebuild => hardened-sources-3.14.48.ebuild} |  0
+ ...0.ebuild => hardened-sources-3.2.69-r11.ebuild} |  0
+ ...0.7-r1.ebuild => hardened-sources-4.0.8.ebuild} |  2 +-
+ 4 files changed, 19 insertions(+), 19 deletions(-)
+ rename sys-kernel/hardened-sources/{hardened-sources-3.14.47.ebuild => hardened-sources-3.14.48.ebuild} (100%)
+ rename sys-kernel/hardened-sources/{hardened-sources-3.2.69-r10.ebuild => hardened-sources-3.2.69-r11.ebuild} (100%)
+ rename sys-kernel/hardened-sources/{hardened-sources-4.0.7-r1.ebuild => hardened-sources-4.0.8.ebuild} (96%)
 *** syncing '/home/mgorny/repos/hardened-development'...
 *** synced '/home/mgorny/repos/hardened-development'
  * Sync succeeded
