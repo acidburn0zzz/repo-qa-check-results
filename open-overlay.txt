@@ -16,7 +16,30 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   723e9ba..826380d  master     -> origin/master
+Updating 723e9ba..826380d
+Fast-forward
+ app-arch/engrampa/Manifest                         |   2 +
+ app-arch/engrampa/engrampa-1.10.1.ebuild           |  85 ++++++++++++++
+ app-text/atril/Manifest                            |   4 +-
+ app-text/atril/atril-1.10.0.ebuild                 |   2 +-
+ app-text/atril/atril-1.10.1.ebuild                 | 107 ++++++++++++++++++
+ mate-base/mate-control-center/Manifest             |   2 +
+ .../mate-control-center-1.10.1.ebuild              |  97 ++++++++++++++++
+ mate-base/mate-session-manager/Manifest            |   2 +
+ .../mate-session-manager-1.10.2.ebuild             | 101 +++++++++++++++++
+ mate-extra/mate-screensaver/Manifest               |   2 +
+ .../mate-screensaver-1.10.2.ebuild                 | 123 +++++++++++++++++++++
+ mate-extra/mate-system-monitor/Manifest            |   2 +
+ .../mate-system-monitor-1.10.1.ebuild              |  61 ++++++++++
+ 13 files changed, 588 insertions(+), 2 deletions(-)
+ create mode 100644 app-arch/engrampa/engrampa-1.10.1.ebuild
+ create mode 100644 app-text/atril/atril-1.10.1.ebuild
+ create mode 100644 mate-base/mate-control-center/mate-control-center-1.10.1.ebuild
+ create mode 100644 mate-base/mate-session-manager/mate-session-manager-1.10.2.ebuild
+ create mode 100644 mate-extra/mate-screensaver/mate-screensaver-1.10.2.ebuild
+ create mode 100644 mate-extra/mate-system-monitor/mate-system-monitor-1.10.1.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
