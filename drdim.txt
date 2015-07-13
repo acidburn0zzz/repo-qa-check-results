@@ -16,7 +16,81 @@
 $ pmaint sync /home/mgorny/repos/drdim
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/drdim/layman
+   de1d181..2676fd1  master     -> origin/master
+Updating de1d181..2676fd1
+Fast-forward
+ dev-util/clion/Manifest                            |  4 +-
+ dev-util/clion/clion-1.0.3.ebuild                  |  2 +-
+ dev-util/clion/clion-1.0.4.ebuild                  |  2 +-
+ dev-util/idea-professional/Manifest                |  4 +-
+ .../idea-professional-141.1532.4.ebuild            |  2 +-
+ .../idea-professional-142.2887.3.ebuild            |  2 +-
+ dev-util/idea/Manifest                             |  4 +-
+ dev-util/idea/idea-141.1532.4.ebuild               |  2 +-
+ dev-util/idea/idea-142.2887.3.ebuild               |  2 +-
+ dev-util/phpstorm/Manifest                         | 20 ++--------
+ dev-util/phpstorm/phpstorm-139.1348.ebuild         |  2 +-
+ dev-util/phpstorm/phpstorm-141.1000.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1224.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1306.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1408.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1534.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1619.ebuild         | 46 ----------------------
+ dev-util/phpstorm/phpstorm-141.1717.ebuild         |  2 +-
+ dev-util/phpstorm/phpstorm-141.1815.ebuild         |  2 +-
+ dev-util/phpstorm/phpstorm-141.891.ebuild          | 46 ----------------------
+ dev-util/pycharm-community/Manifest                | 14 +------
+ .../pycharm-community-135.1049.ebuild              | 41 -------------------
+ .../pycharm-community-138.2401.ebuild              | 40 -------------------
+ .../pycharm-community-139.431.ebuild               | 40 -------------------
+ .../pycharm-community-139.487.ebuild               | 41 -------------------
+ .../pycharm-community-139.556.ebuild               | 40 -------------------
+ .../pycharm-community-141.1245.ebuild              |  2 +-
+ .../pycharm-community-141.1699.ebuild              |  2 +-
+ dev-util/pycharm/Manifest                          | 12 ++----
+ dev-util/pycharm/pycharm-135.1057.ebuild           |  2 +-
+ dev-util/pycharm/pycharm-139.431.ebuild            | 44 ---------------------
+ dev-util/pycharm/pycharm-139.487.ebuild            | 44 ---------------------
+ dev-util/pycharm/pycharm-139.556.ebuild            | 44 ---------------------
+ dev-util/pycharm/pycharm-141.1580.ebuild           |  2 +-
+ dev-util/pycharm/pycharm-141.1699.ebuild           |  2 +-
+ dev-util/rubymine/Manifest                         | 14 +++----
+ dev-util/rubymine/rubymine-135.1104.ebuild         |  2 +-
+ dev-util/rubymine/rubymine-135.809.ebuild          |  2 +-
+ dev-util/rubymine/rubymine-139.1231.ebuild         |  2 +-
+ dev-util/rubymine/rubymine-139.262.ebuild          |  2 +-
+ dev-util/rubymine/rubymine-139.365.ebuild          |  2 +-
+ dev-util/rubymine/rubymine-141.1835.ebuild         |  2 +-
+ dev-util/rubymine/rubymine-141.664.ebuild          |  2 +-
+ dev-util/webstorm/Manifest                         | 12 +-----
+ dev-util/webstorm/webstorm-135.1063.ebuild         | 40 -------------------
+ dev-util/webstorm/webstorm-135.831.ebuild          | 40 -------------------
+ dev-util/webstorm/webstorm-138.1495.ebuild         | 40 -------------------
+ dev-util/webstorm/webstorm-138.1988.ebuild         | 40 -------------------
+ dev-util/webstorm/webstorm-138.2406.ebuild         | 40 -------------------
+ dev-util/webstorm/webstorm-141.1550.ebuild         |  2 +-
+ 50 files changed, 44 insertions(+), 940 deletions(-)
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1000.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1224.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1306.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1408.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1534.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.1619.ebuild
+ delete mode 100644 dev-util/phpstorm/phpstorm-141.891.ebuild
+ delete mode 100644 dev-util/pycharm-community/pycharm-community-135.1049.ebuild
+ delete mode 100644 dev-util/pycharm-community/pycharm-community-138.2401.ebuild
+ delete mode 100644 dev-util/pycharm-community/pycharm-community-139.431.ebuild
+ delete mode 100644 dev-util/pycharm-community/pycharm-community-139.487.ebuild
+ delete mode 100644 dev-util/pycharm-community/pycharm-community-139.556.ebuild
+ delete mode 100644 dev-util/pycharm/pycharm-139.431.ebuild
+ delete mode 100644 dev-util/pycharm/pycharm-139.487.ebuild
+ delete mode 100644 dev-util/pycharm/pycharm-139.556.ebuild
+ delete mode 100644 dev-util/webstorm/webstorm-135.1063.ebuild
+ delete mode 100644 dev-util/webstorm/webstorm-135.831.ebuild
+ delete mode 100644 dev-util/webstorm/webstorm-138.1495.ebuild
+ delete mode 100644 dev-util/webstorm/webstorm-138.1988.ebuild
+ delete mode 100644 dev-util/webstorm/webstorm-138.2406.ebuild
 *** syncing '/home/mgorny/repos/drdim'...
 *** synced '/home/mgorny/repos/drdim'
  * Sync succeeded

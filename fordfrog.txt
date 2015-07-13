@@ -18,7 +18,515 @@
 $ pmaint sync /home/mgorny/repos/fordfrog
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/fordfrog
+   4cd5677..3572d6a  master     -> origin/master
+Updating 4cd5677..3572d6a
+Fast-forward
+ dev-java/netbeans-apisupport/ChangeLog             |  20 ++
+ dev-java/netbeans-apisupport/Manifest              |  26 +-
+ .../netbeans-apisupport-9999_p20150519.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150520.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150521.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150522.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150525.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150526.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150527.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150528.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150529.ebuild      | 111 ------
+ .../netbeans-apisupport-9999_p20150530.ebuild      | 111 ------
+ ...d => netbeans-apisupport-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-cnd/ChangeLog                    |  15 +
+ dev-java/netbeans-cnd/Manifest                     |  27 +-
+ .../netbeans-cnd-9999_p20150518.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150519.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150520.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150521.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150522.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150525.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150526.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150527.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150528.ebuild             | 125 -------
+ .../netbeans-cnd-9999_p20150529.ebuild             | 125 -------
+ ...0.ebuild => netbeans-cnd-9999_p20150713.ebuild} |  10 +-
+ dev-java/netbeans-dlight/ChangeLog                 |  20 ++
+ dev-java/netbeans-dlight/Manifest                  |  26 +-
+ .../netbeans-dlight-9999_p20150519.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150520.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150521.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150522.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150525.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150526.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150527.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150528.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150529.ebuild          | 101 ------
+ .../netbeans-dlight-9999_p20150530.ebuild          | 101 ------
+ ...build => netbeans-dlight-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-enterprise/ChangeLog             |  20 ++
+ dev-java/netbeans-enterprise/Manifest              |  26 +-
+ .../netbeans-enterprise-9999_p20150519.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150520.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150521.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150522.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150525.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150526.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150527.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150528.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150529.ebuild      | 266 ---------------
+ .../netbeans-enterprise-9999_p20150530.ebuild      | 266 ---------------
+ ...d => netbeans-enterprise-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-ergonomics/ChangeLog             |  20 ++
+ dev-java/netbeans-ergonomics/Manifest              |  26 +-
+ .../netbeans-ergonomics-9999_p20150519.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150520.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150521.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150522.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150525.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150526.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150527.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150528.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150529.ebuild      | 101 ------
+ .../netbeans-ergonomics-9999_p20150530.ebuild      | 101 ------
+ ...d => netbeans-ergonomics-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-extide/ChangeLog                 |  20 ++
+ dev-java/netbeans-extide/Manifest                  |  26 +-
+ .../netbeans-extide-9999_p20150519.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150520.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150521.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150522.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150525.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150526.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150527.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150528.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150529.ebuild          | 108 ------
+ .../netbeans-extide-9999_p20150530.ebuild          | 108 ------
+ ...build => netbeans-extide-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-groovy/ChangeLog                 |  20 ++
+ dev-java/netbeans-groovy/Manifest                  |  26 +-
+ .../netbeans-groovy-9999_p20150519.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150520.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150521.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150522.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150525.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150526.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150527.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150528.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150529.ebuild          | 111 ------
+ .../netbeans-groovy-9999_p20150530.ebuild          | 111 ------
+ ...build => netbeans-groovy-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-harness/ChangeLog                |  20 ++
+ dev-java/netbeans-harness/Manifest                 |  26 +-
+ .../netbeans-harness-9999_p20150519.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150520.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150521.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150522.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150525.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150526.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150527.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150528.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150529.ebuild         | 114 -------
+ .../netbeans-harness-9999_p20150530.ebuild         | 114 -------
+ ...uild => netbeans-harness-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-ide/ChangeLog                    |  15 +
+ dev-java/netbeans-ide/Manifest                     |  27 +-
+ .../netbeans-ide-9999_p20150518.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150519.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150520.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150521.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150522.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150525.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150526.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150527.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150528.ebuild             | 377 ---------------------
+ .../netbeans-ide-9999_p20150529.ebuild             | 377 ---------------------
+ ...0.ebuild => netbeans-ide-9999_p20150713.ebuild} |   6 +-
+ dev-java/netbeans-java/ChangeLog                   |  15 +
+ dev-java/netbeans-java/Manifest                    |  26 +-
+ .../netbeans-java-9999_p20150519.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150520.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150521.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150522.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150525.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150526.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150527.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150528.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150529.ebuild            | 271 ---------------
+ .../netbeans-java-9999_p20150530.ebuild            | 271 ---------------
+ ....ebuild => netbeans-java-9999_p20150713.ebuild} |  12 +-
+ dev-java/netbeans-javacard/ChangeLog               |  20 ++
+ dev-java/netbeans-javacard/Manifest                |  26 +-
+ .../netbeans-javacard-9999_p20150519.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150520.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150521.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150522.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150525.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150526.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150527.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150528.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150529.ebuild        | 134 --------
+ .../netbeans-javacard-9999_p20150530.ebuild        | 134 --------
+ ...ild => netbeans-javacard-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-javadoc/ChangeLog                |  20 ++
+ dev-java/netbeans-javadoc/Manifest                 |  26 +-
+ .../netbeans-javadoc-9999_p20150519.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150520.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150521.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150522.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150525.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150526.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150527.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150528.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150529.ebuild         | 168 ---------
+ .../netbeans-javadoc-9999_p20150530.ebuild         | 168 ---------
+ ...uild => netbeans-javadoc-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-javafx/ChangeLog                 |  20 ++
+ dev-java/netbeans-javafx/Manifest                  |  26 +-
+ .../netbeans-javafx-9999_p20150519.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150520.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150521.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150522.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150525.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150526.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150527.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150528.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150529.ebuild          | 124 -------
+ .../netbeans-javafx-9999_p20150530.ebuild          | 124 -------
+ ...build => netbeans-javafx-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-mobility/ChangeLog               |  20 ++
+ dev-java/netbeans-mobility/Manifest                |  26 +-
+ .../netbeans-mobility-9999_p20150519.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150520.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150521.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150522.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150525.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150526.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150527.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150528.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150529.ebuild        | 126 -------
+ .../netbeans-mobility-9999_p20150530.ebuild        | 126 -------
+ ...ild => netbeans-mobility-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-nb/ChangeLog                     |  15 +
+ dev-java/netbeans-nb/Manifest                      |  26 +-
+ .../netbeans-nb/netbeans-nb-9999_p20150519.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150520.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150521.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150522.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150525.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150526.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150527.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150528.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150529.ebuild  | 148 --------
+ .../netbeans-nb/netbeans-nb-9999_p20150530.ebuild  | 148 --------
+ ...18.ebuild => netbeans-nb-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-php/ChangeLog                    |  15 +
+ dev-java/netbeans-php/Manifest                     |  27 +-
+ .../netbeans-php-9999_p20150518.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150519.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150520.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150521.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150525.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150526.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150527.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150528.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150529.ebuild             | 127 -------
+ .../netbeans-php-9999_p20150530.ebuild             | 127 -------
+ ...2.ebuild => netbeans-php-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-platform/ChangeLog               |  20 ++
+ dev-java/netbeans-platform/Manifest                |  27 +-
+ .../netbeans-platform-9999_p20150518.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150519.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150520.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150521.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150522.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150525.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150526.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150527.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150528.ebuild        | 171 ----------
+ .../netbeans-platform-9999_p20150529.ebuild        | 171 ----------
+ ...ild => netbeans-platform-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-profiler/ChangeLog               |  20 ++
+ dev-java/netbeans-profiler/Manifest                |  26 +-
+ .../netbeans-profiler-9999_p20150519.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150520.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150521.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150522.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150525.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150526.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150527.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150528.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150529.ebuild        | 121 -------
+ .../netbeans-profiler-9999_p20150530.ebuild        | 121 -------
+ ...ild => netbeans-profiler-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-webcommon/ChangeLog              |  20 ++
+ dev-java/netbeans-webcommon/Manifest               |  26 +-
+ .../netbeans-webcommon-9999_p20150519.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150520.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150521.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150522.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150525.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150526.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150527.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150528.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150529.ebuild       | 123 -------
+ .../netbeans-webcommon-9999_p20150530.ebuild       | 123 -------
+ ...ld => netbeans-webcommon-9999_p20150713.ebuild} |   2 +-
+ dev-java/netbeans-websvccommon/ChangeLog           |  20 ++
+ dev-java/netbeans-websvccommon/Manifest            |  26 +-
+ .../netbeans-websvccommon-9999_p20150519.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150520.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150521.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150522.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150525.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150526.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150527.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150528.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150529.ebuild    |  94 -----
+ .../netbeans-websvccommon-9999_p20150530.ebuild    |  94 -----
+ ...=> netbeans-websvccommon-9999_p20150713.ebuild} |   2 +-
+ dev-util/netbeans/ChangeLog                        |  15 +
+ dev-util/netbeans/Manifest                         |  26 +-
+ dev-util/netbeans/netbeans-9999_p20150519.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150520.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150521.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150522.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150525.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150526.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150527.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150528.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150529.ebuild   | 264 ---------------
+ dev-util/netbeans/netbeans-9999_p20150530.ebuild   | 264 ---------------
+ ...50518.ebuild => netbeans-9999_p20150713.ebuild} |   2 +-
+ 273 files changed, 486 insertions(+), 33368 deletions(-)
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150530.ebuild
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150518.ebuild => netbeans-apisupport-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150518.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-cnd/netbeans-cnd-9999_p20150529.ebuild
+ rename dev-java/netbeans-cnd/{netbeans-cnd-9999_p20150530.ebuild => netbeans-cnd-9999_p20150713.ebuild} (92%)
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-dlight/netbeans-dlight-9999_p20150530.ebuild
+ rename dev-java/netbeans-dlight/{netbeans-dlight-9999_p20150518.ebuild => netbeans-dlight-9999_p20150713.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-enterprise/netbeans-enterprise-9999_p20150530.ebuild
+ rename dev-java/netbeans-enterprise/{netbeans-enterprise-9999_p20150518.ebuild => netbeans-enterprise-9999_p20150713.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-ergonomics/netbeans-ergonomics-9999_p20150530.ebuild
+ rename dev-java/netbeans-ergonomics/{netbeans-ergonomics-9999_p20150518.ebuild => netbeans-ergonomics-9999_p20150713.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150530.ebuild
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150518.ebuild => netbeans-extide-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-groovy/netbeans-groovy-9999_p20150530.ebuild
+ rename dev-java/netbeans-groovy/{netbeans-groovy-9999_p20150518.ebuild => netbeans-groovy-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150530.ebuild
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150518.ebuild => netbeans-harness-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150518.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150529.ebuild
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150530.ebuild => netbeans-ide-9999_p20150713.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150530.ebuild
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150518.ebuild => netbeans-java-9999_p20150713.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-javacard/netbeans-javacard-9999_p20150530.ebuild
+ rename dev-java/netbeans-javacard/{netbeans-javacard-9999_p20150518.ebuild => netbeans-javacard-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-javadoc/netbeans-javadoc-9999_p20150530.ebuild
+ rename dev-java/netbeans-javadoc/{netbeans-javadoc-9999_p20150518.ebuild => netbeans-javadoc-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150530.ebuild
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150518.ebuild => netbeans-javafx-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-mobility/netbeans-mobility-9999_p20150530.ebuild
+ rename dev-java/netbeans-mobility/{netbeans-mobility-9999_p20150518.ebuild => netbeans-mobility-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150530.ebuild
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150518.ebuild => netbeans-nb-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150518.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-php/netbeans-php-9999_p20150530.ebuild
+ rename dev-java/netbeans-php/{netbeans-php-9999_p20150522.ebuild => netbeans-php-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150518.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150529.ebuild
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150530.ebuild => netbeans-platform-9999_p20150713.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150530.ebuild
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150518.ebuild => netbeans-profiler-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-webcommon/netbeans-webcommon-9999_p20150530.ebuild
+ rename dev-java/netbeans-webcommon/{netbeans-webcommon-9999_p20150518.ebuild => netbeans-webcommon-9999_p20150713.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150519.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150520.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150521.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150522.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150525.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150526.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150527.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150528.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150529.ebuild
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150530.ebuild
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150518.ebuild => netbeans-websvccommon-9999_p20150713.ebuild} (97%)
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150519.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150520.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150521.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150522.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150525.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150526.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150527.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150528.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150529.ebuild
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150530.ebuild
+ rename dev-util/netbeans/{netbeans-9999_p20150518.ebuild => netbeans-9999_p20150713.ebuild} (99%)
 *** syncing '/home/mgorny/repos/fordfrog'...
 *** synced '/home/mgorny/repos/fordfrog'
  * Sync succeeded
