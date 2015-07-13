@@ -17,19 +17,24 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   dde39a0..07f0724  master     -> origin/master
-Updating dde39a0..07f0724
+   07f0724..e2d6c78  master     -> origin/master
+Updating 07f0724..e2d6c78
 Fast-forward
- dev-libs/glib/Manifest                             |   2 +
- dev-libs/glib/glib-2.45.3.ebuild                   | 268 +++++++++++++++++++++
- dev-util/gdbus-codegen/Manifest                    |   2 +
- dev-util/gdbus-codegen/gdbus-codegen-2.45.3.ebuild |  45 ++++
- net-libs/webkit-gtk/Manifest                       |   2 +
- net-libs/webkit-gtk/webkit-gtk-2.9.3.ebuild        | 237 ++++++++++++++++++
- 6 files changed, 556 insertions(+)
- create mode 100644 dev-libs/glib/glib-2.45.3.ebuild
- create mode 100644 dev-util/gdbus-codegen/gdbus-codegen-2.45.3.ebuild
- create mode 100644 net-libs/webkit-gtk/webkit-gtk-2.9.3.ebuild
+ www-client/firefox-developer-bin/Manifest          | 18 ----------
+ .../firefox-developer-bin-38.0_alpha1.ebuild       | 38 ----------------------
+ .../firefox-developer-bin-38.0_alpha2.ebuild       | 38 ----------------------
+ .../firefox-developer-bin-39.0_alpha1.ebuild       | 38 ----------------------
+ .../firefox-developer-bin-39.0_alpha2.ebuild       | 38 ----------------------
+ .../firefox-developer-bin-40.0_alpha2.ebuild       | 38 ----------------------
+ .../firefox-developer-bin-41.0_alpha2.ebuild       | 38 ----------------------
+ 7 files changed, 246 deletions(-)
+ delete mode 100644 www-client/firefox-developer-bin/Manifest
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-38.0_alpha1.ebuild
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-38.0_alpha2.ebuild
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-39.0_alpha1.ebuild
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-39.0_alpha2.ebuild
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-40.0_alpha2.ebuild
+ delete mode 100644 www-client/firefox-developer-bin/firefox-developer-bin-41.0_alpha2.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
