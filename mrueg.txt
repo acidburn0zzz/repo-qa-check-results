@@ -15,16 +15,18 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/mrueg
+WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named '<unlabeled repository /home/mgorny/repos/interactive-fiction>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/interactive-fiction' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/interactive-fiction', named '<unlabeled repository /home/mgorny/repos/interactive-fiction>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/dev/mrueg
-   d77ddb6..6bcba40  master     -> origin/master
-Updating d77ddb6..6bcba40
+   6bcba40..e9554e2  master     -> origin/master
+Updating 6bcba40..e9554e2
 Fast-forward
- .../files/pyrfc3339-0.2-fixdoctests.patch          | 54 ++++++++++++++++++++++
- dev-python/pyrfc3339/pyrfc3339-0.2.ebuild          |  4 +-
- 2 files changed, 57 insertions(+), 1 deletion(-)
- create mode 100644 dev-python/pyrfc3339/files/pyrfc3339-0.2-fixdoctests.patch
+ dev-python/acme/acme-9999.ebuild | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 *** syncing '/home/mgorny/repos/mrueg'...
 *** synced '/home/mgorny/repos/mrueg'
  * Sync succeeded

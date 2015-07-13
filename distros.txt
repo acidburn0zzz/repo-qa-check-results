@@ -14,7 +14,19 @@
 $ pmaint sync /home/mgorny/repos/distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/distros
+   2c01bdb..82b9bd9  master     -> origin/master
+   4ff2bbe..82b9bd9  develop    -> origin/develop
+   4ff2bbe..82b9bd9  update     -> origin/update
+Updating 2c01bdb..82b9bd9
+Fast-forward
+ profiles/CDS/make.defaults                                 |  1 +
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini        |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/mate  |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/tools |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/update/83    | 10 ++++++++++
+ 5 files changed, 14 insertions(+), 3 deletions(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/83
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded
