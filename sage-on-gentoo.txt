@@ -15,7 +15,18 @@
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   72ef41e..88a91d3  master     -> origin/master
+Updating 72ef41e..88a91d3
+Fast-forward
+ dev-python/cython/ChangeLog                        |  8 +++
+ ...cython-0.22-r4.ebuild => cython-0.22-r5.ebuild} |  2 +
+ .../cython/files/cython-0.22-includes_cmp.patch    | 32 +++++++++
+ .../cython-0.22-transitive_dependencies.patch      | 78 ++++++++++++++++++++++
+ 4 files changed, 120 insertions(+)
+ rename dev-python/cython/{cython-0.22-r4.ebuild => cython-0.22-r5.ebuild} (95%)
+ create mode 100644 dev-python/cython/files/cython-0.22-includes_cmp.patch
+ create mode 100644 dev-python/cython/files/cython-0.22-transitive_dependencies.patch
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
