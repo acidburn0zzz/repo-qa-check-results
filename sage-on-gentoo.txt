@@ -13,13 +13,17 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   f405d73..027bd50  master     -> origin/master
+Updating f405d73..027bd50
+Fast-forward
+ sci-libs/pynac/ChangeLog            |  6 ++++++
+ sci-libs/pynac/Manifest             |  1 +
+ sci-libs/pynac/pynac-0.3.9.2.ebuild | 30 ++++++++++++++++++++++++++++++
+ 3 files changed, 37 insertions(+)
+ create mode 100644 sci-libs/pynac/pynac-0.3.9.2.ebuild
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
