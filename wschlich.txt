@@ -46,10 +46,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!         dkimproxy-1.0.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
-!!!           dkimproxy-1.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!           dkimproxy-1.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
@@ -80,7 +80,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
 ERROR pkgcore: returned val from gen_metadata was 'False'
