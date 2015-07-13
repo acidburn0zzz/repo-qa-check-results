@@ -20,10 +20,20 @@
 $ pmaint sync /home/mgorny/repos/activehome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: read error: Connection reset by peer
+*** syncing '/home/mgorny/repos/activehome'...
+*** failed syncing '/home/mgorny/repos/activehome'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/activehome
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/zugaina' lacks a defined repo_name
+Cloning into '/home/mgorny/repos/activehome'...
 *** syncing '/home/mgorny/repos/activehome'...
 *** synced '/home/mgorny/repos/activehome'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 activehome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
