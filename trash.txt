@@ -15,47 +15,397 @@ $ pmaint sync /home/mgorny/repos/trash
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/batekman/trash-overlay
-   81e66f4..54f3132  master     -> origin/master
-Updating 81e66f4..54f3132
-Fast-forward
- app-arch/peazip-bin/Manifest                       |   4 +-
- app-arch/peazip-bin/peazip-bin-5.6.0.ebuild        |   2 +-
- app-misc/vifm/Manifest                             |   2 +-
- .../vifm/{vifm-0.7.8.ebuild => vifm-0.8.ebuild}    |   9 +-
- app-office/litetran/Manifest                       |   2 +-
- app-text/poppler-data/poppler-data-0.4.5-r1.ebuild |   2 +
- app-text/poppler-data/poppler-data-0.4.6.ebuild    |   2 +
- .../microemulator-bin-2.0.4.ebuild                 |   2 +
- .../gobject-introspection-1.36.0.ebuild            |   2 +
- gnome-extra/gtkhtml/gtkhtml-2.11.1.ebuild          |   2 +
- .../acroread-fonts/acroread-fonts-9.0.ebuild       |   2 +
- media-gfx/viewnior/viewnior-1.1.ebuild             |   2 +
- net-misc/yacy/Manifest                             |   1 +
- net-misc/yacy/yacy-1.72.20140506.9000.ebuild       |   1 +
- sys-fs/eudev/eudev-1.1.ebuild                      |   2 +
- x11-libs/utouch-grail/Manifest                     |   1 -
- x11-libs/utouch-grail/utouch-grail-3.1.0.ebuild    |  24 -----
- x11-misc/eaglemode/Manifest                        |   2 -
- x11-misc/eaglemode/eaglemode-0.87.0.ebuild         | 101 ---------------------
- x11-misc/eaglemode/eaglemode-0.88.0.ebuild         | 101 ---------------------
- x11-misc/xprintidle/Manifest                       |   1 -
- x11-misc/xprintidle/files/fix_makefile.patch       |  11 ---
- x11-misc/xprintidle/xprintidle-0.2.ebuild          |  35 -------
- x11-misc/xprintidle/xprintidle-9999.ebuild         |  36 --------
- 24 files changed, 29 insertions(+), 320 deletions(-)
- rename app-misc/vifm/{vifm-0.7.8.ebuild => vifm-0.8.ebuild} (93%)
- delete mode 100644 x11-libs/utouch-grail/Manifest
- delete mode 100644 x11-libs/utouch-grail/utouch-grail-3.1.0.ebuild
- delete mode 100644 x11-misc/eaglemode/eaglemode-0.87.0.ebuild
- delete mode 100644 x11-misc/eaglemode/eaglemode-0.88.0.ebuild
- delete mode 100644 x11-misc/xprintidle/Manifest
- delete mode 100644 x11-misc/xprintidle/files/fix_makefile.patch
- delete mode 100644 x11-misc/xprintidle/xprintidle-0.2.ebuild
- delete mode 100644 x11-misc/xprintidle/xprintidle-9999.ebuild
+ + 54f3132...3c415c5 master     -> origin/master  (forced update)
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <mgorny@drfinkelstein.bonedaddy.net>) not allowed
+*** syncing '/home/mgorny/repos/trash'...
+*** failed syncing '/home/mgorny/repos/trash'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/trash
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/trash'...
 *** syncing '/home/mgorny/repos/trash'...
 *** synced '/home/mgorny/repos/trash'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 trash
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by media-fonts/openfontlibrary-20120807 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
