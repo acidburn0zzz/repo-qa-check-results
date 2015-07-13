@@ -12,39 +12,13 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/rasdark
-WARNING:pkgcore:repository at location '/home/mgorny/repos/quarks' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/quarks', named '<unlabeled repository /home/mgorny/repos/quarks>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/rasdark/overlay
-   07e672c..17da305  master     -> origin/master
-Updating 07e672c..17da305
+   17da305..a43734a  master     -> origin/master
+Updating 17da305..a43734a
 Fast-forward
- eclass/mozconfig-v5.38.eclass                      | 231 -------------
- net-news/quiterss/quiterss-0.18.1.ebuild           |  40 ++-
- www-client/firefox/Manifest                        |  90 -----
- ...refox-31.0-webm-disallow-negative-samples.patch |  29 --
- .../files/firefox-32.0-hppa-js-configure.patch     |  21 --
- .../files/firefox-33.0-jemalloc-configure.patch    |  29 --
- .../files/firefox-35.0-gmp-clearkey-sprintf.patch  |  10 -
- .../firefox-36.0-depollute-CONST-from-dtoa.patch   |  18 -
- .../firefox/files/firefox-36.0-disable-ion.patch   |  18 -
- ...firefox-37.0-jemalloc_configure_unbashify.patch |  11 -
- www-client/firefox/files/gentoo-default-prefs.js-1 |  17 -
- www-client/firefox/files/icon/firefox.desktop      |   9 -
- www-client/firefox/firefox-38.0.5.ebuild           | 378 ---------------------
- 13 files changed, 23 insertions(+), 878 deletions(-)
- delete mode 100644 eclass/mozconfig-v5.38.eclass
- delete mode 100644 www-client/firefox/Manifest
- delete mode 100644 www-client/firefox/files/firefox-31.0-webm-disallow-negative-samples.patch
- delete mode 100644 www-client/firefox/files/firefox-32.0-hppa-js-configure.patch
- delete mode 100644 www-client/firefox/files/firefox-33.0-jemalloc-configure.patch
- delete mode 100644 www-client/firefox/files/firefox-35.0-gmp-clearkey-sprintf.patch
- delete mode 100644 www-client/firefox/files/firefox-36.0-depollute-CONST-from-dtoa.patch
- delete mode 100644 www-client/firefox/files/firefox-36.0-disable-ion.patch
- delete mode 100644 www-client/firefox/files/firefox-37.0-jemalloc_configure_unbashify.patch
- delete mode 100644 www-client/firefox/files/gentoo-default-prefs.js-1
- delete mode 100644 www-client/firefox/files/icon/firefox.desktop
- delete mode 100644 www-client/firefox/firefox-38.0.5.ebuild
+ net-news/quiterss/quiterss-0.18.1.ebuild | 18 +++++++++++-------
+ 1 file changed, 11 insertions(+), 7 deletions(-)
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
