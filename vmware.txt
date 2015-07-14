@@ -19,13 +19,29 @@ $ pmaint sync /home/mgorny/repos/vmware
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/vmware
-   19adc44..f1393d0  master     -> origin/master
-Updating 19adc44..f1393d0
+   f1393d0..1250c78  master     -> origin/master
+Updating f1393d0..1250c78
 Fast-forward
- app-emulation/vmware-player/Manifest               |   1 +
- .../vmware-player-7.1.2.2780323.ebuild             | 244 +++++++++++++++++++++
- 2 files changed, 245 insertions(+)
- create mode 100644 app-emulation/vmware-player/vmware-player-7.1.2.2780323.ebuild
+ .../vmware-modules/files/304-3.10-00-dentry.patch  |   1 +
+ .../vmware-modules/files/304-3.10-01-inode.patch   |   3 +
+ .../vmware-modules/files/304-3.10-02-control.patch |   2 +
+ .../vmware-modules/files/304-3.10-03-inline.patch  |   1 +
+ .../files/304-3.18-00-version-redefined.patch      |   1 +
+ .../files/304-3.19-00-compat-namei.patch           |   1 +
+ .../vmware-modules/files/304-3.19-01-dentry.patch  |   1 +
+ .../vmware-modules/files/304-3.19-03-iovec.patch   |   1 +
+ .../vmware-modules/files/304-3.19-04-iovec.patch   |   1 +
+ .../files/304-3.19-05-vmci_qpair.patch             |   1 +
+ .../vmware-modules/files/304-3.19-06-vsock.patch   |   1 +
+ .../vmware-modules/files/304-3.19-07-vsock.patch   |   1 +
+ .../vmware-modules/vmware-modules-304.2.ebuild     | 113 +++++
+ app-emulation/vmware-workstation/Manifest          |   1 +
+ .../vmware-workstation/files/vmware-11.2.rc        |  44 ++
+ .../vmware-workstation-11.1.2.2780323.ebuild       | 497 +++++++++++++++++++++
+ 16 files changed, 670 insertions(+)
+ create mode 100644 app-emulation/vmware-modules/vmware-modules-304.2.ebuild
+ create mode 100644 app-emulation/vmware-workstation/files/vmware-11.2.rc
+ create mode 100644 app-emulation/vmware-workstation/vmware-workstation-11.1.2.2780323.ebuild
 *** syncing '/home/mgorny/repos/vmware'...
 *** synced '/home/mgorny/repos/vmware'
  * Sync succeeded
