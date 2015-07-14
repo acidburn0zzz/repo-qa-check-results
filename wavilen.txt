@@ -23,37 +23,16 @@ Already up-to-date.
 $ pmaint regen -t 2 wavilen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.9.7.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
- * 
- * "/home/mgorny/repos/wavilen/net-p2p/flush/flush-0.8.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 
 !!! ERROR: x11-misc/notify-osd-0.9.29-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
- * 
- * "/home/mgorny/repos/wavilen/x11-misc/pytyle/pytyle-0.7.5.ebuild":
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
-WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wavilen/x11-misc/notify-osd/notify-osd-0.9.29-r1.ebuild'
 !!!    notify-osd-0.9.29-r1.ebuild, line   7:  Called inherit 'gnome2' 'eutils'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'

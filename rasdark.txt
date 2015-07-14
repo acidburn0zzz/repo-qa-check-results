@@ -14,13 +14,28 @@
 $ pmaint sync /home/mgorny/repos/rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/rasdark/overlay
-   a89a12b..decb4a9  master     -> origin/master
-Updating a89a12b..decb4a9
+   decb4a9..d913cf5  master     -> origin/master
+Updating decb4a9..d913cf5
 Fast-forward
- .gitignore                                         |    3 +-
- .../calculate-sources/4.1/10_config-z97m-x64_86    | 1905 ++++++++++++++++++++
- 2 files changed, 1907 insertions(+), 1 deletion(-)
- create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/10_config-z97m-x64_86
+ sys-apps/lm_sensors/Manifest                       |   1 +
+ sys-apps/lm_sensors/files/fancontrol-init.d-2      |  23 ++++
+ sys-apps/lm_sensors/files/fancontrol.service       |   9 ++
+ sys-apps/lm_sensors/files/lm_sensors-3-init.d      | 105 ++++++++++++++++++
+ .../lm_sensors-3.4.0-sensors-detect-gentoo.patch   | 122 +++++++++++++++++++++
+ sys-apps/lm_sensors/files/sensord-4-init.d         |  22 ++++
+ sys-apps/lm_sensors/files/sensord-conf.d           |   3 +
+ sys-apps/lm_sensors/files/sensord.service          |   9 ++
+ sys-apps/lm_sensors/lm_sensors-3.4.0.ebuild        | 109 ++++++++++++++++++
+ 9 files changed, 403 insertions(+)
+ create mode 100644 sys-apps/lm_sensors/Manifest
+ create mode 100644 sys-apps/lm_sensors/files/fancontrol-init.d-2
+ create mode 100644 sys-apps/lm_sensors/files/fancontrol.service
+ create mode 100644 sys-apps/lm_sensors/files/lm_sensors-3-init.d
+ create mode 100644 sys-apps/lm_sensors/files/lm_sensors-3.4.0-sensors-detect-gentoo.patch
+ create mode 100644 sys-apps/lm_sensors/files/sensord-4-init.d
+ create mode 100644 sys-apps/lm_sensors/files/sensord-conf.d
+ create mode 100644 sys-apps/lm_sensors/files/sensord.service
+ create mode 100644 sys-apps/lm_sensors/lm_sensors-3.4.0.ebuild
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded

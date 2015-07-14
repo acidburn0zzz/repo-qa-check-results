@@ -16,7 +16,27 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   9e40a60..6d8340b  master     -> origin/master
+Updating 9e40a60..6d8340b
+Fast-forward
+ sys-kernel/devil-sources/Manifest                  |   31 +
+ .../devil-sources/devil-sources-3.10.84.ebuild     |   35 +
+ .../devil-sources/devil-sources-3.12.44.ebuild     |   37 +
+ .../devil-sources/devil-sources-3.14.48.ebuild     |   33 +
+ .../devil-sources/devil-sources-3.18.18.ebuild     |   32 +
+ .../devil-sources/devil-sources-4.0.8.ebuild       |   33 +
+ .../devil-sources/devil-sources-4.1.2.ebuild       |   33 +
+ .../devil-sources/files/devil-linux-logo.patch     | 2715 ++++++++++++++++++++
+ 8 files changed, 2949 insertions(+)
+ create mode 100644 sys-kernel/devil-sources/Manifest
+ create mode 100644 sys-kernel/devil-sources/devil-sources-3.10.84.ebuild
+ create mode 100644 sys-kernel/devil-sources/devil-sources-3.12.44.ebuild
+ create mode 100644 sys-kernel/devil-sources/devil-sources-3.14.48.ebuild
+ create mode 100644 sys-kernel/devil-sources/devil-sources-3.18.18.ebuild
+ create mode 100644 sys-kernel/devil-sources/devil-sources-4.0.8.ebuild
+ create mode 100644 sys-kernel/devil-sources/devil-sources-4.1.2.ebuild
+ create mode 100644 sys-kernel/devil-sources/files/devil-linux-logo.patch
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
