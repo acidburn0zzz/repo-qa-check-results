@@ -13,7 +13,14 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   a89a12b..decb4a9  master     -> origin/master
+Updating a89a12b..decb4a9
+Fast-forward
+ .gitignore                                         |    3 +-
+ .../calculate-sources/4.1/10_config-z97m-x64_86    | 1905 ++++++++++++++++++++
+ 2 files changed, 1907 insertions(+), 1 deletion(-)
+ create mode 100644 profiles/templates/3.3/6_ac_install_patch/sys-kernel/calculate-sources/4.1/10_config-z97m-x64_86
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
