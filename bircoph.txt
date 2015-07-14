@@ -18,22 +18,10 @@
 $ pmaint sync /home/mgorny/repos/bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing '/home/mgorny/repos/bircoph'...
-*** failed syncing '/home/mgorny/repos/bircoph'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/bircoph
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/alexxy' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/alexxy', named '<unlabeled repository /home/mgorny/repos/alexxy>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/betagarden' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/betagarden', named '<unlabeled repository /home/mgorny/repos/betagarden>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/bircoph'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/bircoph'...
 *** synced '/home/mgorny/repos/bircoph'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 bircoph
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'

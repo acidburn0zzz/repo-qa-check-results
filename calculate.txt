@@ -15,11 +15,167 @@ $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/overlay
+   07b6b13..c2fc83f  master     -> origin/master
+Updating 07b6b13..c2fc83f
+Fast-forward
+ .../2-root/dev-qt/qtgui-4.8/Trolltech.conf         |   2 +-
+ .../2-user/dev-qt/qtgui-4.8/Trolltech.conf         |   2 +-
+ .../MATE-1.8}/Desktop/.calculate_directory         |   0
+ .../2-user/mate-base/MATE-1.8/Desktop/FTP.desktop  |  17 ++
+ .../MATE-1.8}/Desktop/Home.desktop                 |   2 +-
+ .../MATE-1.8}/Desktop/README.desktop               |   2 +-
+ .../MATE-1.8}/Desktop/Share.desktop                |   2 +-
+ .../MATE-1.8/Desktop/calculate-community.desktop   |   1 +
+ .../MATE-1.8/Desktop/calculate-install.desktop     |   3 +
+ .../mate-base/MATE-1.8/Desktop/gparted.desktop     |   4 +
+ .../mate-base/MATE-1.8/autostart-pidgin.desktop    |   3 +
+ .../2-user/mate-base/MATE-1.8/mate                 |   7 +-
+ .../xfce-base/XFCE-4.8-4.10/.calculate/ini.env     |   4 -
+ .../xfce-base/XFCE-4.8-4.10/.calculate_directory   |   1 -
+ .../.config/menus/xfce-applications.menu           | 131 ------------
+ .../xfconf/xfce-perchannel-xml/xfce4-desktop.xml   |   8 -
+ .../xfconf/xfce-perchannel-xml/xfce4-panel.xml     |  46 -----
+ .../xfce4/xfconf/xfce-perchannel-xml/xsettings.xml |  11 -
+ .../.local/share/applications/xfce4-mixer.desktop  |   4 -
+ .../.local/share/applications/xfce4-run.desktop    |   5 -
+ .../2-user/xfce-base/XFCE-4.8/.calculate/ini.env   |   7 -
+ .../2-user/xfce-base/XFCE-4.8/.calculate_directory |   1 -
+ .../xfce-base/XFCE-4.8/.config/Terminal/terminalrc |  25 ---
+ .../xfce-base/XFCE-4.8/.config/Thunar/thunarrc     |   4 -
+ .../xfce4-clipman-plugin-autostart.desktop         |   3 -
+ .../.config/autostart/xfce4-tips-autostart.desktop |   3 -
+ .../2-user/xfce-base/XFCE-4.8/.config/gtk-3.0      |   1 -
+ .../XFCE-4.8/.config/menus/xfce-applications.menu  | 131 ------------
+ .../xfce-base/XFCE-4.8/.config/mousepad/mousepadrc |   8 -
+ .../xfce-base/XFCE-4.8/.config/xfce4/helpers.rc    |  23 ---
+ .../xfce4/panel/launcher-30/browser.desktop        |   1 -
+ .../.config/xfce4/panel/launcher-31/mail.desktop   |   1 -
+ .../.config/xfce4/panel/launcher-32/chat.desktop   |   1 -
+ .../.config/xfce4/panel/launcher-33/im.desktop     |   1 -
+ .../.config/xfce4/panel/launcher-34/writer.desktop |   1 -
+ .../.config/xfce4/panel/launcher-35/calc.desktop   |   1 -
+ .../xfce4/panel/launcher-36/calculator.desktop     |   1 -
+ .../xfce4/panel/launcher-37/imageedit.desktop      |   1 -
+ .../xfce4/panel/launcher-38/imageview.desktop      |   1 -
+ .../xfce4/panel/launcher-39/audioplayer.desktop    |   1 -
+ .../xfce4/panel/launcher-40/videoplayer.desktop    |   1 -
+ .../xfce4/panel/launcher-41/.calculate_directory   |   1 -
+ .../xfce4/panel/launcher-41/imageburn.desktop      |   1 -
+ .../xfce4/panel/launcher-43/textedit.desktop       |   1 -
+ .../xfce4/panel/launcher-44/terminal.desktop       |   1 -
+ .../XFCE-4.8/.config/xfce4/panel/xkb-plugin-10.rc  |  10 -
+ .../xfce4/xfconf/xfce-perchannel-xml/keyboards.xml |  17 --
+ .../xfconf/xfce-perchannel-xml/xfce4-desktop.xml   |  26 ---
+ .../xfce4-keyboard-shortcuts.xml                   |  14 --
+ .../xfconf/xfce-perchannel-xml/xfce4-panel.xml     | 221 ---------------------
+ .../xfce-perchannel-xml/xfce4-power-manager.xml    |   9 -
+ .../xfconf/xfce-perchannel-xml/xfce4-session.xml   |  29 ---
+ .../xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml     |  18 --
+ .../xfce4/xfconf/xfce-perchannel-xml/xsettings.xml |  17 --
+ .../2-user/xfce-base/XFCE-4.8/.gtkrc-2.0           |  10 -
+ .../.local/share/applications/Thunar.desktop       |   5 -
+ .../.local/share/applications/epdfview.desktop     |   4 -
+ .../.local/share/applications/gparted.desktop      |   9 -
+ .../applications/xfce-keyboard-settings.desktop    |   5 -
+ .../.local/share/applications/xfce4-about.desktop  |   5 -
+ .../share/applications/xfce4-taskmanager.desktop   |   4 -
+ .../.local/share/applications/xfrun4.desktop       |   5 -
+ .../applications/xscreensaver-properties.desktop   |   8 -
+ .../desktop-directories/xfce-accessories.directory |  12 --
+ .../desktop-directories/xfce-multimedia.directory  |   3 -
+ .../desktop-directories/xfce-network.directory     |   3 -
+ .../2-user/xfce-base/XFCE-4.8/Desktop/FTP.desktop  |  12 --
+ .../XFCE-4.8/Desktop/calculate-community.desktop   |   1 -
+ .../XFCE-4.8/Desktop/calculate-install.desktop     |   4 -
+ .../xfce-base/XFCE-4.8/Desktop/gparted.desktop     |   4 -
+ sys-apps/calculate-utils/Manifest                  |   1 +
+ .../calculate-utils/calculate-utils-3.3.3.4.ebuild |  22 ++
+ 72 files changed, 62 insertions(+), 892 deletions(-)
+ rename profiles/templates/3.3/6_ac_desktop_profile/2-user/{xfce-base/XFCE-4.8 => mate-base/MATE-1.8}/Desktop/.calculate_directory (100%)
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/Desktop/FTP.desktop
+ rename profiles/templates/3.3/6_ac_desktop_profile/2-user/{xfce-base/XFCE-4.8 => mate-base/MATE-1.8}/Desktop/Home.desktop (67%)
+ rename profiles/templates/3.3/6_ac_desktop_profile/2-user/{xfce-base/XFCE-4.8 => mate-base/MATE-1.8}/Desktop/README.desktop (95%)
+ rename profiles/templates/3.3/6_ac_desktop_profile/2-user/{xfce-base/XFCE-4.8 => mate-base/MATE-1.8}/Desktop/Share.desktop (71%)
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/Desktop/calculate-community.desktop
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/Desktop/calculate-install.desktop
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/Desktop/gparted.desktop
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/autostart-pidgin.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.calculate/ini.env
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.calculate_directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.config/menus/xfce-applications.menu
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.local/share/applications/xfce4-mixer.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8-4.10/.local/share/applications/xfce4-run.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.calculate/ini.env
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.calculate_directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/Terminal/terminalrc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/Thunar/thunarrc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/autostart/xfce4-clipman-plugin-autostart.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/autostart/xfce4-tips-autostart.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/gtk-3.0
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/menus/xfce-applications.menu
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/mousepad/mousepadrc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/helpers.rc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-30/browser.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-31/mail.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-32/chat.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-33/im.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-34/writer.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-35/calc.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-36/calculator.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-37/imageedit.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-38/imageview.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-39/audioplayer.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-40/videoplayer.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-41/.calculate_directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-41/imageburn.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-43/textedit.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/launcher-44/terminal.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/panel/xkb-plugin-10.rc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.gtkrc-2.0
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/Thunar.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/epdfview.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/gparted.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/xfce-keyboard-settings.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/xfce4-about.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/xfce4-taskmanager.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/xfrun4.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/applications/xscreensaver-properties.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/desktop-directories/xfce-accessories.directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/desktop-directories/xfce-multimedia.directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/.local/share/desktop-directories/xfce-network.directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/Desktop/FTP.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/Desktop/calculate-community.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/Desktop/calculate-install.desktop
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-4.8/Desktop/gparted.desktop
+ create mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.3.4.ebuild
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.4 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
