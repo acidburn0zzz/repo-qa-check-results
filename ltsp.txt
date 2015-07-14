@@ -16,18 +16,10 @@
 $ pmaint sync /home/mgorny/repos/ltsp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: read error: Connection reset by peer
-*** syncing '/home/mgorny/repos/ltsp'...
-*** failed syncing '/home/mgorny/repos/ltsp'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/ltsp
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/ltsp'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/ltsp'...
 *** synced '/home/mgorny/repos/ltsp'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 ltsp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
