@@ -17,65 +17,130 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   4d98416..49c0b78  master     -> origin/master
-Updating 4d98416..49c0b78
+   49c0b78..9e40a60  master     -> origin/master
+Updating 49c0b78..9e40a60
 Fast-forward
- dev-java/netbeans-apisupport/Manifest              |   6 +-
- .../netbeans-apisupport-9999_p20150713.ebuild      | 110 ------
- ...d => netbeans-apisupport-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-extide/Manifest                  |   6 +-
- .../netbeans-extide-9999_p20150713.ebuild          | 107 ------
- ...build => netbeans-extide-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-harness/Manifest                 |   6 +-
- .../netbeans-harness-9999_p20150713.ebuild         | 113 -------
- ...uild => netbeans-harness-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-ide/Manifest                     |   6 +-
- .../netbeans-ide-9999_p20150713.ebuild             | 376 ---------------------
- ...2.ebuild => netbeans-ide-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-java/Manifest                    |   6 +-
- .../netbeans-java-9999_p20150713.ebuild            | 270 ---------------
- ....ebuild => netbeans-java-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-javafx/Manifest                  |   6 +-
- .../netbeans-javafx-9999_p20150713.ebuild          | 123 -------
- ...build => netbeans-javafx-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-nb/Manifest                      |   6 +-
- .../netbeans-nb/netbeans-nb-9999_p20150712.ebuild  | 147 --------
- ...13.ebuild => netbeans-nb-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-platform/Manifest                |   6 +-
- .../netbeans-platform-9999_p20150713.ebuild        | 165 ---------
- ...ild => netbeans-platform-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-profiler/Manifest                |   6 +-
- .../netbeans-profiler-9999_p20150713.ebuild        | 120 -------
- ...ild => netbeans-profiler-9999_p20150714.ebuild} |   4 +-
- dev-java/netbeans-websvccommon/Manifest            |   6 +-
- .../netbeans-websvccommon-9999_p20150713.ebuild    |  93 -----
- ...=> netbeans-websvccommon-9999_p20150714.ebuild} |   4 +-
- dev-util/netbeans/Manifest                         |   6 +-
- dev-util/netbeans/netbeans-9999_p20150713.ebuild   | 263 --------------
- ...50712.ebuild => netbeans-9999_p20150714.ebuild} |   4 +-
- 33 files changed, 44 insertions(+), 1953 deletions(-)
- delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150713.ebuild
- rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150712.ebuild => netbeans-apisupport-9999_p20150714.ebuild} (97%)
- delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150713.ebuild
- rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150712.ebuild => netbeans-extide-9999_p20150714.ebuild} (97%)
- delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150713.ebuild
- rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150712.ebuild => netbeans-harness-9999_p20150714.ebuild} (97%)
- delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150713.ebuild
- rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150712.ebuild => netbeans-ide-9999_p20150714.ebuild} (99%)
- delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150713.ebuild
- rename dev-java/netbeans-java/{netbeans-java-9999_p20150712.ebuild => netbeans-java-9999_p20150714.ebuild} (99%)
- delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150713.ebuild
- rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150712.ebuild => netbeans-javafx-9999_p20150714.ebuild} (98%)
- delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150712.ebuild
- rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150713.ebuild => netbeans-nb-9999_p20150714.ebuild} (98%)
- delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150713.ebuild
- rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150712.ebuild => netbeans-platform-9999_p20150714.ebuild} (99%)
- delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150713.ebuild
- rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150712.ebuild => netbeans-profiler-9999_p20150714.ebuild} (97%)
- delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150713.ebuild
- rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150712.ebuild => netbeans-websvccommon-9999_p20150714.ebuild} (96%)
- delete mode 100644 dev-util/netbeans/netbeans-9999_p20150713.ebuild
- rename dev-util/netbeans/{netbeans-9999_p20150712.ebuild => netbeans-9999_p20150714.ebuild} (98%)
+ sys-kernel/devil-sources/Manifest                  |     13 -
+ .../devil-sources/devil-sources-3.14.48.ebuild     |     31 -
+ .../devil-sources/devil-sources-3.18.18.ebuild     |     31 -
+ .../devil-sources/devil-sources-4.0.8.ebuild       |     31 -
+ .../devil-sources/devil-sources-4.1.2.ebuild       |     31 -
+ .../devil-sources/files/devil-linux-logo.patch     |   2830 -
+ sys-kernel/gen-sources/Manifest                    |     18 -
+ .../gen-sources/files/1500_XATTR_USER_PREFIX.patch |     54 -
+ .../2700_ThinkPad-30-brightness-control-fix.patch  |     67 -
+ .../files/2900_dev-root-proc-mount-fix.patch       |     30 -
+ .../files/2905_2disk-resume-image-fix.patch        |     24 -
+ .../files/4567_distro-Gentoo-Kconfig.patch         |    121 -
+ ...able-additional-cpu-optimizations-for-gcc.patch |    327 -
+ sys-kernel/gen-sources/gen-sources-4.0_rc1.ebuild  |     45 -
+ sys-kernel/gen-sources/gen-sources-4.1_rc6.ebuild  |     46 -
+ sys-kernel/gen-sources/gen-sources-4.1_rc8.ebuild  |     46 -
+ sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild  |     46 -
+ sys-kernel/gen-sources/gen-sources-4.2_rc2.ebuild  |     46 -
+ sys-kernel/gentoo-sources/Manifest                 |     15 -
+ .../gentoo-sources/gentoo-sources-3.15.10.ebuild   |     27 -
+ .../gentoo-sources/gentoo-sources-3.16.7.ebuild    |     27 -
+ .../gentoo-sources/gentoo-sources-3.19.0.ebuild    |     27 -
+ sys-kernel/grsecurity-sources/Manifest             |     28 -
+ .../grsecurity-3.1-3.14.48-201507111210.patch      | 135967 ---------------
+ .../files/grsecurity-3.1-3.18.7-201502222138.patch | 126057 --------------
+ .../files/grsecurity-3.1-3.19.1-201503122205.patch | 147812 ----------------
+ .../files/grsecurity-3.1-4.0.4-201505222222.patch  | 157283 -----------------
+ .../files/grsecurity-3.1-4.0.5-201506171322.patch  | 158128 -----------------
+ .../files/grsecurity-3.1-4.0.6-201506232104.patch  | 158293 -----------------
+ .../files/grsecurity-3.1-4.0.7-201506300712.patch  | 158307 -----------------
+ .../files/grsecurity-3.1-4.0.8-201507111211.patch  | 158390 ------------------
+ .../grsecurity-sources-3.14.48.ebuild              |     34 -
+ .../grsecurity-sources-3.18.7.ebuild               |     34 -
+ .../grsecurity-sources-3.19.1.ebuild               |     34 -
+ .../grsecurity-sources-4.0.4.ebuild                |     34 -
+ .../grsecurity-sources-4.0.5.ebuild                |     34 -
+ .../grsecurity-sources-4.0.6.ebuild                |     34 -
+ .../grsecurity-sources-4.0.7.ebuild                |     34 -
+ .../grsecurity-sources-4.0.8.ebuild                |     34 -
+ sys-kernel/pf-sources/Manifest                     |      4 -
+ .../files/2100_proc-mem-handling-fix.patch         |    270 -
+ sys-kernel/pf-sources/pf-sources-3.19_p1.ebuild    |     64 -
+ sys-kernel/vanilla-sources/Manifest                |     52 -
+ .../vanilla-sources/vanilla-sources-3.10.80.ebuild |     18 -
+ .../vanilla-sources/vanilla-sources-3.10.84.ebuild |     18 -
+ .../vanilla-sources/vanilla-sources-3.11.10.ebuild |     17 -
+ .../vanilla-sources/vanilla-sources-3.14.44.ebuild |     18 -
+ .../vanilla-sources/vanilla-sources-3.14.48.ebuild |     18 -
+ .../vanilla-sources/vanilla-sources-3.15.10.ebuild |     17 -
+ .../vanilla-sources/vanilla-sources-3.16.7.ebuild  |     17 -
+ .../vanilla-sources/vanilla-sources-3.18.6.ebuild  |     17 -
+ .../vanilla-sources/vanilla-sources-3.18.8.ebuild  |     17 -
+ .../vanilla-sources/vanilla-sources-3.19.0.ebuild  |     18 -
+ .../vanilla-sources/vanilla-sources-3.8.13.ebuild  |     18 -
+ .../vanilla-sources/vanilla-sources-4.0.0.ebuild   |     18 -
+ .../vanilla-sources/vanilla-sources-4.0.5.ebuild   |     18 -
+ .../vanilla-sources/vanilla-sources-4.0.6.ebuild   |     18 -
+ .../vanilla-sources/vanilla-sources-4.0.8.ebuild   |     18 -
+ .../vanilla-sources/vanilla-sources-4.1.0.ebuild   |     18 -
+ .../vanilla-sources/vanilla-sources-4.1.2.ebuild   |     18 -
+ 60 files changed, 1205161 deletions(-)
+ delete mode 100644 sys-kernel/devil-sources/Manifest
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.14.48.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.18.18.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-4.0.8.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-4.1.2.ebuild
+ delete mode 100644 sys-kernel/devil-sources/files/devil-linux-logo.patch
+ delete mode 100644 sys-kernel/gen-sources/Manifest
+ delete mode 100644 sys-kernel/gen-sources/files/1500_XATTR_USER_PREFIX.patch
+ delete mode 100644 sys-kernel/gen-sources/files/2700_ThinkPad-30-brightness-control-fix.patch
+ delete mode 100644 sys-kernel/gen-sources/files/2900_dev-root-proc-mount-fix.patch
+ delete mode 100644 sys-kernel/gen-sources/files/2905_2disk-resume-image-fix.patch
+ delete mode 100644 sys-kernel/gen-sources/files/4567_distro-Gentoo-Kconfig.patch
+ delete mode 100644 sys-kernel/gen-sources/files/5000_enable-additional-cpu-optimizations-for-gcc.patch
+ delete mode 100644 sys-kernel/gen-sources/gen-sources-4.0_rc1.ebuild
+ delete mode 100644 sys-kernel/gen-sources/gen-sources-4.1_rc6.ebuild
+ delete mode 100644 sys-kernel/gen-sources/gen-sources-4.1_rc8.ebuild
+ delete mode 100644 sys-kernel/gen-sources/gen-sources-4.2_rc1.ebuild
+ delete mode 100644 sys-kernel/gen-sources/gen-sources-4.2_rc2.ebuild
+ delete mode 100644 sys-kernel/gentoo-sources/Manifest
+ delete mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.15.10.ebuild
+ delete mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.16.7.ebuild
+ delete mode 100644 sys-kernel/gentoo-sources/gentoo-sources-3.19.0.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/Manifest
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-3.14.48-201507111210.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-3.18.7-201502222138.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-3.19.1-201503122205.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.4-201505222222.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.5-201506171322.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.6-201506232104.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.7-201506300712.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/files/grsecurity-3.1-4.0.8-201507111211.patch
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-3.14.48.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-3.18.7.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-3.19.1.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.4.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.5.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.6.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.7.ebuild
+ delete mode 100644 sys-kernel/grsecurity-sources/grsecurity-sources-4.0.8.ebuild
+ delete mode 100644 sys-kernel/pf-sources/Manifest
+ delete mode 100644 sys-kernel/pf-sources/files/2100_proc-mem-handling-fix.patch
+ delete mode 100644 sys-kernel/pf-sources/pf-sources-3.19_p1.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/Manifest
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.10.80.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.10.84.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.11.10.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.14.44.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.14.48.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.15.10.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.16.7.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.18.6.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.18.8.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.19.0.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-3.8.13.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.0.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.5.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.6.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.0.8.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.1.0.ebuild
+ delete mode 100644 sys-kernel/vanilla-sources/vanilla-sources-4.1.2.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
