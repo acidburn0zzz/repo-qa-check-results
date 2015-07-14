@@ -17,28 +17,26 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   6d8340b..6c870f2  master     -> origin/master
-Updating 6d8340b..6c870f2
+   6c870f2..3e98062  master     -> origin/master
+Updating 6c870f2..3e98062
 Fast-forward
- app-editors/pluma/Manifest                         |   2 +
- app-editors/pluma/pluma-1.10.2.ebuild              |  91 +++++++++++++++++
- mate-base/mate-applets/Manifest                    |   2 +
- mate-base/mate-applets/mate-applets-1.10.2.ebuild  | 109 +++++++++++++++++++++
- mate-extra/mate-power-manager/Manifest             |   2 +
- .../mate-power-manager-1.10.1.ebuild               |  96 ++++++++++++++++++
- media-gfx/eom/Manifest                             |   2 +
- media-gfx/eom/eom-1.10.3.ebuild                    |  80 +++++++++++++++
- sys-kernel/devil-sources/Manifest                  |  10 +-
- .../devil-sources/devil-sources-3.12.44.ebuild     |   1 +
- .../devil-sources/devil-sources-3.14.48.ebuild     |   1 +
- .../devil-sources/devil-sources-3.18.18.ebuild     |   1 +
- .../devil-sources/devil-sources-4.0.8.ebuild       |   1 +
- .../devil-sources/devil-sources-4.1.2.ebuild       |   1 +
- 14 files changed, 394 insertions(+), 5 deletions(-)
- create mode 100644 app-editors/pluma/pluma-1.10.2.ebuild
- create mode 100644 mate-base/mate-applets/mate-applets-1.10.2.ebuild
- create mode 100644 mate-extra/mate-power-manager/mate-power-manager-1.10.1.ebuild
- create mode 100644 media-gfx/eom/eom-1.10.3.ebuild
+ sys-kernel/devil-sources/Manifest                  |   31 -
+ .../devil-sources/devil-sources-3.10.84.ebuild     |   35 -
+ .../devil-sources/devil-sources-3.12.44.ebuild     |   38 -
+ .../devil-sources/devil-sources-3.14.48.ebuild     |   34 -
+ .../devil-sources/devil-sources-3.18.18.ebuild     |   33 -
+ .../devil-sources/devil-sources-4.0.8.ebuild       |   34 -
+ .../devil-sources/devil-sources-4.1.2.ebuild       |   34 -
+ .../devil-sources/files/devil-linux-logo.patch     | 2715 --------------------
+ 8 files changed, 2954 deletions(-)
+ delete mode 100644 sys-kernel/devil-sources/Manifest
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.10.84.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.12.44.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.14.48.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-3.18.18.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-4.0.8.ebuild
+ delete mode 100644 sys-kernel/devil-sources/devil-sources-4.1.2.ebuild
+ delete mode 100644 sys-kernel/devil-sources/files/devil-linux-logo.patch
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

@@ -13,7 +13,28 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/mozilla
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/mozilla
+   45931f7..87ac16a  master     -> origin/master
+Updating 45931f7..87ac16a
+Fast-forward
+ eclass/mozcoreconf-v3.eclass                       |   4 +
+ eclass/mozextension.eclass                         |   4 +
+ eclass/mozlinguas.eclass                           | 203 +++++++++--
+ mail-client/thunderbird/Manifest                   | 112 +++---
+ mail-client/thunderbird/metadata.xml               |  28 ++
+ ....0.1-r1.ebuild => thunderbird-38.0.1-r4.ebuild} |  59 +++-
+ mail-client/thunderbird/thunderbird-38.1.0.ebuild  | 376 +++++++++++++++++++++
+ www-client/seamonkey/Manifest                      |  29 ++
+ .../files/seamonkey-2.35-jemalloc-configure.patch  |  11 +
+ .../seamonkey/seamonkey-2.35_pre20150713-r1.ebuild | 372 ++++++++++++++++++++
+ .../seamonkey/seamonkey-2.35_pre20150713.ebuild    | 373 ++++++++++++++++++++
+ 11 files changed, 1483 insertions(+), 88 deletions(-)
+ create mode 100644 mail-client/thunderbird/metadata.xml
+ rename mail-client/thunderbird/{thunderbird-38.0.1-r1.ebuild => thunderbird-38.0.1-r4.ebuild} (83%)
+ create mode 100644 mail-client/thunderbird/thunderbird-38.1.0.ebuild
+ create mode 100644 www-client/seamonkey/files/seamonkey-2.35-jemalloc-configure.patch
+ create mode 100644 www-client/seamonkey/seamonkey-2.35_pre20150713-r1.ebuild
+ create mode 100644 www-client/seamonkey/seamonkey-2.35_pre20150713.ebuild
 *** syncing '/home/mgorny/repos/mozilla'...
 *** synced '/home/mgorny/repos/mozilla'
  * Sync succeeded

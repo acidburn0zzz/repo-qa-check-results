@@ -18,16 +18,24 @@ $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/kde
-   66481a0..fd0f866  master     -> origin/master
-Updating 66481a0..fd0f866
+   fd0f866..58bbd7e  master     -> origin/master
+Updating fd0f866..58bbd7e
 Fast-forward
- dev-util/kdevelop-qmljs/Manifest                   |  1 -
- .../kdevelop-qmljs/kdevelop-qmljs-1.7.0.ebuild     | 28 ------------------
- dev-util/kdevelop-qmljs/kdevelop-qmljs-9999.ebuild | 33 ++++++++++++++++++++++
- 3 files changed, 33 insertions(+), 29 deletions(-)
- delete mode 100644 dev-util/kdevelop-qmljs/Manifest
- delete mode 100644 dev-util/kdevelop-qmljs/kdevelop-qmljs-1.7.0.ebuild
- create mode 100644 dev-util/kdevelop-qmljs/kdevelop-qmljs-9999.ebuild
+ .../kdevelop-clang/kdevelop-clang-4.9999.ebuild    | 26 ------------
+ .../kdevelop-pg-qt/kdevelop-pg-qt-4.9999.ebuild    | 27 ------------
+ .../kdevelop-php-docs-4.9999.ebuild                | 24 -----------
+ .../files/kdevelop-php-1.2.0-parmake.patch         | 12 ------
+ dev-util/kdevelop-php/kdevelop-php-4.9999.ebuild   | 35 ----------------
+ .../kdevelop-qmake/kdevelop-qmake-4.9999.ebuild    | 35 ----------------
+ dev-util/kdevelop-qmake/kdevelop-qmake-9999.ebuild | 48 ++++++++++++++++++++++
+ 7 files changed, 48 insertions(+), 159 deletions(-)
+ delete mode 100644 dev-util/kdevelop-clang/kdevelop-clang-4.9999.ebuild
+ delete mode 100644 dev-util/kdevelop-pg-qt/kdevelop-pg-qt-4.9999.ebuild
+ delete mode 100644 dev-util/kdevelop-php-docs/kdevelop-php-docs-4.9999.ebuild
+ delete mode 100644 dev-util/kdevelop-php/files/kdevelop-php-1.2.0-parmake.patch
+ delete mode 100644 dev-util/kdevelop-php/kdevelop-php-4.9999.ebuild
+ delete mode 100644 dev-util/kdevelop-qmake/kdevelop-qmake-4.9999.ebuild
+ create mode 100644 dev-util/kdevelop-qmake/kdevelop-qmake-9999.ebuild
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
