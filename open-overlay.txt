@@ -16,7 +16,66 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   4d98416..49c0b78  master     -> origin/master
+Updating 4d98416..49c0b78
+Fast-forward
+ dev-java/netbeans-apisupport/Manifest              |   6 +-
+ .../netbeans-apisupport-9999_p20150713.ebuild      | 110 ------
+ ...d => netbeans-apisupport-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-extide/Manifest                  |   6 +-
+ .../netbeans-extide-9999_p20150713.ebuild          | 107 ------
+ ...build => netbeans-extide-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-harness/Manifest                 |   6 +-
+ .../netbeans-harness-9999_p20150713.ebuild         | 113 -------
+ ...uild => netbeans-harness-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-ide/Manifest                     |   6 +-
+ .../netbeans-ide-9999_p20150713.ebuild             | 376 ---------------------
+ ...2.ebuild => netbeans-ide-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-java/Manifest                    |   6 +-
+ .../netbeans-java-9999_p20150713.ebuild            | 270 ---------------
+ ....ebuild => netbeans-java-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-javafx/Manifest                  |   6 +-
+ .../netbeans-javafx-9999_p20150713.ebuild          | 123 -------
+ ...build => netbeans-javafx-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-nb/Manifest                      |   6 +-
+ .../netbeans-nb/netbeans-nb-9999_p20150712.ebuild  | 147 --------
+ ...13.ebuild => netbeans-nb-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-platform/Manifest                |   6 +-
+ .../netbeans-platform-9999_p20150713.ebuild        | 165 ---------
+ ...ild => netbeans-platform-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-profiler/Manifest                |   6 +-
+ .../netbeans-profiler-9999_p20150713.ebuild        | 120 -------
+ ...ild => netbeans-profiler-9999_p20150714.ebuild} |   4 +-
+ dev-java/netbeans-websvccommon/Manifest            |   6 +-
+ .../netbeans-websvccommon-9999_p20150713.ebuild    |  93 -----
+ ...=> netbeans-websvccommon-9999_p20150714.ebuild} |   4 +-
+ dev-util/netbeans/Manifest                         |   6 +-
+ dev-util/netbeans/netbeans-9999_p20150713.ebuild   | 263 --------------
+ ...50712.ebuild => netbeans-9999_p20150714.ebuild} |   4 +-
+ 33 files changed, 44 insertions(+), 1953 deletions(-)
+ delete mode 100644 dev-java/netbeans-apisupport/netbeans-apisupport-9999_p20150713.ebuild
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150712.ebuild => netbeans-apisupport-9999_p20150714.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-extide/netbeans-extide-9999_p20150713.ebuild
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150712.ebuild => netbeans-extide-9999_p20150714.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-harness/netbeans-harness-9999_p20150713.ebuild
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150712.ebuild => netbeans-harness-9999_p20150714.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-ide/netbeans-ide-9999_p20150713.ebuild
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150712.ebuild => netbeans-ide-9999_p20150714.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-java/netbeans-java-9999_p20150713.ebuild
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150712.ebuild => netbeans-java-9999_p20150714.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-javafx/netbeans-javafx-9999_p20150713.ebuild
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150712.ebuild => netbeans-javafx-9999_p20150714.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-nb/netbeans-nb-9999_p20150712.ebuild
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150713.ebuild => netbeans-nb-9999_p20150714.ebuild} (98%)
+ delete mode 100644 dev-java/netbeans-platform/netbeans-platform-9999_p20150713.ebuild
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150712.ebuild => netbeans-platform-9999_p20150714.ebuild} (99%)
+ delete mode 100644 dev-java/netbeans-profiler/netbeans-profiler-9999_p20150713.ebuild
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150712.ebuild => netbeans-profiler-9999_p20150714.ebuild} (97%)
+ delete mode 100644 dev-java/netbeans-websvccommon/netbeans-websvccommon-9999_p20150713.ebuild
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150712.ebuild => netbeans-websvccommon-9999_p20150714.ebuild} (96%)
+ delete mode 100644 dev-util/netbeans/netbeans-9999_p20150713.ebuild
+ rename dev-util/netbeans/{netbeans-9999_p20150712.ebuild => netbeans-9999_p20150714.ebuild} (98%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
