@@ -14,8 +14,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/ephemeral
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named '<unlabeled repository /home/mgorny/repos/eigenlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -27,187 +25,187 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: dev-perl/DateTime-Format-Epoch-0.13 failed.
-
-!!! ERROR: dev-perl/Archive-Extract-0.72 failed.
-
-!!! ERROR: dev-perl/Proc-ParallelLoop-0.5 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 
 !!! ERROR: app-emulation/virt-v2v-0.8.9-r1 failed.
 !!!                  ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! Call stack:
-
-!!! ERROR: app-emulation/virt-v2v-0.9.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '246' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 
 !!! ERROR: dev-perl/Term-Prompt-1.04 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
-!!! ERROR: dev-libs/libconcord-0.23 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
+
+!!! ERROR: dev-perl/Proc-ParallelLoop-0.5 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                  ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: dev-perl/Archive-Extract-0.72 failed.
+
+!!! ERROR: app-emulation/virt-v2v-0.9.0 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!                  ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '246' 'depend'
 !!!                  ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '221' 'depend'
-!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-
-!!! ERROR: media-sound/phonoripper-0.10.1-r3 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
-!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
-!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
-!!!          virt-v2v-0.9.0.ebuild, line   7:  Called inherit 'perl-app'
-!!!       virt-v2v-0.8.9-r1.ebuild, line   7:  Called inherit 'perl-app'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
-!!!   DateTime-Format-Epoch-0.13.ebuild, line   9:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                          ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
 
 !!! ERROR: dev-libs/libconcord-0.24 failed.
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+
+!!! ERROR: dev-libs/libconcord-0.23 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/Term-Prompt/Term-Prompt-1.04.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
+!!!                          ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '221' 'depend'
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/DateTime-Format-Epoch/DateTime-Format-Epoch-0.13.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!    Archive-Extract-0.72.ebuild, line   9:  Called inherit 'perl-module'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
-!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         libconcord-0.23.ebuild, line   7:  Called inherit 'distutils' 'perl-app'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
+!!!   DateTime-Format-Epoch-0.13.ebuild, line   9:  Called inherit 'perl-module'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/Proc-ParallelLoop/Proc-ParallelLoop-0.5.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Term-Prompt/Term-Prompt-1.04.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Proc-ParallelLoop/Proc-ParallelLoop-0.5.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/Proc-ParallelLoop/Proc-ParallelLoop-0.5.ebuild'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Proc-ParallelLoop/Proc-ParallelLoop-0.5.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!        ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '196' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/Proc-ParallelLoop/Proc-ParallelLoop-0.5.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+ * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: media-sound/phonoripper-0.10.1-r3 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!   Proc-ParallelLoop-0.5.ebuild, line   8:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/Term-Prompt/Term-Prompt-1.04.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '216' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Term-Prompt/Term-Prompt-1.04.ebuild'
+!!!                   ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '219' 'depend'
 !!!              isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
 !!!                  perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported by perl-module.eclass
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.9.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '205' 'depend'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/Term-Prompt/Term-Prompt-1.04.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.23.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!          virt-v2v-0.9.0.ebuild, line   7:  Called inherit 'perl-app'
+!!!         libconcord-0.23.ebuild, line   7:  Called inherit 'distutils' 'perl-app'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!        Term-Prompt-1.04.ebuild, line   5:  Called inherit 'perl-module'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!         libconcord-0.24.ebuild, line   9:  Called inherit 'distutils' 'perl-app'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI= is not supported by perl-module.eclass
+
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-perl/Archive-Extract/Archive-Extract-0.72.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '189' 'depend'
+!!!    Archive-Extract-0.72.ebuild, line   9:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/media-sound/phonoripper/phonoripper-0.10.1-r3.ebuild'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=3 is not supported by perl-module.eclass
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/app-emulation/virt-v2v/virt-v2v-0.8.9-r1.ebuild'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!       virt-v2v-0.8.9-r1.ebuild, line   7:  Called inherit 'perl-app'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   phonoripper-0.10.1-r3.ebuild, line   8:  Called inherit 'eutils' 'python'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=3 is not supported by perl-module.eclass
 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
-
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=4 is not supported by perl-module.eclass
 
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported by perl-module.eclass
-
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/ephemeral/dev-libs/libconcord/libconcord-0.24.ebuild'
-!!!         libconcord-0.24.ebuild, line   9:  Called inherit 'distutils' 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!                  python.eclass, line 277:  Called die
+!!! The die message:
+!!!  NEED_PYTHON variable is banned
+
 !!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported by perl-module.eclass
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
@@ -216,19 +214,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/DateTime-Format-Epoch-0.13
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emulation/virt-v2v-0.8.9-r1
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Proc-ParallelLoop-0.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Archive-Extract-0.72
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Term-Prompt-1.04
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: media-sound/phonoripper-0.10.1-r3
+!!! caught exception False while processing ebuild src: dev-libs/libconcord-0.23
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Archive-Extract-0.72
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: app-emulation/virt-v2v-0.9.0
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-libs/libconcord-0.23
+!!! caught exception False while processing ebuild src: media-sound/phonoripper-0.10.1-r3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: app-emulation/virt-v2v-0.8.9-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-libs/libconcord-0.24
  * Cache regenerated successfully

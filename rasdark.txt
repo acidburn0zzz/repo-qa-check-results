@@ -13,7 +13,19 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/rasdark
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/rasdark/overlay
+   a43734a..11bd9cb  master     -> origin/master
+Updating a43734a..11bd9cb
+Fast-forward
+ net-news/quiterss/Manifest                         |   2 +-
+ ...iterss-0.18.1.ebuild => quiterss-0.18.2.ebuild} |   0
+ www-servers/nginx/Manifest                         |   5 +
+ www-servers/nginx/files/check-1.9.2.patch          | 242 +++++++
+ www-servers/nginx/nginx-1.9.2.ebuild               | 703 +++++++++++++++++++++
+ 5 files changed, 951 insertions(+), 1 deletion(-)
+ rename net-news/quiterss/{quiterss-0.18.1.ebuild => quiterss-0.18.2.ebuild} (100%)
+ create mode 100644 www-servers/nginx/files/check-1.9.2.patch
+ create mode 100644 www-servers/nginx/nginx-1.9.2.ebuild
 *** syncing '/home/mgorny/repos/rasdark'...
 *** synced '/home/mgorny/repos/rasdark'
  * Sync succeeded
