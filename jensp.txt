@@ -24,62 +24,63 @@ $ pmaint regen -t 2 jensp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: app-text/gscan2pdf-1.0.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-
 !!! ERROR: dev-python/pykickstart-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '190' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
-!!!         gscan2pdf-1.0.0.ebuild, line   6:  Called inherit 'perl-app'
 
-!!! ERROR: www-plugins/lightspark-9999 failed.
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!        pykickstart-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/dev-python/pykickstart/pykickstart-9999.ebuild'
+!!! ERROR: app-text/gscan2pdf-1.0.0 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!        pykickstart-9999.ebuild, line   7:  Called inherit 'distutils' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+
+!!! ERROR: www-plugins/lightspark-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/app-text/gscan2pdf/gscan2pdf-1.0.0.ebuild'
+!!!         gscan2pdf-1.0.0.ebuild, line   6:  Called inherit 'perl-app'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
+!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
+!!!         lightspark-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'nsplugins' 'multilib' 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jensp/www-plugins/lightspark/lightspark-9999.ebuild'
-!!!         lightspark-9999.ebuild, line   7:  Called inherit 'cmake-utils' 'nsplugins' 'multilib' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
+Sandboxed process killed by signal: Broken pipe
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-python/pykickstart-9999
 !!! caught exception Metadata Exception: pkg ebuild src: media-libs/glee-5.40, attr eapi
