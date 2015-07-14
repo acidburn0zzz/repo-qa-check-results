@@ -37,25 +37,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  inherit for git failed
 
-
-!!! ERROR: www-plugins/lightspark-0.4.3_rc1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '218' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/wirelay/www-plugins/lightspark/lightspark-0.4.3_rc1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wirelay/www-plugins/lightspark/lightspark-0.4.3_rc1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wirelay/www-plugins/lightspark/lightspark-0.4.3_rc1.ebuild'
-!!!    lightspark-0.4.3_rc1.ebuild, line   6:  Called inherit 'cmake-utils' 'nsplugins' 'multilib'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
-!!!              ebuild-daemon.lib, line  37:  Called die
-!!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass cmake-utils
-
 Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-libs/wicked-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: www-plugins/lightspark-0.4.3_rc1
  * Cache regenerated successfully
