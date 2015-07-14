@@ -22,7 +22,38 @@
 $ pmaint sync /home/mgorny/repos/perl-experimental
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/perl-overlay
+   4d26770..ff8d074  master     -> origin/master
+Updating 4d26770..ff8d074
+Fast-forward
+ .../Catalyst-Controller-BindLex-0.50.0-r1.ebuild   | 32 -------------
+ dev-perl/Catalyst-Controller-BindLex/Manifest      |  1 -
+ dev-perl/Catalyst-Controller-BindLex/metadata.xml  | 13 ------
+ ...uild => Catalyst-Plugin-I18N-0.100.0-r1.ebuild} |  7 +--
+ .../Catalyst-Plugin-Server-0.280.0.ebuild          | 24 ----------
+ dev-perl/Catalyst-Plugin-Server/Manifest           |  1 -
+ dev-perl/Catalyst-Plugin-Server/metadata.xml       | 21 ---------
+ dev-perl/MooseX-Async/Manifest                     |  1 -
+ dev-perl/MooseX-Async/MooseX-Async-0.70.0.ebuild   | 20 ---------
+ dev-perl/MooseX-Async/metadata.xml                 | 17 -------
+ dev-perl/Parse-BACKPAN-Packages/Manifest           |  1 -
+ .../Parse-BACKPAN-Packages-0.360.0-r1.ebuild       | 52 ----------------------
+ dev-perl/Parse-BACKPAN-Packages/metadata.xml       | 19 --------
+ profiles/package.mask                              | 39 ----------------
+ 14 files changed, 2 insertions(+), 246 deletions(-)
+ delete mode 100644 dev-perl/Catalyst-Controller-BindLex/Catalyst-Controller-BindLex-0.50.0-r1.ebuild
+ delete mode 100644 dev-perl/Catalyst-Controller-BindLex/Manifest
+ delete mode 100644 dev-perl/Catalyst-Controller-BindLex/metadata.xml
+ rename dev-perl/Catalyst-Plugin-I18N/{Catalyst-Plugin-I18N-0.100.0.ebuild => Catalyst-Plugin-I18N-0.100.0-r1.ebuild} (78%)
+ delete mode 100644 dev-perl/Catalyst-Plugin-Server/Catalyst-Plugin-Server-0.280.0.ebuild
+ delete mode 100644 dev-perl/Catalyst-Plugin-Server/Manifest
+ delete mode 100644 dev-perl/Catalyst-Plugin-Server/metadata.xml
+ delete mode 100644 dev-perl/MooseX-Async/Manifest
+ delete mode 100644 dev-perl/MooseX-Async/MooseX-Async-0.70.0.ebuild
+ delete mode 100644 dev-perl/MooseX-Async/metadata.xml
+ delete mode 100644 dev-perl/Parse-BACKPAN-Packages/Manifest
+ delete mode 100644 dev-perl/Parse-BACKPAN-Packages/Parse-BACKPAN-Packages-0.360.0-r1.ebuild
+ delete mode 100644 dev-perl/Parse-BACKPAN-Packages/metadata.xml
 *** syncing '/home/mgorny/repos/perl-experimental'...
 *** synced '/home/mgorny/repos/perl-experimental'
  * Sync succeeded
