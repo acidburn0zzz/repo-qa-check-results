@@ -14,9 +14,10 @@
  * Adding new repository
 $ pmaint sync /home/mgorny/repos/poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
+rsync: failed to connect to 79.218.128.226 (79.218.128.226): No route to host (113)
+rsync error: error in socket IO (code 10) at clientserver.c(128) [Receiver=3.1.1]
 *** syncing '/home/mgorny/repos/poly-c'...
 Error running an operation:
  Unhandled exception in sync
- (35, 'all attempts failed')
+ (10, 'all attempts failed')
  * Sync failed with 246
