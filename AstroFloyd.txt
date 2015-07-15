@@ -20,11 +20,22 @@
 $ pmaint sync /home/mgorny/repos/AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/user/AstroFloyd
+   a21c491..354f42c  master     -> origin/master
+Updating a21c491..354f42c
+Fast-forward
+ sys-kernel/gentoo-sources/ChangeLog                      |  6 ++++++
+ sys-kernel/gentoo-sources/Manifest                       | 16 ++++++++--------
+ ...ources-3.14.14.ebuild => gentoo-sources-4.0.5.ebuild} |  8 ++++----
+ 3 files changed, 18 insertions(+), 12 deletions(-)
+ rename sys-kernel/gentoo-sources/{gentoo-sources-3.14.14.ebuild => gentoo-sources-4.0.5.ebuild} (76%)
 *** syncing '/home/mgorny/repos/AstroFloyd'...
 *** synced '/home/mgorny/repos/AstroFloyd'
  * Sync succeeded
 $ pmaint regen -t 2 AstroFloyd
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-kernel/gentoo-sources-4.0.5 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
