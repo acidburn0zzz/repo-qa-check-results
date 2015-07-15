@@ -16,7 +16,31 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   308de0e..144beef  master     -> origin/master
+Updating 308de0e..144beef
+Fast-forward
+ app-eselect/eselect-opengl/Manifest                |   5 +
+ .../eselect-opengl/eselect-opengl-1.2.7-r99.ebuild |  63 +++++
+ app-eselect/eselect-opengl/metadata.xml            |   6 +
+ x11-base/xorg-server/files/xdm.initd-10            | 226 ------------------
+ .../files/xorg-server-1.12-cve-2013-4396.patch     |  75 ------
+ .../files/xorg-server-1.12-disable-acpi.patch      |  11 -
+ .../files/xorg-server-disable-acpi.patch           |  31 ---
+ x11-base/xorg-server/xorg-server-1.14.3-r99.ebuild | 251 --------------------
+ x11-base/xorg-server/xorg-server-1.15.0-r99.ebuild | 254 --------------------
+ x11-base/xorg-server/xorg-server-1.15.2-r99.ebuild | 257 ---------------------
+ 10 files changed, 74 insertions(+), 1105 deletions(-)
+ create mode 100644 app-eselect/eselect-opengl/Manifest
+ create mode 100644 app-eselect/eselect-opengl/eselect-opengl-1.2.7-r99.ebuild
+ create mode 100644 app-eselect/eselect-opengl/metadata.xml
+ delete mode 100644 x11-base/xorg-server/files/xdm.initd-10
+ delete mode 100644 x11-base/xorg-server/files/xorg-server-1.12-cve-2013-4396.patch
+ delete mode 100644 x11-base/xorg-server/files/xorg-server-1.12-disable-acpi.patch
+ delete mode 100644 x11-base/xorg-server/files/xorg-server-disable-acpi.patch
+ delete mode 100644 x11-base/xorg-server/xorg-server-1.14.3-r99.ebuild
+ delete mode 100644 x11-base/xorg-server/xorg-server-1.15.0-r99.ebuild
+ delete mode 100644 x11-base/xorg-server/xorg-server-1.15.2-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
