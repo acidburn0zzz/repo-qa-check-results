@@ -31,27 +31,27 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '161' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '186' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
-!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.4.3_beta.ebuild'
+!!!             mysql-5.5.1.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql'
+!!!        mysql-5.4.3_beta.ebuild, line   8:  Called inherit 'toolchain-funcs' 'mysql'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed
 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/hanno/dev-db/mysql/mysql-5.5.1.ebuild'
-!!!             mysql-5.5.1.ebuild, line  10:  Called inherit 'toolchain-funcs' 'mysql'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for mysql failed

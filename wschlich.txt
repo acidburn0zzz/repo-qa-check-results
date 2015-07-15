@@ -26,11 +26,11 @@ $ pmaint regen -t 2 wschlich
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: mail-filter/dkimproxy-1.1 failed.
+
 !!! ERROR: mail-filter/dkimproxy-1.0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: mail-filter/dkimproxy-1.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
@@ -58,8 +58,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
-
 !!!             perl-module.eclass, line  40:  Called die
+
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
@@ -81,8 +81,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!  inherit for git failed
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: mail-filter/dovecot-antispam-9999
  * Cache regenerated successfully
