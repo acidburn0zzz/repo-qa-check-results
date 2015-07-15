@@ -48,77 +48,51 @@
 </pre></td></tr>
             <tr class="" id="l19"><td><a href="#l19"><span>19</span></a></td><td><pre>From git://anongit.gentoo.org/proj/musl
 </pre></td></tr>
-            <tr class="" id="l20"><td><a href="#l20"><span>20</span></a></td><td><pre>   3e91117..63b61ef  master     -&gt; origin/master
+            <tr class="" id="l20"><td><a href="#l20"><span>20</span></a></td><td><pre>   63b61ef..622359e  master     -&gt; origin/master
 </pre></td></tr>
-            <tr class="" id="l21"><td><a href="#l21"><span>21</span></a></td><td><pre>Updating 3e91117..63b61ef
+            <tr class="" id="l21"><td><a href="#l21"><span>21</span></a></td><td><pre>Updating 63b61ef..622359e
 </pre></td></tr>
             <tr class="" id="l22"><td><a href="#l22"><span>22</span></a></td><td><pre>Fast-forward
 </pre></td></tr>
-            <tr class="" id="l23"><td><a href="#l23"><span>23</span></a></td><td><pre> dev-qt/qt3support/Manifest                         |   2 +
+            <tr class="" id="l23"><td><a href="#l23"><span>23</span></a></td><td><pre> net-dialup/linux-atm/Manifest                      |  6 +++
 </pre></td></tr>
-            <tr class="" id="l24"><td><a href="#l24"><span>24</span></a></td><td><pre> dev-qt/qt3support/qt3support-4.8.6-r99.ebuild      |  41 +++
+            <tr class="" id="l24"><td><a href="#l24"><span>24</span></a></td><td><pre> .../linux-atm/files/linux-atm-2.5.2-headers.patch  | 30 ++++++++++++++
 </pre></td></tr>
-            <tr class="" id="l25"><td><a href="#l25"><span>25</span></a></td><td><pre> dev-qt/qtcore/Manifest                             |   5 +-
+            <tr class="" id="l25"><td><a href="#l25"><span>25</span></a></td><td><pre> .../files/linux-atm-2.5.2-mask-on_exit.patch       | 14 +++++++
 </pre></td></tr>
-            <tr class="" id="l26"><td><a href="#l26"><span>26</span></a></td><td><pre> dev-qt/qtcore/qtcore-4.8.6-r99.ebuild              |  88 ++++++
+            <tr class="" id="l26"><td><a href="#l26"><span>26</span></a></td><td><pre> .../linux-atm-2.5.2-remove-SYS_poll-hack.patch     | 18 ++++++++
 </pre></td></tr>
-            <tr class="" id="l27"><td><a href="#l27"><span>27</span></a></td><td><pre> dev-qt/qtcore/qtcore-4.8.7-r99.ebuild              |   2 +-
+            <tr class="" id="l27"><td><a href="#l27"><span>27</span></a></td><td><pre> net-dialup/linux-atm/linux-atm-2.5.2-r99.ebuild    | 48 ++++++++++++++++++++++
 </pre></td></tr>
-            <tr class="" id="l28"><td><a href="#l28"><span>28</span></a></td><td><pre> net-firewall/iptables/Manifest                     |   3 -
+            <tr class="" id="l28"><td><a href="#l28"><span>28</span></a></td><td><pre> net-dialup/linux-atm/metadata.xml                  |  9 ++++
 </pre></td></tr>
-            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre> .../iptables/files/iptables-1.4.20-musl.patch      | 304 ---------------------
+            <tr class="" id="l29"><td><a href="#l29"><span>29</span></a></td><td><pre> 6 files changed, 125 insertions(+)
 </pre></td></tr>
-            <tr class="" id="l30"><td><a href="#l30"><span>30</span></a></td><td><pre> net-firewall/iptables/iptables-1.4.20-r99.ebuild   |  93 -------
+            <tr class="" id="l30"><td><a href="#l30"><span>30</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/Manifest
 </pre></td></tr>
-            <tr class="" id="l31"><td><a href="#l31"><span>31</span></a></td><td><pre> sys-apps/hdparm/Manifest                           |   3 -
+            <tr class="" id="l31"><td><a href="#l31"><span>31</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-headers.patch
 </pre></td></tr>
-            <tr class="" id="l32"><td><a href="#l32"><span>32</span></a></td><td><pre> sys-apps/hdparm/files/hdparm-9.39-musl.patch       |  50 ----
+            <tr class="" id="l32"><td><a href="#l32"><span>32</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-mask-on_exit.patch
 </pre></td></tr>
-            <tr class="" id="l33"><td><a href="#l33"><span>33</span></a></td><td><pre> sys-apps/hdparm/hdparm-9.39-r99.ebuild             |  42 ---
+            <tr class="" id="l33"><td><a href="#l33"><span>33</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-remove-SYS_poll-hack.patch
 </pre></td></tr>
-            <tr class="" id="l34"><td><a href="#l34"><span>34</span></a></td><td><pre> sys-apps/iproute2/Manifest                         |   8 +-
+            <tr class="" id="l34"><td><a href="#l34"><span>34</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/linux-atm-2.5.2-r99.ebuild
 </pre></td></tr>
-            <tr class="" id="l35"><td><a href="#l35"><span>35</span></a></td><td><pre> sys-apps/iproute2/iproute2-3.19.0-r99.ebuild       |   3 +-
+            <tr class="" id="l35"><td><a href="#l35"><span>35</span></a></td><td><pre> create mode 100644 net-dialup/linux-atm/metadata.xml
 </pre></td></tr>
-            <tr class="" id="l36"><td><a href="#l36"><span>36</span></a></td><td><pre> sys-apps/iproute2/iproute2-4.0.0-r99.ebuild        |  12 +-
+            <tr class="" id="l36"><td><a href="#l36"><span>36</span></a></td><td><pre>*** syncing '/home/mgorny/repos/musl'...
 </pre></td></tr>
-            <tr class="" id="l37"><td><a href="#l37"><span>37</span></a></td><td><pre> ...-3.8.0-r99.ebuild =&gt; iproute2-4.1.1-r99.ebuild} |  40 ++-
+            <tr class="" id="l37"><td><a href="#l37"><span>37</span></a></td><td><pre>*** synced '/home/mgorny/repos/musl'
 </pre></td></tr>
-            <tr class="" id="l38"><td><a href="#l38"><span>38</span></a></td><td><pre> sys-apps/net-tools/Manifest                        |   3 -
+            <tr class="" id="l38"><td><a href="#l38"><span>38</span></a></td><td><pre> * Sync succeeded
 </pre></td></tr>
-            <tr class="" id="l39"><td><a href="#l39"><span>39</span></a></td><td><pre> .../net-tools-1.60_p20120127084908-r99.ebuild      |  99 -------
+            <tr class="" id="l39"><td><a href="#l39"><span>39</span></a></td><td><pre>$ pmaint regen -t 2 musl
 </pre></td></tr>
-            <tr class="" id="l40"><td><a href="#l40"><span>40</span></a></td><td><pre> 17 files changed, 175 insertions(+), 623 deletions(-)
+            <tr class="" id="l40"><td><a href="#l40"><span>40</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 </pre></td></tr>
-            <tr class="" id="l41"><td><a href="#l41"><span>41</span></a></td><td><pre> create mode 100644 dev-qt/qt3support/qt3support-4.8.6-r99.ebuild
+            <tr class="" id="l41"><td><a href="#l41"><span>41</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 </pre></td></tr>
-            <tr class="" id="l42"><td><a href="#l42"><span>42</span></a></td><td><pre> create mode 100644 dev-qt/qtcore/qtcore-4.8.6-r99.ebuild
-</pre></td></tr>
-            <tr class="" id="l43"><td><a href="#l43"><span>43</span></a></td><td><pre> delete mode 100644 net-firewall/iptables/files/iptables-1.4.20-musl.patch
-</pre></td></tr>
-            <tr class="" id="l44"><td><a href="#l44"><span>44</span></a></td><td><pre> delete mode 100644 net-firewall/iptables/iptables-1.4.20-r99.ebuild
-</pre></td></tr>
-            <tr class="" id="l45"><td><a href="#l45"><span>45</span></a></td><td><pre> delete mode 100644 sys-apps/hdparm/files/hdparm-9.39-musl.patch
-</pre></td></tr>
-            <tr class="" id="l46"><td><a href="#l46"><span>46</span></a></td><td><pre> delete mode 100644 sys-apps/hdparm/hdparm-9.39-r99.ebuild
-</pre></td></tr>
-            <tr class="" id="l47"><td><a href="#l47"><span>47</span></a></td><td><pre> rename sys-apps/iproute2/{iproute2-3.8.0-r99.ebuild =&gt; iproute2-4.1.1-r99.ebuild} (71%)
-</pre></td></tr>
-            <tr class="" id="l48"><td><a href="#l48"><span>48</span></a></td><td><pre> delete mode 100644 sys-apps/net-tools/net-tools-1.60_p20120127084908-r99.ebuild
-</pre></td></tr>
-            <tr class="" id="l49"><td><a href="#l49"><span>49</span></a></td><td><pre>*** syncing '/home/mgorny/repos/musl'...
-</pre></td></tr>
-            <tr class="" id="l50"><td><a href="#l50"><span>50</span></a></td><td><pre>*** synced '/home/mgorny/repos/musl'
-</pre></td></tr>
-            <tr class="" id="l51"><td><a href="#l51"><span>51</span></a></td><td><pre> * Sync succeeded
-</pre></td></tr>
-            <tr class="" id="l52"><td><a href="#l52"><span>52</span></a></td><td><pre>$ pmaint regen -t 2 musl
-</pre></td></tr>
-            <tr class="" id="l53"><td><a href="#l53"><span>53</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-</pre></td></tr>
-            <tr class="" id="l54"><td><a href="#l54"><span>54</span></a></td><td><pre>WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-</pre></td></tr>
-            <tr class="" id="l55"><td><a href="#l55"><span>55</span></a></td><td><pre> * Cache regenerated successfully
+            <tr class="" id="l42"><td><a href="#l42"><span>42</span></a></td><td><pre> * Cache regenerated successfully
 </pre></td></tr>
 
         </table>

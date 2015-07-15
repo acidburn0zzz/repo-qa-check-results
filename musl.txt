@@ -17,35 +17,22 @@ $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/musl
-   3e91117..63b61ef  master     -> origin/master
-Updating 3e91117..63b61ef
+   63b61ef..622359e  master     -> origin/master
+Updating 63b61ef..622359e
 Fast-forward
- dev-qt/qt3support/Manifest                         |   2 +
- dev-qt/qt3support/qt3support-4.8.6-r99.ebuild      |  41 +++
- dev-qt/qtcore/Manifest                             |   5 +-
- dev-qt/qtcore/qtcore-4.8.6-r99.ebuild              |  88 ++++++
- dev-qt/qtcore/qtcore-4.8.7-r99.ebuild              |   2 +-
- net-firewall/iptables/Manifest                     |   3 -
- .../iptables/files/iptables-1.4.20-musl.patch      | 304 ---------------------
- net-firewall/iptables/iptables-1.4.20-r99.ebuild   |  93 -------
- sys-apps/hdparm/Manifest                           |   3 -
- sys-apps/hdparm/files/hdparm-9.39-musl.patch       |  50 ----
- sys-apps/hdparm/hdparm-9.39-r99.ebuild             |  42 ---
- sys-apps/iproute2/Manifest                         |   8 +-
- sys-apps/iproute2/iproute2-3.19.0-r99.ebuild       |   3 +-
- sys-apps/iproute2/iproute2-4.0.0-r99.ebuild        |  12 +-
- ...-3.8.0-r99.ebuild => iproute2-4.1.1-r99.ebuild} |  40 ++-
- sys-apps/net-tools/Manifest                        |   3 -
- .../net-tools-1.60_p20120127084908-r99.ebuild      |  99 -------
- 17 files changed, 175 insertions(+), 623 deletions(-)
- create mode 100644 dev-qt/qt3support/qt3support-4.8.6-r99.ebuild
- create mode 100644 dev-qt/qtcore/qtcore-4.8.6-r99.ebuild
- delete mode 100644 net-firewall/iptables/files/iptables-1.4.20-musl.patch
- delete mode 100644 net-firewall/iptables/iptables-1.4.20-r99.ebuild
- delete mode 100644 sys-apps/hdparm/files/hdparm-9.39-musl.patch
- delete mode 100644 sys-apps/hdparm/hdparm-9.39-r99.ebuild
- rename sys-apps/iproute2/{iproute2-3.8.0-r99.ebuild => iproute2-4.1.1-r99.ebuild} (71%)
- delete mode 100644 sys-apps/net-tools/net-tools-1.60_p20120127084908-r99.ebuild
+ net-dialup/linux-atm/Manifest                      |  6 +++
+ .../linux-atm/files/linux-atm-2.5.2-headers.patch  | 30 ++++++++++++++
+ .../files/linux-atm-2.5.2-mask-on_exit.patch       | 14 +++++++
+ .../linux-atm-2.5.2-remove-SYS_poll-hack.patch     | 18 ++++++++
+ net-dialup/linux-atm/linux-atm-2.5.2-r99.ebuild    | 48 ++++++++++++++++++++++
+ net-dialup/linux-atm/metadata.xml                  |  9 ++++
+ 6 files changed, 125 insertions(+)
+ create mode 100644 net-dialup/linux-atm/Manifest
+ create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-headers.patch
+ create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-mask-on_exit.patch
+ create mode 100644 net-dialup/linux-atm/files/linux-atm-2.5.2-remove-SYS_poll-hack.patch
+ create mode 100644 net-dialup/linux-atm/linux-atm-2.5.2-r99.ebuild
+ create mode 100644 net-dialup/linux-atm/metadata.xml
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded

@@ -13,40 +13,11 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/overlay
-   118d93d..e85df8f  master     -> origin/master
-Updating 118d93d..e85df8f
-Fast-forward
- .../calculate-icon-theme/.calculate_directory      |  2 +-
- .../kde-base/KDE-always/.calculate_directory       |  1 +
- .../2-user/mate-base/MATE-1.8/mate                 |  1 +
- .../2-user/mate-base/MATE-1.8/panel                |  6 +--
- .../xfce-base/XFCE-always/.calculate_directory     |  1 +
- sys-apps/calculate-utils/Manifest                  |  1 +
- .../calculate-utils/calculate-utils-3.3.3.5.ebuild | 22 +++++++++
- x11-themes/calculate-icon-theme/Manifest           |  1 +
- .../calculate-icon-theme-14-r6.ebuild              | 52 ++++++++++++++++++++++
- 9 files changed, 83 insertions(+), 4 deletions(-)
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/kde-base/KDE-always/.calculate_directory
- create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/xfce-base/XFCE-always/.calculate_directory
- create mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.3.5.ebuild
- create mode 100644 x11-themes/calculate-icon-theme/calculate-icon-theme-14-r6.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.5 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
