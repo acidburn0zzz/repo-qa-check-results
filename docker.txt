@@ -14,15 +14,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/docker
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://github.com/tianon/docker-overlay
-   868d91b..f0625c4  master     -> origin/master
-Updating 868d91b..f0625c4
-Fast-forward
- app-emulation/docker/Manifest           | 2 +-
- app-emulation/docker/docker-9999.ebuild | 3 +++
- 2 files changed, 4 insertions(+), 1 deletion(-)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/docker'...
 *** synced '/home/mgorny/repos/docker'
  * Sync succeeded

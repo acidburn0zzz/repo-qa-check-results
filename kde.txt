@@ -17,7 +17,17 @@
 $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   58bbd7e..3ee3b74  master     -> origin/master
+Updating 58bbd7e..3ee3b74
+Fast-forward
+ dev-libs/libqzeitgeist/libqzeitgeist-9999.ebuild | 48 ------------------------
+ dev-libs/libqzeitgeist/metadata.xml              |  5 ---
+ net-libs/libkgapi/libkgapi-9999.ebuild           |  1 -
+ sets/kdedeps-live                                |  1 -
+ 4 files changed, 55 deletions(-)
+ delete mode 100644 dev-libs/libqzeitgeist/libqzeitgeist-9999.ebuild
+ delete mode 100644 dev-libs/libqzeitgeist/metadata.xml
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded

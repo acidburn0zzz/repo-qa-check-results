@@ -17,14 +17,50 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   3e98062..f60556f  master     -> origin/master
-Updating 3e98062..f60556f
+   f60556f..73ebfe3  master     -> origin/master
+Updating f60556f..73ebfe3
 Fast-forward
- www-client/firefox/Manifest                        | 162 ++++++++++-----------
- ...40.0_beta3.ebuild => firefox-40.0_beta4.ebuild} |   0
- 2 files changed, 81 insertions(+), 81 deletions(-)
- mode change 100644 => 100755 www-client/firefox/Manifest
- rename www-client/firefox/{firefox-40.0_beta3.ebuild => firefox-40.0_beta4.ebuild} (100%)
+ dev-java/netbeans-apisupport/Manifest              |   4 +-
+ ...d => netbeans-apisupport-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-extide/Manifest                  |   4 +-
+ ...build => netbeans-extide-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-harness/Manifest                 |   4 +-
+ ...uild => netbeans-harness-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-ide/Manifest                     |   4 +-
+ ...4.ebuild => netbeans-ide-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-java/Manifest                    |   4 +-
+ ....ebuild => netbeans-java-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-javafx/Manifest                  |   4 +-
+ ...build => netbeans-javafx-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-nb/Manifest                      |   4 +-
+ ...14.ebuild => netbeans-nb-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-platform/Manifest                |   4 +-
+ ...ild => netbeans-platform-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-profiler/Manifest                |   4 +-
+ ...ild => netbeans-profiler-9999_p20150715.ebuild} |   4 +-
+ dev-java/netbeans-websvccommon/Manifest            |   4 +-
+ ...=> netbeans-websvccommon-9999_p20150715.ebuild} |   4 +-
+ dev-util/netbeans/Manifest                         |   4 +-
+ ...50714.ebuild => netbeans-9999_p20150715.ebuild} |   4 +-
+ sys-kernel/rt-sources/Manifest                     |   6 +
+ sys-kernel/rt-sources/rt-sources-4.1.2_p1.ebuild   |  42 ++++++
+ www-client/firefox-bin/Manifest                    | 158 ++++++++++-----------
+ ..._beta3.ebuild => firefox-bin-40.0_beta4.ebuild} |   0
+ 26 files changed, 171 insertions(+), 123 deletions(-)
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150714.ebuild => netbeans-apisupport-9999_p20150715.ebuild} (97%)
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150714.ebuild => netbeans-extide-9999_p20150715.ebuild} (97%)
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150714.ebuild => netbeans-harness-9999_p20150715.ebuild} (97%)
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150714.ebuild => netbeans-ide-9999_p20150715.ebuild} (99%)
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150714.ebuild => netbeans-java-9999_p20150715.ebuild} (99%)
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150714.ebuild => netbeans-javafx-9999_p20150715.ebuild} (98%)
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150714.ebuild => netbeans-nb-9999_p20150715.ebuild} (98%)
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150714.ebuild => netbeans-platform-9999_p20150715.ebuild} (99%)
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150714.ebuild => netbeans-profiler-9999_p20150715.ebuild} (97%)
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150714.ebuild => netbeans-websvccommon-9999_p20150715.ebuild} (96%)
+ rename dev-util/netbeans/{netbeans-9999_p20150714.ebuild => netbeans-9999_p20150715.ebuild} (98%)
+ create mode 100644 sys-kernel/rt-sources/rt-sources-4.1.2_p1.ebuild
+ mode change 100644 => 100755 www-client/firefox-bin/Manifest
+ rename www-client/firefox-bin/{firefox-bin-40.0_beta3.ebuild => firefox-bin-40.0_beta4.ebuild} (100%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
