@@ -11,6 +11,7 @@
  u'sources': [(u'rsync://gentoofan.no-ip.org/poly-c', u'Rsync', None)],
  u'status': u'official',
  u'supported': True}
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
@@ -19,12 +20,3 @@ Error running an operation:
  Unhandled exception in sync
  (35, 'all attempts failed')
  * Sync failed with 246
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/poly-c
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
-*** syncing '/home/mgorny/repos/poly-c'...
-Error running an operation:
- Unhandled exception in sync
- (35, 'all attempts failed')
- * Sync failed again with 246, removing
