@@ -14,23 +14,72 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/musl
+WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/musl
-   a29ce15..28e08fa  master     -> origin/master
-Updating a29ce15..28e08fa
+   28e08fa..3e91117  master     -> origin/master
+Updating 28e08fa..3e91117
 Fast-forward
- app-eselect/eselect-opengl/Manifest                |    2 +-
- .../eselect-opengl/eselect-opengl-1.2.7-r99.ebuild |    2 +-
- media-libs/mesa/Manifest                           |    6 +-
- .../mesa/files/mesa-10.3.7-format_utils.c.patch    | 1089 ++++++++++++++++++++
- .../mesa/files/mesa-10.5.1-fstat-include.patch     |   37 +
- ...esa-10.3.7-r1.ebuild => mesa-10.3.7-r99.ebuild} |   16 +-
- media-libs/mesa/metadata.xml                       |    3 -
- 7 files changed, 1139 insertions(+), 16 deletions(-)
- create mode 100644 media-libs/mesa/files/mesa-10.3.7-format_utils.c.patch
- create mode 100644 media-libs/mesa/files/mesa-10.5.1-fstat-include.patch
- rename media-libs/mesa/{mesa-10.3.7-r1.ebuild => mesa-10.3.7-r99.ebuild} (96%)
+ sys-apps/attr/Manifest                             |   5 -
+ sys-apps/attr/attr-2.4.46-r99.ebuild               |  55 ----
+ sys-apps/attr/files/attr-2.4.44-gettext.patch      |  63 -----
+ sys-apps/attr/files/attr-2.4.46-config-shell.patch |  53 ----
+ .../attr/files/attr-2.4.46-generic-syscalls.patch  | 180 ------------
+ sys-apps/busybox/Manifest                          |  19 +-
+ sys-apps/busybox/busybox-1.21.0-r99.ebuild         | 304 --------------------
+ sys-apps/busybox/busybox-1.22.1-r99.ebuild         | 304 --------------------
+ sys-apps/busybox/busybox-1.23.0-r99.ebuild         | 305 --------------------
+ sys-apps/busybox/busybox-1.23.1-r99.ebuild         | 308 ---------------------
+ sys-apps/busybox/busybox-1.23.2-r99.ebuild         |   2 +
+ .../busybox/files/busybox-1.21.0-ifconfig.patch    |  11 -
+ sys-apps/busybox/files/busybox-1.21.0-iplink.patch |  12 -
+ sys-apps/busybox/files/busybox-1.21.0-mdev.patch   |  35 ---
+ .../busybox/files/busybox-1.21.0-platform.patch    |  24 --
+ sys-apps/busybox/files/busybox-1.21.0-xz.patch     |  84 ------
+ sys-apps/busybox/files/busybox-1.22.1-ash.patch    |  11 -
+ sys-apps/busybox/files/busybox-1.22.1-date.patch   |  30 --
+ sys-apps/busybox/files/busybox-1.22.1-iplink.patch |  19 --
+ .../files/busybox-1.23.1-trylink-flags.patch       |  39 +++
+ sys-apps/util-linux/Manifest                       |  12 +-
+ .../util-linux/files/util-linux-2.23.1-musl.patch  | 110 --------
+ .../files/util-linux-2.24-last-tests.patch         |  86 ------
+ .../files/util-linux-2.24-skip-last-tests.patch    |  41 ---
+ .../util-linux/files/util-linux-2.24.1-musl.patch  |  30 --
+ .../files/util-linux-2.24.2-hexdump.patch          |  40 ---
+ .../files/util-linux-2.25-lscpu-pic.patch          |  81 ------
+ sys-apps/util-linux/util-linux-2.24.1-r99.ebuild   | 147 ----------
+ sys-apps/util-linux/util-linux-2.25-r99.ebuild     | 176 ------------
+ sys-apps/util-linux/util-linux-2.25.2-r99.ebuild   |   2 +-
+ 30 files changed, 45 insertions(+), 2543 deletions(-)
+ delete mode 100644 sys-apps/attr/attr-2.4.46-r99.ebuild
+ delete mode 100644 sys-apps/attr/files/attr-2.4.44-gettext.patch
+ delete mode 100644 sys-apps/attr/files/attr-2.4.46-config-shell.patch
+ delete mode 100644 sys-apps/attr/files/attr-2.4.46-generic-syscalls.patch
+ delete mode 100644 sys-apps/busybox/busybox-1.21.0-r99.ebuild
+ delete mode 100644 sys-apps/busybox/busybox-1.22.1-r99.ebuild
+ delete mode 100644 sys-apps/busybox/busybox-1.23.0-r99.ebuild
+ delete mode 100644 sys-apps/busybox/busybox-1.23.1-r99.ebuild
+ delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-ifconfig.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-iplink.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-mdev.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-platform.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-xz.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-ash.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-date.patch
+ delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-iplink.patch
+ create mode 100644 sys-apps/busybox/files/busybox-1.23.1-trylink-flags.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.23.1-musl.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.24-last-tests.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.24-skip-last-tests.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.24.1-musl.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.24.2-hexdump.patch
+ delete mode 100644 sys-apps/util-linux/files/util-linux-2.25-lscpu-pic.patch
+ delete mode 100644 sys-apps/util-linux/util-linux-2.24.1-r99.ebuild
+ delete mode 100644 sys-apps/util-linux/util-linux-2.25-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
