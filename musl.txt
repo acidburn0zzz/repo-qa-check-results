@@ -17,21 +17,20 @@ $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/musl
-   92cd587..a29ce15  master     -> origin/master
-Updating 92cd587..a29ce15
+   a29ce15..28e08fa  master     -> origin/master
+Updating a29ce15..28e08fa
 Fast-forward
- sys-apps/ldconfig/Manifest                         |   3 -
- sys-apps/ldconfig/files/ldconfig-0.1               | 141 ---------------------
- sys-apps/ldconfig/ldconfig-0.1.ebuild              |  34 -----
- sys-apps/ldconfig/metadata.xml                     |   8 --
- x11-base/xorg-server/Manifest                      |   4 +-
- x11-base/xorg-server/metadata.xml                  |   1 +
- x11-base/xorg-server/xorg-server-1.16.4-r99.ebuild |   2 +-
- 7 files changed, 4 insertions(+), 189 deletions(-)
- delete mode 100644 sys-apps/ldconfig/Manifest
- delete mode 100644 sys-apps/ldconfig/files/ldconfig-0.1
- delete mode 100644 sys-apps/ldconfig/ldconfig-0.1.ebuild
- delete mode 100644 sys-apps/ldconfig/metadata.xml
+ app-eselect/eselect-opengl/Manifest                |    2 +-
+ .../eselect-opengl/eselect-opengl-1.2.7-r99.ebuild |    2 +-
+ media-libs/mesa/Manifest                           |    6 +-
+ .../mesa/files/mesa-10.3.7-format_utils.c.patch    | 1089 ++++++++++++++++++++
+ .../mesa/files/mesa-10.5.1-fstat-include.patch     |   37 +
+ ...esa-10.3.7-r1.ebuild => mesa-10.3.7-r99.ebuild} |   16 +-
+ media-libs/mesa/metadata.xml                       |    3 -
+ 7 files changed, 1139 insertions(+), 16 deletions(-)
+ create mode 100644 media-libs/mesa/files/mesa-10.3.7-format_utils.c.patch
+ create mode 100644 media-libs/mesa/files/mesa-10.5.1-fstat-include.patch
+ rename media-libs/mesa/{mesa-10.3.7-r1.ebuild => mesa-10.3.7-r99.ebuild} (96%)
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
