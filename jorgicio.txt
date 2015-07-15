@@ -26,43 +26,43 @@ $ pmaint regen -t 2 jorgicio
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
+
 !!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
-!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: kde-base/dolphin-dropbox-plugin-4.14.3 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
-!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!! Call stack:
 !!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                     ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                     ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
 !!!                     ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '260' 'depend'
 !!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
-!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!                  kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
-
+!!!                     ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.3.ebuild'
 !!!   dolphin-dropbox-plugin-4.14.3.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                             ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                             ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
 !!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jorgicio/kde-base/dolphin-dropbox-plugin/dolphin-dropbox-plugin-4.14.2.ebuild'
+!!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
+!!!   dolphin-dropbox-plugin-4.14.2.ebuild, line   5:  Called inherit 'kde4-base' 'mercurial'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
+!!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-base'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-base.eclass'
+!!!                 isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
+!!!                  kde4-functions.eclass, line  23:  Called die
+!!! The die message:
+!!!  EAPI=4 is not supported
+
 !!!                       kde4-base.eclass, line  37:  Called inherit 'kde4-functions' 'toolchain-funcs' 'fdo-mime' 'flag-o-matic' 'gnome2-utils' 'virtualx' 'versionator' 'eutils' 'multilib'
 !!!           ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
 !!!                      ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
@@ -72,7 +72,7 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!  EAPI=4 is not supported
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.2
  * Cache regenerated successfully
