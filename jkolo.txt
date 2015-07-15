@@ -16,71 +16,7 @@
 $ pmaint sync /home/mgorny/repos/jkolo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From https://git.kolosowscy.pl/jurek/gentoo-overlay
-   e56c5a8..8971cdd  master     -> origin/master
-Updating e56c5a8..8971cdd
-Fast-forward
- app-admin/lastpass/Manifest                        |   5 +
- app-admin/lastpass/lastpass-3.2.15.ebuild          | 111 ++++++
- app-admin/lastpass/metadata.xml                    |  15 +
- app-emulation/virtualbox-additions/Manifest        |   2 -
- .../virtualbox-additions-5.0.0.ebuild              |  36 --
- app-emulation/virtualbox-extpack-oracle/Manifest   |   2 -
- .../virtualbox-extpack-oracle-5.0.0.101573.ebuild  |  43 ---
- app-emulation/virtualbox-guest-additions/Manifest  |   8 -
- .../files/vboxclient.desktop                       |   7 -
- .../files/vboxguest-4.1.0-log-use-c99.patch        |  13 -
- .../files/virtualbox-guest-additions-5-localconfig |  30 --
- .../files/virtualbox-guest-additions-8.initd       |  26 --
- .../files/virtualbox-guest-additions.service       |  16 -
- .../files/xorg.conf.vbox                           |  13 -
- .../virtualbox-guest-additions-5.0.0.ebuild        | 221 -----------
- app-emulation/virtualbox-modules/Manifest          |   5 -
- .../files/60-virtualbox-modules.rules              |   1 -
- .../files/virtualbox-modules-4.1.4-pax-const.patch |  48 ---
- .../virtualbox-modules/files/virtualbox.conf       |   3 -
- .../virtualbox-modules-5.0.0.ebuild                |  59 ---
- app-emulation/virtualbox/Manifest                  |  10 -
- app-emulation/virtualbox/files/10-virtualbox.rules |   7 -
- app-emulation/virtualbox/files/vboxwebsrv-confd    |  20 -
- app-emulation/virtualbox/files/vboxwebsrv-initd    |  24 --
- app-emulation/virtualbox/files/virtualbox-4-config |   1 -
- .../virtualbox/files/virtualbox-5-localconfig      |  45 ---
- .../virtualbox/files/virtualbox-ose-3-wrapper      | 104 -----
- .../virtualbox/files/virtualbox-ose.desktop-2      |   8 -
- app-emulation/virtualbox/virtualbox-5.0.0.ebuild   | 425 ---------------------
- app-emulation/vmware-workstation/Manifest          |   2 +-
- .../vmware-workstation-11.1.0.2496824.ebuild       |   2 +-
- 31 files changed, 133 insertions(+), 1179 deletions(-)
- create mode 100644 app-admin/lastpass/Manifest
- create mode 100644 app-admin/lastpass/lastpass-3.2.15.ebuild
- create mode 100644 app-admin/lastpass/metadata.xml
- delete mode 100644 app-emulation/virtualbox-additions/Manifest
- delete mode 100644 app-emulation/virtualbox-additions/virtualbox-additions-5.0.0.ebuild
- delete mode 100644 app-emulation/virtualbox-extpack-oracle/Manifest
- delete mode 100644 app-emulation/virtualbox-extpack-oracle/virtualbox-extpack-oracle-5.0.0.101573.ebuild
- delete mode 100644 app-emulation/virtualbox-guest-additions/Manifest
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/vboxclient.desktop
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/vboxguest-4.1.0-log-use-c99.patch
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-5-localconfig
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-8.initd
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions.service
- delete mode 100644 app-emulation/virtualbox-guest-additions/files/xorg.conf.vbox
- delete mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.0.ebuild
- delete mode 100644 app-emulation/virtualbox-modules/Manifest
- delete mode 100644 app-emulation/virtualbox-modules/files/60-virtualbox-modules.rules
- delete mode 100644 app-emulation/virtualbox-modules/files/virtualbox-modules-4.1.4-pax-const.patch
- delete mode 100644 app-emulation/virtualbox-modules/files/virtualbox.conf
- delete mode 100644 app-emulation/virtualbox-modules/virtualbox-modules-5.0.0.ebuild
- delete mode 100644 app-emulation/virtualbox/Manifest
- delete mode 100644 app-emulation/virtualbox/files/10-virtualbox.rules
- delete mode 100644 app-emulation/virtualbox/files/vboxwebsrv-confd
- delete mode 100644 app-emulation/virtualbox/files/vboxwebsrv-initd
- delete mode 100644 app-emulation/virtualbox/files/virtualbox-4-config
- delete mode 100644 app-emulation/virtualbox/files/virtualbox-5-localconfig
- delete mode 100644 app-emulation/virtualbox/files/virtualbox-ose-3-wrapper
- delete mode 100644 app-emulation/virtualbox/files/virtualbox-ose.desktop-2
- delete mode 100644 app-emulation/virtualbox/virtualbox-5.0.0.ebuild
+Already up-to-date.
 *** syncing '/home/mgorny/repos/jkolo'...
 *** synced '/home/mgorny/repos/jkolo'
  * Sync succeeded
@@ -92,36 +28,36 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
  * (need_php_by_category) Deprecated function call.  Set to be removed on 2015-07-17
 
 !!! ERROR: dev-php5/ioncube-3.3.7 failed.
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!       ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!       ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!       ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
-!!!       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!     ioncube-3.3.7.ebuild, line  26:  Called need_php_by_category
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
-!!!        depend.php.eclass, line 115:  Called die
-!!! The die message:
-!!!  Version of PHP required by packages in category dev-php5 unknown
-
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
 !!!              g-pypi-0.4.ebuild, line  13:  Called inherit 'distutils-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
+!!!       ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
+!!!               ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
 !!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
+!!!               ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!!   isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
+!!!     ioncube-3.3.7.ebuild, line  26:  Called need_php_by_category
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
+!!!        depend.php.eclass, line 115:  Called die
+!!! The die message:
+!!!  Version of PHP required by packages in category dev-php5 unknown
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
 !!!               python-r1.eclass, line  47:  Called die
 !!! The die message:
