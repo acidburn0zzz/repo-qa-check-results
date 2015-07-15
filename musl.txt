@@ -16,7 +16,22 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   92cd587..a29ce15  master     -> origin/master
+Updating 92cd587..a29ce15
+Fast-forward
+ sys-apps/ldconfig/Manifest                         |   3 -
+ sys-apps/ldconfig/files/ldconfig-0.1               | 141 ---------------------
+ sys-apps/ldconfig/ldconfig-0.1.ebuild              |  34 -----
+ sys-apps/ldconfig/metadata.xml                     |   8 --
+ x11-base/xorg-server/Manifest                      |   4 +-
+ x11-base/xorg-server/metadata.xml                  |   1 +
+ x11-base/xorg-server/xorg-server-1.16.4-r99.ebuild |   2 +-
+ 7 files changed, 4 insertions(+), 189 deletions(-)
+ delete mode 100644 sys-apps/ldconfig/Manifest
+ delete mode 100644 sys-apps/ldconfig/files/ldconfig-0.1
+ delete mode 100644 sys-apps/ldconfig/ldconfig-0.1.ebuild
+ delete mode 100644 sys-apps/ldconfig/metadata.xml
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
