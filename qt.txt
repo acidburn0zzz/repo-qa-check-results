@@ -17,15 +17,15 @@ $ pmaint sync /home/mgorny/repos/qt
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/qt
-   f211f3f..c1de475  master     -> origin/master
-Updating f211f3f..c1de475
+   c1de475..03e3839  master     -> origin/master
+Updating c1de475..03e3839
 Fast-forward
- dev-qt/qtwebkit/files/qtwebkit-5.5.0-rpath.patch | 11 -----------
- dev-qt/qtwebkit/qtwebkit-5.5.0.ebuild            |  7 ++++++-
- dev-qt/qtwebkit/qtwebkit-5.5.9999.ebuild         |  7 ++++++-
- dev-qt/qtwebkit/qtwebkit-5.9999.ebuild           |  7 ++++++-
- 4 files changed, 18 insertions(+), 14 deletions(-)
- delete mode 100644 dev-qt/qtwebkit/files/qtwebkit-5.5.0-rpath.patch
+ ...qtwebkit-5.4.1-leveldb.patch => qtwebkit-5.4.2-system-leveldb.patch} | 0
+ dev-qt/qtwebkit/qtwebkit-5.5.0.ebuild                                   | 2 +-
+ dev-qt/qtwebkit/qtwebkit-5.5.9999.ebuild                                | 2 +-
+ dev-qt/qtwebkit/qtwebkit-5.9999.ebuild                                  | 2 +-
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+ rename dev-qt/qtwebkit/files/{qtwebkit-5.4.1-leveldb.patch => qtwebkit-5.4.2-system-leveldb.patch} (100%)
 *** syncing '/home/mgorny/repos/qt'...
 *** synced '/home/mgorny/repos/qt'
  * Sync succeeded
