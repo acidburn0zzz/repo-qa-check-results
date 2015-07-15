@@ -14,20 +14,10 @@
 $ pmaint sync /home/mgorny/repos/xelnor
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: unable to connect to overlay.xelnor.net:
-overlay.xelnor.net[0: 10.0.0.1]: errno=Connection timed out
-
-*** syncing '/home/mgorny/repos/xelnor'...
-*** failed syncing '/home/mgorny/repos/xelnor'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/xelnor
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/xelnor'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/xelnor'...
 *** synced '/home/mgorny/repos/xelnor'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 xelnor
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'

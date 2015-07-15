@@ -16,22 +16,10 @@
 $ pmaint sync /home/mgorny/repos/zx2c4
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: unable to connect to git.zx2c4.com:
-git.zx2c4.com[0: 10.0.0.1]: errno=Connection timed out
-
-*** syncing '/home/mgorny/repos/zx2c4'...
-*** failed syncing '/home/mgorny/repos/zx2c4'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/zx2c4
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/xelnor' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/xelnor', named '<unlabeled repository /home/mgorny/repos/xelnor>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/zx2c4'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/zx2c4'...
 *** synced '/home/mgorny/repos/zx2c4'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 zx2c4
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'

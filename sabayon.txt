@@ -13,7 +13,17 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/for-gentoo
+   8427b81..73d3523  master     -> origin/master
+Updating 8427b81..73d3523
+Fast-forward
+ licenses/DeaDBeeF                                  | 123 +++++++++++++++++++++
+ media-sound/deadbeef/Manifest                      |   2 +-
+ ...deadbeef-0.6.1.ebuild => deadbeef-0.6.2.ebuild} |  12 +-
+ media-sound/deadbeef/files/desktop-2.patch         |  27 ++++-
+ 4 files changed, 157 insertions(+), 7 deletions(-)
+ create mode 100644 licenses/DeaDBeeF
+ rename media-sound/deadbeef/{deadbeef-0.6.1.ebuild => deadbeef-0.6.2.ebuild} (96%)
 *** syncing '/home/mgorny/repos/sabayon'...
 *** synced '/home/mgorny/repos/sabayon'
  * Sync succeeded
