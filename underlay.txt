@@ -28,71 +28,71 @@ $ pmaint regen -t 2 underlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: dev-perl/Exporter-5.63 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-perl/Audio-Ardour-Irc-0.20 failed.
-
 !!! ERROR: dev-perl/Net-LibLO-0.07 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
 
 !!! ERROR: dev-perl/Lirc-Client-1.51-r1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '220' 'depend'
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '185' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
-!!!           Exporter-5.63.ebuild, line   8:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   Audio-Ardour-Irc-0.20.ebuild, line   8:  Called inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
 
+!!! ERROR: dev-perl/Exporter-5.63 failed.
+
+!!! ERROR: dev-perl/Audio-Ardour-Irc-0.20 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '204' 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '178' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '220' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Net-LibLO/Net-LibLO-0.07.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Exporter/Exporter-5.63.ebuild'
 !!!          Net-LibLO-0.07.ebuild, line   8:  Called inherit 'perl-module'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
+!!!           Exporter-5.63.ebuild, line   8:  Called inherit 'perl-module'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Lirc-Client/Lirc-Client-1.51-r1.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
 !!!     Lirc-Client-1.51-r1.ebuild, line   8:  Called inherit 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/underlay/dev-perl/Audio-Ardour-Irc/Audio-Ardour-Irc-0.20.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!             perl-module.eclass, line  40:  Called die
+!!! The die message:
+!!!  EAPI=2 is not supported by perl-module.eclass
+
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!   Audio-Ardour-Irc-0.20.ebuild, line   8:  Called inherit 'perl-module'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
@@ -103,12 +103,12 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! The die message:
 !!!  EAPI=2 is not supported by perl-module.eclass
 
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: dev-perl/Net-LibLO-0.07
 ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Exporter-5.63
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Audio-Ardour-Irc-0.20
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: dev-perl/Lirc-Client-1.51-r1
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Net-LibLO-0.07
+!!! caught exception False while processing ebuild src: dev-perl/Audio-Ardour-Irc-0.20
  * Cache regenerated successfully
