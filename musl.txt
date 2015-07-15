@@ -14,72 +14,38 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/musl
-WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/loongson' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/loongson', named '<unlabeled repository /home/mgorny/repos/loongson>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 From git://anongit.gentoo.org/proj/musl
-   28e08fa..3e91117  master     -> origin/master
-Updating 28e08fa..3e91117
+   3e91117..63b61ef  master     -> origin/master
+Updating 3e91117..63b61ef
 Fast-forward
- sys-apps/attr/Manifest                             |   5 -
- sys-apps/attr/attr-2.4.46-r99.ebuild               |  55 ----
- sys-apps/attr/files/attr-2.4.44-gettext.patch      |  63 -----
- sys-apps/attr/files/attr-2.4.46-config-shell.patch |  53 ----
- .../attr/files/attr-2.4.46-generic-syscalls.patch  | 180 ------------
- sys-apps/busybox/Manifest                          |  19 +-
- sys-apps/busybox/busybox-1.21.0-r99.ebuild         | 304 --------------------
- sys-apps/busybox/busybox-1.22.1-r99.ebuild         | 304 --------------------
- sys-apps/busybox/busybox-1.23.0-r99.ebuild         | 305 --------------------
- sys-apps/busybox/busybox-1.23.1-r99.ebuild         | 308 ---------------------
- sys-apps/busybox/busybox-1.23.2-r99.ebuild         |   2 +
- .../busybox/files/busybox-1.21.0-ifconfig.patch    |  11 -
- sys-apps/busybox/files/busybox-1.21.0-iplink.patch |  12 -
- sys-apps/busybox/files/busybox-1.21.0-mdev.patch   |  35 ---
- .../busybox/files/busybox-1.21.0-platform.patch    |  24 --
- sys-apps/busybox/files/busybox-1.21.0-xz.patch     |  84 ------
- sys-apps/busybox/files/busybox-1.22.1-ash.patch    |  11 -
- sys-apps/busybox/files/busybox-1.22.1-date.patch   |  30 --
- sys-apps/busybox/files/busybox-1.22.1-iplink.patch |  19 --
- .../files/busybox-1.23.1-trylink-flags.patch       |  39 +++
- sys-apps/util-linux/Manifest                       |  12 +-
- .../util-linux/files/util-linux-2.23.1-musl.patch  | 110 --------
- .../files/util-linux-2.24-last-tests.patch         |  86 ------
- .../files/util-linux-2.24-skip-last-tests.patch    |  41 ---
- .../util-linux/files/util-linux-2.24.1-musl.patch  |  30 --
- .../files/util-linux-2.24.2-hexdump.patch          |  40 ---
- .../files/util-linux-2.25-lscpu-pic.patch          |  81 ------
- sys-apps/util-linux/util-linux-2.24.1-r99.ebuild   | 147 ----------
- sys-apps/util-linux/util-linux-2.25-r99.ebuild     | 176 ------------
- sys-apps/util-linux/util-linux-2.25.2-r99.ebuild   |   2 +-
- 30 files changed, 45 insertions(+), 2543 deletions(-)
- delete mode 100644 sys-apps/attr/attr-2.4.46-r99.ebuild
- delete mode 100644 sys-apps/attr/files/attr-2.4.44-gettext.patch
- delete mode 100644 sys-apps/attr/files/attr-2.4.46-config-shell.patch
- delete mode 100644 sys-apps/attr/files/attr-2.4.46-generic-syscalls.patch
- delete mode 100644 sys-apps/busybox/busybox-1.21.0-r99.ebuild
- delete mode 100644 sys-apps/busybox/busybox-1.22.1-r99.ebuild
- delete mode 100644 sys-apps/busybox/busybox-1.23.0-r99.ebuild
- delete mode 100644 sys-apps/busybox/busybox-1.23.1-r99.ebuild
- delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-ifconfig.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-iplink.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-mdev.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-platform.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.21.0-xz.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-ash.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-date.patch
- delete mode 100644 sys-apps/busybox/files/busybox-1.22.1-iplink.patch
- create mode 100644 sys-apps/busybox/files/busybox-1.23.1-trylink-flags.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.23.1-musl.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.24-last-tests.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.24-skip-last-tests.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.24.1-musl.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.24.2-hexdump.patch
- delete mode 100644 sys-apps/util-linux/files/util-linux-2.25-lscpu-pic.patch
- delete mode 100644 sys-apps/util-linux/util-linux-2.24.1-r99.ebuild
- delete mode 100644 sys-apps/util-linux/util-linux-2.25-r99.ebuild
+ dev-qt/qt3support/Manifest                         |   2 +
+ dev-qt/qt3support/qt3support-4.8.6-r99.ebuild      |  41 +++
+ dev-qt/qtcore/Manifest                             |   5 +-
+ dev-qt/qtcore/qtcore-4.8.6-r99.ebuild              |  88 ++++++
+ dev-qt/qtcore/qtcore-4.8.7-r99.ebuild              |   2 +-
+ net-firewall/iptables/Manifest                     |   3 -
+ .../iptables/files/iptables-1.4.20-musl.patch      | 304 ---------------------
+ net-firewall/iptables/iptables-1.4.20-r99.ebuild   |  93 -------
+ sys-apps/hdparm/Manifest                           |   3 -
+ sys-apps/hdparm/files/hdparm-9.39-musl.patch       |  50 ----
+ sys-apps/hdparm/hdparm-9.39-r99.ebuild             |  42 ---
+ sys-apps/iproute2/Manifest                         |   8 +-
+ sys-apps/iproute2/iproute2-3.19.0-r99.ebuild       |   3 +-
+ sys-apps/iproute2/iproute2-4.0.0-r99.ebuild        |  12 +-
+ ...-3.8.0-r99.ebuild => iproute2-4.1.1-r99.ebuild} |  40 ++-
+ sys-apps/net-tools/Manifest                        |   3 -
+ .../net-tools-1.60_p20120127084908-r99.ebuild      |  99 -------
+ 17 files changed, 175 insertions(+), 623 deletions(-)
+ create mode 100644 dev-qt/qt3support/qt3support-4.8.6-r99.ebuild
+ create mode 100644 dev-qt/qtcore/qtcore-4.8.6-r99.ebuild
+ delete mode 100644 net-firewall/iptables/files/iptables-1.4.20-musl.patch
+ delete mode 100644 net-firewall/iptables/iptables-1.4.20-r99.ebuild
+ delete mode 100644 sys-apps/hdparm/files/hdparm-9.39-musl.patch
+ delete mode 100644 sys-apps/hdparm/hdparm-9.39-r99.ebuild
+ rename sys-apps/iproute2/{iproute2-3.8.0-r99.ebuild => iproute2-4.1.1-r99.ebuild} (71%)
+ delete mode 100644 sys-apps/net-tools/net-tools-1.60_p20120127084908-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
