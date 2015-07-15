@@ -16,7 +16,39 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   fe5154b..b440eb7  master     -> origin/master
+Updating fe5154b..b440eb7
+Fast-forward
+ dev-libs/openssl/Manifest                          |  15 -
+ dev-libs/openssl/files/gentoo.config-1.0.1         | 160 -----
+ .../openssl/files/openssl-1.0.0a-ldflags.patch     |  29 -
+ .../openssl/files/openssl-1.0.0d-windres.patch     |  76 ---
+ .../openssl/files/openssl-1.0.0h-pkg-config.patch  |  34 --
+ .../files/openssl-1.0.1-parallel-build.patch       | 354 ------------
+ dev-libs/openssl/files/openssl-1.0.1-x32.patch     |  79 ---
+ .../files/openssl-1.0.1c-force-termios.patch       |  69 ---
+ .../files/openssl-1.0.1e-s_client-verify.patch     |  18 -
+ ...enssl-1.0.1f-revert-alpha-perl-generation.patch |  84 ---
+ dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch   | 642 ---------------------
+ .../files/openssl-1.0.1l-CVE-2015-0286.patch       | 356 ------------
+ dev-libs/openssl/metadata.xml                      |  13 -
+ dev-libs/openssl/openssl-1.0.1l-r99.ebuild         | 261 ---------
+ 14 files changed, 2190 deletions(-)
+ delete mode 100644 dev-libs/openssl/Manifest
+ delete mode 100755 dev-libs/openssl/files/gentoo.config-1.0.1
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.0a-ldflags.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.0d-windres.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.0h-pkg-config.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1-parallel-build.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1-x32.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1c-force-termios.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1e-s_client-verify.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1f-revert-alpha-perl-generation.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1h-ipv6.patch
+ delete mode 100644 dev-libs/openssl/files/openssl-1.0.1l-CVE-2015-0286.patch
+ delete mode 100644 dev-libs/openssl/metadata.xml
+ delete mode 100644 dev-libs/openssl/openssl-1.0.1l-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
