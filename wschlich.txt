@@ -27,10 +27,10 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
 !!! ERROR: mail-filter/dkimproxy-1.1 failed.
-
-!!! ERROR: mail-filter/dkimproxy-1.0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: mail-filter/dkimproxy-1.0.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
@@ -46,19 +46,19 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
-!!!         dkimproxy-1.0.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
 !!!           dkimproxy-1.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/wschlich/mail-filter/dkimproxy/dkimproxy-1.0.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
+!!!         dkimproxy-1.0.1.ebuild, line   5:  Called inherit 'eutils' 'perl-module'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
 
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
 !!!             perl-module.eclass, line  40:  Called die
 !!! The die message:
 !!!  EAPI= is not supported by perl-module.eclass
@@ -81,8 +81,8 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!  inherit for git failed
 
 ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
 !!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.1
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: mail-filter/dovecot-antispam-9999
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: mail-filter/dkimproxy-1.0.1
  * Cache regenerated successfully
