@@ -16,7 +16,23 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   e3a57e8..bc28a41  master     -> origin/master
+Updating e3a57e8..bc28a41
+Fast-forward
+ sys-libs/slang/Manifest                            |  6 ++
+ sys-libs/slang/files/slang-2.2.3-slsh-libs.patch   | 11 ++++
+ sys-libs/slang/files/slang-2.2.4-memset.patch      | 32 +++++++++
+ .../files/slang-2.2.4-rename-posix_close.patch     | 21 ++++++
+ sys-libs/slang/metadata.xml                        |  5 ++
+ sys-libs/slang/slang-2.2.4-r99.ebuild              | 75 ++++++++++++++++++++++
+ 6 files changed, 150 insertions(+)
+ create mode 100644 sys-libs/slang/Manifest
+ create mode 100644 sys-libs/slang/files/slang-2.2.3-slsh-libs.patch
+ create mode 100644 sys-libs/slang/files/slang-2.2.4-memset.patch
+ create mode 100644 sys-libs/slang/files/slang-2.2.4-rename-posix_close.patch
+ create mode 100644 sys-libs/slang/metadata.xml
+ create mode 100644 sys-libs/slang/slang-2.2.4-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded

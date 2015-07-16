@@ -17,11 +17,17 @@ $ pmaint sync /home/mgorny/repos/pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 Updating '.':
-At revision 603.
+svn: E000111: Unable to connect to a repository at URL 'https://svn.code.sf.net/p/pd-overlay/code/pd-overlay'
+svn: E000111: Error running context: Connection refused
 *** syncing '/home/mgorny/repos/pd-overlay'...
-*** synced '/home/mgorny/repos/pd-overlay'
- * Sync succeeded
-$ pmaint regen -t 2 pd-overlay
+*** failed syncing '/home/mgorny/repos/pd-overlay'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+svn: E000111: Unable to connect to a repository at URL 'https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay'
+svn: E000111: Error running context: Connection refused
+*** syncing '/home/mgorny/repos/pd-overlay'...
+*** failed syncing '/home/mgorny/repos/pd-overlay'
+ * Sync failed again with 1, removing
