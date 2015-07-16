@@ -19,30 +19,7 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/sci
-   742d4ff..3ba1ad7  master     -> origin/master
-Updating 742d4ff..3ba1ad7
-Fast-forward
- dev-python/pylibconfig2/ChangeLog                  |   6 +
- dev-python/pylibconfig2/Manifest                   |   2 +-
- ...fig2-0.2.3.ebuild => pylibconfig2-0.2.4.ebuild} |   0
- sci-electronics/minipro/minipro-9999.ebuild        |   4 +-
- sci-libs/trilinos/ChangeLog                        |   9 +
- sci-libs/trilinos/Manifest                         |   4 +-
- .../files/trilinos-11.0.3-fix-install-paths.patch  |  76 ---
- .../files/trilinos-11.2.3-fix-install-paths.patch  |  62 --
- ...inos-12.0.1-fix_install_paths_for_destdir.patch | 654 +++++++++++++++++++++
- sci-libs/trilinos/trilinos-11.0.3.ebuild           | 128 ----
- sci-libs/trilinos/trilinos-11.2.3-r1.ebuild        |   1 -
- ...ilinos-11.4.2.ebuild => trilinos-12.0.1.ebuild} |  15 +-
- 12 files changed, 684 insertions(+), 277 deletions(-)
- rename dev-python/pylibconfig2/{pylibconfig2-0.2.3.ebuild => pylibconfig2-0.2.4.ebuild} (100%)
- delete mode 100644 sci-libs/trilinos/files/trilinos-11.0.3-fix-install-paths.patch
- delete mode 100644 sci-libs/trilinos/files/trilinos-11.2.3-fix-install-paths.patch
- create mode 100644 sci-libs/trilinos/files/trilinos-12.0.1-fix_install_paths_for_destdir.patch
- delete mode 100644 sci-libs/trilinos/trilinos-11.0.3.ebuild
- delete mode 120000 sci-libs/trilinos/trilinos-11.2.3-r1.ebuild
- rename sci-libs/trilinos/{trilinos-11.4.2.ebuild => trilinos-12.0.1.ebuild} (91%)
+Already up-to-date.
 *** syncing '/home/mgorny/repos/science'...
 *** synced '/home/mgorny/repos/science'
  * Sync succeeded
