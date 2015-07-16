@@ -15,12 +15,13 @@ $ pmaint sync /home/mgorny/repos/raw
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From https://github.com/mahatma-kaganovich/raw
-   e3bb40b..115875e  master     -> origin/master
-Updating e3bb40b..115875e
+   115875e..34757db  master     -> origin/master
+Updating 115875e..34757db
 Fast-forward
- profiles/common/minimal/make.defaults | 3 ---
- profiles/common/x86_/make.defaults    | 7 ++++---
- 2 files changed, 4 insertions(+), 6 deletions(-)
+ profiles/common/package.mask       |  2 ++
+ profiles/common/x86_/make.defaults | 10 +++++-----
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+ create mode 100644 profiles/common/package.mask
 *** syncing '/home/mgorny/repos/raw'...
 *** synced '/home/mgorny/repos/raw'
  * Sync succeeded
@@ -38,11 +39,33 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/raw/sys-cluster/kerrighed/kerrighed-9999-r1.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/raw/sys-cluster/kerrighed/kerrighed-9999-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/raw/sys-cluster/kerrighed/kerrighed-9999-r1.ebuild'
+
+!!! ERROR: www-servers/apache-2.4.2 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!       kerrighed-9999-r1.ebuild, line   1:  Called inherit 'eutils' 'autotools' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/raw/www-servers/apache/apache-2.4.2.ebuild'
+!!!            apache-2.4.2.ebuild, line  20:  Called inherit 'apache-2'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'apache-2'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/apache-2.eclass'
+!!!                apache-2.eclass, line  20:  Called die
+!!! The die message:
+!!!  This eclass requires >=EAPI-5
+
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-cluster/kerrighed-9999-r1
+ERROR pkgcore: returned val from gen_metadata was 'False'
+!!! caught exception False while processing ebuild src: www-servers/apache-2.4.2
  * Cache regenerated successfully
