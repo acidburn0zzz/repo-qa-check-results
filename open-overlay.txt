@@ -16,7 +16,72 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   73ebfe3..5f962d6  master     -> origin/master
+Updating 73ebfe3..5f962d6
+Fast-forward
+ dev-java/netbeans-apisupport/Manifest              |   4 +-
+ ...d => netbeans-apisupport-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-extide/Manifest                  |   4 +-
+ ...build => netbeans-extide-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-harness/Manifest                 |   4 +-
+ ...uild => netbeans-harness-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-ide/Manifest                     |   4 +-
+ ...5.ebuild => netbeans-ide-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-java/Manifest                    |   4 +-
+ ....ebuild => netbeans-java-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-javafx/Manifest                  |   4 +-
+ ...build => netbeans-javafx-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-nb/Manifest                      |   4 +-
+ ...15.ebuild => netbeans-nb-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-platform/Manifest                |   4 +-
+ ...ild => netbeans-platform-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-profiler/Manifest                |   4 +-
+ ...ild => netbeans-profiler-9999_p20150716.ebuild} |   4 +-
+ dev-java/netbeans-websvccommon/Manifest            |   4 +-
+ ...=> netbeans-websvccommon-9999_p20150716.ebuild} |   4 +-
+ dev-util/netbeans/Manifest                         |   4 +-
+ ...50715.ebuild => netbeans-9999_p20150716.ebuild} |   4 +-
+ dev-vcs/git/Manifest                               |  16 +-
+ dev-vcs/git/git-2.4.3.ebuild                       | 633 ---------------------
+ dev-vcs/git/git-2.4.4.ebuild                       | 633 ---------------------
+ dev-vcs/git/{git-2.4.5.ebuild => git-2.4.6.ebuild} |   0
+ gnome-extra/nm-applet/Manifest                     |   2 +
+ gnome-extra/nm-applet/nm-applet-1.0.4.ebuild       |  53 ++
+ net-misc/networkmanager/Manifest                   |   7 +
+ ...top.NetworkManager.settings.modify.system.rules |   7 +
+ net-misc/networkmanager/files/10-openrc-status-r4  |  35 ++
+ .../networkmanager/files/conf.d.NetworkManager     |   4 +
+ .../networkmanager/files/init.d.NetworkManager     |  57 ++
+ .../networkmanager-1.0.4-configure-dhcpcd.patch    |  15 +
+ .../networkmanager/networkmanager-1.0.4.ebuild     | 296 ++++++++++
+ www-plugins/adobe-flash/Manifest                   |   8 +-
+ ....442.ebuild => adobe-flash-11.2.202.491.ebuild} |   0
+ 37 files changed, 528 insertions(+), 1326 deletions(-)
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150715.ebuild => netbeans-apisupport-9999_p20150716.ebuild} (97%)
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150715.ebuild => netbeans-extide-9999_p20150716.ebuild} (97%)
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150715.ebuild => netbeans-harness-9999_p20150716.ebuild} (97%)
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150715.ebuild => netbeans-ide-9999_p20150716.ebuild} (99%)
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150715.ebuild => netbeans-java-9999_p20150716.ebuild} (99%)
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150715.ebuild => netbeans-javafx-9999_p20150716.ebuild} (98%)
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150715.ebuild => netbeans-nb-9999_p20150716.ebuild} (98%)
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150715.ebuild => netbeans-platform-9999_p20150716.ebuild} (99%)
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150715.ebuild => netbeans-profiler-9999_p20150716.ebuild} (97%)
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150715.ebuild => netbeans-websvccommon-9999_p20150716.ebuild} (96%)
+ rename dev-util/netbeans/{netbeans-9999_p20150715.ebuild => netbeans-9999_p20150716.ebuild} (98%)
+ delete mode 100644 dev-vcs/git/git-2.4.3.ebuild
+ delete mode 100644 dev-vcs/git/git-2.4.4.ebuild
+ rename dev-vcs/git/{git-2.4.5.ebuild => git-2.4.6.ebuild} (100%)
+ create mode 100644 gnome-extra/nm-applet/Manifest
+ create mode 100644 gnome-extra/nm-applet/nm-applet-1.0.4.ebuild
+ create mode 100644 net-misc/networkmanager/Manifest
+ create mode 100644 net-misc/networkmanager/files/01-org.freedesktop.NetworkManager.settings.modify.system.rules
+ create mode 100644 net-misc/networkmanager/files/10-openrc-status-r4
+ create mode 100644 net-misc/networkmanager/files/conf.d.NetworkManager
+ create mode 100644 net-misc/networkmanager/files/init.d.NetworkManager
+ create mode 100644 net-misc/networkmanager/files/networkmanager-1.0.4-configure-dhcpcd.patch
+ create mode 100644 net-misc/networkmanager/networkmanager-1.0.4.ebuild
+ rename www-plugins/adobe-flash/{adobe-flash-11.2.202.442.ebuild => adobe-flash-11.2.202.491.ebuild} (100%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
