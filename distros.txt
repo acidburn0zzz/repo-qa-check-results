@@ -15,19 +15,18 @@ $ pmaint sync /home/mgorny/repos/distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/distros
-   af7cbe8..14c6dc9  master     -> origin/master
-   14c6dc9..dbea8a5  develop    -> origin/develop
-Updating af7cbe8..14c6dc9
+   14c6dc9..0fc75c0  master     -> origin/master
+   dbea8a5..0fc75c0  develop    -> origin/develop
+   14c6dc9..0fc75c0  update     -> origin/update
+Updating 14c6dc9..0fc75c0
 Fast-forward
- profiles/templates/3.2/6_ac_update_sync/world/0-ini           |  2 +-
- .../templates/3.2/6_ac_update_sync/world/create/decoration    |  1 +
- profiles/templates/3.2/6_ac_update_sync/world/create/tools    |  1 +
- profiles/templates/3.2/6_ac_update_sync/world/create/wireless |  2 +-
- profiles/templates/3.2/6_ac_update_sync/world/update/88       |  7 +++++++
- profiles/templates/3.2/6_ac_update_sync/world/update/89       | 11 +++++++++++
- 6 files changed, 22 insertions(+), 2 deletions(-)
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/88
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/89
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini          |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/mate    |  1 +
+ .../templates/3.2/6_ac_update_sync/world/create/multimedia   |  1 +
+ profiles/templates/3.2/6_ac_update_sync/world/create/tools   |  2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/update/90      | 12 ++++++++++++
+ 5 files changed, 16 insertions(+), 2 deletions(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/90
 *** syncing '/home/mgorny/repos/distros'...
 *** synced '/home/mgorny/repos/distros'
  * Sync succeeded

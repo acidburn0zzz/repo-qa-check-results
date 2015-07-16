@@ -19,7 +19,23 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/science
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/sci
+   3ba1ad7..d2a08dd  master     -> origin/master
+Updating 3ba1ad7..d2a08dd
+Fast-forward
+ sys-cluster/openmpi/ChangeLog                      |  10 ++
+ sys-cluster/openmpi/Manifest                       |   5 +-
+ sys-cluster/openmpi/openmpi-1.8.1.ebuild           | 167 --------------------
+ sys-cluster/openmpi/openmpi-1.8.3.ebuild           | 167 --------------------
+ sys-cluster/openmpi/openmpi-1.8.4-r4.ebuild        | 169 ---------------------
+ sys-cluster/openmpi/openmpi-1.8.5.ebuild           | 164 --------------------
+ .../{openmpi-1.8.6.ebuild => openmpi-1.8.7.ebuild} |   6 +-
+ 7 files changed, 12 insertions(+), 676 deletions(-)
+ delete mode 100644 sys-cluster/openmpi/openmpi-1.8.1.ebuild
+ delete mode 100644 sys-cluster/openmpi/openmpi-1.8.3.ebuild
+ delete mode 100644 sys-cluster/openmpi/openmpi-1.8.4-r4.ebuild
+ delete mode 100644 sys-cluster/openmpi/openmpi-1.8.5.ebuild
+ rename sys-cluster/openmpi/{openmpi-1.8.6.ebuild => openmpi-1.8.7.ebuild} (98%)
 *** syncing '/home/mgorny/repos/science'...
 *** synced '/home/mgorny/repos/science'
  * Sync succeeded
