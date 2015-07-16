@@ -15,7 +15,22 @@
 $ pmaint sync /home/mgorny/repos/sage-on-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/cschwan/sage-on-gentoo
+   5858710..9dbafb7  master     -> origin/master
+Updating 5858710..9dbafb7
+Fast-forward
+ package.keywords/sage-9999                     |  2 +-
+ sci-libs/pynac/ChangeLog                       |  4 ++
+ sci-libs/pynac/Manifest                        |  1 -
+ sci-libs/pynac/pynac-0.3.9.1.ebuild            | 30 -------------
+ sci-mathematics/sage/ChangeLog                 |  5 +++
+ sci-mathematics/sage/Manifest                  |  2 +-
+ sci-mathematics/sage/files/ntl-9.3.0.patch     | 59 --------------------------
+ sci-mathematics/sage/files/sage-6.8-exec.patch | 41 +++++++++---------
+ sci-mathematics/sage/sage-9999.ebuild          |  5 +--
+ 9 files changed, 33 insertions(+), 116 deletions(-)
+ delete mode 100644 sci-libs/pynac/pynac-0.3.9.1.ebuild
+ delete mode 100644 sci-mathematics/sage/files/ntl-9.3.0.patch
 *** syncing '/home/mgorny/repos/sage-on-gentoo'...
 *** synced '/home/mgorny/repos/sage-on-gentoo'
  * Sync succeeded
