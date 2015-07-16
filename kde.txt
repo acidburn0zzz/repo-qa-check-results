@@ -17,7 +17,18 @@
 $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   9ccb1a2..3f9eafb  master     -> origin/master
+Updating 9ccb1a2..3f9eafb
+Fast-forward
+ dev-util/kdevelop/files/kdevelop-ninja-optional.patch |  9 +++++++++
+ dev-util/kdevelop/kdevelop-9999.ebuild                |  6 +++++-
+ dev-util/kdevelop/metadata.xml                        |  1 +
+ kde-apps/kdepim-runtime/kdepim-runtime-9999.ebuild    |  7 +++++--
+ kde-apps/kdepimlibs/kdepimlibs-9999.ebuild            | 10 +++++++---
+ net-libs/libkgapi/libkgapi-9999.ebuild                |  1 +
+ 6 files changed, 28 insertions(+), 6 deletions(-)
+ create mode 100644 dev-util/kdevelop/files/kdevelop-ninja-optional.patch
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
