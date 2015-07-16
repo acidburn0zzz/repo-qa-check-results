@@ -13,7 +13,15 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/sabayon-distro
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/Sabayon/sabayon-distro
+   ac8fb79..cc39dfc  master     -> origin/master
+Updating ac8fb79..cc39dfc
+Fast-forward
+ ...8-dont_source_functions_sh_from_etc_initd.patch | 14 ++++++
+ sys-devel/gcc-config/gcc-config-1.8-r1.ebuild      | 54 ++++++++++++++++++++++
+ 2 files changed, 68 insertions(+)
+ create mode 100644 sys-devel/gcc-config/files/gcc-config-1.8-dont_source_functions_sh_from_etc_initd.patch
+ create mode 100644 sys-devel/gcc-config/gcc-config-1.8-r1.ebuild
 *** syncing '/home/mgorny/repos/sabayon-distro'...
 *** synced '/home/mgorny/repos/sabayon-distro'
  * Sync succeeded

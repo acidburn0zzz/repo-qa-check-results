@@ -13,16 +13,7 @@
                None)],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/pd-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Updating '.':
-svn: E000111: Unable to connect to a repository at URL 'https://svn.code.sf.net/p/pd-overlay/code/pd-overlay'
-svn: E000111: Error running context: Connection refused
-*** syncing '/home/mgorny/repos/pd-overlay'...
-*** failed syncing '/home/mgorny/repos/pd-overlay'
- * Sync failed with 1
- * Will try to re-create
+ * Adding new repository
 $ pmaint sync /home/mgorny/repos/pd-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
@@ -30,4 +21,4 @@ svn: E000111: Unable to connect to a repository at URL 'https://pd-overlay.svn.s
 svn: E000111: Error running context: Connection refused
 *** syncing '/home/mgorny/repos/pd-overlay'...
 *** failed syncing '/home/mgorny/repos/pd-overlay'
- * Sync failed again with 1, removing
+ * Sync failed with 1
