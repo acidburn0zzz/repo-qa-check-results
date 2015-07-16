@@ -14,15 +14,7 @@
 $ pmaint sync /home/mgorny/repos/raw
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-From https://github.com/mahatma-kaganovich/raw
-   34757db..8170c64  master     -> origin/master
-Updating 34757db..8170c64
-Fast-forward
- app-portage/ppatch/Manifest                               |  3 ++-
- .../ppatch/files/extensions/gcc/compile/gcc51-66422.patch | 15 +++++++++++++++
- app-portage/ppatch/files/flags.bashrc                     |  6 +++++-
- 3 files changed, 22 insertions(+), 2 deletions(-)
- create mode 100644 app-portage/ppatch/files/extensions/gcc/compile/gcc51-66422.patch
+Already up-to-date.
 *** syncing '/home/mgorny/repos/raw'...
 *** synced '/home/mgorny/repos/raw'
  * Sync succeeded
@@ -41,16 +33,16 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/raw/sys-cluster/kerrighed/kerrighed-9999-r1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/raw/sys-cluster/kerrighed/kerrighed-9999-r1.ebuild'
 !!!       kerrighed-9999-r1.ebuild, line   1:  Called inherit 'eutils' 'autotools' 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 
 !!! ERROR: www-servers/apache-2.4.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '174' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
