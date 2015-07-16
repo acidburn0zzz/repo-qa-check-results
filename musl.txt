@@ -16,7 +16,31 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   bc28a41..242d875  master     -> origin/master
+Updating bc28a41..242d875
+Fast-forward
+ sys-libs/queue/Manifest                        |   3 +
+ sys-libs/queue/files/queue.h                   | 574 +++++++++++++++++++++++++
+ sys-libs/queue/metadata.xml                    |   9 +
+ sys-libs/queue/queue-0.1.ebuild                |  23 +
+ sys-libs/tevent/Manifest                       |   9 +-
+ sys-libs/tevent/files/add-py-file-0.9.14.patch |  32 --
+ sys-libs/tevent/files/add-py-file.patch        |  32 --
+ sys-libs/tevent/files/tevent-version.patch     |  27 --
+ sys-libs/tevent/tevent-0.9.19-r99.ebuild       |  44 --
+ sys-libs/tevent/tevent-0.9.20-r99.ebuild       |  44 --
+ sys-libs/tevent/tevent-0.9.21-r99.ebuild       |  40 +-
+ 11 files changed, 636 insertions(+), 201 deletions(-)
+ create mode 100644 sys-libs/queue/Manifest
+ create mode 100644 sys-libs/queue/files/queue.h
+ create mode 100644 sys-libs/queue/metadata.xml
+ create mode 100644 sys-libs/queue/queue-0.1.ebuild
+ delete mode 100644 sys-libs/tevent/files/add-py-file-0.9.14.patch
+ delete mode 100644 sys-libs/tevent/files/add-py-file.patch
+ delete mode 100644 sys-libs/tevent/files/tevent-version.patch
+ delete mode 100644 sys-libs/tevent/tevent-0.9.19-r99.ebuild
+ delete mode 100644 sys-libs/tevent/tevent-0.9.20-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
