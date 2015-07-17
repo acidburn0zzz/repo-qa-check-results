@@ -19,7 +19,65 @@
 $ pmaint sync /home/mgorny/repos/perl-experimental-snapshots
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-perl/perl-experimental-snapshots
+   b904243..7ca722e  master     -> origin/master
+Updating b904243..7ca722e
+Fast-forward
+ dev-perl/CGI-Deurl-XS/CGI-Deurl-XS-0.80.0.ebuild   | 18 ++++++++++
+ dev-perl/CGI-Deurl-XS/Manifest                     |  1 +
+ ....260.0.ebuild => CGI-Untaint-1.260.0-r1.ebuild} | 12 ++++---
+ ...915.200.ebuild => CPANPLUS-0.915.200-r1.ebuild} | 19 ++++++-----
+ dev-perl/Cave-Wrapper/Cave-Wrapper-1.0.0.ebuild    | 35 ++++++++++++++++++++
+ dev-perl/Cave-Wrapper/Manifest                     |  1 +
+ dev-perl/Data-Alias/Data-Alias-1.180.0.ebuild      |  4 +--
+ .../Devel-CheckBin/Devel-CheckBin-0.30.0.ebuild    | 27 +++++++++++++++
+ dev-perl/Devel-CheckBin/Manifest                   |  1 +
+ dev-perl/Devel-CheckBin/metadata.xml               | 13 ++++++++
+ dev-perl/Imager/Imager-0.930.0.ebuild              | 38 ----------------------
+ dev-perl/Imager/Imager-0.940.0.ebuild              | 38 ----------------------
+ dev-perl/Imager/Imager-0.950.0.ebuild              | 38 ----------------------
+ dev-perl/Imager/Imager-1.3.0.ebuild                | 28 ++++++++++++++++
+ dev-perl/Imager/Manifest                           |  4 +--
+ dev-perl/Test-utf8/Manifest                        |  1 +
+ dev-perl/Test-utf8/Test-utf8-1.10.0.ebuild         | 25 ++++++++++++++
+ metadata/md5-cache/dev-perl/CGI-Deurl-XS-0.80.0    | 12 +++++++
+ ...{CGI-Untaint-1.260.0 => CGI-Untaint-1.260.0-r1} |  7 ++--
+ .../{CPANPLUS-0.915.200 => CPANPLUS-0.915.200-r1}  |  6 ++--
+ metadata/md5-cache/dev-perl/Cave-Wrapper-1.0.0     | 13 ++++++++
+ metadata/md5-cache/dev-perl/Data-Alias-1.180.0     |  6 ++--
+ metadata/md5-cache/dev-perl/Devel-CheckBin-0.30.0  | 13 ++++++++
+ metadata/md5-cache/dev-perl/Imager-0.940.0         | 12 -------
+ metadata/md5-cache/dev-perl/Imager-0.950.0         | 12 -------
+ .../dev-perl/{Imager-0.930.0 => Imager-1.3.0}      | 11 ++++---
+ metadata/md5-cache/dev-perl/Test-utf8-1.10.0       | 13 ++++++++
+ metadata/md5-cache/virtual/perl-IPC-SysV-2.40.0-r1 |  7 ----
+ metadata/md5-cache/virtual/perl-IPC-SysV-2.40.0-r2 |  7 ++++
+ ....0-r1.ebuild => perl-IPC-SysV-2.40.0-r2.ebuild} |  2 +-
+ 30 files changed, 245 insertions(+), 179 deletions(-)
+ create mode 100644 dev-perl/CGI-Deurl-XS/CGI-Deurl-XS-0.80.0.ebuild
+ rename dev-perl/CGI-Untaint/{CGI-Untaint-1.260.0.ebuild => CGI-Untaint-1.260.0-r1.ebuild} (76%)
+ rename dev-perl/CPANPLUS/{CPANPLUS-0.915.200.ebuild => CPANPLUS-0.915.200-r1.ebuild} (96%)
+ create mode 100644 dev-perl/Cave-Wrapper/Cave-Wrapper-1.0.0.ebuild
+ create mode 100644 dev-perl/Devel-CheckBin/Devel-CheckBin-0.30.0.ebuild
+ create mode 100644 dev-perl/Devel-CheckBin/Manifest
+ create mode 100644 dev-perl/Devel-CheckBin/metadata.xml
+ delete mode 100644 dev-perl/Imager/Imager-0.930.0.ebuild
+ delete mode 100644 dev-perl/Imager/Imager-0.940.0.ebuild
+ delete mode 100644 dev-perl/Imager/Imager-0.950.0.ebuild
+ create mode 100644 dev-perl/Imager/Imager-1.3.0.ebuild
+ create mode 100644 dev-perl/Test-utf8/Test-utf8-1.10.0.ebuild
+ create mode 100644 metadata/md5-cache/dev-perl/CGI-Deurl-XS-0.80.0
+ rename metadata/md5-cache/dev-perl/{CGI-Untaint-1.260.0 => CGI-Untaint-1.260.0-r1} (83%)
+ rename metadata/md5-cache/dev-perl/{CPANPLUS-0.915.200 => CPANPLUS-0.915.200-r1} (54%)
+ create mode 100644 metadata/md5-cache/dev-perl/Cave-Wrapper-1.0.0
+ create mode 100644 metadata/md5-cache/dev-perl/Devel-CheckBin-0.30.0
+ delete mode 100644 metadata/md5-cache/dev-perl/Imager-0.940.0
+ delete mode 100644 metadata/md5-cache/dev-perl/Imager-0.950.0
+ rename metadata/md5-cache/dev-perl/{Imager-0.930.0 => Imager-1.3.0} (52%)
+ create mode 100644 metadata/md5-cache/dev-perl/Test-utf8-1.10.0
+ delete mode 100644 metadata/md5-cache/virtual/perl-IPC-SysV-2.40.0-r1
+ create mode 100644 metadata/md5-cache/virtual/perl-IPC-SysV-2.40.0-r2
+ rename virtual/perl-IPC-SysV/{perl-IPC-SysV-2.40.0-r1.ebuild => perl-IPC-SysV-2.40.0-r2.ebuild} (84%)
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded

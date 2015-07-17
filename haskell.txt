@@ -21,7 +21,27 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   13761e0..c0b5a22  master     -> origin/master
+Updating 13761e0..c0b5a22
+Fast-forward
+ dev-haskell/mueval/Manifest                        |  2 +-
+ .../mueval/files/mueval-0.9.1.1-ghc-7.10.patch     |  6 -----
+ .../mueval/files/mueval-0.9.1.1-utf8s-1.patch      | 21 -----------------
+ ...eval-0.9.1.1.ebuild => mueval-0.9.1.1.2.ebuild} | 15 +++++--------
+ dev-haskell/rolling-queue/Manifest                 |  1 +
+ dev-haskell/rolling-queue/metadata.xml             | 24 ++++++++++++++++++++
+ dev-haskell/rolling-queue/rolling-queue-0.1.ebuild | 26 ++++++++++++++++++++++
+ dev-haskell/wai-extra/Manifest                     |  2 +-
+ ...tra-3.0.7.1.ebuild => wai-extra-3.0.8.2.ebuild} |  4 ++--
+ 9 files changed, 61 insertions(+), 40 deletions(-)
+ delete mode 100644 dev-haskell/mueval/files/mueval-0.9.1.1-ghc-7.10.patch
+ delete mode 100644 dev-haskell/mueval/files/mueval-0.9.1.1-utf8s-1.patch
+ rename dev-haskell/mueval/{mueval-0.9.1.1.ebuild => mueval-0.9.1.1.2.ebuild} (80%)
+ create mode 100644 dev-haskell/rolling-queue/Manifest
+ create mode 100644 dev-haskell/rolling-queue/metadata.xml
+ create mode 100644 dev-haskell/rolling-queue/rolling-queue-0.1.ebuild
+ rename dev-haskell/wai-extra/{wai-extra-3.0.7.1.ebuild => wai-extra-3.0.8.2.ebuild} (94%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
