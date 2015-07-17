@@ -28,6 +28,9 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+WARNING: 'use' function invoked by sys-boot/burg-9999 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '208' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
