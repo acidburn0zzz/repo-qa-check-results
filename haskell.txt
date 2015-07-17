@@ -22,27 +22,18 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   94ccc76..47b4491  master     -> origin/master
-Updating 94ccc76..47b4491
+   47b4491..13761e0  master     -> origin/master
+Updating 47b4491..13761e0
 Fast-forward
- dev-haskell/http-client/Manifest                                      | 2 +-
- .../{http-client-0.4.13.ebuild => http-client-0.4.16.ebuild}          | 0
- dev-haskell/http-conduit/Manifest                                     | 2 +-
- .../{http-conduit-2.1.5.ebuild => http-conduit-2.1.5.1.ebuild}        | 4 ++--
- dev-haskell/peggy/{peggy-0.3.2-r1.ebuild => peggy-0.3.2-r2.ebuild}    | 2 +-
- dev-haskell/scotty/Manifest                                           | 2 +-
- dev-haskell/scotty/{scotty-0.10.1.ebuild => scotty-0.10.2.ebuild}     | 0
- dev-haskell/yesod-bin/Manifest                                        | 2 +-
- .../yesod-bin/{yesod-bin-1.4.10.ebuild => yesod-bin-1.4.11.ebuild}    | 0
- dev-vcs/git-annex/Manifest                                            | 2 +-
- .../{git-annex-5.20150617.ebuild => git-annex-5.20150710.ebuild}      | 2 +-
- 11 files changed, 9 insertions(+), 9 deletions(-)
- rename dev-haskell/http-client/{http-client-0.4.13.ebuild => http-client-0.4.16.ebuild} (100%)
- rename dev-haskell/http-conduit/{http-conduit-2.1.5.ebuild => http-conduit-2.1.5.1.ebuild} (94%)
- rename dev-haskell/peggy/{peggy-0.3.2-r1.ebuild => peggy-0.3.2-r2.ebuild} (93%)
- rename dev-haskell/scotty/{scotty-0.10.1.ebuild => scotty-0.10.2.ebuild} (100%)
- rename dev-haskell/yesod-bin/{yesod-bin-1.4.10.ebuild => yesod-bin-1.4.11.ebuild} (100%)
- rename dev-vcs/git-annex/{git-annex-5.20150617.ebuild => git-annex-5.20150710.ebuild} (99%)
+ dev-haskell/minisat/Manifest                       |  2 +-
+ .../{minisat-0.1.1.ebuild => minisat-0.1.2.ebuild} |  3 +-
+ dev-haskell/texmath/Manifest                       |  3 +-
+ dev-haskell/texmath/texmath-0.6.7.ebuild           | 42 ----------------------
+ ...texmath-0.8.2.ebuild => texmath-0.8.2.2.ebuild} |  0
+ 5 files changed, 3 insertions(+), 47 deletions(-)
+ rename dev-haskell/minisat/{minisat-0.1.1.ebuild => minisat-0.1.2.ebuild} (91%)
+ delete mode 100644 dev-haskell/texmath/texmath-0.6.7.ebuild
+ rename dev-haskell/texmath/{texmath-0.8.2.ebuild => texmath-0.8.2.2.ebuild} (100%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
