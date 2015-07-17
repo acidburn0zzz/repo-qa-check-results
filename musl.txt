@@ -16,7 +16,17 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   89c4f91..413cc23  master     -> origin/master
+Updating 89c4f91..413cc23
+Fast-forward
+ app-text/hunspell/Manifest                         |  4 +-
+ .../hunspell/files/hunspell-1.3.3-error_h.patch    | 43 ++++++++++++++++++++++
+ .../hunspell/files/hunspell-9999-error_h.patch     | 37 -------------------
+ app-text/hunspell/hunspell-1.3.3-r99.ebuild        |  4 +-
+ 4 files changed, 47 insertions(+), 41 deletions(-)
+ create mode 100644 app-text/hunspell/files/hunspell-1.3.3-error_h.patch
+ delete mode 100644 app-text/hunspell/files/hunspell-9999-error_h.patch
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded

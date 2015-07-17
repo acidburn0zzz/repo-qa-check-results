@@ -21,7 +21,22 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-haskell/gentoo-haskell
+   6b6e2ed..b49fd11  master     -> origin/master
+Updating 6b6e2ed..b49fd11
+Fast-forward
+ dev-haskell/arithmoi/Manifest                                        | 2 +-
+ .../arithmoi/{arithmoi-0.4.1.2.ebuild => arithmoi-0.4.1.3.ebuild}    | 5 +++--
+ .../{generics-sop-0.1.1.2.ebuild => generics-sop-0.1.1.2-r1.ebuild}  | 2 +-
+ dev-haskell/uri-bytestring/Manifest                                  | 2 +-
+ .../{uri-bytestring-0.1.5.ebuild => uri-bytestring-0.1.6.ebuild}     | 0
+ www-servers/mighttpd2/Manifest                                       | 2 +-
+ .../mighttpd2/{mighttpd2-3.2.8.ebuild => mighttpd2-3.2.9.ebuild}     | 0
+ 7 files changed, 7 insertions(+), 6 deletions(-)
+ rename dev-haskell/arithmoi/{arithmoi-0.4.1.2.ebuild => arithmoi-0.4.1.3.ebuild} (86%)
+ rename dev-haskell/generics-sop/{generics-sop-0.1.1.2.ebuild => generics-sop-0.1.1.2-r1.ebuild} (87%)
+ rename dev-haskell/uri-bytestring/{uri-bytestring-0.1.5.ebuild => uri-bytestring-0.1.6.ebuild} (100%)
+ rename www-servers/mighttpd2/{mighttpd2-3.2.8.ebuild => mighttpd2-3.2.9.ebuild} (100%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
