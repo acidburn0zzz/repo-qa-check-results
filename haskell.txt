@@ -22,26 +22,34 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   13761e0..c0b5a22  master     -> origin/master
-Updating 13761e0..c0b5a22
+   c0b5a22..3dfa980  master     -> origin/master
+Updating c0b5a22..3dfa980
 Fast-forward
- dev-haskell/mueval/Manifest                        |  2 +-
- .../mueval/files/mueval-0.9.1.1-ghc-7.10.patch     |  6 -----
- .../mueval/files/mueval-0.9.1.1-utf8s-1.patch      | 21 -----------------
- ...eval-0.9.1.1.ebuild => mueval-0.9.1.1.2.ebuild} | 15 +++++--------
- dev-haskell/rolling-queue/Manifest                 |  1 +
- dev-haskell/rolling-queue/metadata.xml             | 24 ++++++++++++++++++++
- dev-haskell/rolling-queue/rolling-queue-0.1.ebuild | 26 ++++++++++++++++++++++
- dev-haskell/wai-extra/Manifest                     |  2 +-
- ...tra-3.0.7.1.ebuild => wai-extra-3.0.8.2.ebuild} |  4 ++--
- 9 files changed, 61 insertions(+), 40 deletions(-)
- delete mode 100644 dev-haskell/mueval/files/mueval-0.9.1.1-ghc-7.10.patch
- delete mode 100644 dev-haskell/mueval/files/mueval-0.9.1.1-utf8s-1.patch
- rename dev-haskell/mueval/{mueval-0.9.1.1.ebuild => mueval-0.9.1.1.2.ebuild} (80%)
- create mode 100644 dev-haskell/rolling-queue/Manifest
- create mode 100644 dev-haskell/rolling-queue/metadata.xml
- create mode 100644 dev-haskell/rolling-queue/rolling-queue-0.1.ebuild
- rename dev-haskell/wai-extra/{wai-extra-3.0.7.1.ebuild => wai-extra-3.0.8.2.ebuild} (94%)
+ dev-haskell/attoparsec/Manifest                    |  2 +-
+ ...-0.13.0.0.ebuild => attoparsec-0.13.0.1.ebuild} |  2 +-
+ dev-haskell/bindings-glfw/Manifest                 |  1 +
+ .../bindings-glfw/bindings-glfw-3.0.3.3.ebuild     |  2 +-
+ .../bindings-glfw/bindings-glfw-3.1.1.3.ebuild     | 55 ++++++++++++++++++++++
+ dev-haskell/doctest/Manifest                       |  2 +-
+ ...doctest-0.10.0.ebuild => doctest-0.10.1.ebuild} |  0
+ dev-haskell/file-location/Manifest                 |  2 +-
+ ...n-0.4.7.1.ebuild => file-location-0.4.9.ebuild} |  5 +-
+ dev-haskell/glfw-b/Manifest                        |  1 +
+ dev-haskell/glfw-b/glfw-b-1.4.7.2.ebuild           | 36 ++++++++++++++
+ dev-haskell/glfw/Manifest                          |  2 +-
+ dev-haskell/glfw/files/glfw-0.5.2.2-ghc-7.10.patch | 17 -------
+ .../{glfw-0.5.2.2.ebuild => glfw-0.5.2.4.ebuild}   | 10 ++--
+ dev-haskell/monoid-subclasses/Manifest             |  2 +-
+ ...4.1.ebuild => monoid-subclasses-0.4.1.1.ebuild} |  2 +-
+ 16 files changed, 107 insertions(+), 34 deletions(-)
+ rename dev-haskell/attoparsec/{attoparsec-0.13.0.0.ebuild => attoparsec-0.13.0.1.ebuild} (95%)
+ create mode 100644 dev-haskell/bindings-glfw/bindings-glfw-3.1.1.3.ebuild
+ rename dev-haskell/doctest/{doctest-0.10.0.ebuild => doctest-0.10.1.ebuild} (100%)
+ rename dev-haskell/file-location/{file-location-0.4.7.1.ebuild => file-location-0.4.9.ebuild} (85%)
+ create mode 100644 dev-haskell/glfw-b/glfw-b-1.4.7.2.ebuild
+ delete mode 100644 dev-haskell/glfw/files/glfw-0.5.2.2-ghc-7.10.patch
+ rename dev-haskell/glfw/{glfw-0.5.2.2.ebuild => glfw-0.5.2.4.ebuild} (82%)
+ rename dev-haskell/monoid-subclasses/{monoid-subclasses-0.4.1.ebuild => monoid-subclasses-0.4.1.1.ebuild} (93%)
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
