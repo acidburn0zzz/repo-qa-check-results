@@ -24,58 +24,58 @@ $ pmaint regen -t 2 n8x0
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
-!!! ERROR: sys-apps/fb_text2screen-0.1.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
 !!! ERROR: sys-apps/opendsme-0.2 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
+
+!!! ERROR: sys-apps/fb_text2screen-0.1.1 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
 
 !!! ERROR: app-accessibility/florence-0.5.1 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
+!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '211' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '197' 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
+!!!             cmake-utils.eclass, line 128:  Called die
+!!! The die message:
+!!!  EAPI=0 is not supported
+
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!            opendsme-0.2.ebuild, line   5:  Called inherit 'cmake-utils'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '169' 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/fb_text2screen/fb_text2screen-0.1.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
-!!!    fb_text2screen-0.1.1.ebuild, line   5:  Called inherit 'cmake-utils' 'linux-info'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/sys-apps/opendsme/opendsme-0.2.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/n8x0/app-accessibility/florence/florence-0.5.1.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
-!!!            opendsme-0.2.ebuild, line   5:  Called inherit 'cmake-utils'
 !!!             cmake-utils.eclass, line 128:  Called die
 !!! The die message:
 !!!  EAPI=0 is not supported
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'cmake-utils'
 !!!          florence-0.5.1.ebuild, line   7:  Called inherit 'gnome2'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/cmake-utils.eclass'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!             cmake-utils.eclass, line 128:  Called die
-!!! The die message:
-!!!  EAPI=0 is not supported
-
 !!!                  gnome2.eclass, line  19:  Called die
 !!! The die message:
 !!!  EAPI=2 is not supported

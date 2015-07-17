@@ -14,27 +14,19 @@
 $ pmaint sync /home/mgorny/repos/R_Overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-receiving incremental file list
-
-Number of files: 83,424 (reg: 72,849, dir: 10,575)
-Number of created files: 0
-Number of regular files transferred: 0
-Total file size: 59.48M bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
-Matched data: 0 bytes
-File list size: 1.64M
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 10.65K
-Total bytes received: 1.97M
-
-sent 10.65K bytes  received 1.97M bytes  146.91K bytes/sec
-total size is 59.48M  speedup is 29.99
+rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
 *** syncing '/home/mgorny/repos/R_Overlay'...
-*** synced '/home/mgorny/repos/R_Overlay'
- * Sync succeeded
-$ pmaint regen -t 2 R_Overlay
+Error running an operation:
+ Unhandled exception in sync
+ (35, 'all attempts failed')
+ * Sync failed with 246
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/R_Overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
- * Cache regenerated successfully
+rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
+*** syncing '/home/mgorny/repos/R_Overlay'...
+Error running an operation:
+ Unhandled exception in sync
+ (35, 'all attempts failed')
+ * Sync failed again with 246, removing

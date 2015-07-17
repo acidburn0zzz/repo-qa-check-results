@@ -16,7 +16,27 @@
 $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/pantera31752/open-overlay
+   1f70ace..0c2fac9  master     -> origin/master
+Updating 1f70ace..0c2fac9
+Fast-forward
+ dev-java/oracle-jdk-bin/Manifest                   |  14 +
+ .../files/fontconfig.Gentoo.properties             | 161 +++++++++++
+ .../oracle-jdk-bin/files/oracle-jdk-bin-1.8.env    |  17 ++
+ .../oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild  | 315 +++++++++++++++++++++
+ dev-java/oracle-jre-bin/Manifest                   |   6 +
+ .../files/fontconfig.Gentoo.properties             | 161 +++++++++++
+ .../oracle-jre-bin/files/oracle-jre-bin-1.8.env    |  17 ++
+ .../oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild  | 198 +++++++++++++
+ 8 files changed, 889 insertions(+)
+ create mode 100644 dev-java/oracle-jdk-bin/Manifest
+ create mode 100644 dev-java/oracle-jdk-bin/files/fontconfig.Gentoo.properties
+ create mode 100644 dev-java/oracle-jdk-bin/files/oracle-jdk-bin-1.8.env
+ create mode 100644 dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild
+ create mode 100644 dev-java/oracle-jre-bin/Manifest
+ create mode 100644 dev-java/oracle-jre-bin/files/fontconfig.Gentoo.properties
+ create mode 100644 dev-java/oracle-jre-bin/files/oracle-jre-bin-1.8.env
+ create mode 100644 dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
