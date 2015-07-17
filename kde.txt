@@ -17,7 +17,20 @@
 $ pmaint sync /home/mgorny/repos/kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/kde
+   32abe09..dbbf7de  master     -> origin/master
+Updating 32abe09..dbbf7de
+Fast-forward
+ .../kdevelop-python/kdevelop-python-4.9999.ebuild  | 46 -------------------
+ .../kdevelop-python/kdevelop-python-9999.ebuild    | 53 ++++++++++++++++++++++
+ kde-apps/kpeoplevcard/kpeoplevcard-9999.ebuild     | 22 +++++++++
+ kde-apps/kpeoplevcard/metadata.xml                 |  5 ++
+ sets/kdevelop-live                                 |  1 +
+ 5 files changed, 81 insertions(+), 46 deletions(-)
+ delete mode 100644 dev-util/kdevelop-python/kdevelop-python-4.9999.ebuild
+ create mode 100644 dev-util/kdevelop-python/kdevelop-python-9999.ebuild
+ create mode 100644 kde-apps/kpeoplevcard/kpeoplevcard-9999.ebuild
+ create mode 100644 kde-apps/kpeoplevcard/metadata.xml
 *** syncing '/home/mgorny/repos/kde'...
 *** synced '/home/mgorny/repos/kde'
  * Sync succeeded
