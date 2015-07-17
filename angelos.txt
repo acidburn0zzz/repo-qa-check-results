@@ -18,10 +18,21 @@
 $ pmaint sync /home/mgorny/repos/angelos
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing '/home/mgorny/repos/angelos'...
+*** failed syncing '/home/mgorny/repos/angelos'
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync /home/mgorny/repos/angelos
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/angelos'...
 *** syncing '/home/mgorny/repos/angelos'...
 *** synced '/home/mgorny/repos/angelos'
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 angelos
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
