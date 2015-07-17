@@ -17,43 +17,138 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   0c2fac9..0136869  master     -> origin/master
-Updating 0c2fac9..0136869
+   0136869..d746d32  master     -> origin/master
+Updating 0136869..d746d32
 Fast-forward
- dev-java/netbeans-apisupport/Manifest                                 | 4 ++--
- ...999_p20150716.ebuild => netbeans-apisupport-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-extide/Manifest                                     | 4 ++--
- ...de-9999_p20150716.ebuild => netbeans-extide-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-harness/Manifest                                    | 4 ++--
- ...s-9999_p20150716.ebuild => netbeans-harness-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-ide/Manifest                                        | 4 ++--
- ...s-ide-9999_p20150716.ebuild => netbeans-ide-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-java/Manifest                                       | 4 ++--
- ...java-9999_p20150716.ebuild => netbeans-java-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-javafx/Manifest                                     | 4 ++--
- ...fx-9999_p20150716.ebuild => netbeans-javafx-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-nb/Manifest                                         | 4 ++--
- ...ans-nb-9999_p20150716.ebuild => netbeans-nb-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-platform/Manifest                                   | 4 ++--
- ...-9999_p20150716.ebuild => netbeans-platform-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-profiler/Manifest                                   | 4 ++--
- ...-9999_p20150716.ebuild => netbeans-profiler-9999_p20150717.ebuild} | 4 ++--
- dev-java/netbeans-websvccommon/Manifest                               | 4 ++--
- ...9_p20150716.ebuild => netbeans-websvccommon-9999_p20150717.ebuild} | 4 ++--
- dev-util/netbeans/Manifest                                            | 4 ++--
- ...{netbeans-9999_p20150716.ebuild => netbeans-9999_p20150717.ebuild} | 4 ++--
- 22 files changed, 44 insertions(+), 44 deletions(-)
- rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150716.ebuild => netbeans-apisupport-9999_p20150717.ebuild} (97%)
- rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150716.ebuild => netbeans-extide-9999_p20150717.ebuild} (97%)
- rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150716.ebuild => netbeans-harness-9999_p20150717.ebuild} (97%)
- rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150716.ebuild => netbeans-ide-9999_p20150717.ebuild} (99%)
- rename dev-java/netbeans-java/{netbeans-java-9999_p20150716.ebuild => netbeans-java-9999_p20150717.ebuild} (99%)
- rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150716.ebuild => netbeans-javafx-9999_p20150717.ebuild} (98%)
- rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150716.ebuild => netbeans-nb-9999_p20150717.ebuild} (98%)
- rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150716.ebuild => netbeans-platform-9999_p20150717.ebuild} (99%)
- rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150716.ebuild => netbeans-profiler-9999_p20150717.ebuild} (97%)
- rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150716.ebuild => netbeans-websvccommon-9999_p20150717.ebuild} (96%)
- rename dev-util/netbeans/{netbeans-9999_p20150716.ebuild => netbeans-9999_p20150717.ebuild} (98%)
+ app-arch/engrampa/Manifest                         |   6 +-
+ app-arch/engrampa/engrampa-1.10.0.ebuild           |  85 --------------
+ app-arch/engrampa/engrampa-1.10.1.ebuild           |   2 +-
+ app-arch/engrampa/engrampa-1.9.2.ebuild            |  85 --------------
+ app-editors/pluma/Manifest                         |   6 -
+ app-editors/pluma/pluma-1.10.0.ebuild              |  91 ---------------
+ app-editors/pluma/pluma-1.10.1.ebuild              |  91 ---------------
+ app-editors/pluma/pluma-1.9.1.ebuild               |  91 ---------------
+ app-text/atril/Manifest                            |   4 -
+ app-text/atril/atril-1.10.0.ebuild                 | 107 ------------------
+ app-text/atril/atril-1.9.2.ebuild                  | 108 ------------------
+ mate-base/caja/Manifest                            |   6 +-
+ mate-base/caja/caja-1.10.1.ebuild                  | 100 -----------------
+ mate-base/caja/caja-1.10.2.ebuild                  |   2 +-
+ mate-base/caja/caja-1.9.90.ebuild                  |  99 -----------------
+ mate-base/libmatekbd/Manifest                      |   2 -
+ mate-base/libmatekbd/libmatekbd-1.9.90.ebuild      |  47 --------
+ mate-base/mate-applets/Manifest                    |   6 -
+ mate-base/mate-applets/mate-applets-1.10.0.ebuild  | 109 ------------------
+ mate-base/mate-applets/mate-applets-1.10.1.ebuild  | 109 ------------------
+ mate-base/mate-applets/mate-applets-1.10.2.ebuild  | 109 ------------------
+ mate-base/mate-common/Manifest                     |   2 -
+ mate-base/mate-common/mate-common-1.9.90.ebuild    |  24 ----
+ mate-base/mate-control-center/Manifest             |   4 +-
+ .../mate-control-center-1.10.0.ebuild              |  97 ----------------
+ .../mate-control-center-1.10.1.ebuild              |   2 +-
+ mate-base/mate-desktop/Manifest                    |   6 +-
+ mate-base/mate-desktop/mate-desktop-1.10.0.ebuild  |  72 ------------
+ mate-base/mate-desktop/mate-desktop-1.10.1.ebuild  |   2 +-
+ mate-base/mate-desktop/mate-desktop-1.9.90.ebuild  |  72 ------------
+ mate-base/mate-menus/Manifest                      |   2 -
+ mate-base/mate-menus/mate-menus-1.9.90.ebuild      |  80 --------------
+ mate-base/mate-panel/Manifest                      |   4 +-
+ mate-base/mate-panel/mate-panel-1.10.0.ebuild      |  85 --------------
+ mate-base/mate-panel/mate-panel-1.10.1.ebuild      |   2 +-
+ mate-base/mate-session-manager/Manifest            |   4 +-
+ .../mate-session-manager-1.10.1.ebuild             | 101 -----------------
+ .../mate-session-manager-1.10.2.ebuild             |   2 +-
+ mate-base/mate-settings-daemon/Manifest            |   4 +-
+ .../mate-settings-daemon-1.10.0.ebuild             |   2 +-
+ .../mate-settings-daemon-1.9.90.ebuild             |  92 ---------------
+ mate-extra/mate-polkit/Manifest                    |   2 -
+ mate-extra/mate-polkit/mate-polkit-1.9.90.ebuild   |  52 ---------
+ mate-extra/mate-power-manager/Manifest             |   4 +-
+ .../mate-power-manager-1.10.0.ebuild               |  96 ----------------
+ .../mate-power-manager-1.10.1.ebuild               |   2 +-
+ mate-extra/mate-screensaver/Manifest               |   4 -
+ .../mate-screensaver-1.10.1.ebuild                 | 123 ---------------------
+ .../mate-screensaver/mate-screensaver-1.9.2.ebuild | 123 ---------------------
+ mate-extra/mate-sensors-applet/Manifest            |   6 -
+ .../mate-sensors-applet-1.10.1.ebuild              |  73 ------------
+ .../mate-sensors-applet-1.10.2.ebuild              |  73 ------------
+ .../mate-sensors-applet-1.9.0.ebuild               |  74 -------------
+ mate-extra/mate-system-monitor/Manifest            |   4 -
+ .../mate-system-monitor-1.10.0.ebuild              |  61 ----------
+ .../mate-system-monitor-1.9.2.ebuild               |  61 ----------
+ mate-extra/mate-user-guide/Manifest                |   2 -
+ .../mate-user-guide/mate-user-guide-1.10.0.ebuild  |  31 ------
+ mate-extra/mate-user-share/Manifest                |   4 +-
+ .../mate-user-share/mate-user-share-1.10.0.ebuild  |   4 +-
+ .../mate-user-share/mate-user-share-1.9.0.ebuild   |  66 -----------
+ mate-extra/mate-utils/Manifest                     |   8 +-
+ mate-extra/mate-utils/mate-utils-1.10.0.ebuild     |  90 ---------------
+ mate-extra/mate-utils/mate-utils-1.10.1.ebuild     |  90 ---------------
+ mate-extra/mate-utils/mate-utils-1.10.2.ebuild     |   2 +-
+ mate-extra/mate-utils/mate-utils-1.9.1.ebuild      |  90 ---------------
+ media-gfx/eom/Manifest                             |   6 -
+ media-gfx/eom/eom-1.10.1.ebuild                    |  80 --------------
+ media-gfx/eom/eom-1.10.2.ebuild                    |  80 --------------
+ media-gfx/eom/eom-1.9.1.ebuild                     |  80 --------------
+ x11-misc/variety/Manifest                          |   3 +
+ x11-misc/variety/files/variety-0.5.3-gexiv2.patch  |  98 ++++++++++++++++
+ x11-misc/variety/variety-0.5.3.ebuild              |  41 +++++++
+ x11-themes/mate-backgrounds/Manifest               |   2 -
+ .../mate-backgrounds-1.9.90.ebuild                 |  22 ----
+ x11-themes/mate-icon-theme/Manifest                |   2 -
+ .../mate-icon-theme/mate-icon-theme-1.9.90.ebuild  |  33 ------
+ x11-themes/mate-themes/Manifest                    |   4 -
+ x11-themes/mate-themes/mate-themes-1.10.1.ebuild   |  40 -------
+ x11-themes/mate-themes/mate-themes-1.9.0.ebuild    |  38 -------
+ x11-wm/marco/Manifest                              |   2 +-
+ x11-wm/marco/marco-1.10.1.ebuild                   |   2 +-
+ 82 files changed, 165 insertions(+), 3437 deletions(-)
+ delete mode 100644 app-arch/engrampa/engrampa-1.10.0.ebuild
+ delete mode 100644 app-arch/engrampa/engrampa-1.9.2.ebuild
+ delete mode 100644 app-editors/pluma/pluma-1.10.0.ebuild
+ delete mode 100644 app-editors/pluma/pluma-1.10.1.ebuild
+ delete mode 100644 app-editors/pluma/pluma-1.9.1.ebuild
+ delete mode 100644 app-text/atril/atril-1.10.0.ebuild
+ delete mode 100644 app-text/atril/atril-1.9.2.ebuild
+ delete mode 100644 mate-base/caja/caja-1.10.1.ebuild
+ delete mode 100644 mate-base/caja/caja-1.9.90.ebuild
+ delete mode 100644 mate-base/libmatekbd/libmatekbd-1.9.90.ebuild
+ delete mode 100644 mate-base/mate-applets/mate-applets-1.10.0.ebuild
+ delete mode 100644 mate-base/mate-applets/mate-applets-1.10.1.ebuild
+ delete mode 100644 mate-base/mate-applets/mate-applets-1.10.2.ebuild
+ delete mode 100644 mate-base/mate-common/mate-common-1.9.90.ebuild
+ delete mode 100644 mate-base/mate-control-center/mate-control-center-1.10.0.ebuild
+ delete mode 100644 mate-base/mate-desktop/mate-desktop-1.10.0.ebuild
+ delete mode 100644 mate-base/mate-desktop/mate-desktop-1.9.90.ebuild
+ delete mode 100644 mate-base/mate-menus/mate-menus-1.9.90.ebuild
+ delete mode 100644 mate-base/mate-panel/mate-panel-1.10.0.ebuild
+ delete mode 100644 mate-base/mate-session-manager/mate-session-manager-1.10.1.ebuild
+ delete mode 100644 mate-base/mate-settings-daemon/mate-settings-daemon-1.9.90.ebuild
+ delete mode 100644 mate-extra/mate-polkit/mate-polkit-1.9.90.ebuild
+ delete mode 100644 mate-extra/mate-power-manager/mate-power-manager-1.10.0.ebuild
+ delete mode 100644 mate-extra/mate-screensaver/mate-screensaver-1.10.1.ebuild
+ delete mode 100644 mate-extra/mate-screensaver/mate-screensaver-1.9.2.ebuild
+ delete mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.1.ebuild
+ delete mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.10.2.ebuild
+ delete mode 100644 mate-extra/mate-sensors-applet/mate-sensors-applet-1.9.0.ebuild
+ delete mode 100644 mate-extra/mate-system-monitor/mate-system-monitor-1.10.0.ebuild
+ delete mode 100644 mate-extra/mate-system-monitor/mate-system-monitor-1.9.2.ebuild
+ mode change 100755 => 100644 mate-extra/mate-user-guide/Manifest
+ delete mode 100644 mate-extra/mate-user-guide/mate-user-guide-1.10.0.ebuild
+ delete mode 100644 mate-extra/mate-user-share/mate-user-share-1.9.0.ebuild
+ delete mode 100644 mate-extra/mate-utils/mate-utils-1.10.0.ebuild
+ delete mode 100644 mate-extra/mate-utils/mate-utils-1.10.1.ebuild
+ delete mode 100644 mate-extra/mate-utils/mate-utils-1.9.1.ebuild
+ delete mode 100644 media-gfx/eom/eom-1.10.1.ebuild
+ delete mode 100644 media-gfx/eom/eom-1.10.2.ebuild
+ delete mode 100644 media-gfx/eom/eom-1.9.1.ebuild
+ create mode 100644 x11-misc/variety/Manifest
+ create mode 100644 x11-misc/variety/files/variety-0.5.3-gexiv2.patch
+ create mode 100644 x11-misc/variety/variety-0.5.3.ebuild
+ delete mode 100644 x11-themes/mate-backgrounds/mate-backgrounds-1.9.90.ebuild
+ delete mode 100644 x11-themes/mate-icon-theme/mate-icon-theme-1.9.90.ebuild
+ delete mode 100644 x11-themes/mate-themes/mate-themes-1.10.1.ebuild
+ delete mode 100644 x11-themes/mate-themes/mate-themes-1.9.0.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

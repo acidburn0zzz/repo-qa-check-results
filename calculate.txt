@@ -14,9 +14,47 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   3419fc9..457ba57  develop    -> origin/develop
-   a39c100..457ba57  update     -> origin/update
-Already up-to-date.
+   a39c100..6cdf253  master     -> origin/master
+   457ba57..6cdf253  develop    -> origin/develop
+   457ba57..6cdf253  update     -> origin/update
+Updating a39c100..6cdf253
+Fast-forward
+ .../1-merge/mate-base/.calculate_directory         |  1 +
+ .../mate-base/mate-desktop/.calculate_directory    |  1 +
+ .../mate-base/mate-desktop/glib-compile-schemas    |  4 ++++
+ .../mate-desktop/org.mate.background.gschema.xml   |  4 ++++
+ .../3_ac_install_live/Depends/dm-themes-calculate  |  1 +
+ .../2-user/mate-base/MATE-1.8/mate                 | 22 ++++++++++++++++++
+ .../MATE-1.8/mate-settings-system.directory        |  5 +++++
+ .../2-user/mate-base/MATE-1.8/panel                |  1 -
+ .../2-user/mate-base/MATE-1.8/terminal             |  6 ++---
+ .../2-user/x11-misc/parcellite-1.1/parcelliterc    |  5 +----
+ .../calculate-xcursors-13/.calculate/ini.env       |  7 ------
+ .../calculate-xcursors-13/.calculate_directory     |  1 -
+ .../x11-themes/calculate-xcursors-13/.dconfigure   |  6 -----
+ .../x11-themes/calculate-xcursors-13/kcminputrc    |  3 ---
+ .../x11-themes/calculate-xcursors-13/xsettings.xml |  8 -------
+ .../calculate-xcursors-14/.calculate_directory     |  1 +
+ .../x11-themes/calculate-xcursors-14/index.theme   |  4 ++++
+ .../x11-themes/calculate-xcursors-14/ini.env       |  7 ++++++
+ x11-themes/calculate-xcursors/Manifest             |  1 +
+ .../calculate-xcursors-14.ebuild                   | 26 ++++++++++++++++++++++
+ 20 files changed, 81 insertions(+), 33 deletions(-)
+ create mode 100644 profiles/templates/3.3/3_ac_install_live/1-merge/mate-base/.calculate_directory
+ create mode 100644 profiles/templates/3.3/3_ac_install_live/1-merge/mate-base/mate-desktop/.calculate_directory
+ create mode 100644 profiles/templates/3.3/3_ac_install_live/1-merge/mate-base/mate-desktop/glib-compile-schemas
+ create mode 100644 profiles/templates/3.3/3_ac_install_live/1-merge/mate-base/mate-desktop/org.mate.background.gschema.xml
+ create mode 100644 profiles/templates/3.3/3_ac_install_live/Depends/dm-themes-calculate
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/mate-base/MATE-1.8/mate-settings-system.directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-13/.calculate/ini.env
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-13/.calculate_directory
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-13/.dconfigure
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-13/kcminputrc
+ delete mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-13/xsettings.xml
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-14/.calculate_directory
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-14/index.theme
+ create mode 100644 profiles/templates/3.3/6_ac_desktop_profile/2-user/x11-themes/calculate-xcursors-14/ini.env
+ create mode 100644 x11-themes/calculate-xcursors/calculate-xcursors-14.ebuild
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
