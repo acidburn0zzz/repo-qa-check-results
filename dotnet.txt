@@ -18,17 +18,18 @@
 $ pmaint sync /home/mgorny/repos/dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/dotnet
+   fcd1260..93ff76c  master     -> origin/master
+Updating fcd1260..93ff76c
+Fast-forward
+ dev-lang/mono/files/systemweb2.patch | 65 ++++++++++++++++++++++++++++++++++++
+ dev-lang/mono/mono-9999.ebuild       |  4 +--
+ 2 files changed, 66 insertions(+), 3 deletions(-)
+ create mode 100644 dev-lang/mono/files/systemweb2.patch
 *** syncing '/home/mgorny/repos/dotnet'...
 *** synced '/home/mgorny/repos/dotnet'
  * Sync succeeded
 $ pmaint regen -t 2 dotnet
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
-WARNING: 'use' function invoked by dev-lang/fsharp-9999 during metadata regeneration.
-WARNING: Please ensure upstream is aware of it and working to remove it.
-
  * Cache regenerated successfully
