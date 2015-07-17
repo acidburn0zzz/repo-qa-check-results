@@ -24,115 +24,116 @@ $ pmaint regen -t 2 lisp
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 
+!!! ERROR: dev-scheme/jazzscheme-999 failed.
+
 !!! ERROR: dev-lisp/gsd-9999 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!! Call stack:
 
 !!! ERROR: dev-lisp/gsll-9999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-
-!!! ERROR: dev-lisp/fsbv-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-scheme/jazzscheme-999 failed.
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
-!!!               gsll-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '145' 'depend'
+
+!!! ERROR: dev-lisp/fsbv-9999 failed.
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
-!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
-
-!!! ERROR: dev-scheme/guile-reader-0.6 failed.
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsd/gsd-9999.ebuild'
 !!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '195' 'depend'
 !!!                gsd-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/gsll/gsll-9999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '179' 'depend'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
-!!!        guile-reader-0.6.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!               gsll-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '150' 'depend'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+
+!!! ERROR: app-emacs/geiser-999 failed.
+
+!!! ERROR: dev-scheme/guile-reader-0.6 failed.
+!!! die invoked from directory /usr/lib64/pkgcore
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
+!!! Call stack:
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/jazzscheme/jazzscheme-999.ebuild'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!          jazzscheme-999.ebuild, line   5:  Called inherit 'git'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
 !!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
 !!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
 !!!  inherit for git failed
 
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
 
-!!! ERROR: app-emacs/geiser-999 failed.
 !!! die invoked from directory /usr/lib64/pkgcore
 !!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 !!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '157' 'depend'
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '195' 'depend'
+!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-lisp/fsbv/fsbv-9999.ebuild'
 !!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!               fsbv-9999.ebuild, line   6:  Called inherit 'common-lisp-2' 'git'
+!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
+!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '157' 'depend'
+!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/dev-scheme/guile-reader/guile-reader-0.6.ebuild'
+!!!        guile-reader-0.6.ebuild, line   5:  Called inherit 'autotools' 'eutils' 'git'
+!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
+!!! The die message:
+!!!  inherit for git failed
+
 !!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
 !!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
 !!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lisp/app-emacs/geiser/geiser-999.ebuild'
-!!!              geiser-999.ebuild, line  11:  Called inherit 'elisp'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'elisp'
-!!!              ebuild-daemon.lib, line  37:  Called die
+!!!              geiser-999.ebuild, line  12:  Called inherit 'git'
+!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
+!!!              ebuild-daemon.lib, line  35:  Called die
 !!! The die message:
-!!!  unknown inherit command from pythonic side, 'clear_preloaded_eclasses' for eclass elisp
+!!!  inherit for git failed
 
 Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
+Sandboxed process killed by signal: Broken pipe
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsd-9999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/gsll-9999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-lisp/fsbv-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/jazzscheme-999
+!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-emacs/geiser-999
 !!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: dev-scheme/guile-reader-0.6
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-emacs/geiser-999
  * Cache regenerated successfully
