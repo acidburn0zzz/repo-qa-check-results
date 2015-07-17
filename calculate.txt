@@ -14,13 +14,64 @@
 $ pmaint sync /home/mgorny/repos/calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://git.calculate.ru/calculate/overlay
-   d324d44..225e382  develop    -> origin/develop
-   9c972ca..c2a18b5  update     -> origin/update
-Already up-to-date.
+   5512fbc..a39c100  master     -> origin/master
+   225e382..f5d0b0c  develop    -> origin/develop
+   c2a18b5..a39c100  update     -> origin/update
+Updating 5512fbc..a39c100
+Fast-forward
+ profiles/base/desktop/package.keywords/default     |  2 +-
+ profiles/base/desktop/package.use/default          |  3 +++
+ .../adwaita-icon-theme/.calculate_directory        |  2 +-
+ .../adwaita-icon-theme/start-calculate.svg.old     |  1 +
+ .../x11-themes/adwaita-icon-theme/start-here.svg   |  2 +-
+ .../gnome-icon-theme/.calculate_directory          |  2 +-
+ .../gnome-icon-theme/start-calculate.svg.old       |  1 +
+ .../x11-themes/gnome-icon-theme/start-here.svg     |  2 +-
+ .../mate-icon-theme/.calculate_directory           |  2 +-
+ .../mate-icon-theme/start-calculate.svg.old        |  1 +
+ .../mate-icon-theme/start-here-menta.svg           |  2 +-
+ .../x11-themes/mate-icon-theme/start-here.svg      |  2 +-
+ .../2-user/mate-base/MATE-1.8/mate                 |  9 +++++++++
+ sys-apps/calculate-utils/Manifest                  |  2 ++
+ .../calculate-utils/calculate-utils-3.3.3.6.ebuild | 23 ++++++++++++++++++++++
+ .../calculate-utils/calculate-utils-3.3.3.7.ebuild | 23 ++++++++++++++++++++++
+ x11-themes/calculate-icon-theme/Manifest           |  2 +-
+ ...r6.ebuild => calculate-icon-theme-14-r7.ebuild} |  6 +++---
+ 18 files changed, 75 insertions(+), 12 deletions(-)
+ create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/adwaita-icon-theme/start-calculate.svg.old
+ create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/gnome-icon-theme/start-calculate.svg.old
+ create mode 100644 profiles/templates/3.3/2_ac_install_merge/x11-themes/mate-icon-theme/start-calculate.svg.old
+ create mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.3.6.ebuild
+ create mode 100644 sys-apps/calculate-utils/calculate-utils-3.3.3.7.ebuild
+ rename x11-themes/calculate-icon-theme/{calculate-icon-theme-14-r6.ebuild => calculate-icon-theme-14-r7.ebuild} (88%)
 *** syncing '/home/mgorny/repos/calculate'...
 *** synced '/home/mgorny/repos/calculate'
  * Sync succeeded
 $ pmaint regen -t 2 calculate
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.7 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-apps/calculate-utils-3.3.3.6 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully

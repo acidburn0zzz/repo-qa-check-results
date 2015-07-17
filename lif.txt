@@ -22,7 +22,57 @@
 $ pmaint sync /home/mgorny/repos/lif
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/killer2tester/gentoo-overlay-lif
+   80f326b..94998a5  master     -> origin/master
+Updating 80f326b..94998a5
+Fast-forward
+ README.md                                          |  5 ++
+ .../logrotate/files/logrotate-3.8.8-Werror.patch   | 11 +++
+ .../files/logrotate-3.8.8-atomic-create.patch      | 45 ++++++++++++
+ .../logrotate/files/logrotate-3.8.8-fbsd.patch     | 57 +++++++++++++++
+ .../files/logrotate-3.8.8-ignore-hidden.patch      | 14 ++++
+ .../files/logrotate-3.8.8-noasprintf.patch         | 55 ++++++++++++++
+ .../logrotate/files/logrotate-3.8.9-Werror.patch   | 12 ++++
+ .../files/logrotate-3.8.9-atomic-create.patch      | 43 +++++++++++
+ .../logrotate/files/logrotate-3.8.9-fbsd.patch     | 57 +++++++++++++++
+ .../files/logrotate-3.8.9-ignore-hidden.patch      | 14 ++++
+ .../files/logrotate-3.8.9-noasprintf.patch         | 55 ++++++++++++++
+ .../logrotate/files/logrotate-3.9.1-Werror.patch   | 12 ++++
+ .../files/logrotate-3.9.1-atomic-create.patch      | 43 +++++++++++
+ .../logrotate/files/logrotate-3.9.1-fbsd.patch     | 57 +++++++++++++++
+ .../files/logrotate-3.9.1-ignore-hidden.patch      | 15 ++++
+ .../files/logrotate-3.9.1-noasprintf.patch         | 55 ++++++++++++++
+ app-admin/logrotate/files/logrotate.conf           | 41 +++++++++++
+ .../logrotate/files/systemd/logrotate.service      | 18 +++++
+ app-admin/logrotate/files/systemd/logrotate.timer  | 11 +++
+ app-admin/logrotate/logrotate-3.8.9-r1.ebuild      | 84 ++++++++++++++++++++++
+ app-admin/logrotate/logrotate-3.8.9.ebuild         | 84 ++++++++++++++++++++++
+ app-admin/logrotate/logrotate-3.9.1.ebuild         | 84 ++++++++++++++++++++++
+ app-admin/logrotate/metadata.xml                   | 30 ++++++++
+ sets/dl-core                                       |  4 +-
+ 24 files changed, 904 insertions(+), 2 deletions(-)
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.8-Werror.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.8-atomic-create.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.8-fbsd.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.8-ignore-hidden.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.8-noasprintf.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.9-Werror.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.9-atomic-create.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.9-fbsd.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.9-ignore-hidden.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.8.9-noasprintf.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.9.1-Werror.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.9.1-atomic-create.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.9.1-fbsd.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.9.1-ignore-hidden.patch
+ create mode 100644 app-admin/logrotate/files/logrotate-3.9.1-noasprintf.patch
+ create mode 100644 app-admin/logrotate/files/logrotate.conf
+ create mode 100644 app-admin/logrotate/files/systemd/logrotate.service
+ create mode 100644 app-admin/logrotate/files/systemd/logrotate.timer
+ create mode 100644 app-admin/logrotate/logrotate-3.8.9-r1.ebuild
+ create mode 100644 app-admin/logrotate/logrotate-3.8.9.ebuild
+ create mode 100644 app-admin/logrotate/logrotate-3.9.1.ebuild
+ create mode 100644 app-admin/logrotate/metadata.xml
 *** syncing '/home/mgorny/repos/lif'...
 *** synced '/home/mgorny/repos/lif'
  * Sync succeeded
