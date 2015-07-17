@@ -17,26 +17,43 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   1f70ace..0c2fac9  master     -> origin/master
-Updating 1f70ace..0c2fac9
+   0c2fac9..0136869  master     -> origin/master
+Updating 0c2fac9..0136869
 Fast-forward
- dev-java/oracle-jdk-bin/Manifest                   |  14 +
- .../files/fontconfig.Gentoo.properties             | 161 +++++++++++
- .../oracle-jdk-bin/files/oracle-jdk-bin-1.8.env    |  17 ++
- .../oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild  | 315 +++++++++++++++++++++
- dev-java/oracle-jre-bin/Manifest                   |   6 +
- .../files/fontconfig.Gentoo.properties             | 161 +++++++++++
- .../oracle-jre-bin/files/oracle-jre-bin-1.8.env    |  17 ++
- .../oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild  | 198 +++++++++++++
- 8 files changed, 889 insertions(+)
- create mode 100644 dev-java/oracle-jdk-bin/Manifest
- create mode 100644 dev-java/oracle-jdk-bin/files/fontconfig.Gentoo.properties
- create mode 100644 dev-java/oracle-jdk-bin/files/oracle-jdk-bin-1.8.env
- create mode 100644 dev-java/oracle-jdk-bin/oracle-jdk-bin-1.8.0.51.ebuild
- create mode 100644 dev-java/oracle-jre-bin/Manifest
- create mode 100644 dev-java/oracle-jre-bin/files/fontconfig.Gentoo.properties
- create mode 100644 dev-java/oracle-jre-bin/files/oracle-jre-bin-1.8.env
- create mode 100644 dev-java/oracle-jre-bin/oracle-jre-bin-1.8.0.51.ebuild
+ dev-java/netbeans-apisupport/Manifest                                 | 4 ++--
+ ...999_p20150716.ebuild => netbeans-apisupport-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-extide/Manifest                                     | 4 ++--
+ ...de-9999_p20150716.ebuild => netbeans-extide-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-harness/Manifest                                    | 4 ++--
+ ...s-9999_p20150716.ebuild => netbeans-harness-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-ide/Manifest                                        | 4 ++--
+ ...s-ide-9999_p20150716.ebuild => netbeans-ide-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-java/Manifest                                       | 4 ++--
+ ...java-9999_p20150716.ebuild => netbeans-java-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-javafx/Manifest                                     | 4 ++--
+ ...fx-9999_p20150716.ebuild => netbeans-javafx-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-nb/Manifest                                         | 4 ++--
+ ...ans-nb-9999_p20150716.ebuild => netbeans-nb-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-platform/Manifest                                   | 4 ++--
+ ...-9999_p20150716.ebuild => netbeans-platform-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-profiler/Manifest                                   | 4 ++--
+ ...-9999_p20150716.ebuild => netbeans-profiler-9999_p20150717.ebuild} | 4 ++--
+ dev-java/netbeans-websvccommon/Manifest                               | 4 ++--
+ ...9_p20150716.ebuild => netbeans-websvccommon-9999_p20150717.ebuild} | 4 ++--
+ dev-util/netbeans/Manifest                                            | 4 ++--
+ ...{netbeans-9999_p20150716.ebuild => netbeans-9999_p20150717.ebuild} | 4 ++--
+ 22 files changed, 44 insertions(+), 44 deletions(-)
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150716.ebuild => netbeans-apisupport-9999_p20150717.ebuild} (97%)
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150716.ebuild => netbeans-extide-9999_p20150717.ebuild} (97%)
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150716.ebuild => netbeans-harness-9999_p20150717.ebuild} (97%)
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150716.ebuild => netbeans-ide-9999_p20150717.ebuild} (99%)
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150716.ebuild => netbeans-java-9999_p20150717.ebuild} (99%)
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150716.ebuild => netbeans-javafx-9999_p20150717.ebuild} (98%)
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150716.ebuild => netbeans-nb-9999_p20150717.ebuild} (98%)
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150716.ebuild => netbeans-platform-9999_p20150717.ebuild} (99%)
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150716.ebuild => netbeans-profiler-9999_p20150717.ebuild} (97%)
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150716.ebuild => netbeans-websvccommon-9999_p20150717.ebuild} (96%)
+ rename dev-util/netbeans/{netbeans-9999_p20150716.ebuild => netbeans-9999_p20150717.ebuild} (98%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
