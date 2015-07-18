@@ -19,20 +19,10 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/levenkov
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing '/home/mgorny/repos/levenkov'...
-*** failed syncing '/home/mgorny/repos/levenkov'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/levenkov
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/levenkov'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/levenkov'...
 *** synced '/home/mgorny/repos/levenkov'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 levenkov
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'

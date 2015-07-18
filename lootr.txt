@@ -16,23 +16,10 @@
 $ pmaint sync /home/mgorny/repos/lootr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-*** syncing '/home/mgorny/repos/lootr'...
-*** failed syncing '/home/mgorny/repos/lootr'
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync /home/mgorny/repos/lootr
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/levenkov' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/levenkov', named '<unlabeled repository /home/mgorny/repos/levenkov>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Cloning into '/home/mgorny/repos/lootr'...
+Already up-to-date.
 *** syncing '/home/mgorny/repos/lootr'...
 *** synced '/home/mgorny/repos/lootr'
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 lootr
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
