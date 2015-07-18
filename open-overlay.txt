@@ -17,14 +17,53 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   739e555..223df5b  master     -> origin/master
-Updating 739e555..223df5b
+   223df5b..e47c8a7  master     -> origin/master
+Updating 223df5b..e47c8a7
 Fast-forward
- mate-base/mate-desktop/Manifest                   | 2 +-
- mate-base/mate-desktop/mate-desktop-1.10.1.ebuild | 2 +-
- mate-extra/mate-media/Manifest                    | 2 +-
- mate-extra/mate-media/mate-media-1.10.0.ebuild    | 2 +-
- 4 files changed, 4 insertions(+), 4 deletions(-)
+ dev-java/netbeans-apisupport/Manifest              |   4 +-
+ ...d => netbeans-apisupport-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-extide/Manifest                  |   4 +-
+ ...build => netbeans-extide-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-harness/Manifest                 |   4 +-
+ ...uild => netbeans-harness-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-ide/Manifest                     |   4 +-
+ ...7.ebuild => netbeans-ide-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-java/Manifest                    |   4 +-
+ ....ebuild => netbeans-java-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-javafx/Manifest                  |   4 +-
+ ...build => netbeans-javafx-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-nb/Manifest                      |   4 +-
+ ...17.ebuild => netbeans-nb-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-platform/Manifest                |   4 +-
+ ...ild => netbeans-platform-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-profiler/Manifest                |   4 +-
+ ...ild => netbeans-profiler-9999_p20150718.ebuild} |   4 +-
+ dev-java/netbeans-websvccommon/Manifest            |   4 +-
+ ...=> netbeans-websvccommon-9999_p20150718.ebuild} |   4 +-
+ dev-util/netbeans/Manifest                         |   4 +-
+ ...50717.ebuild => netbeans-9999_p20150718.ebuild} |   4 +-
+ media-plugins/audacious-plugins/Manifest           |   6 +-
+ ...beta1.ebuild => audacious-plugins-3.6.2.ebuild} |   8 +-
+ .../audacious-plugins-3.7_alpha1.ebuild            | 118 +++++++++++++++++++++
+ media-sound/audacious/Manifest                     |   6 +-
+ ...ous-3.6_beta1.ebuild => audacious-3.6.2.ebuild} |   2 +-
+ media-sound/audacious/audacious-3.7_alpha1.ebuild  |  56 ++++++++++
+ 28 files changed, 230 insertions(+), 54 deletions(-)
+ rename dev-java/netbeans-apisupport/{netbeans-apisupport-9999_p20150717.ebuild => netbeans-apisupport-9999_p20150718.ebuild} (97%)
+ rename dev-java/netbeans-extide/{netbeans-extide-9999_p20150717.ebuild => netbeans-extide-9999_p20150718.ebuild} (97%)
+ rename dev-java/netbeans-harness/{netbeans-harness-9999_p20150717.ebuild => netbeans-harness-9999_p20150718.ebuild} (97%)
+ rename dev-java/netbeans-ide/{netbeans-ide-9999_p20150717.ebuild => netbeans-ide-9999_p20150718.ebuild} (99%)
+ rename dev-java/netbeans-java/{netbeans-java-9999_p20150717.ebuild => netbeans-java-9999_p20150718.ebuild} (99%)
+ rename dev-java/netbeans-javafx/{netbeans-javafx-9999_p20150717.ebuild => netbeans-javafx-9999_p20150718.ebuild} (98%)
+ rename dev-java/netbeans-nb/{netbeans-nb-9999_p20150717.ebuild => netbeans-nb-9999_p20150718.ebuild} (98%)
+ rename dev-java/netbeans-platform/{netbeans-platform-9999_p20150717.ebuild => netbeans-platform-9999_p20150718.ebuild} (99%)
+ rename dev-java/netbeans-profiler/{netbeans-profiler-9999_p20150717.ebuild => netbeans-profiler-9999_p20150718.ebuild} (97%)
+ rename dev-java/netbeans-websvccommon/{netbeans-websvccommon-9999_p20150717.ebuild => netbeans-websvccommon-9999_p20150718.ebuild} (96%)
+ rename dev-util/netbeans/{netbeans-9999_p20150717.ebuild => netbeans-9999_p20150718.ebuild} (98%)
+ rename media-plugins/audacious-plugins/{audacious-plugins-3.6_beta1.ebuild => audacious-plugins-3.6.2.ebuild} (97%)
+ create mode 100644 media-plugins/audacious-plugins/audacious-plugins-3.7_alpha1.ebuild
+ rename media-sound/audacious/{audacious-3.6_beta1.ebuild => audacious-3.6.2.ebuild} (98%)
+ create mode 100644 media-sound/audacious/audacious-3.7_alpha1.ebuild
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded

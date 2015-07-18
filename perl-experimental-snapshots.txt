@@ -19,7 +19,26 @@
 $ pmaint sync /home/mgorny/repos/perl-experimental-snapshots
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/gentoo-perl/perl-experimental-snapshots
+   7ca722e..9487390  master     -> origin/master
+Updating 7ca722e..9487390
+Fast-forward
+ ...ncer2-0.157.1.ebuild => Dancer2-0.161.0.ebuild} | 31 +++++++------------
+ dev-perl/Dancer2/Manifest                          |  2 +-
+ .../HTTP-Headers-Fast-0.180.0.ebuild               | 36 ++++++++++++++++++++++
+ dev-perl/HTTP-Headers-Fast/Manifest                |  1 +
+ dev-perl/HTTP-Headers-Fast/metadata.xml            | 13 ++++++++
+ metadata/md5-cache/dev-perl/Dancer2-0.157.1        | 13 --------
+ metadata/md5-cache/dev-perl/Dancer2-0.161.0        | 13 ++++++++
+ .../md5-cache/dev-perl/HTTP-Headers-Fast-0.180.0   | 13 ++++++++
+ 8 files changed, 88 insertions(+), 34 deletions(-)
+ rename dev-perl/Dancer2/{Dancer2-0.157.1.ebuild => Dancer2-0.161.0.ebuild} (86%)
+ create mode 100644 dev-perl/HTTP-Headers-Fast/HTTP-Headers-Fast-0.180.0.ebuild
+ create mode 100644 dev-perl/HTTP-Headers-Fast/Manifest
+ create mode 100644 dev-perl/HTTP-Headers-Fast/metadata.xml
+ delete mode 100644 metadata/md5-cache/dev-perl/Dancer2-0.157.1
+ create mode 100644 metadata/md5-cache/dev-perl/Dancer2-0.161.0
+ create mode 100644 metadata/md5-cache/dev-perl/HTTP-Headers-Fast-0.180.0
 *** syncing '/home/mgorny/repos/perl-experimental-snapshots'...
 *** synced '/home/mgorny/repos/perl-experimental-snapshots'
  * Sync succeeded
