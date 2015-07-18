@@ -16,11 +16,32 @@
 $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/proj/musl
+   c9c73c2..60b3ece  master     -> origin/master
+Updating c9c73c2..60b3ece
+Fast-forward
+ app-text/texlive-core/Manifest                     | 121 ++++++++
+ app-text/texlive-core/texlive-core-2014-r99.ebuild | 341 +++++++++++++++++++++
+ sys-devel/gcc/Manifest                             |  13 +-
+ sys-devel/gcc/gcc-4.7.4-r99.ebuild                 |   7 +-
+ sys-devel/gcc/gcc-4.8.4-r99.ebuild                 |   2 +-
+ sys-devel/gcc/gcc-4.8.5-r99.ebuild                 |  64 ++++
+ 6 files changed, 541 insertions(+), 7 deletions(-)
+ create mode 100644 app-text/texlive-core/texlive-core-2014-r99.ebuild
+ create mode 100644 sys-devel/gcc/gcc-4.8.5-r99.ebuild
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
 $ pmaint regen -t 2 musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.4-r99 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.8.5-r99 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
+WARNING: 'use' function invoked by sys-devel/gcc-4.7.4-r99 during metadata regeneration.
+WARNING: Please ensure upstream is aware of it and working to remove it.
+
  * Cache regenerated successfully
