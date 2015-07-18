@@ -22,16 +22,21 @@
 $ pmaint sync /home/mgorny/repos/haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/gentoo-haskell/gentoo-haskell
-   cdb91fc..88b663b  master     -> origin/master
-Updating cdb91fc..88b663b
+   88b663b..dbed53e  master     -> origin/master
+Updating 88b663b..dbed53e
 Fast-forward
- dev-haskell/text-binary/Manifest                 |  1 +
- dev-haskell/text-binary/metadata.xml             | 10 +++++++++
- dev-haskell/text-binary/text-binary-0.2.1.ebuild | 27 ++++++++++++++++++++++++
- 3 files changed, 38 insertions(+)
- create mode 100644 dev-haskell/text-binary/Manifest
- create mode 100644 dev-haskell/text-binary/metadata.xml
- create mode 100644 dev-haskell/text-binary/text-binary-0.2.1.ebuild
+ dev-haskell/matrix/Manifest                        |  2 +-
+ ...matrix-0.3.4.3.ebuild => matrix-0.3.4.4.ebuild} |  2 +-
+ dev-haskell/monad-peel/Manifest                    |  2 +-
+ ...-peel-0.1.1-r1.ebuild => monad-peel-0.2.ebuild} | 11 ++---
+ dev-haskell/rdf4h/Manifest                         |  1 +
+ .../rdf4h/files/rdf4h-1.3.1-fgl-5.5.1.0.patch      | 18 +++++++
+ dev-haskell/rdf4h/rdf4h-1.3.1.ebuild               | 57 ++++++++++++++++++++++
+ 7 files changed, 82 insertions(+), 11 deletions(-)
+ rename dev-haskell/matrix/{matrix-0.3.4.3.ebuild => matrix-0.3.4.4.ebuild} (90%)
+ rename dev-haskell/monad-peel/{monad-peel-0.1.1-r1.ebuild => monad-peel-0.2.ebuild} (74%)
+ create mode 100644 dev-haskell/rdf4h/files/rdf4h-1.3.1-fgl-5.5.1.0.patch
+ create mode 100644 dev-haskell/rdf4h/rdf4h-1.3.1.ebuild
 *** syncing '/home/mgorny/repos/haskell'...
 *** synced '/home/mgorny/repos/haskell'
  * Sync succeeded
