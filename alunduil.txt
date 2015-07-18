@@ -19,7 +19,21 @@
  u'supported': True}
 $ pmaint sync /home/mgorny/repos/alunduil
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/alunduil/alunduil-overlay
+   2981030..035bc4b  master     -> origin/master
+Updating 2981030..035bc4b
+Fast-forward
+ app-emulation/rkt/Manifest                         |  3 --
+ app-emulation/rkt/rkt-0.6.1.ebuild                 | 42 --------------------
+ dev-python/torment/Manifest                        |  3 ++
+ .../rkt => dev-python/torment}/metadata.xml        |  0
+ dev-python/torment/torment-1.0.0.ebuild            | 46 ++++++++++++++++++++++
+ 5 files changed, 49 insertions(+), 45 deletions(-)
+ delete mode 100644 app-emulation/rkt/Manifest
+ delete mode 100644 app-emulation/rkt/rkt-0.6.1.ebuild
+ create mode 100644 dev-python/torment/Manifest
+ rename {app-emulation/rkt => dev-python/torment}/metadata.xml (100%)
+ create mode 100644 dev-python/torment/torment-1.0.0.ebuild
 *** syncing '/home/mgorny/repos/alunduil'...
 *** synced '/home/mgorny/repos/alunduil'
  * Sync succeeded
