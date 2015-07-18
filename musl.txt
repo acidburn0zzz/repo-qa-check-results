@@ -17,21 +17,17 @@ $ pmaint sync /home/mgorny/repos/musl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://anongit.gentoo.org/proj/musl
-   60b3ece..65384d1  master     -> origin/master
-Updating 60b3ece..65384d1
+   65384d1..5aa24c0  master     -> origin/master
+Updating 65384d1..5aa24c0
 Fast-forward
- sys-process/lsof/Manifest                          |  9 +--
- sys-process/lsof/files/lsof-4.85-arg.c.patch       | 30 --------
- .../lsof-4.85-fix-missing-netinet_tcp_h.patch      | 11 ---
- .../lsof/files/lsof-4.88-linux.dnode.c.patch       | 21 ++++++
- sys-process/lsof/lsof-4.85-r99.ebuild              | 81 ----------------------
- .../{lsof-4.87-r99.ebuild => lsof-4.88-r99.ebuild} | 13 ++--
- 6 files changed, 33 insertions(+), 132 deletions(-)
- delete mode 100644 sys-process/lsof/files/lsof-4.85-arg.c.patch
- delete mode 100644 sys-process/lsof/files/lsof-4.85-fix-missing-netinet_tcp_h.patch
- create mode 100644 sys-process/lsof/files/lsof-4.88-linux.dnode.c.patch
- delete mode 100644 sys-process/lsof/lsof-4.85-r99.ebuild
- rename sys-process/lsof/{lsof-4.87-r99.ebuild => lsof-4.88-r99.ebuild} (85%)
+ dev-libs/nss/Manifest                              |   6 +-
+ dev-libs/nss/files/nss-3.15-gentoo-fixups.patch    | 238 ---------------------
+ dev-libs/nss/files/nss-cacert-class3.patch         | 204 ++++++++++++++++++
+ ...nss-3.17.4-r99.ebuild => nss-3.19.2-r99.ebuild} |  21 +-
+ 4 files changed, 220 insertions(+), 249 deletions(-)
+ delete mode 100644 dev-libs/nss/files/nss-3.15-gentoo-fixups.patch
+ create mode 100644 dev-libs/nss/files/nss-cacert-class3.patch
+ rename dev-libs/nss/{nss-3.17.4-r99.ebuild => nss-3.19.2-r99.ebuild} (94%)
 *** syncing '/home/mgorny/repos/musl'...
 *** synced '/home/mgorny/repos/musl'
  * Sync succeeded
