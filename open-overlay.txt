@@ -17,148 +17,39 @@ $ pmaint sync /home/mgorny/repos/open-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
 From git://github.com/pantera31752/open-overlay
-   9111c28..1f2b1c0  master     -> origin/master
-Updating 9111c28..1f2b1c0
+   1f2b1c0..ab11752  master     -> origin/master
+Updating 1f2b1c0..ab11752
 Fast-forward
- app-misc/subsurface/Manifest                       |   8 +-
- app-misc/subsurface/subsurface-4.3.ebuild          |  62 ---
- app-misc/subsurface/subsurface-4.4.0.ebuild        |  62 ---
- app-misc/subsurface/subsurface-4.4.1.ebuild        |  61 ---
- dev-python/pygobject/Manifest                      |  10 -
- .../pygobject-2.28.3-fix-codegen-location.patch    |  64 ---
- .../files/pygobject-2.28.3-make_check.patch        |  76 ----
- ...t-2.28.3-support_multiple_python_versions.patch | 103 -----
- .../pygobject-2.28.6-disable-failing-tests.patch   |  98 -----
- .../files/pygobject-2.28.6-gio-types-2.32.patch    |  50 ---
- .../pygobject-2.28.6-glib-2.36-class_init.patch    | 315 --------------
- .../files/pygobject-2.28.6-set_qdata.patch         |  28 --
- .../pygobject-2.28.6-tests-no-introspection.patch  |  33 --
- dev-python/pygobject/pygobject-3.16.0-r1.ebuild    |  97 -----
- dev-util/bluej/Manifest                            |   2 -
- dev-util/bluej/bluej-3.1.4.ebuild                  |  57 ---
- media-gfx/simple-scan/Manifest                     |   4 +-
- ...can-3.15.4.ebuild => simple-scan-3.17.3.ebuild} |   0
- media-libs/mesa/Manifest                           |  16 -
- media-libs/mesa/mesa-10.5.3.ebuild                 | 453 -------------------
- media-libs/mesa/mesa-10.5.7.ebuild                 | 453 -------------------
- media-libs/mesa/mesa-10.6.0.ebuild                 | 453 -------------------
- media-libs/mesa/mesa-10.6.0_rc1.ebuild             | 453 -------------------
- media-libs/mesa/mesa-10.6.0_rc2.ebuild             | 453 -------------------
- media-libs/mesa/mesa-10.6.0_rc3.ebuild             | 453 -------------------
- media-libs/mesa/mesa-10.6.1.ebuild                 | 453 -------------------
- media-libs/mesa/mesa-10.6.2.ebuild                 | 453 -------------------
- net-analyzer/mate-netspeed/Manifest                |   2 -
- .../mate-netspeed/mate-netspeed-1.10.0.ebuild      |  38 --
- net-libs/webkit-gtk/Manifest                       |   2 -
- net-libs/webkit-gtk/webkit-gtk-2.9.2.ebuild        | 237 ----------
- sys-apps/lm_sensors/Manifest                       |   2 -
- sys-apps/lm_sensors/lm_sensors-3.3.5.ebuild        | 108 -----
- sys-apps/systemd/Manifest                          |  10 -
- ...k-for-__BYTE_ORDER-__BIG_ENDIAN-when-chec.patch | 116 -----
- ...icitly-include-endian.h-wherever-we-want-.patch |  53 ---
- ...e-MD-from-block-device-ownership-event-lo.patch |  54 ---
- sys-apps/systemd/files/216-lz4-build.patch         |  19 -
- .../systemd/files/216-tmpfiles-setup-dev.patch     |  21 -
- .../systemd/files/217-systemd-consoled.service.in  |  15 -
- .../files/218-Dont-enable-audit-by-default.patch   |  30 --
- sys-apps/systemd/systemd-219-r1.ebuild             | 481 ---------------------
- sys-kernel/git-sources/Manifest                    |   7 -
- sys-kernel/git-sources/git-sources-4.1_rc5.ebuild  |  38 --
- sys-kernel/git-sources/git-sources-4.2_rc1.ebuild  |  38 --
- sys-kernel/longterm-sources/Manifest               |   4 -
- .../longterm-sources-2.6.32.65.ebuild              |  18 -
- .../longterm-sources-2.6.32.66.ebuild              |  18 -
- sys-kernel/raspberrypi-sources/Manifest            |   1 -
- .../raspberrypi-sources-3.18.9999.ebuild           |  26 --
- sys-kernel/rt-sources/Manifest                     |  12 -
- .../rt-sources/rt-sources-3.14.29_p26.ebuild       |  42 --
- sys-kernel/rt-sources/rt-sources-4.0.5_p4.ebuild   |  42 --
- www-client/vivaldi/Manifest                        |   9 +-
- www-client/vivaldi/vivaldi-1.0.118.19-r1.ebuild    | 107 -----
- ...62.9-r1.ebuild => vivaldi-1.0.219.50-r1.ebuild} |   8 +-
- www-plugins/adobe-flash/Manifest                   |   6 -
- .../adobe-flash/adobe-flash-11.2.202.491.ebuild    | 248 -----------
- .../adobe-flash/files/flashplugin-lahf-fix.c       |  29 --
- www-plugins/adobe-flash/files/mms.cfg              | 117 -----
- x11-base/xorg-server/Manifest                      |   9 -
- x11-base/xorg-server/files/xdm-setup.initd-1       |  14 -
- x11-base/xorg-server/files/xdm.confd-4             |  10 -
- x11-base/xorg-server/files/xdm.initd-11            | 231 ----------
- .../files/xorg-server-1.12-unloadsubmodule.patch   |  53 ---
- .../files/xorg-server-1.17-ia64-fix_inx_outx.patch |  59 ---
- ...rver-1.17-support-multiple-Files-sections.patch |  65 ---
- x11-base/xorg-server/files/xorg-sets.conf          |   6 -
- x11-base/xorg-server/xorg-server-1.17.2.ebuild     | 239 ----------
- x11-misc/mate-notification-daemon/Manifest         |   2 -
- .../mate-notification-daemon-1.9.90.ebuild         |  70 ---
- x11-terms/mate-terminal/Manifest                   |   4 -
- .../mate-terminal/mate-terminal-1.10.0.ebuild      |  51 ---
- x11-terms/mate-terminal/mate-terminal-1.9.1.ebuild |  51 ---
- 74 files changed, 10 insertions(+), 7582 deletions(-)
- mode change 100755 => 100644 app-misc/subsurface/Manifest
- delete mode 100644 app-misc/subsurface/subsurface-4.3.ebuild
- delete mode 100644 app-misc/subsurface/subsurface-4.4.0.ebuild
- delete mode 100644 app-misc/subsurface/subsurface-4.4.1.ebuild
- delete mode 100644 dev-python/pygobject/Manifest
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.3-fix-codegen-location.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.3-make_check.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.3-support_multiple_python_versions.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.6-disable-failing-tests.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.6-gio-types-2.32.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.6-glib-2.36-class_init.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.6-set_qdata.patch
- delete mode 100644 dev-python/pygobject/files/pygobject-2.28.6-tests-no-introspection.patch
- delete mode 100644 dev-python/pygobject/pygobject-3.16.0-r1.ebuild
- delete mode 100644 dev-util/bluej/bluej-3.1.4.ebuild
- rename media-gfx/simple-scan/{simple-scan-3.15.4.ebuild => simple-scan-3.17.3.ebuild} (100%)
- mode change 100755 => 100644 media-libs/mesa/Manifest
- delete mode 100644 media-libs/mesa/mesa-10.5.3.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.5.7.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.0.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.0_rc1.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.0_rc2.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.0_rc3.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.1.ebuild
- delete mode 100644 media-libs/mesa/mesa-10.6.2.ebuild
- delete mode 100644 net-analyzer/mate-netspeed/mate-netspeed-1.10.0.ebuild
- delete mode 100644 net-libs/webkit-gtk/webkit-gtk-2.9.2.ebuild
- delete mode 100644 sys-apps/lm_sensors/lm_sensors-3.3.5.ebuild
- delete mode 100644 sys-apps/systemd/Manifest
- delete mode 100644 sys-apps/systemd/files/215-0001-always-check-for-__BYTE_ORDER-__BIG_ENDIAN-when-chec.patch
- delete mode 100644 sys-apps/systemd/files/215-0002-endian-explicitly-include-endian.h-wherever-we-want-.patch
- delete mode 100644 sys-apps/systemd/files/215-0003-udev-exclude-MD-from-block-device-ownership-event-lo.patch
- delete mode 100644 sys-apps/systemd/files/216-lz4-build.patch
- delete mode 100644 sys-apps/systemd/files/216-tmpfiles-setup-dev.patch
- delete mode 100644 sys-apps/systemd/files/217-systemd-consoled.service.in
- delete mode 100644 sys-apps/systemd/files/218-Dont-enable-audit-by-default.patch
- delete mode 100644 sys-apps/systemd/systemd-219-r1.ebuild
- mode change 100755 => 100644 sys-kernel/git-sources/Manifest
- delete mode 100644 sys-kernel/git-sources/git-sources-4.1_rc5.ebuild
- delete mode 100644 sys-kernel/git-sources/git-sources-4.2_rc1.ebuild
- delete mode 100644 sys-kernel/longterm-sources/longterm-sources-2.6.32.65.ebuild
- delete mode 100644 sys-kernel/longterm-sources/longterm-sources-2.6.32.66.ebuild
- delete mode 100644 sys-kernel/raspberrypi-sources/raspberrypi-sources-3.18.9999.ebuild
- delete mode 100644 sys-kernel/rt-sources/rt-sources-3.14.29_p26.ebuild
- delete mode 100644 sys-kernel/rt-sources/rt-sources-4.0.5_p4.ebuild
- delete mode 100644 www-client/vivaldi/vivaldi-1.0.118.19-r1.ebuild
- rename www-client/vivaldi/{vivaldi-1.0.162.9-r1.ebuild => vivaldi-1.0.219.50-r1.ebuild} (89%)
- delete mode 100644 www-plugins/adobe-flash/Manifest
- delete mode 100644 www-plugins/adobe-flash/adobe-flash-11.2.202.491.ebuild
- delete mode 100644 www-plugins/adobe-flash/files/flashplugin-lahf-fix.c
- delete mode 100644 www-plugins/adobe-flash/files/mms.cfg
- delete mode 100644 x11-base/xorg-server/Manifest
- delete mode 100644 x11-base/xorg-server/files/xdm-setup.initd-1
- delete mode 100644 x11-base/xorg-server/files/xdm.confd-4
- delete mode 100644 x11-base/xorg-server/files/xdm.initd-11
- delete mode 100644 x11-base/xorg-server/files/xorg-server-1.12-unloadsubmodule.patch
- delete mode 100644 x11-base/xorg-server/files/xorg-server-1.17-ia64-fix_inx_outx.patch
- delete mode 100644 x11-base/xorg-server/files/xorg-server-1.17-support-multiple-Files-sections.patch
- delete mode 100644 x11-base/xorg-server/files/xorg-sets.conf
- delete mode 100644 x11-base/xorg-server/xorg-server-1.17.2.ebuild
- delete mode 100644 x11-misc/mate-notification-daemon/mate-notification-daemon-1.9.90.ebuild
- mode change 100755 => 100644 x11-terms/mate-terminal/Manifest
- delete mode 100644 x11-terms/mate-terminal/mate-terminal-1.10.0.ebuild
- delete mode 100644 x11-terms/mate-terminal/mate-terminal-1.9.1.ebuild
+ app-emulation/vmware-player/Manifest               |  12 +-
+ .../vmware-player-6.0.4.2249910.ebuild             | 247 ----------
+ .../vmware-player-6.0.5.2443746.ebuild             | 247 ----------
+ .../vmware-player-7.0.0.2305329.ebuild             | 246 ----------
+ ...4.ebuild => vmware-player-7.1.2.2780323.ebuild} |   2 +-
+ app-emulation/vmware-tools/Manifest                |  60 +--
+ .../vmware-tools/vmware-tools-9.6.2.1895310.ebuild |  53 ---
+ .../vmware-tools/vmware-tools-9.6.2.2249910.ebuild |  53 ---
+ .../vmware-tools/vmware-tools-9.6.4.2443746.ebuild |  53 ---
+ .../vmware-tools/vmware-tools-9.9.0.2305329.ebuild |  51 ---
+ ...24.ebuild => vmware-tools-9.9.3.2780323.ebuild} |   2 +-
+ app-emulation/vmware-workstation/Manifest          |  12 +-
+ .../vmware-workstation-10.0.4.2249910.ebuild       | 495 ---------------------
+ .../vmware-workstation-10.0.5.2443746.ebuild       | 495 ---------------------
+ .../vmware-workstation-11.1.0.2496824.ebuild       | 494 --------------------
+ ...ld => vmware-workstation-11.1.2.2780323.ebuild} |   2 +-
+ 16 files changed, 14 insertions(+), 2510 deletions(-)
+ delete mode 100644 app-emulation/vmware-player/vmware-player-6.0.4.2249910.ebuild
+ delete mode 100644 app-emulation/vmware-player/vmware-player-6.0.5.2443746.ebuild
+ delete mode 100644 app-emulation/vmware-player/vmware-player-7.0.0.2305329.ebuild
+ rename app-emulation/vmware-player/{vmware-player-7.1.0.2496824.ebuild => vmware-player-7.1.2.2780323.ebuild} (99%)
+ delete mode 100644 app-emulation/vmware-tools/vmware-tools-9.6.2.1895310.ebuild
+ delete mode 100644 app-emulation/vmware-tools/vmware-tools-9.6.2.2249910.ebuild
+ delete mode 100644 app-emulation/vmware-tools/vmware-tools-9.6.4.2443746.ebuild
+ delete mode 100644 app-emulation/vmware-tools/vmware-tools-9.9.0.2305329.ebuild
+ rename app-emulation/vmware-tools/{vmware-tools-9.9.2.2496824.ebuild => vmware-tools-9.9.3.2780323.ebuild} (97%)
+ delete mode 100644 app-emulation/vmware-workstation/vmware-workstation-10.0.4.2249910.ebuild
+ delete mode 100644 app-emulation/vmware-workstation/vmware-workstation-10.0.5.2443746.ebuild
+ delete mode 100644 app-emulation/vmware-workstation/vmware-workstation-11.1.0.2496824.ebuild
+ rename app-emulation/vmware-workstation/{vmware-workstation-11.0.0.2305329.ebuild => vmware-workstation-11.1.2.2780323.ebuild} (99%)
 *** syncing '/home/mgorny/repos/open-overlay'...
 *** synced '/home/mgorny/repos/open-overlay'
  * Sync succeeded
