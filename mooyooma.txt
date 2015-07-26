@@ -14,13 +14,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync mooyooma
-WARNING:pkgcore:repository at location '/home/mgorny/repos/maekke' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/maekke', named 'maekke', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/lua' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/lua', named 'lua', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/maekke' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/maekke', named 'maekke', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing mooyooma
 *** synced mooyooma
@@ -28,14 +22,14 @@ Already up-to-date.
 $ pmaint regen -t 2 mooyooma
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/libvmime-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/App-Asciio-1.51.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/confuse-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/cppblog-0.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/cppcms-1.0.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/curlcpp-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Eval-Context-0.09.11!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/easybuild-scripts-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/cppcms-1.0.5caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/curlcpp-9999
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/App-Asciio-1.51.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Eval-Context-0.09.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/gumbo-parser-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/libvmime-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/easybuild-scripts-9999
 
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/kernel-configurator-0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/gumbo-parser-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/cppblog-0.1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/confuse-9999
  * Cache regenerated successfully

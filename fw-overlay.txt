@@ -14,7 +14,19 @@
 $ pmaint sync fw-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/no-hope/fw-overlay
+   e47cf4a..e145f28  master     -> origin/master
+   21d8ab2..254e0e1  develop    -> origin/develop
+Updating e47cf4a..e145f28
+Fast-forward
+ dev-java/sbt-bin/Manifest                  |  2 +-
+ dev-java/sbt-bin/sbt-bin-0.13.0.ebuild     | 32 ------------------------
+ dev-java/sbt-bin/sbt-bin-0.13.8.ebuild     | 39 ++++++++++++++++++++++++++++++
+ metadata/md5-cache/dev-java/sbt-bin-0.13.8 | 13 ++++++++++
+ 4 files changed, 53 insertions(+), 33 deletions(-)
+ delete mode 100644 dev-java/sbt-bin/sbt-bin-0.13.0.ebuild
+ create mode 100644 dev-java/sbt-bin/sbt-bin-0.13.8.ebuild
+ create mode 100644 metadata/md5-cache/dev-java/sbt-bin-0.13.8
 *** syncing fw-overlay
 *** synced fw-overlay
  * Sync succeeded

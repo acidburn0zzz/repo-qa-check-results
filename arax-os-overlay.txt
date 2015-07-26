@@ -15,8 +15,6 @@
  u'supported': True}
 $ pmaint sync arax-os-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing arax-os-overlay
@@ -25,12 +23,12 @@ Already up-to-date.
 $ pmaint regen -t 2 arax-os-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-troy-eng-hy-1.0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/ept-get-1.7
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-eng-ge-1.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/epkg-1.3
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/arnamu-fonts-04
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/epkg-1.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-eng-ge-1.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/Arian-Grqi-02
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-hy-ru-1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/Arian-Grqi-02
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/ept-get-1.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-freelang-eng-hy-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/stardict-troy-eng-hy-1.0
  * Cache regenerated successfully

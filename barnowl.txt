@@ -15,8 +15,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync barnowl
-WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/LaraCraft93' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/LaraCraft93', named 'LaraCraft93', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing barnowl
@@ -25,13 +25,13 @@ Already up-to-date.
 $ pmaint regen -t 2 barnowl
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Twitter-Lite-0.12006
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Ouch-0.0408
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/barnowl-1.9caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/AnyEvent-IRC-0.97
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Object-Event-1.23
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/barnowl-1.8
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/AnyEvent-IRC-0.97
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/URI-Encode-0.09
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/MIME-Base64-URLSafe-0.01
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Twitter-Lite-0.12006
+!!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/barnowl-1.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/barnowl-1.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Ouch-0.0408
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/MIME-Base64-URLSafe-0.01
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/zephyr-3.0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Object-Event-1.23
  * Cache regenerated successfully
