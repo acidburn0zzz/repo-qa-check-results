@@ -11,14 +11,20 @@
  u'sources': [(u'git://github.com/Sabayon/systemd-love.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/systemd-love
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync systemd-love
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/systemd-love'...
-*** synced '/home/mgorny/repos/systemd-love'
+*** syncing systemd-love
+*** synced systemd-love
  * Sync succeeded
 $ pmaint regen -t 2 systemd-love
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pambase-20120417-r4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/systemd-204-r20
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-init-0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/sysvinit-2.88-r9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/systemd-208-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/systemd-shim-3
  * Cache regenerated successfully

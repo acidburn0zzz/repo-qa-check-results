@@ -17,14 +17,17 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/alexcepoi
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync alexcepoi
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/alexcepoi'...
-*** synced '/home/mgorny/repos/alexcepoi'
+*** syncing alexcepoi
+*** synced alexcepoi
  * Sync succeeded
 $ pmaint regen -t 2 alexcepoi
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rcm-1.2.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Linux-Distribution-0.210.0!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Log-LogLite-0.820.0
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/linode-longview-9999
  * Cache regenerated successfully

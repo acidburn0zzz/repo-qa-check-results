@@ -14,14 +14,29 @@
                u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/gentoo
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
-*** syncing '/home/mgorny/repos/gentoo'...
-*** synced '/home/mgorny/repos/gentoo'
+$ pmaint sync gentoo
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+From https://github.com/gentoo/gentoo-portage-rsync-mirror
+   1c5998f..c330c20  master     -> origin/master
+Updating 1c5998f..c330c20
+Fast-forward
+ app-emulation/vice/ChangeLog                              |  6 +++++-
+ app-emulation/vice/Manifest                               |  5 +++--
+ app-emulation/vice/files/vice-2.4.20-xf86extensions.patch | 15 +++++++++++++++
+ app-emulation/vice/vice-2.4.20.ebuild                     |  5 +++--
+ metadata/dtd/timestamp.chk                                |  2 +-
+ metadata/glsa/timestamp.chk                               |  2 +-
+ metadata/md5-cache/app-emulation/vice-2.4.20              |  2 +-
+ metadata/news/timestamp.chk                               |  2 +-
+ metadata/timestamp                                        |  2 +-
+ metadata/timestamp.chk                                    |  2 +-
+ metadata/timestamp.x                                      |  2 +-
+ 11 files changed, 33 insertions(+), 12 deletions(-)
+ create mode 100644 app-emulation/vice/files/vice-2.4.20-xf86extensions.patch
+*** syncing gentoo
+*** synced gentoo
  * Sync succeeded
 $ pmaint regen -t 2 gentoo
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

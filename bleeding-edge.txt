@@ -14,11 +14,11 @@
  u'status': u'unofficial',
  u'supported': True}
  * Adding new repository
-$ pmaint sync /home/mgorny/repos/bleeding-edge
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync bleeding-edge
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Cloning into '/home/mgorny/repos/bleeding-edge'...
 fatal: repository 'https://git.gitorious.org/jasiu/bleeding-edge.git/' not found
-*** syncing '/home/mgorny/repos/bleeding-edge'...
-*** failed syncing '/home/mgorny/repos/bleeding-edge'
+*** syncing bleeding-edge
+*** failed syncing bleeding-edge
  * Sync failed with 1

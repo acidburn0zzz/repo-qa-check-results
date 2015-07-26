@@ -12,134 +12,51 @@
               (u'https://github.com/kormoc/Ebuilds.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/kormoc
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync kormoc
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/kormoc'...
-*** synced '/home/mgorny/repos/kormoc'
+*** syncing kormoc
+*** synced kormoc
  * Sync succeeded
 $ pmaint regen -t 2 kormoc
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/diamond-3.1.142
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/ivtv-utils-1.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/lirc-0.8.7_pre1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/lirc-0.9.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/plzip-0.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/miro-2.5.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/fusecompress-2.6
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_sed-0.0.1!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/lzlib-1.3
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dns/bind-9.9.1_p1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/carbon-0.9.10
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/help2man-1.40.10-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_spdy-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_pagespeed-9999-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/raop-play-0.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/carbon-0.9.9-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-tagging-0.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-tagging-0.3.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/graphite-web-0.9.9-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/graphite-web-0.9.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/tvnamer-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/whisper-0.9.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/txAMQP-0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/whisper-0.9.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/percona-toolkit-2.2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/percona-toolkit-2.2.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/maatkit-7540
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/mysql-5.1.47
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/percona-5.6.14!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/percona-5.5.35
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/percona-5.5.34
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/tokudb-6.6.4
 
-!!! ERROR: sys-fs/fusecompress-2.6 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-
-!!! ERROR: dev-db/mysql-5.1.47 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-
-!!! ERROR: dev-db/maatkit-7540 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '167' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-
-!!! ERROR: dev-db/percona-toolkit-2.2.6 failed.
-
-!!! ERROR: dev-db/percona-toolkit-2.2.5 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '163' 'depend'
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/mysql/mysql-5.1.47.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!            mysql-5.1.47.ebuild, line  13:  Called inherit 'toolchain-funcs' 'mysql'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
- * 
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * "/home/mgorny/repos/kormoc/media-tv/miro/miro-2.5.2.ebuild":
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
- * Deprecation Warning: Usage of distutils.eclass in packages not supporting installation
- * for multiple Python ABIs in EAPI <=2 is deprecated.
- * The ebuild should to be fixed. Please report a bug, if it has not been already reported.
- * 
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/maatkit/maatkit-7540.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'mysql'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for mysql failed
-
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '214' 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/sys-fs/fusecompress/fusecompress-2.6.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!            maatkit-7540.ebuild, line   5:  Called inherit 'perl-app'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!        fusecompress-2.6.ebuild, line   4:  Called inherit 'git'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.5.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
-
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   percona-toolkit-2.2.5.ebuild, line   5:  Called inherit 'perl-app'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/kormoc/dev-db/percona-toolkit/percona-toolkit-2.2.6.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!   percona-toolkit-2.2.6.ebuild, line   5:  Called inherit 'perl-app'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI= is not supported by perl-module.eclass
-
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: sys-fs/fusecompress-2.6
-!!! caught exception inherit requires an unknown eclass, mysql cannot be found while processing ebuild src: dev-db/mysql-5.1.47
-!!! caught exception Metadata Exception: pkg ebuild src: media-tv/miro-2.5.2, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: media-tv/miro-2.5.2
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/maatkit-7540
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-db/percona-toolkit-2.2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/lirc-0.9.0_pre1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/tokudb-7.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/znc-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/bip-0.8.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/mysql-5.5-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/mysql-5.6
  * Cache regenerated successfully

@@ -13,14 +13,23 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/moaxcp
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync moaxcp
+WARNING:pkgcore:repository at location '/home/mgorny/repos/maekke' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/maekke', named 'maekke', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/lua' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/lua', named 'lua', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/maekke' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/maekke', named 'maekke', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
-*** syncing '/home/mgorny/repos/moaxcp'...
-*** synced '/home/mgorny/repos/moaxcp'
+*** syncing moaxcp
+*** synced moaxcp
  * Sync succeeded
 $ pmaint regen -t 2 moaxcp
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/notion-3_p2015061300
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/notion-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/recMD5-1.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/notion-3_p2014052800
  * Cache regenerated successfully

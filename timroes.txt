@@ -13,14 +13,23 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/timroes
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync timroes
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/timroes'...
-*** synced '/home/mgorny/repos/timroes'
+*** syncing timroes
+*** synced timroes
  * Sync succeeded
 $ pmaint regen -t 2 timroes
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.6.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/eclipse-mat-1.4.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/symbolfonts-1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.7.2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/kingsoft-office-0.12.3_alpha
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/webstorm-139.252
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/kingsoft-office-0.16.1_alpha
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/kingsoft-office-0.15.0_alpha
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/cloudstation-3475
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/kingsoft-office-0.12.4_alpha
  * Cache regenerated successfully

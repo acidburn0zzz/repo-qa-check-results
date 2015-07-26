@@ -15,13 +15,27 @@
               (u'git@github.com:urras/gentoo-overlay-tox.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/tox-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync tox-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/tox-overlay'...
-*** synced '/home/mgorny/repos/tox-overlay'
+*** syncing tox-overlay
+*** synced tox-overlay
  * Sync succeeded
 $ pmaint regen -t 2 tox-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-scheme/libopenal-racket-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/qtox-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/blight-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/tox-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/ratox-9999
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-scheme/libtoxcore-racket-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pytox-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/toxbot-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/tox-prpl-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/toxvpn-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libfilteraudio-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/toxic-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/utox-9999
  * Cache regenerated successfully

@@ -15,14 +15,16 @@
               (u'git+ssh://git@git.gentoo.org/user/silmano.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/silmano
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync silmano
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/silmano'...
-*** synced '/home/mgorny/repos/silmano'
+*** syncing silmano
+*** synced silmano
  * Sync succeeded
 $ pmaint regen -t 2 silmano
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/eyefiserver-2.3_rc2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/abgx360-1.0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/abgx360gui-1.0.2
  * Cache regenerated successfully

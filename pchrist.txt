@@ -15,13 +15,21 @@
               (u'git+ssh://git@git.gentoo.org/dev/pchrist.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/pchrist
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync pchrist
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named 'mysql', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/pchrist'...
-*** synced '/home/mgorny/repos/pchrist'
+*** syncing pchrist
+*** synced pchrist
  * Sync succeeded
 $ pmaint regen -t 2 pchrist
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/gnu-smalltalk-3.2.5
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/clips-6.24
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/geographiclib-1.11
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/gnu-smalltalk-3.2.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/geographiclib-1.11-r4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/freetalk-9999
  * Cache regenerated successfully

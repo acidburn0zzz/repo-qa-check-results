@@ -12,14 +12,24 @@
               (u'https://github.com/soehest/gentoo.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/soehest
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync soehest
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/soehest'...
-*** synced '/home/mgorny/repos/soehest'
+*** syncing soehest
+*** synced soehest
  * Sync succeeded
 $ pmaint regen -t 2 soehest
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sabnzbd-0.7.18
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/maraschino-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sabnzbd-0.7.20!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sabnzbd-0.7.16
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sabnzbd-0.7.19
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/couchpotato-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sickbeard-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/spotweb-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/moviegrabber-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/headphones-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-nntp/sabnzbd-0.7.17
  * Cache regenerated successfully

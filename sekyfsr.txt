@@ -16,121 +16,149 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/sekyfsr
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync sekyfsr
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/sekyfsr'...
-*** synced '/home/mgorny/repos/sekyfsr'
+*** syncing sekyfsr
+*** synced sekyfsr
  * Sync succeeded
 $ pmaint regen -t 2 sekyfsr
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/pango-1.28.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/pango-1.28.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/pango-1.29.4
 
-!!! ERROR: app-benchmarks/cuda_dgemmSweep-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '222' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sekyfsr/app-benchmarks/cuda_dgemmSweep/cuda_dgemmSweep-9999.ebuild'
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-295.41!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/pango-1.30.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/pango-1.30.1
 
-!!! ERROR: net-p2p/freicoin-qt-0.8.6.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdapp-2.6-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/g-pypi-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdapp-2.6-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.3-r5
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdapp-2.6-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.4-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.4-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdapp-2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.5caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/amdstream-2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cuda-init-script-0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cuda-init-script-0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/intel-ocl-sdk-3.1.1.11385
 
-!!! ERROR: app-text/gistp-9999 failed.
-!!!    cuda_dgemmSweep-9999.ebuild, line   7:  Called inherit 'git'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-sdk-4.2.9-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-sdk-4.2.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-tdk-1.285.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-tdk-2.295.1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-4.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-4.2.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-4.2.9-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-5.0.35
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-sdk-4.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/icc-12.1.9.293
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/megapov-1.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.0.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.0.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.0.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cgminer-2.0.4!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/gistp-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/poclbm-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/bash_gist-9999
 
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '207' 'depend'
 
-!!! ERROR: x11-libs/pango-1.28.4 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '158' 'depend'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/gisty-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/gisty-0.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/pygist-1.1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/Theano-0.5.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/pygist-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/Theano-0.6.0_rc2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/ruby_protobuf-0.4.11
 
-!!! ERROR: x11-libs/pango-1.28.3-r1 failed.
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sekyfsr/app-text/gistp/gistp-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '172' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '181' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!              gistp-9999.ebuild, line   9:  Called inherit 'perl-app' 'git-2'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.4.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-app'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!            pango-1.28.4.ebuild, line   9:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib' 'toolchain-funcs'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sekyfsr/x11-libs/pango/pango-1.28.3-r1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-app.eclass'
-!!!         pango-1.28.3-r1.ebuild, line   8:  Called inherit 'autotools' 'eutils' 'gnome2' 'multilib' 'toolchain-funcs'
-!!!                perl-app.eclass, line  10:  Called inherit 'perl-module'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/sekyfsr/net-p2p/freicoin-qt/freicoin-qt-0.8.6.1.ebuild'
-!!!     freicoin-qt-0.8.6.1.ebuild, line  10:  Called inherit 'db-use' 'eutils' 'fdo-mime' 'gnome2-utils' 'kde4-functions' 'qt4-r2' 'versionator'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde4-functions'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/Theano-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/blas-atlas-3.8.2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/flann-1.8.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/blas-atlas-3.8.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/flann-1.8.4-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/lapack-atlas-3.8.2-r1
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/lapack-atlas-3.8.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/flann-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scikits_image-0.5caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scikits_image-0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scikits_learn-0.10-r1
 
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/kde4-functions.eclass'
-!!!          kde4-functions.eclass, line  23:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scikits_learn-0.11-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scikits_learn-0.12.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/scipy-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/shogun-0.9.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/shogun-1.0.0-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/shogun-1.1.0-r1
 
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI=3 is not supported
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unzip-6.0-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unalz-0.64
 
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: app-benchmarks/cuda_dgemmSweep-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/pango-1.28.4
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-text/gistp-9999
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: x11-libs/pango-1.28.3-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/cuda_memtest-1.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/cuda_dgemmSweep-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unalz-0.61
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/intel-common-12.1.9.293
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/glmark2-2014.03
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/cuda_memtest-1.2.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/cuda_memtest-1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/freicoin-qt-0.8.6.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/dogecoin-qt-1.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/reddcoin-qt-1.1.3.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/ronpaulcoin-qt-2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/smartcoin-qt-1.1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/vertcoin-qt-0.8.6.2
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/lensfun-0.2.5-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/lensfun-0.2.5_p153-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/freeimage-3.15.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/lensfun-0.2.5_p153-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/openexr-1.7.0-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/megacli-8.03.08
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/megacli-8.02.21
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cython-0.16
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/megacli-8.02.21-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cython-0.19.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cgkit-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/megacli-8.02.16
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/fabric-1.4.0-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/fabric-1.4.0
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numexpr-1.1.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numexpr-1.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/ipython-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numexpr-2.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numexpr-1.4.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numpy-1.6.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numpy-1.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numpy-1.6.1-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numpy-1.7.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/numpy-1.6.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/py-1.4.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyflann-1.8.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyflann-1.8.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymongo-2.2-r1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymongo-2.2!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pymongo-2.1.1-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/ssh-1.7.13
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pytest-2.2.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenv-clone-0.2.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenv-1.7.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/tox-1.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenv-1.7.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenvwrapper-3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenvwrapper-3.0.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenvwrapper-3.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/virtualenvwrapper-3.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/rethinkdb-1.12.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.12
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.19
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.21-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.21
+
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.4.3-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.26caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.3.39
+
+!!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sgminer-4.1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nxclient-3.5.0.7-r1
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-1.4.7-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/torque-3.0.4-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/torque-3.0.4-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/glusterfs-3.1.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/torque-3.0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/torque-3.0.5
  * Cache regenerated successfully

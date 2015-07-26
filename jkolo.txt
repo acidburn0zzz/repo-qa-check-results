@@ -13,58 +13,100 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/jkolo
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync jkolo
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/jkolo'...
-*** synced '/home/mgorny/repos/jkolo'
+*** syncing jkolo
+*** synced jkolo
  * Sync succeeded
 $ pmaint regen -t 2 jkolo
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_u2f-0.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/yubioath-desktop-0.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-modules-304.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-workstation-11.0.0.2305329
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-tools-9.9.0.2305329
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-tools-9.9.2.2496824
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vmware-workstation-11.1.0.2496824
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/amd-ucode-2012.09.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/amd-ucode-2012.01.17
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/visual-paradigm-11.1.20140801
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/owncloud-dolphin-plugin-0.0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gpshell-1.4.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/visual-paradigm-12.1.20150702
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/b43-firmware-5.100.138
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/atmel-firmware-1.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/ipw2200-firmware-3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/ipw2100-firmware-1.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/b43legacy-firmware-3.130.20.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/bluez-firmware-1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/ipxe-1.0.0_p20120905
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/ivtv-firmware-20080701-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/ivtv-firmware-20080701
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl1000-ucode-128.50.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl1000-ucode-39.31.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl2000-ucode-18.168.6.1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-228.57.1.21
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl2030-ucode-18.168.6.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl3945-ucode-15.28.1.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl3945-ucode-15.32.2.9!!! 
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-228.57.2.21
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-228.57.2.23
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl3945-ucode-2.14.1.5!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-4.44.1.18
 
-!!! ERROR: dev-php5/ioncube-3.3.7 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl3945-ucode-15.28.2.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-228.61.2.24
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl5000-ucode-8.24.2.12caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl4965-ucode-4.44.1.20
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl5000-ucode-8.83.5.1-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl3945-ucode-15.28.1.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl5150-ucode-8.24.2.2
 
-!!! ERROR: dev-python/g-pypi-0.4 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '175' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-php5/ioncube/ioncube-3.3.7.ebuild'
-!!!           ioncube-3.3.7.ebuild, line  10:  Called inherit 'php-ext-base-r1' 'versionator'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'php-ext-base-r1'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for php-ext-base-r1 failed
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6000-ucode-9.221.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6005-ucode-17.168.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6005-ucode-18.168.6.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6030-ucode-17.168.5.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6030-ucode-18.168.6.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6050-ucode-9.201.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/iwl6050-ucode-41.28.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/rt61-firmware-1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/seabios-1.6.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/seabios-1.7.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/seabios-1.7.0
 
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/jkolo/dev-python/g-pypi/g-pypi-0.4.ebuild'
-!!!              g-pypi-0.4.ebuild, line  13:  Called inherit 'distutils-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'distutils-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/distutils-r1.eclass'
-!!!            distutils-r1.eclass, line  85:  Called inherit 'multiprocessing' 'python-r1'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python-r1'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python-r1.eclass'
-!!!               python-r1.eclass, line  47:  Called die
-!!! The die message:
-!!!  Unsupported EAPI=4 (too old, allowed only on restricted set of packages) for python-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/vgabios-0.6c-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/sgabios-0.1_pre8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/zd1201-firmware-0.14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/zd1211-firmware-1.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/seabios-1.7.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/vgabios-0.7a
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gppcscconnectionplugin-1.1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/lastpass-3.2.15
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/brcm-firmware-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.12.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jdbc-mysql-5.1.26-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/clementine-1.2.3-r1000
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/clementine-1.1.1-r1000
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/libldm-0.2.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jtds-1.2.5-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/oh-my-zsh-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/globalplatform-6.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/dogtag-pki-common-ui-1.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/dogtag-pki-ca-ui-1.3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/libu2f-host-0.0.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/libu2f-server-0.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/simple-tpm-pk11-0.03
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/yubico-piv-tool-0.1.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/yubikey-piv-manager-1.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_perl-2.0.8-r1000
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-misc/zoneminder-1.28.1-r1000
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-php5/ioncube-3.3.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/g-pypi-0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/networkmanager-strongswan-1.3.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/pyload-0.4.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/yacy-1.82.20150121.9000caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/pyload-0.5.0
 
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, php-ext-base-r1 cannot be found while processing ebuild src: dev-php5/ioncube-3.3.7
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-python/g-pypi-0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/cloudprint-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-fs/samba-4.1.19
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-fs/samba-4.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/bashnapi-1.3.5
  * Cache regenerated successfully

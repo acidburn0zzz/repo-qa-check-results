@@ -19,14 +19,19 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/torbrowser
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync torbrowser
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/torbrowser'...
-*** synced '/home/mgorny/repos/torbrowser'
+*** syncing torbrowser
+*** synced torbrowser
  * Sync succeeded
 $ pmaint regen -t 2 torbrowser
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-31.8.0_p453
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/parcimonie_sh-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.1.9
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-monitor-9999
  * Cache regenerated successfully

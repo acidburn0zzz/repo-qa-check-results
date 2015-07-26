@@ -17,14 +17,22 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/activehome
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
-*** syncing '/home/mgorny/repos/activehome'...
-*** synced '/home/mgorny/repos/activehome'
+ * Adding new repository
+$ pmaint sync activehome
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/activehome'...
+*** syncing activehome
+*** synced activehome
  * Sync succeeded
 $ pmaint regen -t 2 activehome
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/cmuclmtk-0.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/julius-4.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinx3-0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinxbase-0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/pocketsphinx-0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinxtrain-1.0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/rhvoice-9999
  * Cache regenerated successfully

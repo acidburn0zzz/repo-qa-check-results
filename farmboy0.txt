@@ -15,15 +15,35 @@
               (u'git@github.com:farmboy0/portage-overlay.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/farmboy0
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named '<unlabeled repository /home/mgorny/repos/eigenlay>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync farmboy0
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/farmboy0'...
-*** synced '/home/mgorny/repos/farmboy0'
+*** syncing farmboy0
+*** synced farmboy0
  * Sync succeeded
 $ pmaint regen -t 2 farmboy0
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxGTK-2.8.12.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/apitrace-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libxkbfile-1.0.8-r1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-ati-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/procps-3.3.10-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.35.1
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/palemoon-24.5.0
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.36.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/palemoon-24.6.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-scheme/guile-1.8.8-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.35.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/google-perftools-2.0-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.36.1
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/procps-3.3.9-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/phoronix-test-suite-5.2.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/palemoon-24.6.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/phoronix-test-suite-5.2.1
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/json-c-0.11-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-benchmarks/phoronix-test-suite-5.0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/mesa-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/smjpeg-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/morrowind-data-2-r1
  * Cache regenerated successfully

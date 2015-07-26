@@ -11,14 +11,15 @@
  u'sources': [(u'https://github.com/Dr-Terrible/go-overlay.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/go-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync go-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/go-overlay'...
-*** synced '/home/mgorny/repos/go-overlay'
+*** syncing go-overlay
+*** synced go-overlay
  * Sync succeeded
 $ pmaint regen -t 2 go-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/lime-termbox-20150428
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/lime-qml-20150428
  * Cache regenerated successfully

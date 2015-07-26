@@ -12,14 +12,16 @@
               (u'https://github.com/arx/ArxGentoo.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/arx-libertatis
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync arx-libertatis
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/arx-libertatis'...
-*** synced '/home/mgorny/repos/arx-libertatis'
+*** syncing arx-libertatis
+*** synced arx-libertatis
  * Sync succeeded
 $ pmaint regen -t 2 arx-libertatis
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/arx-fatalis-data-1.21
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/arx-libertatis-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/innoextract-9999
  * Cache regenerated successfully

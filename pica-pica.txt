@@ -13,13 +13,17 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/pica-pica
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync pica-pica
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/pica-pica'...
-*** synced '/home/mgorny/repos/pica-pica'
+*** syncing pica-pica
+*** synced pica-pica
  * Sync succeeded
 $ pmaint regen -t 2 pica-pica
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-pica-0.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-pica-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-node-0.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pica-client-0.5.3
  * Cache regenerated successfully

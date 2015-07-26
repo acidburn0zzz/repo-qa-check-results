@@ -11,9 +11,8 @@
  u'sources': [(u'rsync://gentoo.xwing.info/xwing-overlay', u'Rsync', None)],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/xwing
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync xwing
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 This is xwing.info / coruscant.xwing.info
 
 Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
@@ -31,45 +30,19 @@ Total file size: 32 bytes
 Total transferred file size: 32 bytes
 Literal data: 32 bytes
 Matched data: 0 bytes
-File list size: 47
+File list size: 46
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
 Total bytes sent: 85
-Total bytes received: 133
+Total bytes received: 132
 
-sent 85 bytes  received 133 bytes  145.33 bytes/sec
+sent 85 bytes  received 132 bytes  86.80 bytes/sec
 total size is 32  speedup is 0.15
-This is xwing.info / coruscant.xwing.info
-
-Server Address : 62.212.103.27 / 2001:7a8:2b1b::254
-Contact Name   : webmaster@xwing.info
-Hardware       : Intel Atom D510 @ 1.66GHz, 2048MB RAM
-
-receiving incremental file list
-metadata/
-metadata/timestamp.chk
-deleting metadata/.tmp.timestamp.chk
-
-Number of files: 107 (reg: 68, dir: 37, link: 2)
-Number of created files: 0
-Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 1
-Total file size: 155.16K bytes
-Total transferred file size: 32 bytes
-Literal data: 32 bytes
-Matched data: 0 bytes
-File list size: 3.41K
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 128
-Total bytes received: 3.54K
-
-sent 128 bytes  received 3.54K bytes  1.47K bytes/sec
-total size is 155.16K  speedup is 42.35
-*** syncing '/home/mgorny/repos/xwing'...
-*** synced '/home/mgorny/repos/xwing'
+*** syncing xwing
+*** synced xwing
  * Sync succeeded
 $ pmaint regen -t 2 xwing
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/grisbi-1.0.9999
  * Cache regenerated successfully

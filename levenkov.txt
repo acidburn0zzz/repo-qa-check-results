@@ -17,13 +17,16 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/levenkov
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync levenkov
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/levenkov'...
-*** synced '/home/mgorny/repos/levenkov'
+*** syncing levenkov
+*** synced levenkov
  * Sync succeeded
 $ pmaint regen -t 2 levenkov
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: arduino/inotool-0.3.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/glob2-0.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-calculators/galculator-9999
  * Cache regenerated successfully

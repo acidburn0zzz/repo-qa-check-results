@@ -15,15 +15,25 @@
               (u'git+ssh://git@git.gentoo.org/user/dfreise.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/dfreise
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync dfreise
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/dfreise'...
-*** synced '/home/mgorny/repos/dfreise'
+*** syncing dfreise
+*** synced dfreise
  * Sync succeeded
 $ pmaint regen -t 2 dfreise
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/capisuite-0.4.5-r7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r6caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r7
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r8caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.23_pre20120508
+
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.23_pre20120521!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/capisuite-0.5.0-r1
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.25
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r9
  * Cache regenerated successfully

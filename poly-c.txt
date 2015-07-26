@@ -11,8 +11,8 @@
  u'sources': [(u'rsync://gentoofan.no-ip.org/poly-c', u'Rsync', None)],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/poly-c
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync poly-c
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 -------------------------------------------------------------------------------
 | Welcome to rsync on gentoofan.no-ip.org:873                                 |
 | This is a mirror of gentoo's portage-tree and host of my portage overlay    |
@@ -40,27 +40,28 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported pr
 -------------------------------------------------------------------------------
 
 receiving incremental file list
+timestamp.chk
 
 Number of files: 1 (reg: 1)
-Number of created files: 0
+Number of created files: 1 (reg: 1)
 Number of deleted files: 0
-Number of regular files transferred: 0
+Number of regular files transferred: 1
 Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
 File list size: 47
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 58
+Total bytes sent: 85
+Total bytes received: 133
 
-sent 62 bytes  received 58 bytes  80.00 bytes/sec
-total size is 32  speedup is 0.27
-*** syncing '/home/mgorny/repos/poly-c'...
-*** synced '/home/mgorny/repos/poly-c'
+sent 85 bytes  received 133 bytes  87.20 bytes/sec
+total size is 32  speedup is 0.15
+*** syncing poly-c
+*** synced poly-c
  * Sync succeeded
 $ pmaint regen -t 2 poly-c
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

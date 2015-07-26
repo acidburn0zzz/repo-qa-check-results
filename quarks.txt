@@ -12,56 +12,53 @@
               (u'http://www.startux.de/git/quarks.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/quarks
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync quarks
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/quarks'...
-*** synced '/home/mgorny/repos/quarks'
+*** syncing quarks
+*** synced quarks
  * Sync succeeded
 $ pmaint regen -t 2 quarks
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/pyfa-1.13.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-dock-3.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-dock-2.4.0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/gtkevemon-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-dock-3.0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-331.20-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-dock-3.0.0-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/tint2-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/awesome-4.3.0!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/plymouth-0.8.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-forensics/regripper-20111118
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
 
-!!! ERROR: app-admin/ocsinventory-agent-2.0.5 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
 
-!!! ERROR: perl-gcpan/Parse-Win32Registry-0.60 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!                ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '237' 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '235' 'depend'
-!!!                ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!                        ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!                        ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/app-admin/ocsinventory-agent/ocsinventory-agent-2.0.5.ebuild'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/quarks/perl-gcpan/Parse-Win32Registry/Parse-Win32Registry-0.60.ebuild'
-!!!   ocsinventory-agent-2.0.5.ebuild, line   7:  Called inherit 'perl-module'
-!!!   Parse-Win32Registry-0.60.ebuild, line   9:  Called inherit 'perl-module'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!      ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                 ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!            isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-power/tpc-0.44caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-plugins/cairo-dock-plugins-2.4.0.2
 
-!!!                perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=2 is not supported by perl-module.eclass
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-plugins/cairo-dock-plugins-3.0.0
+!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-plugins/cairo-dock-plugins-3.0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-plugins/cairo-dock-plugins-3.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/dradis-2.8.0!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/duplicity-0.7.02
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-3.1.3_p1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/partclone-0.2.69
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-3.1.2_p1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.2-r1!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.1_p1
 
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-admin/ocsinventory-agent-2.0.5
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: perl-gcpan/Parse-Win32Registry-0.60
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.2-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.3_p1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.3_p2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.2-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.4_p1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.4_p2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.4_p2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/glc-0.5.8!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/dnsenum-1.2.2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/theHarvester-2.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/dracut-027-r1
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcp-4.2.4_p2-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/fierce-1.0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/hardened-sources-3.9.9-r1
  * Cache regenerated successfully

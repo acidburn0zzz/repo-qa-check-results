@@ -17,14 +17,19 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/anaximander
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-Already up-to-date.
-*** syncing '/home/mgorny/repos/anaximander'...
-*** synced '/home/mgorny/repos/anaximander'
+ * Adding new repository
+$ pmaint sync anaximander
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/anaximander'...
+*** syncing anaximander
+*** synced anaximander
  * Sync succeeded
 $ pmaint regen -t 2 anaximander
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-physics/xrayutilities-1.1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-physics/xrayutilities-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/referencer-1.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tlsdate-0.0.12-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/referencer-9999
  * Cache regenerated successfully

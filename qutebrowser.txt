@@ -19,14 +19,16 @@
                u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/qutebrowser
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync qutebrowser
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/qutebrowser'...
-*** synced '/home/mgorny/repos/qutebrowser'
+*** syncing qutebrowser
+*** synced qutebrowser
  * Sync succeeded
 $ pmaint regen -t 2 qutebrowser
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/qutebrowser-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pypeg2-2.15.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/qutebrowser-0.2.1
  * Cache regenerated successfully

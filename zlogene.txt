@@ -15,14 +15,13 @@
               (u'git+ssh://git@git.gentoo.org/dev/zlogene.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/zlogene
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync zlogene
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/zlogene'...
-*** synced '/home/mgorny/repos/zlogene'
+*** syncing zlogene
+*** synced zlogene
  * Sync succeeded
 $ pmaint regen -t 2 zlogene
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
  * Cache regenerated successfully

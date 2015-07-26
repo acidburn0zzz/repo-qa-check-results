@@ -12,14 +12,22 @@
               (u'git@github.com:antoligy/furikake.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/furikake
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync furikake
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/furikake'...
-*** synced '/home/mgorny/repos/furikake'
+*** syncing furikake
+*** synced furikake
  * Sync succeeded
 $ pmaint regen -t 2 furikake
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.1.0_beta2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/pipelight-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/liquorix-sources-3.10.19caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.0.4
+
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.0.3
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/liquorix-sources-3.11.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/qingy-1.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/qingy-9999
  * Cache regenerated successfully

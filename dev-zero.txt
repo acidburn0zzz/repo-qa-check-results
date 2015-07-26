@@ -15,19 +15,16 @@
               (u'git+ssh://git@git.gentoo.org/dev/dev-zero.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/dev-zero
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named '<unlabeled repository /home/mgorny/repos/bleeding-edge>', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync dev-zero
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/dev-zero'...
-*** synced '/home/mgorny/repos/dev-zero'
+*** syncing dev-zero
+*** synced dev-zero
  * Sync succeeded
 $ pmaint regen -t 2 dev-zero
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Error running an operation:
  Unhandled exception in regen_cache
- dev-libs/boost-log-scm has nonstandard -scm version component
+ app-pda/libopensync-plugin-evolution2-scm has nonstandard -scm version component
  * Cache regen failed with 246

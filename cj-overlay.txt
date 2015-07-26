@@ -11,14 +11,16 @@
  u'sources': [(u'git://github.com/junghans/cj-overlay', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/cj-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync cj-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/cj-overlay'...
-*** synced '/home/mgorny/repos/cj-overlay'
+*** syncing cj-overlay
+*** synced cj-overlay
  * Sync succeeded
 $ pmaint regen -t 2 cj-overlay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-visualization/gnuplotutils-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cwdiff-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/evergreens-9999
  * Cache regenerated successfully

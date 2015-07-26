@@ -15,35 +15,37 @@
               (u'git+ssh://git@git.gentoo.org/dev/lordvan.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/lordvan
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync lordvan
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/lordvan'...
-*** synced '/home/mgorny/repos/lordvan'
+*** syncing lordvan
+*** synced lordvan
  * Sync succeeded
 $ pmaint regen -t 2 lordvan
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/varicad-de-3.04
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/ati-drivers-8.522-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/brlcad-7.14.8-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/linuxwacom-0.8.1_p4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/linuxwacom-0.7.8_p3-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/varicad-viewer-de-3.04
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/varicad-3.04
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/varicad-viewer-3.04
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/linuxwacom-0.8.0_p3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/linuxwacom-0.7.8_p3
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/dbmail-3.1.9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/labyrinth-0.4.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-php/PEAR-XML_Feed_Parser-1.0.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/me-tv-1.4.0.10caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/openfire-3.6.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-guardian-1.0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/egroupware-1.8.001.20101201
 
-!!! ERROR: app-misc/labyrinth-0.4.0 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/lordvan/app-misc/labyrinth/labyrinth-0.4.0.ebuild'
-!!!         labyrinth-0.4.0.ebuild, line   5:  Called inherit 'gnome2'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'gnome2'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/gnome2.eclass'
-!!!                  gnome2.eclass, line  19:  Called die
-!!! The die message:
-!!!  EAPI= is not supported
-
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: app-misc/labyrinth-0.4.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-userena-1.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/libzdb-2.10.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/easy_thumbnails-1.0_alpha20
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/libzdb-2.11.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/openshot-1.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/rdpdesk-3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/openshot-1.4.1
  * Cache regenerated successfully

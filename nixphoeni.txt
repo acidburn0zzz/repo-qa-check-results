@@ -17,13 +17,20 @@
                u'')],
  u'status': u'official',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/nixphoeni
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync nixphoeni
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named 'mysql', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named 'mysql', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
-*** syncing '/home/mgorny/repos/nixphoeni'...
-*** synced '/home/mgorny/repos/nixphoeni'
+*** syncing nixphoeni
+*** synced nixphoeni
  * Sync succeeded
 $ pmaint regen -t 2 nixphoeni
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/system76-wallpapers-257
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/idl-8.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/system76-driver-257
  * Cache regenerated successfully

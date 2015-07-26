@@ -15,14 +15,17 @@
               (u'git+ssh://git@git.gentoo.org/dev/vincent.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/vincent
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync vincent
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/vincent'...
-*** synced '/home/mgorny/repos/vincent'
+*** syncing vincent
+*** synced vincent
  * Sync succeeded
 $ pmaint regen -t 2 vincent
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-wxGTK-2.8.12.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-libsoundtouch-1.7.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/pcsx2-9999
  * Cache regenerated successfully

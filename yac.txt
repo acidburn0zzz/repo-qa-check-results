@@ -1,11 +1,11 @@
-{u'description': [u'Personal overlay of Jan Mat\u011bjka'],
+{u'description': [u'personal overlay of jan mat\u011bjka'],
  u'feeds': [u'https://github.com/yaccz/gentoo-overlay/commits/master.atom'],
  u'homepage': u'https://github.com/yaccz/gentoo-overlay',
  u'irc': None,
  u'name': u'yac',
  u'official': False,
  u'owner_email': u'yac@gentoo.org',
- u'owner_name': u'Jan Mat\u011bjka',
+ u'owner_name': u'jan mat\u011bjka',
  u'priority': 50,
  u'quality': u'experimental',
  u'sources': [(u'git://github.com/yaccz/gentoo-overlay.git', u'Git', u''),
@@ -13,14 +13,19 @@
               (u'git@github.com:yaccz/gentoo-overlay.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/yac
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync yac
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/yac'...
-*** synced '/home/mgorny/repos/yac'
+*** syncing yac
+*** synced yac
  * Sync succeeded
 $ pmaint regen -t 2 yac
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/ydu-0.1.2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/collectd-web-0.4.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/txJSON-RPC-0.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/yac-workstation-0.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/gentwoo-backend-0.1.0
  * Cache regenerated successfully

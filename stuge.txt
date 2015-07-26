@@ -11,122 +11,104 @@
  u'sources': [(u'git://git.stuge.se/stuge-overlay.git', u'Git', u'')],
  u'status': u'unofficial',
  u'supported': True}
-$ pmaint sync /home/mgorny/repos/stuge
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+$ pmaint sync stuge
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
-*** syncing '/home/mgorny/repos/stuge'...
-*** synced '/home/mgorny/repos/stuge'
+*** syncing stuge
+*** synced stuge
  * Sync succeeded
 $ pmaint regen -t 2 stuge
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has an unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/fb-test-app-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/dis51-0.5caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/qt-meta-3.3.8b-r2
 
-!!! ERROR: sci-misc/qcad-2.0.5.0 failed.
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/fb-test-app-1.0.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/openocd-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/hexcmp-0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/sump-analyzer-0.8.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/xup-0.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/xilinx-usb-cable-firmware-1.053
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libcap-ng-0.7.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/panopticon-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/msetimon-2.53
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/xfig-3.2.5b-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-4.0.3-r7
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/taidelta-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/unlinkd-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-puzzle/gnome-sudoku-0.7.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/clamdmail-0.19
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/clamd-call-1
 
-!!! ERROR: net-misc/openggsn-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/xless-1.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/epostel-1.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/qmail-remove-0.95
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/spamredir-1.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-mta/netqmail-1.06-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/cmail-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/qmail-smtpd-vchkpw-wrapper-1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Device-Gsm-1.60
 
-!!! ERROR: net-misc/openbsc-9999 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/vpexist-1.5
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/derby-10.6.2.1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/ezmorph-1.0.6
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/dnsjava-2.1.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/etherpad-1.1
 
-!!! ERROR: dev-perl/Device-Gsm-1.60 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '166' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
- * Use PYTHON_DEPEND variable instead of NEED_PYTHON variable.
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '171' 'depend'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jBCrypt-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jargs-1.0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/json-lib-2.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/xom-1.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/yuicompressor-2.4.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-accountmanager-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-authopenid-0.2.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-downloads-0.11.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-mastertickets-0.11.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-power/acpid-1.0.10_p3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/fcgiwrap-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-spamfilter-0.12.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-ticketguidelines-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/alac-4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-power/pm-utils-1.4.1-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/xmms2-0.1.1_p1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/xmms2-0.2
 
-!!! ERROR: games-puzzle/gnome-sudoku-0.7.1 failed.
-!!! die invoked from directory /usr/lib64/pkgcore
-!!! Call stack:
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openbsc/openbsc-9999.ebuild'
-!!!            openbsc-9999.ebuild, line   3:  Called inherit 'git' 'autotools'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '170' 'depend'
-!!!             ebuild-daemon.bash, line 451:  Called __ebd_exec_main 'daemonize'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/xmms2-0.4.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/xmms2-0.4.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/xmms2-0.4.1!!! !!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libtai-0.60
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libusb-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libhexfile-0.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgit2-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/trac-0.12.9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/qcad-2.0.5.0
 
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/net-misc/openggsn/openggsn-9999.ebuild'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/sci-misc/qcad/qcad-2.0.5.0.ebuild'
-!!!           openggsn-9999.ebuild, line   4:  Called inherit 'git' 'autotools'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'git'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for git failed
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/phoenix-cvs-20060526
 
-!!!            qcad-2.0.5.0.ebuild, line   5:  Called inherit 'kde-functions' 'eutils'
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!             ebuild-daemon.bash, line 209:  Called __ebd_main_loop
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'kde-functions'
-!!!              ebuild-daemon.lib, line  35:  Called die
-!!! The die message:
-!!!  inherit for kde-functions failed
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/MegaCli-1.01.39caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/MegaCli-1.01.09
 
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '187' 'depend'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/dev-perl/Device-Gsm/Device-Gsm-1.60.ebuild'
-!!!             ebuild-daemon.bash, line 437:  Called __ebd_process_metadata '210' 'depend'
-!!!         Device-Gsm-1.60.ebuild, line   7:  Called inherit 'perl-module'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'perl-module'
-!!!             ebuild-daemon.bash, line 370:  Called __execute_phases 'depend'
-!!!                     ebuild.lib, line 426:  Called __load_ebuild '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
-!!!                     ebuild.lib, line 241:  Called __qa_invoke 'source' '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/stuge/games-puzzle/gnome-sudoku/gnome-sudoku-0.7.1.ebuild'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/perl-module.eclass'
-!!!             perl-module.eclass, line  40:  Called die
-!!! The die message:
-!!!  EAPI=4 is not supported by perl-module.eclass
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/MegaCli-4.00.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/ipssend-7.10.18!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/netid-4.4.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/perc-cerc-apps-6.03.06
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/texinfo-4.13-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/ipssend-7.12.14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/libtool-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/flup-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/genshi-0.6caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pygit2-9999
+!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/posix_ipc-0.9.3
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/mysql-posixmq-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/xsv-3.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/mcache-cvs-20060526
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/mysql-sha256-3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/ociheaders-2
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/ola-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/mkelfImage-2.7caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/ociheaders-0.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/odt2txt-0.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/ola-0.8.26
 
-!!!      gnome-sudoku-0.7.1.ebuild, line   6:  Called inherit 'python'
-!!!   ebuild-default-functions.lib, line 230:  Called __internal_inherit 'python'
-!!!              ebuild-daemon.lib, line  30:  Called __qa_invoke 'source' '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!         isolated-functions.lib, line 221:  Called source '/home/mgorny/repos/gentoo/eclass/python.eclass'
-!!!                  python.eclass, line 277:  Called die
-!!! The die message:
-!!!  NEED_PYTHON variable is banned
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openbsc-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openggsn-0.91
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openggsn-9999
 
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-Sandboxed process killed by signal: Broken pipe
-!!! caught exception inherit requires an unknown eclass, kde-functions cannot be found while processing ebuild src: sci-misc/qcad-2.0.5.0
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/openggsn-9999
-!!! caught exception inherit requires an unknown eclass, git cannot be found while processing ebuild src: net-misc/openbsc-9999
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/json-lib-2.3, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/json-lib-2.3
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/xom-1.2.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/xom-1.2.1
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/ezmorph-1.0.6, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/ezmorph-1.0.6
-!!! caught exception Metadata Exception: pkg ebuild src: dev-java/etherpad-1.1, attr eapi
-error: parsed eapi doesn't match sourced eapi while processing ebuild src: dev-java/etherpad-1.1
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: dev-perl/Device-Gsm-1.60
-ERROR pkgcore: returned val from gen_metadata was 'False'
-!!! caught exception False while processing ebuild src: games-puzzle/gnome-sudoku-0.7.1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-ftp/twoftpd-1.21-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/foomatic-filters-4.0.17caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/waitlink-1-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/tragtor-0.8.64
+
  * Cache regenerated successfully
