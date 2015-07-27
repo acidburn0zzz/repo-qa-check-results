@@ -16,45 +16,44 @@
 $ pmaint sync ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 From https://github.com/ShyPixie/Overlays
-   ea479fc..a03de7d  master     -> origin/master
-Updating ea479fc..a03de7d
+   a03de7d..5534468  master     -> origin/master
+Updating a03de7d..5534468
 Fast-forward
- .travis.yml                                        | 31 ++++++++++++
- README.md                                          | 11 ++--
- .../steamwine/files/fix-system-install.patch       | 29 -----------
- .../steamwine/files/steam_install_agreement.txt    | 38 --------------
- games-util/steamwine/metadata.xml                  | 16 ------
- games-util/steamwine/steamwine-9999-r1.ebuild      | 59 ----------------------
- repo.xml => layman.xml                             |  2 +-
- net-misc/nullidentdmod/Manifest                    |  2 +-
- ...entdmod-1.1.ebuild => nullidentdmod-1.3.ebuild} | 11 ++--
- net-misc/nullidentdmod/nullidentdmod-9999.ebuild   | 11 ++--
- wercker.yml                                        |  7 ---
- 11 files changed, 50 insertions(+), 167 deletions(-)
- create mode 100644 .travis.yml
- delete mode 100644 games-util/steamwine/files/fix-system-install.patch
- delete mode 100644 games-util/steamwine/files/steam_install_agreement.txt
- delete mode 100644 games-util/steamwine/metadata.xml
- delete mode 100644 games-util/steamwine/steamwine-9999-r1.ebuild
- rename repo.xml => layman.xml (92%)
- rename net-misc/nullidentdmod/{nullidentdmod-1.1.ebuild => nullidentdmod-1.3.ebuild} (57%)
- delete mode 100644 wercker.yml
+ app-admin/backup-conf/backup-conf-5.0.ebuild       | 22 +++++------
+ dev-util/repo/repo-9999.ebuild                     | 12 +++---
+ net-misc/megasync-bin/megasync-bin-2.0.0-r1.ebuild | 36 +++++++++---------
+ net-misc/nullidentdmod/nullidentdmod-1.3.ebuild    |  8 ++--
+ net-misc/nullidentdmod/nullidentdmod-9999.ebuild   |  8 ++--
+ .../lm_sensors-f2a78m-conf-1.0-r1.ebuild           | 44 ++++++++++++++++++++++
+ .../lm_sensors-f2a78m-conf-1.0.ebuild              | 37 ------------------
+ sys-fs/cdf/{cdf-0.2.ebuild => cdf-0.2-r1.ebuild}   | 10 ++---
+ ...n-1.5.3.ebuild => systemd-cron-1.5.3-r1.ebuild} | 19 +++++-----
+ x11-misc/bmpanel2/bmpanel2-9999-r1.ebuild          | 38 +++++++++----------
+ .../cairo-compmgr/cairo-compmgr-9999-r2.ebuild     | 32 ++++++++--------
+ x11-misc/openbox-menu/openbox-menu-9999.ebuild     | 14 +++----
+ x11-terms/altyo/altyo-9999-r1.ebuild               | 18 ++++-----
+ 13 files changed, 152 insertions(+), 146 deletions(-)
+ create mode 100644 sys-apps/lm_sensors-f2a78m-conf/lm_sensors-f2a78m-conf-1.0-r1.ebuild
+ delete mode 100644 sys-apps/lm_sensors-f2a78m-conf/lm_sensors-f2a78m-conf-1.0.ebuild
+ rename sys-fs/cdf/{cdf-0.2.ebuild => cdf-0.2-r1.ebuild} (75%)
+ rename sys-process/systemd-cron/{systemd-cron-1.5.3.ebuild => systemd-cron-1.5.3-r1.ebuild} (81%)
 *** syncing ShyPixie
 *** synced ShyPixie
  * Sync succeeded
 $ pmaint regen -t 2 ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/backup-conf-5.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/openbox-menu-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-compmgr-9999-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/altyo-9999-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/bmpanel2-9999-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/systemd-cron-1.5.3-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/backup-conf-5.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/repo-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/cdf-0.2-r1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-compmgr-9999-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-1.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-bin-2.0.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/openbox-menu-9999
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/systemd-cron-1.5.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/repo-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/bmpanel2-9999-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/cdf-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-1.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-bin-2.0.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-f2a78m-conf-1.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/altyo-9999-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-f2a78m-conf-1.0-r1
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
