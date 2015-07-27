@@ -13,7 +13,20 @@
  u'supported': True}
 $ pmaint sync distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/distros
+   f70c95c..79b781a  master     -> origin/master
+Updating f70c95c..79b781a
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini   |  2 +-
+ .../3.2/6_ac_update_sync/world/create/education       |  5 +++++
+ .../3.2/6_ac_update_sync/world/create/emulation+      |  1 +
+ .../3.2/6_ac_update_sync/world/create/netapps         | 11 +++++++----
+ .../3.2/6_ac_update_sync/world/create/network         |  4 ++++
+ .../templates/3.2/6_ac_update_sync/world/create/tools |  6 ++++++
+ .../world/update/100-199/{107 => 108}                 | 19 +++++++++++++++++--
+ 7 files changed, 41 insertions(+), 7 deletions(-)
+ create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/create/education
+ rename profiles/templates/3.2/6_ac_update_sync/world/update/100-199/{107 => 108} (51%)
 *** syncing distros
 *** synced distros
  * Sync succeeded
