@@ -15,18 +15,23 @@
  u'supported': True}
 $ pmaint sync yngwin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/yngwin
+   3471788..5e0cc15  master     -> origin/master
+Updating 3471788..5e0cc15
+Fast-forward
+ app-editors/neovim/neovim-9999.ebuild | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 *** syncing yngwin
 *** synced yngwin
  * Sync succeeded
 $ pmaint regen -t 2 yngwin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/nikola-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/gentoo-syntax-99999999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/msgpack-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/nikola-9999
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/neovim-9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/neovim-qt-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/gentoo-syntax-99999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/lvtk-1.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/android-file-transfer-2.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/neovim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/msgpack-9999
  * Cache regenerated successfully
