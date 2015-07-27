@@ -16,6 +16,8 @@
 $ pmaint sync TomWij
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/LaraCraft93' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/LaraCraft93', named 'LaraCraft93', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing TomWij
 *** synced TomWij
@@ -23,13 +25,13 @@ Already up-to-date.
 $ pmaint regen -t 2 TomWij
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-continuation-8.1.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-server-8.1.10
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-jmx-8.1.10
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-http-8.1.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-servlet-8.1.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-util-8.1.10
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-continuation-8.1.10
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-io-8.1.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-http-8.1.10
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-security-8.1.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-server-8.1.10
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-jmx-8.1.10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/taskjuggler-3.4.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-security-8.1.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-util-8.1.10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/jetty-servlet-8.1.10
  * Cache regenerated successfully
