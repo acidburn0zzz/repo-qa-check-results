@@ -12,15 +12,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync fm
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing fm
 *** synced fm
@@ -28,8 +20,28 @@ Already up-to-date.
 $ pmaint regen -t 2 fm
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 17352, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+!!! !!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-input-mtrack-0.3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/openra-20120922
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/cwiid-20110107-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/openra-20130128
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-apps/fm-desktop-0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/inconsolata-g-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-laptop/dispad-0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-laptop/dispad-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/rubyripper-0.6.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fig-0.5.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-319.49-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/fm-system-0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/fm-dev-1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/fm-system-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/i3-fm-0.3
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/i3-fm-0.2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-laptop/dispad-0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/i3-fm-0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/inconsolata-g-powerline-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/dockerpty-0.2.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pcapy-0.10.8
+!!! !!! 
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/openshot-1.4.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-power/cpufreqd-2.4.2-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/fm-dev-2
+ * Cache regenerated successfully

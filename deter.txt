@@ -14,15 +14,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync deter
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing deter
@@ -31,22 +23,21 @@ Already up-to-date.
 $ pmaint regen -t 2 deter
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/yad-0.28.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/shiki-colors-4.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/yad-0.27.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141016
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/rtorrent-0.9.4-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20140825
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141018
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/palemoon-25.2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141017
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/yad-0.28.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150227
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150228
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/yad-0.27.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150306
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141017
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141016
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20140825
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141121
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150228
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20141018
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/rtorrent-0.9.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/palemoon-25.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150307
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150714
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150708
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150306
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150708
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150713
-Sandboxed process killed by signal: Broken pipe
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/watchsh-20150714
  * Cache regenerated successfully

@@ -20,25 +20,7 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync quantumsummers
-WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing quantumsummers
 *** synced quantumsummers
@@ -46,22 +28,22 @@ Already up-to-date.
 $ pmaint regen -t 2 quantumsummers
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/celery-2.1.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/carrot-0.10.7
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/celery-2.1.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/anyjson-0.2.4
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.0.0
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/anyjson-0.2.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/carrot-0.10.7
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/carrot-0.10.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-celery-2.1.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/ftputil-2.4.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.93.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/ftputil-2.4.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-picklefield-0.1.6caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/importlib-1.0.1
 
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mailer-0.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/importlib-1.0.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-picklefield-0.1.6
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/workerpool-0.9.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.93.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/workerpool-0.9.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/starcluster-0.91
  * Cache regenerated successfully
