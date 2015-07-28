@@ -12,6 +12,8 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync tegra
+WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named 'multilib-portage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing tegra
@@ -20,6 +22,6 @@ Already up-to-date.
 $ pmaint regen -t 2 tegra
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/tegra-drivers-12_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/tegra-libs-12_alpha1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/tegra-drivers-12_alpha1
  * Cache regenerated successfully

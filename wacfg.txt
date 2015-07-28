@@ -15,8 +15,6 @@
  u'supported': True}
 $ pmaint sync wacfg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/kolab' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/kolab', named 'kolab', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing wacfg
 *** synced wacfg
@@ -24,7 +22,8 @@ Already up-to-date.
 $ pmaint regen -t 2 wacfg
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/roundcube-0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/wacfg-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/roundcube-0.4
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-3.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/wacfg-9999
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

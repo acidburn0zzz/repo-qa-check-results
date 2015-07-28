@@ -17,37 +17,22 @@
  u'supported': True}
 $ pmaint sync anarchy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: Unable to look up anongit.gentoo.org (port 9418) (Temporary failure in name resolution)
-*** syncing anarchy
-*** failed syncing anarchy
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync anarchy
-WARNING:pkgcore:repository at location '/home/mgorny/repos/DuPol' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/aidecoe' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/aidecoe', named 'aidecoe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/anarchy'...
+Already up-to-date.
 *** syncing anarchy
 *** synced anarchy
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 anarchy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.7
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/openlp-2.0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/urbanterror-4.2.023
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/kodi-14.2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/openlp-2.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libpng-1.6.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/audit-2.2.2!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libiscsi-1.14.0
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/urbanterror-4.2.023!!! !!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/polkit-0.110
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/sandbox-2.6-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/hexchat-2.10.2
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/polkit-0.110
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/coreutils-8.21
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/sandbox-2.6-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/audit-2.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/hexchat-2.10.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libiscsi-1.14.0
  * Cache regenerated successfully

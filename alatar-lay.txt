@@ -15,31 +15,20 @@
  u'supported': True}
 $ pmaint sync alatar-lay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-fatal: unable to access 'https://github.com/alatarum/alatar-lay.git/': Couldn't resolve host 'github.com'
-*** syncing alatar-lay
-*** failed syncing alatar-lay
- * Sync failed with 1
- * Will try to re-create
-$ pmaint sync alatar-lay
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/DuPol' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/alatar-lay'...
+Already up-to-date.
 *** syncing alatar-lay
 *** synced alatar-lay
- * Sync succeeded after re-adding
+ * Sync succeeded
 $ pmaint regen -t 2 alatar-lay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/plotctrl-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/stmflasher-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxthings-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxfreechart-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxthings-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/wal-commander-0.18.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/stmflasher-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/opengostfont-0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/myspell-ru_en-20070129
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libctb-0.16
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxfreechart-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/opengostfont-0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/wal-commander-0.18.1
 Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

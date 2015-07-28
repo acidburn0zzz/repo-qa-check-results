@@ -14,6 +14,8 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync sera
+WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named 'multilib-portage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing sera
@@ -22,16 +24,16 @@ Already up-to-date.
 $ pmaint regen -t 2 sera
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/entrance-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/emotion_generic_players-1.12.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/enventor-0.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/elementary-1.12.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/efl-1.12.0
+!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/enventor-0.1.0!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/entrance-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/enlightenment-0.19.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/enlightenment-0.19.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/evas_generic_loaders-1.12.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-efl-1.11.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/emotion_generic_players-1.12.0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-efl-1.11.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/efl-1.12.0
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/evas_generic_loaders-1.12.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/elementary-1.12.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/vulture-0.4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/econnman-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/econnman-1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/econnman-9999
  * Cache regenerated successfully
