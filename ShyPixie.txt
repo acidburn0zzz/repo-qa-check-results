@@ -15,36 +15,23 @@
  u'supported': True}
 $ pmaint sync ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/ShyPixie/Overlays
-   5534468..0616d64  master     -> origin/master
-Updating 5534468..0616d64
-Fast-forward
- dev-util/repo/repo-9999.ebuild                                      | 2 +-
- net-misc/megasync-bin/Manifest                                      | 4 ++--
- .../{megasync-bin-2.0.0-r1.ebuild => megasync-bin-2.1.0.ebuild}     | 6 +++---
- net-misc/nullidentdmod/metadata.xml                                 | 6 +++---
- x11-misc/bmpanel2/bmpanel2-9999-r1.ebuild                           | 2 +-
- x11-misc/cairo-compmgr/cairo-compmgr-9999-r2.ebuild                 | 2 +-
- x11-misc/openbox-menu/openbox-menu-9999.ebuild                      | 3 +--
- x11-terms/altyo/altyo-9999-r1.ebuild                                | 2 +-
- 8 files changed, 13 insertions(+), 14 deletions(-)
- rename net-misc/megasync-bin/{megasync-bin-2.0.0-r1.ebuild => megasync-bin-2.1.0.ebuild} (76%)
+Already up-to-date.
 *** syncing ShyPixie
 *** synced ShyPixie
  * Sync succeeded
 $ pmaint regen -t 2 ShyPixie
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/openbox-menu-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-compmgr-9999-r2
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/backup-conf-5.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/repo-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/altyo-9999-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/bmpanel2-9999-r1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/cdf-0.2-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/cdf-0.2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/systemd-cron-1.5.3-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/openbox-menu-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-bin-2.1.0
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/systemd-cron-1.5.3-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-1.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-bin-2.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-f2a78m-conf-1.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/cairo-compmgr-9999-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/repo-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-1.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-f2a78m-conf-1.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/nullidentdmod-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/backup-conf-5.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/altyo-9999-r1
  * Cache regenerated successfully
