@@ -12,6 +12,14 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync voyageur
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing voyageur
@@ -20,29 +28,29 @@ Already up-to-date.
 $ pmaint regen -t 2 voyageur
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/aws-cli-1.7.36caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/boinc-7.2.42
-!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/texworks-0.4.6
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/vca-cli-11_rc1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/texworks-0.4.6
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/aws-cli-1.7.36
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/boinc-7.2.42
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/vca-cli-11_rc1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.7.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.6.4
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/tt-rss-9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gateone-1.1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gateone-9999!!! 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.6.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.7.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/tt-rss-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/exfat-nofuse-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.7.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libtxc_dxtn_s2tc-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/sensei-raw-ctl-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libtxc_dxtn_s2tc-1.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rainloop-1.9.1.335
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rainloop-1.9.1.335caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gateone-9999
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/exfat-nofuse-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/piwigo-2.7.4
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libtxc_dxtn_s2tc-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libtxc_dxtn_s2tc-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/sensei-raw-ctl-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-board/pysolfc-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/botocore-1.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/iptools-0.6.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/jmespath-0.7.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/robobrowser-0.5.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyvcloud-12
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dagr-0.60
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/robobrowser-0.5.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/rdiff-backup-1.3.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dagr-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/robobrowser-0.5.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/rdiff-backup-1.3.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyvcloud-12
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dagr-0.60
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dagr-9999
  * Cache regenerated successfully

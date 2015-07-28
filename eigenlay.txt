@@ -15,7 +15,13 @@
  u'supported': True}
  * Adding new repository
 $ pmaint sync eigenlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Cloning into '/home/mgorny/repos/eigenlay'...
 fatal: repository 'https://git.gitorious.org/eigennet/eigenlay.git/' not found
 *** syncing eigenlay

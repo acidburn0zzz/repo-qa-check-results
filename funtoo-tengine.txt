@@ -12,6 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync funtoo-tengine
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing funtoo-tengine
@@ -20,9 +24,9 @@ Already up-to-date.
 $ pmaint regen -t 2 funtoo-tengine
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/tengine-redis2-0.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/nginx-1.8.0
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/tengine-redis2-0.11caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/tengine-headers-more-0.25
+
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/nginx-1.8.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/tengine-2.1.0-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/tengine-upload-progress-0.9.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/tengine-2.1.0-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-plugins/tengine-headers-more-0.25
  * Cache regenerated successfully

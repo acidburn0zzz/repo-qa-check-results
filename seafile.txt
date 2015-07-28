@@ -20,7 +20,23 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync seafile
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing seafile
 *** synced seafile
@@ -28,32 +44,32 @@ Already up-to-date.
 $ pmaint regen -t 2 seafile
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-3.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-2.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-2.0.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-1.8.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-2.1.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-3.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-2.0.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-2.0.8
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-3.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-1.8.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libevhtp-1.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-3.1.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-2.1.2
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-3.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-3.0.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libevhtp-1.1.6!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/ccnet-3.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-2.1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-2.0.8
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-1.8.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-3.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-3.0.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-3.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-2.1.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-2.0.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-server-3.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-1.8.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-2.0.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-3.0.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libsearpc-2.1.2
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-3.0.4
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-3.0.2!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.0.8
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-1.8.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-server-3.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-3.0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.1.2-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.0.8
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.1.2-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seahub-3.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-3.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-3.0.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-3.1.6
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-3.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seahub-2.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-3.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-client-2.1.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seafile-2.1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seahub-3.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/seahub-2.1
  * Cache regenerated successfully

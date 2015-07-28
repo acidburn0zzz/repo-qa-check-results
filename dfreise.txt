@@ -16,7 +16,15 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync dfreise
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing dfreise
 *** synced dfreise
@@ -24,16 +32,16 @@ Already up-to-date.
 $ pmaint regen -t 2 dfreise
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/capisuite-0.4.5-r7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/capisuite-0.5.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r9
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.23_pre20120521
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.25
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/capisuite-0.4.5-r7
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r11!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r5
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r6
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.23_pre20120508
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r7
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.23_pre20120521
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/fcpci-0.1-r8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/isdn4k-utils-3.25
  * Cache regenerated successfully

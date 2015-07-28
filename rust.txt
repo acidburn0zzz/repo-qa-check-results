@@ -14,7 +14,27 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync rust
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing rust
@@ -23,26 +43,26 @@ Already up-to-date.
 $ pmaint regen -t 2 rust
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-1.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/SolidOak-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-99
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-99
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-1.0.0!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-1.1.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-1.0.0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-1.1.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/rusty-tags-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-99
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/SolidOak-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-1.1.0
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/racer-9999
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-bin-999
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/rusty-tags-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/cargo-0.2.0
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/cargo-0.3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/cargo-0.2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/rust-bindgen-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emacs/rust-mode-9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/cargo-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/cargo-0.3.0
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/rust-mode-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-rust/rust-bindgen-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emacs/rust-mode-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/rust-zshcomp-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-eselect/eselect-rust-0.3_pre20150428
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/rust-1.1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/rust-mode-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/rust-zshcomp-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-eselect/eselect-rust-0.3_pre20150428
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/rust-999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/rust-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/rust-1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/rust-999
  * Cache regenerated successfully

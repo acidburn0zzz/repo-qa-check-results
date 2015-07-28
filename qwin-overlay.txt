@@ -12,7 +12,21 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync qwin-overlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/n8x0' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/n8x0', named 'n8x0', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bitcoin' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bitcoin', named 'bitcoin', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/nightmare' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/nightmare', named 'nightmare', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing qwin-overlay
 *** synced qwin-overlay
@@ -20,25 +34,25 @@ Already up-to-date.
 $ pmaint regen -t 2 qwin-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libsemanage-2.4-r2
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.46
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libICE-1.0.9
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.46caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-apps/sessreg-1.1.0-r1
-!!! !!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/otf-fira-3.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/gala-0.1_p20150206!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/roboto-20140702
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-intel-2.99.917-r3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cdebootstrap-0.6.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/gala-0.1_p20150206
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libsemanage-2.4-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-intel-2.99.917-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/otf-fira-3.1
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/sakura-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cdebootstrap-0.6.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-apps/sessreg-1.1.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/roboto-20140702caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-base/xorg-server-1.17.1-r2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/sakura-9999
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/roboto-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libdebian-installer-0.99
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/ustr-1.0.4-r6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/ii-net-0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/telegram-bin-0.8.36
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/autotalent-0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/telegram-bin-0.8.36
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/memtest86+-5.01-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/paper-gtk-theme-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/repo-1.21
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/memtest86+-5.01-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/autotalent-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/paper-gtk-theme-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/paper-icon-theme-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-base/xorg-server-1.17.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libdebian-installer-0.99
  * Cache regenerated successfully
