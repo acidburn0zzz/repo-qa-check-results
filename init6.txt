@@ -15,82 +15,489 @@
  u'supported': True}
 $ pmaint sync init6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/init6/init_6
+   6716120..b90f672  master     -> origin/master
+Updating 6716120..b90f672
+Fast-forward
+ sys-kernel/geek-sources/Manifest                   |   35 +-
+ .../files/3.10.78/brand/gentoo-larry-logo-v5.patch | 2746 -----------
+ .../brand/font-8x16-iso-latin-1-v2.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.10-colored-printk.patch          |    0
+ .../files/{3.10.78 => 3.10.84}/brand/patch_list    |    0
+ ...t-zram_free_page-in-swap-free-notify-path.patch |    0
+ ...t-driver-for-intel-rapid-start-technology.patch |    0
+ ...ing-charge-thresholds-for-newer-thinkpads.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/change-the-number-of-tty-devices.patch     |    0
+ ...hange-the-calculation-of-target-frequency.patch |    0
+ .../{3.12.42 => 3.10.84}/fix/criu-no-expert.patch  |    0
+ .../enable-thinkpad-hardware-mute-control.patch    |    0
+ .../{3.12.42 => 3.10.84}/fix/kernel-esfq.patch     |    0
+ .../{3.12.42 => 3.10.84}/fix/kernelvariables.patch |    0
+ ...mei-check-if-the-hardware-reset-succeeded.patch |    0
+ .../mei-check-whether-hw-start-has-succeeded.patch |    0
+ ...rect-device-state-during-unexpected-reset.patch |    0
+ .../files/{3.10.78 => 3.10.84}/fix/patch_list      |    0
+ .../3.12.42/brand/font-8x16-iso-latin-1-v3.patch   | 4747 --------------------
+ .../fix/change-default-console-loglevel.patch      |   12 -
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.12-colored-printk.patch          |    0
+ .../files/{3.12.42 => 3.12.44}/brand/patch_list    |    0
+ .../2700_ThinkPad-30-brightness-control-fix.patch  |    0
+ ...ing-charge-thresholds-for-newer-thinkpads.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/change-the-number-of-tty-devices.patch     |    0
+ .../{3.10.78 => 3.12.44}/fix/criu-no-expert.patch  |    0
+ .../enable-thinkpad-hardware-mute-control.patch    |    0
+ .../kernel-2.6.19-hda_snd_intel-null_pointer.patch |    0
+ .../fix/kernel-2.6.20-freezer.patch                |    0
+ .../fix/kernel-2.6.21-VT3351_disable_msi.patch     |    0
+ .../fix/kernel-2.6.21-kvm_wbinvd.patch             |    0
+ .../fix/kernel-2.6.22-ppc_PM_NEEDS_RTC_LIB.patch   |    0
+ ...ernel-2.6.22-ppc_export_vgacon_remap_base.patch |    0
+ .../fix/kernel-2.6.26-atl1_disable_TSO.patch       |    0
+ .../kernel-2.6.26-fglrx_disable_gpl_check.patch    |    0
+ .../fix/kernel-2.6.26-snd_hda_intel_zepto.patch    |    0
+ .../fix/kernel-2.6.28.10-MSG_PEEK_race_msg.patch   |    0
+ .../fix/kernel-2.6.30-fglrx_flush_tlb_page.patch   |    0
+ .../fix/kernel-2.6.30-wmi_fix.patch                |    0
+ .../fix/kernel-2.6.33-dns_resolve_include.patch    |    0
+ ....6.33-fix_dependence_for_intel_agp_module.patch |    0
+ .../fix/kernel-2.6.33-lzo_decompressor_fix.patch   |    0
+ .../kernel-2.6.33-tpm_calc_ordinal_duration.patch  |    0
+ .../fix/kernel-2.6.33.5-squashfs-fixes.patch       |    0
+ .../fix/kernel-2.6.33.7-make-3.82.patch            |    0
+ .../fix/kernel-2.6.35-006-squashfs_add_lzma.patch  |    0
+ ...l-2.6.35-007-squashfs_make_lzma_available.patch |    0
+ .../fix/kernel-2.6.35-430-scsi_header_fix.patch    |    0
+ ...rnel-2.6.35-CTI_USB-485-Mini_USB-Nano-485.patch |    0
+ ...ernel-2.6.35-usbstorage-disable_delay_use.patch |    0
+ .../fix/kernel-2.6.35-vga_dont_ask.patch           |    0
+ ....6.35.10-drm-radeon-r600-cs-checker-fixes.patch |    0
+ ...rnel-2.6.37-005-squashfs_revert_to_2.6.35.patch |    0
+ .../kernel-2.6.37.1-radeon_flickering_fix.patch    |    0
+ ...nel-2.6.38.6-arm-rtlwifi-eliminate_udelay.patch |    0
+ ...uspend_fix_firmware_task_freezing_feature.patch |    0
+ .../fix/kernel-3.1-arm_missing_includes.patch      |    0
+ ...-arm-mtd_omap2_allow_building_as_a_module.patch |    0
+ .../fix/kernel-3.12-overlayfs.patch                |    0
+ ...el-3.2-arm_remove_BUILD_BUG_ON_from_bug_h.patch |    0
+ .../fix/kernel-3.2-elantech.patch                  |    0
+ .../fix/kernel-3.2-option_add_Huawey-E352.patch    |    0
+ .../fix/kernel-3.2.1-8139cp.patch                  |    0
+ .../fix/kernel-3.2.1-rtl8139too.patch              |    0
+ .../fix/kernel-3.2.16-ipw2200_fix.patch            |    0
+ .../fix/kernel-3.2.9-asix_sitecom_ln_031.patch     |    0
+ ...ot_use_Lid_and_Sleep_button_for_S5_wakeup.patch |    0
+ ...libata_restore_acpi_disable_functionality.patch |    0
+ .../fix/kernel-3.8.3-arm-exynosdrm-buildfix.patch  |    0
+ .../fix/kernel-3.8.3-arm-imx-drm-buildfix.patch    |    0
+ .../{3.10.78 => 3.12.44}/fix/kernel-esfq.patch     |    0
+ .../fix/kernel26-2.6.18-bt8xx.patch                |    0
+ .../{3.10.78 => 3.12.44}/fix/kernelvariables.patch |    0
+ .../files/{3.12.42 => 3.12.44}/fix/patch_list      |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |   74 -
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |   93 -
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |   75 -
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |   44 -
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |   33 -
+ .../fix/0006-genksyms-fix-typeof-handling.patch    | 1360 ------
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |  110 -
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |   52 -
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.14-colored-printk.patch          |    0
+ .../files/{3.14.43 => 3.14.48}/brand/patch_list    |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |    0
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |    0
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |    0
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |    0
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |    0
+ .../fix/0006-genksyms-fix-typeof-handling.patch    |    0
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |    0
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../files/{3.14.43 => 3.14.48}/fix/patch_list      |    0
+ .../3.18.13/brand/linux-3.16-colored-printk.patch  |  369 --
+ .../geek-sources/files/3.18.13/brand/patch_list    |    3 -
+ ...sallow-pin-ioctl-completely-for-kms-drive.patch |   79 -
+ .../3.18.13/fix/compal-laptop-hwmon-fix.patch      |   14 -
+ .../geek-sources/files/3.18.13/fix/patch_list      |   41 -
+ .../files/3.18.13/fix/unfuck_intel_video.patch     |   32 -
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.16-colored-printk.patch          |    0
+ .../files/{4.2-r2 => 3.18.19}/brand/patch_list     |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |    0
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |    0
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |    0
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |    0
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |    0
+ .../fix/0006-genksyms-fix-typeof-handling.patch    |    0
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |    0
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |    0
+ ...sallow-pin-ioctl-completely-for-kms-drive.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/compal-laptop-hwmon-fix.patch              |    0
+ .../files/{4.2-r2 => 3.18.19}/fix/patch_list       |    0
+ .../fix/unfuck_intel_video.patch                   |    0
+ .../brand/font-8x16-iso-latin-1.patch              |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../files/{3.4.107 => 3.4.108}/brand/patch_list    |    0
+ .../2400_kcopy-patch-for-infiniband-driver.patch   |    0
+ .../fix/3.4-module-init-wait.patch                 |    0
+ .../fix/3.4-module-symbol-waiting.patch            |    0
+ ...-failing-if-frontend-open-closed-too-fast.patch |    0
+ .../{3.4.107 => 3.4.108}/fix/3.4.23-fat.patch      |    0
+ .../fix/3.4.4-fix-backlight-regression.patch       |    0
+ ...ious-progressive-ext4-data-corruption-bug.patch |    0
+ ...vers-over-ide-drivers-when-both-are-built.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ ...and_performance_optimise_default_settings.patch |    0
+ .../fix/fix-acerhdf-1810T-bios.patch               |    0
+ .../fix/i915-fix-ghost-tv-output.patch             |    0
+ .../fix/net-wireless-ath9k-testfix.patch           |    0
+ .../fix/net-wireless-rt2800usb_disable_ps.patch    |    0
+ .../files/{3.4.107 => 3.4.108}/fix/patch_list      |    0
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.16-colored-printk.patch          |    0
+ .../files/{4.1.2 => 4.0.9}/brand/patch_list        |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |    0
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |    0
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |    0
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |    0
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |    0
+ .../fix/0006-genksyms-fix-typeof-handling.patch    |    0
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |    0
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |    0
+ ...sallow-pin-ioctl-completely-for-kms-drive.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/compal-laptop-hwmon-fix.patch              |    0
+ .../files/{4.1.2 => 4.0.9}/fix/patch_list          |    0
+ .../{4.1.2 => 4.0.9}/fix/unfuck_intel_video.patch  |    0
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.16-colored-printk.patch          |    0
+ .../files/{4.0.8 => 4.1.3}/brand/patch_list        |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |    0
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |    0
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |    0
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |    0
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |    0
+ .../fix/0006-genksyms-fix-typeof-handling.patch    |    0
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |    0
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |    0
+ ...sallow-pin-ioctl-completely-for-kms-drive.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/compal-laptop-hwmon-fix.patch              |    0
+ .../files/{4.0.8 => 4.1.3}/fix/patch_list          |    0
+ .../{4.0.8 => 4.1.3}/fix/unfuck_intel_video.patch  |    0
+ .../brand/font-8x16-iso-latin-1-v3.patch           |    0
+ .../brand/gentoo-larry-logo-v5.patch               |    0
+ .../brand/linux-3.16-colored-printk.patch          |    0
+ .../files/{3.19.8 => 4.2-r4}/brand/patch_list      |    0
+ ...-Bluetooth-allocate-static-minor-for-vhci.patch |    0
+ ...w-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch |    0
+ .../0003-module-remove-MODULE_GENERIC_TABLE.patch  |    0
+ ...0004-fs-Don-t-return-0-from-get_anon_bdev.patch |    0
+ ...tooth-Enable-autosuspend-for-Intel-Blueto.patch |    0
+ .../fix/0006-genksyms-fix-typeof-handling.patch    |    0
+ ...Correct-EFI-boot-stub-use-of-code32_start.patch |    0
+ ...-delay-enabling-smart-FIFO-until-after-be.patch |    0
+ ...sallow-pin-ioctl-completely-for-kms-drive.patch |    0
+ .../fix/change-default-console-loglevel.patch      |    0
+ .../fix/compal-laptop-hwmon-fix.patch              |    0
+ .../files/{3.19.8 => 4.2-r4}/fix/patch_list        |    0
+ .../fix/unfuck_intel_video.patch                   |    0
+ ...-3.10.78.ebuild => geek-sources-3.10.84.ebuild} |    0
+ ...-3.12.42.ebuild => geek-sources-3.12.44.ebuild} |    0
+ ...-3.14.43.ebuild => geek-sources-3.14.48.ebuild} |    4 +-
+ ...-3.18.13.ebuild => geek-sources-3.18.19.ebuild} |    0
+ sys-kernel/geek-sources/geek-sources-3.19.8.ebuild |   37 -
+ sys-kernel/geek-sources/geek-sources-3.2.69.ebuild |    2 +-
+ ...-3.4.107.ebuild => geek-sources-3.4.108.ebuild} |    0
+ ...rces-4.0.8.ebuild => geek-sources-4.0.9.ebuild} |    8 +-
+ ...rces-4.1.2.ebuild => geek-sources-4.1.3.ebuild} |    6 +-
+ ...es-4.2-r2.ebuild => geek-sources-4.2-r4.ebuild} |    0
+ 203 files changed, 23 insertions(+), 9953 deletions(-)
+ delete mode 100644 sys-kernel/geek-sources/files/3.10.78/brand/gentoo-larry-logo-v5.patch
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/brand/font-8x16-iso-latin-1-v2.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.10.84}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/brand/linux-3.10-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/3.10.13-Revert-zram-use-zram--lock-to-protect-zram_free_page-in-swap-free-notify-path.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/add-support-driver-for-intel-rapid-start-technology.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/add-support-for-controlling-charge-thresholds-for-newer-thinkpads.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/change-the-number-of-tty-devices.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/cpufreq-ondemand-Change-the-calculation-of-target-frequency.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/criu-no-expert.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/enable-thinkpad-hardware-mute-control.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/kernel-esfq.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.10.84}/fix/kernelvariables.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/mei-check-if-the-hardware-reset-succeeded.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/mei-check-whether-hw-start-has-succeeded.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/mei-print-correct-device-state-during-unexpected-reset.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.10.84}/fix/patch_list (100%)
+ delete mode 100644 sys-kernel/geek-sources/files/3.12.42/brand/font-8x16-iso-latin-1-v3.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.12.42/fix/change-default-console-loglevel.patch
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.12.44}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.12.44}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/brand/linux-3.12-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/2700_ThinkPad-30-brightness-control-fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/add-support-for-controlling-charge-thresholds-for-newer-thinkpads.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.12.44}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/change-the-number-of-tty-devices.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/criu-no-expert.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/enable-thinkpad-hardware-mute-control.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.19-hda_snd_intel-null_pointer.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.20-freezer.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.21-VT3351_disable_msi.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.21-kvm_wbinvd.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.22-ppc_PM_NEEDS_RTC_LIB.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.22-ppc_export_vgacon_remap_base.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.26-atl1_disable_TSO.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.26-fglrx_disable_gpl_check.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.26-snd_hda_intel_zepto.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.28.10-MSG_PEEK_race_msg.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.30-fglrx_flush_tlb_page.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.30-wmi_fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33-dns_resolve_include.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33-fix_dependence_for_intel_agp_module.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33-lzo_decompressor_fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33-tpm_calc_ordinal_duration.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33.5-squashfs-fixes.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.33.7-make-3.82.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-006-squashfs_add_lzma.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-007-squashfs_make_lzma_available.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-430-scsi_header_fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-CTI_USB-485-Mini_USB-Nano-485.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-usbstorage-disable_delay_use.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35-vga_dont_ask.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.35.10-drm-radeon-r600-cs-checker-fixes.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.37-005-squashfs_revert_to_2.6.35.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.37.1-radeon_flickering_fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-2.6.38.6-arm-rtlwifi-eliminate_udelay.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.0.8-suspend_fix_firmware_task_freezing_feature.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.1-arm_missing_includes.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.10.2-arm-mtd_omap2_allow_building_as_a_module.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.12-overlayfs.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2-arm_remove_BUILD_BUG_ON_from_bug_h.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2-elantech.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2-option_add_Huawey-E352.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2.1-8139cp.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2.1-rtl8139too.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2.16-ipw2200_fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.2.9-asix_sitecom_ln_031.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.4.24-ACPI_do_not_use_Lid_and_Sleep_button_for_S5_wakeup.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.7.1-libata_restore_acpi_disable_functionality.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.8.3-arm-exynosdrm-buildfix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel-3.8.3-arm-imx-drm-buildfix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/kernel-esfq.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/kernel26-2.6.18-bt8xx.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.10.78 => 3.12.44}/fix/kernelvariables.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 3.12.44}/fix/patch_list (100%)
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0006-genksyms-fix-typeof-handling.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.14.43/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.14.48}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 3.14.48}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 3.14.48}/brand/linux-3.14-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 3.14.48}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.14.48}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.14.48}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 3.14.48}/fix/patch_list (100%)
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/brand/linux-3.16-colored-printk.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/brand/patch_list
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/fix/compal-laptop-hwmon-fix.patch
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/fix/patch_list
+ delete mode 100644 sys-kernel/geek-sources/files/3.18.13/fix/unfuck_intel_video.patch
+ rename sys-kernel/geek-sources/files/{4.0.8 => 3.18.19}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.18.19}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/brand/linux-3.16-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 3.18.19}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 3.18.19}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/fix/compal-laptop-hwmon-fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/fix/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.2-r2 => 3.18.19}/fix/unfuck_intel_video.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/brand/font-8x16-iso-latin-1.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 3.4.108}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/2400_kcopy-patch-for-infiniband-driver.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/3.4-module-init-wait.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/3.4-module-symbol-waiting.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/3.4.21-Fix-DVB-ioctls-failing-if-frontend-open-closed-too-fast.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/3.4.23-fat.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/3.4.4-fix-backlight-regression.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/FX01-fix-serious-progressive-ext4-data-corruption-bug.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/ata-prefer-ata-drivers-over-ide-drivers-when-both-are-built.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/cpufreq_ondemand_performance_optimise_default_settings.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/fix-acerhdf-1810T-bios.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/i915-fix-ghost-tv-output.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/net-wireless-ath9k-testfix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/net-wireless-rt2800usb_disable_ps.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.4.107 => 3.4.108}/fix/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.0.9}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.0.9}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/brand/linux-3.16-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.0.9}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.0.9}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/fix/compal-laptop-hwmon-fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/fix/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.1.2 => 4.0.9}/fix/unfuck_intel_video.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.1.3}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 4.1.3}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/brand/linux-3.16-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.1.3}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.1.3}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/fix/compal-laptop-hwmon-fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/fix/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{4.0.8 => 4.1.3}/fix/unfuck_intel_video.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 4.2-r4}/brand/font-8x16-iso-latin-1-v3.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.12.42 => 4.2-r4}/brand/gentoo-larry-logo-v5.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/brand/linux-3.16-colored-printk.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/brand/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0001-Bluetooth-allocate-static-minor-for-vhci.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0002-module-allow-multiple-calls-to-MODULE_DEVICE_TABLE-p.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0003-module-remove-MODULE_GENERIC_TABLE.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0004-fs-Don-t-return-0-from-get_anon_bdev.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0005-Revert-Bluetooth-Enable-autosuspend-for-Intel-Blueto.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0006-genksyms-fix-typeof-handling.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0007-x86-efi-Correct-EFI-boot-stub-use-of-code32_start.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.18.13 => 4.2-r4}/fix/0010-iwlwifi-mvm-delay-enabling-smart-FIFO-until-after-be.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/fix/0011-drm-i915-Disallow-pin-ioctl-completely-for-kms-drive.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.14.43 => 4.2-r4}/fix/change-default-console-loglevel.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/fix/compal-laptop-hwmon-fix.patch (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/fix/patch_list (100%)
+ rename sys-kernel/geek-sources/files/{3.19.8 => 4.2-r4}/fix/unfuck_intel_video.patch (100%)
+ rename sys-kernel/geek-sources/{geek-sources-3.10.78.ebuild => geek-sources-3.10.84.ebuild} (100%)
+ rename sys-kernel/geek-sources/{geek-sources-3.12.42.ebuild => geek-sources-3.12.44.ebuild} (100%)
+ rename sys-kernel/geek-sources/{geek-sources-3.14.43.ebuild => geek-sources-3.14.48.ebuild} (93%)
+ rename sys-kernel/geek-sources/{geek-sources-3.18.13.ebuild => geek-sources-3.18.19.ebuild} (100%)
+ delete mode 100644 sys-kernel/geek-sources/geek-sources-3.19.8.ebuild
+ rename sys-kernel/geek-sources/{geek-sources-3.4.107.ebuild => geek-sources-3.4.108.ebuild} (100%)
+ rename sys-kernel/geek-sources/{geek-sources-4.0.8.ebuild => geek-sources-4.0.9.ebuild} (83%)
+ rename sys-kernel/geek-sources/{geek-sources-4.1.2.ebuild => geek-sources-4.1.3.ebuild} (88%)
+ rename sys-kernel/geek-sources/{geek-sources-4.2-r2.ebuild => geek-sources-4.2-r4.ebuild} (100%)
 *** syncing init6
 *** synced init6
  * Sync succeeded
 $ pmaint regen -t 2 init6
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/core-functions-0.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/core-functions-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libtsm-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.19-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libtsm-3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/gentoolkit-0.3.0.9-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/udept-0.5.99.0.2.96
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/android-tools-4.4_p12
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20130906
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20140430
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/julia-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/ibashrc-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20140624
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.32
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.23
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.17
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-325.08
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/perl-cleaner-2.16
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libtsm-3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/gentoolkit-0.3.0.9-r1
+!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/core-functions-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/core-functions-0.0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libtsm-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.19-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/udept-0.5.99.0.2.96
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/ibashrc-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/julia-9999
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20140430caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.32
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20140624
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-325.08caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.17
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/intel-ucode-20130906
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-340.32
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-319.23
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-325.15
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/broadcom-sta-6.30.223.141
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/perl-cleaner-2.16caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/openlibm-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/broadcom-sta-6.30.223.141
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/python-updater-0.13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mc-4.8.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openjk-9999
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mc-4.8.13
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/utf8proc-1.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openjk-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-6.5.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/git-flow-completion-0.4.2.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/double-conversion-1.1.1
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/iso_latin_1-0.0.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-6.5.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/double-conversion-1.1.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/git-flow-0.4.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-1.8.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-reckoning-data-1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-groundzero-data-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-rogue-1.07
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitolite-3.2
 
-!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/utf8proc-1.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/git-flow-0.4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/git-flow-completion-0.4.2.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/openlibm-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-1.8.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-reckoning-data-1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-ctf-1.02
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-xatrix-2.00
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-5.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-arcade/rocksndiamonds-3.3.1.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-xatrix-2.00
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-ctf-1.02
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmscon-8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmscon-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/yamagi-quake2-rogue-1.07
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/squashed-portage-0.3.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-groundzero-data-1.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/binutils-config-4-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitolite-3.2
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/util-linux-2.24.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmscon-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/binutils-config-4-r1!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/squashed-portage-0.3.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-arcade/rocksndiamonds-3.3.1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-config-1.8-r1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.9_p201409
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.7_p201401caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/binutils-linaro-2.24.0_p201409
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.6_p201305!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.8_p201404
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gdb-linaro-7.8_p201409
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.6_p201305
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.7_p201401
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.8_p201404
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/binutils-linaro-2.24.0_p201409
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/util-linux-2.24.2
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-4.9.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/ipatch-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gdb-linaro-7.8_p201409!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-linaro-4.9_p201409caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/ipatch-9999
 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-4.9.1
 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/rxvt-unicode-9.20
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/urxvt-vtwheel-0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/rxvt-unicode-9.20caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/urxvt-vtwheel-0.3
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-2.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.12.42
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.14.43
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-2.6.32.65
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.10.78
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-2.6.32.65
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.10.84
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.12.44
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.14.48
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.18.19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.2.69
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.18.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.0.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.4.107
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.19.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.2-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.1.2
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-3.4.108
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.0.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.1.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/geek-sources-4.2-r4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/rh-sources-2.6.32.358
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-firmware/nouveau-firmware-340.32
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/android-tools-4.4_p12
  * Cache regenerated successfully
