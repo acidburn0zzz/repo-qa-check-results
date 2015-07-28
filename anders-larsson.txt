@@ -15,8 +15,6 @@
  u'supported': True}
 $ pmaint sync anders-larsson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing anders-larsson
@@ -25,9 +23,10 @@ Already up-to-date.
 $ pmaint regen -t 2 anders-larsson
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarf-therapist-31.0.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/simplescreenrecorder-0.3.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarf-therapist-31.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/simplescreenrecorder-0.3.3-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/simplescreenrecorder-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/acquisition-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarf-therapist-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/acquisition-9999
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
