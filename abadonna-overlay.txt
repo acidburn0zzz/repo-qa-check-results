@@ -16,22 +16,37 @@
  u'supported': True}
 $ pmaint sync abadonna-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: unable to access 'https://gitlab.com/Abadonna/abadonna-overlay.git/': Couldn't resolve host 'gitlab.com'
+*** syncing abadonna-overlay
+*** failed syncing abadonna-overlay
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync abadonna-overlay
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/DuPol' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Armageddon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Armageddon', named 'Armageddon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/abadonna-overlay'...
 *** syncing abadonna-overlay
 *** synced abadonna-overlay
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 abadonna-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/AfterShotPro-2.1.2.10!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-4.6.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/veracrypt-1.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.3
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/copy-agent-3.2.01.0481
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-10.0.41499
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-4.6.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/AfterShotPro-2.1.2.10
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/veracrypt-1.0.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-2.1.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-backup/copy-agent-3.2.01.0481
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/teamviewer-10.0.41499caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/tor-browser-4.5.1
+
  * Cache regenerated successfully

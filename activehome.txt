@@ -20,18 +20,56 @@
 $ pmaint sync activehome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Unable to look up anongit.gentoo.org (port 9418) (Temporary failure in name resolution)
+*** syncing activehome
+*** failed syncing activehome
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync activehome
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/DuPol' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/DuPol', named 'DuPol', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/alatar-lay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/alatar-lay', named 'alatar-lay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/OSSDL' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/OSSDL', named 'OSSDL', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/FireBurn' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/FireBurn', named 'FireBurn', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ShyPixie' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ShyPixie', named 'ShyPixie', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Armageddon' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Armageddon', named 'Armageddon', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abadonna-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abadonna-overlay', named 'abadonna-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abendbrot' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abendbrot', named 'abendbrot', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/AstroFloyd' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/AstroFloyd', named 'AstroFloyd', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/AzP' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/AzP', named 'AzP', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/Krontage' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/Krontage', named 'Krontage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/anaximander' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/anaximander', named 'anaximander', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ago' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ago', named 'ago', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/activehome'...
 *** syncing activehome
 *** synced activehome
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 activehome
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/pocketsphinx-0.8!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/rhvoice-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinxbase-0.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/julius-4.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/cmuclmtk-0.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/rhvoice-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/pocketsphinx-0.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinx3-0.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinxtrain-1.0.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/cmuclmtk-0.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/sphinxbase-0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/julius-4.2.2
  * Cache regenerated successfully

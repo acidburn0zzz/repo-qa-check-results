@@ -13,6 +13,8 @@
  u'supported': True}
 $ pmaint sync okupy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mv' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mv', named 'mv', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing okupy
 *** synced okupy
@@ -20,10 +22,9 @@ Already up-to-date.
 $ pmaint regen -t 2 okupy
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/okupy-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-ldapdb-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-otp-0.1.8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mockldap-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-otp-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/okupy-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-ldapdb-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-otp-9999
 
-Sandboxed process killed by signal: Broken pipe
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/django-otp-0.1.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mockldap-9999
  * Cache regenerated successfully

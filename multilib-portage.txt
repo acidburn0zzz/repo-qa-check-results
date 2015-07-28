@@ -15,48 +15,106 @@
  u'supported': True}
 $ pmaint sync multilib-portage
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Unable to look up anongit.gentoo.org (port 9418) (Temporary failure in name resolution)
 *** syncing multilib-portage
-*** synced multilib-portage
- * Sync succeeded
-$ pmaint regen -t 2 multilib-portage
+*** failed syncing multilib-portage
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync multilib-portage
+WARNING:pkgcore:repository at location '/home/mgorny/repos/miramir' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/miramir', named 'miramir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/fordfrog' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/calculate' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/calculate', named 'calculate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/libressl' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/libressl', named 'libressl', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hardened-development' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hardened-development', named 'hardened-development', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mozilla' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mozilla', named 'mozilla', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gnome' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gnome', named 'gnome', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/moonrise' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/moonrise', named 'moonrise', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bobwya' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/init6' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/init6', named 'init6', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mate' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mate', named 'mate', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bliss-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/last-hope' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/last-hope', named 'last-hope', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mooyooma' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mooyooma', named 'mooyooma', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-zh' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-zh', named 'gentoo-zh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mrueg' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mrueg', named 'mrueg', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/maggu2810-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/maggu2810-overlay', named 'maggu2810-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kde-sunset' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kde-sunset', named 'kde-sunset', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/java' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/java', named 'java', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/keruspe' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/keruspe', named 'keruspe', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kde' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kde', named 'kde', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hasufell' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hasufell', named 'hasufell', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/haskell' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/haskell', named 'haskell', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/elementary' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-173.14.39
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-340.76
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-331.113
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-349.16
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-343.36
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-304.125
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/googleearth-5.1.3535.3218-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-346.72
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-96.43.23
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/nvidia-drivers-352.21
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/googleearth-5.2.1.1329_beta
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/googleearth-6.0.1.2032_beta
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-gstplugins-99999999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-medialibs-99999999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-baselibs-99999999
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo', named 'gentoo', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/mrueg' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/mrueg', named 'mrueg', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/dev-zero' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/dev-zero', named 'dev-zero', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/elementary' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/elementary', named 'elementary', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/haskell' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/haskell', named 'haskell', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/ROKO__' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/ROKO__', named 'ROKO__', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/java' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/java', named 'java', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/init6' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/init6', named 'init6', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/miramir' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/miramir', named 'miramir', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/gentoo-zh' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/gentoo-zh', named 'gentoo-zh', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kde' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kde', named 'kde', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/libressl' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/libressl', named 'libressl', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bobwya' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bobwya', named 'bobwya', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/moonrise' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/moonrise', named 'moonrise', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/fordfrog' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/fordfrog', named 'fordfrog', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/hasufell' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/hasufell', named 'hasufell', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/bliss-overlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/bliss-overlay', named 'bliss-overlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+WARNING:pkgcore:repository at location '/home/mgorny/repos/kde-sunset' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/kde-sunset', named 'kde-sunset', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/multilib-portage'...
+fatal: Could not read from remote repository.
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-gtklibs-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-db-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-opengl-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-qtlibs-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-xlibs-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-sdl-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-0.97-r10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.47
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-soundlibs-99999999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: perl-core/Digest-SHA-5.820.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/jack-audio-connection-kit-0.121.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/abi-wrapper-1.0-r6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/abi-wrapper-2.0_pre20120702
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/portage-2.2.18-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-0.97-r14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/portage-2.2.18-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/live-2009.06.02
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/live-2011.06.16
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/live-2011.12.20
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/live-2011.12.23
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/live-2012.01.07
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pycairo-1.10.0-r4
- * Cache regenerated successfully
+Please make sure you have the correct access rights
+and the repository exists.
+*** syncing multilib-portage
+*** failed syncing multilib-portage
+ * Sync failed again with 1, removing

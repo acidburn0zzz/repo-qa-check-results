@@ -19,16 +19,24 @@
  u'supported': True}
 $ pmaint sync alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Unable to look up anongit.gentoo.org (port 9418) (Temporary failure in name resolution)
+*** syncing alexcepoi
+*** failed syncing alexcepoi
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync alexcepoi
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/abnorm' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/abnorm', named 'abnorm', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
+Cloning into '/home/mgorny/repos/alexcepoi'...
 *** syncing alexcepoi
 *** synced alexcepoi
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rcm-1.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Linux-Distribution-0.210.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Log-LogLite-0.820.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rcm-1.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/linode-longview-9999
-Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully

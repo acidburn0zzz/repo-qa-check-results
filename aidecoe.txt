@@ -13,22 +13,28 @@
  u'supported': True}
 $ pmaint sync aidecoe
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+fatal: Unable to look up github.com (port 9418) (Temporary failure in name resolution)
+*** syncing aidecoe
+*** failed syncing aidecoe
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync aidecoe
+WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+Cloning into '/home/mgorny/repos/aidecoe'...
 *** syncing aidecoe
 *** synced aidecoe
- * Sync succeeded
+ * Sync succeeded after re-adding
 $ pmaint regen -t 2 aidecoe
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-mobilephone/wammu-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-mobilephone/gammu-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/alot-9999
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/logstash-forwarder-0.4.0
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/notmuch-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/logstash-forwarder-0.4.0
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/afew-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/alot-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/dracut-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/yed-3.9.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/dracut-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/yed-3.9.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-mobilephone/gammu-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/genkernel-999999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/afew-9999
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/genkernel-999999
-Sandboxed process killed by signal: Broken pipe
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-mobilephone/wammu-9999
  * Cache regenerated successfully
