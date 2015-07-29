@@ -14,17 +14,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync n4g-experimental
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mgorny' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mgorny', named 'mgorny', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mv' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mv', named 'mv', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mv' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mv', named 'mv', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/musl' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/musl', named 'musl', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named 'multilib-portage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing n4g-experimental
@@ -33,8 +23,8 @@ Already up-to-date.
 $ pmaint regen -t 2 n4g-experimental
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/novell-plugin-base-2.7.299
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/novell-imanager-2.7.291
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/CASA-1.8.0_pre3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-dotnet/nunit-2.5.3.9345
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 13009, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246

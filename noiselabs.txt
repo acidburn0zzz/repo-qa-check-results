@@ -12,19 +12,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync noiselabs
-WARNING:pkgcore:repository at location '/home/mgorny/repos/musl' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/musl', named 'musl', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named 'mysql', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named 'multilib-portage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/musl' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/musl', named 'musl', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/mysql' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/mysql', named 'mysql', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/multilib-portage' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/multilib-portage', named 'multilib-portage', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing noiselabs
@@ -33,20 +21,20 @@ Already up-to-date.
 $ pmaint regen -t 2 noiselabs
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.3.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.2!!! 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.0.11
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/googlefontdirectory-908
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.5
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/async-0.6.1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.0.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/git-python-0.3.2_rc1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/git-python-0.3.1_beta2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-gui-2.1.0_rc1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/smmap-0.8.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/yoono-desktop-1.8.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/gitdb-0.5.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.3.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/googlefontdirectory-908
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/smmap-0.8.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.0.14
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/git-python-0.3.1_beta2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/coova-chilli-1.0.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/yoono-desktop-1.8.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/asterisk-gui-2.1.0_rc1
  * Cache regenerated successfully

@@ -13,34 +13,22 @@
               (u'git+ssh://git@git.gentoo.org/dev/mgorny.git', u'Git', u'')],
  u'status': u'official',
  u'supported': True}
- * Adding new repository
 $ pmaint sync mgorny
-WARNING:pkgcore:repository at location '/home/mgorny/repos/lordvan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/lordvan', named 'lordvan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luman' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luman', named 'luman', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/lua' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/lua', named 'lua', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/ltsp' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/ltsp', named 'ltsp', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/luman' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/luman', named 'luman', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-WARNING:pkgcore:repository at location '/home/mgorny/repos/maksbotan' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/maksbotan', named 'maksbotan', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
-Cloning into '/home/mgorny/repos/mgorny'...
+Already up-to-date.
 *** syncing mgorny
 *** synced mgorny
  * Sync succeeded
 $ pmaint regen -t 2 mgorny
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-binpkg/pypy-2.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/libh2oboost-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: systemd-units/nfs-utils-10caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libcopyfile-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: systemd-units/rpcbind-4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pypy3-binpackage-2.4.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/ccattr-9999
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-binpkg/pypy-2.5.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: systemd-units/rpcbind-4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: systemd-units/nfs-utils-10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-binpkg/pypy-2.6.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/libh2oboost-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/ccattr-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pypy3-binpackage-2.4.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libcopyfile-9999
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
