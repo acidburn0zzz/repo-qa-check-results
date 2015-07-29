@@ -16,7 +16,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync yoreek
-WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing yoreek
@@ -25,8 +24,5 @@ Already up-to-date.
 $ pmaint regen -t 2 yoreek
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 7870, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-servers/nginx-1.7.6-r101
+ * Cache regenerated successfully

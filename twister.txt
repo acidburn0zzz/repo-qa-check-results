@@ -20,11 +20,7 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync twister
-WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing twister
@@ -33,6 +29,6 @@ Already up-to-date.
 $ pmaint regen -t 2 twister
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/twister-0.9.29_beta
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/twister-0.9.28_beta
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/twister-0.9.29_beta
  * Cache regenerated successfully
