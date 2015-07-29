@@ -12,7 +12,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync twitch153
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing twitch153
 *** synced twitch153
@@ -21,9 +25,8 @@ $ pmaint regen -t 2 twitch153
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/gmanedit-0.4.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/dolphin-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/webapp-config-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/dolphin-3.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/gentoo-sources-3.8.13
-Sandboxed process killed by signal: Broken pipe
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/dolphin-3.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/dolphin-9999
  * Cache regenerated successfully

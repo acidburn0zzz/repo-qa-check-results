@@ -14,7 +14,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync tristelune
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing tristelune
 *** synced tristelune
@@ -23,9 +27,8 @@ $ pmaint regen -t 2 tristelune
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-contrib-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libupnpp-0.10.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rofi-pass-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-opt-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-core-9999
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libupnpp-0.10.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/wmutils-opt-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rofi-pass-9999
-Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
