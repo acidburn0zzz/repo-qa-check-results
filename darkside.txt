@@ -16,8 +16,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync darkside
-WARNING:pkgcore:repository at location '/home/mgorny/repos/bleeding-edge' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/bleeding-edge', named 'bleeding-edge', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing darkside
@@ -26,12 +24,13 @@ Already up-to-date.
 $ pmaint regen -t 2 darkside
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_autoindex_mb-2.15.1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_form-144
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_autoindex_mb-2.15.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_mirrorbrain-2.15.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_form-144
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cmdln-1.1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/postgresql-ip4r-1.05
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-misc/mirrorbrain-2.15.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_asn-1.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/postgresql-ip4r-1.05caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cmdln-1.1.2
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-misc/mirrorbrain-2.15.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openswan-2.6.38
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apache/mod_asn-1.5
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
