@@ -15,18 +15,24 @@
  u'supported': True}
 $ pmaint sync johu
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://anongit.gentoo.org/dev/johu
+   c8ab204..65694ad  master     -> origin/master
+Updating c8ab204..65694ad
+Fast-forward
+ net-irc/quassel/files/quassel-0.12.2-qt55.patch | 53 -------------------------
+ net-irc/quassel/quassel-9999.ebuild             |  2 -
+ 2 files changed, 55 deletions(-)
+ delete mode 100644 net-irc/quassel/files/quassel-0.12.2-qt55.patch
 *** syncing johu
 *** synced johu
  * Sync succeeded
 $ pmaint regen -t 2 johu
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/calamares-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/tomahawk-9999
-!!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/webkit-gtk-2.4.9
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/qtkeychain-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/quassel-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/webkit-gtk-2.4.9
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-irc/quassel-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/calamares-9999
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.7.4
-Sandboxed process killed by signal: Broken pipe
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.7.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/tomahawk-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/qtkeychain-9999
  * Cache regenerated successfully

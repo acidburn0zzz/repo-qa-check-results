@@ -14,19 +14,33 @@
  u'supported': True}
 $ pmaint sync hamper-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/hamper/hamper-overlay
+   5496ff4..52c63a9  master     -> origin/master
+Updating 5496ff4..52c63a9
+Fast-forward
+ dev-db/influxdb/Manifest               |  2 ++
+ dev-db/influxdb/influxdb-0.9.2.ebuild  | 36 ++++++++++++++++++++++++++++++++++
+ net-im/telegram/Manifest               |  6 +++---
+ net-im/telegram/telegram-0.8.38.ebuild | 36 ++++++++++++++++++++++++++++++++++
+ 4 files changed, 77 insertions(+), 3 deletions(-)
+ create mode 100644 dev-db/influxdb/Manifest
+ create mode 100644 dev-db/influxdb/influxdb-0.9.2.ebuild
+ create mode 100644 net-im/telegram/telegram-0.8.38.ebuild
 *** syncing hamper-overlay
 *** synced hamper-overlay
  * Sync succeeded
 $ pmaint regen -t 2 hamper-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/jreen-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.2.92
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/qutim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/asedriveiiie-usb-3.7-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/ifcplugin-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.3.93
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.3.93
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/jreen-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/qutim-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/qutim-9999-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/btsync-1.2.92
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/telegram-0.8.38
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/ifcplugin-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/asedriveiiie-usb-3.7-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/influxdb-0.9.2
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
