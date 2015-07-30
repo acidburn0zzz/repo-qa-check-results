@@ -16,31 +16,21 @@
 $ pmaint sync gitlab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://gitlab.awesome-it.de/overlays/gitlab
-   9b4ab21..9516fed  master     -> origin/master
-Updating 9b4ab21..9516fed
-Fast-forward
- www-apps/gitlabhq/Manifest                         |   4 +-
- .../files/gitlabhq-7.13.2-fix-checks-gentoo.patch  |  11 ++
- www-apps/gitlabhq/files/gitlabhq-7.13.2.init       |  64 +++++++++++
- ...itlabhq-7.8.4.ebuild => gitlabhq-7.13.2.ebuild} | 122 +++++++++++----------
- 4 files changed, 140 insertions(+), 61 deletions(-)
- create mode 100644 www-apps/gitlabhq/files/gitlabhq-7.13.2-fix-checks-gentoo.patch
- create mode 100644 www-apps/gitlabhq/files/gitlabhq-7.13.2.init
- rename www-apps/gitlabhq/{gitlabhq-7.8.4.ebuild => gitlabhq-7.13.2.ebuild} (84%)
+Already up-to-date.
 *** syncing gitlab
 *** synced gitlab
  * Sync succeeded
 $ pmaint regen -t 2 gitlab
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.11.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.4
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.12.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-2.5.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.13.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-2.6.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.11.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlab-ci-7.8.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.12.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/gitlabhq-7.13.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-2.5.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/gitlab-shell-2.6.3
+
+Sandboxed process killed by signal: Broken pipe
  * Cache regenerated successfully
