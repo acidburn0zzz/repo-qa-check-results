@@ -16,90 +16,63 @@
  u'supported': True}
 $ pmaint sync kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://anongit.gentoo.org/proj/kde
-   2053e01..4e9454a  master     -> origin/master
-Updating 2053e01..4e9454a
-Fast-forward
- .../.kde-plasma-live/kde-plasma-live                  |  1 +
- .../package.accept_keywords/kde-plasma-live.keywords  |  1 +
- Documentation/package.mask/kde-plasma-live            |  1 +
- Documentation/package.unmask/kde-plasma-live          |  1 +
- .../kdegraphics-meta-15.08.49.9999.ebuild             |  1 -
- .../kdegraphics-meta/kdegraphics-meta-9999.ebuild     |  1 -
- kde-apps/kgamma/kgamma-15.08.49.9999.ebuild           | 19 -------------------
- kde-apps/kgamma/kgamma-9999.ebuild                    | 19 -------------------
- kde-apps/kget/kget-15.04.3.ebuild                     |  2 +-
- kde-apps/kget/kget-15.08.49.9999.ebuild               |  4 ++--
- kde-apps/kget/kget-9999.ebuild                        |  4 ++--
- kde-apps/kget/metadata.xml                            |  2 +-
- .../kgamma/kgamma-9999.ebuild                         |  1 +
- kde-plasma/kgamma/metadata.xml                        |  5 +++++
- sets/kde-plasma-live                                  |  1 +
- 15 files changed, 17 insertions(+), 46 deletions(-)
- delete mode 100644 kde-apps/kgamma/kgamma-15.08.49.9999.ebuild
- delete mode 100644 kde-apps/kgamma/kgamma-9999.ebuild
- rename kde-apps/kgamma/kgamma-5.9999.ebuild => kde-plasma/kgamma/kgamma-9999.ebuild (96%)
- create mode 100644 kde-plasma/kgamma/metadata.xml
+Already up-to-date.
 *** syncing kde
 *** synced kde
  * Sync succeeded
 $ pmaint regen -t 2 kde
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/polkit-qt-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-css-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-go-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/monav-0.3-r3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/kile-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/maliit-framework-0.94.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/eigen-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-krazy2-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-clang-9999
-
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/polkit-qt-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/kile-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/eigen-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/qtscriptgenerator-9999!!! 
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-cppcheck-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/qtscriptgenerator-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-pg-qt-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-clang-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-css-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/maliit-framework-0.94.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-go-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-krazy2-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-php-docs-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-python-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-qmljs-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-qmake-9999
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-pg-qt-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-qmake-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-python-9999
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/synnefo-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/accounts-qt-1.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kgraphviewer-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-php-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-qmljs-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-php-9999
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-valgrind-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevelop-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kgraphviewer-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/kdevplatform-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/jreen-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkfbapi-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkgapi-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libktorrent-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkvkontakte-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libqinfinity-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libtmdbqt-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/signon-oauth2-0.21
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/signon-ui-0.15
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-logger-qt-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-logger-qt-15.04.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/accounts-qt-1.13
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/synnefo-9999
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkfbapi-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/jreen-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkgapi-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libkvkontakte-9999
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/signon-ui-0.15
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/signond-8.57
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-qt-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libaccounts-glib-1.18
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/signon-oauth2-0.21
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-logger-qt-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libqinfinity-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libtmdbqt-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-logger-qt-15.04.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libktorrent-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/ark2-4.11.0_p20130612
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/akonadi-git-resource-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/apper-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/ark2-4.11.0_p20130612
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/baloo-kcmadv-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/basket-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/bekwinfx-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/colord-kde-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/baloo-kcmadv-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kappfinder-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/emerging-plasmoid-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/basket-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/extragear-l10n-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/bekwinfx-0_p20140110
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/homerun-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kappfinder-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/colord-kde-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kbstateapplet-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kde-overlay-servicemenus-0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdeconnect-4.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdeconnect-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdiff3-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kgrubeditor-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/bekwinfx-0_p20140110
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/telepathy-qt-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kde-overlay-servicemenus-0.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdiff3-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kio-mtp-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kio-slp-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kio-sysinfo-9999
@@ -107,18 +80,22 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kregexpeditor-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/krusader-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kte-collaborative-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kgrubeditor-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdeconnect-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kdeconnect-4.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kustodian-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kwebkitpart-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/massif-visualizer-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/menubar-9999
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/kwebkitpart-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/massif-visualizer-9999
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/openofficeorg-thumbnail-1.0.0-r500
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/plasma-emergelog-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/plasma-lionmail-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/publictransport-0.11_beta
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/skanlite-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/systemd-kcm-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/veromix-0.17.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/menubar-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/wacomtablet-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/openofficeorg-thumbnail-1.0.0-r500
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/wicd-client-kde-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/yakuake-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: plasma-active/bodega-client-0.2
@@ -185,7 +162,6 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-plasma/kgamma-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/kdesvn-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/gluon-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libaccounts-glib-1.18
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libkdeaccessibilityclient-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/liblastfm-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/prison-9999
@@ -195,36 +171,37 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-block/partitionmanager-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-calendar-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-calendar-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-search-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-search-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/amor-15.04.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/akonadi-search-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/amor-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/amor-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/analitza-15.04.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/analitza-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/analitza-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/ark-15.04.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/monav-0.3-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/ark-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/ark-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-15.04.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/analitza-15.08.49.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-5.9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/attica-15.04.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/attica-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/attica-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/audiocd-kio-15.04.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/audiocd-kio-15.08.49.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/ark-15.04.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/attica-15.04.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/baloo-widgets-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/audiocd-kio-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/blinken-15.04.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/baloo-widgets-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/baloo-widgets-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/artikulate-15.08.49.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/blinken-15.04.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/blinken-15.08.49.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bomber-15.08.49.9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bomber-15.04.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/blinken-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bomber-15.04.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bomber-15.08.49.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bomber-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bovo-15.04.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-apps/bovo-15.08.49.9999
