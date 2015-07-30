@@ -13,32 +13,7 @@
  u'supported': True}
 $ pmaint sync distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://git.calculate.ru/calculate/distros
-   3b1a9a7..d679564  master     -> origin/master
-Updating 3b1a9a7..d679564
-Fast-forward
- profiles/CLDO/amd64/parent                         |  2 ++
- profiles/CLDO/calculate.env                        |  4 ++++
- profiles/CLDO/make.defaults                        |  4 ++++
- profiles/CLDO/parent                               |  1 +
- profiles/CLDO/x86/parent                           |  2 ++
- profiles/CLDX+/calculate.env                       |  2 +-
- profiles/CLDX/calculate.env                        |  2 +-
- profiles/profiles.desc                             |  2 ++
- .../templates/3.2/6_ac_update_sync/world/0-ini     |  2 +-
- .../3.2/6_ac_update_sync/world/create/network      |  2 +-
- .../3.2/6_ac_update_sync/world/create/openbox      | 17 +++++++++++++-
- .../3.2/6_ac_update_sync/world/create/tools        |  9 ++++----
- .../3.2/6_ac_update_sync/world/create/wireless     |  4 ++--
- .../3.2/6_ac_update_sync/world/create/xorg         |  4 ++--
- .../3.2/6_ac_update_sync/world/update/100-199/118  | 26 ++++++++++++++++++++++
- 15 files changed, 69 insertions(+), 14 deletions(-)
- create mode 100644 profiles/CLDO/amd64/parent
- create mode 100644 profiles/CLDO/calculate.env
- create mode 100644 profiles/CLDO/make.defaults
- create mode 100644 profiles/CLDO/parent
- create mode 100644 profiles/CLDO/x86/parent
- create mode 100644 profiles/templates/3.2/6_ac_update_sync/world/update/100-199/118
+Already up-to-date.
 *** syncing distros
 *** synced distros
  * Sync succeeded
