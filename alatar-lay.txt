@@ -22,8 +22,13 @@ Already up-to-date.
 $ pmaint regen -t 2 alatar-lay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 26288, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/plotctrl-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxfreechart-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/wal-commander-0.18.1
+!!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/opengostfont-0.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/stmflasher-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxthings-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-dicts/myspell-ru_en-20070129
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libctb-0.16
+Sandboxed process killed by signal: Broken pipe
+ * Cache regenerated successfully
