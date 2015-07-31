@@ -19,26 +19,41 @@
  u'supported': True}
 $ pmaint sync bliss-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From https://github.com/fearedbliss/bliss-overlay
+   998331e..cf0fdaf  master     -> origin/master
+Updating 998331e..cf0fdaf
+Fast-forward
+ net-p2p/syncthing/Manifest                         |  6 +-
+ net-p2p/syncthing/syncthing-0.11.16.ebuild         |  2 +-
+ ...ing-0.11.11.ebuild => syncthing-0.11.17.ebuild} |  6 +-
+ sys-kernel/bliss-kernel/Manifest                   |  8 ++-
+ .../bliss-kernel/bliss-kernel-3.14.48-r1.ebuild    | 76 ++++++++++++++++++++++
+ .../bliss-kernel/bliss-kernel-3.14.48.ebuild       |  2 +-
+ ...3.14.46.ebuild => bliss-kernel-4.1.3-r1.ebuild} |  4 +-
+ 7 files changed, 89 insertions(+), 15 deletions(-)
+ rename net-p2p/syncthing/{syncthing-0.11.11.ebuild => syncthing-0.11.17.ebuild} (87%)
+ create mode 100644 sys-kernel/bliss-kernel/bliss-kernel-3.14.48-r1.ebuild
+ rename sys-kernel/bliss-kernel/{bliss-kernel-3.14.46.ebuild => bliss-kernel-4.1.3-r1.ebuild} (96%)
 *** syncing bliss-overlay
 *** synced bliss-overlay
  * Sync succeeded
 $ pmaint regen -t 2 bliss-overlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/oracle-jre-bin-1.8.0.51caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-0.11.11
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/bliss-boot-2.1.2
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/lsyncd-2.1.5-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-0.11.16
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.12.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/lsyncd-2.1.5-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-0.11.16
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.12.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-1
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-4.1.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/alt-sources-3.18.10
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/oracle-jre-bin-1.8.0.51caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/syncthing-0.11.17
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-initramfs-6.5.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-3.14.46
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-3.14.48
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/std-sources-3.14.35
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: virtual/linux-sources-0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.12.4
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/alt-sources-3.18.10!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/bliss-boot-2.1.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-3.14.48
+
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/std-sources-3.14.35caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-3.14.48-r1
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-4.1.3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/bliss-kernel-4.1.3
  * Cache regenerated successfully
