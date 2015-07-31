@@ -13,7 +13,17 @@
  u'supported': True}
 $ pmaint sync distros
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://git.calculate.ru/calculate/distros
+   cf1dcbb..b26249a  master     -> origin/master
+   cf1dcbb..b26249a  update     -> origin/update
+Updating cf1dcbb..b26249a
+Fast-forward
+ profiles/templates/3.2/6_ac_update_sync/world/0-ini                  | 2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/openbox         | 2 +-
+ profiles/templates/3.2/6_ac_update_sync/world/create/tools           | 1 +
+ .../templates/3.2/6_ac_update_sync/world/update/100-199/{119 => 120} | 5 +++--
+ 4 files changed, 6 insertions(+), 4 deletions(-)
+ rename profiles/templates/3.2/6_ac_update_sync/world/update/100-199/{119 => 120} (74%)
 *** syncing distros
 *** synced distros
  * Sync succeeded
