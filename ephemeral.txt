@@ -14,6 +14,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync ephemeral
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing ephemeral
@@ -22,62 +24,62 @@ Already up-to-date.
 $ pmaint regen -t 2 ephemeral
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/congruity-15-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/passwdqc-1.2.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.2.25
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.13caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/variety-0.4.20
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/variety-0.4.17
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/variety-0.4.17caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/passwdqc-1.2.2
 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/gwakeonlan-0.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/variety-0.4.20
+!!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.2.25caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.13
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.12
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.3.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.8
+!!! 
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.11
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/congruity-15-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.8caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.4.5
+
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/virt-v2v-0.8.9-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.1-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.3.6caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.1
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.3
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.4
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/faience-icon-theme-0.5-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xplanetfx-2.5.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/virt-v2v-0.9.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/faience-icon-theme-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/faience-icon-theme-0.5-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/faience-icon-theme-0.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/faience-icon-theme-0.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/nitrux-icon-theme-2.1c
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/nitrux-icon-theme-3.2.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/flatbed-cursors-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/nitrux-icon-theme-3.2.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/nitrux-icon-theme-2.1c
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/polar-xcursors-1.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gnome-encfs-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gnome-gmail-1.8.2-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.2.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.9-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/concordance-0.24
-!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gnome-shell-extension-updater-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/virt-v2v-0.9.0!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/tex-gyre-1.104-r5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lua/luaposix-5.1.8-r1
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/concordance-0.23
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/fell-types-200808-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/hamster-applet-9999-r2
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gnome-shell-extension-updater-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/gpaste-2.9-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: gnome-extra/hamster-applet-9999-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/concordance-0.23
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/concordance-0.24
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lua/luaposix-5.1.8-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/fell-types-200808-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/tex-gyre-2.005
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Proc-ParallelLoop-0.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Term-Prompt-1.04
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/DateTime-Format-Epoch-0.13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emacs/nxhtml-9999-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Archive-Extract-0.72
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emacs/nxhtml-9999-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Archive-Extract-0.72
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/DateTime-Format-Epoch-0.13
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Proc-ParallelLoop-0.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Term-Prompt-1.04
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-tex/curve-1.16
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/gwakeonlan-0.5.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/bpmdj-4.2_p3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/bpmdj-4.2_p4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/flac2mp3-0.3.0_rc1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/flac2mp3-0.3.0_rc3-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/flac2mp3-0.3.0_rc3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/imms-3.1.0_rc10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/phonoripper-0.10.1-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/sbagen-1.4.5-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/jmtpfs-0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libconcord-0.23
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libconcord-0.24
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/bpmdj-4.2_p3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/flac2mp3-0.3.0_rc3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-fonts/tex-gyre-1.104-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/awoken-icon-theme-2.1
  * Cache regenerated successfully
