@@ -21,110 +21,56 @@
  u'supported': True}
 $ pmaint sync stefantalpalaru
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From https://github.com/stefantalpalaru/gentoo-overlay
-   a31b40d..364a4a0  master     -> origin/master
-Updating a31b40d..364a4a0
-Fast-forward
- app-emulation/virtualbox-guest-additions/ChangeLog | 1113 ++++++++++++++++++++
- app-emulation/virtualbox-guest-additions/Manifest  |   11 +
- .../files/vboxclient.desktop                       |    7 +
- .../files/vboxguest-4.1.0-log-use-c99.patch        |   13 +
- .../files/virtualbox-guest-additions-3-localconfig |   30 +
- .../files/virtualbox-guest-additions-5-localconfig |   30 +
- .../files/virtualbox-guest-additions-8.initd       |   26 +
- .../files/virtualbox-guest-additions.service       |   16 +
- .../files/xorg.conf.vbox                           |   13 +
- .../virtualbox-guest-additions/metadata.xml        |   12 +
- .../virtualbox-guest-additions-5.0.0-r1.ebuild     |  211 ++++
- x11-drivers/xf86-video-virtualbox/Manifest         |   14 +
- ...xf86-video-virtualbox-2.2.0-enable-opengl.patch |   13 +
- .../files/xf86-video-virtualbox-3-localconfig      |   30 +
- .../xf86-video-virtualbox-3-vboxvideo_drm.makefile |  240 +++++
- .../xf86-video-virtualbox-3.2.8-mesa-check.patch   |   36 +
- .../xf86-video-virtualbox-4-makeself-check.patch   |   10 +
- .../xf86-video-virtualbox-4-mkisofs-check.patch    |   10 +
- .../xf86-video-virtualbox-4.3.6-link-lazy.patch    |   17 +
- ...o-virtualbox-4.3.8-vboxvideo_compilefixes.patch |   31 +
- .../files/xf86-video-virtualbox-5-localconfig      |   30 +
- ...o-virtualbox-5.0.0_beta3-configure_checks.patch |   52 +
- .../files/xf86-video-virtualbox-link-lazy.patch    |   16 +
- x11-drivers/xf86-video-virtualbox/metadata.xml     |    8 +
- .../xf86-video-virtualbox-5.0.0-r1.ebuild          |  174 +++
- 25 files changed, 2163 insertions(+)
- create mode 100644 app-emulation/virtualbox-guest-additions/ChangeLog
- create mode 100644 app-emulation/virtualbox-guest-additions/Manifest
- create mode 100644 app-emulation/virtualbox-guest-additions/files/vboxclient.desktop
- create mode 100644 app-emulation/virtualbox-guest-additions/files/vboxguest-4.1.0-log-use-c99.patch
- create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-3-localconfig
- create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-5-localconfig
- create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions-8.initd
- create mode 100644 app-emulation/virtualbox-guest-additions/files/virtualbox-guest-additions.service
- create mode 100644 app-emulation/virtualbox-guest-additions/files/xorg.conf.vbox
- create mode 100644 app-emulation/virtualbox-guest-additions/metadata.xml
- create mode 100644 app-emulation/virtualbox-guest-additions/virtualbox-guest-additions-5.0.0-r1.ebuild
- create mode 100644 x11-drivers/xf86-video-virtualbox/Manifest
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-2.2.0-enable-opengl.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-localconfig
- create mode 100755 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3-vboxvideo_drm.makefile
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-3.2.8-mesa-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-makeself-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4-mkisofs-check.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.6-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-4.3.8-vboxvideo_compilefixes.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-5-localconfig
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-5.0.0_beta3-configure_checks.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/files/xf86-video-virtualbox-link-lazy.patch
- create mode 100644 x11-drivers/xf86-video-virtualbox/metadata.xml
- create mode 100644 x11-drivers/xf86-video-virtualbox/xf86-video-virtualbox-5.0.0-r1.ebuild
+Already up-to-date.
 *** syncing stefantalpalaru
 *** synced stefantalpalaru
  * Sync succeeded
 $ pmaint regen -t 2 stefantalpalaru
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/cairo-nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/c2nim-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/dialogs-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/aporia-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/chan-nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/irc-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/golib-nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/gtk2-nim-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/bcrypt-nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/jester-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-virtualbox-5.0.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/lthread-nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/mongo-nim-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/mongo-nim-9999
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/cairo-nim-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/c2nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/chan-nim-9999!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/bcrypt-nim-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/aporia-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/lthread-nim-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/gtk2-nim-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/irc-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/dialogs-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/jester-9999
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/nimble-0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/xf86-video-virtualbox-5.0.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/nimble-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/nimforum-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/nimsuggest-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/opencl-nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/opengl-nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/pas2nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/sdl2-nim-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/x11-nim-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/pas2nim-9999!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/sdl2-nim-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/opengl-nim-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/zmq-nim-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/vagrant-bin-1.7.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/fbcat-0.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nim-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nim-0.11.2
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/setbfree-99999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/virtualbox-guest-additions-5.0.0-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/jack-audio-connection-kit-0.124.1-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/nim-syntax-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/fbcat-0.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nim-0.11.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/nim-syntax-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/jack-audio-connection-kit-0.124.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/setbfree-99999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/chan-0.0.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/chan-9999
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/chan-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/golib-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/lthread-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/zita-convolver-3.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/flower-0.8.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/hiredis-0.1.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/golib-9999
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/messaging-0.5.12
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/flower-0.8.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/hiredis-0.1.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/messaging-0.5.12
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-power/phc-intel-0.3.2.12.17-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-radio/dabreceiver-0.97
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-radio/fmreceiver-0.97
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/upwork-4.0.70.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-radio/fmreceiver-0.97
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-radio/swreceiver-6.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-cluster/drbd-utils-8.9.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/opencl-nim-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-radio/dabreceiver-0.97
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-nim/nimforum-9999
  * Cache regenerated successfully
