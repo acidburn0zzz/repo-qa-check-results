@@ -21,7 +21,8 @@ Already up-to-date.
 $ pmaint regen -t 2 sebasmagri
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/gr-lida-0.10.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libturpial-9999
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/turpial-9999
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 26497, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
