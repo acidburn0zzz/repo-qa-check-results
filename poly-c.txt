@@ -13,61 +13,14 @@
  u'supported': True}
 $ pmaint sync poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
--------------------------------------------------------------------------------
-| Welcome to rsync on gentoofan.no-ip.org:873                                 |
-| This is a mirror of gentoo's portage-tree and host of my portage overlay    |
-| Thus this server only has a dynamic IP I cannot stat it here.               |
--------------------------------------------------------------------------------
-
-  ,-~~-.___.
- / |  '     \
-(  )        0
- \_/-, ,----'
-    ====           //
-   /  \-'~;    /~~~(O)
-  /  __/~|   /       |
-=(  _____| (_________|
-
- server specs:
-    -CPU		Intel Atom-330 (2x 1,6 GHz)
-    -RAM		2048 MB PC2-533
-    -OS			Gentoo GNU/Linux (Kernel 3.x)
-    -BANDWIDTH		ADSL (16000/1024)
-    -LIMIT		3 users (concurrently)
-    -LOCATION		Ludwigshafen / Germany
-    -CONTACT		polynomial-c@gentoo.org
-
--------------------------------------------------------------------------------
-
-receiving incremental file list
-
-Number of files: 1 (reg: 1)
-Number of created files: 0
-Number of deleted files: 0
-Number of regular files transferred: 0
-Total file size: 32 bytes
-Total transferred file size: 0 bytes
-Literal data: 0 bytes
-Matched data: 0 bytes
-File list size: 47
-File list generation time: 0.001 seconds
-File list transfer time: 0.000 seconds
-Total bytes sent: 62
-Total bytes received: 58
-
-sent 62 bytes  received 58 bytes  48.00 bytes/sec
-total size is 32  speedup is 0.27
+rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
 *** syncing poly-c
-*** synced poly-c
- * Sync succeeded
-$ pmaint regen -t 2 poly-c
+*** failed syncing poly-c
+ * Sync failed with 1
+ * Will try to re-create
+$ pmaint sync poly-c
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r6
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.02_beta2-r7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/grub-2.00_p5107-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.6.0_pre
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/Ice-3.5.0-r1
- * Cache regenerated successfully
+rsync error: timeout waiting for daemon connection (code 35) at socket.c(281) [Receiver=3.1.1]
+*** syncing poly-c
+*** failed syncing poly-c
+ * Sync failed again with 1, removing

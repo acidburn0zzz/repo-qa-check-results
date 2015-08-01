@@ -13,6 +13,8 @@
  u'supported': True}
 $ pmaint sync tf201
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing tf201
 *** synced tf201
@@ -22,4 +24,6 @@ WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-drivers/tegra3-driver-16.5.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/tegra3-codecs-16.5.0
+sandbox:stop  caught signal 15 in pid 3839
+Sandboxed process killed by signal: Terminated
  * Cache regenerated successfully
