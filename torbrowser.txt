@@ -21,17 +21,28 @@
  u'supported': True}
 $ pmaint sync torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Already up-to-date.
+From git://github.com/MeisterP/torbrowser-overlay
+   5233fa1..2b09a30  master     -> origin/master
+Updating 5233fa1..2b09a30
+Fast-forward
+ README                                             | 37 -------------
+ Readme.md                                          | 60 ++++++++++++++++++++++
+ www-client/torbrowser/ChangeLog                    |  3 ++
+ www-client/torbrowser/Manifest                     |  2 +-
+ .../torbrowser/torbrowser-31.8.0_p453.ebuild       | 21 +++-----
+ 5 files changed, 70 insertions(+), 53 deletions(-)
+ delete mode 100644 README
+ create mode 100644 Readme.md
 *** syncing torbrowser
 *** synced torbrowser
  * Sync succeeded
 $ pmaint regen -t 2 torbrowser
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.2.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.1.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.1.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/parcimonie_sh-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-monitor-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-31.8.0_p453
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-monitor-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/mat-0.5.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-client/torbrowser-launcher-0.2.0
  * Cache regenerated successfully
