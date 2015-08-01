@@ -12,7 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync tante
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
 Already up-to-date.
 *** syncing tante
 *** synced tante
@@ -20,21 +23,21 @@ Already up-to-date.
 $ pmaint regen -t 2 tante
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.30
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/pyroom-0.4.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/gnome-gmail-1.8.1
-
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/easystroke-0.4.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/moblin-sound-theme-0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/lastfmplayer-1.5.4.26862-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.3.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.32
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/gnome-gmail-1.8.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/easystroke-0.4.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/gpodder-2.5caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libchamplain-gtk-0.2.6
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/odt2txt-0.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/lastfmplayer-1.5.4.26862-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/moblin-sound-theme-0.3!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/odt2txt-0.4
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.31
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libchamplain-0.2.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/tweepy-1.7.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.32
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.31!!! !!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libchamplain-gtk-0.2.6caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/nuvolaplayer-2.3.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/pyroom-0.4.1!!! 
+!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/gpodder-2.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/nodejs-0.1.30
+
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libgpod-0.7.94
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/devede-3.16.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/libchamplain-0.2.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/devede-3.16.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/tweepy-1.7.1
  * Cache regenerated successfully

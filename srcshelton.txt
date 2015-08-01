@@ -18,7 +18,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync srcshelton
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing srcshelton
 *** synced srcshelton
@@ -26,76 +30,76 @@ Already up-to-date.
 $ pmaint regen -t 2 srcshelton
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.6-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.17
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/gdbm-1.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.19-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.17
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.6-r4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.8-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.20
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/opie-2.32
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_mobile_otp-0.6.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/ipheth-pair-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/libimobiledevice-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/libusbmuxd-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/glibc-2.19-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/gdbm-1.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.6-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/readline-6.2_p1-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/usbmuxd-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/opie-2.32
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/libimobiledevice-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-auth/pam_mobile_otp-0.6.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/libplist-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/pam-1.1.8-r2
-
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.6-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-0.11.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.3
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/ipheth-pair-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-0.11.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-1.0.0
 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/roundcube-1.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/usbmuxd-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-pda/libusbmuxd-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/docker-1.0.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/graphviz-2.36.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/neon-0.30.1
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libnftnl-1.0.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/python-2.7.6-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/graphviz-2.36.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/libnftnl-1.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-1.0.6-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/python-2.7.5-r4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/python-2.7.6-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/python-2.7.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ruby-1.9.3_p448
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/CFPropertyList-2.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/cora-0.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/geocoder-1.1.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/guard-rspec-2.3.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/pry-0.9.10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/guard-1.6.1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/rake-10.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/pry-0.9.10
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-php-0.7.1-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/monit-5.11-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/monit-5.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ulogd-2.0.2
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-php-0.7.1-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ulogd-2.0.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20130906-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/neon-0.30.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/monit-5.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/monit-5.11-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/rake-10.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ulogd-2.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ulogd-2.0.4
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20140223.3.15.5-r1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/colordiff-1.0.13-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20130906-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20140223.3.15.5-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20140223.3.16-r1
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-9999
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/colordiff-1.0.13-r1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/bluez-4.101-r5
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/ca-certificates-20140223.3.16-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/colordiff-1.0.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-4.0.3-r8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-3.9.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-4.2.1-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-wireless/bluez-4.101-r5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-3.9.9
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.3.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/colordiff-1.0.13caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-4.2.1-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-3.9.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.6.0
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.5.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.6.1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.4.0
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.910
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.912
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-php/PEAR-Crypt_GPG-1.4.0_beta4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.914
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.5.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.5.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-misc/screen-4.0.3-r8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.3.3
 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-3.9.9caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/ulogd-2.0.3
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.6.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-mail/davmail-bin-4.6.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-php/PEAR-Crypt_GPG-1.4.0_beta4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.910
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.912
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/IO-Interface-1.70.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/IO-Socket-Multicast-1.12
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Locale-Hebrew-1.05
@@ -105,6 +109,7 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Interface-1.012
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Subnet-1.02
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Subnet-1.03
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Email-Outlook-Message-0.914
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Twitter-Lite-0.11001
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Twitter-Lite-0.12004
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Net-Twitter-Lite-0.12006
@@ -119,14 +124,11 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/siriproxy-0.11.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-4.0.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-4.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unzip-6.0-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/spamassassin-3.3.2-r5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/spampd-2.42
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-4.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/unzip-6.0-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/teamspeak-server-bin-3.0.10.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/teamspeak-server-bin-3.0.10.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/teamspeak-server-bin-3.0.10
@@ -137,30 +139,33 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/teamspeak-server-bin-3.0.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/cryptsetup-1.4.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/fuse-2.9.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.103
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.109
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-filter/spampd-2.42
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.103!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.109
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.88
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.97-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.1.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/wordpress-4.0.1!!! !!! !!! 
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.2.6-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.1.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/lvm2-2.02.97-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3.1-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/apr-1.5.1-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3.1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-apps/rpi-monitor-2.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3-r2
+!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/mdadm-3.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/cyrus-sasl-2.1.26-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/apr-1.5.1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/cyrus-sasl-2.1.26-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/cyrus-sasl-2.1.26-r9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/gmp-6.0.0a
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libksba-1.3.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/liblinear-194-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/liblinear-196-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libxslt-1.1.28-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1g-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1g
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1g-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libxslt-1.1.28-r2
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1h-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1g
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1i
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1j
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/openssl-1.0.1k
@@ -169,16 +174,16 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-shells/bash-4.2_p53
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/cvs-1.11.23
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/subversion-1.7.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/subversion-1.7.17
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/subversion-1.7.18
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/subversion-1.7.17
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-vcs/subversion-1.7.19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/opengl-apple-5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.12.1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.12.1-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.12.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.13-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/pinentry-0.9.0
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/pinentry-0.9.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.13
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/mit-krb5-1.13-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/ppp-2.4.5-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/ppp-2.4.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/ppp-9999
@@ -192,9 +197,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/busybox-1.23.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/busybox-1.23.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/busybox-1.23.1-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/busybox-1.23.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/cpuid-20140123
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/darwin-miscutils-10
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/busybox-1.23.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-2.6.35-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.10.0
@@ -205,10 +210,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.5.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.6.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.7.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-ruby/CFPropertyList-2.2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.9.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.7.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.8.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-3.9.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/iproute2-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-15-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-15
@@ -219,7 +223,7 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-18
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/kmod-19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-3.3.3-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-3.3.4-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/lm_sensors-3.3.4-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/openrc-0.11.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/openrc-0.11.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-apps/openrc-0.11.8
@@ -238,8 +242,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-apple-4.2.1_p5666-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-apple-4.2.1_p5666-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-4.7.3-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-4.8.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gdb-7.8.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/gcc-4.8.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/llvm-3.4-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/llvm-3.4.1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-devel/llvm-3.4.1-r2
@@ -280,9 +284,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcpcd-6.4.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcpcd-6.4.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcpcd-6.6.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcpcd-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/memcached-1.4.17
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.0-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dhcpcd-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minidlna-1.1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/minissdpd-1.2
@@ -294,18 +298,18 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/miniupnpd-1.9_pre20140523
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r7caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r5
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/openntpd-20080406-r9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/rsync-3.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-0.2.5.10-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/tor-0.2.5.10-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/arp-sk-0.0.16-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.3.1-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/darkstat-3.0.718
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.4-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.4
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.3.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/iptraf-ng-1.1.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/munin-2.0.19-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/munin-2.0.19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/nessus-bin-5.2.1

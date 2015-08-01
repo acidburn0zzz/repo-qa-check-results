@@ -12,7 +12,10 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync stuff
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing stuff
@@ -21,114 +24,113 @@ Already up-to-date.
 $ pmaint regen -t 2 stuff
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/yaml-cpp-0.5.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compiz-bcop-0.8.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: lxde-base/lxpolkit-0.1.0-r1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-gconf-0.8.4-r2
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.19
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.8
+!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/bamf-0.2.104
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/bamf-0.2.104-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-gconf-0.8.8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compiz-bcop-0.8.8
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: lxde-base/lxpanelx-9999!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.17
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/bamf-0.2.104
-
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-gconf-0.8.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.8!!! 
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/clucene-0.9.21b
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.23-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.22
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-3.6.3-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-3.4.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: lxde-base/lxpanelx-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compiz-bcop-0.8.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/yaml-cpp-0.5.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: lxde-base/lxpolkit-0.1.0-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compiz-bcop-0.8.4
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-gconf-0.8.4-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/compizconfig-backend-kconfig4-0.8.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.19
+!!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.23-r1!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.22
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.17
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-3.8.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libcompizconfig-0.8.4-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-3.4.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libcompizconfig-0.8.4-r2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.23
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-3.6.3-r2!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libcompizconfig-0.8.8
+
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libwnck-3.2.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/libcompizconfig-0.8.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxGTK-2.9.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/qt-components-desktop-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/wxGTK-2.9.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/stlink-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/gobby-0.4.94
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/manpageeditor-0.0.13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/stlink-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/vim-qt-20140827
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/vim-qt-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/vim-qt-20140203
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/gobby-0.4.94
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/vim-qt-20140827
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/vim-qt-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/alpine-2.11
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/fvm2-1.99.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/alpine-2.20
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/gtk+-2.24.23
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: mail-client/alpine-2.20
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/fvm2-1.99.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.0
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/gcc-switcher-1.4.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/portconf-1.6.7.7
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/sofastatistics-1.4.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/portconf-1.6.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/portconf-9999-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/portopts-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-gtk-12.10.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-gtk-12.10.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-gtk-12.10.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/portconf-1.6.7.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/gcc-switcher-1.4.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-qt-0.2.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-qt-0.2.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-qt-0.2.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-qt-0.2.6
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-0.3caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-thunderbird-3.5
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/indicator-appmenu-0.2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/indicator-appmenu-0.3.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/indicator-appmenu-0.3.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/kcm-qt-graphicssystem-1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/kcm-qt-graphicssystem-1.3
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/kcm-qt-graphicssystem-1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/krunner-appmenu-9999-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/kcm-qt-graphicssystem-1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/lo-menubar-0.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/lo-menubar-0.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-qt-0.2.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-thunderbird-3.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/appmenu-0.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.12
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.15
-!!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/toggle-touchpad-0.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yd-tools-1.2.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.16
-
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xbindkeys-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.14
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yd-tools-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/googleearth-5.1.3535.3218-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/aptana-3.4.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gperftools-2.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cuda-z-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-6.5.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-7.0.28-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.15
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-7.5.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gperftools-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.16
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/overlay-scrollbar-0.2.14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/toggle-touchpad-0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yd-tools-1.2.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xbindkeys-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yd-tools-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-geosciences/googleearth-5.1.3535.3218-r2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gperftools-2.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/aptana-3.4.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-7.0.28-r1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-6.5.14
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/cuda-z-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/gperftools-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/nvidia-cuda-toolkit-7.5.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/qbs-9999
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/SVGCleaner-0.6.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/AwesomeBump-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/PoissonRecon-6.13
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/SVGCleaner-0.6.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/SVGCleaner-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/alchemy-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/arc3d_client-2.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/bundler-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/cloudcompare-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/SVGCleaner-9999
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/alchemy-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/arc3d_client-2.1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/cloudcompare-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/cmvs-2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/PoissonRecon-6.13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/darktable-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/djv-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/exiv2-0.23-r3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/AwesomeBump-9999!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/fontforge-99999999-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/freecad-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/embree-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/exiv2-0.23-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/freecad-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/graphicsmagick-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/inkscape-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/kde-thumbnailer-blender-9999
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/graphicsmagick-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/luxrender-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/makehuman-1.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/makehuman-1.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/meshlab-1.3.3
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/luxrender-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/ngplant-0.9.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/ngplant-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/openvdb-3.0.0-r5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/osl-1.6.5-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/pmvs-2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/openvdb-3.0.0-r5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/pmvs-2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/siftgpu-0.5.400-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/siftgpu-0.5.400
@@ -158,6 +160,7 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-misc/yawc-0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/adom-1.2.0_pre23
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/angband-3.5.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/fontforge-99999999-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/conky-1.8.1-r6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.8.18.290-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-tv/plex-media-server-0.9.9.5.411
@@ -342,47 +345,46 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-vk-0.2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-vk-0.2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-vk-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-waveform-seekbar-0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-waveform-seekbar-0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-waveform-seekbar-0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-waveform-seekbar-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/depan-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/fft3dfilter-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/frei0r-plugins-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-luce-plugin-2.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/frei0r-plugins-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-normalmap-1.2.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-plugin-toy-1.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-wavelet-decompose-0.1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-wavelet-denoise-0.3.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gxaudiovisualisation-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/iskeyfree-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/luxblend25-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/gimp-plugin-toy-1.0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/npapi-vlc-2.0.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/refocus-it-2.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/deadbeef-waveform-seekbar-0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/sverchok-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/turnaround_camera-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/uvsquares-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/vidstab-9999
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/tuttleofx-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/uvsquares-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/vidstab-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pythonmagick-0.9.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-action/jjffe-2.8_alpha-r7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/bespin-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/emerald-themes-0.5.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/kfaenza-0.8.9-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/oxygen-gtk3-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: www-misc/httraqt-1.0.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/emerald-themes-0.5.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-electronics/kicad-99999999-r4609
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-electronics/kicad-999999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/calligra-l10n-2.9.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/calligra-2.9.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/mytetra-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/bcg729-1.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/mytetra-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/dropbox-3.4.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/megasync-2.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/pppoat-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/acestream-ffmpeg-0.10.7-r6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/acestream-player-data-2.1.6-r11
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/acestream-player-2.1.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/avxsynth-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/baka-mplayer-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/gnome-mplayer-1.0.6
@@ -391,14 +393,15 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/lightworks-12.5-r5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/qtav-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/rosa-media-player-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/acestream-player-2.1.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/rosa-media-player-1.6.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/rosa-media-player-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/shotcut-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-1.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-14.8.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/kernel-cleaner-2.6.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/kernel-cleaner-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/kernel-cleaner-2.6.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/liquorix-sources-4.0.9_p1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/liquorix-sources-4.1.3_p1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-base/dolphin-dropbox-plugin-4.14.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/smtube-1.8
  * Cache regenerated successfully

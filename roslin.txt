@@ -12,7 +12,11 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync roslin
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 Already up-to-date.
 *** syncing roslin
 *** synced roslin
@@ -20,94 +24,93 @@ Already up-to-date.
 $ pmaint regen -t 2 roslin
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/hmap2-20121222
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/tyrutils-0.4-r1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/fteqw-3343
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/fteqcc-3343
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/darkplaces-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/deltapatcher-1.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/deltapatcher-1.0-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/fteqw-9999!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/joequake-0.15_beta1862!!! 
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-0.19.2-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-mods-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-shanmaps-1.01
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/beat-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/deltapatcher-1.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/fteqcc-3343caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/darkplaces-9999
 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/beat-0.3
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/qrack-1.60.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/nprquake-sdl-1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/hmap2-20121222
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/fteqw-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/tyrutils-0.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/fteqw-3343
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/joequake-0.15_beta1862
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-mods-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-0.19.2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/nprquake-sdl-1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/kmquake2-shanmaps-1.01
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/deltapatcher-1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/qrack-1.60.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-5rivers-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-bbelief-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-aop-2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-arcade-0.1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-data-2.40-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-bbelief-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-cjhsp-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dazsp2-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dd-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-contract-1-r1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-chapters-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dazsp2-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dig-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-cjhsp-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dd-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dejavu-1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-donequick-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-digs01-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-data-2.40-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-dejavu-1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-doe-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-donequick-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-e2m5rmx-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-insomnia-1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-insomnia-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-e2m5rmx-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-kinn_bastion-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-kinn_marcher-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-maelstrom-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-chapter-necros-2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-e1m1red-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-evilexhumed-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-fort_ratsack-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-digs01-1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-fort_ratsack-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-grendels-keep-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-pity-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-src-2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-well-1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-wishes-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-panzer-0_beta2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-kinn_bastion-1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-masque-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-oum-1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-nehahra-1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-qonquer-1.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-quess-1.3.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-red777-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-rmx-1
-
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-wishes-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-masque-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-nehahra-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-oum-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-panzer-0_beta2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-qonquer-1.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-quess-1.3.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-quoth-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-red777-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-rmx-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-skins-1
-!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soa-1-r1!!! 
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soa-1-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soe-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-slave-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-slave-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soa-1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soa-1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-soe-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-stealth-1.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-textures-20060722
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-textures-20071001
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-travail-1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-ultramarine-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-undergate-1.2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-warpspasm-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-undergate-1.2.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-travail-1-r1
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-textures-20071001caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-zerstorer-demo-1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-dday-4.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-zerstorer-1.1-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-ultramarine-1
-
-
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-whiteroom-1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quetoo-0.6.1
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quakespasm-0.85.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-whiteroom-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-zerstorer-demo-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-zerstorer-1.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-dday-4.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake2-textures-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quakespasm-0.85.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quetoo-0.6.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tenebrae-1.04-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrquake-0.61
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrqw-0.61
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrquake-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrqw-0.61
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrqw-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/tyrquake-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/promile-qt-0.8.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.2.2-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.3.99_beta2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-stealth-1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.4.1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.4.3-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-launcher-2.4.3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-evilexhumed-1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-map-e1m1red-1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-2.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-2.2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/fs-uae-2.2.3
@@ -166,8 +169,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/rlvm-0.13
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/rlvm-0.14
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/milena-0.2.76.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/milena-0.2.78.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/bsnes-c++98-libretro-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-accessibility/milena-0.2.78.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/bsnes-libretro-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/snesfilter-0.072
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/snesfilter-9999
@@ -175,7 +178,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/snesreader-0.072
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/snesreader-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/supergameboy-0.073
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/supergameboy-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/supergameboy-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/quake1-chapters-1
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/flac2mp3-0.3.0_rc3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/injeqt-0.9.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/injeqt-1.0.0
@@ -190,8 +194,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-antistring-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-3.0_alpha2
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-3.0_alpha2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-3.0_alpha1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autoaway-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autoaway-2.0
@@ -206,14 +211,13 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autoresponder-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autoresponder-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-autostatus-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-auto_hide-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-cenzor-3.0_alpha2
@@ -230,9 +234,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-config_wizard-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-config_wizard-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-config_wizard-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-1.5-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-3.0_alpha1-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-core-3.0_alpha2
@@ -247,40 +251,40 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-3.0_alpha2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-3.0_beta1
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-3.0_alpha2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-docking-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-3.0_alpha1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-2.0
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-emoticons-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-3.0_alpha1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-2.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-2.1!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-3.0_alpha1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-1.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_ng_simlite-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-3.0_alpha2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-3.0_beta1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-1.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-3.0_alpha1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-encryption_otr-3.0_beta1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-3.0_alpha2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-3.0_alpha1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-3.0_beta1
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-ext_sound-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-exec_notify-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-ext_sound-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-ext_sound-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-ext_sound-3.0_alpha1
@@ -293,28 +297,28 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-filedesc-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-filedesc-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_alpha2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-2.0
+!!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-1.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-2.0
+!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_beta1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_alpha2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-3.0_alpha2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-firewall-2.0
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-freedesktop_notify-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_alpha1-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_alpha1-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_alpha1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_alpha1-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_alpha2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-globalhotkeys-1.0_p33
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-1.5
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-1.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-gadu_protocol-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-globalhotkeys-1.0_p33
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-hints-3.0_alpha2
@@ -326,8 +330,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-history_migration-3.0_beta1
@@ -441,6 +445,7 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sms-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sms-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sms-3.0_beta1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-3.0_alpha1-r1
@@ -449,9 +454,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sounds-0.6.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sound-1.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-speech-3.0_beta1
@@ -461,22 +465,23 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-spellchecker-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-spellchecker-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-spellchecker-3.0_beta1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-sql_history-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-3.0_alpha1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-3.0_alpha2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-tabs-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-3.0_alpha1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-3.0_beta1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-1.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-2.0
@@ -484,7 +489,6 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-3.0_alpha1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-3.0_beta1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/kadu-word_fix-3.0_alpha2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/pidgin-tlen-20101112
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/tkabber-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/tlenlinux-7.0.1.68
@@ -493,9 +497,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-im/tlenlinux-7.0.2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-server/mednafen-server-0.5.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-plus-073_p1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-plus-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-qt-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-073-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-plus-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/bsnes-088-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/gens-gs-7-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/gens-gs-7-r2
