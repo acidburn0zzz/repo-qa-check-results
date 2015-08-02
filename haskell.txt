@@ -21,233 +21,69 @@
  u'supported': True}
 $ pmaint sync haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/gentoo-haskell/gentoo-haskell
-   fff63b9..5259e5c  master     -> origin/master
-Updating fff63b9..5259e5c
-Fast-forward
- app-editors/leksah/leksah-0.14.2.0.ebuild          |  12 +-
- app-editors/leksah/leksah-0.14.3.0-r2.ebuild       |  12 +-
- app-editors/leksah/leksah-9999.ebuild              |  12 +-
- app-emulation/ganeti/ChangeLog                     | 623 ---------------------
- app-emulation/ganeti/Manifest                      |   4 -
- app-emulation/ganeti/files/ganeti-2.1.initd        | 112 ----
- .../ganeti/files/ganeti-2.10-rundir.patch          |  35 --
- .../ganeti/files/ganeti-2.11-add-pgrep.patch       |  25 -
- .../files/ganeti-2.11-daemon-util-tests.patch      |  38 --
- .../ganeti/files/ganeti-2.11-daemon-util.patch     |  38 --
- .../files/ganeti-2.11-dont-nest-libdir.patch       |  49 --
- .../files/ganeti-2.11-dont-print-man-help.patch    |  13 -
- .../ganeti/files/ganeti-2.11-qemu-enable-kvm.patch |  12 -
- .../ganeti/files/ganeti-2.11-regex-builtin.patch   |  15 -
- .../files/ganeti-2.11-start-stop-daemon-args.patch |  39 --
- app-emulation/ganeti/files/ganeti-2.11-tests.patch |  13 -
- .../ganeti/files/ganeti-2.11-useradd.patch         |  17 -
- .../ganeti/files/ganeti-2.12-daemon-util.patch     |  37 --
- .../ganeti/files/ganeti-2.12-qemu-enable-kvm.patch |  12 -
- .../files/ganeti-2.12-start-stop-daemon-args.patch |  39 --
- app-emulation/ganeti/files/ganeti-2.12-tests.patch |  59 --
- .../ganeti/files/ganeti-2.12.1-unclach.patch       |  32 --
- app-emulation/ganeti/files/ganeti-2.2.initd        | 113 ----
- .../ganeti/files/ganeti-2.6-add-pgrep.patch        |  38 --
- .../ganeti/files/ganeti-2.6-fix-args.patch         |  45 --
- .../ganeti/files/ganeti-2.7-fix-tests.patch        |  30 -
- .../files/ganeti-2.9-disable-root-tests.patch      |  18 -
- .../ganeti/files/ganeti-2.9-regex-builtin.patch    |  22 -
- .../ganeti/files/ganeti-2.9-skip-cli-test.patch    |  18 -
- .../ganeti/files/ganeti-fix-start-stop.patch       |  47 --
- .../ganeti/files/ganeti-kvm-poweroff.confd         |   4 -
- .../ganeti/files/ganeti-kvm-poweroff.initd         |  58 --
- app-emulation/ganeti/files/ganeti-lockdir.patch    |  15 -
- app-emulation/ganeti/files/ganeti.confd            |  16 -
- app-emulation/ganeti/files/ganeti.confd-r2         |  19 -
- app-emulation/ganeti/files/ganeti.initd            |  57 --
- app-emulation/ganeti/files/ganeti.initd-r3         |  83 ---
- app-emulation/ganeti/files/ganeti2.initd           |  55 --
- app-emulation/ganeti/ganeti-2.10.5-r4.ebuild       | 175 ------
- app-emulation/ganeti/ganeti-2.11.6-r2.ebuild       | 221 --------
- app-emulation/ganeti/ganeti-2.12.1.ebuild          | 255 ---------
- app-emulation/ganeti/ganeti-2.4.5-r1.ebuild        |  90 ---
- app-emulation/ganeti/metadata.xml                  |  36 --
- dev-haskell/ghcjs-dom/ghcjs-dom-0.1.1.3.ebuild     |   4 +-
- dev-haskell/glade/glade-0.12.5.0-r2.ebuild         |   6 +-
- .../gtk-serialized-event-0.12.0-r3.ebuild          |   6 +-
- .../gtk-traymanager/gtk-traymanager-0.1.4.ebuild   |   6 +-
- .../gtk-traymanager/gtk-traymanager-0.1.5.ebuild   |   6 +-
- dev-haskell/gtk/Manifest                           |   1 -
- .../{gtk-0.13.7.0.2.ebuild => gtk-0.13.7.ebuild}   |  13 +-
- dev-haskell/gtk3/Manifest                          |   1 +
- .../gtk3-0.13.7.ebuild}                            |  14 +-
- .../{gtk/gtk-9999.ebuild => gtk3/gtk3-9999.ebuild} |   6 +-
- dev-haskell/gtk3/metadata.xml                      |  14 +
- dev-haskell/gtkglext/gtkglext-0.12.5.0-r2.ebuild   |   6 +-
- .../gtkimageview/gtkimageview-0.12.0-r3.ebuild     |   6 +-
- .../{gtksourceview => gtksourceview2}/Manifest     |   1 -
- .../gtksourceview2-0.13.1.1.ebuild}                |  14 +-
- .../{gtksourceview => gtksourceview2}/metadata.xml |   0
- dev-haskell/gtksourceview3/Manifest                |   1 +
- .../gtksourceview3-0.13.1.1.ebuild}                |  14 +-
- .../gtksourceview3-9999.ebuild}                    |   8 +-
- dev-haskell/gtksourceview3/metadata.xml            |  10 +
- dev-haskell/jsaddle/jsaddle-0.2.0.3.ebuild         |  10 +-
- dev-haskell/ltk/ltk-0.14.3.0.ebuild                |   2 +-
- dev-haskell/ltk/ltk-9999.ebuild                    |   4 +-
- .../maybet/files/maybet-0.1.2-ghc-7.10.patch       |  24 +
- dev-haskell/maybet/maybet-0.1.2-r1.ebuild          |   6 +-
- dev-haskell/poppler/poppler-0.12.2.2-r3.ebuild     |   6 +-
- dev-haskell/poppler/poppler-0.12.3-r1.ebuild       |   6 +-
- dev-haskell/poppler/poppler-0.13.ebuild            |   4 +-
- dev-haskell/soegtk/soegtk-0.12.1-r4.ebuild         |   6 +-
- .../vacuum-cairo/vacuum-cairo-0.5-r4.ebuild        |   6 +-
- dev-haskell/vcsgui/vcsgui-0.1.1.0.ebuild           |   2 +-
- dev-haskell/vcsgui/vcsgui-9999.ebuild              |   4 +-
- dev-haskell/vte/vte-0.12.5.0.ebuild                |   6 +-
- dev-haskell/vte/vte-0.13.0.2.ebuild                |   6 +-
- dev-haskell/vty-ui/vty-ui-1.9.ebuild               |   2 +-
- dev-haskell/webkit-javascriptcore/Manifest         |   1 +
- .../webkit-javascriptcore-0.13.0.3-ghc-7.10.patch} |   0
- .../metadata.xml                                   |   0
- .../webkit-javascriptcore-0.13.0.3.ebuild}         |  12 +-
- dev-haskell/webkit/Manifest                        |   1 -
- ...it-0.13.1.3.2.ebuild => webkit-0.13.1.3.ebuild} |  13 +-
- .../Manifest                                       |   1 -
- ...bkitgtk3-javascriptcore-0.13.0.3-ghc-7.10.patch |  11 +
- dev-haskell/webkitgtk3-javascriptcore/metadata.xml |   8 +
- .../webkitgtk3-javascriptcore-0.13.0.3.ebuild}     |  18 +-
- dev-haskell/webkitgtk3/Manifest                    |   1 +
- dev-haskell/webkitgtk3/metadata.xml                |  12 +
- .../webkitgtk3-0.13.1.3.ebuild}                    |  14 +-
- dev-util/bustle/bustle-0.5.1.ebuild                |   2 +-
- dev-util/threadscope/threadscope-0.2.7.ebuild      |   4 +-
- profiles/package.mask                              |  15 +
- 94 files changed, 190 insertions(+), 2817 deletions(-)
- delete mode 100644 app-emulation/ganeti/ChangeLog
- delete mode 100644 app-emulation/ganeti/Manifest
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.1.initd
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.10-rundir.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-add-pgrep.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-daemon-util-tests.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-daemon-util.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-dont-nest-libdir.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-dont-print-man-help.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-qemu-enable-kvm.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-regex-builtin.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-start-stop-daemon-args.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-tests.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.11-useradd.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.12-daemon-util.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.12-qemu-enable-kvm.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.12-start-stop-daemon-args.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.12-tests.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.12.1-unclach.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.2.initd
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.6-add-pgrep.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.6-fix-args.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.7-fix-tests.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.9-disable-root-tests.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.9-regex-builtin.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-2.9-skip-cli-test.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-fix-start-stop.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti-kvm-poweroff.confd
- delete mode 100644 app-emulation/ganeti/files/ganeti-kvm-poweroff.initd
- delete mode 100644 app-emulation/ganeti/files/ganeti-lockdir.patch
- delete mode 100644 app-emulation/ganeti/files/ganeti.confd
- delete mode 100644 app-emulation/ganeti/files/ganeti.confd-r2
- delete mode 100644 app-emulation/ganeti/files/ganeti.initd
- delete mode 100644 app-emulation/ganeti/files/ganeti.initd-r3
- delete mode 100644 app-emulation/ganeti/files/ganeti2.initd
- delete mode 100644 app-emulation/ganeti/ganeti-2.10.5-r4.ebuild
- delete mode 100644 app-emulation/ganeti/ganeti-2.11.6-r2.ebuild
- delete mode 100644 app-emulation/ganeti/ganeti-2.12.1.ebuild
- delete mode 100644 app-emulation/ganeti/ganeti-2.4.5-r1.ebuild
- delete mode 100644 app-emulation/ganeti/metadata.xml
- rename dev-haskell/gtk/{gtk-0.13.7.0.2.ebuild => gtk-0.13.7.ebuild} (88%)
- create mode 100644 dev-haskell/gtk3/Manifest
- rename dev-haskell/{gtk/gtk-0.13.7.0.3.ebuild => gtk3/gtk3-0.13.7.ebuild} (87%)
- rename dev-haskell/{gtk/gtk-9999.ebuild => gtk3/gtk3-9999.ebuild} (95%)
- create mode 100644 dev-haskell/gtk3/metadata.xml
- rename dev-haskell/{gtksourceview => gtksourceview2}/Manifest (50%)
- rename dev-haskell/{gtksourceview/gtksourceview-0.13.1.1.2.ebuild => gtksourceview2/gtksourceview2-0.13.1.1.ebuild} (69%)
- rename dev-haskell/{gtksourceview => gtksourceview2}/metadata.xml (100%)
- create mode 100644 dev-haskell/gtksourceview3/Manifest
- rename dev-haskell/{gtksourceview/gtksourceview-0.13.1.1.3.ebuild => gtksourceview3/gtksourceview3-0.13.1.1.ebuild} (69%)
- rename dev-haskell/{gtksourceview/gtksourceview-9999.ebuild => gtksourceview3/gtksourceview3-9999.ebuild} (81%)
- create mode 100644 dev-haskell/gtksourceview3/metadata.xml
- create mode 100644 dev-haskell/maybet/files/maybet-0.1.2-ghc-7.10.patch
- create mode 100644 dev-haskell/webkit-javascriptcore/Manifest
- rename dev-haskell/{webkitgtk-javascriptcore/files/webkitgtk-javascriptcore-0.13.0.3-ghc-7.10.patch => webkit-javascriptcore/files/webkit-javascriptcore-0.13.0.3-ghc-7.10.patch} (100%)
- rename dev-haskell/{webkitgtk-javascriptcore => webkit-javascriptcore}/metadata.xml (100%)
- rename dev-haskell/{webkitgtk-javascriptcore/webkitgtk-javascriptcore-0.13.0.3.2.ebuild => webkit-javascriptcore/webkit-javascriptcore-0.13.0.3.ebuild} (81%)
- rename dev-haskell/webkit/{webkit-0.13.1.3.2.ebuild => webkit-0.13.1.3.ebuild} (82%)
- rename dev-haskell/{webkitgtk-javascriptcore => webkitgtk3-javascriptcore}/Manifest (50%)
- create mode 100644 dev-haskell/webkitgtk3-javascriptcore/files/webkitgtk3-javascriptcore-0.13.0.3-ghc-7.10.patch
- create mode 100644 dev-haskell/webkitgtk3-javascriptcore/metadata.xml
- rename dev-haskell/{webkitgtk-javascriptcore/webkitgtk-javascriptcore-0.13.0.3.3.ebuild => webkitgtk3-javascriptcore/webkitgtk3-javascriptcore-0.13.0.3.ebuild} (63%)
- create mode 100644 dev-haskell/webkitgtk3/Manifest
- create mode 100644 dev-haskell/webkitgtk3/metadata.xml
- rename dev-haskell/{webkit/webkit-0.13.1.3.3.ebuild => webkitgtk3/webkitgtk3-0.13.1.3.ebuild} (80%)
+Already up-to-date.
 *** syncing haskell
 *** synced haskell
  * Sync succeeded
 $ pmaint regen -t 2 haskell
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/frag-1.1.2
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-0.14.2.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-server-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/yi-0.11.1-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-0.14.2.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-server-0.14.3.0-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-executable-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-server-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-0.14.3.0-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-executable-2.3.0.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/yi-0.12.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-0.14.3.0-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-server-0.14.3.0-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/leksah-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-lib-ffi-0.0.2-r1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-executable-2.3.0.1-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-executable-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-editors/yi-0.11.1-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-fps/frag-1.1.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.7-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.8
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-2.4.2.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.9-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.3.2.2-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.9-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.4.2.3-r1
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-lib-ffi-0.0.2-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.4.2.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.3.2.2-r5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.4.2.3-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/cvc4-1.4-r1
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/spline3-0.0.2
-!!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-biology/flowsim-0.3.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/exi-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/fquery-0.2.1.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.4.0.2-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-biology/flower-0.7.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-lib-ffi-0.0.2-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-0.4.4
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-0.4.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/keyword-stat-0.2.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/taffybar-0.4.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-stdlib-0.7-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-physics/chipmunk-6.2.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-2.4.0.2-r1
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-biology/flowsim-0.3.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/exi-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-biology/flower-0.7.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/fquery-0.2.1.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/cvc4-1.4-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-0.4.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-0.4.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/hackport-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-physics/chipmunk-6.2.1
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmobar-0.23.1
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmonad-extras-0.12.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-portage/keyword-stat-0.2.2
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmonad-extras-0.12.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/taffybar-0.4.5
+!!! !!! !!! 
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmonad-log-applet-2.0.0-r301
 caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmobar-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmonad-extras-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xmonad-log-applet-2.0.0-r301
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yeganesh-2.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bnfc-2.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/spline3-0.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bustle-0.4.7-r1
+!!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/change-monger-0.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/darcs-monitor-0.4.2-r2
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bustle-0.5.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/yeganesh-2.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bnfc-2.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/darcs-graph-1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bustle-0.5.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/packunused-0.1.1.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/darcs-reannotate-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/shellcheck-0.3.8
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/shelltestrunner-1.3.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/packunused-0.1.1.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/threadscope-0.2.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ajhc-0.8.0.10-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/darcs-monitor-0.4.2-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/darcs-reannotate-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/change-monger-0.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/bustle-0.4.7-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/brainfuck-0.1.0.2caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/cryptol-2.2.4
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/brainfuck-0.1.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/cryptol-2.2.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/curry-0.9.11-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/curry-0.9.11
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/shelltestrunner-1.3.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/elm-get-0.1.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/curry-0.9.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/elm-repl-0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/elm-0.13.9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/epic-0.9.3.3
@@ -259,8 +95,6 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ghc-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ghc-7.10.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/helium-1.8.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hnc-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hope-0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hugs98-2005.3-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hugs98-2006.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/idris-0.9.17.1-r1
@@ -276,6 +110,7 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/uhc-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/whitespace-0.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/abstract-deque-tests-0.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hnc-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/abstract-deque-0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/abstract-par-0.3.3-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/ac-angle-1.0
@@ -311,6 +146,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alsa-mixer-0.1.2-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alsa-mixer-0.2.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alsa-seq-0.6.0.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/agda-lib-ffi-0.0.2-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/hope-0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alut-2.3.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alut-2.4.0.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/alut-2.2.0.0
@@ -342,9 +179,9 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/attoparsec-enumerator-0.3.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/attoparsec-iteratee-0.4.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/attoparsec-0.12.1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/attoparsec-0.13.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/augeas-0.6.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/attoparsec-0.13.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/authenticate-kerberos-1.0.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/augeas-0.6.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/authenticate-oauth-1.5.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/authenticate-1.3.2.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/auto-update-0.1.2.2
@@ -355,11 +192,11 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base-unicode-symbols-0.2.2.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base16-bytestring-0.1.1.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base58-bytestring-0.1.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base64-bytestring-0.1.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base64-bytestring-1.0.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base64-bytestring-0.1.2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/base64-string-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bencode-0.6.0.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/basic-prelude-0.4.1
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/basic-prelude-0.4.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bencode-0.6.0.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/besout-0.2.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bifunctors-4.2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bifunctors-5
@@ -373,26 +210,26 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-state-0.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-strict-0.4.8.2-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-0.7.3.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-0.7.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-0.7.5.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-bfd-1.2.0.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-dsl-1.0.22
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/binary-0.7.4.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-bfd-1.2.0.0
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-dsl-1.0.22
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-glfw-0.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-glfw-3.0.3.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-glfw-3.1.1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-libzip-0.10.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-libzip-0.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-uname-0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bio-0.5.3-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/biocore-0.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bio-0.5.3-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/biofasta-0.0.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/biosff-0.3.7.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bitmap-0.0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bits-atomic-0.1.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bindings-glfw-3.1.1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bitset-1.4.8
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bitsyntax-0.3.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blank-canvas-0.5-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bits-atomic-0.1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bktrees-0.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blank-canvas-0.5-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-builder-conduit-1.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-builder-enumerator-0.2.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-builder-0.3.3.4
@@ -400,16 +237,16 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-html-0.7.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-html-0.8.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-markup-0.6.3.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-markup-0.7.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-svg-0.3.4.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-textual-0.2.1.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/blaze-markup-0.7.0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bloodhound-0.7.0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bloomfilter-2.0.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bmp-1.2.5.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/boolean-0.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bound-1.0.6
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/boundedchan-1.0.3.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/boxes-0.1.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bloomfilter-2.0.1.0
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bloodhound-0.7.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/bson-0.3.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/buildwrapper-0.7.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/buster-2.51-r1
