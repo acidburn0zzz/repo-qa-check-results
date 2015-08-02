@@ -14,6 +14,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync regina-gentoo
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing regina-gentoo
@@ -23,6 +25,6 @@ $ pmaint regen -t 2 regina-gentoo
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/regina-4.95
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/regina-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/regina-4.96
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/regina-9999
  * Cache regenerated successfully

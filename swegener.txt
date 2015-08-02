@@ -14,7 +14,10 @@
  u'status': u'official',
  u'supported': True}
 $ pmaint sync swegener
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
 Welcome To
         ____ _____ _____    _    _     _____ ____               _
        / ___|_   _| ____|  / \  | |   | ____|  _ \   _ __   ___| |_
@@ -48,7 +51,7 @@ File list transfer time: 0.000 seconds
 Total bytes sent: 255
 Total bytes received: 26.25K
 
-sent 255 bytes  received 26.25K bytes  7.57K bytes/sec
+sent 255 bytes  received 26.25K bytes  10.60K bytes/sec
 total size is 1.22M  speedup is 46.12
 *** syncing swegener
 *** synced swegener

@@ -12,6 +12,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync spiderlay
+WARNING:pkgcore:repository at location '/home/mgorny/repos/poly-c' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/poly-c', named 'poly-c', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing spiderlay
@@ -20,9 +22,9 @@ Already up-to-date.
 $ pmaint regen -t 2 spiderlay
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lisp/sbcl-1.2.7
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/serialport-0.4.5
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/avrdude-6.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dns/bind-tools-9.9.4
-
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/netsniff-ng-0.5.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lisp/sbcl-1.2.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-haskell/serialport-0.4.5
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/netsniff-ng-0.5.8
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dns/bind-tools-9.9.4
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/avrdude-6.1
  * Cache regenerated successfully
