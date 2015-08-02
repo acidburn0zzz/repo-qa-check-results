@@ -47,34 +47,30 @@ Hardware       : Intel Atom D510 @ 1.66GHz, 2048MB RAM
 receiving incremental file list
 metadata/
 metadata/timestamp.chk
-metadata/md5-cache/app-office/
-metadata/md5-cache/app-office/grisbi-1.0.9999
 deleting metadata/.tmp.timestamp.chk
 
 Number of files: 107 (reg: 68, dir: 37, link: 2)
-Number of created files: 1 (reg: 1)
+Number of created files: 0
 Number of deleted files: 1 (reg: 1)
-Number of regular files transferred: 2
+Number of regular files transferred: 1
 Total file size: 155.16K bytes
-Total transferred file size: 1.46K bytes
-Literal data: 1.46K bytes
+Total transferred file size: 32 bytes
+Literal data: 32 bytes
 Matched data: 0 bytes
 File list size: 3.41K
 File list generation time: 0.001 seconds
 File list transfer time: 0.000 seconds
-Total bytes sent: 150
-Total bytes received: 4.36K
+Total bytes sent: 128
+Total bytes received: 3.54K
 
-sent 150 bytes  received 4.36K bytes  1.80K bytes/sec
-total size is 155.16K  speedup is 34.41
+sent 128 bytes  received 3.54K bytes  2.44K bytes/sec
+total size is 155.16K  speedup is 42.35
 *** syncing xwing
 *** synced xwing
  * Sync succeeded
 $ pmaint regen -t 2 xwing
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 27332, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/grisbi-1.0.9999
+Sandboxed process killed by signal: Broken pipe
+ * Cache regenerated successfully
