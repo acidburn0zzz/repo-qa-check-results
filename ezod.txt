@@ -14,6 +14,8 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync ezod
+WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
+WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
 *** syncing ezod
@@ -22,27 +24,27 @@ Already up-to-date.
 $ pmaint regen -t 2 ezod
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/as31-2.0_beta3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/python-tesseract-0.7
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/cbmbasic-0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/swarm-2.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/tinybat-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/tinybat-0.2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/wmname-0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/gandalf-1.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/pcl-1.4.0caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/wmname-0.1!!! 
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/tesseract-3.01
-
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/pcl-1.4.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-libs/pcl-1.6.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/libtpproto-cpp-0.1.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-misc/swarm-2.2.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/python-tesseract-0.7
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-text/tesseract-3.01
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/cbmbasic-0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/tinybat-0.2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-embedded/as31-2.0_beta3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-sound/pykaraoke-0.7.5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-games/libtpproto-cpp-0.1.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libtprl-0.1.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-server/tpadmin-cpp-0.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-server/tpserver-cpp-0.6.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/artoolkit-2.72.1-r4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/panda3d-1.8.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/simplecv-1.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/fuzzpy-0.4.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/fuzzpy-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/vcstools-0.1.33
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-electronics/gazebo-1.0.0_rc2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/fuzzpy-0.4.2
  * Cache regenerated successfully
