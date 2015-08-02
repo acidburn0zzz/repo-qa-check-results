@@ -13,85 +13,34 @@
  u'supported': True}
 $ pmaint sync FireBurn
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-From git://github.com/FireBurn/Overlay
-   987bdc8..8f5debf  master     -> origin/master
-Updating 987bdc8..8f5debf
-Fast-forward
- app-crypt/heimdal/ChangeLog                        | 965 +++++++++++++++++++++
- app-crypt/heimdal/Manifest                         |   1 +
- app-crypt/heimdal/files/heimdal-kadmind.confd      |   5 +
- app-crypt/heimdal/files/heimdal-kadmind.initd-r2   |  23 +
- app-crypt/heimdal/files/heimdal-kcm.confd          |   5 +
- app-crypt/heimdal/files/heimdal-kcm.initd-r1       |  22 +
- app-crypt/heimdal/files/heimdal-kdc.confd          |   5 +
- app-crypt/heimdal/files/heimdal-kdc.initd-r2       |  25 +
- app-crypt/heimdal/files/heimdal-kpasswdd.confd     |   5 +
- app-crypt/heimdal/files/heimdal-kpasswdd.initd-r2  |  23 +
- app-crypt/heimdal/files/heimdal_db6.patch          |  41 +
- .../files/heimdal_disable-check-iprop.patch        |  16 +
- app-crypt/heimdal/files/heimdal_link_order.patch   |  41 +
- .../heimdal/files/heimdal_missing-include.patch    |  11 +
- .../heimdal/files/heimdal_missing_symbols.patch    |  28 +
- app-crypt/heimdal/files/heimdal_texinfo-5.patch    |  28 +
- app-crypt/heimdal/files/heimdal_tinfo.patch        |  22 +
- app-crypt/heimdal/files/krb5.conf                  |  27 +
- app-crypt/heimdal/heimdal-1.5.3-r3.ebuild          | 194 +++++
- app-crypt/heimdal/metadata.xml                     |  17 +
- dev-java/icedtea-web/ChangeLog                     | 283 ++++++
- dev-java/icedtea-web/Manifest                      |   1 +
- dev-java/icedtea-web/files/README.gentoo           |  21 +
- .../files/icedtea-web-1.5-respect-ldflags.patch    |  11 +
- dev-java/icedtea-web/icedtea-web-1.5.1-r2.ebuild   | 113 +++
- dev-java/icedtea-web/metadata.xml                  |  14 +
- kde-plasma/plasma-desktop/ChangeLog                |  22 +
- kde-plasma/plasma-desktop/Manifest                 |   1 +
- kde-plasma/plasma-desktop/metadata.xml             |  11 +
- .../plasma-desktop/plasma-desktop-5.3.2.ebuild     | 141 +++
- kde-plasma/plasma-meta/ChangeLog                   |  28 +
- kde-plasma/plasma-meta/metadata.xml                |  10 +
- kde-plasma/plasma-meta/plasma-meta-5.3.2.ebuild    |  56 ++
- 33 files changed, 2216 insertions(+)
- create mode 100644 app-crypt/heimdal/ChangeLog
- create mode 100644 app-crypt/heimdal/Manifest
- create mode 100644 app-crypt/heimdal/files/heimdal-kadmind.confd
- create mode 100644 app-crypt/heimdal/files/heimdal-kadmind.initd-r2
- create mode 100644 app-crypt/heimdal/files/heimdal-kcm.confd
- create mode 100644 app-crypt/heimdal/files/heimdal-kcm.initd-r1
- create mode 100644 app-crypt/heimdal/files/heimdal-kdc.confd
- create mode 100644 app-crypt/heimdal/files/heimdal-kdc.initd-r2
- create mode 100644 app-crypt/heimdal/files/heimdal-kpasswdd.confd
- create mode 100644 app-crypt/heimdal/files/heimdal-kpasswdd.initd-r2
- create mode 100644 app-crypt/heimdal/files/heimdal_db6.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_disable-check-iprop.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_link_order.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_missing-include.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_missing_symbols.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_texinfo-5.patch
- create mode 100644 app-crypt/heimdal/files/heimdal_tinfo.patch
- create mode 100644 app-crypt/heimdal/files/krb5.conf
- create mode 100644 app-crypt/heimdal/heimdal-1.5.3-r3.ebuild
- create mode 100644 app-crypt/heimdal/metadata.xml
- create mode 100644 dev-java/icedtea-web/ChangeLog
- create mode 100644 dev-java/icedtea-web/Manifest
- create mode 100644 dev-java/icedtea-web/files/README.gentoo
- create mode 100644 dev-java/icedtea-web/files/icedtea-web-1.5-respect-ldflags.patch
- create mode 100644 dev-java/icedtea-web/icedtea-web-1.5.1-r2.ebuild
- create mode 100644 dev-java/icedtea-web/metadata.xml
- create mode 100644 kde-plasma/plasma-desktop/ChangeLog
- create mode 100644 kde-plasma/plasma-desktop/Manifest
- create mode 100644 kde-plasma/plasma-desktop/metadata.xml
- create mode 100644 kde-plasma/plasma-desktop/plasma-desktop-5.3.2.ebuild
- create mode 100644 kde-plasma/plasma-meta/ChangeLog
- create mode 100644 kde-plasma/plasma-meta/metadata.xml
- create mode 100644 kde-plasma/plasma-meta/plasma-meta-5.3.2.ebuild
+Already up-to-date.
 *** syncing FireBurn
 *** synced FireBurn
  * Sync succeeded
 $ pmaint regen -t 2 FireBurn
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-Error running an operation:
- Unhandled exception in regen_cache
- [Errno 13] Permission denied
-coms error in 12133, read_line com failed w/ 1: backing out of daemon.
- * Cache regen failed with 246
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-6.0.30-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-4.8.30
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-6.0.30caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/qtsixa-1.5.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-util/adobe-air-runtime-2.6
+
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/gtk-engines-2.20.2-r1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-6.1.19
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-4.8.30-r2
+
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-java/icedtea-web-1.5.1-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-apps/mesa-progs-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/oxygen-gtk-1.3.5-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-themes/oxygen-gtk-1.4.5-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/ntdb-1.0-r2
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-plasma/plasma-desktop-5.3.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/heimdal-1.5.3-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/gobject-introspection-1.40.0-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/tbb-4.3.20141023
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-plasma/plasma-meta-5.3.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pycurl-7.19.3.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/db-4.8.30-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-action/trine-bin-1.08_p5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/mpv-9999!!! 
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-video/transmageddon-1.5
+ * Cache regenerated successfully
