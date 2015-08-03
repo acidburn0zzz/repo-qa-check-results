@@ -23,11 +23,8 @@ Already up-to-date.
 $ pmaint regen -t 2 hardened-development
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/ima-evm-utils-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-boot/tboot-1.8.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/ima-evm-utils-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/hardened-sources-3.2.69-r13
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-crypt/tpm-emulator-0.7.4caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/hardened-sources-3.14.48-r3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-kernel/hardened-sources-4.1.3-r3
-
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 20560, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
