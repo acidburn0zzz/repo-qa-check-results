@@ -14,8 +14,6 @@
  u'status': u'unofficial',
  u'supported': True}
 $ pmaint sync eroen
-WARNING:pkgcore:repository at location '/home/mgorny/repos/eigenlay' lacks a defined repo_name
-WARNING:pkgcore:repository at '/home/mgorny/repos/eigenlay', named 'eigenlay', doesn't specify masters in metadata/layout.conf. Defaulting to whatever repository is defined as 'default' (gentoo usually). Please explicitly set the masters, or set masters = '' if the repository is standalone.
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 Already up-to-date.
@@ -25,17 +23,17 @@ Already up-to-date.
 $ pmaint regen -t 2 eroen
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.5
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.34.11.3_p20130302
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.09_pre20140827
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.6-r1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.07_pre20140811
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.08.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.06_pre20140808
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.34.11.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.10.1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.5
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.1!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.08.2
 
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.09_pre20140827
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.10.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.34.11.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.34.11.3_p20130302
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-libs/libfaketime-0.9.6-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.07_pre20140811
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.06_pre20140808
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.11.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.12.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.13.1
@@ -43,14 +41,13 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.19.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.23.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.24.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.24.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.24.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dontstarve-updater-18
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarftherapist-0.6.13_p20120616-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarftherapist-0.6.13_p20120616-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dwarftherapist-0.6.13_p20120616
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/irpgstats-0.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/makeobj-0.120.0.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/clucene-2.3.3.4-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/makeobj-0.120.0.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/irpgstats-0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/gmock-1.6.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/gmock-1.7.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/gtest-1.6.0-r2
@@ -59,84 +56,84 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/vte-0.34.9
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/vte-0.36.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-libs/vte-0.36.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/matlab-2014a
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xautolock-2.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/emul-linux-x86-wxGTK-20130224
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-misc/xautolock-2.2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sci-mathematics/matlab-2014a
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-0.8.0-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-0.8.0-r2
+
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-cpp/clucene-2.3.3.4-r5
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-gentoo-2013.06.24
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-compholio-1.7.26
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-compholio-1.7.27
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-gentoo-2013.06.24
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-staging-1.7.33-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.19
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.20
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.28
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.16
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.21
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.22
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.21
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.5.28
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.17
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.15
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.16
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.18
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.19-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21-r3
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/lxc-0.8.0-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r2
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-util/dfhack-0.40.24.1caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.15
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r3
-
-!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.28-r1
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.27
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.27
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.28-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.28-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.28
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.29-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.29-r2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.29
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.33-r1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.26-r1!!! 
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.29-r2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.17
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.21-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.33-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.34-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.34-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.28-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender_nif_scripts-2.5.9
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender-2.49b-r2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gimp-2.8.10-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/pqiv-2.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gimp-2.8.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/opal-3.12.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender-2.49b-r2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/blender_nif_scripts-2.5.9
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gimp-2.8.10-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.34-r1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/gimp-2.8.14
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-gfx/pqiv-2.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-libs/opal-3.12.4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/lci-0.11.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/lci-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/lua-5.2.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ruby-1.8.7_p371
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/FTL-1.5.4
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/lua-5.2.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/FTL-1.5.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/FTL-1.5.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/roguelegacy-20131228
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-wine-0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-lang/ruby-1.8.7_p371
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-wine-0.2
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/eselect-wine-0.1
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-roguelike/roguelegacy-20131228
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-strategy/unityofcommand-104d
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/ftop-1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-puzzle/typerider-1395097265
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-wm/dwm-6.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/dontstarve-0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/dontstarve-1377999049
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/dontstarve-1377999049_p9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/farsky-2.01.00
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-0.3.50.9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-rpg/farsky-2.01.00
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/termite-6
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/terminology-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/termite-7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/termite-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: x11-terms/termite-7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/fs2_open-3.6.14
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.20.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.21.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.20.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.23.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.24.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.26.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.27.0-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.28.0
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-process/ftop-1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.29.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.30.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-engines/openmw-0.31.0
@@ -149,8 +146,8 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.03
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.04
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.05
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.06
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.07
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.06caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.07
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.08
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.09
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.10
@@ -163,10 +160,10 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.22
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.23
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/dwarffortress-40.24
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/hearthlands-0.6.5
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/lincity-ng-2.0
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/hearthlands-0.6.5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/lincity-ng-9999
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/lincity-ng-2.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/lincity-ng-2.9_beta
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/lincity-ng-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/prisonarchitect-0.24c
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/simutrans-pak128-2.5.2_rc120
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-simulation/simutrans-pak128-9999
@@ -180,63 +177,64 @@ caught exception bytes_ro_StringIO instance has no attribute '__len__' while pro
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-vim/covim-99999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-arch/lld-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.0.8
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0_p20140412
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0_p20140413
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0_p20130806
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0_p20140412
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/bedup-0.9.0_p20140413
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/libeatmydata-65
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: sys-fs/libeatmydata-82
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: lxde-base/lxde-meta-0.5.5-r3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-34.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.06
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.07
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-emulation/wine-1.7.33-r1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.08
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.09
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.09caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.11
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.10
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.11
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.12
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.13
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.19
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.20
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.21
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.22
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.20
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.21
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.19caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.13caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.22
+
+
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.23
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/libgraphics-40.24
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-libs/oocairo-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/transmission-2.73
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-p2p/transmission-2.76
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-emulation/psemu-padjoy-0.82
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/fmod-4.38.02
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/fmod-4.44.04
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-misc/bsd-games-2.17-r5
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-misc/bsd-games-2.17-r5
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/fmod-4.38.02
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-dialup/slirp-1.0.17.7
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-plugins/audacious-plugins-3.5.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/awkwardduet-1.1_pre4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/beaker-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cffi-0.8.6
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m3u8-9999
-caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m3u8-0.1.6
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m3u8-0.1.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/cffi-0.8.6
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/beaker-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: media-libs/fmod-4.44.04
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/m3u8-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mako-0.9.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mako-0.9.1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyffi-2.2.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-elementary-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-evas-9999
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-evas-9999caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/pyffi-2.2.2
+
+!!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/mako-0.9.1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/python-elementary-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-python/uncompyle-0.0.2
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: games-action/unepic-15005
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/mysql-5.6.21-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/postgis-2.1.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/postgis-2.1.4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.0.4.2
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.1.2.2-r1
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.1.2.3
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/k3b-2.0.2-r4
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/k3b-2.0.2_p20140225
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-db/postgis-2.1.1
+!!! !!! !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.1.2.2-r1
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.0.4.2
+caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-office/libreoffice-4.1.2.3
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/ga_wrapper-0.0.1
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/ga_wrapper-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/sendspace-cli-0.1.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-misc/wssh-9999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-print/foo2zjs-99999999
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-base/kdebase-meta-4.14.3
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/k3b-2.0.2_p20140225
+!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-cdr/k3b-2.0.2-r4
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-base/kdebase-runtime-meta-4.13.0
 !!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: kde-base/kwalletd-4.13.0
  * Cache regenerated successfully
