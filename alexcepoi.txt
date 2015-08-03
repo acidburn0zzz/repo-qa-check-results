@@ -26,10 +26,8 @@ Already up-to-date.
 $ pmaint regen -t 2 alexcepoi
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
 WARNING:pkgcore:repository at '/home/mgorny/repos/steveeJ' has unsupported profile format(s): 'profile-set'
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Linux-Distribution-0.210.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: dev-perl/Log-LogLite-0.820.0
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: net-analyzer/linode-longview-9999
-!!! caught exception bytes_ro_StringIO instance has no attribute '__len__' while processing ebuild src: app-admin/rcm-1.2.3
-sandbox:stop  caught signal 15 in pid 27536
-Sandboxed process killed by signal: Terminated
- * Cache regenerated successfully
+Error running an operation:
+ Unhandled exception in regen_cache
+ [Errno 13] Permission denied
+coms error in 15432, read_line com failed w/ 1: backing out of daemon.
+ * Cache regen failed with 246
